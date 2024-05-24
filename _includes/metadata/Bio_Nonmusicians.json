@@ -1,0 +1,615 @@
+[
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Adrian_VI",
+		"Person Name": "Pope Adrian VI",
+		"Alias": "Adriaan Florensz Boeyens",
+		"Birth Date": "1459-3-2",
+		"Death Date": "1523-9-14",
+		"Noted Positions": "Pope (r. 1521–23)",
+		"Input data": "LO",
+		"Date entered": "2023-4-16",
+		"Update data": "BSO",
+		"Date updated": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Aegidius_Tschudi",
+		"Person Name": "Aegidius Tschudi",
+		"Birth Date": "1505-2-5",
+		"Death Date": "1572-2-28",
+		"Noted Positions": "Swiss historian and collector of music",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "16",
+		"Input data": "LO",
+		"Date entered": "2024-1-19",
+		"Update data": "BSO",
+		"Date updated": "2024-1-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Aldrovandini_Sacrati",
+		"Person Name": "Aldrovandini Sacrati",
+		"Noted Positions": "member of an old Ferrarese family, resident ambassador to France",
+		"Bibliography ID (BIB)": "BIB:Lockwood_1979",
+		"BIB Pages": "210",
+		"Input data": "BSO",
+		"Date entered": "2024-2-12"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Alexander_VI",
+		"Person Name": "Pope Alexander VI",
+		"Alias": "Rodrigo de Borja",
+		"Birth Date": "1431",
+		"Death Date": "1503-8-18",
+		"Noted Positions": "Pope (r. 1492–1503)",
+		"Input data": "LO",
+		"Date entered": "2023-4-16",
+		"Update data": "BSO",
+		"Date updated": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Alfonso_I_dEste",
+		"Person Name": "Alfonso I d'Este",
+		"Birth Date": "1476-7-21",
+		"Death Date": "1534-10-31",
+		"Noted Positions": "Duke of Ferrara (r. 1505–34)",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Alfornso_II_dEste",
+		"Person Name": "Alfonso II d'Este",
+		"Birth Date": "1533-11-22",
+		"Death Date": "1597-10-27",
+		"Noted Positions": "Duke of Ferrara (r. 1559–97)",
+		"Input data": "LO",
+		"Date entered": "2024-1-19",
+		"Update data": "BSO",
+		"Date updated": "2024-1-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Anne_de_Bretagne",
+		"Person Name": "Anne de Bretagne, Queen of France",
+		"Birth Date": "1477-1-25",
+		"Death Date": "1514-1-9",
+		"Noted Positions": "Dutchess of Brittany (r. 1488–1514); Queen of France (r. 1491–1514)",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Bartolomeo_Cartari",
+		"Person Name": "Bartolomeo Cartari",
+		"Noted Positions": "Ferrarese Ambassador to Venice",
+		"Input data": "BSO",
+		"Date entered": "2024-2-28"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Bartolomeo_de_Cavalieri",
+		"Person Name": "Bartolomeo de' Cavalieri",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Bernadino_Salvetti",
+		"Person Name": "Bernadino Salvetti",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Carlo_da_Correggio",
+		"Person Name": "Carlo da Correggio",
+		"Noted Positions": "Ferrarese emissary",
+		"Input data": "BSO",
+		"Date entered": "2024-2-14"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Cesare_Borgia",
+		"Person Name": "Cesare Borgia",
+		"Birth Date": "1475-9-13",
+		"Death Date": "1507-3-12",
+		"Noted Positions": "Italian cardinal and condottiero, illegitimate son of Pope Alexander VI",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Charlotte_dAlbret",
+		"Person Name": "Charlotte d'Albret",
+		"Death Date": "1514-3-11",
+		"Noted Positions": "wealthy French noblewoman, married Cesare Borgia",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Charles_V",
+		"Person Name": "Charles V, Holy Roman Emperor",
+		"Birth Date": "1500-2-24",
+		"Death Date": "1558-9-21",
+		"Noted Positions": "Holy Roman Emperor (r. 1519–56)",
+		"Input data": "BSO",
+		"Date entered": "2024-1-29"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Claude_Hermere",
+		"Person Name": "Claude Hérmeré",
+		"Description": "cleric and librarian",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "14",
+		"Input data": "LO",
+		"Date entered": "2024-1-19",
+		"Update data": "BSO",
+		"Date updated": "2024-1-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Claude_of_France",
+		"Person Name": "Claude of France, Dutchess of Brittany",
+		"Birth Date": "1499-10-3",
+		"Death Date": "1524-7-20",
+		"Noted Positions": "Dutchess of Brittany (r. 1514–24), married to Francis I from 18 May 1514",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Clement_VII",
+		"Person Name": "Pope Clement VII",
+		"Alias": "Giulio de' Medici",
+		"Birth Date": "1478-5-26",
+		"Death Date": "1534-9-25",
+		"Noted Positions": "Pope (r. 1523–34)",
+		"Input data": "LO",
+		"Date entered": "2023-4-16",
+		"Update data": "BSO",
+		"Date updated": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Ferdinand_Columbus",
+		"Person Name": "Ferdinand Columbus",
+		"Birth Date": "1488-8-15",
+		"Death Date": "1539-7-12",
+		"Noted Positions": "book collector",
+		"Description": "son of Christopher Columbus; in 1513 visited Rome and purchased almost all exisiting Petrucci prints but was was unable to find \"Misse Josquin\" and \"Missarum Josquin Liber secundus\"",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "6",
+		"Input data": "LO",
+		"Date entered": "2024-1-19",
+		"Update data": "BSO",
+		"Date updated": "2024-1-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Enea_Pio",
+		"Person Name": "Enea Pio",
+		"Noted Positions": "solider, ambassador for Duke Alfonso I d'Este",
+		"Bibliography ID (BIB)": "BIB:Lockwood_1979",
+		"BIB Pages": "220",
+		"Input data": "BSO",
+		"Date entered": "2024-2-28"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Ercole_I_dEste",
+		"Person Name": "Ercole I d'Este",
+		"Birth Date": "1431-10-26",
+		"Death Date": "1505-1-25",
+		"Noted Positions": "Duke of Ferrara (r. 1471–1505)",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Francis_I",
+		"Person Name": "Francis I, King of France",
+		"Birth Date": "1494-9-12",
+		"Death Date": "1547-3-31",
+		"Noted Positions": "King of France (r. 1515–47)",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Francois_Guillaume_de_Clermont",
+		"Person Name": "François Guillaume de Clermont",
+		"Noted Positions": "Cardinal of Auch, in Gascony",
+		"Bibliography ID (BIB)": "BIB:Lockwood_1979",
+		"BIB Pages": "222n78",
+		"Input data": "BSO",
+		"Date entered": "2024-3-18"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:G_da_Sestola_dicto_Coglia",
+		"Person Name": "G. da Sestola dicto Coglia",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Gian_de_Artiganova",
+		"Person Name": "Gian de Artiganova",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Gian_in_Ferrara",
+		"Person Name": "Gian in Ferrara",
+		"Description": "writes letter to Ercole I d'Este comparing Heinrich Isaac with Josquin des Prez",
+		"Input data": "BSO",
+		"Date entered": "2023-5-10"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Gille_des_Prez",
+		"Person Name": "Gille Lebloitte dit Desprez",
+		"Description": "uncle of Josquin des Prez",
+		"Input data": "FEM",
+		"Date entered": "2023-6-7"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Gilles_Nettelet",
+		"Person Name": "Gilles Nettelet",
+		"Noted Positions": "Dean of Cambrai Cathedral",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Giovanni_Tommaso_Manfredi",
+		"Person Name": "Giovanni Tommaso Manfredi",
+		"Description": "Ferrarese courtier",
+		"Input data": "BSO",
+		"Date entered": "2024-2-11"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Girolamo_Beltrandi",
+		"Person Name": "Girolamo Beltrandi",
+		"Alias": "Hieronymus Beltramus",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Giulio_de_Medici",
+		"Person Name": "Giulio de' Medici",
+		"Alias": "Pope Clement VII",
+		"Noted Positions": "Pope (r. 1523–34)",
+		"Input data": "BSO",
+		"Date entered": "2024-3-17"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Gossard_Desprez_I",
+		"Person Name": "Gossard Lebloitte dit Desprez",
+		"Description": "grandfather of Josquin des Prez",
+		"Input data": "FEM",
+		"Date entered": "2023-6-7"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Gossard_Desprez_II",
+		"Person Name": "Gossard Lebloitte dit Desprez",
+		"Description": "father of Josquin des Prez"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Gossequin_de_Condet",
+		"Person Name": "Gossequin de Condet",
+		"Noted Positions": "cleric",
+		"Description": "altarboy at the collegiate church of St Géry, Cambrai in 1466, not certain to be Josquin",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "13",
+		"Input data": "LO",
+		"Date entered": "2024-1-19",
+		"Update data": "BSO",
+		"Date updated": "2024-1-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Innocent_VIII",
+		"Person Name": "Pope Innocent VIII",
+		"Alias": "Giovanni Battista Cybo",
+		"Birth Date": "1432",
+		"Death Date": "1492-7-25",
+		"Noted Positions": "Pope (r. 1484–92)",
+		"Input data": "LO",
+		"Date entered": "2023-4-16",
+		"Update data": "BSO",
+		"Date updated": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Ippolito_I_dEste",
+		"Person Name": "Ippolito I d'Este",
+		"Birth Date": "1479-3-20",
+		"Death Date": "1520-9-3",
+		"Noted Positions": "Cardinal; Archbishop of Esztergom",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jacque_Banestonne",
+		"Person Name": "Jacque Banestonne",
+		"Input data": "FEM",
+		"Date entered": "2023-6-7"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Johannes_Orceau",
+		"Person Name": "Johannes Orceau",
+		"Death Date": "1512",
+		"Noted Positions": "scribe of the Sistine chapel, 1501–12; died fall 1512",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Julius_II",
+		"Person Name": "Pope Julius II",
+		"Alias": "Giuliano della Rovere",
+		"Birth Date": "1443-12-5",
+		"Death Date": "1513-2-21",
+		"Noted Positions": "Pope (r. 1503–13)",
+		"Input data": "LO",
+		"Date entered": "2023-4-16",
+		"Update data": "BSO",
+		"Date updated": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Leo_X",
+		"Person Name": "Pope Leo X",
+		"Alias": "Giovanni di Lorenzo de' Medici",
+		"Birth Date": "1475-12-11",
+		"Death Date": "1521-12-1",
+		"Noted Positions": "Pope (r. 1513–21)",
+		"Input data": "LO",
+		"Date entered": "2023-4-16",
+		"Update data": "BSO",
+		"Date updated": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Lodovico_Guicciardini",
+		"Person Name": "Lodovico Guicciardini",
+		"Birth Date": "1521-8-19",
+		"Death Date": "1589-3-22",
+		"Noted Positions": "Italian writer and merchant",
+		"Input data": "LO",
+		"Date entered": "2024-1-19",
+		"Update data": "BSO",
+		"Date updated": "2024-1-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Lodovicus_Podocatharus",
+		"Person Name": "Lodovicus Podocatharus",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Louis_XI",
+		"Person Name": "Louis XI, King of France",
+		"Birth Date": "1423-7-3",
+		"Death Date": "1483-8-30",
+		"Noted Positions": "King of France (r. 1461–83)",
+		"Input data": "LO",
+		"Date entered": "2024-3-21"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Louis_XII",
+		"Person Name": "Louis XII, King of France",
+		"Birth Date": "1462-6-27",
+		"Death Date": "1515-1-1",
+		"Noted Positions": "King of France (r. 1498–1515); King of Naples (r. 1501–4)",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Marguerite_of_Austria",
+		"Person Name": "Marguerite of Austria",
+		"Birth Date": "1480-1-10",
+		"Death Date": "1530-12-1",
+		"Noted Positions": "Governor of the Habsburg Netherlands (r. 1507–30)",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "17",
+		"Input data": "LO",
+		"Date entered": "2024-1-19",
+		"Update data": "BSO",
+		"Date updated": "2024-1-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Martin_Luther",
+		"Person Name": "Martin Luther",
+		"Birth Date": "1483-11-10",
+		"Death Date": "1546-2-18",
+		"Noted Positions": "central figure in the Protestant Reformation",
+		"Input data": "BSO",
+		"Date entered": "2024-1-29"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Matteo_Ghai",
+		"Person Name": "Matteo Ghai",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Nicolaus_Menent",
+		"Person Name": "Nicolaus Menent",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Ottaviano_Petrucci",
+		"Person Name": "Ottaviano Petrucci",
+		"Birth Date": "1466-6-18",
+		"Death Date": "1539-5-7",
+		"Noted Positions": "printer of polyphonic music",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Paul_III",
+		"Person Name": "Pope Paul III",
+		"Alias": "Alessandro Farnese",
+		"Birth Date": "1468-2-29",
+		"Death Date": "1549-11-10",
+		"Noted Positions": "Pope (r. 1534–49)",
+		"Input data": "LO",
+		"Date entered": "2023-4-16",
+		"Update data": "BSO",
+		"Date updated": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Petrus_Alamire",
+		"Person Name": "Petrus Alamire",
+		"Alias": "Pierre Alamire",
+		"Death Date": "1536-6-26",
+		"Noted Positions": "scribe",
+		"Description": "One of several scribes actives at the Habsburg courts in Mechelen and Brussels that copied more than sixty music manuscripts",
+		"Input data": "LO",
+		"Date entered": "2024-1-19",
+		"Update data": "BSO",
+		"Date updated": "2024-1-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Petrus_Castellanus",
+		"Person Name": "Petrus Castellanus",
+		"Noted Positions": "Italian music editor",
+		"Input data": "LO",
+		"Date entered": "2024-1-19",
+		"Update data": "BSO",
+		"Date updated": "2024-1-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Philip_I",
+		"Person Name": "Philip I of Castile",
+		"Birth Date": "1478-7-22",
+		"Death Date": "1506-9-25",
+		"Noted Positions": "Duke of Burgundy (r. 1482–1506); first Habsburg King of Castile",
+		"Input data": "LO",
+		"Date entered": "2024-1-19",
+		"Update data": "BSO",
+		"Date updated": "2024-1-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Pierre_de_Ronsard",
+		"Person Name": "Pierre de Ronsard",
+		"Birth Date": "1524-9-11",
+		"Death Date": "1585-12-27",
+		"Noted Positions": "French poet"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Pius_II",
+		"Person Name": "Pope Pius II",
+		"Alias": "Enea Silvio Bartolomeo Piccolomini",
+		"Birth Date": "1405-10-18",
+		"Death Date": "1464-8-14",
+		"Noted Positions": "Pope (r. 1458–1464)",
+		"Input data": "LO",
+		"Date entered": "2024-3-21"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Pius_III",
+		"Person Name": "Pope Pius III",
+		"Alias": "Francesco Todeschini",
+		"Birth Date": "1439-5-9",
+		"Death Date": "1503-10-18",
+		"Noted Positions": "Pope (r. 1503)",
+		"Input data": "LO",
+		"Date entered": "2023-4-16",
+		"Update data": "BSO",
+		"Date updated": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Raimund_Fugger",
+		"Person Name": "Raimund Fugger",
+		"Birth Date": "1489-10-24",
+		"Death Date": "1535-12-3",
+		"Noted Positions": "German businessman and Imperial Count",
+		"Description": "Owned most of Petrucci's prints, but not any of the Josquin mass volumes. In 1519 he commissioned these works from the Alamire workshop.",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "6",
+		"Input data": "LO",
+		"Date entered": "2024-1-19",
+		"Update data": "BSO",
+		"Date updated": "2024-1-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Rene_II",
+		"Person Name": "René II, Duke of Lorraine",
+		"Birth Date": "1451-5-2",
+		"Death Date": "1508-12-10",
+		"Noted Positions": "Duke of Lorraine (r. 1473–1508)",
+		"Description": "employed Josquin for some time between 1479 and 1489",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "11"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Sigismondo_I_dEste",
+		"Person Name": "Sigismondo I d'Este",
+		"Birth Date": "1480-9",
+		"Death Date": "1524-8-9",
+		"Noted Positions": "youngest son of Ercole I d'Este",
+		"Description": "contracted syphillis and never recovered; spent most of his life at the court in Ferrara",
+		"Input data": "BSO",
+		"Date entered": "2024-2-11",
+		"Update data": "BSO",
+		"Date updated": "2024-2-11"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Sixtus_IV",
+		"Person Name": "Pope Sixtus IV",
+		"Alias": "Francesco della Rovere",
+		"Birth Date": "1414-7-21",
+		"Death Date": "1484-8-12",
+		"Noted Positions": "Pope (r. 1471–84)",
+		"Input data": "LO",
+		"Date entered": "2023-4-16",
+		"Update data": "BSO",
+		"Date updated": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Michel_Gaillard",
+		"Person Name": "Michel Gaillard",
+		"Noted Positions": "advisor and treasurer to Marie of Cleves",
+		"Bibliography ID (BIB)": "BIB:Higgins_2009",
+		"BIB Pages": "180",
+		"Input data": "ECZ",
+		"Date entered": "2024-2-22"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Charles_of_Orleans",
+		"Person Name": "Charles d'Orleans",
+		"Birth Date": "1407-11-23",
+		"Death Date": "1465-1-5",
+		"Noted Positions": "Duke of Orleans (1407–1465), Duke of Valois, Count of Beaumont-sur-Oise, Count of Blois"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Petrus_Tirasonensis",
+		"Person Name": "Petrus Tirasonensis",
+		"Alias": "Petrus Ferriz",
+		"Noted Positions": "Bishop of Tarazona, chief Referendarius to Paul II"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Nicholas_V",
+		"Person Name": "Tommaso Parentucelli",
+		"Alias": "Pope Nicholas V",
+		"Birth Date": "1397-11-15",
+		"Death Date": "1455-3-24",
+		"Noted Positions": "Pope (r. 1447–1455)",
+		"Bibliography ID (BIB)": "BIB:Starr_1992",
+		"BIB Pages": "258–59",
+		"Input data": "LO",
+		"Date entered": "2024-3-22"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Ludovico_I",
+		"Person Name": "Ludovico",
+		"Alias": "Louis I, Lodovico I",
+		"Birth Date": "1413-2-24",
+		"Death Date": "1465-1-29",
+		"Noted Positions": "Duke of Savoy (r. 1440–1465)",
+		"Bibliography ID (BIB)": "BIB:Starr_1992",
+		"BIB Pages": "258",
+		"Input data": "LO",
+		"Date entered": "2024-3-22"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Filippo_Calandrini",
+		"Person Name": "Filippo Calandrini",
+		"Birth Date": "1403",
+		"Death Date": "1476-7-18",
+		"Noted Positions": "Cardinal, Cardinal Penitentiary under Pius II.",
+		"Bibliography ID (BIB)": "BIB:Starr_1992",
+		"BIB Pages": "260",
+		"Input data": "LO",
+		"Date entered": "2024-3-31"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Rene_of_Anjou",
+		"Person Name": "René of Anjou",
+		"Alias": "René I",
+		"Birth Date": "1409-1-16",
+		"Death Date": "1480-7-10",
+		"Noted Positions": "Duke of Anjou and Count of Provence from 1434 to 1480,  King of Naples from 1435 to 1442",
+		"Input data": "FEM",
+		"Date entered": "2024-4-2"
+	}
+]

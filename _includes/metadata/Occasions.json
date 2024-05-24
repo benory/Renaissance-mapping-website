@@ -1,0 +1,17 @@
+[
+	{
+		"Occasion ID (OCC)": "OCC:Diet_of_Worms",
+		"Occasion Name": "Diet of Worms of 1521",
+		"Alias": "Reichstag zu Worms",
+		"Occasion Description": "an imperial diet of the Holy Roman Empire, at which Martin Luther was summoned to renounce or affirm his views on the Catholic Church.",
+		"Input data": "BSO",
+		"Date entered": "2024-1-29"
+	},
+	{
+		"Occasion ID (OCC)": "OCC:Battle_of_Marignano",
+		"Occasion Name": "Battle of Marignano",
+		"Occasion Description": "the last major engagement of the War of the League of Cambrai, with Francis I defeating the Old Swiss Confederacy",
+		"Input data": "BSO",
+		"Date entered": "2024-3-19"
+	}
+]

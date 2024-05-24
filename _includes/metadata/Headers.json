@@ -1,0 +1,1167 @@
+[
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "EVID",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "A"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "LOCID",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "B",
+		"Column Name": "Location ID (LOC)"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "BIOID",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "C",
+		"Column Name": "Biography ID (BCO, BMU, BNO)"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "OCCID",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "D",
+		"Column Name": "Occasion ID (OCC)"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "CERTLOC",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "F",
+		"Column Name": "LOC Certainty"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "EYEAR",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "F",
+		"Column Name": "Earliest Year"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "EMONTH",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "G",
+		"Column Name": "Earliest Month"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "EDAY",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "H",
+		"Column Name": "Earliest Day"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "CERTEDATE",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "I",
+		"Column Name": "Earliest Date Certainty"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "LYEAR",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "J",
+		"Column Name": "Latest Year"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "LMONTH",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "K",
+		"Column Name": "Latest Month"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "LDAY",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "L",
+		"Column Name": "Latest Day"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "CERTLDATE",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "M",
+		"Column Name": "Latest Date Certainty"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "DATERANGE",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "N",
+		"Column Name": "Date Range"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "CERTRANGE",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "O",
+		"Column Name": "Certainty of Event (within Range)"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "EINFO",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "P",
+		"Column Name": "Description"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "DOEID",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "Q",
+		"Column Name": "Document Entry ID (DOE)"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "BIBID",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "R",
+		"Column Name": "Bibliography ID (BIB)"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JSON Name": "BIBPAGES",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "S",
+		"Column Name": "BIB Pages"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "T",
+		"Column Name": "Notes"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "U",
+		"Column Name": "Input data"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "V",
+		"Column Name": "Date entered"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "W",
+		"Column Name": "Update data"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "X",
+		"Column Name": "Date updated"
+	},
+	{
+		"Spreadsheet ID": "OCC",
+		"JSON Name": "OCCID",
+		"GID": "720598622",
+		"Spreadsheet Name": "Occasions",
+		"Column": "A",
+		"Column Name": "Occasion ID (OCC)"
+	},
+	{
+		"Spreadsheet ID": "OCC",
+		"JSON Name": "ONAME",
+		"GID": "720598622",
+		"Spreadsheet Name": "Occasions",
+		"Column": "B",
+		"Column Name": "Occasion Name"
+	},
+	{
+		"Spreadsheet ID": "OCC",
+		"JSON Name": "OALIAS",
+		"GID": "720598622",
+		"Spreadsheet Name": "Occasions",
+		"Column": "C",
+		"Column Name": "Alias"
+	},
+	{
+		"Spreadsheet ID": "OCC",
+		"JSON Name": "OINFO",
+		"GID": "720598622",
+		"Spreadsheet Name": "Occasions",
+		"Column": "D",
+		"Column Name": "Occasion Description"
+	},
+	{
+		"Spreadsheet ID": "OCC",
+		"JSON Name": "BIBID",
+		"GID": "720598622",
+		"Spreadsheet Name": "Occasions",
+		"Column": "E",
+		"Column Name": "Bibliography ID (BIB)"
+	},
+	{
+		"Spreadsheet ID": "OCC",
+		"JSON Name": "BIBPAGES",
+		"GID": "720598622",
+		"Spreadsheet Name": "Occasions",
+		"Column": "F",
+		"Column Name": "BIB Pages"
+	},
+	{
+		"Spreadsheet ID": "OCC",
+		"GID": "720598622",
+		"Spreadsheet Name": "Occasions",
+		"Column": "G",
+		"Column Name": "Internal notes"
+	},
+	{
+		"Spreadsheet ID": "OCC",
+		"GID": "720598622",
+		"Spreadsheet Name": "Occasions",
+		"Column": "H",
+		"Column Name": "Input data"
+	},
+	{
+		"Spreadsheet ID": "OCC",
+		"GID": "720598622",
+		"Spreadsheet Name": "Occasions",
+		"Column": "I",
+		"Column Name": "Date entered"
+	},
+	{
+		"Spreadsheet ID": "OCC",
+		"GID": "720598622",
+		"Spreadsheet Name": "Occasions",
+		"Column": "J",
+		"Column Name": "Update data"
+	},
+	{
+		"Spreadsheet ID": "OCC",
+		"GID": "720598622",
+		"Spreadsheet Name": "Occasions",
+		"Column": "K",
+		"Column Name": "Date updated"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "DOEID",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "A",
+		"Column Name": "Document Entry (DOE) ID"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "ARDID",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "B",
+		"Column Name": "Archival Document (ARD)"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "PAGES",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "C",
+		"Column Name": "Folios/Pages"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "LANG",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "D",
+		"Column Name": "Language"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "EYEAR",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "E",
+		"Column Name": "Earliest Year"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "EMONTH",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "F",
+		"Column Name": "Earliest Month"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "EDAY",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "G",
+		"Column Name": "Earliest Day"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "LYEAR",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "H",
+		"Column Name": "Latest Year"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "LMONTH",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "I",
+		"Column Name": "Latest Month"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "LDAY",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "J",
+		"Column Name": "Latest Day"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "DATERANGE",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "K",
+		"Column Name": "Date Range"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "DOCTYPE",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "M",
+		"Column Name": "Document Type"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "BIBID",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "W",
+		"Column Name": "Bibliography ID (BIB) (if different)"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "BIBPAGES",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "X",
+		"Column Name": "BIB Pages"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "DOCTEXT",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "Q",
+		"Column Name": "Document Entry Text"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "DOCTRANS",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "R",
+		"Column Name": "Translation"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "DINFO",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "L",
+		"Column Name": "Description"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "RELPEOPLE",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "Y",
+		"Column Name": "Related People"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "PHOTO",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "AA",
+		"Column Name": "Photograph"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "PHOTOURL",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "AB",
+		"Column Name": "Photograph URL"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JSON Name": "PERM",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "AC",
+		"Column Name": "Permisions"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "AD",
+		"Column Name": "Notes"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "AE",
+		"Column Name": "Input data"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "AF",
+		"Column Name": "Date entered"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "AG",
+		"Column Name": "Update data"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "AH",
+		"Column Name": "Date updated"
+	},
+	{
+		"Spreadsheet ID": "LOC",
+		"JSON Name": "LOCID",
+		"GID": "1472256039",
+		"Spreadsheet Name": "Locations",
+		"Column": "A",
+		"Column Name": "Location ID (LOC)"
+	},
+	{
+		"Spreadsheet ID": "LOC",
+		"JSON Name": "LOCNAME",
+		"GID": "1472256039",
+		"Spreadsheet Name": "Locations",
+		"Column": "B",
+		"Column Name": "Name of Location"
+	},
+	{
+		"Spreadsheet ID": "LOC",
+		"JSON Name": "CITY",
+		"GID": "1472256039",
+		"Spreadsheet Name": "Locations",
+		"Column": "C",
+		"Column Name": "City or Larger Place"
+	},
+	{
+		"Spreadsheet ID": "LOC",
+		"JSON Name": "COUNTRY",
+		"GID": "1472256039",
+		"Spreadsheet Name": "Locations",
+		"Column": "D",
+		"Column Name": "Modern Country"
+	},
+	{
+		"Spreadsheet ID": "LOC",
+		"JSON Name": "GOOGLEURL",
+		"GID": "1472256039",
+		"Spreadsheet Name": "Locations",
+		"Column": "E",
+		"Column Name": "Google URL"
+	},
+	{
+		"Spreadsheet ID": "LOC",
+		"JSON Name": "COORD",
+		"GID": "1472256039",
+		"Spreadsheet Name": "Locations",
+		"Column": "F",
+		"Column Name": "Coordinates"
+	},
+	{
+		"Spreadsheet ID": "LOC",
+		"JSON Name": "WIKIDATA",
+		"GID": "1472256039",
+		"Spreadsheet Name": "Locations",
+		"Column": "G",
+		"Column Name": "Wikidata"
+	},
+	{
+		"Spreadsheet ID": "LOC",
+		"JSON Name": "ALIAS",
+		"GID": "1472256039",
+		"Spreadsheet Name": "Locations",
+		"Column": "H",
+		"Column Name": "Aliases"
+	},
+	{
+		"Spreadsheet ID": "LOC",
+		"JSON Name": "LINFO",
+		"GID": "1472256039",
+		"Spreadsheet Name": "Locations",
+		"Column": "I",
+		"Column Name": "Description"
+	},
+	{
+		"Spreadsheet ID": "LOC",
+		"JSON Name": "LOCURL",
+		"GID": "1472256039",
+		"Spreadsheet Name": "Locations",
+		"Column": "J",
+		"Column Name": "URL"
+	},
+	{
+		"Spreadsheet ID": "LOC",
+		"GID": "1472256039",
+		"Spreadsheet Name": "Locations",
+		"Column": "K",
+		"Column Name": "Input data"
+	},
+	{
+		"Spreadsheet ID": "LOC",
+		"GID": "1472256039",
+		"Spreadsheet Name": "Locations",
+		"Column": "L",
+		"Column Name": "Date entered"
+	},
+	{
+		"Spreadsheet ID": "LOC",
+		"GID": "1472256039",
+		"Spreadsheet Name": "Locations",
+		"Column": "M",
+		"Column Name": "Update data"
+	},
+	{
+		"Spreadsheet ID": "LOC",
+		"GID": "1472256039",
+		"Spreadsheet Name": "Locations",
+		"Column": "N",
+		"Column Name": "Date updated"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"JSON Name": "BCOID",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "A",
+		"Column Name": "Biography Composer (BCO) ID"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"JSON Name": "BCONAME",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "B",
+		"Column Name": "Composer Name"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"JSON Name": "ALIAS",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "C",
+		"Column Name": "Alias"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"JSON Name": "BDATE",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "D",
+		"Column Name": "Birth Date"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"JSON Name": "DDATE",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "E",
+		"Column Name": "Death Date"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"JSON Name": "BCOINFO",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "F",
+		"Column Name": "Description"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"JSON Name": "BCOLOC",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "G",
+		"Column Name": "Location (LOC) or Institution (INS)"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"JSON Name": "BCOPOS",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "H",
+		"Column Name": "Position at LOC"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"JSON Name": "BCOYEARS",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "I",
+		"Column Name": "Years at LOC"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"JSON Name": "DIAMM",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "J",
+		"Column Name": "DIAMM Link"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"JSON Name": "RISMID",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "K",
+		"Column Name": "RISM ID"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"JSON Name": "RISMURL",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "L",
+		"Column Name": "RISM Link"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"JSON Name": "BIBID",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "N",
+		"Column Name": "Bibliography ID (BIB)"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"JSON Name": "BIBPAGES",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "N",
+		"Column Name": "BIB Pages"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "O",
+		"Column Name": "Internal notes"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "P",
+		"Column Name": "Input data"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "Q",
+		"Column Name": "Date entered"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "R",
+		"Column Name": "Update data"
+	},
+	{
+		"Spreadsheet ID": "BCO",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "S",
+		"Column Name": "Date updated"
+	},
+	{
+		"Spreadsheet ID": "BMU",
+		"JSON Name": "BMUID",
+		"GID": "50716405",
+		"Spreadsheet Name": "Bio_Musicians",
+		"Column": "A",
+		"Column Name": "Biography Musician (BMU) ID"
+	},
+	{
+		"Spreadsheet ID": "BMU",
+		"JSON Name": "BMUNAME",
+		"GID": "50716405",
+		"Spreadsheet Name": "Bio_Musicians",
+		"Column": "B",
+		"Column Name": "Musician Name"
+	},
+	{
+		"Spreadsheet ID": "BMU",
+		"JSON Name": "ALIAS",
+		"GID": "50716405",
+		"Spreadsheet Name": "Bio_Musicians",
+		"Column": "C",
+		"Column Name": "Alias"
+	},
+	{
+		"Spreadsheet ID": "BMU",
+		"JSON Name": "BDATE",
+		"GID": "50716405",
+		"Spreadsheet Name": "Bio_Musicians",
+		"Column": "D",
+		"Column Name": "Birth Date"
+	},
+	{
+		"Spreadsheet ID": "BMU",
+		"JSON Name": "DDATE",
+		"GID": "50716405",
+		"Spreadsheet Name": "Bio_Musicians",
+		"Column": "E",
+		"Column Name": "Death Date"
+	},
+	{
+		"Spreadsheet ID": "BMU",
+		"JSON Name": "BMULOCID",
+		"GID": "50716405",
+		"Spreadsheet Name": "Bio_Musicians",
+		"Column": "F",
+		"Column Name": "Institution (INS)"
+	},
+	{
+		"Spreadsheet ID": "BMU",
+		"JSON Name": "BMUPOS",
+		"GID": "50716405",
+		"Spreadsheet Name": "Bio_Musicians",
+		"Column": "G",
+		"Column Name": "Position at LOC"
+	},
+	{
+		"Spreadsheet ID": "BMU",
+		"JSON Name": "BMUYEARS",
+		"GID": "50716405",
+		"Spreadsheet Name": "Bio_Musicians",
+		"Column": "H",
+		"Column Name": "Years at LOC"
+	},
+	{
+		"Spreadsheet ID": "BMU",
+		"JSON Name": "BMUINFO",
+		"GID": "50716405",
+		"Spreadsheet Name": "Bio_Musicians",
+		"Column": "I",
+		"Column Name": "Description"
+	},
+	{
+		"Spreadsheet ID": "BMU",
+		"JSON Name": "BIBID",
+		"GID": "50716405",
+		"Spreadsheet Name": "Bio_Musicians",
+		"Column": "J",
+		"Column Name": "Bibliography ID (BIB)"
+	},
+	{
+		"Spreadsheet ID": "BMU",
+		"JSON Name": "BIBPAGESS",
+		"GID": "50716405",
+		"Spreadsheet Name": "Bio_Musicians",
+		"Column": "K",
+		"Column Name": "BIB Pages"
+	},
+	{
+		"Spreadsheet ID": "BMU",
+		"GID": "50716405",
+		"Spreadsheet Name": "Bio_Musicians",
+		"Column": "L",
+		"Column Name": "Internal notes"
+	},
+	{
+		"Spreadsheet ID": "BMU",
+		"GID": "50716405",
+		"Spreadsheet Name": "Bio_Musicians",
+		"Column": "M",
+		"Column Name": "Input data"
+	},
+	{
+		"Spreadsheet ID": "BMU",
+		"GID": "50716405",
+		"Spreadsheet Name": "Bio_Musicians",
+		"Column": "N",
+		"Column Name": "Date entered"
+	},
+	{
+		"Spreadsheet ID": "BMU",
+		"GID": "50716405",
+		"Spreadsheet Name": "Bio_Musicians",
+		"Column": "O",
+		"Column Name": "Update data"
+	},
+	{
+		"Spreadsheet ID": "BMU",
+		"GID": "50716405",
+		"Spreadsheet Name": "Bio_Musicians",
+		"Column": "P",
+		"Column Name": "Date updated"
+	},
+	{
+		"Spreadsheet ID": "BNO",
+		"JSON Name": "BNOID",
+		"GID": "1177910087",
+		"Spreadsheet Name": "Bio_Nonmusicians",
+		"Column": "A",
+		"Column Name": "Biography Non-Musician (BNO) ID"
+	},
+	{
+		"Spreadsheet ID": "BNO",
+		"JSON Name": "BNUNAME",
+		"GID": "1177910087",
+		"Spreadsheet Name": "Bio_Nonmusicians",
+		"Column": "B",
+		"Column Name": "Person Name"
+	},
+	{
+		"Spreadsheet ID": "BNO",
+		"JSON Name": "ALIAS",
+		"GID": "1177910087",
+		"Spreadsheet Name": "Bio_Nonmusicians",
+		"Column": "C",
+		"Column Name": "Alias"
+	},
+	{
+		"Spreadsheet ID": "BNO",
+		"JSON Name": "BDATE",
+		"GID": "1177910087",
+		"Spreadsheet Name": "Bio_Nonmusicians",
+		"Column": "D",
+		"Column Name": "Birth Date"
+	},
+	{
+		"Spreadsheet ID": "BNO",
+		"JSON Name": "DDATE",
+		"GID": "1177910087",
+		"Spreadsheet Name": "Bio_Nonmusicians",
+		"Column": "E",
+		"Column Name": "Death Date"
+	},
+	{
+		"Spreadsheet ID": "BNO",
+		"JSON Name": "POS",
+		"GID": "1177910087",
+		"Spreadsheet Name": "Bio_Nonmusicians",
+		"Column": "F",
+		"Column Name": "Noted Positions"
+	},
+	{
+		"Spreadsheet ID": "BNO",
+		"JSON Name": "BNOINFO",
+		"GID": "1177910087",
+		"Spreadsheet Name": "Bio_Nonmusicians",
+		"Column": "G",
+		"Column Name": "Description"
+	},
+	{
+		"Spreadsheet ID": "BNO",
+		"JSON Name": "BIBID",
+		"GID": "1177910087",
+		"Spreadsheet Name": "Bio_Nonmusicians",
+		"Column": "I",
+		"Column Name": "Bibliography ID (BIB)"
+	},
+	{
+		"Spreadsheet ID": "BNO",
+		"JSON Name": "BIBPAGES",
+		"GID": "1177910087",
+		"Spreadsheet Name": "Bio_Nonmusicians",
+		"Column": "I",
+		"Column Name": "BIB Pages"
+	},
+	{
+		"Spreadsheet ID": "BNO",
+		"GID": "1177910087",
+		"Spreadsheet Name": "Bio_Nonmusicians",
+		"Column": "J",
+		"Column Name": "Internal notes"
+	},
+	{
+		"Spreadsheet ID": "BNO",
+		"GID": "1177910087",
+		"Spreadsheet Name": "Bio_Nonmusicians",
+		"Column": "K",
+		"Column Name": "Input data"
+	},
+	{
+		"Spreadsheet ID": "BNO",
+		"GID": "1177910087",
+		"Spreadsheet Name": "Bio_Nonmusicians",
+		"Column": "L",
+		"Column Name": "Date entered"
+	},
+	{
+		"Spreadsheet ID": "BNO",
+		"GID": "1177910087",
+		"Spreadsheet Name": "Bio_Nonmusicians",
+		"Column": "M",
+		"Column Name": "Update data"
+	},
+	{
+		"Spreadsheet ID": "BNO",
+		"GID": "1177910087",
+		"Spreadsheet Name": "Bio_Nonmusicians",
+		"Column": "N",
+		"Column Name": "Date updated"
+	},
+	{
+		"Spreadsheet ID": "ARD",
+		"JSON Name": "ARDID",
+		"GID": "1869779751",
+		"Spreadsheet Name": "Archival_Docs",
+		"Column": "A",
+		"Column Name": "Archival Document (ARD) ID"
+	},
+	{
+		"Spreadsheet ID": "ARD",
+		"JSON Name": "LOCID",
+		"GID": "1869779751",
+		"Spreadsheet Name": "Archival_Docs",
+		"Column": "B",
+		"Column Name": "Location ID (LOC)"
+	},
+	{
+		"Spreadsheet ID": "ARD",
+		"JSON Name": "ARC",
+		"GID": "1869779751",
+		"Spreadsheet Name": "Archival_Docs",
+		"Column": "C",
+		"Column Name": "Archive"
+	},
+	{
+		"Spreadsheet ID": "ARD",
+		"JSON Name": "ARCFOND",
+		"GID": "1869779751",
+		"Spreadsheet Name": "Archival_Docs",
+		"Column": "D",
+		"Column Name": "Archival Fond"
+	},
+	{
+		"Spreadsheet ID": "ARD",
+		"JSON Name": "SIG",
+		"GID": "1869779751",
+		"Spreadsheet Name": "Archival_Docs",
+		"Column": "E",
+		"Column Name": "Signature"
+	},
+	{
+		"Spreadsheet ID": "ARD",
+		"JSON Name": "AINFO",
+		"GID": "1869779751",
+		"Spreadsheet Name": "Archival_Docs",
+		"Column": "F",
+		"Column Name": "Description"
+	},
+	{
+		"Spreadsheet ID": "ARD",
+		"GID": "1869779751",
+		"Spreadsheet Name": "Archival_Docs",
+		"Column": "G",
+		"Column Name": "Input data"
+	},
+	{
+		"Spreadsheet ID": "ARD",
+		"GID": "1869779751",
+		"Spreadsheet Name": "Archival_Docs",
+		"Column": "H",
+		"Column Name": "Date entered"
+	},
+	{
+		"Spreadsheet ID": "ARD",
+		"GID": "1869779751",
+		"Spreadsheet Name": "Archival_Docs",
+		"Column": "I",
+		"Column Name": "Update data"
+	},
+	{
+		"Spreadsheet ID": "ARD",
+		"GID": "1869779751",
+		"Spreadsheet Name": "Archival_Docs",
+		"Column": "J",
+		"Column Name": "Date updated"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"JSON Name": "BIBID",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "A",
+		"Column Name": "Bibliography (BIB) ID"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"JSON Name": "AUTHOR",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "B",
+		"Column Name": "Author"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"JSON Name": "ARTNAME",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "C",
+		"Column Name": "Name of Article"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"JSON Name": "VOLNAME",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "D",
+		"Column Name": "Name of Volume/Journal"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"JSON Name": "EDITOR",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "E",
+		"Column Name": "Editor"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"JSON Name": "VOLNO",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "F",
+		"Column Name": "Volume"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"JSON Name": "EDITION",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "G",
+		"Column Name": "Edition"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"JSON Name": "SER",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "H",
+		"Column Name": "Series"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"JSON Name": "LOC",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "I",
+		"Column Name": "Location"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"JSON Name": "PUB",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "J",
+		"Column Name": "Publisher"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"JSON Name": "YEAR",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "K",
+		"Column Name": "Publication Year"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"JSON Name": "PAGES",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "L",
+		"Column Name": "Pages"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"JSON Name": "URL",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "M",
+		"Column Name": "URL"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "N",
+		"Column Name": "Input data"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "O",
+		"Column Name": "Date entered"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "P",
+		"Column Name": "Update data"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "Q",
+		"Column Name": "Date updated"
+	}
+]

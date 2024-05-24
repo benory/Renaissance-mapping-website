@@ -1,0 +1,2493 @@
+[
+	{
+		"Location ID (LOC)": "LOC:Abbeville",
+		"Name of Location": "Abbeville",
+		"City or Larger Place": "Abbeville",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/2JR62MFUaT2zaLPdA",
+		"Coordinates": "50.10547226856863, 1.8385906026484242",
+		"Wikidata": "Q28520",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Abbiategrasso",
+		"Name of Location": "Abbiategrasso",
+		"City or Larger Place": "Abbiategrasso",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/EJuRhwA9JhTtoVZA6",
+		"Coordinates": "45.39902708105254, 8.916982774514207",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ainieres",
+		"Name of Location": "Ainières",
+		"City or Larger Place": "Ainières",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/DKaauYn4qUmxYzxJ6",
+		"Coordinates": "50.70526351338895, 3.555790229828516",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ala",
+		"Name of Location": "Ala",
+		"City or Larger Place": "Ala",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/fgEvu7zuA8WePTnF9",
+		"Coordinates": "45.762591858847976, 11.005518532574154",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Amboise",
+		"Name of Location": "Amboise",
+		"City or Larger Place": "Amboise",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/VHFT9Mv5H2iXjg197",
+		"Coordinates": "47.41311246753222, 0.984497511382773",
+		"Wikidata": "Q205116",
+		"Aliases": "Saint-Denis-Hors, Amboise-Extra-Muros",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Amiens",
+		"Name of Location": "Amiens",
+		"City or Larger Place": "Amiens",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/oAA64MnjgqCTFxQv8",
+		"Coordinates": "49.8949214194963, 2.3042480328014188",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ancenis",
+		"Name of Location": "Ancenis",
+		"City or Larger Place": "Ancenis",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/zo49TmpiSi8ixBs99",
+		"Coordinates": "47.36742819571173, -1.1812742286994986",
+		"Input data": "BSO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Angers",
+		"Name of Location": "Angers",
+		"City or Larger Place": "Angers",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/xJshMXGMxnznqmcVA",
+		"Coordinates": "47.47669774274866, -0.5388737795963101",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Anseroeul",
+		"Name of Location": "Anseroeul",
+		"City or Larger Place": "Anseroeul",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/ELJF3JZKjgTRPPx26",
+		"Coordinates": "50.73256503436909, 3.5208506399126525",
+		"Input data": "LO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Antoing",
+		"Name of Location": "Antoing",
+		"City or Larger Place": "Antoing",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/ZQoVe8BhtM1byrBA7",
+		"Coordinates": "50.56741584372118, 3.4510179878407117",
+		"Input data": "LO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Anvaing",
+		"Name of Location": "Anvaing",
+		"City or Larger Place": "Anvaing",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/tsvAybVfEHypamvt5",
+		"Coordinates": "50.68363446259208, 3.560988206999815",
+		"Aliases": "Frasnes-lez-Anvaing",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Arcq",
+		"Name of Location": "Arcq",
+		"City or Larger Place": "Arcq",
+		"Input data": "LO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Asti",
+		"Name of Location": "Asti",
+		"City or Larger Place": "Asti",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/CX5Z2sUyZJY7tBnM8",
+		"Coordinates": "44.900825294186745, 8.207307034172176",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ath",
+		"Name of Location": "Ath",
+		"City or Larger Place": "Ath",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/ohhUftCB8DaoTa4g9",
+		"Coordinates": "50.63413499928307, 3.7725576518129746",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Aulla",
+		"Name of Location": "Aulla",
+		"City or Larger Place": "Aulla",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/EGZsvz7Vi5BWCEgv8",
+		"Coordinates": "44.21678229002701, 9.966974936627645",
+		"Input data": "BSO",
+		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Auray",
+		"Name of Location": "Auray",
+		"City or Larger Place": "Auray",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/zrF4mEcYCzaUNDu57",
+		"Coordinates": "47.670226278708896, -2.9902961271159088",
+		"Input data": "BSO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Auservant",
+		"Name of Location": "Auservant",
+		"City or Larger Place": "Auservant",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Avignon",
+		"Name of Location": "Avignon",
+		"City or Larger Place": "Avignon",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/eTzF4wYqgQXfKuog6",
+		"Coordinates": "43.95121925911959, 4.803389437590431",
+		"Wikidata": "Q6397",
+		"Input data": "LO",
+		"Date entered": "2023-5-15"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bain-de-Bretagne",
+		"Name of Location": "Bain-de-Bretagne",
+		"City or Larger Place": "Bain-de-Bretagne",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/NtXZaTdisXJXgCxu6",
+		"Coordinates": "47.84345667585647, -1.6656705205684665",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Barcelona",
+		"Name of Location": "Barcelona",
+		"City or Larger Place": "Barcelona",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/67ytYXqqc5C5E9Hu5",
+		"Coordinates": "41.387089642735056, 2.172158358015489",
+		"Wikidata": "Q1492",
+		"Input data": "LO",
+		"Date entered": "2023-5-15"
+	},
+	{
+		"Location ID (LOC)": "LOC:Baura",
+		"Name of Location": "Baura",
+		"City or Larger Place": "Baura",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/14Dvq5HgGZKA1hLeA",
+		"Coordinates": "44.85265506595091, 11.718882413195228",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Beclers",
+		"Name of Location": "Beclers",
+		"City or Larger Place": "Beclers",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/GYx1RGSjB1AxpE8EA",
+		"Coordinates": "50.6219793696418, 3.5049930295120526",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bellaria",
+		"Name of Location": "Bellaria",
+		"City or Larger Place": "Bellaria",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/oiw38cCDm3qnnyfz8",
+		"Coordinates": "44.598201573109755, 10.9136419285137",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Biernez",
+		"Name of Location": "Biernez",
+		"City or Larger Place": "Biernez",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Blain",
+		"Name of Location": "Blain",
+		"City or Larger Place": "Blain",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/cffnVBgcyC3H4fDY9",
+		"Coordinates": "47.475857091956, -1.7659353879437931",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Blicquy",
+		"Name of Location": "Blicquy",
+		"City or Larger Place": "Blicquy",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/XsUQdtSZ3BVf74FL7",
+		"Coordinates": "50.59093507312855, 3.6926449122032237",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Blois",
+		"Name of Location": "Blois",
+		"City or Larger Place": "Blois",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/wu5VXEAWzMdhnmyP6",
+		"Coordinates": "47.58551587056589, 1.3368235542951457",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
+		"Name of Location": "L’église Saint-Sauveur de Blois",
+		"City or Larger Place": "Blois",
+		"Modern Country": "France",
+		"Input data": "LO",
+		"Date entered": "2024-2-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bologna",
+		"Name of Location": "Bologna",
+		"City or Larger Place": "Bologna",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/TGCazEJBhD4tNUQC9",
+		"Coordinates": "44.488898015002874, 11.340522038649713",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bolsena",
+		"Name of Location": "Bolsena",
+		"City or Larger Place": "Bolsena",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/t5TsSvrXTu2C1XT49",
+		"Coordinates": "42.6441378392413, 11.98629327931354",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bolzano",
+		"Name of Location": "Bolzano",
+		"City or Larger Place": "Bolzano",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/WC8axkSVx9B6vzoY8",
+		"Coordinates": "46.498210665889104, 11.353508556995719",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bonneval",
+		"Name of Location": "Bonneval",
+		"City or Larger Place": "Bonneval",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/DyDKJmuvQLFV81B47",
+		"Coordinates": "48.181767225788846, 1.3840619741949463",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Borgio_S_Donnino",
+		"Name of Location": "Borgo S. Donnino",
+		"City or Larger Place": "Borgo S. Donnino",
+		"Modern Country": "Italy",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bouvignies",
+		"Name of Location": "Bouvignies",
+		"City or Larger Place": "Bouvignies",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/VCYRVfRxqaPoariq7",
+		"Coordinates": "50.43543767460065, 3.24518585143495",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Brescello",
+		"Name of Location": "Brescello",
+		"City or Larger Place": "Brescello",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/jGx4SeR8NeJYCveu9",
+		"Coordinates": "44.89847596329252, 10.517538437141136",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Brest",
+		"Name of Location": "Brest",
+		"City or Larger Place": "Brest",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/K4ykW4vT3W7Bgw4v9",
+		"Coordinates": "48.39017713367009, -4.489287515101668",
+		"Input data": "BSO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bruges-Onze-Lieve-Vrouwekerk",
+		"Name of Location": "Onze-Lieve-Vrouwekerk",
+		"City or Larger Place": "Bruges",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/6h7gW696iMDSt4219",
+		"Coordinates": "51.205526800972564, 3.2274759200755425",
+		"Input data": "BSO",
+		"Date entered": "2024-3-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bruges-Sint-Donaas",
+		"Name of Location": "Sint Donaas",
+		"City or Larger Place": "Bruges",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/bjDD1mNrEennUwHr7",
+		"Coordinates": "51.20910893557477, 3.2280327143115257",
+		"Input data": "BSO",
+		"Date entered": "2024-3-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Brussels-Archives_Generales_du_Royaume",
+		"Name of Location": "Archives Générales du Royaume",
+		"City or Larger Place": "Brussels",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/D8ncuJK9a7wia2iX7",
+		"Coordinates": "50.84241894547462, 4.356437425743719",
+		"Input data": "LO",
+		"Date entered": "2024-1-29"
+	},
+	{
+		"Location ID (LOC)": "LOC:Budapest",
+		"Name of Location": "Budapest",
+		"City or Larger Place": "Budapest",
+		"Modern Country": "Hungary",
+		"Google URL": "https://maps.app.goo.gl/6kBKr8vUrHWbQqbR6",
+		"Coordinates": "47.500117823906024, 19.032103216497337",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Buissenal",
+		"Name of Location": "Buissenal",
+		"City or Larger Place": "Buissenal",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/w74S7v8eADuNHpKL8",
+		"Coordinates": "50.670421167332584, 3.6197328069509545",
+		"Aliases": "Frasnes-lez-Buissenal",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Cambrai",
+		"Name of Location": "Cambrai",
+		"City or Larger Place": "Cambrai",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/8VyY6rSeyjL3DhBx9",
+		"Coordinates": "50.17348623575531, 3.2367631233471728",
+		"Wikidata": "Q181285",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Cambrai-Cathedrale_Notre-Dame",
+		"Name of Location": "Cathédrale Notre-Dame de Cambrai",
+		"City or Larger Place": "Cambrai",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/8LhFwJW8AKpMVHiM6",
+		"Coordinates": "50.17617659193721, 3.2296523376529582",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Cambrai-Eglise_Saint-Gery",
+		"Name of Location": "Église Saint-Géry de Cambrai",
+		"City or Larger Place": "Cambrai",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/pA6fc7VqwfcTL8ZG9",
+		"Coordinates": "50.17760749704224, 3.2357382725777493",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Candes-Saint-Martin-Collégiale_Saint-Martin_de_Candes",
+		"Name of Location": "Collégiale Saint-Martin de Candes",
+		"City or Larger Place": "Candes-Saint-Martin",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/3jc3Ur239Xwrfg4X7",
+		"Coordinates": "47.211387311645254, 0.07389853758841823",
+		"Input data": "LO",
+		"Date entered": "2024-3-20",
+		"Update data": "BSO",
+		"Date updated": "2024-3-20"
+	},
+	{
+		"Location ID (LOC)": "LOC:Carpentras",
+		"Name of Location": "Carpentras",
+		"City or Larger Place": "Carpentras",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/7qxxAohyXyDFFpDv6",
+		"Coordinates": "44.05538839877659, 5.052542640120198",
+		"Wikidata": "Q202560",
+		"Input data": "LO",
+		"Date entered": "2023-5-15"
+	},
+	{
+		"Location ID (LOC)": "LOC:Castelnuovo_Parmense",
+		"Name of Location": "Castelnuovo Parmense",
+		"City or Larger Place": "Parma",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/LNEXpHQXKX91iH4e7",
+		"Coordinates": "44.86679754506058, 10.327160271273673",
+		"Input data": "BSO",
+		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Celles",
+		"Name of Location": "Celles",
+		"City or Larger Place": "Celles",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/C9jEuMffrKSqNChM7",
+		"Coordinates": "50.23142088344768, 5.005548043908784",
+		"Aliases": "Cele-dilé-Dinant",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Chalon-sur-Saone",
+		"Name of Location": "Chalon-sur-Saône",
+		"City or Larger Place": "Chalon-sur-Saône",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/QGbxuKCA9R2wqnex6",
+		"Coordinates": "46.78022492126495, 4.851537820213891",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Chapelle",
+		"Name of Location": "Chapelle",
+		"City or Larger Place": "Chapelle",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Chartes",
+		"Name of Location": "Chartes",
+		"City or Larger Place": "Chartes",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/m7gFDJd5EpKmcm3m7",
+		"Coordinates": "48.44394802199311, 1.4902206726843918",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Chateau-Renault",
+		"Name of Location": "Château-Renault",
+		"City or Larger Place": "Château-Renault",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/fBY5Tj4aHFCpfN2P8",
+		"Coordinates": "47.59156720785083, 0.9028885182439247",
+		"Input data": "BSO",
+		"Date entered": "2023-5-4"
+	},
+	{
+		"Location ID (LOC)": "LOC:Chateaubriant",
+		"Name of Location": "Châteaubriant",
+		"City or Larger Place": "Châteaubriant",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/YeCk46DiPb8qsisk9",
+		"Coordinates": "47.72537848100903, -1.3295437315086864",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Chateauneuf-sur-Loire",
+		"Name of Location": "Chateauneuf-sur-Loire",
+		"City or Larger Place": "Chateauneuf-sur-Loire",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/G2T46mQE6E84D9CB9",
+		"Coordinates": "47.86608518376506, 2.196232679067816",
+		"Input data": "BSO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Chinon",
+		"Name of Location": "Chinon",
+		"City or Larger Place": "Chinon",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/NBpbQwkbiw4geovG8",
+		"Coordinates": "47.16733297706925, 0.2381005420396015",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Codigoro",
+		"Name of Location": "Codrigoro",
+		"City or Larger Place": "Codrigoro",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/8aERRrpV7gZkPBKm8",
+		"Coordinates": "44.83006581259533, 12.110257742109034",
+		"Input data": "BSO",
+		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Corneto",
+		"Name of Location": "Corneto",
+		"City or Larger Place": "Corneto",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/FU82uCM2R8mWp7hJ8",
+		"Coordinates": "42.79260194196413, 13.437849724010471",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Courville-sur-Eure",
+		"Name of Location": "Courville-sur-Eure",
+		"City or Larger Place": "Courville-sur-Eure",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/oxurU2aG1VG7q7rq5",
+		"Coordinates": "48.448461955382655, 1.2435289792192432",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Cremona",
+		"Name of Location": "Cremona",
+		"City or Larger Place": "Cremona",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/U8NKsJZDDJeH9Jkr8",
+		"Coordinates": "45.13265228505448, 10.020710146322584",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Dergneau",
+		"Name of Location": "Dergneau",
+		"City or Larger Place": "Dergneau",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/AFhGvPXxyz42UKP69",
+		"Coordinates": "50.71425009126885, 3.5694573912373486",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Dijon",
+		"Name of Location": "Dijon",
+		"City or Larger Place": "Dijon",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/xLCAuULfsC1yfpi48",
+		"Coordinates": "47.32113547138486, 5.043888962907794",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Dinan",
+		"Name of Location": "Dinan",
+		"City or Larger Place": "Dinan",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/7Jt8NnmMgXFS33Ed7",
+		"Coordinates": "48.45471075470048, -2.0470272298640637",
+		"Input data": "BSO",
+		"Date entered": "2024-1-25"
+	},
+	{
+		"Location ID (LOC)": "LOC:Dinniez",
+		"Name of Location": "Dinniez",
+		"City or Larger Place": "Dinniez",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Eger",
+		"Name of Location": "Eger",
+		"City or Larger Place": "Eger",
+		"Modern Country": "Hungary",
+		"Google URL": "https://maps.app.goo.gl/9ZaNS4nGbtcBw6wm9",
+		"Coordinates": "47.902690686877236, 20.37733129723944",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ellignies",
+		"Name of Location": "Ellignies",
+		"City or Larger Place": "Ellignies",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/jzQ6izEbXVy8DPdg8",
+		"Coordinates": "50.571819135555096, 3.679585262304278",
+		"Aliases": "Ellignies-Sainte-Anne",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Enghien",
+		"Name of Location": "Enghien",
+		"City or Larger Place": "Enghien",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/cPS76EQpnfZRt54q9",
+		"Coordinates": "50.69401102754687, 4.037926433423386",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Escanaffles",
+		"Name of Location": "Escanaffles",
+		"City or Larger Place": "Escanaffles",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/MbE7zgLaCzbeS8VWA",
+		"Coordinates": "50.75427626010349, 3.448131946025702",
+		"Input data": "LO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Esztergom",
+		"Name of Location": "Esztergom",
+		"City or Larger Place": "Esztergom",
+		"Modern Country": "Hungary",
+		"Google URL": "https://maps.app.goo.gl/YCjmdBPqS2SAf5xW6",
+		"Coordinates": "47.78751755457725, 18.73668878383042",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Etampes",
+		"Name of Location": "Etampes",
+		"City or Larger Place": "Etampes",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/NivhaASXyHqWGbvt9",
+		"Coordinates": "48.43297999182367, 2.1561272613395825",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Faenza",
+		"Name of Location": "Faenza",
+		"City or Larger Place": "Faenza",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/1UTsvMmsYuoi1WRn9",
+		"Coordinates": "44.290222036755864, 11.878032343876146",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Fanano",
+		"Name of Location": "Fanano",
+		"City or Larger Place": "Fanano",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/dNx3wQMT7RphGAVo8",
+		"Coordinates": "44.20774343589212, 10.79662493950079",
+		"Aliases": "Fanano nel Frignano",
+		"Input data": "BSO",
+		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Fano",
+		"Name of Location": "Fano",
+		"City or Larger Place": "Fano",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/cXF4YcACaRZZtwXL9",
+		"Coordinates": "43.83928778507242, 13.020039947019237",
+		"Wikidata": "Q13142",
+		"Input data": "LO",
+		"Date entered": "2023-5-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:Felonica",
+		"Name of Location": "Felonica",
+		"City or Larger Place": "Felonica",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/Cqc2rJbsmbXyxSdx8",
+		"Coordinates": "44.97889759040997, 11.353243516362701",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ferrara",
+		"Name of Location": "Ferrara",
+		"City or Larger Place": "Ferrara",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/mky5C5x7bNkmgDoe9",
+		"Coordinates": "44.838057906693024, 11.6246409911621",
+		"Wikidata": "Q13362",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ferrara-Archivio_Storico_Diocesano",
+		"Name of Location": "Archivio Storico Diocesano di Ferrara",
+		"City or Larger Place": "Ferrara",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/SRkd5jS2WHBcL5UJ9",
+		"Coordinates": "44.836505283864916, 11.620258867218213",
+		"URL": "https://www.utadiocesiferrara.org/archivio-storico-diocesano-2/",
+		"Input data": "BSO",
+		"Date entered": "2023-5-4"
+	},
+	{
+		"Location ID (LOC)": "LOC:Florence",
+		"Name of Location": "Florence",
+		"City or Larger Place": "Florence",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/Dff8YxjmNBZbf4vK7",
+		"Coordinates": "43.771995871356054, 11.2468008872142",
+		"Wikidata": "Q2044",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Florence-Archivio_di_Stato",
+		"Name of Location": "Archivio di Stato",
+		"City or Larger Place": "Florence",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/XxyHn2wBZt2vJ4ED7",
+		"Coordinates": "43.76967598473089, 11.271049864499838",
+		"Input data": "BSO",
+		"Date entered": "2024-3-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Florence-Cattedrale_di_Santa_Maria_del_Fiore",
+		"Name of Location": "Cattedrale di Santa Maria del Fiore",
+		"City or Larger Place": "Florence",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/NDzmFo4MrA7KYfdr8",
+		"Coordinates": "43.7731991453359, 11.255618095143351",
+		"Input data": "BSO",
+		"Date entered": "2024-3-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Fontevraud-lAbbaye",
+		"Name of Location": "Fontevraud-l'Abbaye",
+		"City or Larger Place": "Fontevraud-l'Abbaye",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/fgQbnxaUUdnubJ3g6",
+		"Coordinates": "47.18149296872278, 0.044214158738103214",
+		"Input data": "BSO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Forest",
+		"Name of Location": "Forest",
+		"City or Larger Place": "Forest",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/9KdvSd2iMB4YP4Gq8",
+		"Coordinates": "50.81001666728323, 4.324638064256282",
+		"Aliases": "Vorst",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Forli",
+		"Name of Location": "Forli",
+		"City or Larger Place": "Forli",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/1fVAt3jAe8x5bDjJA",
+		"Coordinates": "44.22234760954347, 12.041323628339896",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Francolino",
+		"Name of Location": "Francolino",
+		"City or Larger Place": "Francolino",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/EAo9oFg87GF7yCY26",
+		"Coordinates": "44.903390034978344, 11.658421826338717",
+		"Input data": "BSO",
+		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Frasnes",
+		"Name of Location": "Frasnes",
+		"City or Larger Place": "Frasnes",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/a2ByakxFtByRnbCUA",
+		"Coordinates": "50.66752578845051, 3.5992609978224",
+		"Aliases": "Frasnes-lez-Anvaing",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Genoa",
+		"Name of Location": "Genoa",
+		"City or Larger Place": "Genoa",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/Gx6cKnnAZjQoMWEo7",
+		"Coordinates": "44.40404009444587, 8.942671767272765",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ghent-Rijksarchief",
+		"Name of Location": "Rijksarchief Ghent",
+		"City or Larger Place": "Ghent",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/6mtdTTcAzjrUSWUM6",
+		"Coordinates": "51.048154312592914, 3.725545385812421",
+		"Input data": "BSO",
+		"Date entered": "2024-3-16"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ghent-Sint-Baafskathedraal",
+		"Name of Location": "Sint-Baafskathedraal",
+		"City or Larger Place": "Ghent",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/wzQMyWoh6KLfXzPb9",
+		"Coordinates": "51.053753556738805, 3.72838011752356",
+		"Aliases": "St. Bavo's Cathedral, St. John's Cathedral",
+		"Input data": "BSO",
+		"Date entered": "2024-3-16"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ghoy",
+		"Name of Location": "Ghoy",
+		"City or Larger Place": "Ghoy",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/dGvMcyjvqv8tfiAS6",
+		"Coordinates": "50.735581309645355, 3.8124074409773367",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Grammont",
+		"Name of Location": "Grammont",
+		"City or Larger Place": "Grammont",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/MS6msgqG5R3aKReL7",
+		"Coordinates": "50.77409316923406, 3.882940390461884",
+		"Aliases": "Geraardsbergen",
+		"Input data": "LO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Grenoble",
+		"Name of Location": "Grenoble",
+		"City or Larger Place": "Grenoble",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/dpmh3FbLJ5XDug6z7",
+		"Coordinates": "45.18828453603132, 5.726097058610723",
+		"Input data": "BSO",
+		"Date entered": "2024-1-22"
+	},
+	{
+		"Location ID (LOC)": "LOC:Grenoble-Collegiale_Saint_Andre",
+		"Name of Location": "Collégiale Saint-André",
+		"City or Larger Place": "Grenboble",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/6Pt5FNsVCFRHvfHEA",
+		"Coordinates": "45.192853379547245, 5.728880375096574",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Gubbio",
+		"Name of Location": "Gubbio",
+		"City or Larger Place": "Gubbio",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/4r91kuAjHWo5YM5b9",
+		"Coordinates": "43.35152279765471, 12.574599933465686",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Guingamp",
+		"Name of Location": "Guingamp",
+		"City or Larger Place": "Guingamp",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/kJ1kdq79YjatVZMaA",
+		"Coordinates": "48.56143748608783, -3.148006791814988",
+		"Input data": "BSO",
+		"Date entered": "2024-1-25"
+	},
+	{
+		"Location ID (LOC)": "LOC:Hacquegnies_Quartes",
+		"Name of Location": "Hacquegnies Quartes",
+		"City or Larger Place": "Hacquegnies Quartes",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/EbjAUHd3BL4ArZYm8",
+		"Coordinates": "50.65192760532023, 3.594941906325845",
+		"Aliases": "Hacquegnies",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Havines",
+		"Name of Location": "Havines",
+		"City or Larger Place": "Havines",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/Jeg7Tdecw73skhMcA",
+		"Coordinates": "50.61814306653796, 3.4647254272975454",
+		"Aliases": "Havinnes",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Hennebont",
+		"Name of Location": "Hennebont",
+		"City or Larger Place": "Hennebont",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/fpxhENKhQQaXrDus5",
+		"Coordinates": "47.802611307866364, -3.276606221480914",
+		"Input data": "BSO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Houtain",
+		"Name of Location": "Houtain",
+		"City or Larger Place": "Houtain",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/2aPP2tLkYy9pG8zv6",
+		"Coordinates": "50.64247209609103, 3.684675589467357",
+		"Aliases": "Houtaing",
+		"Input data": "LO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Hoves",
+		"Name of Location": "Hoves",
+		"City or Larger Place": "Hoves",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/ZobbVJoA3WngaVnX9",
+		"Coordinates": "50.67487084592202, 4.036127823984837",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Innsbruck",
+		"Name of Location": "Innsbruck",
+		"City or Larger Place": "Innsbruck",
+		"Modern Country": "Austria",
+		"Google URL": "https://maps.app.goo.gl/AhbNs7Qj1n7hjxuG7",
+		"Coordinates": "47.26795562524704, 11.398356943887316",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:La_Bassee",
+		"Name of Location": "La Bassée",
+		"City or Larger Place": "La Bassée",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/tHHYx2cjnTNXtQ6P7",
+		"Coordinates": "50.54017828596823, 2.8091934982021036",
+		"Wikidata": "Q375776",
+		"Input data": "LO",
+		"Date entered": "2023-5-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:La_Cote-Saint-Andre",
+		"Name of Location": "La Côte-Saint-André",
+		"City or Larger Place": "La Côte-Saint-André",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/eYFLxRXomEom8qiKA",
+		"Coordinates": "45.39374143694027, 5.260443235688535",
+		"Input data": "BSO",
+		"Date entered": "2024-1-22"
+	},
+	{
+		"Location ID (LOC)": "LOC:La_Fleche",
+		"Name of Location": "La Flèche",
+		"City or Larger Place": "La Flèche",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/5wmetgBEGEudhtHy8",
+		"Coordinates": "47.70000851914407, -0.05109761849565527",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:La_Hunaudaye-Chateau_de_la_Hunaudaye",
+		"Name of Location": "Château de la Hunaudaye",
+		"City or Larger Place": "La Hunaudaye",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/cKrhjuDuEanYwMjx6",
+		"Coordinates": "48.47346691051805, -2.3309858126692458",
+		"Input data": "BSO",
+		"Date entered": "2024-1-25"
+	},
+	{
+		"Location ID (LOC)": "LOC:La_Paglia",
+		"Name of Location": "La Paglia",
+		"City or Larger Place": "La Paglia",
+		"Modern Country": "Italy",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Lamballe",
+		"Name of Location": "Lamballe",
+		"City or Larger Place": "Lamballe",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/g877K4PhtrLjJTEc8",
+		"Coordinates": "48.46919243032948, -2.517291131485199",
+		"Input data": "BSO",
+		"Date entered": "2024-1-25"
+	},
+	{
+		"Location ID (LOC)": "LOC:Langres",
+		"Name of Location": "Langres",
+		"City or Larger Place": "Langres",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/KKkycwkwkd6AkwGM7",
+		"Coordinates": "47.8668144183899, 5.334291163488875",
+		"Input data": "BSO",
+		"Date entered": "2024-3-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:Lannion",
+		"Name of Location": "Lannion",
+		"City or Larger Place": "Lannion",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/KhzYDY7faqWcCUQT6",
+		"Coordinates": "48.731515626858204, -3.4611563846939717",
+		"Input data": "BSO",
+		"Date entered": "2024-1-25"
+	},
+	{
+		"Location ID (LOC)": "LOC:Larchant",
+		"Name of Location": "Larchant",
+		"City or Larger Place": "Larchant",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/yp2KmLjcuRyQCG1P9",
+		"Coordinates": "48.284629149170236, 2.596867983151952",
+		"Input data": "BSO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Laval",
+		"Name of Location": "Laval",
+		"City or Larger Place": "Laval",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/X3wt2r74Nxx729yv7",
+		"Coordinates": "48.11283017758302, -0.7280706117309891",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Le_Folgoet-Notre_Dame",
+		"Name of Location": "Basilique Notre-Dame",
+		"City or Larger Place": "Le Folgoët",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/pzSC7r2Vn1HpBgax5",
+		"Coordinates": "48.56116922970513, -4.334105424820771",
+		"Input data": "BSO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Le_Mans",
+		"Name of Location": "Le Mans",
+		"City or Larger Place": "Le Mans",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/wb12q7uHYiv6SMLP7",
+		"Coordinates": "48.01311945101852, 0.21612630782823053",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Le_Petit_Robien",
+		"Name of Location": "Le Petit Robien",
+		"City or Larger Place": "Le Petit Robien",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/W6vkHjVeq4wxDb388",
+		"Coordinates": "48.39132306140204, -2.9216269888885598",
+		"Input data": "BSO",
+		"Date entered": "2024-1-25"
+	},
+	{
+		"Location ID (LOC)": "LOC:Legeuil",
+		"Name of Location": "Legeuil",
+		"City or Larger Place": "Legeuil",
+		"Modern Country": "France",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Les_Montils-sous-Blois",
+		"Name of Location": "Les Montils-sous-Blois",
+		"City or Larger Place": "Les Montils-sous-Blois",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/4jW355gzknx45DTk8",
+		"Coordinates": "47.49630536339211, 1.2999234771297676",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Lesneven",
+		"Name of Location": "Lesneven",
+		"City or Larger Place": "Lesneven",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/PU2NbGiVZHEgqCESA",
+		"Coordinates": "48.572190122981, -4.32193192256545",
+		"Input data": "BSO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Leuze",
+		"Name of Location": "Leuze",
+		"City or Larger Place": "Leuze",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/Pka6DRKZpA3kLXNh9",
+		"Coordinates": "50.599811905007954, 3.6244058552985527",
+		"Aliases": "Leuze-en-Hainaut",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Liege-Notre_Dame_et_Saint_Lambert",
+		"Name of Location": "Notre Dame et Saint Lambert de Liège",
+		"City or Larger Place": "Liège",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/rQBy5nP9F8vTNSx5A",
+		"Coordinates": "50.64650398281472, 5.574066088696161",
+		"Wikidata": "Q2957531",
+		"Input data": "LO",
+		"Date entered": "2023-5-22"
+	},
+	{
+		"Location ID (LOC)": "LOC:LIle-Bouchard",
+		"Name of Location": "L'Île-Bouchard",
+		"City or Larger Place": "L'Île-Bouchard",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/pUZjJiBcxGKpzXtw7",
+		"Coordinates": "47.12054696183189, 0.42299109743722096",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Lille-Archives_Departmentales",
+		"Name of Location": "Archives Départementales du Nord",
+		"City or Larger Place": "Lille",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/HUKJ2ig92FYHiEfn6",
+		"Coordinates": "50.62016700482111, 3.0431661098981024",
+		"URL": "https://archivesdepartementales.lenord.fr",
+		"Input data": "BSO",
+		"Date entered": "2023-5-4"
+	},
+	{
+		"Location ID (LOC)": "LOC:Loches",
+		"Name of Location": "Loches",
+		"City or Larger Place": "Loches",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/vMuyeMyzQf4aC6nD9",
+		"Coordinates": "47.12944602088033, 0.997791465498557",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Locronan",
+		"Name of Location": "Locronan",
+		"City or Larger Place": "Locronan",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/xHGD5Tjvjsydudsw8",
+		"Coordinates": "48.09860960556787, -4.207608817935596",
+		"Input data": "BSO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Loiano",
+		"Name of Location": "Loiano",
+		"City or Larger Place": "Loiano",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/NEmtnYuXxU7HXHvx7",
+		"Coordinates": "44.27232308372881, 11.317307507375741",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Lyon",
+		"Name of Location": "Lyon",
+		"City or Larger Place": "Lyon",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/y43Q51FoBkZT6DNY7",
+		"Coordinates": "45.763593228228494, 4.839570345938341",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Lyon-Basilique_Saint-Martin_dAinay",
+		"Name of Location": "Basilique Saint-Martin d'Ainay",
+		"City or Larger Place": "Lyon",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/yAZUJhapuZhW8J6N6",
+		"Coordinates": "45.753683603558734, 4.827531871707965",
+		"Input data": "BSO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Macon",
+		"Name of Location": "Mâcon",
+		"City or Larger Place": "Mâcon",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/FFxyC2ZSF131972A7",
+		"Coordinates": "46.30708658070305, 4.829106052692328",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Magliano_Romano",
+		"Name of Location": "Magliano Romano",
+		"City or Larger Place": "Magliano Romano",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/Vv3qvBzqJvYtAsGcA",
+		"Coordinates": "42.16012118130383, 12.437432498073134",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Mainvaut",
+		"Name of Location": "Mainvaut",
+		"City or Larger Place": "Mainvaut",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/sQogcccnTeUpDzpWA",
+		"Coordinates": "50.6503879171574, 3.7172030362267874",
+		"Aliases": "Mainvault",
+		"Input data": "LO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Mantua",
+		"Name of Location": "Mantua",
+		"City or Larger Place": "Mantua",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/dZB5D9gsccXcdntt7",
+		"Coordinates": "45.156580400625906, 10.791274204809342",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Massa",
+		"Name of Location": "Massa",
+		"City or Larger Place": "Massa",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/n9983Pq2SGtEaphB6",
+		"Coordinates": "44.035601781038956, 10.139077682384428",
+		"Input data": "BSO",
+		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Maulde",
+		"Name of Location": "Maulde",
+		"City or Larger Place": "Maulde",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/195aK1S6F1L6KrN58",
+		"Coordinates": "50.6169369998807, 3.5480782730180658",
+		"Input data": "LO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Mechelen-Sint-Romboutskathedraal",
+		"Name of Location": "Sint-Romboutskathedraal",
+		"City or Larger Place": "Mechelen",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/EDaTXkEoR3KfTqxr6",
+		"Coordinates": "51.02898617735255, 4.479983144920887",
+		"Aliases": "Church of St. Rombaut",
+		"Input data": "BSO",
+		"Date entered": "2024-3-16"
+	},
+	{
+		"Location ID (LOC)": "LOC:Mechelen-Stadsarchief",
+		"Name of Location": "Stadsarchief",
+		"City or Larger Place": "Mechelen",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/etXUFJiRZ7dLVs5c9",
+		"Coordinates": "51.034230033638046, 4.479290305685832",
+		"Input data": "BSO",
+		"Date entered": "2024-3-16"
+	},
+	{
+		"Location ID (LOC)": "LOC:Melegnano",
+		"Name of Location": "Melegnano",
+		"City or Larger Place": "Melegnano",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/fuQAazdVm31ToGM96",
+		"Coordinates": "45.35614813814076, 9.322126086552313",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Melun",
+		"Name of Location": "Melun",
+		"City or Larger Place": "Melun",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/fo697n8iEZKAzeGZ8",
+		"Coordinates": "48.542132062609234, 2.6567044599835845",
+		"Input data": "BSO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Meslay-du-Maine",
+		"Name of Location": "Meslay-du-Maine",
+		"City or Larger Place": "Meslay-du-Maine",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/v7hxoLUDFihQyXCq5",
+		"Coordinates": "47.95000951952568, -0.5521125685006583",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Migliarino",
+		"Name of Location": "Migliarino",
+		"City or Larger Place": "Migliarino",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/MuWFwwyof7SAWxwG9",
+		"Coordinates": "44.771284063738875, 11.93137826718972",
+		"Aliases": "Migliaro",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Milan",
+		"Name of Location": "Milan",
+		"City or Larger Place": "Milan",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/PyivAvxzJ8AQD2g68",
+		"Coordinates": "45.46390820662916, 9.194208207771696",
+		"Wikidata": "Q490",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Milan-Duomo_di_Milano",
+		"Name of Location": "Duomo di Milano",
+		"City or Larger Place": "Milan",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/V7JbnqC9W1jpgdu99",
+		"Coordinates": "45.46422549140767, 9.192065972238165",
+		"Input data": "BSO",
+		"Date entered": "2023-5-3"
+	},
+	{
+		"Location ID (LOC)": "LOC:Milan-Rho",
+		"Name of Location": "Rho",
+		"City or Larger Place": "Milan",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/3v987f1F8tyegM4L8",
+		"Coordinates": "45.532541479216626, 9.038180100754396",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Mirandola",
+		"Name of Location": "Mirandola",
+		"City or Larger Place": "Mirandola",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/YUBjrXm1hgSJjgiG7",
+		"Coordinates": "44.88631067838768, 11.059362193177517",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Modena",
+		"Name of Location": "Modena",
+		"City or Larger Place": "Modena",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/9smWTTD9ZwNYQx8A8",
+		"Coordinates": "44.64794929608133, 10.925161875638802",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Modena-Archivio_di_Stato",
+		"Name of Location": "Archivio di Stato di Modena",
+		"City or Larger Place": "Modena",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/hioVpkfK9Xw9iEvs8",
+		"Coordinates": "44.6501942865878, 10.928278990624882",
+		"URL": "https://asmo.cultura.gov.it/home",
+		"Input data": "BSO",
+		"Date entered": "2023-5-4"
+	},
+	{
+		"Location ID (LOC)": "LOC:Monthlery",
+		"Name of Location": "Monthléry",
+		"City or Larger Place": "Monthléry",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/KMMwhxCrRSqM64yt5",
+		"Coordinates": "48.63828344717152, 2.271836582648886",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Montroeul",
+		"Name of Location": "Montroeul",
+		"City or Larger Place": "Montroeul",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/JBRSPs5rdXfrhW8x7",
+		"Coordinates": "50.435906835125046, 3.7085102842826863",
+		"Input data": "LO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Morlaix",
+		"Name of Location": "Morlaix",
+		"City or Larger Place": "Morlaix",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/ejPEXmVT8VadEfhF7",
+		"Coordinates": "48.57735258682668, -3.8294977294388888",
+		"Input data": "BSO",
+		"Date entered": "2024-1-25"
+	},
+	{
+		"Location ID (LOC)": "LOC:Moulins",
+		"Name of Location": "Moulins",
+		"City or Larger Place": "Moulins",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/eAk38UbaFAWSrRBg9",
+		"Coordinates": "46.56779929737375, 3.3344970007899164",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Moustiers",
+		"Name of Location": "Moustiers",
+		"City or Larger Place": "Moustiers",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/fjMkYR1VbXyJS4Wj9",
+		"Coordinates": "43.84503264103763, 6.224227903183533",
+		"Aliases": "Moustiers-Sainte-Marie",
+		"Input data": "LO",
+		"Date entered": "2023-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Nantes",
+		"Name of Location": "Nantes",
+		"City or Larger Place": "Nantes",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/p53VDB39uE2jyfJo8",
+		"Coordinates": "47.216986777408, -1.5476348568541896",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Nantes-Cathedrale_Saint-Pierre",
+		"Name of Location": "Cathédrale Saint-Pierre-et-Saint-Paul de Nantes",
+		"City or Larger Place": "Nantes",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/uQPBK4VWJz5nsrUt8",
+		"Coordinates": "47.21837956790254, -1.5501218192375206",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Nantes-Chateau_des_ducs",
+		"Name of Location": "Château des ducs de Bretagne",
+		"City or Larger Place": "Nantes",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/kHU1APmN2cd86QPV9",
+		"Coordinates": "47.21629673329054, -1.5482665480736886",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Nesle",
+		"Name of Location": "Nesle",
+		"City or Larger Place": "Nesle",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/upFdvPKrQz59nEXd9",
+		"Coordinates": "49.75719620675876, 2.909112141421389",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Nevers",
+		"Name of Location": "Nevers",
+		"City or Larger Place": "Nevers",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/9aziqnGP2RuYP8Mz9",
+		"Coordinates": "46.99053086624116, 3.161481544121609",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Oeudeghien",
+		"Name of Location": "Oeudeghien",
+		"City or Larger Place": "Oeudeghien",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/iNf55VxTaFmgoFAi9",
+		"Coordinates": "50.68147773855011, 3.7131049663583813",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Olivet-Abbaye_de_Clairmont",
+		"Name of Location": "Abbaye de Clairmont",
+		"City or Larger Place": "Olivet",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/GLy15ArfK7YvhhPJ8",
+		"Coordinates": "48.097640289997884, -0.9318864458785548",
+		"Input data": "BSO",
+		"Date entered": "2024-1-25"
+	},
+	{
+		"Location ID (LOC)": "LOC:Orange",
+		"Name of Location": "Orange",
+		"City or Larger Place": "Orange",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/CkkAPQPWjcBMQwKV9",
+		"Coordinates": "44.14097780053765, 4.7914450233622325",
+		"Wikidata": "Q187796",
+		"Input data": "LO",
+		"Date entered": "2023-5-22"
+	},
+	{
+		"Location ID (LOC)": "LOC:Orleans",
+		"Name of Location": "Orléans",
+		"City or Larger Place": "Orléans",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/fU9uRsQuzFejGox2A",
+		"Coordinates": "47.903086747057856, 1.9104953286013922",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Orleans-Archives_du_Loiret",
+		"Name of Location": "Orleans Archives départementales du Loiret",
+		"City or Larger Place": "Orleans",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/d6RPZZgg2WauMvkB6",
+		"Coordinates": "47.902606197200726, 1.9022838723775408",
+		"URL": "https://archives-loiret.fr/",
+		"Input data": "ECZ",
+		"Date entered": "2024-2-22"
+	},
+	{
+		"Location ID (LOC)": "LOC:Orleans-Saint_Aignan",
+		"Name of Location": "Saint-Aignan of Orléans",
+		"City or Larger Place": "Orleans",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/Uutcds6L69K3qJDD7",
+		"Coordinates": "47.899849657359425, 1.9153514460266479",
+		"Input data": "ECZ",
+		"Date entered": "2024-2-22"
+	},
+	{
+		"Location ID (LOC)": "LOC:Padua",
+		"Name of Location": "Padua",
+		"City or Larger Place": "Padua",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/9vcaFy7gwse7dMth6",
+		"Coordinates": "45.406014267702446, 11.87476548629084",
+		"Input data": "BSO",
+		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Padua-Basilica_Cattedrale_di_Santa_Maria_Assunta",
+		"Name of Location": "Basilica cattedrale di Santa Maria Assunta",
+		"City or Larger Place": "Padua",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/qucDihzoW88JN8QJ7",
+		"Coordinates": "45.406727624600954, 11.872219164340853",
+		"Input data": "LO",
+		"Date entered": "2023-5-22",
+		"Update data": "BSO",
+		"Date updated": "2024-1-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Padua-Basilica_di_SantAntonio_di_Padova",
+		"Name of Location": "Basilica di Sant'Antonio di Padova",
+		"City or Larger Place": "Padua",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/QoZZEMaKjxzq3jhr7",
+		"Coordinates": "45.40149200127471, 11.881449014062076",
+		"Input data": "LO",
+		"Date entered": "2023-5-22",
+		"Update data": "BSO",
+		"Date updated": "2024-1-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Paris",
+		"Name of Location": "Paris",
+		"City or Larger Place": "Paris",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/mNbbVgqMx72CnG1aA",
+		"Coordinates": "48.85634077897506, 2.354242318994187",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Paris-BNF",
+		"Name of Location": "Bibliothèque Nationale de France",
+		"City or Larger Place": "Paris",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/XQtXgwvuXnbeFFyZ7",
+		"Coordinates": "48.867902161303086, 2.338117137337968",
+		"Aliases": "BNF",
+		"URL": "https://www.bnf.fr/en/bibliotheque-nationale-de-france-catalogue-general",
+		"Input data": "ECZ",
+		"Date entered": "2024-2-22"
+	},
+	{
+		"Location ID (LOC)": "LOC:Paris-Bois-de-Vincennes",
+		"Name of Location": "Bois-de-Vincennes",
+		"City or Larger Place": "Paris",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/Y5QU6gTEkAECsGGy9",
+		"Coordinates": "48.82962843497866, 2.437903277534186",
+		"Input data": "BSO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Paris-Notre-Dame",
+		"Name of Location": "Notre-Dame de Paris",
+		"City or Larger Place": "Paris",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/6ZbWG1z3F61N61sK6",
+		"Coordinates": "48.85301052834951, 2.3503848943494003",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Paris-Porte_Saint-Denis",
+		"Name of Location": "Porte Saint-Denis",
+		"City or Larger Place": "Paris",
+		"Modern Country": "France",
+		"Coordinates": "48.869758758702034, 2.352674375117449",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Parma",
+		"Name of Location": "Parma",
+		"City or Larger Place": "Parma",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/eMDW1a2mbFmCbj3E8",
+		"Coordinates": "44.801100316638326, 10.330718198302144",
+		"Input data": "BSO",
+		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Pesaro",
+		"Name of Location": "Pesaro",
+		"City or Larger Place": "Pesaro",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/GatvVhwhpa472mHw6",
+		"Coordinates": "43.912298618311524, 12.918183375652852",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Peschiera_del_Garda",
+		"Name of Location": "Peschiera del Garda",
+		"City or Larger Place": "Peschiera del Garda",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/p4Ayb9s71H3fYXdP6",
+		"Coordinates": "45.439724275589974, 10.68669596734244",
+		"Input data": "BSO",
+		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Plessis-lez-Tours",
+		"Name of Location": "Plessis-lez-Tours",
+		"City or Larger Place": "La Riche",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/fRanMSndZSYKPLWu7",
+		"Coordinates": "47.3835355493085, 0.6605182022726417",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Poissy",
+		"Name of Location": "Poissy",
+		"City or Larger Place": "Poissy",
+		"Google URL": "https://goo.gl/maps/eQ9vpm5oy4wgXTGR9",
+		"Coordinates": "48.92963892289776, 2.0461617993858714",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Poitiers-Archives_Vienne",
+		"Name of Location": "Archives départementales de la Vienne",
+		"City or Larger Place": "Poitiers",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/vvzMHwW9t3rvCD7H9",
+		"Coordinates": "46.56669994047097, 0.3702402288358067",
+		"URL": "https://archives-deux-sevres-vienne.fr/",
+		"Input data": "ECZ",
+		"Date entered": "2024-2-22"
+	},
+	{
+		"Location ID (LOC)": "LOC:Poitiers-Saint_Hilaire",
+		"Name of Location": "Church of Saint-Hilaire of Poitiers",
+		"City or Larger Place": "Poitiers",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/8Bm4oqXTTMi1gYrUA",
+		"Coordinates": "46.57750647089584, 0.3323696140045852",
+		"Input data": "ECZ",
+		"Date entered": "2024-2-22"
+	},
+	{
+		"Location ID (LOC)": "LOC:Polesella",
+		"Name of Location": "Polesella",
+		"City or Larger Place": "Polesella",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/CNkQ9toxonHC6qUKA",
+		"Coordinates": "44.964024926524196, 11.750855061770514",
+		"Input data": "BSO",
+		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Popuelles",
+		"Name of Location": "Popuelles",
+		"City or Larger Place": "Popuelles",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/aUZtpoPXd35erNYp9",
+		"Coordinates": "50.6688532330955, 3.5164998634281055",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Pottes",
+		"Name of Location": "Pottes",
+		"City or Larger Place": "Pottes",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/DgxoH8yAAaceMHgG8",
+		"Coordinates": "50.73195741201547, 3.4065193531004265",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Pottes-Escaut",
+		"Name of Location": "Escaut near Pottes",
+		"City or Larger Place": "Escaut",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/GiqMhLxqQLBBQQJLA",
+		"Coordinates": "50.73297320885057, 3.397196966670642",
+		"Aliases": "Scheldt",
+		"Input data": "LO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Quartes",
+		"Name of Location": "Quartes",
+		"City or Larger Place": "Quartes",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/xHn4morcJDXuFwMf6",
+		"Coordinates": "50.6549307235917, 3.513167744453804",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Quimper",
+		"Name of Location": "Quimper",
+		"City or Larger Place": "Quimper",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/9RBthAwZrGzs1L6A9",
+		"Coordinates": "47.99629579254708, -4.096516065873283",
+		"Input data": "BSO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Reggio",
+		"Name of Location": "Reggio",
+		"City or Larger Place": "Reggio",
+		"Modern Country": "Italy",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Reims",
+		"Name of Location": "Reims",
+		"City or Larger Place": "Reims",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/UEzMvww5wxKUQciJ6",
+		"Coordinates": "49.25858953522194, 4.030367242701698",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Renaix",
+		"Name of Location": "Renaix",
+		"City or Larger Place": "Renaix",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/ZPZPhC2vwZeeiNE88",
+		"Coordinates": "50.747048142285884, 3.6019394818312516",
+		"Aliases": "Ronse",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Rennes",
+		"Name of Location": "Rennes",
+		"City or Larger Place": "Rennes",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/k2KiA8kLQiVpBzBD8",
+		"Coordinates": "48.11659240468555, -1.6709372314166058",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Rimini",
+		"Name of Location": "Rimini",
+		"City or Larger Place": "Rimini",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/JsNyAKcTdueAY2yU6",
+		"Coordinates": "44.06591324161023, 12.559523113308297",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Rome",
+		"Name of Location": "Rome",
+		"City or Larger Place": "Rome",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/Xita9u8wtHU7GvHv8",
+		"Coordinates": "41.901265727908445, 12.507143890556955",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Rome-Castel_Giubileo",
+		"Name of Location": "Castel Giubileo",
+		"City or Larger Place": "Rome",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/g5azF4dDpbHtAZAf8",
+		"Coordinates": "41.98748706386106, 12.506577370924758",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Rome-Chiesa_di_San_Giuliano_dei_Fiamminghi",
+		"Name of Location": "Chiesa di San Giuliano dei Fiamminghi",
+		"City or Larger Place": "Rome",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/fdgDHbauiggsNnvt8",
+		"Coordinates": "42.020483273207184, 12.45839550217229",
+		"Wikidata": "Q1143123",
+		"Input data": "LO",
+		"Date entered": "2023-5-19",
+		"Update data": "BSO",
+		"Date updated": "2024-1-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Romorantin-Lanthenay",
+		"Name of Location": "Romorantin-Lanthenay",
+		"City or Larger Place": "Romorantin-Lanthenay",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/1Ya2sMW1Cv36SsGw5",
+		"Coordinates": "47.36136940180296, 1.7272318023379432",
+		"Aliases": "Romorantin",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ronciglione",
+		"Name of Location": "Ronciglione",
+		"City or Larger Place": "Ronciglione",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/wahz2V1X3pvjWS3q6",
+		"Coordinates": "42.29432084461648, 12.220563193548568",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Rubiera",
+		"Name of Location": "Rubiera",
+		"City or Larger Place": "Rubiera",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/dRupT5Au1rxyp3Mn6",
+		"Coordinates": "44.653018061504234, 10.780074104553874",
+		"Aliases": "Herberia",
+		"Input data": "BSO",
+		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Sabbioncello_San_Vittore",
+		"Name of Location": "Sabbioncello San Vittore",
+		"City or Larger Place": "Sabbioncello San Vittore",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/ftdAEwLid57nLBJ67",
+		"Coordinates": "44.83830984419105, 11.826285856484972",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint_Omer-Cathedrale_Notre-Dame",
+		"Name of Location": "Cathédrale Notre-Dame de Saint-Omer",
+		"City or Larger Place": "Saint-Omer",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/HajkvRgHrLybBJSZ7",
+		"Coordinates": "50.747324634560734, 2.252969285079315",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint-Amand",
+		"Name of Location": "Saint-Amand",
+		"City or Larger Place": "Saint-Amand",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/VPxuFZLgKzE8ojJq7",
+		"Coordinates": "50.51979231276751, 4.544283827571723",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint-Brieuc",
+		"Name of Location": "Saint-Brieuc",
+		"City or Larger Place": "Saint-Brieuc",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/truiwvonwFcWPirT7",
+		"Coordinates": "48.51330422750265, -2.770385436915853",
+		"Input data": "BSO",
+		"Date entered": "2024-1-25"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint-Denis",
+		"Name of Location": "Saint-Denis",
+		"City or Larger Place": "Saint-Denis",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/3ejqv3LVLmQYXiKLA",
+		"Coordinates": "48.936434460141136, 2.359350384321306",
+		"Input data": "BSO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint-Denis-Basilique_Saint-Denis",
+		"Name of Location": "Basilique Saint-Denis",
+		"City or Larger Place": "Saint-Denis",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/2Bxwa9VqeSJbekVq8",
+		"Coordinates": "48.935630319842595, 2.360436211550858",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint-Germain-en-Laye",
+		"Name of Location": "Saint-Germain-en-Laye",
+		"City or Larger Place": "Saint-Germain-en-Laye",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/Hp554DCVfTS7Pf4t8",
+		"Coordinates": "48.897981122198324, 2.1028220350820725",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint-Jean-du-Doigt",
+		"Name of Location": "Saint-Jean-du-Doigt",
+		"City or Larger Place": "Saint-Jean-du-Doigt",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/EkDE2yBXhyXtDTYD7",
+		"Coordinates": "48.66532681481105, -3.7641937823262497",
+		"Input data": "BSO",
+		"Date entered": "2024-1-25"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint-Malo",
+		"Name of Location": "Saint-Malo",
+		"City or Larger Place": "Saint-Malo",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/tNFqBm8JMs5y8gCWA",
+		"Coordinates": "48.64935410614159, -2.0262047000978463",
+		"Input data": "BSO",
+		"Date entered": "2024-1-25"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint-Pol-de-Leon",
+		"Name of Location": "Saint-Pol-de-Léon",
+		"City or Larger Place": "Saint-Pol-de-Léon",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/oUUa1YGpm87Swkvd7",
+		"Coordinates": "48.683649917790675, -3.9834026044130075",
+		"Input data": "BSO",
+		"Date entered": "2024-1-25"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint-Sauveur",
+		"Name of Location": "Saint-Sauveur",
+		"City or Larger Place": "Saint-Sauveur",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/4WbceDZDtpxpiJsWA",
+		"Coordinates": "50.71585037822556, 3.6031307675430146",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:San_Vito",
+		"Name of Location": "San Vito",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saumur",
+		"Name of Location": "Saumur",
+		"City or Larger Place": "Saumur",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/k7WjsaA395HyNMwG6",
+		"Coordinates": "47.25972600105215, -0.08075666226480538",
+		"Input data": "BSO",
+		"Date entered": "2024-2-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Savignano_sul_Rubicone",
+		"Name of Location": "Savignano sul Rubicone",
+		"City or Larger Place": "Savignano sul Rubicone",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/CG3MZZdhE3bduk5f7",
+		"Coordinates": "44.09353240192197, 12.400729164208345",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Savona",
+		"Name of Location": "Savona",
+		"City or Larger Place": "Savona",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/C4fZcGdjWi3wtAEv9",
+		"Coordinates": "44.29739695359327, 8.470392529680641",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Seiches-sur-le-Loir-Chateau_Le_Vergier",
+		"Name of Location": "Château le Verger",
+		"City or Larger Place": "Seiches sur le Loir",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/SFEKWERbruygM4Tx9",
+		"Coordinates": "47.598757721621816, -0.3590111152577958",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Siena-Duomo_di_Siena",
+		"Name of Location": "Duomo di Siena",
+		"City or Larger Place": "Siena",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/mQD5BRy1k2GTfFy39",
+		"Coordinates": "43.31783457094821, 11.329089487487689",
+		"Input data": "BSO",
+		"Date entered": "2023-5-3"
+	},
+	{
+		"Location ID (LOC)": "LOC:Spilimberto",
+		"Name of Location": "Spilimberto",
+		"City or Larger Place": "Spilimberto",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/onr4TeARQRDJfxRLA",
+		"Coordinates": "44.53368827222971, 11.020976771863324",
+		"Input data": "BSO",
+		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Suscinio",
+		"Name of Location": "Suscinio",
+		"City or Larger Place": "Suscinio",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/cgxk8haaUhYGTBBG7",
+		"Coordinates": "47.52203367269411, -2.6849845202386247",
+		"Input data": "BSO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Thieulain",
+		"Name of Location": "Thieulain",
+		"City or Larger Place": "Thieulain",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/uVa8VNPcDaaPjedF8",
+		"Coordinates": "50.6207161823949, 3.605272512196036",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Thouars",
+		"Name of Location": "Thouars",
+		"City or Larger Place": "Thouars",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/U19PV1fpjuzVhLeh7",
+		"Coordinates": "46.97916009434013, -0.2353061891102845",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Tiffauges",
+		"Name of Location": "Tiffauges",
+		"City or Larger Place": "Tiffauges",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/9VtoamycyjH7nw7V9",
+		"Coordinates": "47.01307441224209, -1.1148221850025433",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Tournai",
+		"Name of Location": "Tournai",
+		"City or Larger Place": "Tournai",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/HBY3X4MYHPopo25s6",
+		"Coordinates": "50.60438791776806, 3.3912704563427827",
+		"Input data": "LO",
+		"Date entered": "2024-1-22"
+	},
+	{
+		"Location ID (LOC)": "LOC:Tournus",
+		"Name of Location": "Tournus",
+		"City or Larger Place": "Tournus",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/ubtzBHMSkFVHvUKP8",
+		"Coordinates": "46.56230875708862, 4.911076990359664",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Tours",
+		"Name of Location": "Tours",
+		"City or Larger Place": "Tours",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/TUtzErhYSX5y9hVEA",
+		"Coordinates": "47.39470747173119, 0.686183769462214",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Tours-Saint_Martin",
+		"Name of Location": "Saint-Martin of Tours",
+		"City or Larger Place": "Tours",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/kR95Hp6VRZSuzo877",
+		"Coordinates": "47.39362987127876, 0.6826726232838641",
+		"Input data": "ECZ",
+		"Date entered": "2024-2-22"
+	},
+	{
+		"Location ID (LOC)": "LOC:Treguier",
+		"Name of Location": "Tréguier",
+		"City or Larger Place": "Tréguier",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/qttCJGAS4SA9sqYEA",
+		"Coordinates": "48.78759063474656, -3.2309706267178386",
+		"Input data": "BSO",
+		"Date entered": "2024-1-25"
+	},
+	{
+		"Location ID (LOC)": "LOC:Trento",
+		"Name of Location": "Trento",
+		"City or Larger Place": "Trento",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/DmsHmvVWKzrsyiyF9",
+		"Coordinates": "46.074380986488805, 11.121385050086475",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Turin",
+		"Name of Location": "Turin",
+		"City or Larger Place": "Turin",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/GFV2wHLPHd73inPVA",
+		"Coordinates": "45.0725338852325, 7.6875961550146155",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Tuscanella",
+		"Name of Location": "Tuscanella",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ulma",
+		"Name of Location": "Ulma",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Urbino",
+		"Name of Location": "Urbino",
+		"City or Larger Place": "Urbino",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/rQyX2YaHqVT9tku69",
+		"Coordinates": "43.72586079227329, 12.636939725179847",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Vaccarassio",
+		"Name of Location": "Vaccarassio",
+		"City or Larger Place": "Vaccarassio",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/FZp8aH2GJaSDtciK9",
+		"Coordinates": "44.137959898504995, 4.9829967690436225",
+		"Wikidata": "Q504909",
+		"Aliases": "Vacqueyras",
+		"Input data": "LO",
+		"Date entered": "2023-5-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Valence",
+		"Name of Location": "Valence",
+		"City or Larger Place": "Valence",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/PHEZxdmf3e9t5Ykb9",
+		"Coordinates": "44.933384129850346, 4.901450461432498",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Valenciennes",
+		"Name of Location": "Valenciennes",
+		"City or Larger Place": "Valenciennes",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/ZLFPZLiPDb1FD6U69",
+		"Coordinates": "50.3571985714604, 3.5166583876261717",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Vannes",
+		"Name of Location": "Vannes",
+		"City or Larger Place": "Vannes",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/bAWLEGJq5eNiGAH26",
+		"Coordinates": "47.657587381927996, -2.757046652293406",
+		"Input data": "BSO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Vasinburgo",
+		"Name of Location": "Vasinburgo",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Vatican",
+		"Name of Location": "Vatican City",
+		"City or Larger Place": "Vatican City",
+		"Modern Country": "Vatican City",
+		"Google URL": "https://goo.gl/maps/LfHZu6BmqwXrUa1w8",
+		"Coordinates": "41.902053936326794, 12.455099071146412",
+		"Input data": "BSO",
+		"Date entered": "2023-5-3"
+	},
+	{
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Name of Location": "Basilica Papale di San Pietro",
+		"City or Larger Place": "Vatican City",
+		"Modern Country": "Vatican",
+		"Google URL": "https://maps.app.goo.gl/cwu8tLmiwCSHxhS88",
+		"Coordinates": "41.90235034144136, 12.45401716407599",
+		"Wikidata": "Q12512",
+		"Aliases": "St Peter's",
+		"Input data": "LO",
+		"Date entered": "2023-5-15"
+	},
+	{
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Name of Location": "Bibliotheca Apostolica Vaticana",
+		"City or Larger Place": "Vatican City",
+		"Modern Country": "Vatican City",
+		"Google URL": "https://goo.gl/maps/uN5PGiTDwq8aT62E7",
+		"Coordinates": "41.9048999311088, 12.455663000456717",
+		"Wikidata": "Q641",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
+		"Name of Location": "Cappella Sistina",
+		"City or Larger Place": "Vatican City",
+		"Modern Country": "Vatican",
+		"Google URL": "https://maps.app.goo.gl/LAV6qEYppzUgDKcN7",
+		"Coordinates": "41.903018101017686, 12.454478959523778",
+		"Input data": "LO",
+		"Date entered": "2024-2-11"
+	},
+	{
+		"Location ID (LOC)": "LOC:Velaine",
+		"Name of Location": "Velaine",
+		"City or Larger Place": "Velaine",
+		"Input data": "LO",
+		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Velaines",
+		"Name of Location": "Velaines",
+		"City or Larger Place": "Velaines",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/LZBEoGQtCGGQC1KU8",
+		"Coordinates": "50.67853340077704, 3.489800396912093",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Venice",
+		"Name of Location": "Venice",
+		"City or Larger Place": "Venice",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/Dw3A5Bf8ZKhtVL6J9",
+		"Coordinates": "45.439606539608135, 12.320718269276547",
+		"Input data": "BSO",
+		"Date entered": "2023-5-3"
+	},
+	{
+		"Location ID (LOC)": "LOC:Venice-Basilica_di_San_Marco",
+		"Name of Location": "Venice",
+		"City or Larger Place": "Venice",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/gU9mTCYxr7TaZ4Cq9",
+		"Coordinates": "45.43456011262989, 12.339713283482023",
+		"Input data": "LO",
+		"Date entered": "2024-3-22"
+	},
+	{
+		"Location ID (LOC)": "LOC:Verona",
+		"Name of Location": "Verona",
+		"City or Larger Place": "Verona",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/Waxm42mG2QYVzxRy5",
+		"Coordinates": "45.43889156614366, 10.986865844530875",
+		"Input data": "BSO",
+		"Date entered": "2023-5-3"
+	},
+	{
+		"Location ID (LOC)": "LOC:Vienna",
+		"Name of Location": "Vienna",
+		"City or Larger Place": "Vienna",
+		"Modern Country": "Austria",
+		"Google URL": "https://maps.app.goo.gl/PemX21FTLt7i3yZY6",
+		"Coordinates": "48.21010074830227, 16.39202252903936",
+		"Input data": "BSO",
+		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Vigevano",
+		"Name of Location": "Vigevano",
+		"City or Larger Place": "Vigevano",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/8zRk4HWw71SRU49w6",
+		"Coordinates": "45.322669785634076, 8.854451113510965",
+		"Input data": "BSO",
+		"Date entered": "2024-2-11"
+	},
+	{
+		"Location ID (LOC)": "LOC:Villers-Notre-Dame",
+		"Name of Location": "Villers-Notre-Dame",
+		"City or Larger Place": "Villers-Notre-Dame",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/cxbwfJdpjHjTceC56",
+		"Coordinates": "50.61762498149518, 3.742035102585504",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Vincennes-Chateau_de_Vincennes",
+		"Name of Location": "Château de Vincennes",
+		"City or Larger Place": "Vincennes",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/dBCeZ4rgyUKxVtLt7",
+		"Coordinates": "48.84265996388131, 2.4364590919711553",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Viterbo",
+		"Name of Location": "Viterbo",
+		"City or Larger Place": "Viterbo",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/z1EQAzNzLnqkcKaB6",
+		"Coordinates": "42.43673210470105, 12.134073772268174",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Vitre",
+		"Name of Location": "Vitré",
+		"City or Larger Place": "Vitré",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/WiNzabRfiyVJvcSy6",
+		"Coordinates": "48.12058031980275, -1.226837500931666",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Vorghenza",
+		"Name of Location": "Vorghenza",
+		"City or Larger Place": "Vorghenza",
+		"Modern Country": "Italy",
+		"Google URL": "https://goo.gl/maps/CDF77xNJERwGd7tr7",
+		"Coordinates": "44.76732039453713, 11.749590289425926",
+		"Input data": "BSO",
+		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Wastine",
+		"Name of Location": "Wastine",
+		"City or Larger Place": "Wastine",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/yYoLEeWJRaBru7JZ8",
+		"Coordinates": "50.67090162962098, 4.804554725304624",
+		"Aliases": "Wastines",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Wattripont",
+		"Name of Location": "Wattripont",
+		"City or Larger Place": "Wattripont",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/KzWdHKmUb8rX1H987",
+		"Coordinates": "50.72951709304043, 3.547994962855839",
+		"Input data": "LO",
+		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Worms",
+		"Name of Location": "Worms",
+		"City or Larger Place": "Worms",
+		"Modern Country": "Germany",
+		"Google URL": "https://maps.app.goo.gl/uEkAhfMwJC2hrZSX6",
+		"Coordinates": "49.63461719676762, 8.353168089977842",
+		"Input data": "BSO",
+		"Date entered": "2024-1-29"
+	},
+	{
+		"Location ID (LOC)": "LOC:Zocca",
+		"Name of Location": "Zocca",
+		"City or Larger Place": "Zocca",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/P8fvwP1yQrGozaRc7",
+		"Coordinates": "44.93832255108442, 11.74906653794804",
+		"Input data": "BSO",
+		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Conde_sur_lEscaut",
+		"Name of Location": "Condé-sur-l'Escaut",
+		"City or Larger Place": "Condé-sur-l'Escaut",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/nz6z2JpXudxUWQTH6",
+		"Coordinates": "50.448104567089395, 3.5948772967029776",
+		"Input data": "FEM",
+		"Date entered": "2024-4-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Aix_en_Provence",
+		"Name of Location": "Aix-en-Provence",
+		"City or Larger Place": "Aix-en-Provence",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/xtiEFnEVicsiNNbF8",
+		"Coordinates": "43.53090909518784, 5.4428556273405055",
+		"Input data": "FEM",
+		"Date entered": "2024-4-2"
+	}
+]
