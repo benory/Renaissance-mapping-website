@@ -1,14 +1,15 @@
 [
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "EVID",
+		"JavaScript Name": "EVID",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "A"
+		"Column": "A",
+		"Column Name": "Event ID"
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "LOCID",
+		"JavaScript Name": "LOCID",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "B",
@@ -16,7 +17,7 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "BIOID",
+		"JavaScript Name": "BIOID",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "C",
@@ -24,7 +25,7 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "OCCID",
+		"JavaScript Name": "OCCID",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "D",
@@ -32,7 +33,7 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "CERTLOC",
+		"JavaScript Name": "CERTLOC",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "F",
@@ -40,7 +41,7 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "EYEAR",
+		"JavaScript Name": "EYEAR",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "F",
@@ -48,7 +49,7 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "EMONTH",
+		"JavaScript Name": "EMONTH",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "G",
@@ -56,7 +57,7 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "EDAY",
+		"JavaScript Name": "EDAY",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "H",
@@ -64,7 +65,7 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "CERTEDATE",
+		"JavaScript Name": "CERTEDATE",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "I",
@@ -72,7 +73,7 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "LYEAR",
+		"JavaScript Name": "LYEAR",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "J",
@@ -80,7 +81,7 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "LMONTH",
+		"JavaScript Name": "LMONTH",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "K",
@@ -88,7 +89,7 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "LDAY",
+		"JavaScript Name": "LDAY",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "L",
@@ -96,7 +97,7 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "CERTLDATE",
+		"JavaScript Name": "CERTLDATE",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "M",
@@ -104,7 +105,7 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "DATERANGE",
+		"JavaScript Name": "DATERANGE",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "N",
@@ -112,7 +113,7 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "CERTRANGE",
+		"JavaScript Name": "CERTRANGE",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "O",
@@ -120,7 +121,7 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "EINFO",
+		"JavaScript Name": "EINFO",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "P",
@@ -128,7 +129,7 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "DOEID",
+		"JavaScript Name": "DOEID",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "Q",
@@ -136,7 +137,7 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "BIBID",
+		"JavaScript Name": "BIBID",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "R",
@@ -144,7 +145,7 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JSON Name": "BIBPAGES",
+		"JavaScript Name": "BIBPAGES",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
 		"Column": "S",
@@ -187,7 +188,7 @@
 	},
 	{
 		"Spreadsheet ID": "OCC",
-		"JSON Name": "OCCID",
+		"JavaScript Name": "OCCID",
 		"GID": "720598622",
 		"Spreadsheet Name": "Occasions",
 		"Column": "A",
@@ -195,7 +196,7 @@
 	},
 	{
 		"Spreadsheet ID": "OCC",
-		"JSON Name": "ONAME",
+		"JavaScript Name": "ONAME",
 		"GID": "720598622",
 		"Spreadsheet Name": "Occasions",
 		"Column": "B",
@@ -203,7 +204,7 @@
 	},
 	{
 		"Spreadsheet ID": "OCC",
-		"JSON Name": "OALIAS",
+		"JavaScript Name": "OALIAS",
 		"GID": "720598622",
 		"Spreadsheet Name": "Occasions",
 		"Column": "C",
@@ -211,7 +212,7 @@
 	},
 	{
 		"Spreadsheet ID": "OCC",
-		"JSON Name": "OINFO",
+		"JavaScript Name": "OINFO",
 		"GID": "720598622",
 		"Spreadsheet Name": "Occasions",
 		"Column": "D",
@@ -219,7 +220,7 @@
 	},
 	{
 		"Spreadsheet ID": "OCC",
-		"JSON Name": "BIBID",
+		"JavaScript Name": "BIBID",
 		"GID": "720598622",
 		"Spreadsheet Name": "Occasions",
 		"Column": "E",
@@ -227,7 +228,7 @@
 	},
 	{
 		"Spreadsheet ID": "OCC",
-		"JSON Name": "BIBPAGES",
+		"JavaScript Name": "BIBPAGES",
 		"GID": "720598622",
 		"Spreadsheet Name": "Occasions",
 		"Column": "F",
@@ -270,7 +271,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "DOEID",
+		"JavaScript Name": "DOEID",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "A",
@@ -278,7 +279,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "ARDID",
+		"JavaScript Name": "ARDID",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "B",
@@ -286,7 +287,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "PAGES",
+		"JavaScript Name": "PAGES",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "C",
@@ -294,7 +295,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "LANG",
+		"JavaScript Name": "LANG",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "D",
@@ -302,7 +303,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "EYEAR",
+		"JavaScript Name": "EYEAR",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "E",
@@ -310,7 +311,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "EMONTH",
+		"JavaScript Name": "EMONTH",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "F",
@@ -318,7 +319,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "EDAY",
+		"JavaScript Name": "EDAY",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "G",
@@ -326,7 +327,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "LYEAR",
+		"JavaScript Name": "LYEAR",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "H",
@@ -334,7 +335,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "LMONTH",
+		"JavaScript Name": "LMONTH",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "I",
@@ -342,7 +343,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "LDAY",
+		"JavaScript Name": "LDAY",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "J",
@@ -350,7 +351,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "DATERANGE",
+		"JavaScript Name": "DATERANGE",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "K",
@@ -358,7 +359,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "DOCTYPE",
+		"JavaScript Name": "DOCTYPE",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "M",
@@ -366,7 +367,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "BIBID",
+		"JavaScript Name": "BIBID",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "W",
@@ -374,7 +375,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "BIBPAGES",
+		"JavaScript Name": "BIBPAGES",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "X",
@@ -382,7 +383,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "DOCTEXT",
+		"JavaScript Name": "DOCTEXT",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "Q",
@@ -390,7 +391,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "DOCTRANS",
+		"JavaScript Name": "DOCTRANS",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "R",
@@ -398,7 +399,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "DINFO",
+		"JavaScript Name": "DINFO",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "L",
@@ -406,7 +407,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "RELPEOPLE",
+		"JavaScript Name": "RELPEOPLE",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "Y",
@@ -414,7 +415,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "PHOTO",
+		"JavaScript Name": "PHOTO",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "AA",
@@ -422,7 +423,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "PHOTOURL",
+		"JavaScript Name": "PHOTOURL",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "AB",
@@ -430,7 +431,7 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JSON Name": "PERM",
+		"JavaScript Name": "PERM",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "AC",
@@ -473,7 +474,7 @@
 	},
 	{
 		"Spreadsheet ID": "LOC",
-		"JSON Name": "LOCID",
+		"JavaScript Name": "LOCID",
 		"GID": "1472256039",
 		"Spreadsheet Name": "Locations",
 		"Column": "A",
@@ -481,7 +482,7 @@
 	},
 	{
 		"Spreadsheet ID": "LOC",
-		"JSON Name": "LOCNAME",
+		"JavaScript Name": "LOCNAME",
 		"GID": "1472256039",
 		"Spreadsheet Name": "Locations",
 		"Column": "B",
@@ -489,7 +490,7 @@
 	},
 	{
 		"Spreadsheet ID": "LOC",
-		"JSON Name": "CITY",
+		"JavaScript Name": "CITY",
 		"GID": "1472256039",
 		"Spreadsheet Name": "Locations",
 		"Column": "C",
@@ -497,7 +498,7 @@
 	},
 	{
 		"Spreadsheet ID": "LOC",
-		"JSON Name": "COUNTRY",
+		"JavaScript Name": "COUNTRY",
 		"GID": "1472256039",
 		"Spreadsheet Name": "Locations",
 		"Column": "D",
@@ -505,7 +506,7 @@
 	},
 	{
 		"Spreadsheet ID": "LOC",
-		"JSON Name": "GOOGLEURL",
+		"JavaScript Name": "GOOGLEURL",
 		"GID": "1472256039",
 		"Spreadsheet Name": "Locations",
 		"Column": "E",
@@ -513,7 +514,7 @@
 	},
 	{
 		"Spreadsheet ID": "LOC",
-		"JSON Name": "COORD",
+		"JavaScript Name": "COORD",
 		"GID": "1472256039",
 		"Spreadsheet Name": "Locations",
 		"Column": "F",
@@ -521,7 +522,7 @@
 	},
 	{
 		"Spreadsheet ID": "LOC",
-		"JSON Name": "WIKIDATA",
+		"JavaScript Name": "WIKIDATA",
 		"GID": "1472256039",
 		"Spreadsheet Name": "Locations",
 		"Column": "G",
@@ -529,7 +530,7 @@
 	},
 	{
 		"Spreadsheet ID": "LOC",
-		"JSON Name": "ALIAS",
+		"JavaScript Name": "ALIAS",
 		"GID": "1472256039",
 		"Spreadsheet Name": "Locations",
 		"Column": "H",
@@ -537,7 +538,7 @@
 	},
 	{
 		"Spreadsheet ID": "LOC",
-		"JSON Name": "LINFO",
+		"JavaScript Name": "LINFO",
 		"GID": "1472256039",
 		"Spreadsheet Name": "Locations",
 		"Column": "I",
@@ -545,7 +546,7 @@
 	},
 	{
 		"Spreadsheet ID": "LOC",
-		"JSON Name": "LOCURL",
+		"JavaScript Name": "LOCURL",
 		"GID": "1472256039",
 		"Spreadsheet Name": "Locations",
 		"Column": "J",
@@ -581,7 +582,7 @@
 	},
 	{
 		"Spreadsheet ID": "BCO",
-		"JSON Name": "BCOID",
+		"JavaScript Name": "BCOID",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
 		"Column": "A",
@@ -589,7 +590,7 @@
 	},
 	{
 		"Spreadsheet ID": "BCO",
-		"JSON Name": "BCONAME",
+		"JavaScript Name": "BCONAME",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
 		"Column": "B",
@@ -597,7 +598,7 @@
 	},
 	{
 		"Spreadsheet ID": "BCO",
-		"JSON Name": "ALIAS",
+		"JavaScript Name": "ALIAS",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
 		"Column": "C",
@@ -605,7 +606,7 @@
 	},
 	{
 		"Spreadsheet ID": "BCO",
-		"JSON Name": "BDATE",
+		"JavaScript Name": "BDATE",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
 		"Column": "D",
@@ -613,7 +614,7 @@
 	},
 	{
 		"Spreadsheet ID": "BCO",
-		"JSON Name": "DDATE",
+		"JavaScript Name": "DDATE",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
 		"Column": "E",
@@ -621,7 +622,7 @@
 	},
 	{
 		"Spreadsheet ID": "BCO",
-		"JSON Name": "BCOINFO",
+		"JavaScript Name": "BCOINFO",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
 		"Column": "F",
@@ -629,7 +630,7 @@
 	},
 	{
 		"Spreadsheet ID": "BCO",
-		"JSON Name": "BCOLOC",
+		"JavaScript Name": "BCOLOC",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
 		"Column": "G",
@@ -637,7 +638,7 @@
 	},
 	{
 		"Spreadsheet ID": "BCO",
-		"JSON Name": "BCOPOS",
+		"JavaScript Name": "BCOPOS",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
 		"Column": "H",
@@ -645,7 +646,7 @@
 	},
 	{
 		"Spreadsheet ID": "BCO",
-		"JSON Name": "BCOYEARS",
+		"JavaScript Name": "BCOYEARS",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
 		"Column": "I",
@@ -653,7 +654,7 @@
 	},
 	{
 		"Spreadsheet ID": "BCO",
-		"JSON Name": "DIAMM",
+		"JavaScript Name": "DIAMM",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
 		"Column": "J",
@@ -661,7 +662,7 @@
 	},
 	{
 		"Spreadsheet ID": "BCO",
-		"JSON Name": "RISMID",
+		"JavaScript Name": "RISMID",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
 		"Column": "K",
@@ -669,7 +670,7 @@
 	},
 	{
 		"Spreadsheet ID": "BCO",
-		"JSON Name": "RISMURL",
+		"JavaScript Name": "RISMURL",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
 		"Column": "L",
@@ -677,15 +678,15 @@
 	},
 	{
 		"Spreadsheet ID": "BCO",
-		"JSON Name": "BIBID",
+		"JavaScript Name": "BIBID",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
 		"Column": "N",
-		"Column Name": "Bibliography ID (BIB)"
+		"Column Name": "Bibliography (BIB) ID"
 	},
 	{
 		"Spreadsheet ID": "BCO",
-		"JSON Name": "BIBPAGES",
+		"JavaScript Name": "BIBPAGES",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
 		"Column": "N",
@@ -728,7 +729,7 @@
 	},
 	{
 		"Spreadsheet ID": "BMU",
-		"JSON Name": "BMUID",
+		"JavaScript Name": "BMUID",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
 		"Column": "A",
@@ -736,7 +737,7 @@
 	},
 	{
 		"Spreadsheet ID": "BMU",
-		"JSON Name": "BMUNAME",
+		"JavaScript Name": "BMUNAME",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
 		"Column": "B",
@@ -744,7 +745,7 @@
 	},
 	{
 		"Spreadsheet ID": "BMU",
-		"JSON Name": "ALIAS",
+		"JavaScript Name": "ALIAS",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
 		"Column": "C",
@@ -752,7 +753,7 @@
 	},
 	{
 		"Spreadsheet ID": "BMU",
-		"JSON Name": "BDATE",
+		"JavaScript Name": "BDATE",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
 		"Column": "D",
@@ -760,7 +761,7 @@
 	},
 	{
 		"Spreadsheet ID": "BMU",
-		"JSON Name": "DDATE",
+		"JavaScript Name": "DDATE",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
 		"Column": "E",
@@ -768,7 +769,7 @@
 	},
 	{
 		"Spreadsheet ID": "BMU",
-		"JSON Name": "BMULOCID",
+		"JavaScript Name": "BMULOCID",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
 		"Column": "F",
@@ -776,7 +777,7 @@
 	},
 	{
 		"Spreadsheet ID": "BMU",
-		"JSON Name": "BMUPOS",
+		"JavaScript Name": "BMUPOS",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
 		"Column": "G",
@@ -784,7 +785,7 @@
 	},
 	{
 		"Spreadsheet ID": "BMU",
-		"JSON Name": "BMUYEARS",
+		"JavaScript Name": "BMUYEARS",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
 		"Column": "H",
@@ -792,7 +793,7 @@
 	},
 	{
 		"Spreadsheet ID": "BMU",
-		"JSON Name": "BMUINFO",
+		"JavaScript Name": "BMUINFO",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
 		"Column": "I",
@@ -800,7 +801,7 @@
 	},
 	{
 		"Spreadsheet ID": "BMU",
-		"JSON Name": "BIBID",
+		"JavaScript Name": "BIBID",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
 		"Column": "J",
@@ -808,7 +809,7 @@
 	},
 	{
 		"Spreadsheet ID": "BMU",
-		"JSON Name": "BIBPAGESS",
+		"JavaScript Name": "BIBPAGESS",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
 		"Column": "K",
@@ -851,7 +852,7 @@
 	},
 	{
 		"Spreadsheet ID": "BNO",
-		"JSON Name": "BNOID",
+		"JavaScript Name": "BNOID",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
 		"Column": "A",
@@ -859,7 +860,7 @@
 	},
 	{
 		"Spreadsheet ID": "BNO",
-		"JSON Name": "BNUNAME",
+		"JavaScript Name": "BNUNAME",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
 		"Column": "B",
@@ -867,7 +868,7 @@
 	},
 	{
 		"Spreadsheet ID": "BNO",
-		"JSON Name": "ALIAS",
+		"JavaScript Name": "ALIAS",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
 		"Column": "C",
@@ -875,7 +876,7 @@
 	},
 	{
 		"Spreadsheet ID": "BNO",
-		"JSON Name": "BDATE",
+		"JavaScript Name": "BDATE",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
 		"Column": "D",
@@ -883,7 +884,7 @@
 	},
 	{
 		"Spreadsheet ID": "BNO",
-		"JSON Name": "DDATE",
+		"JavaScript Name": "DDATE",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
 		"Column": "E",
@@ -891,7 +892,7 @@
 	},
 	{
 		"Spreadsheet ID": "BNO",
-		"JSON Name": "POS",
+		"JavaScript Name": "POS",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
 		"Column": "F",
@@ -899,7 +900,7 @@
 	},
 	{
 		"Spreadsheet ID": "BNO",
-		"JSON Name": "BNOINFO",
+		"JavaScript Name": "BNOINFO",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
 		"Column": "G",
@@ -907,7 +908,7 @@
 	},
 	{
 		"Spreadsheet ID": "BNO",
-		"JSON Name": "BIBID",
+		"JavaScript Name": "BIBID",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
 		"Column": "I",
@@ -915,7 +916,7 @@
 	},
 	{
 		"Spreadsheet ID": "BNO",
-		"JSON Name": "BIBPAGES",
+		"JavaScript Name": "BIBPAGES",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
 		"Column": "I",
@@ -958,7 +959,7 @@
 	},
 	{
 		"Spreadsheet ID": "ARD",
-		"JSON Name": "ARDID",
+		"JavaScript Name": "ARDID",
 		"GID": "1869779751",
 		"Spreadsheet Name": "Archival_Docs",
 		"Column": "A",
@@ -966,7 +967,7 @@
 	},
 	{
 		"Spreadsheet ID": "ARD",
-		"JSON Name": "LOCID",
+		"JavaScript Name": "LOCID",
 		"GID": "1869779751",
 		"Spreadsheet Name": "Archival_Docs",
 		"Column": "B",
@@ -974,7 +975,7 @@
 	},
 	{
 		"Spreadsheet ID": "ARD",
-		"JSON Name": "ARC",
+		"JavaScript Name": "ARC",
 		"GID": "1869779751",
 		"Spreadsheet Name": "Archival_Docs",
 		"Column": "C",
@@ -982,7 +983,7 @@
 	},
 	{
 		"Spreadsheet ID": "ARD",
-		"JSON Name": "ARCFOND",
+		"JavaScript Name": "ARCFOND",
 		"GID": "1869779751",
 		"Spreadsheet Name": "Archival_Docs",
 		"Column": "D",
@@ -990,7 +991,7 @@
 	},
 	{
 		"Spreadsheet ID": "ARD",
-		"JSON Name": "SIG",
+		"JavaScript Name": "SIG",
 		"GID": "1869779751",
 		"Spreadsheet Name": "Archival_Docs",
 		"Column": "E",
@@ -998,7 +999,7 @@
 	},
 	{
 		"Spreadsheet ID": "ARD",
-		"JSON Name": "AINFO",
+		"JavaScript Name": "AINFO",
 		"GID": "1869779751",
 		"Spreadsheet Name": "Archival_Docs",
 		"Column": "F",
@@ -1034,7 +1035,7 @@
 	},
 	{
 		"Spreadsheet ID": "BIB",
-		"JSON Name": "BIBID",
+		"JavaScript Name": "BIBID",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "A",
@@ -1042,7 +1043,7 @@
 	},
 	{
 		"Spreadsheet ID": "BIB",
-		"JSON Name": "AUTHOR",
+		"JavaScript Name": "AUTHOR",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "B",
@@ -1050,7 +1051,7 @@
 	},
 	{
 		"Spreadsheet ID": "BIB",
-		"JSON Name": "ARTNAME",
+		"JavaScript Name": "ARTNAME",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "C",
@@ -1058,7 +1059,7 @@
 	},
 	{
 		"Spreadsheet ID": "BIB",
-		"JSON Name": "VOLNAME",
+		"JavaScript Name": "VOLNAME",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "D",
@@ -1066,7 +1067,7 @@
 	},
 	{
 		"Spreadsheet ID": "BIB",
-		"JSON Name": "EDITOR",
+		"JavaScript Name": "EDITOR",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "E",
@@ -1074,7 +1075,7 @@
 	},
 	{
 		"Spreadsheet ID": "BIB",
-		"JSON Name": "VOLNO",
+		"JavaScript Name": "VOLNO",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "F",
@@ -1082,7 +1083,7 @@
 	},
 	{
 		"Spreadsheet ID": "BIB",
-		"JSON Name": "EDITION",
+		"JavaScript Name": "EDITION",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "G",
@@ -1090,7 +1091,7 @@
 	},
 	{
 		"Spreadsheet ID": "BIB",
-		"JSON Name": "SER",
+		"JavaScript Name": "SER",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "H",
@@ -1098,7 +1099,7 @@
 	},
 	{
 		"Spreadsheet ID": "BIB",
-		"JSON Name": "LOC",
+		"JavaScript Name": "LOC",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "I",
@@ -1106,7 +1107,7 @@
 	},
 	{
 		"Spreadsheet ID": "BIB",
-		"JSON Name": "PUB",
+		"JavaScript Name": "PUB",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "J",
@@ -1114,7 +1115,7 @@
 	},
 	{
 		"Spreadsheet ID": "BIB",
-		"JSON Name": "YEAR",
+		"JavaScript Name": "YEAR",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "K",
@@ -1122,7 +1123,7 @@
 	},
 	{
 		"Spreadsheet ID": "BIB",
-		"JSON Name": "PAGES",
+		"JavaScript Name": "PAGES",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "L",
@@ -1130,7 +1131,7 @@
 	},
 	{
 		"Spreadsheet ID": "BIB",
-		"JSON Name": "URL",
+		"JavaScript Name": "URL",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "M",

@@ -127,6 +127,15 @@
 		"Date entered": "2024-1-29"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Charles_VIII",
+		"Person Name": "Charles VIII, King of France",
+		"Birth Date": "1470-6-30",
+		"Death Date": "1498-4-7",
+		"Noted Positions": "King of France (r. 1483-1489)",
+		"Input data": "SMB",
+		"Date entered": "2024-5-29"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Claude_Hermere",
 		"Person Name": "Claude Hérmeré",
 		"Description": "cleric and librarian",

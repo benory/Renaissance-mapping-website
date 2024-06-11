@@ -1,5 +1,6 @@
 [
 	{
+		"Event ID": "EV:00001",
 		"Location ID (LOC)": "LOC:Cambrai-Eglise_Saint-Gery",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
 		"LOC Certainty": "1",
@@ -19,6 +20,7 @@
 		"Date updated": "2023-5-17"
 	},
 	{
+		"Event ID": "EV:00002",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
 		"LOC Certainty": "3",
@@ -38,6 +40,7 @@
 		"Date updated": "2023-5-17"
 	},
 	{
+		"Event ID": "EV:00003",
 		"Location ID (LOC)": "LOC:Vatican",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
 		"LOC Certainty": "1",
@@ -54,6 +57,7 @@
 		"Date updated": "2023-5-17"
 	},
 	{
+		"Event ID": "EV:00004",
 		"Location ID (LOC)": "LOC:Cambrai",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
 		"LOC Certainty": "3",
@@ -73,6 +77,7 @@
 		"Date updated": "2023-5-17"
 	},
 	{
+		"Event ID": "EV:00005",
 		"Location ID (LOC)": "LOC:Nesle",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Jean_Mouton",
 		"Earliest Year": "1477",
@@ -88,6 +93,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00006",
 		"Location ID (LOC)": "LOC:Saint_Omer-Cathedrale_Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Jean_Mouton",
 		"Earliest Year": "1494",
@@ -103,6 +109,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00007",
 		"Location ID (LOC)": "LOC:Cambrai-Cathedrale_Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Jean_Mouton",
 		"Earliest Year": "1498",
@@ -119,6 +126,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00008",
 		"Location ID (LOC)": "LOC:Amiens",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Jean_Mouton",
 		"Earliest Year": "1500",
@@ -135,6 +143,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00009",
 		"Location ID (LOC)": "LOC:Grenoble-Collegiale_Saint_Andre",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Jean_Mouton",
 		"Earliest Year": "1501",
@@ -153,6 +162,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00010",
 		"Location ID (LOC)": "LOC:Vincennes-Chateau_de_Vincennes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1498",
@@ -168,6 +178,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00011",
 		"Location ID (LOC)": "LOC:Reims",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1498",
@@ -183,6 +194,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00012",
 		"Location ID (LOC)": "LOC:Saint-Denis-Basilique_Saint-Denis",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1498",
@@ -199,6 +211,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00013",
 		"Location ID (LOC)": "LOC:Paris-Porte_Saint-Denis",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1498",
@@ -215,6 +228,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00014",
 		"Location ID (LOC)": "LOC:Paris-Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1498",
@@ -231,6 +245,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00015",
 		"Location ID (LOC)": "LOC:Legeuil",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1498",
@@ -247,6 +262,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00016",
 		"Location ID (LOC)": "LOC:Nantes-Chateau_des_ducs",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1499",
@@ -263,6 +279,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00017",
 		"Location ID (LOC)": "LOC:Nantes-Cathedrale_Saint-Pierre",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1499",
@@ -279,6 +296,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00018",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1499",
@@ -295,6 +313,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00019",
 		"Location ID (LOC)": "LOC:Milan",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1499",
@@ -310,6 +329,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00020",
 		"Location ID (LOC)": "LOC:Loches",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1500",
@@ -326,6 +346,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00021",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1500",
@@ -340,6 +361,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00022",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1501",
@@ -356,6 +378,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00023",
 		"Location ID (LOC)": "LOC:Asti",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1502",
@@ -371,6 +394,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00024",
 		"Location ID (LOC)": "LOC:Milan",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1502",
@@ -387,6 +411,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00025",
 		"Location ID (LOC)": "LOC:Genoa",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1502",
@@ -403,6 +428,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00026",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1503",
@@ -417,6 +443,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00027",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1504",
@@ -431,6 +458,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00028",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1507",
@@ -447,6 +475,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00029",
 		"Location ID (LOC)": "LOC:Asti",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1507",
@@ -463,6 +492,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00030",
 		"Location ID (LOC)": "LOC:Genoa",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1507",
@@ -479,6 +509,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00031",
 		"Location ID (LOC)": "LOC:Savona",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1507",
@@ -495,6 +526,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00032",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1507",
@@ -510,6 +542,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00033",
 		"Location ID (LOC)": "LOC:Tours",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1510",
@@ -526,6 +559,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00034",
 		"Location ID (LOC)": "LOC:Abbeville",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1514",
@@ -542,6 +576,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00035",
 		"Location ID (LOC)": "LOC:Saint-Denis-Basilique_Saint-Denis",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
 		"Earliest Year": "1514",
@@ -558,6 +593,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00036",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1503",
@@ -573,6 +609,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00037",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1503",
@@ -588,6 +625,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00038",
 		"Location ID (LOC)": "LOC:Florence",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1503",
@@ -603,6 +641,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00039",
 		"Location ID (LOC)": "LOC:Bologna",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1503",
@@ -618,6 +657,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00040",
 		"Location ID (LOC)": "LOC:Modena",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1503",
@@ -633,6 +673,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00041",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1503",
@@ -648,6 +689,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00042",
 		"Location ID (LOC)": "LOC:Modena",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1503",
@@ -663,6 +705,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00043",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1503",
@@ -678,6 +721,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00044",
 		"Location ID (LOC)": "LOC:Bologna",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1503",
@@ -693,6 +737,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00045",
 		"Location ID (LOC)": "LOC:Loiano",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1503",
@@ -708,6 +753,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00046",
 		"Location ID (LOC)": "LOC:La_Paglia",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1503",
@@ -723,6 +769,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00047",
 		"Location ID (LOC)": "LOC:Viterbo",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1503",
@@ -738,6 +785,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00048",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1503",
@@ -753,6 +801,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00049",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1503",
@@ -768,6 +817,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00050",
 		"Location ID (LOC)": "LOC:Modena",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1503",
@@ -783,6 +833,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00051",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1504",
@@ -798,6 +849,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00052",
 		"Location ID (LOC)": "LOC:Milan",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1504",
@@ -813,6 +865,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00053",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1504",
@@ -828,6 +881,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00054",
 		"Location ID (LOC)": "LOC:Mantua",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1504",
@@ -843,6 +897,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00055",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1504",
@@ -858,6 +913,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00056",
 		"Location ID (LOC)": "LOC:Borgio_S_Donnino",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1504",
@@ -873,6 +929,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00057",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1504",
@@ -888,6 +945,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00058",
 		"Location ID (LOC)": "LOC:Vorghenza",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1505",
@@ -903,6 +961,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00059",
 		"Location ID (LOC)": "LOC:Reggio",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1505",
@@ -918,6 +977,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00060",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1505",
@@ -933,6 +993,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00061",
 		"Location ID (LOC)": "LOC:Bellaria",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1505",
@@ -948,6 +1009,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00062",
 		"Location ID (LOC)": "LOC:Mirandola",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1505",
@@ -963,6 +1025,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00063",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1505",
@@ -978,6 +1041,7 @@
 		"Date entered": "2023-4-27"
 	},
 	{
+		"Event ID": "EV:00064",
 		"Location ID (LOC)": "LOC:Forli",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1506",
@@ -993,6 +1057,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00065",
 		"Location ID (LOC)": "LOC:Faenza",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1506",
@@ -1008,6 +1073,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00066",
 		"Location ID (LOC)": "LOC:Forli",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1506",
@@ -1023,6 +1089,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00067",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1506",
@@ -1038,6 +1105,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00068",
 		"Location ID (LOC)": "LOC:Bologna",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1506",
@@ -1053,6 +1121,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00069",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1506",
@@ -1068,6 +1137,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00070",
 		"Location ID (LOC)": "LOC:Modena",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1507",
@@ -1083,6 +1153,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00071",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1507",
@@ -1098,6 +1169,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00072",
 		"Location ID (LOC)": "LOC:Melegnano",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1507",
@@ -1113,6 +1185,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00073",
 		"Location ID (LOC)": "LOC:Milan",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1507",
@@ -1128,6 +1201,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00074",
 		"Location ID (LOC)": "LOC:Amboise",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1144,6 +1218,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00075",
 		"Location ID (LOC)": "LOC:Bonneval",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1160,7 +1235,8 @@
 		"Date entered": "2023-5-1"
 	},
 	{
-		"Location ID (LOC)": "LOC:Chartes",
+		"Event ID": "EV:00076",
+		"Location ID (LOC)": "#N/A",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
 		"Earliest Month": "6",
@@ -1175,6 +1251,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00077",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1190,6 +1267,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00078",
 		"Location ID (LOC)": "LOC:Monthlery",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1205,6 +1283,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00079",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1220,6 +1299,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00080",
 		"Location ID (LOC)": "LOC:Poissy",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1235,6 +1315,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00081",
 		"Location ID (LOC)": "LOC:Saint-Germain-en-Laye",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1251,6 +1332,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00082",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1267,6 +1349,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00083",
 		"Location ID (LOC)": "LOC:Poissy",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1282,6 +1365,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00084",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1297,6 +1381,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00085",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1312,6 +1397,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00086",
 		"Location ID (LOC)": "LOC:Monthlery",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1327,6 +1413,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00087",
 		"Location ID (LOC)": "LOC:Etampes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1343,7 +1430,8 @@
 		"Date entered": "2023-5-1"
 	},
 	{
-		"Location ID (LOC)": "LOC:Chartes",
+		"Event ID": "EV:00088",
+		"Location ID (LOC)": "#N/A",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
 		"Earliest Month": "8",
@@ -1358,6 +1446,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00089",
 		"Location ID (LOC)": "LOC:Courville-sur-Eure",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1373,6 +1462,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00090",
 		"Location ID (LOC)": "LOC:Courville-sur-Eure",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1388,6 +1478,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00091",
 		"Location ID (LOC)": "LOC:Le_Mans",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1403,6 +1494,7 @@
 		"Date entered": "2023-5-1"
 	},
 	{
+		"Event ID": "EV:00092",
 		"Location ID (LOC)": "LOC:La_Fleche",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1418,6 +1510,7 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Event ID": "EV:00093",
 		"Location ID (LOC)": "LOC:Meslay-du-Maine",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1433,6 +1526,7 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Event ID": "EV:00094",
 		"Location ID (LOC)": "LOC:Laval",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1448,6 +1542,7 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Event ID": "EV:00095",
 		"Location ID (LOC)": "LOC:Vitre",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1463,6 +1558,7 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Event ID": "EV:00096",
 		"Location ID (LOC)": "LOC:Rennes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1478,6 +1574,7 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Event ID": "EV:00097",
 		"Location ID (LOC)": "LOC:Rennes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1493,6 +1590,7 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Event ID": "EV:00098",
 		"Location ID (LOC)": "LOC:Bain-de-Bretagne",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1508,6 +1606,7 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Event ID": "EV:00099",
 		"Location ID (LOC)": "LOC:Chateaubriant",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1523,6 +1622,7 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Event ID": "EV:00100",
 		"Location ID (LOC)": "LOC:Blain",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1538,6 +1638,7 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Event ID": "EV:00101",
 		"Location ID (LOC)": "LOC:Nantes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1553,6 +1654,7 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Event ID": "EV:00102",
 		"Location ID (LOC)": "LOC:Nantes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
@@ -1568,6 +1670,7 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Event ID": "EV:00103",
 		"Location ID (LOC)": "LOC:Nantes-Chateau_des_ducs",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1583,6 +1686,7 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Event ID": "EV:00104",
 		"Location ID (LOC)": "LOC:Nantes-Chateau_des_ducs",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1598,6 +1702,7 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Event ID": "EV:00105",
 		"Location ID (LOC)": "LOC:Blain",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1614,6 +1719,7 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Event ID": "EV:00106",
 		"Location ID (LOC)": "LOC:Angers",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1630,6 +1736,7 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Event ID": "EV:00107",
 		"Location ID (LOC)": "LOC:Seiches-sur-le-Loir-Chateau_Le_Vergier",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1645,6 +1752,7 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Event ID": "EV:00108",
 		"Location ID (LOC)": "LOC:Chateau-Renault",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1661,6 +1769,7 @@
 		"Date entered": "2023-5-4"
 	},
 	{
+		"Event ID": "EV:00109",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1676,6 +1785,7 @@
 		"Date entered": "2023-5-9"
 	},
 	{
+		"Event ID": "EV:00110",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1691,6 +1801,7 @@
 		"Date entered": "2023-5-9"
 	},
 	{
+		"Event ID": "EV:00111",
 		"Location ID (LOC)": "LOC:Les_Montils-sous-Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1706,6 +1817,7 @@
 		"Date entered": "2023-5-9"
 	},
 	{
+		"Event ID": "EV:00112",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1722,6 +1834,7 @@
 		"Date entered": "2023-5-9"
 	},
 	{
+		"Event ID": "EV:00113",
 		"Location ID (LOC)": "LOC:Les_Montils-sous-Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1737,6 +1850,7 @@
 		"Date entered": "2023-5-9"
 	},
 	{
+		"Event ID": "EV:00114",
 		"Location ID (LOC)": "LOC:Romorantin-Lanthenay",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1753,6 +1867,7 @@
 		"Date entered": "2023-5-11"
 	},
 	{
+		"Event ID": "EV:00115",
 		"Location ID (LOC)": "LOC:Romorantin-Lanthenay",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1768,6 +1883,7 @@
 		"Date entered": "2023-5-11"
 	},
 	{
+		"Event ID": "EV:00116",
 		"Location ID (LOC)": "LOC:Romorantin-Lanthenay",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1784,6 +1900,7 @@
 		"Date entered": "2023-5-11"
 	},
 	{
+		"Event ID": "EV:00117",
 		"Location ID (LOC)": "LOC:Romorantin-Lanthenay",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1799,6 +1916,7 @@
 		"Date entered": "2023-5-11"
 	},
 	{
+		"Event ID": "EV:00118",
 		"Location ID (LOC)": "LOC:Romorantin-Lanthenay",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1815,6 +1933,7 @@
 		"Date entered": "2023-5-11"
 	},
 	{
+		"Event ID": "EV:00119",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1828,6 +1947,7 @@
 		"Date entered": "2023-5-11"
 	},
 	{
+		"Event ID": "EV:00120",
 		"Location ID (LOC)": "LOC:Orleans",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1843,6 +1963,7 @@
 		"Date entered": "2023-5-11"
 	},
 	{
+		"Event ID": "EV:00121",
 		"Location ID (LOC)": "LOC:Orleans",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1499",
@@ -1858,6 +1979,7 @@
 		"Date entered": "2023-5-11"
 	},
 	{
+		"Event ID": "EV:00122",
 		"Location ID (LOC)": "LOC:Loches",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -1874,6 +1996,7 @@
 		"Date entered": "2023-5-11"
 	},
 	{
+		"Event ID": "EV:00123",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -1890,6 +2013,7 @@
 		"Date entered": "2023-5-11"
 	},
 	{
+		"Event ID": "EV:00124",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -1906,6 +2030,7 @@
 		"Date entered": "2023-5-11"
 	},
 	{
+		"Event ID": "EV:00125",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -1922,6 +2047,7 @@
 		"Date entered": "2023-5-11"
 	},
 	{
+		"Event ID": "EV:00126",
 		"Location ID (LOC)": "LOC:Macon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -1938,6 +2064,7 @@
 		"Date entered": "2023-5-11"
 	},
 	{
+		"Event ID": "EV:00127",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -1953,6 +2080,7 @@
 		"Date entered": "2023-5-15"
 	},
 	{
+		"Event ID": "EV:00128",
 		"Location ID (LOC)": "LOC:Dijon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -1967,6 +2095,7 @@
 		"Date entered": "2023-5-15"
 	},
 	{
+		"Event ID": "EV:00129",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -1982,6 +2111,7 @@
 		"Date entered": "2023-5-15"
 	},
 	{
+		"Event ID": "EV:00130",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -1998,6 +2128,7 @@
 		"Date entered": "2023-5-15"
 	},
 	{
+		"Event ID": "EV:00131",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -2013,6 +2144,7 @@
 		"Date entered": "2023-5-15"
 	},
 	{
+		"Event ID": "EV:00132",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -2029,6 +2161,7 @@
 		"Date entered": "2023-5-15"
 	},
 	{
+		"Event ID": "EV:00133",
 		"Location ID (LOC)": "LOC:Tiffauges",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -2044,6 +2177,7 @@
 		"Date entered": "2023-5-15"
 	},
 	{
+		"Event ID": "EV:00134",
 		"Location ID (LOC)": "LOC:Thouars",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -2059,6 +2193,7 @@
 		"Date entered": "2023-5-15"
 	},
 	{
+		"Event ID": "EV:00135",
 		"Location ID (LOC)": "LOC:Chinon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -2075,6 +2210,7 @@
 		"Date entered": "2023-5-15"
 	},
 	{
+		"Event ID": "EV:00136",
 		"Location ID (LOC)": "LOC:LIle-Bouchard",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -2091,6 +2227,7 @@
 		"Date entered": "2023-5-15"
 	},
 	{
+		"Event ID": "EV:00137",
 		"Location ID (LOC)": "LOC:Plessis-lez-Tours",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -2106,6 +2243,7 @@
 		"Date entered": "2023-5-15"
 	},
 	{
+		"Event ID": "EV:00138",
 		"Location ID (LOC)": "LOC:Tours",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -2122,6 +2260,7 @@
 		"Date entered": "2023-5-15"
 	},
 	{
+		"Event ID": "EV:00139",
 		"Location ID (LOC)": "LOC:Tours",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -2138,6 +2277,7 @@
 		"Date entered": "2023-5-15"
 	},
 	{
+		"Event ID": "EV:00140",
 		"Location ID (LOC)": "LOC:Amboise",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -2154,6 +2294,7 @@
 		"Date entered": "2023-5-15"
 	},
 	{
+		"Event ID": "EV:00141",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1500",
@@ -2169,6 +2310,7 @@
 		"Date entered": "2023-5-15"
 	},
 	{
+		"Event ID": "EV:00142",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1501",
@@ -2183,6 +2325,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00143",
 		"Location ID (LOC)": "LOC:Loches",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1501",
@@ -2197,6 +2340,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00144",
 		"Location ID (LOC)": "LOC:Moulins",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1501",
@@ -2212,6 +2356,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00145",
 		"Location ID (LOC)": "LOC:Moulins",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1501",
@@ -2227,6 +2372,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00146",
 		"Location ID (LOC)": "LOC:Chalon-sur-Saone",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1501",
@@ -2242,6 +2388,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00147",
 		"Location ID (LOC)": "LOC:Dijon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1501",
@@ -2258,6 +2405,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00148",
 		"Location ID (LOC)": "LOC:Chalon-sur-Saone",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1501",
@@ -2271,6 +2419,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00149",
 		"Location ID (LOC)": "LOC:Tournus",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1501",
@@ -2287,6 +2436,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00150",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1501",
@@ -2303,6 +2453,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00151",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1501",
@@ -2318,6 +2469,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00152",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1501",
@@ -2333,6 +2485,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00153",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1501",
@@ -2348,6 +2501,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00154",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1501",
@@ -2363,6 +2517,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00155",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1501",
@@ -2378,6 +2533,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00156",
 		"Location ID (LOC)": "LOC:Nevers",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1501",
@@ -2391,6 +2547,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00157",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1501",
@@ -2406,6 +2563,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00158",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1501",
@@ -2421,6 +2579,7 @@
 		"Date entered": "2023-5-18"
 	},
 	{
+		"Event ID": "EV:00159",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1502",
@@ -2436,6 +2595,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00160",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1502",
@@ -2451,6 +2611,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00161",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1502",
@@ -2466,6 +2627,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00162",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1502",
@@ -2479,6 +2641,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00163",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1502",
@@ -2495,6 +2658,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00164",
 		"Location ID (LOC)": "LOC:Grenoble",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1502",
@@ -2511,6 +2675,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00165",
 		"Location ID (LOC)": "LOC:La_Cote-Saint-Andre",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1502",
@@ -2526,6 +2691,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00166",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1502",
@@ -2539,6 +2705,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00167",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1502",
@@ -2554,6 +2721,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00168",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1502",
@@ -2570,6 +2738,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00169",
 		"Location ID (LOC)": "LOC:Grenoble",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1502",
@@ -2586,6 +2755,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00170",
 		"Location ID (LOC)": "LOC:Grenoble",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1502",
@@ -2602,6 +2772,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00171",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1502",
@@ -2618,6 +2789,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00172",
 		"Location ID (LOC)": "LOC:Loches",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1502",
@@ -2632,6 +2804,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00173",
 		"Location ID (LOC)": "LOC:Loches",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1502",
@@ -2648,6 +2821,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00174",
 		"Location ID (LOC)": "LOC:Tournai",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1393",
@@ -2661,6 +2835,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00175",
 		"Location ID (LOC)": "LOC:Renaix",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1393",
@@ -2674,6 +2849,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00176",
 		"Location ID (LOC)": "LOC:Moustiers",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1393",
@@ -2687,6 +2863,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00177",
 		"Location ID (LOC)": "LOC:Anvaing",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1394",
@@ -2700,6 +2877,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00178",
 		"Location ID (LOC)": "LOC:Ath",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1394",
@@ -2713,6 +2891,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00179",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1394",
@@ -2726,6 +2905,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00180",
 		"Location ID (LOC)": "LOC:Havines",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1394",
@@ -2739,6 +2919,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00181",
 		"Location ID (LOC)": "LOC:Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1394",
@@ -2752,6 +2933,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00182",
 		"Location ID (LOC)": "LOC:Tournai",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1394",
@@ -2765,6 +2947,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00183",
 		"Location ID (LOC)": "LOC:Loches",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1503",
@@ -2778,6 +2961,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00184",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1503",
@@ -2794,6 +2978,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00185",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1503",
@@ -2810,6 +2995,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00186",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1503",
@@ -2826,6 +3012,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00187",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1503",
@@ -2842,6 +3029,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00188",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1503",
@@ -2856,6 +3044,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00189",
 		"Location ID (LOC)": "LOC:Lyon-Basilique_Saint-Martin_dAinay",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1503",
@@ -2870,6 +3059,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00190",
 		"Location ID (LOC)": "LOC:Macon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1503",
@@ -2884,6 +3074,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00191",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1503",
@@ -2900,6 +3091,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00192",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1503",
@@ -2916,6 +3108,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00193",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -2932,6 +3125,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00194",
 		"Location ID (LOC)": "LOC:Lyon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -2948,6 +3142,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00195",
 		"Location ID (LOC)": "LOC:Macon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -2962,6 +3157,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00196",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -2976,6 +3172,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00197",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -2992,6 +3189,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00198",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -3005,6 +3203,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00199",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -3020,6 +3219,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00200",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -3035,6 +3235,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00201",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -3051,6 +3252,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00202",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -3067,6 +3269,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00203",
 		"Location ID (LOC)": "LOC:Orleans",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -3083,6 +3286,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00204",
 		"Location ID (LOC)": "LOC:Chateauneuf-sur-Loire",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -3099,6 +3303,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00205",
 		"Location ID (LOC)": "LOC:Larchant",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -3114,6 +3319,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00206",
 		"Location ID (LOC)": "LOC:Melun",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -3128,6 +3334,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00207",
 		"Location ID (LOC)": "LOC:Paris-Bois-de-Vincennes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -3143,6 +3350,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00208",
 		"Location ID (LOC)": "LOC:Saint-Denis",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -3158,6 +3366,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00209",
 		"Location ID (LOC)": "LOC:Saint-Denis",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -3173,6 +3382,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00210",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -3189,6 +3399,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00211",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1504",
@@ -3202,6 +3413,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00212",
 		"Location ID (LOC)": "LOC:Dergneau",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1395",
@@ -3215,6 +3427,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00213",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1395",
@@ -3228,6 +3441,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00214",
 		"Location ID (LOC)": "LOC:Ath",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1396",
@@ -3241,6 +3455,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00215",
 		"Location ID (LOC)": "LOC:Beclers",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1396",
@@ -3254,6 +3469,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00216",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1396",
@@ -3267,6 +3483,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00217",
 		"Location ID (LOC)": "LOC:Renaix",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1396",
@@ -3280,6 +3497,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00218",
 		"Location ID (LOC)": "LOC:Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1396",
@@ -3293,6 +3511,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00219",
 		"Location ID (LOC)": "LOC:Velaines",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1396",
@@ -3306,6 +3525,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00220",
 		"Location ID (LOC)": "LOC:Buissenal",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1397",
@@ -3319,6 +3539,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00221",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1397",
@@ -3332,6 +3553,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00222",
 		"Location ID (LOC)": "LOC:Moustiers",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1397",
@@ -3345,6 +3567,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00223",
 		"Location ID (LOC)": "LOC:Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1397",
@@ -3358,6 +3581,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00224",
 		"Location ID (LOC)": "LOC:Ainieres",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1397",
@@ -3371,6 +3595,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00225",
 		"Location ID (LOC)": "LOC:Celles",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1397",
@@ -3384,6 +3609,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00226",
 		"Location ID (LOC)": "LOC:Leuze",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1397",
@@ -3397,6 +3623,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00227",
 		"Location ID (LOC)": "LOC:Tournai",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1397",
@@ -3410,6 +3637,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00228",
 		"Location ID (LOC)": "LOC:Enghien",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1398",
@@ -3423,6 +3651,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00229",
 		"Location ID (LOC)": "LOC:Renaix",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1398",
@@ -3436,6 +3665,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00230",
 		"Location ID (LOC)": "LOC:Wattripont",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1398",
@@ -3449,6 +3679,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00231",
 		"Location ID (LOC)": "LOC:Anvaing",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1399",
@@ -3462,6 +3693,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00232",
 		"Location ID (LOC)": "LOC:Auservant",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1399",
@@ -3475,6 +3707,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00233",
 		"Location ID (LOC)": "LOC:Ath",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1399",
@@ -3488,6 +3721,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00234",
 		"Location ID (LOC)": "LOC:Dinniez",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1399",
@@ -3501,6 +3735,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00235",
 		"Location ID (LOC)": "LOC:Ellignies",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1399",
@@ -3514,6 +3749,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00236",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1399",
@@ -3527,6 +3763,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00237",
 		"Location ID (LOC)": "LOC:Popuelles",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1399",
@@ -3540,6 +3777,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00238",
 		"Location ID (LOC)": "LOC:Renaix",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1399",
@@ -3553,6 +3791,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00239",
 		"Location ID (LOC)": "LOC:Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1399",
@@ -3566,6 +3805,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00240",
 		"Location ID (LOC)": "LOC:Wastine",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1399",
@@ -3579,6 +3819,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00241",
 		"Location ID (LOC)": "LOC:Wattripont",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1399",
@@ -3592,6 +3833,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00242",
 		"Location ID (LOC)": "LOC:Anvaing",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1400",
@@ -3605,6 +3847,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00243",
 		"Location ID (LOC)": "LOC:Biernez",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1400",
@@ -3618,6 +3861,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00244",
 		"Location ID (LOC)": "LOC:Enghien",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1400",
@@ -3631,6 +3875,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00245",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1400",
@@ -3644,6 +3889,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00246",
 		"Location ID (LOC)": "LOC:Pottes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1400",
@@ -3657,6 +3903,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00247",
 		"Location ID (LOC)": "LOC:Renaix",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1400",
@@ -3670,6 +3917,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00248",
 		"Location ID (LOC)": "LOC:Wattripont",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1400",
@@ -3683,6 +3931,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00249",
 		"Location ID (LOC)": "LOC:Anvaing",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1402",
@@ -3696,6 +3945,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00250",
 		"Location ID (LOC)": "LOC:Buissenal",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1402",
@@ -3709,6 +3959,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00251",
 		"Location ID (LOC)": "LOC:Enghien",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1402",
@@ -3722,6 +3973,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00252",
 		"Location ID (LOC)": "LOC:Forest",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1402",
@@ -3735,6 +3987,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00253",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1402",
@@ -3748,6 +4001,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00254",
 		"Location ID (LOC)": "LOC:Oeudeghien",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1402",
@@ -3761,6 +4015,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00255",
 		"Location ID (LOC)": "LOC:Renaix",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1402",
@@ -3774,6 +4029,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00256",
 		"Location ID (LOC)": "LOC:Saint-Amand",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1402",
@@ -3787,6 +4043,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00257",
 		"Location ID (LOC)": "LOC:Ainieres",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1403",
@@ -3800,6 +4057,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00258",
 		"Location ID (LOC)": "LOC:Bouvignies",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1403",
@@ -3813,6 +4071,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00259",
 		"Location ID (LOC)": "LOC:Buissenal",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1403",
@@ -3826,6 +4085,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00260",
 		"Location ID (LOC)": "LOC:Ellignies",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1403",
@@ -3839,6 +4099,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00261",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1403",
@@ -3852,6 +4113,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00262",
 		"Location ID (LOC)": "LOC:Ghoy",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1403",
@@ -3865,6 +4127,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00263",
 		"Location ID (LOC)": "LOC:Hacquegnies_Quartes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1403",
@@ -3878,6 +4141,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00264",
 		"Location ID (LOC)": "LOC:Tournai",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1403",
@@ -3891,6 +4155,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00265",
 		"Location ID (LOC)": "LOC:Celles",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1404",
@@ -3904,6 +4169,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00266",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1404",
@@ -3917,6 +4183,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00267",
 		"Location ID (LOC)": "LOC:Moustiers",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1404",
@@ -3930,6 +4197,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00268",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1405",
@@ -3943,6 +4211,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00269",
 		"Location ID (LOC)": "LOC:Leuze",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1405",
@@ -3956,6 +4225,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00270",
 		"Location ID (LOC)": "LOC:Renaix",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1405",
@@ -3969,6 +4239,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00271",
 		"Location ID (LOC)": "LOC:Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1405",
@@ -3982,6 +4253,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00272",
 		"Location ID (LOC)": "LOC:Ath",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1406",
@@ -3995,6 +4267,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00273",
 		"Location ID (LOC)": "LOC:Leuze",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1406",
@@ -4008,6 +4281,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00274",
 		"Location ID (LOC)": "LOC:Ath",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1407",
@@ -4021,6 +4295,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00275",
 		"Location ID (LOC)": "LOC:Ath",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1411",
@@ -4034,6 +4309,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00276",
 		"Location ID (LOC)": "LOC:Anvaing",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1411",
@@ -4047,6 +4323,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00277",
 		"Location ID (LOC)": "LOC:Blicquy",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1411",
@@ -4060,6 +4337,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00278",
 		"Location ID (LOC)": "LOC:Chapelle",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1411",
@@ -4073,6 +4351,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00279",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1411",
@@ -4086,6 +4365,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00280",
 		"Location ID (LOC)": "LOC:Hoves",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1411",
@@ -4099,6 +4379,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00281",
 		"Location ID (LOC)": "LOC:Quartes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1411",
@@ -4112,6 +4393,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00282",
 		"Location ID (LOC)": "LOC:Thieulain",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1411",
@@ -4125,6 +4407,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00283",
 		"Location ID (LOC)": "LOC:Blicquy",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1412",
@@ -4138,6 +4421,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00284",
 		"Location ID (LOC)": "LOC:Celles",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1412",
@@ -4151,6 +4435,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00285",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1412",
@@ -4164,6 +4449,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00286",
 		"Location ID (LOC)": "LOC:Thieulain",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1412",
@@ -4177,6 +4463,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00287",
 		"Location ID (LOC)": "LOC:Valenciennes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1412",
@@ -4190,6 +4477,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00288",
 		"Location ID (LOC)": "LOC:Villers-Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1412",
@@ -4203,6 +4491,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00289",
 		"Location ID (LOC)": "LOC:Wattripont",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1412",
@@ -4216,6 +4505,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00290",
 		"Location ID (LOC)": "LOC:Ath",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1413",
@@ -4229,6 +4519,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00291",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1413",
@@ -4242,6 +4533,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00292",
 		"Location ID (LOC)": "LOC:Wattripont",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1413",
@@ -4255,6 +4547,7 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Event ID": "EV:00293",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4271,6 +4564,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00294",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4286,6 +4580,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00295",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4301,6 +4596,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00296",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4317,7 +4613,8 @@
 		"Date entered": "2024-1-24"
 	},
 	{
-		"Location ID (LOC)": "LOC:Chartes",
+		"Event ID": "EV:00297",
+		"Location ID (LOC)": "#N/A",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
 		"Earliest Month": "3",
@@ -4333,6 +4630,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00298",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4349,6 +4647,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00299",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4364,6 +4663,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00300",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4380,6 +4680,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00301",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4396,6 +4697,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00302",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4412,6 +4714,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00303",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4428,6 +4731,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00304",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4444,6 +4748,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00305",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4460,6 +4765,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00306",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4476,6 +4782,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00307",
 		"Location ID (LOC)": "LOC:Amboise",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4492,6 +4799,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00308",
 		"Location ID (LOC)": "LOC:Tours",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4507,6 +4815,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00309",
 		"Location ID (LOC)": "LOC:Fontevraud-lAbbaye",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4522,6 +4831,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00310",
 		"Location ID (LOC)": "LOC:Nantes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4537,6 +4847,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00311",
 		"Location ID (LOC)": "LOC:Nantes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4552,6 +4863,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00312",
 		"Location ID (LOC)": "LOC:Ancenis",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4568,6 +4880,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00313",
 		"Location ID (LOC)": "LOC:Nantes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4584,6 +4897,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00314",
 		"Location ID (LOC)": "LOC:Nantes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4600,6 +4914,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00315",
 		"Location ID (LOC)": "LOC:Blain",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4616,6 +4931,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00316",
 		"Location ID (LOC)": "LOC:Suscinio",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4631,6 +4947,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00317",
 		"Location ID (LOC)": "LOC:Vannes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4647,6 +4964,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00318",
 		"Location ID (LOC)": "LOC:Auray",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4663,6 +4981,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00319",
 		"Location ID (LOC)": "LOC:Hennebont",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4679,6 +4998,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00320",
 		"Location ID (LOC)": "LOC:Quimper",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4695,6 +5015,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00321",
 		"Location ID (LOC)": "LOC:Quimper",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4710,6 +5031,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00322",
 		"Location ID (LOC)": "LOC:Locronan",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4725,6 +5047,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00323",
 		"Location ID (LOC)": "LOC:Le_Folgoet-Notre_Dame",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4741,6 +5064,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00324",
 		"Location ID (LOC)": "LOC:Brest",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -4756,6 +5080,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00325",
 		"Location ID (LOC)": "LOC:Anvaing",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1416",
@@ -4769,6 +5094,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00326",
 		"Location ID (LOC)": "LOC:Ath",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1416",
@@ -4782,6 +5108,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00327",
 		"Location ID (LOC)": "LOC:Forest",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1416",
@@ -4795,6 +5122,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00328",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1416",
@@ -4808,6 +5136,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00329",
 		"Location ID (LOC)": "LOC:Tournai",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1416",
@@ -4821,6 +5150,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00330",
 		"Location ID (LOC)": "LOC:Valenciennes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1416",
@@ -4834,6 +5164,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00331",
 		"Location ID (LOC)": "LOC:Anvaing",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1417",
@@ -4848,6 +5179,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00332",
 		"Location ID (LOC)": "LOC:Ainieres",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1417",
@@ -4861,6 +5193,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00333",
 		"Location ID (LOC)": "LOC:Ath",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1417",
@@ -4874,6 +5207,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00334",
 		"Location ID (LOC)": "LOC:Celles",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1417",
@@ -4887,6 +5221,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00335",
 		"Location ID (LOC)": "LOC:Escanaffles",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1417",
@@ -4900,6 +5235,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00336",
 		"Location ID (LOC)": "LOC:Grammont",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1417",
@@ -4913,6 +5249,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00337",
 		"Location ID (LOC)": "LOC:Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1417",
@@ -4926,6 +5263,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00338",
 		"Location ID (LOC)": "LOC:Tournai",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1417",
@@ -4939,6 +5277,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00339",
 		"Location ID (LOC)": "LOC:Anvaing",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1418",
@@ -4952,6 +5291,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00340",
 		"Location ID (LOC)": "LOC:Ainieres",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1418",
@@ -4965,6 +5305,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00341",
 		"Location ID (LOC)": "LOC:Ath",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1418",
@@ -4978,6 +5319,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00342",
 		"Location ID (LOC)": "LOC:Buissenal",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1418",
@@ -4991,6 +5333,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00343",
 		"Location ID (LOC)": "LOC:Celles",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1418",
@@ -5004,6 +5347,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00344",
 		"Location ID (LOC)": "LOC:Escanaffles",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1418",
@@ -5017,6 +5361,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00345",
 		"Location ID (LOC)": "LOC:Forest",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1418",
@@ -5030,6 +5375,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00346",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1418",
@@ -5043,6 +5389,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00347",
 		"Location ID (LOC)": "LOC:Mainvaut",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1418",
@@ -5056,6 +5403,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00348",
 		"Location ID (LOC)": "LOC:Pottes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1418",
@@ -5069,6 +5417,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00349",
 		"Location ID (LOC)": "LOC:Tournai",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1418",
@@ -5082,6 +5431,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00350",
 		"Location ID (LOC)": "LOC:Velaine",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1418",
@@ -5095,6 +5445,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00351",
 		"Location ID (LOC)": "LOC:Escanaffles",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1419",
@@ -5108,6 +5459,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00352",
 		"Location ID (LOC)": "LOC:Montroeul",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1419",
@@ -5121,6 +5473,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00353",
 		"Location ID (LOC)": "LOC:Pottes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1419",
@@ -5134,6 +5487,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00354",
 		"Location ID (LOC)": "LOC:Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1419",
@@ -5147,6 +5501,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00355",
 		"Location ID (LOC)": "LOC:Celles",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1422",
@@ -5160,6 +5515,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00356",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1422",
@@ -5173,6 +5529,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00357",
 		"Location ID (LOC)": "LOC:Tournai",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1422",
@@ -5186,6 +5543,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00358",
 		"Location ID (LOC)": "LOC:Anseroeul",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1423",
@@ -5199,6 +5557,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00359",
 		"Location ID (LOC)": "LOC:Arcq",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1423",
@@ -5212,6 +5571,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00360",
 		"Location ID (LOC)": "LOC:Maulde",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1423",
@@ -5225,6 +5585,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00361",
 		"Location ID (LOC)": "LOC:Renaix",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1423",
@@ -5238,6 +5599,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00362",
 		"Location ID (LOC)": "LOC:Wattripont",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1423",
@@ -5251,6 +5613,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00363",
 		"Location ID (LOC)": "LOC:Moustiers",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1424",
@@ -5264,6 +5627,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00364",
 		"Location ID (LOC)": "LOC:Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1425",
@@ -5276,6 +5640,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00365",
 		"Location ID (LOC)": "LOC:Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_I",
 		"Earliest Year": "1432",
@@ -5288,6 +5653,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00366",
 		"Location ID (LOC)": "LOC:Tournai",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1440",
@@ -5301,6 +5667,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00367",
 		"Location ID (LOC)": "LOC:Ath",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1441",
@@ -5314,6 +5681,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00368",
 		"Location ID (LOC)": "LOC:Celles",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1441",
@@ -5327,6 +5695,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00369",
 		"Location ID (LOC)": "LOC:Pottes-Escaut",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1445",
@@ -5339,6 +5708,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00370",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1446",
@@ -5353,6 +5723,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00371",
 		"Location ID (LOC)": "LOC:Renaix",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1446",
@@ -5367,6 +5738,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00372",
 		"Location ID (LOC)": "LOC:Tournai",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1447",
@@ -5380,6 +5752,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00373",
 		"Location ID (LOC)": "LOC:Antoing",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1448",
@@ -5394,6 +5767,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00374",
 		"Location ID (LOC)": "LOC:Anvaing",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1448",
@@ -5408,6 +5782,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00375",
 		"Location ID (LOC)": "LOC:Houtain",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1448",
@@ -5422,6 +5797,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00376",
 		"Location ID (LOC)": "LOC:Tournai",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1448",
@@ -5436,6 +5812,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00377",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1448",
@@ -5449,6 +5826,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00378",
 		"Location ID (LOC)": "LOC:Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1448",
@@ -5462,6 +5840,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00379",
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1446",
@@ -5479,6 +5858,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00380",
 		"Location ID (LOC)": "LOC:Renaix",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1446",
@@ -5496,6 +5876,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00381",
 		"Location ID (LOC)": "LOC:Antoing",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1448",
@@ -5513,6 +5894,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00382",
 		"Location ID (LOC)": "LOC:Anvaing",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1448",
@@ -5530,6 +5912,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00383",
 		"Location ID (LOC)": "LOC:Houtain",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1448",
@@ -5547,6 +5930,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00384",
 		"Location ID (LOC)": "LOC:Tournai",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gossard_Desprez_II",
 		"Earliest Year": "1448",
@@ -5564,6 +5948,7 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Event ID": "EV:00385",
 		"Location ID (LOC)": "LOC:Lesneven",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5580,6 +5965,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00386",
 		"Location ID (LOC)": "LOC:Saint-Pol-de-Leon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5596,6 +5982,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00387",
 		"Location ID (LOC)": "LOC:Morlaix",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5612,6 +5999,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00388",
 		"Location ID (LOC)": "LOC:Morlaix",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5628,6 +6016,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00389",
 		"Location ID (LOC)": "LOC:Saint-Jean-du-Doigt",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5644,6 +6033,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00390",
 		"Location ID (LOC)": "LOC:Lannion",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5660,6 +6050,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00391",
 		"Location ID (LOC)": "LOC:Treguier",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5676,6 +6067,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00392",
 		"Location ID (LOC)": "LOC:Guingamp",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5692,6 +6084,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00393",
 		"Location ID (LOC)": "LOC:Le_Petit_Robien",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5707,6 +6100,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00394",
 		"Location ID (LOC)": "LOC:Saint-Brieuc",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5722,6 +6116,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00395",
 		"Location ID (LOC)": "LOC:Lamballe",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5737,6 +6132,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00396",
 		"Location ID (LOC)": "LOC:La_Hunaudaye-Chateau_de_la_Hunaudaye",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5752,6 +6148,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00397",
 		"Location ID (LOC)": "LOC:Dinan",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5767,6 +6164,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00398",
 		"Location ID (LOC)": "LOC:Saint-Malo",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5783,6 +6181,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00399",
 		"Location ID (LOC)": "LOC:Vitre",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5798,6 +6197,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00400",
 		"Location ID (LOC)": "LOC:Olivet-Abbaye_de_Clairmont",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5813,6 +6213,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00401",
 		"Location ID (LOC)": "LOC:Amboise",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5829,6 +6230,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00402",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5845,6 +6247,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00403",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5860,6 +6263,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00404",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5876,6 +6280,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00405",
 		"Location ID (LOC)": "LOC:Blois",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
@@ -5892,6 +6297,7 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Event ID": "EV:00406",
 		"Location ID (LOC)": "LOC:Worms",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Martin_Luther; BNO:Charles_V",
 		"Occasion ID (OCC)": "OCC:Diet_of_Worms",
@@ -5906,6 +6312,7 @@
 		"Date entered": "2024-1-29"
 	},
 	{
+		"Event ID": "EV:00407",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1497",
@@ -5922,6 +6329,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00408",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1498",
@@ -5939,6 +6347,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00409",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1498",
@@ -5956,6 +6365,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00410",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1499",
@@ -5972,6 +6382,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00411",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1500",
@@ -5989,6 +6400,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00412",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1500",
@@ -6005,6 +6417,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00413",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1500",
@@ -6021,6 +6434,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00414",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1500",
@@ -6037,6 +6451,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00415",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1500",
@@ -6053,6 +6468,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00416",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1501",
@@ -6070,6 +6486,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00417",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1501",
@@ -6086,6 +6503,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00418",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1501",
@@ -6102,6 +6520,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00419",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1502",
@@ -6119,6 +6538,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00420",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1502",
@@ -6136,6 +6556,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00421",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1502",
@@ -6152,6 +6573,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00422",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1502",
@@ -6168,6 +6590,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00423",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1503",
@@ -6185,6 +6608,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00424",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1503",
@@ -6201,6 +6625,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00425",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1503",
@@ -6217,6 +6642,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00426",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1504",
@@ -6234,6 +6660,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00427",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1504",
@@ -6250,6 +6677,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00428",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1504",
@@ -6266,6 +6694,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00429",
 		"Location ID (LOC)": "LOC:Blois-Leglise_Saint-Sauveur",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Dionysius_Prioris",
 		"Earliest Year": "1504",
@@ -6282,6 +6711,7 @@
 		"Date entered": "2024-2-8"
 	},
 	{
+		"Event ID": "EV:00430",
 		"Location ID (LOC)": "LOC:Asti",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Zoanne_Michiele",
 		"Earliest Year": "1507",
@@ -6299,6 +6729,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00431",
 		"Location ID (LOC)": "LOC:Asti",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Alfonso_I_dEste",
 		"Earliest Year": "1507",
@@ -6316,6 +6747,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00432",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Sigismondo_I_dEste",
 		"Earliest Year": "1507",
@@ -6333,6 +6765,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00433",
 		"Location ID (LOC)": "LOC:Vigevano",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Zoanne_Michiele",
 		"Earliest Year": "1515",
@@ -6350,6 +6783,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00434",
 		"Location ID (LOC)": "LOC:Vigevano",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Francis_I",
 		"Earliest Year": "1515",
@@ -6367,6 +6801,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00435",
 		"Location ID (LOC)": "LOC:Vigevano",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Jean_Mouton",
 		"Earliest Year": "1515",
@@ -6384,6 +6819,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00436",
 		"Location ID (LOC)": "LOC:Vigevano",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Antonio_de_Longueval",
 		"Earliest Year": "1515",
@@ -6401,6 +6837,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00437",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Sigismondo_I_dEste",
 		"Earliest Year": "1515",
@@ -6417,6 +6854,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00438",
 		"Location ID (LOC)": "LOC:Vigevano",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Zoanne_Michiele",
 		"Earliest Year": "1515",
@@ -6434,6 +6872,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00439",
 		"Location ID (LOC)": "LOC:Vigevano",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Alfonso_I_dEste",
 		"Earliest Year": "1515",
@@ -6451,6 +6890,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00440",
 		"Location ID (LOC)": "LOC:Vigevano",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Francis_I",
 		"Earliest Year": "1515",
@@ -6467,6 +6907,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00441",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Sigismondo_I_dEste",
 		"Earliest Year": "1515",
@@ -6484,6 +6925,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00442",
 		"Location ID (LOC)": "LOC:Milan",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Zoanne_Michiele",
 		"Earliest Year": "1515",
@@ -6501,6 +6943,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00443",
 		"Location ID (LOC)": "LOC:Milan",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Francis_I",
 		"Earliest Year": "1515",
@@ -6517,6 +6960,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00444",
 		"Location ID (LOC)": "LOC:Milan",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Alfonso_I_dEste",
 		"Earliest Year": "1515",
@@ -6534,6 +6978,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00445",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Matheo_de_Alzate",
 		"Earliest Year": "1511",
@@ -6549,6 +6994,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00446",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Barbe",
 		"Earliest Year": "1496",
@@ -6564,6 +7010,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00447",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Barbe",
 		"Earliest Year": "1498",
@@ -6579,6 +7026,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00448",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Barbe",
 		"Earliest Year": "1498",
@@ -6594,6 +7042,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00449",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Egidio_Charpentier",
 		"Earliest Year": "1509",
@@ -6609,6 +7058,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00450",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Egidio_Charpentier",
 		"Earliest Year": "1509",
@@ -6624,6 +7074,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00451",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Alfonso_Frias",
 		"Earliest Year": "1505",
@@ -6639,6 +7090,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00452",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Alfonso_Frias",
 		"Earliest Year": "1507",
@@ -6654,6 +7106,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00453",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Alfonso_Frias",
 		"Earliest Year": "1507",
@@ -6669,6 +7122,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00454",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Alfonso_Frias",
 		"Earliest Year": "1511",
@@ -6684,6 +7138,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00455",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Alfonso_Frias",
 		"Earliest Year": "1511",
@@ -6699,6 +7154,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00456",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Alfonso_Frias",
 		"Earliest Year": "1512",
@@ -6714,6 +7170,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00457",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Carpentras",
 		"Earliest Year": "1511",
@@ -6729,6 +7186,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00458",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Hillanis",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -6745,6 +7203,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00459",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Hillanis",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -6761,6 +7220,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00460",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Petrus_Paulus_Mastaing",
 		"Earliest Year": "1509",
@@ -6776,6 +7236,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00461",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Remigius_Mastaing",
 		"Earliest Year": "1497",
@@ -6791,6 +7252,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00462",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Marbrianus_de_Orto",
 		"Earliest Year": "1499",
@@ -6806,6 +7268,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00463",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Augustino_de_Nigris",
 		"Earliest Year": "1500",
@@ -6821,6 +7284,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00464",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Marbrianus_de_Orto",
 		"Earliest Year": "1496",
@@ -6836,6 +7300,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00465",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Marbrianus_de_Orto",
 		"Earliest Year": "1496",
@@ -6851,6 +7316,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00466",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Palomares",
 		"Earliest Year": "1510",
@@ -6866,6 +7332,7 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Event ID": "EV:00467",
 		"Location ID (LOC)": "LOC:Asti",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Jean_Braconnier",
 		"Earliest Year": "1507",
@@ -6883,6 +7350,7 @@
 		"Date entered": "2024-2-12"
 	},
 	{
+		"Event ID": "EV:00468",
 		"Location ID (LOC)": "LOC:Amboise",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Aldrovandini_Sacrati",
 		"Earliest Year": "1518",
@@ -6899,6 +7367,7 @@
 		"Date entered": "2024-2-12"
 	},
 	{
+		"Event ID": "EV:00469",
 		"Location ID (LOC)": "LOC:Amboise",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Aldrovandini_Sacrati",
 		"Earliest Year": "1518",
@@ -6915,6 +7384,7 @@
 		"Date entered": "2024-2-13"
 	},
 	{
+		"Event ID": "EV:00470",
 		"Location ID (LOC)": "LOC:Amboise",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Aldrovandini_Sacrati",
 		"Earliest Year": "1518",
@@ -6931,6 +7401,7 @@
 		"Date entered": "2024-2-13"
 	},
 	{
+		"Event ID": "EV:00471",
 		"Location ID (LOC)": "LOC:Chinon",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Aldrovandini_Sacrati",
 		"Earliest Year": "1518",
@@ -6947,6 +7418,7 @@
 		"Date entered": "2024-2-13"
 	},
 	{
+		"Event ID": "EV:00472",
 		"Location ID (LOC)": "LOC:Chinon",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Jean_Mouton",
 		"Earliest Year": "1518",
@@ -6963,6 +7435,7 @@
 		"Date entered": "2024-2-13"
 	},
 	{
+		"Event ID": "EV:00473",
 		"Location ID (LOC)": "LOC:Saumur",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Aldrovandini_Sacrati",
 		"Earliest Year": "1518",
@@ -6979,6 +7452,7 @@
 		"Date entered": "2024-2-13"
 	},
 	{
+		"Event ID": "EV:00474",
 		"Location ID (LOC)": "LOC:Angers",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Aldrovandini_Sacrati",
 		"Earliest Year": "1518",
@@ -6995,6 +7469,7 @@
 		"Date entered": "2024-2-13"
 	},
 	{
+		"Event ID": "EV:00475",
 		"Location ID (LOC)": "LOC:Angers",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Carlo_da_Correggio",
 		"Earliest Year": "1518",
@@ -7011,6 +7486,7 @@
 		"Date entered": "2024-2-14"
 	},
 	{
+		"Event ID": "EV:00476",
 		"Location ID (LOC)": "LOC:Viterbo",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Giovanni_Tommaso_Manfredi",
 		"Earliest Year": "1514",
@@ -7027,6 +7503,7 @@
 		"Date entered": "2024-2-14"
 	},
 	{
+		"Event ID": "EV:00477",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Niccolo_de_Pictis",
 		"Earliest Year": "1512",
@@ -7042,6 +7519,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00478",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Philippus_de_Primis",
 		"Earliest Year": "1498",
@@ -7057,6 +7535,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00479",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Radulphi_II",
 		"Earliest Year": "1507",
@@ -7072,6 +7551,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00480",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Leo_Reyndimal",
 		"Earliest Year": "1512",
@@ -7087,6 +7567,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00481",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Christoforus_Rousseaux",
 		"Earliest Year": "1495",
@@ -7102,6 +7583,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00482",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Christoforus_Rousseaux",
 		"Earliest Year": "1496",
@@ -7117,6 +7599,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00483",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Christoforus_Rousseaux",
 		"Earliest Year": "1498",
@@ -7132,6 +7615,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00484",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Garsie_Salinas",
 		"Earliest Year": "1508",
@@ -7147,6 +7631,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00485",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Scribanus",
 		"Earliest Year": "1504",
@@ -7162,6 +7647,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00486",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Scribanus",
 		"Earliest Year": "1504",
@@ -7177,6 +7663,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00487",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Michaeli_Touppe",
 		"Earliest Year": "1505",
@@ -7192,6 +7679,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00488",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Michaeli_Touppe",
 		"Earliest Year": "1510",
@@ -7207,6 +7695,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00489",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Alfonsus_de_Troia",
 		"Earliest Year": "1497",
@@ -7222,6 +7711,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00490",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Paulus_de_Trottis",
 		"Earliest Year": "1507",
@@ -7237,6 +7727,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00491",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Antonius_Baneston",
 		"Earliest Year": "1500",
@@ -7252,6 +7743,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00492",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Georgius_de_Duno",
 		"Earliest Year": "1497",
@@ -7267,6 +7759,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00493",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Carpentras",
 		"Earliest Year": "1509",
@@ -7282,6 +7775,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00494",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Hillanis",
 		"Earliest Year": "1498",
@@ -7297,6 +7791,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00495",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Hillanis",
 		"Earliest Year": "1506",
@@ -7312,6 +7807,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00496",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Petrus_Paulus_Mastaing",
 		"Earliest Year": "1495",
@@ -7327,6 +7823,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00497",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Radulphi_II",
 		"Earliest Year": "1512",
@@ -7342,6 +7839,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00498",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Christoforus_Rousseaux",
 		"Earliest Year": "1506",
@@ -7357,6 +7855,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00499",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Christoforus_Rousseaux",
 		"Earliest Year": "1507",
@@ -7372,6 +7871,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00500",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Crispin_van_Stappen",
 		"Earliest Year": "1505",
@@ -7387,6 +7887,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00501",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Michaeli_Touppe",
 		"Earliest Year": "1506",
@@ -7402,6 +7903,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00502",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Bertrandus_Vaqueras",
 		"Earliest Year": "1496",
@@ -7417,6 +7919,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00503",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Jacobus_Wallpot",
 		"Earliest Year": "1508",
@@ -7432,6 +7935,7 @@
 		"Date entered": "2024-2-17"
 	},
 	{
+		"Event ID": "EV:00504",
 		"Location ID (LOC)": "LOC:Orleans-Saint_Aignan",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Eloy_dAmerval",
 		"Earliest Year": "1471",
@@ -7449,6 +7953,7 @@
 		"Date entered": "2024-2-22"
 	},
 	{
+		"Event ID": "EV:00505",
 		"Location ID (LOC)": "LOC:Poitiers-Saint_Hilaire",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Eloy_dAmerval",
 		"Earliest Year": "1480",
@@ -7466,6 +7971,7 @@
 		"Date entered": "2024-2-22"
 	},
 	{
+		"Event ID": "EV:00506",
 		"Location ID (LOC)": "LOC:Poitiers-Saint_Hilaire",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Eloy_dAmerval",
 		"Earliest Year": "1480",
@@ -7483,6 +7989,7 @@
 		"Date entered": "2024-2-22"
 	},
 	{
+		"Event ID": "EV:00507",
 		"Location ID (LOC)": "LOC:Tours-Saint_Martin",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Eloy_dAmerval",
 		"Earliest Year": "1480",
@@ -7500,6 +8007,7 @@
 		"Date entered": "2024-2-22"
 	},
 	{
+		"Event ID": "EV:00508",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1507",
@@ -7515,6 +8023,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00509",
 		"Location ID (LOC)": "LOC:Codigoro",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1507",
@@ -7530,6 +8039,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00510",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1507",
@@ -7545,6 +8055,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00511",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1508",
@@ -7560,6 +8071,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00512",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1509",
@@ -7575,6 +8087,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00513",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1509",
@@ -7590,6 +8103,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00514",
 		"Location ID (LOC)": "LOC:Peschiera_del_Garda",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1509",
@@ -7605,6 +8119,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00515",
 		"Location ID (LOC)": "LOC:Milan",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1509",
@@ -7618,6 +8133,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00516",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1509",
@@ -7633,6 +8149,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00517",
 		"Location ID (LOC)": "LOC:Asti",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1509",
@@ -7648,6 +8165,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00518",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1509",
@@ -7663,6 +8181,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00519",
 		"Location ID (LOC)": "LOC:Milan",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1509",
@@ -7678,6 +8197,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00520",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1509",
@@ -7693,6 +8213,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00521",
 		"Location ID (LOC)": "LOC:Padua",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1509",
@@ -7708,6 +8229,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00522",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1509",
@@ -7723,6 +8245,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00523",
 		"Location ID (LOC)": "LOC:Francolino",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1509",
@@ -7738,6 +8261,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00524",
 		"Location ID (LOC)": "LOC:Zocca",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1509",
@@ -7753,6 +8277,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00525",
 		"Location ID (LOC)": "LOC:Francolino",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1509",
@@ -7768,6 +8293,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00526",
 		"Location ID (LOC)": "LOC:Polesella",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1509",
@@ -7783,6 +8309,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00527",
 		"Location ID (LOC)": "LOC:Polesella",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1509",
@@ -7798,6 +8325,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00528",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1510",
@@ -7813,6 +8341,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00529",
 		"Location ID (LOC)": "LOC:Spilimberto",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1510",
@@ -7828,6 +8357,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00530",
 		"Location ID (LOC)": "LOC:Modena",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1510",
@@ -7843,6 +8373,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00531",
 		"Location ID (LOC)": "LOC:Rubiera",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1510",
@@ -7858,6 +8389,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00532",
 		"Location ID (LOC)": "LOC:Reggio",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1510",
@@ -7873,6 +8405,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00533",
 		"Location ID (LOC)": "LOC:Modena",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1510",
@@ -7886,6 +8419,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00534",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1510",
@@ -7901,6 +8435,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00535",
 		"Location ID (LOC)": "LOC:Modena",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1510",
@@ -7916,6 +8451,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00536",
 		"Location ID (LOC)": "LOC:Fanano",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1510",
@@ -7931,6 +8467,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00537",
 		"Location ID (LOC)": "LOC:Florence",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1510",
@@ -7946,6 +8483,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00538",
 		"Location ID (LOC)": "LOC:Aulla",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1510",
@@ -7961,6 +8499,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00539",
 		"Location ID (LOC)": "LOC:Massa",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1510",
@@ -7976,6 +8515,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00540",
 		"Location ID (LOC)": "LOC:Parma",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1510",
@@ -7991,6 +8531,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00541",
 		"Location ID (LOC)": "LOC:Castelnuovo_Parmense",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1510",
@@ -8006,6 +8547,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00542",
 		"Location ID (LOC)": "LOC:Parma",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1510",
@@ -8021,6 +8563,7 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Event ID": "EV:00543",
 		"Location ID (LOC)": "LOC:Brescello",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1511",
@@ -8036,6 +8579,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00544",
 		"Location ID (LOC)": "LOC:Parma",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1511",
@@ -8051,6 +8595,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00545",
 		"Location ID (LOC)": "LOC:Valence",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1511",
@@ -8065,6 +8610,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00546",
 		"Location ID (LOC)": "LOC:Turin",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1511",
@@ -8080,6 +8626,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00547",
 		"Location ID (LOC)": "LOC:Parma",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1511",
@@ -8095,6 +8642,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00548",
 		"Location ID (LOC)": "LOC:Castelnuovo_Parmense",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1511",
@@ -8110,6 +8658,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00549",
 		"Location ID (LOC)": "LOC:Reggio",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1511",
@@ -8125,6 +8674,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00550",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1511",
@@ -8140,6 +8690,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00551",
 		"Location ID (LOC)": "LOC:Verona",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1512",
@@ -8155,6 +8706,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00552",
 		"Location ID (LOC)": "LOC:Trento",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1512",
@@ -8170,6 +8722,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00553",
 		"Location ID (LOC)": "LOC:Bolzano",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1512",
@@ -8185,6 +8738,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00554",
 		"Location ID (LOC)": "LOC:Innsbruck",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1512",
@@ -8200,6 +8754,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00555",
 		"Location ID (LOC)": "LOC:Vasinburgo",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1512",
@@ -8215,6 +8770,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00556",
 		"Location ID (LOC)": "LOC:Ulma",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1513",
@@ -8230,6 +8786,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00557",
 		"Location ID (LOC)": "LOC:Vienna",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1513",
@@ -8245,6 +8802,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00558",
 		"Location ID (LOC)": "LOC:Budapest",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1513",
@@ -8259,6 +8817,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00559",
 		"Location ID (LOC)": "LOC:Trento",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1513",
@@ -8272,6 +8831,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00560",
 		"Location ID (LOC)": "LOC:Mantua",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1513",
@@ -8287,6 +8847,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00561",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1513",
@@ -8302,6 +8863,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00562",
 		"Location ID (LOC)": "LOC:Migliarino",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1513",
@@ -8317,6 +8879,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00563",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1513",
@@ -8332,6 +8895,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00564",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1513",
@@ -8347,6 +8911,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00565",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1513",
@@ -8362,6 +8927,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00566",
 		"Location ID (LOC)": "LOC:Tuscanella",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1514",
@@ -8377,6 +8943,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00567",
 		"Location ID (LOC)": "LOC:Corneto",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1514",
@@ -8392,6 +8959,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00568",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1514",
@@ -8407,6 +8975,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00569",
 		"Location ID (LOC)": "LOC:Magliano_Romano",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1514",
@@ -8422,6 +8991,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00570",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1514",
@@ -8437,6 +9007,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00571",
 		"Location ID (LOC)": "LOC:Florence",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1514",
@@ -8452,6 +9023,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00572",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1514",
@@ -8467,6 +9039,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00573",
 		"Location ID (LOC)": "LOC:Vorghenza",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1514",
@@ -8482,6 +9055,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00574",
 		"Location ID (LOC)": "LOC:Forli",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1514",
@@ -8497,6 +9071,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00575",
 		"Location ID (LOC)": "LOC:Savignano_sul_Rubicone",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1514",
@@ -8512,6 +9087,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00576",
 		"Location ID (LOC)": "LOC:Rimini",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1514",
@@ -8527,6 +9103,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00577",
 		"Location ID (LOC)": "LOC:Pesaro",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1514",
@@ -8542,6 +9119,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00578",
 		"Location ID (LOC)": "LOC:Gubbio",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1514",
@@ -8557,6 +9135,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00579",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1514",
@@ -8572,6 +9151,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00580",
 		"Location ID (LOC)": "LOC:Rome-Castel_Giubileo",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1514",
@@ -8587,6 +9167,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00581",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1514",
@@ -8602,6 +9183,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00582",
 		"Location ID (LOC)": "LOC:Bolsena",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1515",
@@ -8617,6 +9199,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00583",
 		"Location ID (LOC)": "LOC:Ronciglione",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1515",
@@ -8632,6 +9215,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00584",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1515",
@@ -8647,6 +9231,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00585",
 		"Location ID (LOC)": "LOC:Magliano_Romano",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1515",
@@ -8662,6 +9247,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00586",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1515",
@@ -8677,6 +9263,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00587",
 		"Location ID (LOC)": "LOC:Urbino",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1515",
@@ -8690,6 +9277,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00588",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1515",
@@ -8705,6 +9293,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00589",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1515",
@@ -8720,6 +9309,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00590",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1515",
@@ -8735,6 +9325,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00591",
 		"Location ID (LOC)": "LOC:Bologna",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1515",
@@ -8750,6 +9341,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00592",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1515",
@@ -8765,6 +9357,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00593",
 		"Location ID (LOC)": "LOC:Milan",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1516",
@@ -8780,6 +9373,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00594",
 		"Location ID (LOC)": "LOC:Abbiategrasso",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1516",
@@ -8795,6 +9389,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00595",
 		"Location ID (LOC)": "LOC:Verona",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1516",
@@ -8810,6 +9405,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00596",
 		"Location ID (LOC)": "LOC:Mantua",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1516",
@@ -8825,6 +9421,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00597",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1516",
@@ -8840,6 +9437,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00598",
 		"Location ID (LOC)": "LOC:Vorghenza",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1516",
@@ -8855,6 +9453,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00599",
 		"Location ID (LOC)": "LOC:Milan-Rho",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1516",
@@ -8870,6 +9469,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00600",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1516",
@@ -8885,6 +9485,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00601",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1516",
@@ -8898,6 +9499,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00602",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1516",
@@ -8913,6 +9515,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00603",
 		"Location ID (LOC)": "LOC:Codigoro",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1516",
@@ -8928,6 +9531,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00604",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1516",
@@ -8943,6 +9547,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00605",
 		"Location ID (LOC)": "LOC:Sabbioncello_San_Vittore",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1516",
@@ -8958,6 +9563,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00606",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -8973,6 +9579,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00607",
 		"Location ID (LOC)": "LOC:Vorghenza",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -8988,6 +9595,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00608",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9003,6 +9611,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00609",
 		"Location ID (LOC)": "LOC:Mantua",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9018,6 +9627,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00610",
 		"Location ID (LOC)": "LOC:Cremona",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9033,6 +9643,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00611",
 		"Location ID (LOC)": "LOC:Milan",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9048,6 +9659,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00612",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9063,6 +9675,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00613",
 		"Location ID (LOC)": "LOC:Codigoro",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9078,6 +9691,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00614",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9093,6 +9707,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00615",
 		"Location ID (LOC)": "LOC:Codigoro",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9108,6 +9723,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00616",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9123,6 +9739,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00617",
 		"Location ID (LOC)": "LOC:Codigoro",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9138,6 +9755,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00618",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9153,6 +9771,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00619",
 		"Location ID (LOC)": "LOC:Codigoro",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9168,6 +9787,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00620",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9183,6 +9803,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00621",
 		"Location ID (LOC)": "LOC:Baura",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9198,6 +9819,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00622",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9213,6 +9835,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00623",
 		"Location ID (LOC)": "LOC:Felonica",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9228,6 +9851,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00624",
 		"Location ID (LOC)": "LOC:Mantua",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9243,6 +9867,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00625",
 		"Location ID (LOC)": "LOC:Verona",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9258,6 +9883,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00626",
 		"Location ID (LOC)": "LOC:Ala",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9273,6 +9899,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00627",
 		"Location ID (LOC)": "LOC:Vienna",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9288,6 +9915,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00628",
 		"Location ID (LOC)": "LOC:Budapest",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9303,6 +9931,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00629",
 		"Location ID (LOC)": "LOC:Esztergom",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1517",
@@ -9318,6 +9947,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00630",
 		"Location ID (LOC)": "LOC:Eger",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1518",
@@ -9333,6 +9963,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00631",
 		"Location ID (LOC)": "LOC:Budapest",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1519",
@@ -9348,6 +9979,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00632",
 		"Location ID (LOC)": "LOC:Eger",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1519",
@@ -9363,6 +9995,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00633",
 		"Location ID (LOC)": "LOC:Budapest",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1520",
@@ -9378,6 +10011,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00634",
 		"Location ID (LOC)": "LOC:San_Vito",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1520",
@@ -9393,6 +10027,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00635",
 		"Location ID (LOC)": "LOC:Venice",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1520",
@@ -9408,6 +10043,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00636",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Ippolito_I_dEste",
 		"Earliest Year": "1520",
@@ -9423,6 +10059,7 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Event ID": "EV:00637",
 		"Location ID (LOC)": "LOC:Ghent-Sint-Baafskathedraal",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Jheronimus_Vinders",
 		"Earliest Year": "1525",
@@ -9440,6 +10077,7 @@
 		"Date entered": "2024-3-16"
 	},
 	{
+		"Event ID": "EV:00638",
 		"Location ID (LOC)": "LOC:Mechelen-Sint-Romboutskathedraal",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Noel_Bauldeweyn",
 		"Earliest Year": "1509",
@@ -9454,6 +10092,7 @@
 		"Date entered": "2024-3-16"
 	},
 	{
+		"Event ID": "EV:00639",
 		"Location ID (LOC)": "LOC:Florence",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Philippe_Verdelot",
 		"Earliest Year": "1521",
@@ -9470,6 +10109,7 @@
 		"Date entered": "2024-3-17"
 	},
 	{
+		"Event ID": "EV:00640",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Niccolo_de_Pictis",
 		"Earliest Year": "1521",
@@ -9486,6 +10126,7 @@
 		"Date entered": "2024-3-17"
 	},
 	{
+		"Event ID": "EV:00641",
 		"Location ID (LOC)": "LOC:Florence-Cattedrale_di_Santa_Maria_del_Fiore",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Philippe_Verdelot",
 		"Earliest Year": "1523",
@@ -9501,6 +10142,7 @@
 		"Date entered": "2024-3-17"
 	},
 	{
+		"Event ID": "EV:00642",
 		"Location ID (LOC)": "LOC:Padua-Basilica_Cattedrale_di_Santa_Maria_Assunta",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Petrus_de_Renaldis",
 		"Earliest Year": "1521",
@@ -9515,6 +10157,7 @@
 		"Date entered": "2024-3-18"
 	},
 	{
+		"Event ID": "EV:00643",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Lupus_Hellinck",
 		"Earliest Year": "1518",
@@ -9529,6 +10172,7 @@
 		"Date entered": "2024-3-18"
 	},
 	{
+		"Event ID": "EV:00644",
 		"Location ID (LOC)": "LOC:Bruges-Sint-Donaas",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Lupus_Hellinck",
 		"Earliest Year": "1506",
@@ -9543,6 +10187,7 @@
 		"Date entered": "2024-3-18"
 	},
 	{
+		"Event ID": "EV:00645",
 		"Location ID (LOC)": "LOC:Bruges-Sint-Donaas",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Lupus_Hellinck",
 		"Earliest Year": "1513",
@@ -9559,6 +10204,7 @@
 		"Date entered": "2024-3-18"
 	},
 	{
+		"Event ID": "EV:00646",
 		"Location ID (LOC)": "LOC:Bruges-Sint-Donaas",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Lupus_Hellinck",
 		"Earliest Year": "1523",
@@ -9574,6 +10220,7 @@
 		"Date entered": "2024-3-18"
 	},
 	{
+		"Event ID": "EV:00647",
 		"Location ID (LOC)": "LOC:Bruges-Onze-Lieve-Vrouwekerk",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Lupus_Hellinck",
 		"Earliest Year": "1521",
@@ -9590,6 +10237,7 @@
 		"Date entered": "2024-3-18"
 	},
 	{
+		"Event ID": "EV:00648",
 		"Location ID (LOC)": "LOC:Bruges-Sint-Donaas",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Lupus_Hellinck",
 		"Earliest Year": "1519",
@@ -9606,6 +10254,7 @@
 		"Date entered": "2024-3-18"
 	},
 	{
+		"Event ID": "EV:00649",
 		"Location ID (LOC)": "LOC:Melegnano",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Francis_I",
 		"Occasion ID (OCC)": "OCC:Battle_of_Marignano",
@@ -9622,6 +10271,7 @@
 		"Date entered": "2024-3-19"
 	},
 	{
+		"Event ID": "EV:00650",
 		"Location ID (LOC)": "LOC:Langres",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Antoine_Bruhier",
 		"Earliest Year": "1504",
@@ -9637,6 +10287,7 @@
 		"Date entered": "2024-3-19"
 	},
 	{
+		"Event ID": "EV:00651",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Enea_Pio",
 		"Earliest Year": "1516",
@@ -9651,6 +10302,7 @@
 		"Date entered": "2024-3-19"
 	},
 	{
+		"Event ID": "EV:00652",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Jean_de_la_Fage",
 		"Earliest Year": "1516",
@@ -9665,6 +10317,7 @@
 		"Date entered": "2024-3-19"
 	},
 	{
+		"Event ID": "EV:00653",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Illario_Turluron",
 		"Earliest Year": "1516",
@@ -9679,6 +10332,7 @@
 		"Date entered": "2024-3-19"
 	},
 	{
+		"Event ID": "EV:00654",
 		"Location ID (LOC)": "LOC:Venice-Basilica_di_San_Marco",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Petrus_Tirasonensis",
 		"Earliest Year": "1466",
@@ -9695,6 +10349,7 @@
 		"Date entered": "2024-3-24"
 	},
 	{
+		"Event ID": "EV:00655",
 		"Location ID (LOC)": "LOC:Conde_sur_lEscaut",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
 		"Earliest Year": "1466",
@@ -9715,6 +10370,7 @@
 		"Date updated": "2024-4-12"
 	},
 	{
+		"Event ID": "EV:00656",
 		"Location ID (LOC)": "LOC:Aix_en_Provence",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
 		"Institution ID (INS)": "INS:Chapel_Rene_Anjou",
@@ -9728,7 +10384,7 @@
 		"Latest Date Certainty": "1",
 		"Date Range": "30 April 1475 to 10 July 1480",
 		"Description": "Residency of Josquin in René of Anjou’s chapel; latest possible date for Josquin’s arrival in Aix-en-Provence and presumably for his membership of René of Anjou’s chapel; death of René of Anjou",
-		"Document Entry ID (DOE)": "DOE:Aix_1477_4_19",
+		"Document Entry ID (DOE)": "DOE:Aix_PAD_1",
 		"Bibliography ID (BIB)": "BIB:Fallows_2009",
 		"BIB Pages": "354; 85",
 		"Input data": "FEM",
@@ -9737,6 +10393,7 @@
 		"Date updated": "2024-4-12"
 	},
 	{
+		"Event ID": "EV:00657",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Agostino_della_Viola",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -9752,6 +10409,7 @@
 		"Date updated": "2024-4-9"
 	},
 	{
+		"Event ID": "EV:00658",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Andrea_Picardo",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -9767,6 +10425,7 @@
 		"Date updated": "2024-4-9"
 	},
 	{
+		"Event ID": "EV:00659",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Antoino_da_lOrgano",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -9782,6 +10441,7 @@
 		"Date updated": "2024-4-9"
 	},
 	{
+		"Event ID": "EV:00660",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Antonio_da_Venezia",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -9797,6 +10457,7 @@
 		"Date updated": "2024-4-9"
 	},
 	{
+		"Event ID": "EV:00661",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Antonio_de_don_Guido",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -9812,6 +10473,7 @@
 		"Date updated": "2024-4-9"
 	},
 	{
+		"Event ID": "EV:00662",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Antonio_de_Longueval",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -9827,6 +10489,7 @@
 		"Date updated": "2024-4-9"
 	},
 	{
+		"Event ID": "EV:00663",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Antonio_Scatolaro",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -9842,6 +10505,7 @@
 		"Date updated": "2024-4-9"
 	},
 	{
+		"Event ID": "EV:00664",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Augustino_trombone",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -9857,6 +10521,7 @@
 		"Date updated": "2024-4-9"
 	},
 	{
+		"Event ID": "EV:00665",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Baldessare_cantore",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -9872,6 +10537,7 @@
 		"Date updated": "2024-4-9"
 	},
 	{
+		"Event ID": "EV:00666",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Alfonso_Frias",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -9887,6 +10553,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00667",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Alfonso_Frias",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -9902,6 +10569,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00668",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Alfonsus_de_Troia",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -9917,6 +10585,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00669",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Andreas_de_Francomonte",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -9932,6 +10601,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00670",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Andreas_de_Francomonte",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -9947,6 +10617,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00671",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Antonius_Cortit",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -9962,6 +10633,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00672",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Antonius_Baneston",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -9977,6 +10649,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00673",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Antonius_Baneston",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -9992,6 +10665,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00674",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Antonius_Cernier",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10007,6 +10681,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00675",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Antonius_Walthieri",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10022,6 +10697,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00676",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Archangelo_Blasi",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10037,6 +10713,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00677",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Arnoldus_Lauri",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10052,6 +10729,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00678",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Augustino_de_Nigris",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10067,6 +10745,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00679",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Bartolomeo_cappellano",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10082,6 +10761,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00680",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Bartolomeo_de_Fiandra",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10097,6 +10777,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00681",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Bartolomeo_Spagnolo",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10112,6 +10793,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00682",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Benedetto_da_Como",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10127,6 +10809,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00683",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Benedictus_Sirede",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10142,6 +10825,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00684",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Benedictus_Sirede",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10157,6 +10841,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00685",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Bernardo_da_Colornio",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10172,6 +10857,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00686",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Bernardo_da_Colornio",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10187,6 +10873,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00687",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Bernardo_da_Scandiano",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10202,6 +10889,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00688",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Bono_Radulphi",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10217,6 +10905,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00689",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Bono_Radulphi",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10232,6 +10921,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00690",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Carlo_de_Fiandra",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10247,6 +10937,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00691",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Christoforus_Rousseaux",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10262,6 +10953,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00692",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Christoforus_Rousseaux",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10277,6 +10969,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00693",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Christoforus_Rousseaux",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10292,6 +10985,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00694",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Christoforus_Rousseaux",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10307,6 +11001,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00695",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Claudius_Pilosy",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10322,6 +11017,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00696",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Clemens_la_Gache",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10338,6 +11034,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00697",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Coletta_soprano",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10353,6 +11050,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00698",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Cornelio_de_Fiandra",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10368,6 +11066,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00699",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Cornelio_de_Fiandra",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10383,6 +11082,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00700",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Daniel_Staet",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10398,6 +11098,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00701",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Domenico_organista",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10413,6 +11114,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00702",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Domenico_organista",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10428,6 +11130,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00703",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Donato_Felix",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10443,6 +11146,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00704",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Donato_Felix",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10458,6 +11162,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00705",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Egidio_cantore",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10473,6 +11178,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00706",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Egidio_Charpentier",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10488,6 +11194,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00707",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Egidius_Cossee",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10503,6 +11210,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00708",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Eustachius_de_Havresse",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10518,6 +11226,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00709",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Felice_da_Nola",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10533,6 +11242,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00710",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Felice_da_Nola",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10548,6 +11258,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00711",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Florentinus_Alexandri",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10563,6 +11274,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00712",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Garsie_Salinas",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10578,6 +11290,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00713",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Garsie_Salinas",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10593,6 +11306,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00714",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Gebia_ala_musica",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10608,6 +11322,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00715",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Georgius_de_Duno",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10623,6 +11338,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00716",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Georgius_Sguri",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10638,6 +11354,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00717",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Gerardo",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10653,6 +11370,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00718",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Gerardus_Le_Fay",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10668,6 +11386,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00719",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Gervasius_Gallus",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10683,6 +11402,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00720",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Giam_Guaschon",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10698,6 +11418,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00721",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Gian_de_Fiandra",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10713,6 +11434,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00722",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Gian_de_Fiandra",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10728,6 +11450,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00723",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Girolamo",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10743,6 +11466,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00724",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Girolamo_Albanexe_capelano",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10758,6 +11482,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00725",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Girolamo_Beltrandi",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10773,6 +11498,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00726",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Girolamo_da_Sestola",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10788,6 +11514,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00727",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Girolamo_da_Verona",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10803,6 +11530,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00728",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Girolamo_de_la_Frassina",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10818,6 +11546,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00729",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Girvaxe",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10833,6 +11562,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00730",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Golinus_Madoche",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10849,6 +11579,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00731",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Guillermus_Austrini",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10864,6 +11595,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00732",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Guillermus_de_Cant",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10879,6 +11611,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00733",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Henricus_Rosa",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10894,6 +11627,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00734",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Hieronimus_Beltrandi",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10909,6 +11643,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00735",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Hieronimus_Beltrandi",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10924,6 +11659,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00736",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Hieronymo_de_la_Frassina",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10939,6 +11675,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00737",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Illario_Turluron",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10954,6 +11691,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00738",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Innocentius_Cossee",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10969,6 +11707,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00739",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Jachetto_de_Marvilla",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -10984,6 +11723,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00740",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Jacobus_Boni",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -10999,6 +11739,7 @@
 		"Date updated": "2024-4-11"
 	},
 	{
+		"Event ID": "EV:00741",
 		"Location ID (LOC)": "LOC:Conde_sur_lEscaut",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Gille_des_Prez; BNO:Jacque_Banestonne",
 		"Earliest Year": "1466",
@@ -11017,6 +11758,7 @@
 		"Date entered": "2024-4-12"
 	},
 	{
+		"Event ID": "EV:00742",
 		"Location ID (LOC)": "LOC:Aix_en_Provence",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
 		"Institution ID (INS)": "INS:Chapel_Rene_Anjou",
@@ -11036,6 +11778,7 @@
 		"Date entered": "2024-4-12"
 	},
 	{
+		"Event ID": "EV:00743",
 		"Location ID (LOC)": "LOC:Aix_en_Provence",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
 		"Institution ID (INS)": "INS:Chapel_Rene_Anjou",
@@ -11051,6 +11794,7 @@
 		"Date entered": "2024-4-12"
 	},
 	{
+		"Event ID": "EV:00744",
 		"Location ID (LOC)": "LOC:Aix_en_Provence",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
 		"Institution ID (INS)": "INS:Chapel_Rene_Anjou",
@@ -11068,6 +11812,7 @@
 		"Date entered": "2024-4-12"
 	},
 	{
+		"Event ID": "EV:00745",
 		"Location ID (LOC)": "LOC:Aix_en_Provence",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
 		"Earliest Year": "1477",
@@ -11078,13 +11823,14 @@
 		"Latest Day": "19",
 		"Date Range": "19 April 1477",
 		"Description": "“Jusquinus Pratensis, Cameracensis diocesis clericus et cantor capelle serenissimi” is present, named as witness to the will of the singer Johannes Giraud, from Saumur.",
-		"Document Entry ID (DOE)": "DOE:Aix_1477_4_19",
+		"Document Entry ID (DOE)": "DOE:Aix_PAD_1",
 		"Bibliography ID (BIB)": "BIB:Fallows_2009",
 		"BIB Pages": "355",
 		"Input data": "FEM",
 		"Date entered": "2024-4-12"
 	},
 	{
+		"Event ID": "EV:00746",
 		"Location ID (LOC)": "LOC:Aix_en_Provence",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
 		"Earliest Year": "1477",
@@ -11095,13 +11841,14 @@
 		"Latest Day": "21",
 		"Date Range": "21 April 1477",
 		"Description": "Josquin appoints as procurators in general and specifically for benefices in diodiocese of Angers: Johannes Stranques, sacristan, and Johannes Champain, another cleric from the church of St Pierre in Angers, along with Johannes Adam alias Craon, master of the chapel of St Laud, in Angers. Witnesses: “a notary and the secretary to the king”",
-		"Document Entry ID (DOE)": "DOE:Aix_1477_4_21",
+		"Document Entry ID (DOE)": "DOE:Aix_PAD_2",
 		"Bibliography ID (BIB)": "BIB:Fallows_2009",
 		"BIB Pages": "355",
 		"Input data": "FEM",
 		"Date entered": "2024-4-12"
 	},
 	{
+		"Event ID": "EV:00747",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Jacobus_Boulenbeke",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11117,6 +11864,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00748",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Jacobus_Merceri",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11132,6 +11880,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00749",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Jacobus_Wallpot",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11147,6 +11896,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00750",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Jacobus_Wallpot",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11162,6 +11912,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00751",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Jacomo_da_Sansegondo",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -11177,6 +11928,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00752",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Jacomo_dAlba",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -11192,6 +11944,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00753",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Jacomo_del_Ponte",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -11207,6 +11960,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00754",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Jannes_Pezenin",
 		"Institution ID (INS)": "INS:Court_Ferrara",
@@ -11222,6 +11976,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00755",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Jo_Sorno",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11237,6 +11992,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00756",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Barbe",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11252,6 +12008,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00757",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Barbe",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11267,6 +12024,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00758",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Calot",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11282,6 +12040,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00759",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Clericus",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11297,6 +12056,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00760",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_de_Balloviso",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11312,6 +12072,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00761",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_de_Castello",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11327,6 +12088,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00762",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_de_Fonte",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11342,6 +12104,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00763",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_de_Fraccinis",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11357,6 +12120,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00764",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_de_Monte",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11372,6 +12136,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00765",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Foulsini",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11387,6 +12152,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00766",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Foulsini",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11402,6 +12168,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00767",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Gonbert",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11417,6 +12184,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00768",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Grutter",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11432,6 +12200,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00769",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Grutter",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11447,6 +12216,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00770",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Hurtault",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11462,6 +12232,7 @@
 		"Date updated": "2024-4-13"
 	},
 	{
+		"Event ID": "EV:00771",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Jorlandi",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11477,6 +12248,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00772",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Juvenis",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11492,6 +12264,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00773",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Marsille",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11507,6 +12280,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00774",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Marsille",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11522,6 +12296,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00775",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Mauroy",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11537,6 +12312,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00776",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Meruen",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11552,6 +12328,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00777",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Meruen",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11567,6 +12344,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00778",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Monstreul",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11582,6 +12360,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00779",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Monstreul",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11597,6 +12376,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00780",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Nobleti",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11612,6 +12392,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00781",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Palomares",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11627,6 +12408,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00782",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Palomares",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11642,6 +12424,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00783",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Philibert",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11657,6 +12440,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00784",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Pocquetoy",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11672,6 +12456,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00785",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Pocquetoy",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11687,6 +12472,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00786",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Postel",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11702,6 +12488,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00787",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Postel",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11717,6 +12504,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00788",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Praepositi",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11732,6 +12520,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00789",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Radulphi",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11747,6 +12536,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00790",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Radulphi_II",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11759,6 +12549,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00791",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Raet",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11774,6 +12565,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00792",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Saureux",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11790,6 +12582,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00793",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannis_Joannis",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11805,6 +12598,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00794",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johi_Stretonia",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11820,6 +12614,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00795",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Lambertus_Beaunnoir",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11835,6 +12630,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00796",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Laurentius_Canner",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11850,6 +12646,7 @@
 		"Date updated": "2024-4-19"
 	},
 	{
+		"Event ID": "EV:00797",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Leo_Reyndimal",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
@@ -11863,5 +12660,219 @@
 		"Date entered": "2024-4-1",
 		"Update data": "LO",
 		"Date updated": "2024-4-19"
+	},
+	{
+		"Event ID": "EV:00798",
+		"Location ID (LOC)": "LOC:Paris-Notre-Dame",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Antoine_Brumel",
+		"Earliest Year": "1498",
+		"Earliest Month": "1",
+		"Earliest Day": "5",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1498",
+		"Latest Month": "1",
+		"Latest Day": "5",
+		"Latest Date Certainty": "1",
+		"Date Range": "5 January 1498",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Brumel is hired at Notre Dame Paris",
+		"Document Entry ID (DOE)": "DOE:Paris_AN_1",
+		"Bibliography ID (BIB)": "BIB:Wright_1981",
+		"BIB Pages": "58",
+		"Notes": "Hiring record describes him as currently at Laon",
+		"Input data": "SMB",
+		"Date entered": "2024-5-29"
+	},
+	{
+		"Event ID": "EV:00799",
+		"Location ID (LOC)": "LOC:Paris-Notre-Dame",
+		"Biography ID (BCO, BMU, BNO)": "BNO:Charles_VIII",
+		"Earliest Year": "1498",
+		"Earliest Month": "4",
+		"Earliest Day": "30",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1498",
+		"Latest Month": "4",
+		"Latest Day": "30",
+		"Latest Date Certainty": "1",
+		"Date Range": "30 April 1498",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Funeral of Charles VIII",
+		"Document Entry ID (DOE)": "DOE:Paris_AN_1",
+		"Bibliography ID (BIB)": "BIB:Wright_1981",
+		"BIB Pages": "49",
+		"Input data": "SMB",
+		"Date entered": "2024-5-29"
+	},
+	{
+		"Event ID": "EV:00800",
+		"Location ID (LOC)": "LOC:Paris-Notre-Dame",
+		"Biography ID (BCO, BMU, BNO)": "BNO:Louis_XII",
+		"Earliest Year": "1498",
+		"Earliest Month": "7",
+		"Earliest Day": "2",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1498",
+		"Latest Month": "7",
+		"Latest Day": "2",
+		"Latest Date Certainty": "1",
+		"Date Range": "2 July 1498",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Louis XII is welcomed at Notre Dame",
+		"Document Entry ID (DOE)": "DOE:Paris_AN_1",
+		"Bibliography ID (BIB)": "BIB:Wright_1981",
+		"BIB Pages": "49",
+		"Input data": "SMB",
+		"Date entered": "2024-5-29"
+	},
+	{
+		"Event ID": "EV:00801",
+		"Location ID (LOC)": "LOC:Paris-Notre-Dame",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Antoine_Brumel",
+		"Earliest Year": "1500",
+		"Earliest Month": "11",
+		"Earliest Day": "16",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1500",
+		"Latest Month": "11",
+		"Latest Day": "16",
+		"Latest Date Certainty": "1",
+		"Date Range": "16 November 1500",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Brumel resigns from Notre Dame Paris",
+		"Document Entry ID (DOE)": "DOE:Paris_AN_2",
+		"Bibliography ID (BIB)": "BIB:Wright_1981",
+		"BIB Pages": "55",
+		"Input data": "SMB",
+		"Date entered": "2024-5-29"
+	},
+	{
+		"Event ID": "EV:00802",
+		"Location ID (LOC)": "LOC:Faenza",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Antoine_Brumel",
+		"Earliest Year": "1512",
+		"Earliest Month": "5",
+		"Earliest Day": "11",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1512",
+		"Latest Month": "5",
+		"Latest Day": "11",
+		"Latest Date Certainty": "1",
+		"Date Range": "11 May 1512",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Brumel resigns archpriestship of St. Johannes in Libia and St. Sabina near Faenza",
+		"Document Entry ID (DOE)": "DOE:Vatican_BAV_73",
+		"Bibliography ID (BIB)": "BIB:Sherr_1994",
+		"BIB Pages": "72",
+		"Input data": "SMB",
+		"Date entered": "2024-5-31"
+	},
+	{
+		"Event ID": "EV:00803",
+		"Location ID (LOC)": "LOC:Mantua",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Antoine_Brumel",
+		"Earliest Year": "1512",
+		"Earliest Month": "8",
+		"Earliest Day": "23",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1512",
+		"Latest Month": "8",
+		"Latest Day": "23",
+		"Latest Date Certainty": "1",
+		"Date Range": "23 August 1512",
+		"Certainty of Event (within Range)": "2",
+		"Description": "Supplication refers to Brumel's resignation but not his death",
+		"Document Entry ID (DOE)": "DOE:Vatican_BAV_74",
+		"Bibliography ID (BIB)": "BIB:Sherr_1994",
+		"BIB Pages": "73",
+		"Notes": "Sherr suggests Turleron's involvement places Brumel in Mantua",
+		"Input data": "SMB",
+		"Date entered": "2024-5-31"
+	},
+	{
+		"Event ID": "EV:00803",
+		"Location ID (LOC)": "LOC:Chartres",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Antoine_Brumel",
+		"Earliest Year": "1483",
+		"Earliest Month": "8",
+		"Earliest Day": "9",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1483",
+		"Latest Month": "8",
+		"Latest Day": "9",
+		"Latest Date Certainty": "1",
+		"Date Range": "9 August 1483",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Brumel hired at Notre Dame Chartres as a singer",
+		"Document Entry ID (DOE)": "DOE:Chartres_BIB_1",
+		"Bibliography ID (BIB)": "BIB:Pirro_1928",
+		"BIB Pages": "349",
+		"Input data": "SMB",
+		"Date entered": "2024-6-1"
+	},
+	{
+		"Event ID": "EV:00804",
+		"Location ID (LOC)": "LOC:Geneva",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Antoine_Brumel",
+		"Earliest Year": "1486",
+		"Earliest Month": "10",
+		"Earliest Day": "4",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1486",
+		"Latest Month": "10",
+		"Latest Day": "4",
+		"Latest Date Certainty": "1",
+		"Date Range": "4 October 1486",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Brumel is paid as Master of the Innocents at St Pierre, Geneva",
+		"Bibliography ID (BIB)": "BIB:Pidoux_1964",
+		"BIB Pages": "111",
+		"Input data": "SMB",
+		"Date entered": "2024-6-6"
+	},
+	{
+		"Event ID": "EV:00805",
+		"Location ID (LOC)": "LOC:Laon",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Antoine_Brumel",
+		"Institution ID (INS)": "INS:Troyes_Cathedral",
+		"LOC Certainty": "1",
+		"Earliest Year": "1497",
+		"Earliest Month": "3",
+		"Earliest Day": "1",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1497",
+		"Latest Month": "6",
+		"Latest Day": "30",
+		"Latest Date Certainty": "1",
+		"Date Range": "1 March 1497 to 30 June 1497",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Brumel given wine at Troyes Cathedral, described as singer at Laon",
+		"Bibliography ID (BIB)": "BIB:Wegman_2008",
+		"BIB Pages": "215",
+		"Input data": "SMB",
+		"Date entered": "2024-6-7"
+	},
+	{
+		"Event ID": "EV:00806",
+		"Location ID (LOC)": "LOC:Chambery",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Antoine_Brumel",
+		"Institution ID (INS)": "INS:Chapel_Charles_I",
+		"LOC Certainty": "1",
+		"Earliest Year": "1501",
+		"Earliest Month": "6",
+		"Earliest Day": "1",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1501",
+		"Latest Month": "6",
+		"Latest Day": "1",
+		"Latest Date Certainty": "1",
+		"Date Range": "1 June 1501",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Brumel appointed singer at Savoy court Chapel",
+		"Document Entry ID (DOE)": "DOE:Chambery_3625",
+		"Bibliography ID (BIB)": "BIB:Bouquet_1968",
+		"BIB Pages": "258",
+		"Input data": "SMB",
+		"Date entered": "2024-6-8"
 	}
 ]

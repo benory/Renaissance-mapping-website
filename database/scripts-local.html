@@ -1,0 +1,315 @@
+{% include_relative scripts-listeners.html %}
+
+<script>
+// vim: ts=3:nowrap
+
+
+//////////////////////////////
+//
+// displaySheet -- Select the browse interface for a specific worksheet.
+//
+
+function displaySheet(name) {
+	let list = document.querySelectorAll(".sheet-display");
+	for (let i=0; i<list.length; i++) {
+		let sheet = list[i];
+		let sheetName = sheet.dataset.sheet;
+		sheet.style.display = (name == sheetName ? "block" : "none");
+	}
+}
+
+
+
+//////////////////////////////
+//
+// buildLookupTables –- 
+//
+
+function buildLookupTables() {
+	let metadata = MAP.METADATA;
+	if (!metadata){
+		console.warn("No METADATA!");
+		return;
+	}
+	for (sheet in metadata) {
+		if (sheet === "events"){
+			continue;
+		}
+		buildLookupTable(sheet);
+	}
+}
+
+
+
+//////////////////////////////
+//
+// buildLookupTable –-
+//
+
+function buildLookupTable(sheet) {
+	let sheetArray = MAP.METADATA[sheet];
+	if (!sheetArray && Array.isArray(sheetArray)){
+		console.warn("No METADATA FOR", sheet);
+		return;
+	}
+	MAP.lookup[sheet] = {};
+	const lookup = MAP.lookup[sheet];
+	for (let entry of sheetArray) {
+		let id = entry.ID;
+		if (!id){
+			console.warn("NO ID FOR ENTRY");
+			continue;
+		}
+		lookup[id] = entry;
+	}
+}
+
+	
+
+//////////////////////////////
+//
+// buildSearchInterfaces --
+//
+
+function buildSearchInterfaces(metadata, selector) {
+	let element = document.querySelector(selector);
+	if (!element) {
+		console.error("ERROR: Cannot find", selector, "element");
+		return;
+	}
+	let browsers = element.querySelectorAll("div.sheet-display");
+
+	for (let i=0; i<browsers.length; i++) {
+
+		let sheetName = browsers[i].dataset.sheet;
+		let browseElement = browsers[i].querySelector("div.search-interface");
+		if (!browseElement) {
+			console.error("ERROR: No browseElement for", sheetName);
+			return;
+		}
+
+		MAP.menus[sheetName] = browseElement;
+		let tableElement = browsers[i].querySelector("div.results-list");
+		if (!tableElement) {
+			console.error("ERROR: No search results list element for", sheetName);
+			return;
+		}
+
+		MAP.results[sheetName] = tableElement;
+		if (sheetName === "events") {
+			buildSearchInterfaceEvents(metadata.events, browseElement);
+		} else if (sheetName === "documents") {
+			buildSearchInterfaceDocuments(metadata.documents, browseElement);
+		}
+	}
+
+}
+
+
+
+//////////////////////////////
+//
+// buildSearchInterfaceEvents --
+//
+
+function buildSearchInterfaceEvents(data, browseElement) {
+	if (!browseElement) {
+		console.error("ERROR: Cannot find search interface element", browseElement);
+		return;
+	}
+	let output = "";
+	/*output += buildComposerSelect(data);
+	output += buildVoiceSelect(data);
+	output += buildGenreSelect(data);
+	output += buildLanguageSelect(data);
+	output += buildMonoPolySelect(data);
+	output += buildSacredSecularSelect(data);
+	output += buildVocInstrSelect(data);
+	output += buildSourceSelect(data);*/
+	browseElement.innerHTML = output;
+}
+
+
+
+//////////////////////////////
+//
+// buildSearchInterfaceDocuments --
+//
+
+function buildSearchInterfaceDocuments(data, browseElement) {
+	if (!browseElement) {
+		console.error("ERROR: Cannot find search interface element", browseElement);
+		return;
+	}
+	let output = "";
+	/*output += buildCountrySelect(data);
+	output += buildYearSelect(data);
+	output += buildProgramSourceSelect(data);*/
+	browseElement.innerHTML = output;
+}
+
+
+
+//////////////////////////////
+//
+// displayBrowseTableEvents --
+//
+
+function displayBrowseTableEvents(data) {
+	let element = MAP.results.events;
+	if (!element) {
+		console.warn("Cannot find search results element for events");
+		return;
+	}
+
+	let headings = [];
+
+	let contents = "";
+	contents += "<table class='browse-events sticky'>\n";
+	contents += "<thead>\n";
+	contents += makeTableHeader(headings);
+	contents += "</thead>\n";
+	contents += "<tbody>\n";
+	contents += makeTableBody(headings, data);
+	contents += "</tbody>\n";
+	contents += "</table>\n";
+	element.innerHTML = contents;
+}
+
+
+
+//////////////////////////////
+//
+// displayBrowseTableDocuments --
+//
+
+function displayBrowseTableDocuments(data) {
+	let element = MAP.results.documents;
+	if (!element) {
+		console.warn("Cannot find search results element for documents");
+		return;
+	}
+
+	let headings = [];
+
+	let contents = "";
+	contents += "<table class='browse-documents sticky'>\n";
+	contents += "<thead>\n";
+	contents += makeTableHeader(headings);
+	contents += "</thead>\n";
+	contents += "<tbody>\n";
+	contents += makeTableBody(headings, data);
+	contents += "</tbody>\n";
+	contents += "</table>\n";
+	element.innerHTML = contents;
+}
+
+
+
+//////////////////////////////
+//
+// makeTableHeader -- Generate HTML content for browse table header.
+//
+
+function makeTableHeader(headings) {
+	let output = "";
+	return output;
+}
+
+
+
+//////////////////////////////
+//
+// makeTableBody -- Generate HTML content for browse table's body.
+//
+
+function makeTableBody(headings, data) {
+	let output = "";
+	return output;
+}
+
+
+//////////////////////////////
+//
+// UserSearch --
+//
+
+function UserSearch() {
+	let tr    = document.querySelectorAll("div.results-list tbody tr");
+	let input = document.querySelector("#input");
+	let regex = new RegExp(input.value, 'i');
+	let searchCount = 0;
+
+
+	// Loop through all table rows, hiding those that don't match the search query:
+	for (let i=0; i<tr.length; i++) {
+		let td = tr[i].querySelectorAll("td");
+		let found = false;
+		for (let j=0; j<td.length; j++) {
+			if (td[j].innerText.match(regex)) {
+				found = true;
+				searchCount++;
+				break;
+			}
+		}
+		tr[i].style.display = found ? "" : "none";
+	}
+
+	if (searchCount == 1){
+		searchString = `[${searchCount} result]`;
+	} else {
+		searchString = `[${searchCount} results]`;
+	}
+	let searchStringElement = document.querySelector("#search-count");
+	if (searchStringElement) {
+		searchStringElement.innerHTML = searchString;
+	}
+}
+
+//////////////////////////////
+//
+// doSearchDocuments --
+//
+
+function doSearchDocuments(data) {
+	if (!data) {
+		data = MAP.METADATA.documents;
+	}
+	console.error("input data for doSearchDocuments", data);
+
+	let searchInterface = MAP.menus.documents;
+	console.warn("print search interface", searchInterface);
+	if (!searchInterface) {
+		console.log("Problem finding search interface for documents");
+		return;
+	}
+
+	displayBrowseTableDocuments(data);
+
+}
+
+
+
+//////////////////////////////
+//
+// doSearchEvents --
+//
+
+function doSearchEvents(data) {
+	if (!data) {
+		data = MAP.METADATA.events;
+	}
+	console.error("input data for doSearchEvents", data);
+
+
+	let searchInterface = MAP.menus.events;
+	console.warn("print search interface", searchInterface);
+	if (!searchInterface) {
+		console.log("Problem finding search interface for events");
+		return;
+	}
+
+	displayBrowseTableEvents(data);
+}
+
+</script>

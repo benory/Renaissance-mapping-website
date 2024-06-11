@@ -1,0 +1,155 @@
+<style>
+
+body {font: 400 12px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}
+
+h1 { font-size: 40px; }
+
+th { text-align: left; }
+
+div.search-interface { margin-bottom: 30px; }
+.wrapper {margin-left: 10px;}
+
+a { text-decoration: none; }
+
+.hidden {
+	display: none;
+}
+
+table.browse-works, table.browse-concerts {
+	min-width: 1000px;
+}
+
+
+table.browse-works, table.browse-concerts { /* center table */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+table.browse-works, table.browse-concerts {
+	border-collapse: collapse; /* don't put gaps between cells */
+}
+
+
+table.browse-works th, table.browse-concerts th {
+	background:skyblue;
+}
+
+
+table.browse-works td, table.browse-concerts td, table.browse th, table.browse-concerts th {
+	padding-left: 3px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 3px;
+}
+
+
+table.browse-works tr:hover, table.browse-concerts tr:hover {
+	background:#ff000011;
+}
+
+table.browse-works td.probable-composer {min-width: 100px;}
+table.browse-works td.voices {width: 70px;}
+table.browse-works td.program-id {min-width: 200px;}
+table.browse-works td.genre {min-width: 100px;}
+table.browse-works td.source-of-work-listed-in-program {min-width: 150px;}
+table.browse-works td.edition-of-work-listed-in-program {min-width: 200px;}
+table.browse-works td.modern-edition {min-width: 300px;}
+
+table.browse-works th.probable-composer {min-width: 100px;}
+table.browse-works th.voices {width: 70px;}
+table.browse-works th.program-id {min-width: 200px;}
+table.browse-works th.genre {min-width: 100px;}
+table.browse-works th.source-of-work-listed-in-program {min-width: 150px;}
+table.browse-works th.edition-of-work-listed-in-program {min-width: 200px;}
+table.browse-works th.modern-edition {min-width: 300px;}
+
+table.browse-concerts td.date {white-space: nowrap;}
+table.browse-concerts td.program-title {min-width: 250px;}
+table.browse-concerts td.ensemble-larger-org {min-width: 200px;}
+table.browse-concerts td.location {min-width: 200px;}
+table.browse-concerts td.direction {min-width: 200px;}
+table.browse-concerts td.archive-arc {min-width: 200px;}
+
+table.browse-concerts th.date {white-space: nowrap;}
+table.browse-concerts th.program-title {min-width: 250px;}
+table.browse-concerts th.ensemble-larger-org {min-width: 200px;}
+table.browse-concerts th.location {min-width: 200px;}
+table.browse-concerts th.direction {min-width: 200px;}
+table.browse-concerts th.archive-arc {min-width: 200px;}
+
+
+table.sticky {
+	border-collapse: collapse;
+	/* table-layout: fixed; */
+}
+
+
+table.sticky thead th {
+	position: sticky;
+	top: 0;
+}
+
+
+td.voices {
+	text-align: center;
+}
+
+select.source {max-width: 210px}
+
+
+select {
+        border: 1px solid #ddd; /* Add a grey border */
+        font-size: 0.85rem;
+        margin: 3px;
+        padding: 5px;
+}
+
+
+span.sheet-button {
+	font: 400 18px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	color: #0645AD;
+	display: inline-block;
+	background: white;
+	padding: 10px;
+	margin-bottom: 25px;
+	margin-right: 10px;
+	border: 1px solid black;
+	width: 80px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+span.sheet-button.selected {
+	background: dodgerblue;
+	color: white;
+}
+
+
+span.sheet-button:hover {
+	background: darkred;
+	color: white;
+}
+
+
+#input {
+	background-image: url('/database/searchicon.png'); /* Add a search icon to input */
+	background-position: 10px 12px; /* Position the search icon */
+	background-repeat: no-repeat; /* Do not repeat the icon image */
+	border: 1px solid #ddd; /* Add a grey border */
+	font-size: 16px; /* Increase font-size */
+	margin-bottom: 12px; /* Add some space below the input */
+	padding: 12px 20px 12px 40px; /* Add some padding */
+	width: 37%; /* Full-width */
+}
+
+
+#search-count {
+	font-size: 16px; /* Increase font-size */
+	margin-left: 10px;
+	padding: 12px; /* Add some padding */
+	width: 100%; /* Full-width */
+}
+
+</style>

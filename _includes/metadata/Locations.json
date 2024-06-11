@@ -489,6 +489,16 @@
 		"Date entered": "2023-5-17"
 	},
 	{
+		"Location ID (LOC)": "LOC:Chambery",
+		"Name of Location": "Chambery",
+		"City or Larger Place": "Chambery",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/vojg2ijxLzHwb9Sr8",
+		"Coordinates": "45.564888, 5.922580",
+		"Input data": "SMB",
+		"Date entered": "2024-6-8"
+	},
+	{
 		"Location ID (LOC)": "LOC:Chapelle",
 		"Name of Location": "Chapelle",
 		"City or Larger Place": "Chapelle",
@@ -496,14 +506,16 @@
 		"Date entered": "2024-1-23"
 	},
 	{
-		"Location ID (LOC)": "LOC:Chartes",
-		"Name of Location": "Chartes",
+		"Location ID (LOC)": "LOC:Chartres",
+		"Name of Location": "Chartres",
 		"City or Larger Place": "Chartes",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/m7gFDJd5EpKmcm3m7",
 		"Coordinates": "48.44394802199311, 1.4902206726843918",
 		"Input data": "BSO",
-		"Date entered": "2023-5-2"
+		"Date entered": "2023-5-2",
+		"Update data": "SMB",
+		"Date updated": "2024-6-1"
 	},
 	{
 		"Location ID (LOC)": "LOC:Chateau-Renault",
@@ -831,6 +843,16 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Location ID (LOC)": "LOC:Geneva",
+		"Name of Location": "Geneva",
+		"City or Larger Place": "Geneva",
+		"Modern Country": "Switzerland",
+		"Google URL": "https://maps.app.goo.gl/W8jqsQsncd6T3fjt6",
+		"Coordinates": "46.200813, 6.148758",
+		"Input data": "SMB",
+		"Date entered": "2024-6-6"
+	},
+	{
 		"Location ID (LOC)": "LOC:Genoa",
 		"Name of Location": "Genoa",
 		"City or Larger Place": "Genoa",
@@ -1063,6 +1085,16 @@
 		"Coordinates": "48.731515626858204, -3.4611563846939717",
 		"Input data": "BSO",
 		"Date entered": "2024-1-25"
+	},
+	{
+		"Location ID (LOC)": "LOC:Laon",
+		"Name of Location": "Laon",
+		"City or Larger Place": "Laon",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/YtCGZwCfrrZsGnFk9",
+		"Coordinates": "49.564446, 3.624003",
+		"Input data": "SMB",
+		"Date entered": "2024-6-7"
 	},
 	{
 		"Location ID (LOC)": "LOC:Larchant",

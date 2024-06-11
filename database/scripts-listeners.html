@@ -1,0 +1,77 @@
+<script>
+// vim: ts=3:nowrap
+
+let MAP = {};
+MAP.results = {};            // elements for displaying search results by sheet name
+MAP.menus = {};              // elements for displaying search menus by sheet name
+MAP.activeResults = null;
+
+MAP.index = {};						// header name mapping by sheet
+MAP.index.Archival_docs = {};		// header names for archival documents sheet
+MAP.index.Bibliography = {};		// header names for bibliography sheet
+MAP.index.Bio_Composers = {};		// header names for biography sheet for composers
+MAP.index.Bio_Musicians = {};		// header names for biography sheet for musicians
+MAP.index.Bio_Nonmusicians = {};	// header names for biography sheet for non-musicians
+MAP.index.Doc_Entries = {};			// header names for document entries sheet
+MAP.index.Events = {};				// header names for events sheet
+MAP.index.Headers = {};				// header names for headers sheet
+MAP.index.Institutions = {};		// header names for institutions sheet
+MAP.index.Locations = {};			// header names for locations sheet
+MAP.index.Occasions = {};			// header names for occasions sheet
+
+MAP.METADATA = {};
+MAP.METADATA.Archival_docs = {% include metadata/Archival_docs.json %};
+MAP.METADATA.Bibliography = {% include metadata/Bibliography.json %};
+MAP.METADATA.Bio_Composers = {% include metadata/Bio_Composers.json %};
+MAP.METADATA.Bio_Musicians = {% include metadata/Bio_Musicians.json %};
+MAP.METADATA.Bio_Nonmusicians = {% include metadata/Bio_Nonmusicians.json %};
+MAP.METADATA.Doc_Entries = {% include metadata/Doc_Entries.json %};
+MAP.METADATA.Events = {% include metadata/Events.json %};
+MAP.METADATA.Headers = {% include metadata/Headers.json %};
+MAP.METADATA.Institutions = {% include metadata/Institutions.json %};
+MAP.METADATA.Locations = {% include metadata/Locations.json %};
+MAP.METADATA.Occasions = {% include metadata/Occasions.json %};
+
+MAP.index.Archival_docs.ARDID 		= "Archival Document \(ARD\) ID";
+MAP.index.Archival_docs.LOCID		= "Location ID \(LOC\)";
+MAP.index.Archival_docs.ARC 		= "Archive";
+MAP.index.Archival_docs.ARCFOND		= "Archival Fond";
+MAP.index.Archival_docs.SIG			= "Signature";
+MAP.index.Archival_docs.AINFO		= "Description";
+
+MAP.index.Bibliography.BIBID		= "Bibliography \(BIB\) ID";
+MAP.index.Bibliography.AUTHOR		= "Author";
+MAP.index.Bibliography.ARTNAME		= "Name of Article";
+MAP.index.Bibliography.VOLNAME 		= "Name of Volume\/Journal";
+MAP.index.Bibliography.EDITOR		= "Editor";
+MAP.index.Bibliography.VOLNO		= "Volume";
+MAP.index.Bibliography.EDITION 		= "Edition";
+MAP.index.Bibliography.SER 			= "Series";
+MAP.index.Bibliography.LOC 			= "Location";
+MAP.index.Bibliography.PUB			= "Publisher";
+MAP.index.Bibliography.YEAR			= "Year";
+MAP.index.Bibliography.PAGES		= "Pages";
+MAP.index.Bibliography.URL 			= "URL";
+
+MAP.index.Bio_Composers.BCOID		= "Biography Composer \(BCO\) ID";
+MAP.index.Bio_Composers.BCONAME		= "Composer Name";
+MAP.index.Bio_Composers.ALIAS		= "Alias";
+MAP.index.Bio_Composers.BDATE		= "Birth Date";
+MAP.index.Bio_Composers.DDATE		= "Death Date";
+MAP.index.Bio_Composers.BCOINFO		= "Description";
+MAP.index.Bio_Composers.BCOLOC		= "Location \(LOC\) or Institution \(INS\)";
+MAP.index.Bio_Composers.BCOPOS 		= "Position at LOC";
+MAP.index.Bio_Composers.BCOYEARS	= "Years at LOC";
+MAP.index.Bio_Composers.DIAMM		= "DIAMM Link";
+MAP.index.Bio_Composers.RISMID		= "RISM ID";
+MAP.index.Bio_Composers.RISMURL		= "RISM Link";
+MAP.index.Bio_Composers.BIBID		= "Bibliography \(BIB\) ID";
+MAP.index.Bio_Composers.BIBPAGES	= "BIB Pages";
+
+
+
+ACTIVE_SHEET = "events";
+
+console.warn("MAP.index.Bibliography", MAP.index.Bibliography);
+
+</script>

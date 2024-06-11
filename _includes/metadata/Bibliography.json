@@ -392,5 +392,81 @@
 		"Publication Year": "2009",
 		"Input data": "ECZ",
 		"Date entered": "2024-2-22"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Wright_1981",
+		"Author": "Wright, Craig",
+		"Name of Article": "Antoine Brumel and Patronage at Paris",
+		"Name of Volume/Journal": "Music in Medieval and Early Modern Europe",
+		"Editor": "Iain Fenlon",
+		"Location": "Cambridge",
+		"Publisher": "Cambridge University Press",
+		"Publication Year": "1981",
+		"Pages": "37-60",
+		"Input data": "SMB",
+		"Date entered": "2024-5-29"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Sherr_1994",
+		"Author": "Sherr, Richard",
+		"Name of Article": "A Biographical Miscellany: Josquin, Tinctoris, Obrecht, Brumel",
+		"Name of Volume/Journal": "Musicologia Humana: Studies in Honor of Warren and Ursula Kirkendale",
+		"Editor": "Siegfried Gmeinwieser, David Hiley, Joerg Riedlbauer",
+		"Location": "Florence",
+		"Publisher": "Leo S. Olschki Editore",
+		"Publication Year": "1994",
+		"Pages": "65-73",
+		"Input data": "SMB",
+		"Date entered": "2024-5-30"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Pirro_1928",
+		"Author": "Pirro, Andre",
+		"Name of Article": "Dokumente ueber Antoine Brumel, Louis van Pullaer, und Crispin van Stappen",
+		"Name of Volume/Journal": "Zeitschrift fuer Musikwissenschaft",
+		"Editor": "Einstein, Alfred",
+		"Volume": "11",
+		"Location": "Wiesbaden",
+		"Publisher": "Brietkopf und Haertel",
+		"Publication Year": "1928",
+		"Pages": "349-353",
+		"Input data": "SMB",
+		"Date entered": "2024-6-1"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Pidoux_1964",
+		"Author": "Pidoux, Pierre",
+		"Name of Article": "Antoine Brumel à Genève",
+		"Name of Volume/Journal": "Revue de Musicologie",
+		"Volume": "50 no. 128",
+		"Publisher": "Société Français de Musicologie",
+		"Publication Year": "1964",
+		"Pages": "110-112",
+		"Input data": "SMB",
+		"Date entered": "2024-6-6"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Wegman_2008",
+		"Author": "Wegman, Rob C.",
+		"Name of Article": "Ockeghem, Brumel, Josquin: new documents in Troyes",
+		"Name of Volume/Journal": "Early Music",
+		"Volume": "36 no. 2",
+		"Publisher": "Oxford University Press",
+		"Publication Year": "2008",
+		"Pages": "203-217",
+		"Input data": "SMB",
+		"Date entered": "2024-6-7"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Bouquet_1968",
+		"Author": "Bouquet, Marie-Therese",
+		"Name of Article": "La Capella Musicale dei Duchi di Savoia dal 1450 al 1500",
+		"Name of Volume/Journal": "Rivista Italiana di Musicologia",
+		"Volume": "3 no. 2",
+		"Publisher": "Librere Musicale Italiana",
+		"Publication Year": "1968",
+		"Pages": "233-285",
+		"Input data": "SMB",
+		"Date entered": "2024-6-8"
 	}
 ]

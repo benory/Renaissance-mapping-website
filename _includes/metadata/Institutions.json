@@ -42,5 +42,18 @@
 		"Institution Name": "Chapel of René of Anjou",
 		"Input data": "FEM",
 		"Date entered": "2024-4-12"
+	},
+	{
+		"Institution ID (INS)": "INS:Troyes_Cathedral",
+		"Institution Name": "Troyes Cathedral",
+		"Input data": "SMB",
+		"Date entered": "2024-6-7"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Charles_I",
+		"Institution Name": "Chapel of Charles I",
+		"Institution Description": "Chapel of Charles I, Duke of Savoy, and Bianca of Monferrato",
+		"Input data": "SMB",
+		"Date entered": "2024-6-8"
 	}
 ]

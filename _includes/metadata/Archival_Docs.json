@@ -1101,5 +1101,32 @@
 		"Archive": "Archives Départementales des Bouches du Rhone",
 		"Input data": "FEM",
 		"Date entered": "2024-4-12"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Paris_Archives_Nationales_127",
+		"Location ID (LOC)": "LOC:Paris-Notre-Dame",
+		"Archive": "Paris Archives Nationales",
+		"Archival Fond": "Registres capitulaires médiévaux de Notre-Dame de Paris",
+		"Signature": "127",
+		"Input data": "SMB",
+		"Date entered": "2024-5-29"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Paris_Archives_Nationales_128",
+		"Location ID (LOC)": "LOC:Paris-Notre-Dame",
+		"Archive": "Paris Archives Nationales",
+		"Archival Fond": "Registres capitulaires médiévaux de Notre-Dame de Paris",
+		"Signature": "128",
+		"Input data": "SMB",
+		"Date entered": "2024-5-29"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Chambery_Archivio_Dipartimentale_della_Savoia_124",
+		"Location ID (LOC)": "LOC:Turin",
+		"Archive": "Archivio di Stato di Torino",
+		"Archival Fond": "Fonds retrocedes de Turin",
+		"Signature": "Inv. 124, SA. 3625",
+		"Input data": "SMB",
+		"Date entered": "2024-6-8"
 	}
 ]
