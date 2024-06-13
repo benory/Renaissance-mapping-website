@@ -123,6 +123,42 @@ MAP.index.Doc_Entries.PERM				= "Permisions";
 
 ACTIVE_SHEET = "Events";
 
+
+MAP.cindex = function (sheetid, javaid) {
+	return this.index.Headers[`${sheetid}:${javaid}`];
+}
+
+
+//////////////////////////////
+//
+// DOMContentLoaded event -- fill in the Headers index mappings.
+// 
+
+document.addEventListener("DOMContentLoaded", function () {
+	let md = MAP.METADATA.Headers;
+	let output = MAP.index.Headers;
+	for (let i=0; i<md.length; i++) {
+		let sheetid = md[i]["Spreadsheet ID"];
+		let javaid = md[i]["JavaScript Name"];
+		if (!sheetid) {
+			continue;
+		}
+		if (!javaid) {
+			continue;
+		}
+		let id = `${sheetid}:${javaid}`;
+		let value = md[i]["Column Name"];
+		if (!value) {
+			continue;
+		}
+		if (output[id]) {
+			console.warn("Non-unique ID", id, "changing", output[id], "to", value);
+		}
+		output[id] = value;
+	}
+	console.warn("ID MAPPING FOR HEADINGS", output);
+});
+
 //////////////////////////////
 //
 // DOMContentLoaded event listener --
