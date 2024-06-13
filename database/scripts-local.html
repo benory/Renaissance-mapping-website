@@ -169,7 +169,7 @@ function displayBrowseTableEvents(data) {
 		return;
 	}
 
-	let headings = [MAP.index.Events.BIOID, MAP.index.Events.LOCID, MAP.index.Events.DATERANGE, MAP.index.Events.EINFO];
+	let headings = [MAP.cindex("EV", "BIOID"), MAP.cindex("EV", "LOCID"), MAP.cindex("EV", "DATERANGE"), MAP.cindex("EV", "EINFO")];
 
 	let contents = "";
 	contents += "<table class='browse-events sticky'>\n";
@@ -198,7 +198,7 @@ function displayBrowseTableDocuments(data) {
 		return;
 	}
 
-	let headings = [MAP.index.Doc_Entries.ARDID, MAP.index.Doc_Entries.DATERANGE, MAP.index.Doc_Entries.DINFO];
+	let headings = [MAP.cindex("DOE", "ARDID"), MAP.cindex("DOE", "DATERANGE"), MAP.cindex("DOE", "DINFO")];
 
 	let contents = "";
 	contents += "<table class='browse-documents sticky'>\n";
