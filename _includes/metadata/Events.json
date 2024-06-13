@@ -1236,7 +1236,7 @@
 	},
 	{
 		"Event ID": "EV:00076",
-		"Location ID (LOC)": "#N/A",
+		"Location ID (LOC)": "LOC:Chartres",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
 		"Earliest Month": "6",
@@ -1431,7 +1431,7 @@
 	},
 	{
 		"Event ID": "EV:00088",
-		"Location ID (LOC)": "#N/A",
+		"Location ID (LOC)": "LOC:Chartres",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1498",
 		"Earliest Month": "8",
@@ -4614,7 +4614,7 @@
 	},
 	{
 		"Event ID": "EV:00297",
-		"Location ID (LOC)": "#N/A",
+		"Location ID (LOC)": "LOC:Chartres",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Anne_de_Bretagne",
 		"Earliest Year": "1505",
 		"Earliest Month": "3",

@@ -10,6 +10,7 @@
 //
 
 function displaySheet(name) {
+	console.warn("Got here AAA");
 	let list = document.querySelectorAll(".sheet-display");
 	for (let i=0; i<list.length; i++) {
 		let sheet = list[i];
@@ -26,13 +27,14 @@ function displaySheet(name) {
 //
 
 function buildLookupTables() {
+	console.warn("Got here BBB");
 	let metadata = MAP.METADATA;
 	if (!metadata){
 		console.warn("No METADATA!");
 		return;
 	}
 	for (sheet in metadata) {
-		if (sheet === "events"){
+		if (sheet === "Events"){
 			continue;
 		}
 		buildLookupTable(sheet);
@@ -47,6 +49,7 @@ function buildLookupTables() {
 //
 
 function buildLookupTable(sheet) {
+	console.warn("Got here CCC");
 	let sheetArray = MAP.METADATA[sheet];
 	if (!sheetArray && Array.isArray(sheetArray)){
 		console.warn("No METADATA FOR", sheet);
@@ -72,6 +75,7 @@ function buildLookupTable(sheet) {
 //
 
 function buildSearchInterfaces(metadata, selector) {
+	console.warn("Got here DDD");
 	let element = document.querySelector(selector);
 	if (!element) {
 		console.error("ERROR: Cannot find", selector, "element");
@@ -96,10 +100,10 @@ function buildSearchInterfaces(metadata, selector) {
 		}
 
 		MAP.results[sheetName] = tableElement;
-		if (sheetName === "events") {
-			buildSearchInterfaceEvents(metadata.events, browseElement);
-		} else if (sheetName === "documents") {
-			buildSearchInterfaceDocuments(metadata.documents, browseElement);
+		if (sheetName === "Events") {
+			buildSearchInterfaceEvents(metadata.Events, browseElement);
+		} else if (sheetName === "Documents") {
+			buildSearchInterfaceDocuments(metadata.Doc_Entries, browseElement);
 		}
 	}
 
@@ -113,6 +117,7 @@ function buildSearchInterfaces(metadata, selector) {
 //
 
 function buildSearchInterfaceEvents(data, browseElement) {
+	console.warn("Got here EEE");
 	if (!browseElement) {
 		console.error("ERROR: Cannot find search interface element", browseElement);
 		return;
@@ -137,6 +142,7 @@ function buildSearchInterfaceEvents(data, browseElement) {
 //
 
 function buildSearchInterfaceDocuments(data, browseElement) {
+	console.warn("Got here FFF");
 	if (!browseElement) {
 		console.error("ERROR: Cannot find search interface element", browseElement);
 		return;
@@ -156,13 +162,14 @@ function buildSearchInterfaceDocuments(data, browseElement) {
 //
 
 function displayBrowseTableEvents(data) {
-	let element = MAP.results.events;
+	let element = MAP.results.Events;
+	console.warn("Got here GGG");
 	if (!element) {
 		console.warn("Cannot find search results element for events");
 		return;
 	}
 
-	let headings = [];
+	let headings = [MAP.index.Events.BIOID, MAP.index.Events.DATERANGE];
 
 	let contents = "";
 	contents += "<table class='browse-events sticky'>\n";
@@ -184,13 +191,14 @@ function displayBrowseTableEvents(data) {
 //
 
 function displayBrowseTableDocuments(data) {
-	let element = MAP.results.documents;
+	let element = MAP.results.Documents;
+	console.warn("Got here HHH");
 	if (!element) {
 		console.warn("Cannot find search results element for documents");
 		return;
 	}
 
-	let headings = [];
+	let headings = [MAP.index.Doc_Entries.DATERANGE, MAP.index.Doc_Entries.DINFO];
 
 	let contents = "";
 	contents += "<table class='browse-documents sticky'>\n";
@@ -212,7 +220,13 @@ function displayBrowseTableDocuments(data) {
 //
 
 function makeTableHeader(headings) {
+	console.warn("Got here III");
 	let output = "";
+	for (let i=0; i<headings.length; i++ ) {
+		output += `<th>`;
+		output += headings[i];
+		output += `</th>`;
+	}
 	return output;
 }
 
@@ -224,10 +238,24 @@ function makeTableHeader(headings) {
 //
 
 function makeTableBody(headings, data) {
+	console.warn("Got here JJJ");
 	let output = "";
+	for (let i=0; i<data.length; i++) {
+			let entry = data[i];
+			output += "<tr>";
+			for (let i=0; i<headings.length; i++) {
+				output += "<td>";
+				let value = entry[headings[i]];
+				if (value) {
+					output += value;
+					console.warn("Got here JJJ 2");
+				}
+			output += "</td>";
+			}
+		output += "</tr>\n";
+		}
 	return output;
 }
-
 
 //////////////////////////////
 //
@@ -235,6 +263,7 @@ function makeTableBody(headings, data) {
 //
 
 function UserSearch() {
+	console.warn("Got here KKK");
 	let tr    = document.querySelectorAll("div.results-list tbody tr");
 	let input = document.querySelector("#input");
 	let regex = new RegExp(input.value, 'i');
@@ -272,12 +301,13 @@ function UserSearch() {
 //
 
 function doSearchDocuments(data) {
+	console.warn("Got here LLL");
 	if (!data) {
-		data = MAP.METADATA.documents;
+		data = MAP.METADATA.Doc_Entries;
 	}
 	console.error("input data for doSearchDocuments", data);
 
-	let searchInterface = MAP.menus.documents;
+	let searchInterface = MAP.menus.Doc_Entries;
 	console.warn("print search interface", searchInterface);
 	if (!searchInterface) {
 		console.log("Problem finding search interface for documents");
@@ -296,13 +326,14 @@ function doSearchDocuments(data) {
 //
 
 function doSearchEvents(data) {
+	console.warn("Got here MMM");
 	if (!data) {
-		data = MAP.METADATA.events;
+		data = MAP.METADATA.Events;
 	}
 	console.error("input data for doSearchEvents", data);
 
 
-	let searchInterface = MAP.menus.events;
+	let searchInterface = MAP.menus.Events;
 	console.warn("print search interface", searchInterface);
 	if (!searchInterface) {
 		console.log("Problem finding search interface for events");

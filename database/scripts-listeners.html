@@ -5,6 +5,8 @@ let MAP = {};
 MAP.results = {};            // elements for displaying search results by sheet name
 MAP.menus = {};              // elements for displaying search menus by sheet name
 MAP.activeResults = null;
+MAP.lookup = {};
+
 
 MAP.index = {};						// header name mapping by sheet
 MAP.index.Archival_docs = {};		// header names for archival documents sheet
@@ -68,10 +70,105 @@ MAP.index.Bio_Composers.RISMURL		= "RISM Link";
 MAP.index.Bio_Composers.BIBID		= "Bibliography \(BIB\) ID";
 MAP.index.Bio_Composers.BIBPAGES	= "BIB Pages";
 
+MAP.index.Events.EVID 				= "Event ID";
+MAP.index.Events.LOCID				= "Location ID \(LOC\)";
+MAP.index.Events.BIOID				= "Biography ID \(BCO, BMU, BNO\)";
+MAP.index.Events.INSID				= "Institution ID \(INS\)";
+MAP.index.Events.OCCID				= "Occasion ID \(OCC\)";
+MAP.index.Events.CERTLOC			= "LOC Certainty";
+MAP.index.Events.EYEAR				= "Earliest Year";
+MAP.index.Events.EMONTH				= "Earliest Month";
+MAP.index.Events.EDAY				= "Earliest Day";
+MAP.index.Events.CERTEDATE			= "Earliest Date Certainty";
+MAP.index.Events.LYEAR				= "Latest Year";
+MAP.index.Events.LMONTH				= "Latest Month";
+MAP.index.Events.LDAY				= "Latest Day";
+MAP.index.Events.CERTLDATE			= "Latest Date Certainty";
+MAP.index.Events.DATERANGE			= "Date Range";
+MAP.index.Events.CERTRANGE			= "Certainty of Event \(within Range\)";
+MAP.index.Events.EINFO				= "Description";
+MAP.index.Events.DOEID				= "Document Entry ID \(DOE\)";
+MAP.index.Events.BIBID				= "Bibliography ID \(BIB\)";
+MAP.index.Events.BIBPAGES			= "BIB Pages";
+
+MAP.index.Doc_Entries.DOEID				= "Document Entry \(DOE\) ID";
+MAP.index.Doc_Entries.ARDID				= "Archival Document \(ARD\)";
+MAP.index.Doc_Entries.PAGES				= "Folios\/Pages";
+MAP.index.Doc_Entries.LANG				= "Language";
+MAP.index.Doc_Entries.EYEAR				= "Earliest Year";
+MAP.index.Doc_Entries.EMONTH			= "Earliest Month";
+MAP.index.Doc_Entries.EDAY				= "Earliest Day";
+MAP.index.Doc_Entries.LYEAR				= "Latest Year";
+MAP.index.Doc_Entries.LMONTH			= "Latest Month";
+MAP.index.Doc_Entries.LDAY				= "Latest Day";
+MAP.index.Doc_Entries.DATERANGE			= "Date Range";
+MAP.index.Doc_Entries.DINFO				= "Description";
+MAP.index.Doc_Entries.DOCTYPE			= "Document Type";
+MAP.index.Doc_Entries.DOCSUBTYPE		= "Document Subtype";
+MAP.index.Doc_Entries.SEN				= "Sender";
+MAP.index.Doc_Entries.REC				= "Recipient";
+MAP.index.Doc_Entries.DOCTEXT			= "Document Entry Text";
+MAP.index.Doc_Entries.DOCTRANS			= "Translation";
+MAP.index.Doc_Entries.DOCTEXTSOURCE 	= "Transcription Source";
+MAP.index.Doc_Entries.DOCTEXTPAGES		= "Transcription Source Pages";
+MAP.index.Doc_Entries.DOCTRANSSOURCE 	= "Translation Source";
+MAP.index.Doc_Entries.DOCTRANSPAGES		= "Translation Source Pages";
+MAP.index.Doc_Entries.BIBID				= "Bibliography ID \(BIB\) \(if different\)";
+MAP.index.Doc_Entries.BIBPAGES			= "BIB Pages";
+MAP.index.Doc_Entries.RELPEOPLE			= "Related People";
+MAP.index.Doc_Entries.RELINS			= "Related Institutions";
+MAP.index.Doc_Entries.PHOTO				= "Photograph";
+MAP.index.Doc_Entries.PHOTOURL			= "Photograph URL";
+MAP.index.Doc_Entries.PERM				= "Permisions";
+
+ACTIVE_SHEET = "Events";
+
+//////////////////////////////
+//
+// DOMContentLoaded event listener --
+//
+
+document.addEventListener("DOMContentLoaded", function () {
+	buildLookupTables();
+	buildSearchInterfaces(MAP.METADATA, "#browse-interface");
+	displayBrowseTableEvents(MAP.METADATA.Events);
+	displayBrowseTableDocuments(MAP.METADATA.Doc_Entries);
+});
 
 
-ACTIVE_SHEET = "events";
 
-console.warn("MAP.index.Bibliography", MAP.index.Bibliography);
+//////////////////////////////
+//
+// Click event delegation for selecting which worksheet data to browse:
+//
+
+document.addEventListener("click", function (event) {
+	let clickedElement = event.target;
+	let targetButton = clickedElement.closest(".sheet-button");
+	if (!targetButton) {
+		return;
+	}
+	let name = targetButton.dataset.sheet;
+	if (ACTIVE_SHEET == name) {
+		// already selected
+		return;
+	}
+	ACTIVE_SHEET = name;
+
+	displaySheet(name);
+
+	// 
+	let buttons = document.querySelectorAll("#sheet-select .sheet-button");
+	for (let i=0; i<buttons.length; i++) {
+		let tname = buttons[i].dataset.sheet;
+		if (tname === name) {
+			buttons[i].classList.add("selected");
+		} else {
+			buttons[i].classList.remove("selected");
+		}
+	}
+
+});
+
 
 </script>

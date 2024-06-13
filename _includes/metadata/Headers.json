@@ -33,6 +33,14 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
+		"JavaScript Name": "INSID",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "E",
+		"Column Name": "Institution ID (INS)"
+	},
+	{
+		"Spreadsheet ID": "EV",
 		"JavaScript Name": "CERTLOC",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
@@ -44,7 +52,7 @@
 		"JavaScript Name": "EYEAR",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "F",
+		"Column": "G",
 		"Column Name": "Earliest Year"
 	},
 	{
@@ -52,7 +60,7 @@
 		"JavaScript Name": "EMONTH",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "G",
+		"Column": "H",
 		"Column Name": "Earliest Month"
 	},
 	{
@@ -60,7 +68,7 @@
 		"JavaScript Name": "EDAY",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "H",
+		"Column": "I",
 		"Column Name": "Earliest Day"
 	},
 	{
@@ -68,7 +76,7 @@
 		"JavaScript Name": "CERTEDATE",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "I",
+		"Column": "J",
 		"Column Name": "Earliest Date Certainty"
 	},
 	{
@@ -76,7 +84,7 @@
 		"JavaScript Name": "LYEAR",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "J",
+		"Column": "K",
 		"Column Name": "Latest Year"
 	},
 	{
@@ -84,7 +92,7 @@
 		"JavaScript Name": "LMONTH",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "K",
+		"Column": "L",
 		"Column Name": "Latest Month"
 	},
 	{
@@ -92,7 +100,7 @@
 		"JavaScript Name": "LDAY",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "L",
+		"Column": "M",
 		"Column Name": "Latest Day"
 	},
 	{
@@ -100,7 +108,7 @@
 		"JavaScript Name": "CERTLDATE",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "M",
+		"Column": "N",
 		"Column Name": "Latest Date Certainty"
 	},
 	{
@@ -108,7 +116,7 @@
 		"JavaScript Name": "DATERANGE",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "N",
+		"Column": "O",
 		"Column Name": "Date Range"
 	},
 	{
@@ -116,7 +124,7 @@
 		"JavaScript Name": "CERTRANGE",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "O",
+		"Column": "P",
 		"Column Name": "Certainty of Event (within Range)"
 	},
 	{
@@ -124,7 +132,7 @@
 		"JavaScript Name": "EINFO",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "P",
+		"Column": "Q",
 		"Column Name": "Description"
 	},
 	{
@@ -132,7 +140,7 @@
 		"JavaScript Name": "DOEID",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "Q",
+		"Column": "R",
 		"Column Name": "Document Entry ID (DOE)"
 	},
 	{
@@ -140,7 +148,7 @@
 		"JavaScript Name": "BIBID",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "R",
+		"Column": "S",
 		"Column Name": "Bibliography ID (BIB)"
 	},
 	{
@@ -148,42 +156,42 @@
 		"JavaScript Name": "BIBPAGES",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "S",
+		"Column": "T",
 		"Column Name": "BIB Pages"
 	},
 	{
 		"Spreadsheet ID": "EV",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "T",
+		"Column": "U",
 		"Column Name": "Notes"
 	},
 	{
 		"Spreadsheet ID": "EV",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "U",
+		"Column": "V",
 		"Column Name": "Input data"
 	},
 	{
 		"Spreadsheet ID": "EV",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "V",
+		"Column": "W",
 		"Column Name": "Date entered"
 	},
 	{
 		"Spreadsheet ID": "EV",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "W",
+		"Column": "X",
 		"Column Name": "Update data"
 	},
 	{
 		"Spreadsheet ID": "EV",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "X",
+		"Column": "Y",
 		"Column Name": "Date updated"
 	},
 	{
@@ -359,6 +367,14 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
+		"JavaScript Name": "DINFO",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "L",
+		"Column Name": "Description"
+	},
+	{
+		"Spreadsheet ID": "DOE",
 		"JavaScript Name": "DOCTYPE",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
@@ -367,19 +383,27 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JavaScript Name": "BIBID",
+		"JavaScript Name": "DOCSUBTYPE",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
-		"Column": "W",
-		"Column Name": "Bibliography ID (BIB) (if different)"
+		"Column": "N",
+		"Column Name": "Document Subtype"
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JavaScript Name": "BIBPAGES",
+		"JavaScript Name": "SEN",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
-		"Column": "X",
-		"Column Name": "BIB Pages"
+		"Column": "O",
+		"Column Name": "Sender"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JavaScript Name": "REC",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "P",
+		"Column Name": "Recipient"
 	},
 	{
 		"Spreadsheet ID": "DOE",
@@ -399,11 +423,51 @@
 	},
 	{
 		"Spreadsheet ID": "DOE",
-		"JavaScript Name": "DINFO",
+		"JavaScript Name": "DOCTEXTSOURCE",
 		"GID": "1338879625",
 		"Spreadsheet Name": "Doc_Entries",
-		"Column": "L",
-		"Column Name": "Description"
+		"Column": "S",
+		"Column Name": "Transcription Source"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JavaScript Name": "DOCTEXTPAGES",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "T",
+		"Column Name": "Transcription Source Pages"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JavaScript Name": "DOCTRANSSOURCE",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "U",
+		"Column Name": "Translation Source"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JavaScript Name": "DOCTRANSPAGES",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "V",
+		"Column Name": "Translation Source Pages"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JavaScript Name": "BIBID",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "W",
+		"Column Name": "Bibliography ID (BIB) (if different)"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JavaScript Name": "BIBPAGES",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "X",
+		"Column Name": "BIB Pages"
 	},
 	{
 		"Spreadsheet ID": "DOE",
@@ -412,6 +476,14 @@
 		"Spreadsheet Name": "Doc_Entries",
 		"Column": "Y",
 		"Column Name": "Related People"
+	},
+	{
+		"Spreadsheet ID": "DOE",
+		"JavaScript Name": "RELINS",
+		"GID": "1338879625",
+		"Spreadsheet Name": "Doc_Entries",
+		"Column": "Z",
+		"Column Name": "Related Institutions"
 	},
 	{
 		"Spreadsheet ID": "DOE",
@@ -678,6 +750,14 @@
 	},
 	{
 		"Spreadsheet ID": "BCO",
+		"JavaScript Name": "ASSID",
+		"GID": "576281292",
+		"Spreadsheet Name": "Bio_Composers",
+		"Column": "M",
+		"Column Name": "Associated Person"
+	},
+	{
+		"Spreadsheet ID": "BCO",
 		"JavaScript Name": "BIBID",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
@@ -689,42 +769,42 @@
 		"JavaScript Name": "BIBPAGES",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "N",
+		"Column": "O",
 		"Column Name": "BIB Pages"
 	},
 	{
 		"Spreadsheet ID": "BCO",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "O",
+		"Column": "P",
 		"Column Name": "Internal notes"
 	},
 	{
 		"Spreadsheet ID": "BCO",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "P",
+		"Column": "Q",
 		"Column Name": "Input data"
 	},
 	{
 		"Spreadsheet ID": "BCO",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "Q",
+		"Column": "R",
 		"Column Name": "Date entered"
 	},
 	{
 		"Spreadsheet ID": "BCO",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "R",
+		"Column": "S",
 		"Column Name": "Update data"
 	},
 	{
 		"Spreadsheet ID": "BCO",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "S",
+		"Column": "T",
 		"Column Name": "Date updated"
 	},
 	{
@@ -908,6 +988,14 @@
 	},
 	{
 		"Spreadsheet ID": "BNO",
+		"JavaScript Name": "BNOLABS",
+		"GID": "1177910087",
+		"Spreadsheet Name": "Bio_Nonmusicians",
+		"Column": "H",
+		"Column Name": "Labels"
+	},
+	{
+		"Spreadsheet ID": "BNO",
 		"JavaScript Name": "BIBID",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
@@ -919,42 +1007,42 @@
 		"JavaScript Name": "BIBPAGES",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
-		"Column": "I",
+		"Column": "J",
 		"Column Name": "BIB Pages"
 	},
 	{
 		"Spreadsheet ID": "BNO",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
-		"Column": "J",
+		"Column": "K",
 		"Column Name": "Internal notes"
 	},
 	{
 		"Spreadsheet ID": "BNO",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
-		"Column": "K",
+		"Column": "L",
 		"Column Name": "Input data"
 	},
 	{
 		"Spreadsheet ID": "BNO",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
-		"Column": "L",
+		"Column": "M",
 		"Column Name": "Date entered"
 	},
 	{
 		"Spreadsheet ID": "BNO",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
-		"Column": "M",
+		"Column": "N",
 		"Column Name": "Update data"
 	},
 	{
 		"Spreadsheet ID": "BNO",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
-		"Column": "N",
+		"Column": "O",
 		"Column Name": "Date updated"
 	},
 	{
