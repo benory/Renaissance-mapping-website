@@ -702,34 +702,10 @@
 	},
 	{
 		"Spreadsheet ID": "BCO",
-		"JavaScript Name": "BCOLOC",
-		"GID": "576281292",
-		"Spreadsheet Name": "Bio_Composers",
-		"Column": "G",
-		"Column Name": "Location (LOC) or Institution (INS)"
-	},
-	{
-		"Spreadsheet ID": "BCO",
-		"JavaScript Name": "BCOPOS",
-		"GID": "576281292",
-		"Spreadsheet Name": "Bio_Composers",
-		"Column": "H",
-		"Column Name": "Position at LOC"
-	},
-	{
-		"Spreadsheet ID": "BCO",
-		"JavaScript Name": "BCOYEARS",
-		"GID": "576281292",
-		"Spreadsheet Name": "Bio_Composers",
-		"Column": "I",
-		"Column Name": "Years at LOC"
-	},
-	{
-		"Spreadsheet ID": "BCO",
 		"JavaScript Name": "DIAMM",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "J",
+		"Column": "G",
 		"Column Name": "DIAMM Link"
 	},
 	{
@@ -737,7 +713,7 @@
 		"JavaScript Name": "RISMID",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "K",
+		"Column": "H",
 		"Column Name": "RISM ID"
 	},
 	{
@@ -745,7 +721,7 @@
 		"JavaScript Name": "RISMURL",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "L",
+		"Column": "I",
 		"Column Name": "RISM Link"
 	},
 	{
@@ -753,7 +729,7 @@
 		"JavaScript Name": "ASSID",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "M",
+		"Column": "J",
 		"Column Name": "Associated Person"
 	},
 	{
@@ -761,7 +737,7 @@
 		"JavaScript Name": "BIBID",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "N",
+		"Column": "K",
 		"Column Name": "Bibliography (BIB) ID"
 	},
 	{
@@ -769,42 +745,42 @@
 		"JavaScript Name": "BIBPAGES",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "O",
+		"Column": "L",
 		"Column Name": "BIB Pages"
 	},
 	{
 		"Spreadsheet ID": "BCO",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "P",
+		"Column": "M",
 		"Column Name": "Internal notes"
 	},
 	{
 		"Spreadsheet ID": "BCO",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "Q",
+		"Column": "N",
 		"Column Name": "Input data"
 	},
 	{
 		"Spreadsheet ID": "BCO",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "R",
+		"Column": "O",
 		"Column Name": "Date entered"
 	},
 	{
 		"Spreadsheet ID": "BCO",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "S",
+		"Column": "P",
 		"Column Name": "Update data"
 	},
 	{
 		"Spreadsheet ID": "BCO",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "T",
+		"Column": "Q",
 		"Column Name": "Date updated"
 	},
 	{
@@ -849,34 +825,10 @@
 	},
 	{
 		"Spreadsheet ID": "BMU",
-		"JavaScript Name": "BMULOCID",
-		"GID": "50716405",
-		"Spreadsheet Name": "Bio_Musicians",
-		"Column": "F",
-		"Column Name": "Institution (INS)"
-	},
-	{
-		"Spreadsheet ID": "BMU",
-		"JavaScript Name": "BMUPOS",
-		"GID": "50716405",
-		"Spreadsheet Name": "Bio_Musicians",
-		"Column": "G",
-		"Column Name": "Position at LOC"
-	},
-	{
-		"Spreadsheet ID": "BMU",
-		"JavaScript Name": "BMUYEARS",
-		"GID": "50716405",
-		"Spreadsheet Name": "Bio_Musicians",
-		"Column": "H",
-		"Column Name": "Years at LOC"
-	},
-	{
-		"Spreadsheet ID": "BMU",
 		"JavaScript Name": "BMUINFO",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
-		"Column": "I",
+		"Column": "F",
 		"Column Name": "Description"
 	},
 	{
@@ -884,7 +836,7 @@
 		"JavaScript Name": "BIBID",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
-		"Column": "J",
+		"Column": "G",
 		"Column Name": "Bibliography ID (BIB)"
 	},
 	{
@@ -892,42 +844,42 @@
 		"JavaScript Name": "BIBPAGESS",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
-		"Column": "K",
+		"Column": "H",
 		"Column Name": "BIB Pages"
 	},
 	{
 		"Spreadsheet ID": "BMU",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
-		"Column": "L",
+		"Column": "I",
 		"Column Name": "Internal notes"
 	},
 	{
 		"Spreadsheet ID": "BMU",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
-		"Column": "M",
+		"Column": "J",
 		"Column Name": "Input data"
 	},
 	{
 		"Spreadsheet ID": "BMU",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
-		"Column": "N",
+		"Column": "K",
 		"Column Name": "Date entered"
 	},
 	{
 		"Spreadsheet ID": "BMU",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
-		"Column": "O",
+		"Column": "L",
 		"Column Name": "Update data"
 	},
 	{
 		"Spreadsheet ID": "BMU",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
-		"Column": "P",
+		"Column": "M",
 		"Column Name": "Date updated"
 	},
 	{

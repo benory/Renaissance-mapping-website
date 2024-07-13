@@ -34,10 +34,6 @@ MAP.METADATA.Institutions = {% include metadata/Institutions.json %};
 MAP.METADATA.Locations = {% include metadata/Locations.json %};
 MAP.METADATA.Occasions = {% include metadata/Occasions.json %};
 
-ACTIVE_SHEET = "Events";
-
-
-
 //////////////////////////////
 //
 // MAP.cindex -- uses the Spreadsheet ID and JavaScript ID to call the full name of a given header
@@ -80,50 +76,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //////////////////////////////
 //
-// DOMContentLoaded event listener --
+// DOMContentLoaded event -- run after webpage has finished loading.
 //
 
 document.addEventListener("DOMContentLoaded", function () {
-	buildLookupTables();
-	buildSearchInterfaces(MAP.METADATA, "#browse-interface");
-	displayBrowseTableEvents(MAP.METADATA.Events);
-	displayBrowseTableDocuments(MAP.METADATA.Doc_Entries);
+	doMapSetups();
 });
-
-
-
-//////////////////////////////
-//
-// Click event delegation for selecting which worksheet data to browse:
-//
-
-document.addEventListener("click", function (event) {
-	let clickedElement = event.target;
-	let targetButton = clickedElement.closest(".sheet-button");
-	if (!targetButton) {
-		return;
-	}
-	let name = targetButton.dataset.sheet;
-	if (ACTIVE_SHEET == name) {
-		// already selected
-		return;
-	}
-	ACTIVE_SHEET = name;
-
-	displaySheet(name);
-
-	// 
-	let buttons = document.querySelectorAll("#sheet-select .sheet-button");
-	for (let i=0; i<buttons.length; i++) {
-		let tname = buttons[i].dataset.sheet;
-		if (tname === name) {
-			buttons[i].classList.add("selected");
-		} else {
-			buttons[i].classList.remove("selected");
-		}
-	}
-
-});
-
 
 </script>

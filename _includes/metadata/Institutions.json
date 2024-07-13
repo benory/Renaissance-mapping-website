@@ -55,5 +55,12 @@
 		"Institution Description": "Chapel of Charles I, Duke of Savoy, and Bianca of Monferrato",
 		"Input data": "SMB",
 		"Date entered": "2024-6-8"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Maximilian_I",
+		"Institution Name": "Chapel of Maximilian I",
+		"Institution Description": "Chapel of Maximilian I, Holy Roman Emperor",
+		"Input data": "SMB",
+		"Date entered": "2024-6-22"
 	}
 ]

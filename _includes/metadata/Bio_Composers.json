@@ -170,5 +170,13 @@
 	{
 		"URLBASE": "BCO:Guillaume_Du_Fay",
 		"https://rism.online/people/": "Guillaume Du Fay"
+	},
+	{
+		"URLBASE": "BCO:Johannes_Ghiselin",
+		"https://rism.online/people/": "Johannes Ghiselin"
+	},
+	{
+		"URLBASE": "BCO:Alexander_Agricola",
+		"https://rism.online/people/": "Alexander Agricola"
 	}
 ]

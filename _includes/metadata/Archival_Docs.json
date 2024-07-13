@@ -1097,7 +1097,7 @@
 	},
 	{
 		"Archival Document (ARD) ID": "ARD:Aix_en_Provence_Archives_Departementales_des_Bouches_du_Rhone_309E290",
-		"Location ID (LOC)": "LOC:Aix_en_Provence",
+		"Location ID (LOC)": "#N/A",
 		"Archive": "Archives Départementales des Bouches du Rhone",
 		"Input data": "FEM",
 		"Date entered": "2024-4-12"
@@ -1128,5 +1128,121 @@
 		"Signature": "Inv. 124, SA. 3625",
 		"Input data": "SMB",
 		"Date entered": "2024-6-8"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Supplicationum_1386",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Supplicationum",
+		"Signature": "1386",
+		"Input data": "SMB",
+		"Date entered": "2024-6-16"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Supplicationum_1391",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Supplicationum",
+		"Signature": "1391",
+		"Input data": "SMB",
+		"Date entered": "2024-6-16"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Bibliotheque_Chartres_MS_1009",
+		"Location ID (LOC)": "LOC:Chartres",
+		"Archive": "Chartres Library",
+		"Archival Fond": "MS",
+		"Signature": "1009",
+		"Input data": "SMB",
+		"Date entered": "2024-6-16"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Florence_Biblioteca_Nazionale_Galileana_1",
+		"Location ID (LOC)": "LOC:Florence",
+		"Archive": "Biblioteca Nazionale Centrale di Firenze",
+		"Archival Fond": "Galileana",
+		"Signature": "1",
+		"Input data": "SMB",
+		"Date entered": "2024-6-16"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Modena_MS_1506",
+		"Location ID (LOC)": "LOC:Modena",
+		"Archive": "Archivio di Stato Modena",
+		"Archival Fond": "MS",
+		"Signature": "1506",
+		"Input data": "SMB",
+		"Date entered": "2024-6-19"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Modena_MS_1510",
+		"Location ID (LOC)": "LOC:Modena",
+		"Archive": "Archivio di Stato Modena",
+		"Archival Fond": "MS",
+		"Signature": "1510",
+		"Input data": "SMB",
+		"Date entered": "2024-6-19"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Modena_MS_1509",
+		"Location ID (LOC)": "LOC:Modena",
+		"Archive": "Archivio di Stato Modena",
+		"Archival Fond": "MS",
+		"Signature": "1509",
+		"Input data": "SMB",
+		"Date entered": "2024-6-19"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Supplicationum_1393",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Supplicationum",
+		"Signature": "1393",
+		"Input data": "SMB",
+		"Date entered": "2024-6-21"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Florence_Archepiscopate_VIII_I",
+		"Location ID (LOC)": "LOC:Florence",
+		"Archive": "Archivio dell’Opera dell’Arciospitale di Santa Maria del Fiore",
+		"Archival Fond": "Quaderni di cassa",
+		"Signature": "VIII, I",
+		"Input data": "SMB",
+		"Date entered": "2024-6-21"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Innsbruck_Hof_1497",
+		"Location ID (LOC)": "LOC:Innsbruck",
+		"Archive": "Landesregierungsarchiv",
+		"Archival Fond": "Geschäft von Hof",
+		"Signature": "1497",
+		"Input data": "SMB",
+		"Date entered": "2024-6-21"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Weimar_EGA_5910",
+		"Location ID (LOC)": "LOC:Weimar",
+		"Archive": "Ernestinischen Gesamtarchiv",
+		"Signature": "5910",
+		"Input data": "SMB",
+		"Date entered": "2024-6-23"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Innsbruck_RB_1484",
+		"Location ID (LOC)": "LOC:Innsbruck",
+		"Archive": "Landesregierungsarchiv",
+		"Archival Fond": "Raitbuch",
+		"Signature": "1484",
+		"Input data": "SMB",
+		"Date entered": "2024-6-27"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Florence_MAP_104",
+		"Location ID (LOC)": "LOC:Florence",
+		"Archive": "Archivio di Stato",
+		"Archival Fond": "Medici avanti il Principato",
+		"Signature": "104",
+		"Input data": "SMB",
+		"Date entered": "2024-6-29"
 	}
 ]

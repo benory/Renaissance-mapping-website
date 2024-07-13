@@ -294,7 +294,7 @@
 		"Bibliography (BIB) ID": "BIB:Sherr_1975",
 		"Author": "Sherr, Richard",
 		"Name of Article": "The Papal Chapel ca. 1492–1513 and its Polyphonic Sources",
-		"Publisher": "Ph.D., diss., Princeton University",
+		"Publisher": "Ph.D. diss., Princeton University",
 		"Publication Year": "1975",
 		"Input data": "BSO",
 		"Date entered": "2023-5-8"
@@ -468,5 +468,84 @@
 		"Pages": "233-285",
 		"Input data": "SMB",
 		"Date entered": "2024-6-8"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Lowinsky_1950",
+		"Author": "Lowinsky, Edward",
+		"Name of Article": "A Newly Discovered Sixteenth-Century Motet Manuscript at the Biblioteca Vallicelliana in Rome",
+		"Name of Volume/Journal": "Journal of the American Musicological Society",
+		"Volume": "3 no. 3",
+		"Publisher": "University of California Press",
+		"Publication Year": "1950",
+		"Pages": "173-232",
+		"Input data": "SMB",
+		"Date entered": "2024-6-16"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Prizer_1977",
+		"Author": "Prizer, William F.",
+		"Name of Article": "La cappella di Francesco II Gonzaga e la musica sacra a Mantova nel primo ventennio del Cinquecento",
+		"Name of Volume/Journal": "Mantova e I Gonzaga nella Civiltà del Rinascimento",
+		"Location": "Mantua",
+		"Publisher": "Accademia Virgiliana",
+		"Publication Year": "1977",
+		"Pages": "267-276",
+		"Input data": "SMB",
+		"Date entered": "2024-6-19"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Zanovello_2005",
+		"Author": "Zanovello, Giovanni",
+		"Name of Article": "Heinrich Isaac, The Mass Misericordias Domini, and Music in Late Fifteenth-Century Florence",
+		"Publisher": "Ph.D. diss., Princeton University",
+		"Publication Year": "2005",
+		"Input data": "SMB",
+		"Date entered": "2024-6-21"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Heidrich_1992",
+		"Author": "Heidrich, Juergen",
+		"Name of Article": "Heinrich Isaac in Torgau?",
+		"Name of Volume/Journal": "Heinrich Isaac und Paul Hofhaimer im Umfeld von Kaiser Maximilian I",
+		"Editor": "Walter Salmen",
+		"Location": "Innsbruck",
+		"Publisher": "Edition Helbling",
+		"Publication Year": "1992",
+		"Pages": "155-168",
+		"Input data": "SMB",
+		"Date entered": "2024-6-23"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:D'Accone_1963",
+		"Author": "D'Accone, Frank",
+		"Name of Article": "Heinrich Isaac in Florence: New and Unpublished Documents",
+		"Name of Volume/Journal": "Music Quarterly",
+		"Volume": "49",
+		"Publication Year": "1963",
+		"Pages": "464-483",
+		"Input data": "SMB",
+		"Date entered": "2024-6-23"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Staehelin_1977",
+		"Author": "Staehelin, Martin",
+		"Name of Article": "Die Messen Heinrich Isaacs",
+		"Volume": "2",
+		"Location": "Bern",
+		"Publisher": "Paul Haupt",
+		"Publication Year": "1977",
+		"Input data": "SMB",
+		"Date entered": "2024-6-27"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Atlas_1989",
+		"Author": "Atlas, Allan",
+		"Name of Article": "Agricola, Ghiselin, and Alfonso II of Naples",
+		"Name of Volume/Journal": "Journal of Musicology",
+		"Volume": "7 no. 4",
+		"Publication Year": "1989",
+		"Pages": "540-548",
+		"Input data": "SMB",
+		"Date entered": "2024-6-29"
 	}
 ]

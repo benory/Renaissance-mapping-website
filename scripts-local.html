@@ -1,0 +1,76 @@
+{% include_relative scripts-listeners.html %}
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+	     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+	     crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
+<script>
+
+
+//////////////////////////////
+//
+// doMapSetups -- Set up all maps on the page
+//
+
+function doMapSetups() {
+	let Opts = {
+		name: "map",
+		view: [50, 12],
+		zoom: 5,
+		zoomMin: 4,
+		zoomMax: 19
+	};
+	doMapSetup(Opts);
+}
+
+
+//////////////////////////////
+//
+// doMapSetup -- Add a particular map to the page.
+//
+
+function doMapSetup(opts) {
+	if (typeof opts === "undefined") {
+		console.error("doMapSetups input parameter is undefined");
+		return;
+	}
+	if (typeof opts.name === "undefined") {
+		console.error("doMapSetups name parameter is undefined");
+		return;
+	}
+	if (typeof opts.view === "undefined") {
+		console.error("view option is not specified");
+		return;
+	}
+	if (typeof opts.zoom === "undefined") {
+		console.warn("zoom option is not specified, setting to 4");
+		opts.zoom = 4;
+	}
+	if (typeof opts.zoomMin === "undefined") {
+		console.warn("zoomMin option is not specified, setting to zoom");
+		opts.zoomMin = opts.zoom;
+		return;
+	}
+	if (typeof opts.zoomMax === "undefined") {
+		console.warn("zoomMax option is not specified, setting to 19");
+		opts.zoomMax = 19;
+	}
+
+	let map = L.map(opts.name).setView(opts.view, opts.zoom);
+	map.options.minZoom = opts.zoomMin;
+
+	let mapImage = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
+	let attribution = "&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>"
+	L.tileLayer(mapImage,
+		{
+			maxZoom: opts.zoomMax,
+			attribution: attribution
+		}
+	).addTo(map);
+
+}
+
+</script>

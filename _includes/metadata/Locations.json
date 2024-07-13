@@ -31,6 +31,16 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Location ID (LOC)": "LOC:Aix-en-Provence",
+		"Name of Location": "Aix-en-Provence",
+		"City or Larger Place": "Aix-en-Provence",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/xtiEFnEVicsiNNbF8",
+		"Coordinates": "43.53090909518784, 5.4428556273405055",
+		"Input data": "FEM",
+		"Date entered": "2024-4-2"
+	},
+	{
 		"Location ID (LOC)": "LOC:Ala",
 		"Name of Location": "Ala",
 		"City or Larger Place": "Ala",
@@ -323,6 +333,16 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Location ID (LOC)": "LOC:Bourges",
+		"Name of Location": "Bourges",
+		"City or Larger Place": "Bourges",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/VmBE63R6x7kFGFQh7",
+		"Coordinates": "47.08189271572467, 2.3964096248283484",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
+	},
+	{
 		"Location ID (LOC)": "LOC:Bouvignies",
 		"Name of Location": "Bouvignies",
 		"City or Larger Place": "Bouvignies",
@@ -566,6 +586,16 @@
 		"Coordinates": "44.83006581259533, 12.110257742109034",
 		"Input data": "BSO",
 		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Conde-sur-lEscaut",
+		"Name of Location": "Condé-sur-l'Escaut",
+		"City or Larger Place": "Condé-sur-l'Escaut",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/nz6z2JpXudxUWQTH6",
+		"Coordinates": "50.448104567089395, 3.5948772967029776",
+		"Input data": "FEM",
+		"Date entered": "2024-4-2"
 	},
 	{
 		"Location ID (LOC)": "LOC:Corneto",
@@ -1019,6 +1049,16 @@
 		"Date entered": "2023-5-19"
 	},
 	{
+		"Location ID (LOC)": "LOC:La_Charite-sur-Loire",
+		"Name of Location": "La Charité-sur-Loire",
+		"City or Larger Place": "La Charité-sur-Loire",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/ZZdDPZvoJWbot6vc6",
+		"Coordinates": "47.177095676172854, 3.0192120935954008",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
+	},
+	{
 		"Location ID (LOC)": "LOC:La_Cote-Saint-Andre",
 		"Name of Location": "La Côte-Saint-André",
 		"City or Larger Place": "La Côte-Saint-André",
@@ -1097,6 +1137,16 @@
 		"Date entered": "2024-6-7"
 	},
 	{
+		"Location ID (LOC)": "LOC:Larbresle",
+		"Name of Location": "L'Arbresle",
+		"City or Larger Place": "L'Arbresle",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/uUFiZ5QffKReGshk6",
+		"Coordinates": "45.83495880934688, 4.615524278301241",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
+	},
+	{
 		"Location ID (LOC)": "LOC:Larchant",
 		"Name of Location": "Larchant",
 		"City or Larger Place": "Larchant",
@@ -1145,6 +1195,16 @@
 		"Coordinates": "48.39132306140204, -2.9216269888885598",
 		"Input data": "BSO",
 		"Date entered": "2024-1-25"
+	},
+	{
+		"Location ID (LOC)": "LOC:Le_Puy-Notre-Dame",
+		"Name of Location": "Le Puy-Notre-Dame",
+		"City or Larger Place": "Le Puy-Notre-Dame",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/GgpZhRS2LkdQBgwS9",
+		"Coordinates": "47.12508325623518, -0.2273021238351422",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
 	},
 	{
 		"Location ID (LOC)": "LOC:Legeuil",
@@ -1218,6 +1278,15 @@
 		"Date entered": "2023-5-4"
 	},
 	{
+		"Location ID (LOC)": "LOC:LIsere",
+		"Name of Location": "L'Isere River",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/3SPrkMNeQ824cEdH9",
+		"Coordinates": "45.1946098369985, 5.729344510439688",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
+	},
+	{
 		"Location ID (LOC)": "LOC:Loches",
 		"Name of Location": "Loches",
 		"City or Larger Place": "Loches",
@@ -1246,6 +1315,15 @@
 		"Coordinates": "44.27232308372881, 11.317307507375741",
 		"Input data": "BSO",
 		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Loire",
+		"Name of Location": "Loire River",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/L4CfAFBC69SqkGXAA",
+		"Coordinates": "47.582068148590956, 1.332845093548334",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
 	},
 	{
 		"Location ID (LOC)": "LOC:Lyon",
@@ -1309,6 +1387,16 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Location ID (LOC)": "LOC:Marcoussis",
+		"Name of Location": "Marcoussis",
+		"City or Larger Place": "Marcoussis",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/HA3iqSWCBBH9dssc8",
+		"Coordinates": "48.643069794445765, 2.229087839286009",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
+	},
+	{
 		"Location ID (LOC)": "LOC:Massa",
 		"Name of Location": "Massa",
 		"City or Larger Place": "Massa",
@@ -1348,6 +1436,16 @@
 		"Coordinates": "51.034230033638046, 4.479290305685832",
 		"Input data": "BSO",
 		"Date entered": "2024-3-16"
+	},
+	{
+		"Location ID (LOC)": "LOC:Mehun-sur-Yevre",
+		"Name of Location": "Mehun-sur-Yèvre",
+		"City or Larger Place": "Mehun-sur-Yèvre",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/5qx7pmSeujBoVubk6",
+		"Coordinates": "47.14599322706833, 2.214475478895086",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
 	},
 	{
 		"Location ID (LOC)": "LOC:Melegnano",
@@ -1453,6 +1551,26 @@
 		"Date entered": "2023-5-4"
 	},
 	{
+		"Location ID (LOC)": "LOC:Montaut-au-Moynes",
+		"Name of Location": "Montaut-au-Moynes",
+		"City or Larger Place": "Le Montet",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/rsoxCpvTsTFsjxHq7",
+		"Coordinates": "46.40941315080728, 3.0570018654817965",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
+	},
+	{
+		"Location ID (LOC)": "LOC:Montbonnot",
+		"Name of Location": "Montbonnot",
+		"City or Larger Place": "Montbonnot",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/ELntFamFLa8KuDuNA",
+		"Coordinates": "45.22573806736759, 5.801693591347928",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
+	},
+	{
 		"Location ID (LOC)": "LOC:Monthlery",
 		"Name of Location": "Monthléry",
 		"City or Larger Place": "Monthléry",
@@ -1463,6 +1581,16 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Location ID (LOC)": "LOC:Montils-lez-Tours",
+		"Name of Location": "Montils-lez-Tours",
+		"City or Larger Place": "La Riche",
+		"Modern Country": "France",
+		"Google URL": "https://goo.gl/maps/fRanMSndZSYKPLWu7",
+		"Coordinates": "47.3835355493085, 0.6605182022726417",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
+	},
+	{
 		"Location ID (LOC)": "LOC:Montroeul",
 		"Name of Location": "Montroeul",
 		"City or Larger Place": "Montroeul",
@@ -1471,6 +1599,16 @@
 		"Coordinates": "50.435906835125046, 3.7085102842826863",
 		"Input data": "LO",
 		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Montsoreau",
+		"Name of Location": "Montsoreau",
+		"City or Larger Place": "Montsoreau",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/esGE3FmX9A33Ssku7",
+		"Coordinates": "47.21301929870693, 0.05728269095974709",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
 	},
 	{
 		"Location ID (LOC)": "LOC:Morlaix",
@@ -1532,6 +1670,15 @@
 		"Coordinates": "47.21629673329054, -1.5482665480736886",
 		"Input data": "BSO",
 		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Naples",
+		"Name of Location": "Naples",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/4g9zdbbnQzeUWk4z5",
+		"Coordinates": "40.853016, 14.258840",
+		"Input data": "SMB",
+		"Date entered": "2024-6-29"
 	},
 	{
 		"Location ID (LOC)": "LOC:Nesle",
@@ -1781,6 +1928,16 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Location ID (LOC)": "LOC:Pontoise",
+		"Name of Location": "Pontoise",
+		"City or Larger Place": "Pontoise",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/7xQqXHJFbg2KnQtU7",
+		"Coordinates": "49.051143465074745, 2.1027320392268853",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
+	},
+	{
 		"Location ID (LOC)": "LOC:Popuelles",
 		"Name of Location": "Popuelles",
 		"City or Larger Place": "Popuelles",
@@ -1871,6 +2028,15 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Location ID (LOC)": "LOC:Rhone",
+		"Name of Location": "Rhône River",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/d4cHPQ1WmttpjzWU7",
+		"Coordinates": "45.7806354069852, 4.844011885695155",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
+	},
+	{
 		"Location ID (LOC)": "LOC:Rimini",
 		"Name of Location": "Rimini",
 		"City or Larger Place": "Rimini",
@@ -1879,6 +2045,26 @@
 		"Coordinates": "44.06591324161023, 12.559523113308297",
 		"Input data": "BSO",
 		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Roanne",
+		"Name of Location": "Roanne",
+		"City or Larger Place": "Roanne",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/zP2N1waZAcEtNzFF7",
+		"Coordinates": "46.03478520409757, 4.071783724834728",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
+	},
+	{
+		"Location ID (LOC)": "LOC:Romans_sur_Isere",
+		"Name of Location": "Romans-sur-Isère",
+		"City or Larger Place": "Romans-sur-Isère",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/JNkMp19X9Ex5pp2D6",
+		"Coordinates": "45.04316301067813, 5.0580443814275915",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
 	},
 	{
 		"Location ID (LOC)": "LOC:Rome",
@@ -1933,6 +2119,16 @@
 		"Coordinates": "42.29432084461648, 12.220563193548568",
 		"Input data": "BSO",
 		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Rouen",
+		"Name of Location": "Rouen",
+		"City or Larger Place": "Rouen",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/v8yQEHrto4j4Q4p57",
+		"Coordinates": "49.44477806177639, 1.0942586269715147",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
 	},
 	{
 		"Location ID (LOC)": "LOC:Rubiera",
@@ -2130,6 +2326,16 @@
 		"Coordinates": "47.52203367269411, -2.6849845202386247",
 		"Input data": "BSO",
 		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Tarare",
+		"Name of Location": "Tarare",
+		"City or Larger Place": "Tarare",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/bwQw86HTLrvfiKRn7",
+		"Coordinates": "45.8970779569219, 4.433083033644222",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
 	},
 	{
 		"Location ID (LOC)": "LOC:Thieulain",
@@ -2452,6 +2658,16 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Location ID (LOC)": "LOC:Vizille",
+		"Name of Location": "Vizille",
+		"City or Larger Place": "Vizille",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/ryiJBj1FjqLW5i418",
+		"Coordinates": "45.077518962816754, 5.773784243087939",
+		"Input data": "RP",
+		"Date entered": "2024-7-11"
+	},
+	{
 		"Location ID (LOC)": "LOC:Vorghenza",
 		"Name of Location": "Vorghenza",
 		"City or Larger Place": "Vorghenza",
@@ -2483,6 +2699,15 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Location ID (LOC)": "LOC:Weimar",
+		"Name of Location": "Weimar",
+		"Modern Country": "Germany",
+		"Google URL": "https://maps.app.goo.gl/tBuebG1r46Rha16C8",
+		"Coordinates": "50.983888, 11.328832",
+		"Input data": "SMB",
+		"Date entered": "2024-6-23"
+	},
+	{
 		"Location ID (LOC)": "LOC:Worms",
 		"Name of Location": "Worms",
 		"City or Larger Place": "Worms",
@@ -2501,25 +2726,5 @@
 		"Coordinates": "44.93832255108442, 11.74906653794804",
 		"Input data": "BSO",
 		"Date entered": "2024-3-8"
-	},
-	{
-		"Location ID (LOC)": "LOC:Conde_sur_lEscaut",
-		"Name of Location": "Condé-sur-l'Escaut",
-		"City or Larger Place": "Condé-sur-l'Escaut",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/nz6z2JpXudxUWQTH6",
-		"Coordinates": "50.448104567089395, 3.5948772967029776",
-		"Input data": "FEM",
-		"Date entered": "2024-4-2"
-	},
-	{
-		"Location ID (LOC)": "LOC:Aix_en_Provence",
-		"Name of Location": "Aix-en-Provence",
-		"City or Larger Place": "Aix-en-Provence",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/xtiEFnEVicsiNNbF8",
-		"Coordinates": "43.53090909518784, 5.4428556273405055",
-		"Input data": "FEM",
-		"Date entered": "2024-4-2"
 	}
 ]
