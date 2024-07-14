@@ -10,7 +10,6 @@
 //
 
 function displaySheet(name) {
-	console.warn("Got here AAA");
 	let list = document.querySelectorAll(".sheet-display");
 	for (let i=0; i<list.length; i++) {
 		let sheet = list[i];
@@ -27,7 +26,6 @@ function displaySheet(name) {
 //
 
 function buildLookupTables() {
-	console.warn("Got here BBB");
 	let metadata = MAP.METADATA;
 	if (!metadata){
 		console.warn("No METADATA!");
@@ -49,25 +47,50 @@ function buildLookupTables() {
 //
 
 function buildLookupTable(sheet) {
-	console.warn("Got here CCC");
-	let sheetArray = MAP.METADATA[sheet];
-	if (!sheetArray && Array.isArray(sheetArray)){
-		console.warn("No METADATA FOR", sheet);
-		return;
-	}
-	MAP.lookup[sheet] = {};
-	const lookup = MAP.lookup[sheet];
-	for (let entry of sheetArray) {
-		let id = entry.ID;
-		if (!id){
-			console.warn("NO ID FOR ENTRY");
-			continue;
-		}
-		lookup[id] = entry;
-	}
+    let sheetArray = MAP.METADATA[sheet];
+    if (!sheetArray || !Array.isArray(sheetArray)){
+        console.warn("No METADATA FOR", sheet);
+        return;
+    }
+    MAP.lookup[sheet] = {};
+    const lookup = MAP.lookup[sheet];
+
+    // Dynamically determine the ID key
+    let idKey = null;
+    if (sheetArray.length > 0) {
+        const firstEntry = sheetArray[0];
+        for (let key in firstEntry) {
+            if (key.toLowerCase().includes("id")) {
+                idKey = key;
+                break;
+            }
+        }
+    }
+
+    if (!idKey) {
+        console.warn(`No ID key found for sheet ${sheet}`);
+        return;
+    }
+
+    for (let entry of sheetArray) {
+        let id = entry[idKey];
+        if (!id){
+            console.warn("NO ID FOR ENTRY", entry);
+            continue;
+        }
+        lookup[id] = entry;
+    }
 }
 
-	
+//////////////////////////////
+//
+// findInfo –- find info on other sheets
+//
+
+function findInfo(id, sheet) {
+    return MAP.lookup[sheet] ? MAP.lookup[sheet][id] : null;
+}
+
 
 //////////////////////////////
 //
@@ -75,7 +98,6 @@ function buildLookupTable(sheet) {
 //
 
 function buildSearchInterfaces(metadata, selector) {
-	console.warn("Got here DDD");
 	let element = document.querySelector(selector);
 	if (!element) {
 		console.error("ERROR: Cannot find", selector, "element");
@@ -117,7 +139,6 @@ function buildSearchInterfaces(metadata, selector) {
 //
 
 function buildSearchInterfaceEvents(data, browseElement) {
-	console.warn("Got here EEE");
 	if (!browseElement) {
 		console.error("ERROR: Cannot find search interface element", browseElement);
 		return;
@@ -142,7 +163,6 @@ function buildSearchInterfaceEvents(data, browseElement) {
 //
 
 function buildSearchInterfaceDocuments(data, browseElement) {
-	console.warn("Got here FFF");
 	if (!browseElement) {
 		console.error("ERROR: Cannot find search interface element", browseElement);
 		return;
@@ -163,7 +183,6 @@ function buildSearchInterfaceDocuments(data, browseElement) {
 
 function displayBrowseTableEvents(data) {
 	let element = MAP.results.Events;
-	console.warn("Got here GGG");
 	if (!element) {
 		console.warn("Cannot find search results element for events");
 		return;
@@ -192,7 +211,6 @@ function displayBrowseTableEvents(data) {
 
 function displayBrowseTableDocuments(data) {
 	let element = MAP.results.Documents;
-	console.warn("Got here HHH");
 	if (!element) {
 		console.warn("Cannot find search results element for documents");
 		return;
@@ -220,7 +238,6 @@ function displayBrowseTableDocuments(data) {
 //
 
 function makeTableHeader(headings) {
-	console.warn("Got here III");
 	let output = "";
 	for (let i=0; i<headings.length; i++ ) {
 		output += `<th>`;
@@ -238,8 +255,14 @@ function makeTableHeader(headings) {
 //
 
 function makeTableBody(headings, data) {
-	console.warn("Got here JJJ");
 	let output = "";
+	let person = "";
+	let personprocessed = "";
+
+	let BCONAME = MAP.cindex("BCO", "BCONAME");
+	let BMUNAME = MAP.cindex("BMU", "BMUNAME");
+	let BNONAME = MAP.cindex("BNO", "BNONAME");
+	
 	for (let i=0; i<data.length; i++) {
 			let entry = data[i];
 			output += "<tr>";
@@ -247,8 +270,24 @@ function makeTableBody(headings, data) {
 				output += "<td>";
 				let value = entry[headings[i]];
 				if (value) {
-					output += value;
-					console.warn("Got here JJJ 2");
+					let valueshort = value.substring(0,3);
+					let composerInfo = findInfo(value, "Bio_Composers");
+					let musicianInfo = findInfo(value, "Bio_Musicians");
+					let nonmusicianInfo = findInfo(value, "Bio_Nonmusicians");
+					if (valueshort == "BCO" || valueshort == "BMU" || valueshort == "BNO" ) {
+						console.warn("person", value);
+						//get name from composer, musician, or non-musician biography sheets
+						if (valueshort === "BCO" && composerInfo) {
+							personprocessed = composerInfo[BCONAME];
+						} else if (valueshort === "BMU" && musicianInfo) {
+						    personprocessed = musicianInfo[BMUNAME];
+						} else if (valueshort === "BNO" && nonmusicianInfo) {
+						    personprocessed = nonmusicianInfo[BNONAME];
+						}
+						output += personprocessed;
+					} else {
+						output += value;
+					}
 				}
 			output += "</td>";
 			}
@@ -263,7 +302,6 @@ function makeTableBody(headings, data) {
 //
 
 function UserSearch() {
-	console.warn("Got here KKK");
 	let tr    = document.querySelectorAll("div.results-list tbody tr");
 	let input = document.querySelector("#input");
 	let regex = new RegExp(input.value, 'i');
@@ -301,7 +339,6 @@ function UserSearch() {
 //
 
 function doSearchDocuments(data) {
-	console.warn("Got here LLL");
 	if (!data) {
 		data = MAP.METADATA.Doc_Entries;
 	}
@@ -326,7 +363,6 @@ function doSearchDocuments(data) {
 //
 
 function doSearchEvents(data) {
-	console.warn("Got here MMM");
 	if (!data) {
 		data = MAP.METADATA.Events;
 	}

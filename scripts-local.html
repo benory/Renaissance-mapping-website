@@ -75,7 +75,7 @@ function buildLookupTable(sheet) {
 
 //////////////////////////////
 //
-// findLocationInfo –-
+// findInfo –- find info on other sheets
 //
 
 function findInfo(id, sheet) {
@@ -89,6 +89,7 @@ function findInfo(id, sheet) {
 
 function doMapSetups() {
 
+	//set up map coordinates and zoom
 	let Opts = {
 		name: "map",
 		view: [48, 9],
@@ -144,6 +145,7 @@ function doMapSetup(opts) {
 		}
 	).addTo(map);
 
+	//get names of variables
 	let ID = MAP.cindex("EV", "EVID");
 	let LOC = MAP.cindex("EV", "LOCID");
 	let BIOID = MAP.cindex("EV", "BIOID");
@@ -156,6 +158,7 @@ function doMapSetup(opts) {
 	let BMUNAME = MAP.cindex("BMU", "BMUNAME");
 	let BNONAME = MAP.cindex("BNO", "BNONAME");
 
+	//establish variables
 	let person = "";
 	let personprocessed = "";
 	let locationid = "";
@@ -174,31 +177,34 @@ function doMapSetup(opts) {
 				person = events[i][BIOID];
 				let composerInfo = findInfo(person, "Bio_Composers");
 				let musicianInfo = findInfo(person, "Bio_Musicians");
-				let noncomposerInfo = findInfo(person, "Bio_Nonmusicians");
+				let nonmusicianInfo = findInfo(person, "Bio_Nonmusicians");
 
-				//Find ID to determine
+				//get first three letters to determine type of ID 
 				let nameshort = person.substring(0,3);
 
-				//Use whichever info exists
+				//get name from composer, musician, or non-musician biography sheets
 				if (nameshort === "BCO" && composerInfo) {
 					personprocessed = composerInfo[BCONAME];
 				} else if (nameshort === "BMU" && musicianInfo) {
 				    	personprocessed = musicianInfo[BMUNAME];
-				} else if (nameshort === "BNO" && noncomposerInfo) {
-				    	personprocessed = noncomposerInfo[BNONAME];
+				} else if (nameshort === "BNO" && nonmusicianInfo) {
+				    	personprocessed = nonmusicianInfo[BNONAME];
 				} else {
 					continue;
 				}
 			} 
 
+			//get dates
 			if (events[i][DATERANGE]) {
 				daterange = events[i][DATERANGE];
 			}
 
+			//get event description
 			if (events[i][EINFO]) {
 				description = events[i][EINFO];
 			}
 			
+			//get coordinates
 			coordinates = locationInfo[COORD];
 			if (coordinates !== undefined){
 				coordinatesprocessed = coordinates.split(/,?\s+,?/);
@@ -207,6 +213,7 @@ function doMapSetup(opts) {
 			}
 		}
 
+		//create point on map
 		if (locationid && description) {
 			L.marker(coordinatesprocessed)
 			.addTo(map)
