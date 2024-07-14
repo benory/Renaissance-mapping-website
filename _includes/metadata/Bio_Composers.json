@@ -1,182 +1,532 @@
 [
 	{
-		"URLBASE": "Biography Composer (BCO) ID",
-		"https://rism.online/people/": "Composer Name"
+		"Biography Composer (BCO) ID": "BCO:Antoine_Bruhier",
+		"Composer Name": "Antoine Bruhier",
+		"Description": "French singer and composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/220/",
+		"RISM ID": "pe30016485",
+		"RISM Link": "https://rism.online/people/30016485",
+		"Bibliography (BIB) ID": "BIB:Lockwood_1979",
+		"BIB Pages": "199",
+		"Input data": "BSO",
+		"Date entered": "2024-3-19"
 	},
 	{
-		"URLBASE": "BCO:Antoine_Bruhier",
-		"https://rism.online/people/": "Antoine Bruhier"
+		"Biography Composer (BCO) ID": "BCO:Antoine_Brumel",
+		"Composer Name": "Antoine Brumel",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/199/",
+		"RISM ID": "pe20000368",
+		"RISM Link": "https://rism.online/people/20000368",
+		"Input data": "BSO",
+		"Date entered": "2024-2-12"
 	},
 	{
-		"URLBASE": "BCO:Antoine_Brumel",
-		"https://rism.online/people/": "Antoine Brumel"
+		"Biography Composer (BCO) ID": "BCO:Antoine_Busnoys",
+		"Composer Name": "Antoine Busnoys",
+		"Alias": "Antoine de Busnes; Bunois, Antoine; Busnois, Antoine; De Busne, Antoine",
+		"Death Date": "1492-11-6",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/187/",
+		"RISM ID": "pe30016323",
+		"RISM Link": "https://rism.online/people/30016323",
+		"Input data": "LO",
+		"Date entered": "2024-1-19",
+		"Update data": "BSO",
+		"Date updated": "2024-1-19"
 	},
 	{
-		"URLBASE": "BCO:Antoine_Busnoys",
-		"https://rism.online/people/": "Antoine Busnoys"
+		"Biography Composer (BCO) ID": "BCO:Antoine_Divitis",
+		"Composer Name": "Antoine Divitis",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/107/",
+		"RISM ID": "pe30019873",
+		"RISM Link": "https://rism.online/people/30019873",
+		"Input data": "BSO",
+		"Date entered": "2024-4-4"
 	},
 	{
-		"URLBASE": "BCO:Antoine_Divitis",
-		"https://rism.online/people/": "Antoine Divitis"
+		"Biography Composer (BCO) ID": "BCO:Antonio_Colobaudi",
+		"Composer Name": "Antonio Colobaudi dicto Bidon",
+		"Alias": "Bidon",
+		"Description": "member of the Savoy chapel from 1500–2, lured to Rome in 1516 by Leo X",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/4431/",
+		"Input data": "BSO",
+		"Date entered": "2023-3-9",
+		"Update data": "BSO",
+		"Date updated": "2024-2-12"
 	},
 	{
-		"URLBASE": "BCO:Antonio_Colobaudi",
-		"https://rism.online/people/": "Antonio Colobaudi dicto Bidon"
+		"Biography Composer (BCO) ID": "BCO:Antonio_de_Longueval",
+		"Composer Name": "Antonio de Longueval",
+		"Description": "fl. 1498–1525; from 1502–4 at Savoy; paid for service in Ferrara between December 1503 and September 1504; by 1507 was a valet de chambre to Louis XII; canon at Bourges in 1510, maître de chapelle for Francis I starting in October 1515",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/221/",
+		"RISM ID": "pe30008093",
+		"RISM Link": "https://rism.online/people/30008093",
+		"Bibliography (BIB) ID": "BIB:Lockwood_2009",
+		"BIB Pages": "361",
+		"Input data": "BSO",
+		"Date entered": "2023-3-9",
+		"Update data": "BSO",
+		"Date updated": "2024-2-11"
 	},
 	{
-		"URLBASE": "BCO:Antonio_de_Longueval",
-		"https://rism.online/people/": "Antonio de Longueval"
+		"Biography Composer (BCO) ID": "BCO:Bertrandus_Vaqueras",
+		"Composer Name": "Bertrandus Vaqueras",
+		"Alias": "Bassa, Bertrandus della; Bassea, Bertrandus de; Bernardus de Brassia; Bertrandus de Brassia; De Bassea, Bertrandus; Della Bassa, Bertrandus; Vacares, Bertrandus; Vacqueras, Beltrame; Vacqueras, Bernardus; Vacqueras, Bertrandus; Vagares, Bertrandus; Vagueras, Bertrandus; Vassadelli, Bertrandus",
+		"Death Date": "1521",
+		"Description": "member of chapel of Sixtus IV, self-inscribed in the Confraternità di Santo Spirito in Sassia on 1484-06-07.",
+		"RISM ID": "pe30095675",
+		"RISM Link": "https://rism.online/people/30095675",
+		"Input data": "LO",
+		"Date entered": "2023-3-28",
+		"Update data": "BSO",
+		"Date updated": "2024-3-19"
 	},
 	{
-		"URLBASE": "BCO:Bertrandus_Vaqueras",
-		"https://rism.online/people/": "Bertrandus Vaqueras"
+		"Biography Composer (BCO) ID": "BCO:Carpentras",
+		"Composer Name": "Carpentras",
+		"Alias": "Elzéar Genet, Genesi, Genetii",
+		"Death Date": "1548-6-14",
+		"Description": "maestro di capella of the papal chapel, 1514–21; born in Carpentras near Avignon, he may have attracted the attention of the cardinal Giuliano della Rovere (later, Pope Julius II); prized by Leo X who made him chapel master in 1514; stayed in papal service until 1521, returning from 1524 to 1526; possibly heard a performance of his Lamentations in 1526 which so disgusted him that he sent a corrected manuscript to Clement VII from Avignon",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/223/",
+		"RISM ID": "pe30005089",
+		"RISM Link": "https://rism.online/people/30005089",
+		"Input data": "LO",
+		"Date entered": "2023-3-28",
+		"Update data": "BSO",
+		"Date updated": "2024-4-4"
 	},
 	{
-		"URLBASE": "BCO:Carpentras",
-		"https://rism.online/people/": "Carpentras"
+		"Biography Composer (BCO) ID": "BCO:Claudin_de_Sermisy",
+		"Composer Name": "Claudin de Sermisy",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/222/",
+		"RISM ID": "pe20000369",
+		"RISM Link": "https://rism.online/people/20000369",
+		"Input data": "BSO",
+		"Date entered": "2024-4-5"
 	},
 	{
-		"URLBASE": "BCO:Claudin_de_Sermisy",
-		"https://rism.online/people/": "Claudin de Sermisy"
+		"Biography Composer (BCO) ID": "BCO:Crispin_van_Stappen",
+		"Composer Name": "Crispin van Stappen",
+		"Alias": "Crispinus; Stappen, Crispiaenen van; Stappen, Crispijn van; Stappen, Crispijne van; Stappen, Crispin de; Stappen, Crispin van; Stappen, Crispin van der; Stappen, Crispinus de; Stappen, Crispinus vander",
+		"Death Date": "1532-3-10",
+		"Description": "maestro di capella at the cathedral of Padua in late 1492; joined the papal chapel in 1493; returned to Padua for six monnths from August 1498; records in Cambrai show that he took a trip to Rome in July 1507; in Cambrai from July 1509 until death",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/328/",
+		"RISM ID": "pe30100874",
+		"RISM Link": "https://rism.online/people/30100874",
+		"Bibliography (BIB) ID": "BIB:Sherr_1975",
+		"BIB Pages": "35–41",
+		"Input data": "LO",
+		"Date entered": "2023-3-28",
+		"Update data": "BSO",
+		"Date updated": "2023-5-8"
 	},
 	{
-		"URLBASE": "BCO:Crispin_van_Stappen",
-		"https://rism.online/people/": "Crispin van Stappen"
+		"Biography Composer (BCO) ID": "BCO:Dionysius_Prioris",
+		"Composer Name": "Dionysius Prioris",
+		"Alias": "Prieur, Denis; Prioris, Johannes",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/99/",
+		"RISM ID": "pe30016484",
+		"RISM Link": "https://rism.online/people/30016484",
+		"Bibliography (BIB) ID": "BIB:Dumitrescu_2012",
+		"BIB Pages": "5–65",
+		"Input data": "LO",
+		"Date entered": "2024-1-25"
 	},
 	{
-		"URLBASE": "BCO:Dionysius_Prioris",
-		"https://rism.online/people/": "Dionysius Prioris"
+		"Biography Composer (BCO) ID": "BCO:Eloy_dAmerval",
+		"Composer Name": "Eloy d'Amerval",
+		"Input data": "ECZ",
+		"Date entered": "2024-2-22"
 	},
 	{
-		"URLBASE": "BCO:Eloy_dAmerval",
-		"https://rism.online/people/": "Eloy d'Amerval"
+		"Biography Composer (BCO) ID": "BCO:Gaspar_van_Weerbeke",
+		"Composer Name": "Gaspar van Weerbeke",
+		"Alias": "Gaspar van Weerbeke; Gaspar van Weerbeke; Gaspar van Weerbeke, Gaspar van; Gaspard; Gaspare de Alemania; Gaspare de Alemania, Gaspar van; Gaspare vice abate; Gaspare vice abate, Gaspar van; Veerbeke di Fiandra; Veerbeke di Fiandra, Gaspar van; Verbech; Verbech, Gaspar van; Verbecht; Verbecht, Gaspar van; Verbeck; Verbeck, Gaspar van; Warbeck; Warbeck, Gaspar van; Weerbecke, Gaspar; Weerbecke, Gaspar van; Weerbecke, Gaspar van; Weerbeke, Gaspar van; Werbeck; Werbeck, Gaspar van; Werbeke; Werbeke, Gaspar van",
+		"Description": "singer in the papal chapel 1484–89; 1501–3; 1507–9; member of the chapel of Sixtus IV; first major composer in papal service since Dufay; enters the Confraternità di Santo Spirito in Sassia 1483-05-19; returns to the service of the Duke of Milan after March 1498; a motu propcio indicates he is in Rome in November 1499; documents place him in the chapel in October 1515 and November 1517",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/146/",
+		"RISM ID": "pe30006179",
+		"RISM Link": "https://rism.online/people/30006179",
+		"Bibliography (BIB) ID": "BIB:Sherr_1975",
+		"BIB Pages": "26–31, 37–42",
+		"Input data": "LO",
+		"Date entered": "2023-3-28",
+		"Update data": "BSO",
+		"Date updated": "2023-5-9"
 	},
 	{
-		"URLBASE": "BCO:Gaspar_van_Weerbeke",
-		"https://rism.online/people/": "Gaspar van Weerbeke"
+		"Biography Composer (BCO) ID": "BCO:Giovanni_Spataro",
+		"Composer Name": "Giovanni Spataro",
+		"Alias": "Spadario, Giovanni; Spadarius, Giovanni; Spadaro, Giovanni; Spartarius, Giovanni; Spatario, Zoanne; Spatarius, Joannes; Spatarus, Giovanni",
+		"Birth Date": "1458-10-26",
+		"Death Date": "1541-1-17",
+		"Description": "music theorist, maestro di capella, composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/269/",
+		"RISM ID": "pe30102057",
+		"RISM Link": "https://rism.online/people/30102057",
+		"Input data": "LO",
+		"Date entered": "2023-3-28",
+		"Update data": "BSO",
+		"Date updated": "2023-5-9"
 	},
 	{
-		"URLBASE": "BCO:Giovanni_Spataro",
-		"https://rism.online/people/": "Giovanni Spataro"
+		"Biography Composer (BCO) ID": "BCO:Heinrich_Isaac",
+		"Composer Name": "Heinrich Isaac",
+		"Alias": "Arrhigus, Heinrich; Arrigo Tedesco; Arrigo Ugonis; Arrigo d'Ugo; Arrigo de Alemania; Arrigo di Fiandra; Arrigo il Tedesco; Isaac, Henricus; Isaak, Heinrich; Isac, Heinrich; Izac, Heinrich; Ysaac, Heinrich; Ysac, Heinrich; Ysach, Heinrich; Ysak, Heinrich; Yzaac, Heinrich; Yzac, Heinrich",
+		"Death Date": "1517-3-26",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/195/",
+		"RISM ID": "pe20000364",
+		"RISM Link": "https://rism.online/people/20000364",
+		"Input data": "BSO",
+		"Date entered": "2023-3-9",
+		"Update data": "BSO",
+		"Date updated": "2023-5-9"
 	},
 	{
-		"URLBASE": "BCO:Heinrich_Isaac",
-		"https://rism.online/people/": "Heinrich Isaac"
+		"Biography Composer (BCO) ID": "BCO:Jacob_Obrecht",
+		"Composer Name": "Jacob Obrecht",
+		"Alias": "Hoberti de Bergis, Jacob; Hobertus, Jacob; Hobrecht, Jacob; Hoebrecht, Jacob; Obert, Jacobus; Oberti de Bergis, Jacob; Obertus, Jacob; Obreht, Jacob; Obret, Jacob; Obreth, Jacob; Opprecht, Jacob; Oprecht, Jacob; Uberto, Jacob; Ubreto, Jacob",
+		"Birth Date": "~1457",
+		"Death Date": "1505",
+		"Description": "maestro di capella at the court of Ferrara, 1504–5; died of the plague in Ferrara in late June or July 1505",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/100/",
+		"RISM ID": "pe30005499",
+		"RISM Link": "https://rism.online/people/30005499",
+		"Bibliography (BIB) ID": "BIB:Lockwood_2009; BIB:Wegman_2001",
+		"BIB Pages": "361–62;",
+		"Input data": "BSO",
+		"Date entered": "2023-3-9",
+		"Update data": "BSO",
+		"Date updated": "2023-5-9"
 	},
 	{
-		"URLBASE": "BCO:Jacob_Obrecht",
-		"https://rism.online/people/": "Jacob Obrecht"
+		"Biography Composer (BCO) ID": "BCO:Jacotin_Frontin",
+		"Composer Name": "Jacotin Frontin",
+		"RISM ID": "pe30016657",
+		"RISM Link": "https://rism.online/people/30016657",
+		"Input data": "BSO",
+		"Date entered": "2024-2-14"
 	},
 	{
-		"URLBASE": "BCO:Jacotin_Frontin",
-		"https://rism.online/people/": "Jacotin Frontin"
+		"Biography Composer (BCO) ID": "BCO:Jacques_Arcadelt",
+		"Composer Name": "Jacques Arcadelt",
+		"Alias": "Arcadelt, Jacob; Arcadelt, Jacobus Henricus; Arcadelt, Jakob; Arcadente, Jacques; Arcadet, Jacques; Archadelt, Jacobus; Archadelt, Jakob; Archadet, Jacques; Arkadelt, Jacques; De Arca d'Elta, Jacques; Del Arche d'Elt, Jacques; Harcadelt, Jacques; Harchadelt, Jacques; Jacobus Flandrus",
+		"Birth Date": "1507-8-10",
+		"Death Date": "1568-10-14",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/286/",
+		"RISM ID": "pe30004860",
+		"RISM Link": "https://rism.online/people/30004860",
+		"Input data": "BSO",
+		"Date entered": "2024-3-19"
 	},
 	{
-		"URLBASE": "BCO:Jacques_Arcadelt",
-		"https://rism.online/people/": "Jacques Arcadelt"
+		"Biography Composer (BCO) ID": "BCO:Jean_de_la_Fage",
+		"Composer Name": "Jean de la Fage",
+		"Description": "composer, probably French",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/282/",
+		"RISM ID": "pe30018710",
+		"RISM Link": "https://rism.online/people/30018710",
+		"Input data": "BSO",
+		"Date entered": "2024-3-19"
 	},
 	{
-		"URLBASE": "BCO:Jean_de_la_Fage",
-		"https://rism.online/people/": "Jean de la Fage"
+		"Biography Composer (BCO) ID": "BCO:Jean_Lheritier",
+		"Composer Name": "Jean Lhéritier",
+		"Alias": "Metregian Leretier",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/219/",
+		"RISM ID": "pe30012541",
+		"RISM Link": "https://rism.online/people/30012541",
+		"Input data": "BSO",
+		"Date entered": "2024-2-12"
 	},
 	{
-		"URLBASE": "BCO:Jean_Lheritier",
-		"https://rism.online/people/": "Jean Lhéritier"
+		"Biography Composer (BCO) ID": "BCO:Jean_Mouton",
+		"Composer Name": "Jean Mouton",
+		"Alias": "D'Hollingue, Jehan; De Hollievigue, Jean; De Hollouigue, Jean; De Holluigue, Jean; De Houllievigues, Jean; Hollievigue, Jean; Hollingue, Jean de; Hollouigue, Jean; Holluigue, Jean; Houllievigues, Jean; Jean de Hollingue; Moton, Jean; Mouton Sameracensis, Jean; Mouton, Ioannes; Muton, Jean; Sameracensis, Jean",
+		"Death Date": "1522-10-30",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/318/",
+		"RISM ID": "pe30005489",
+		"RISM Link": "https://rism.online/people/30005489",
+		"Input data": "BSO",
+		"Date entered": "2023-5-18",
+		"Update data": "BSO",
+		"Date updated": "2024-4-4"
 	},
 	{
-		"URLBASE": "BCO:Jean_Mouton",
-		"https://rism.online/people/": "Jean Mouton"
+		"Biography Composer (BCO) ID": "BCO:Jean_Richafort",
+		"Composer Name": "Jean Richafort",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/214/",
+		"RISM ID": "pe30012751",
+		"RISM Link": "https://rism.online/people/30012751",
+		"Input data": "BSO",
+		"Date entered": "2024-4-5"
 	},
 	{
-		"URLBASE": "BCO:Jean_Richafort",
-		"https://rism.online/people/": "Jean Richafort"
+		"Biography Composer (BCO) ID": "BCO:Jheronimus_Vinders",
+		"Composer Name": "Jheronimus Vinders",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/508/",
+		"RISM ID": "pe30007720",
+		"RISM Link": "https://rism.online/people/30007720",
+		"Bibliography (BIB) ID": "BIB:Jas_1994",
+		"Input data": "BSO",
+		"Date entered": "2024-3-16"
 	},
 	{
-		"URLBASE": "BCO:Jheronimus_Vinders",
-		"https://rism.online/people/": "Jheronimus Vinders"
+		"Biography Composer (BCO) ID": "BCO:Johannes_Baltazar",
+		"Composer Name": "Johannes Baltazar",
+		"Alias": "Jo. le Petit; Nynot?",
+		"Description": "singer in the papal chapel 1488; 1489; 1490; 1491; 1492; 1493; 1494; 1501",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/144/",
+		"RISM ID": "pe30016722",
+		"RISM Link": "https://rism.online/people/30016722",
+		"Bibliography (BIB) ID": "BIB:Sherr_1975",
+		"BIB Pages": "30–37",
+		"Internal notes": "There is a question as to whether he should be identified as Ninot Le Petit. Ninot is a diminutive of Jean/Giovanni, the most common name of the time, and because ‘le petit’ is unlikely to be a family name.",
+		"Input data": "LO",
+		"Date entered": "2023-5-24"
 	},
 	{
-		"URLBASE": "BCO:Johannes_Baltazar",
-		"https://rism.online/people/": "Johannes Baltazar"
+		"Biography Composer (BCO) ID": "BCO:Johannes_de_Stokem",
+		"Composer Name": "Johannes de Stokem",
+		"Alias": "De Prato, Johannes; Johannes [Stockem]; Johannes [Stokem]; Johannes [de Prato]; Johannes [de Stoccken]; Johannes [de Stochem]; Johannes [de Stokem]; Pratis, Johannes de; Prato, Johannes de; Shtoken, Johannes de; Sthokem, Johannes; Sthoken, Johannes de; Stoccken, Johannes de; Stochem, Johannes de; Stockem, Johannes; Stoeckem, Jean; Stoecken, Johannes de; Stokem, Jean; Stokem, Johannes de; Stoken, Johannes de; Stokhem, Johannes",
+		"Death Date": "1487-10-3",
+		"Description": "singer in the papel chapel 1486 and 1487; previously chapel master for the King of Hungary; Tinctoris dedicated his treatise to him; spent a few months in Florence before reaching Rome; composed some chansons and a Gloria de beata Virgine",
+		"RISM ID": "pe30101016",
+		"RISM Link": "https://rism.online/people/30101016",
+		"Bibliography (BIB) ID": "BIB:Sherr_1975",
+		"BIB Pages": "29",
+		"Input data": "LO",
+		"Date entered": "2023-3-28",
+		"Update data": "BSO",
+		"Date updated": "2023-5-9"
 	},
 	{
-		"URLBASE": "BCO:Johannes_de_Stokem",
-		"https://rism.online/people/": "Johannes de Stokem"
+		"Biography Composer (BCO) ID": "BCO:Johannes_Hillanis",
+		"Composer Name": "Johannes Hillanis",
+		"Alias": "De Aragonia; De Lannis; De Lyanas; De Yllanes; Ylianas; Yllianis",
+		"Description": "singer in the papal chapel, 1492–1494; 1501–1503; 1507–1509; can be identified with the Johannes de Aragonia who first appears in July and August 1492, and is later referred to as Lennis or de Yllianis; (according to Frey) in the chapel in August 1513, September 1514, and September and April 1518; apparently left papal service in 1518; composer of a Missa Domenicalis in a Vatican source",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/413/",
+		"RISM ID": "pe50042034",
+		"RISM Link": "https://rism.online/people/50042034",
+		"Bibliography (BIB) ID": "BIB:Sherr_1975",
+		"BIB Pages": "34–42",
+		"Input data": "LO",
+		"Date entered": "2023-3-28",
+		"Update data": "BSO",
+		"Date updated": "2023-5-8"
 	},
 	{
-		"URLBASE": "BCO:Johannes_Hillanis",
-		"https://rism.online/people/": "Johannes Hillanis"
+		"Biography Composer (BCO) ID": "BCO:Johannes_Okeghem",
+		"Composer Name": "Johannes Okeghem",
+		"Alias": "Hocquegam, Johannes; Hocqueham, Johannes; Hoquegan, Johannes; Ogkeguam, Johannes; Okchem, Johannes; Okeghem, Johannes; Okegus, Johannes; Okenghem, Johannes; Okenheim, Johannes",
+		"Death Date": "1497-2-6",
+		"Description": "composer in the service of the French royal court",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/185/",
+		"RISM ID": "pe30016300",
+		"RISM Link": "https://rism.online/people/30016300",
+		"Input data": "LO",
+		"Date entered": "2024-1-19",
+		"Update data": "BSO",
+		"Date updated": "2024-1-19"
 	},
 	{
-		"URLBASE": "BCO:Johannes_Okeghem",
-		"https://rism.online/people/": "Johannes Okeghem"
+		"Biography Composer (BCO) ID": "BCO:Johannes_Pullois",
+		"Composer Name": "Johannes Pullois",
+		"Alias": "Kieken, Jean; Payllois, Jean; Pillais, Jean; Pillays, Jean; Pillois, Jean; Pilloys, Johannes; Piloys, Jean; Puilloys, Jean; Pullois, Jean; Pullois, Jehan; Pulloys, Jean; Puyllois, Johannes; Puylloys, Johannes; Pyllays, Johannes; Pyllois, Jean; Pylloys, Jean; Pylois, Jean; Pylois, Johannes; Pyloys, Jean",
+		"Death Date": "1478-8-23",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/366/",
+		"RISM ID": "pe30102581",
+		"RISM Link": "https://rism.online/people/30102581",
+		"Bibliography (BIB) ID": "BIB:Starr_1992",
+		"BIB Pages": "257",
+		"Input data": "LO",
+		"Date entered": "2024-3-6"
 	},
 	{
-		"URLBASE": "BCO:Johannes_Pullois",
-		"https://rism.online/people/": "Johannes Pullois"
+		"Biography Composer (BCO) ID": "BCO:Johannes_Scribanus",
+		"Composer Name": "Johannes Scribanus",
+		"Alias": "Scrivano, Scribano, Escribano",
+		"Death Date": "1557",
+		"Description": "singer in the papal chapel in 1503, 1507, 1508, and 1509; became Dean of the College of Singers in 1527; received benefices from Leo X, Adrian VI, Clement VII and Paul III; retired from service and died in Spain in 1557; author of Lamentations; composed a small number of works",
+		"Bibliography (BIB) ID": "BIB:Sherr_1975",
+		"BIB Pages": "39–42",
+		"Input data": "LO",
+		"Date entered": "2023-3-28",
+		"Update data": "BSO",
+		"Date updated": "2023-5-8"
 	},
 	{
-		"URLBASE": "BCO:Johannes_Scribanus",
-		"https://rism.online/people/": "Johannes Scribanus"
+		"Biography Composer (BCO) ID": "BCO:Johannes_Tinctoris",
+		"Composer Name": "Johannes Tinctoris",
+		"Alias": "De Vaerwere, Johannes; Faerbers, Johannes; Fäbers, Johannes; Le Taintenier, Jehan; Teinturier, Johannes; Tinctor, Johannes; Vaerwere, Johannes",
+		"Death Date": "1511-2-9",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/108/",
+		"RISM ID": "pe30008613",
+		"RISM Link": "https://rism.online/people/30008613",
+		"Input data": "LO",
+		"Date entered": "2023-3-28",
+		"Update data": "BSO",
+		"Date updated": "2023-5-9"
 	},
 	{
-		"URLBASE": "BCO:Johannes_Tinctoris",
-		"https://rism.online/people/": "Johannes Tinctoris"
+		"Biography Composer (BCO) ID": "BCO:Josquin_des_Prez",
+		"Composer Name": "Josquin des Prez",
+		"Alias": "De Pres; Deprez, Josquin; Deprès, Josquin; Des Prez; Des Près, Josse; Des Prés, Josquin; Desprez, Josquin; Desprez, Josse; Després, Josquin; Du Pres; Dupré, Josquin; Gossequin des Pres; Ioschinus de Pratis; Ioschinus de Prattis; Iuschino; Jodocus [Pratensis]; Jodocus [de Prato]; Jodocus a Prato; Jodocus de Pratis; Josquin Dascanio; Josquin [Deprez]; Josquin [des Pres]; Josquin d'Ascanio; Josquin des Prés; Josse Desprez; Josse [des Prés]; Jossequin Lebloitte dit Desprez; Jossequin des Pres; Judocus de Pratis; Judocus des Pres; Juschino; Jöskin; Praetensis, Jodici; Pres, Josquin de; Prez, Josquin des; Prés, Josquin D.; Prés, Josquin des; Josquin [des Prez]",
+		"Birth Date": "1450",
+		"Death Date": "1521-8-27",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/204/",
+		"RISM ID": "pe20000367",
+		"RISM Link": "https://rism.online/people/20000367",
+		"Input data": "BSO",
+		"Date entered": "2023-5-17"
 	},
 	{
-		"URLBASE": "BCO:Josquin_des_Prez",
-		"https://rism.online/people/": "Josquin des Prez"
+		"Biography Composer (BCO) ID": "BCO:Loyset_Compere",
+		"Composer Name": "Loyset Compere",
+		"Death Date": "1518-8-16",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/183/",
+		"RISM ID": "pe30005358",
+		"RISM Link": "https://rism.online/people/30005358",
+		"Input data": "BSO",
+		"Date entered": "2023-3-9",
+		"Update data": "BSO",
+		"Date updated": "2023-5-9"
 	},
 	{
-		"URLBASE": "BCO:Loyset_Compere",
-		"https://rism.online/people/": "Loyset Compere"
+		"Biography Composer (BCO) ID": "BCO:Marbrianus_de_Orto",
+		"Composer Name": "Marbrianus de Orto",
+		"Alias": "De Horto, Marbrianus de; De Orto, Marbrianus; Dujardin, Marbrianus; Dujardin, Marbrianus de; Horto, Marbrianus de; Ortho, Marbrianus de; Orto, Marbriano de",
+		"Death Date": "1529",
+		"Description": "singer in the papal chapel from 1484–94; enters the chapel of Sixtus IV in December 1483; self-inscribed in the Confraternità di Santo Spirito in Sassia on 1484-06-07; had more than twelve benefices; Sherr notes that de Orto \"must have been a valued singer\"",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/301/",
+		"RISM ID": "pe30013316",
+		"RISM Link": "https://rism.online/people/30013316",
+		"Bibliography (BIB) ID": "BIB:Sherr_1975",
+		"BIB Pages": "26–36",
+		"Input data": "LO",
+		"Date entered": "2023-3-28",
+		"Update data": "BSO",
+		"Date updated": "2023-5-9"
 	},
 	{
-		"URLBASE": "BCO:Marbrianus_de_Orto",
-		"https://rism.online/people/": "Marbrianus de Orto"
+		"Biography Composer (BCO) ID": "BCO:Mathieu_Gascongne",
+		"Composer Name": "Mathieu Gascongne",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/227/",
+		"RISM ID": "pe30022179",
+		"RISM Link": "https://rism.online/people/30022179",
+		"Input data": "BSO",
+		"Date entered": "2024-4-5"
 	},
 	{
-		"URLBASE": "BCO:Mathieu_Gascongne",
-		"https://rism.online/people/": "Mathieu Gascongne"
+		"Biography Composer (BCO) ID": "BCO:Niccolo_de_Pictis",
+		"Composer Name": "Niccolò de Pictis",
+		"Alias": "Pittis",
+		"Description": "he came from Florence, and was a favorite of Leo X who appointed him Prior; a letter written by him to Clement VII in November 1528, states that he was forced to flee Rome following the sack of the city in May 1527; composed 3 masses, 3 magnificats and 5 motets during his absence; may be the composer of the Salve Regina (by Nicolo Florentinus?); possibly died 1529",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/409/",
+		"RISM ID": "pe50042010",
+		"RISM Link": "https://rism.online/people/50042010",
+		"Bibliography (BIB) ID": "BIB:Sherr_1975; BIB:Sherr_1984",
+		"BIB Pages": "40–42; 403",
+		"Input data": "LO",
+		"Date entered": "2023-3-28",
+		"Update data": "BSO",
+		"Date updated": "2024-3-19"
 	},
 	{
-		"URLBASE": "BCO:Niccolo_de_Pictis",
-		"https://rism.online/people/": "Niccolò de Pictis"
+		"Biography Composer (BCO) ID": "BCO:Noel_Bauldeweyn",
+		"Composer Name": "Noel Bauldeweyn",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/265/",
+		"RISM ID": "pe30001642",
+		"RISM Link": "https://rism.online/people/30001642",
+		"Input data": "BSO",
+		"Date entered": "2024-3-16"
 	},
 	{
-		"URLBASE": "BCO:Noel_Bauldeweyn",
-		"https://rism.online/people/": "Noel Bauldeweyn"
+		"Biography Composer (BCO) ID": "BCO:Philippus_de_Primis",
+		"Composer Name": "Philippus de Primis",
+		"Description": "singer in the papal chapel 1492–1494; 1501–1503; 1507; probably entered the chapel in November, 1491, since he is subject to a letter from the Duke of Ferrara to his Roman ambassador complaining that Primis has left his service; his name is crossed out in April 1507, although he is counted in the payment; possibly the Philipo de Primis from Fano who wrote a mass and was a tenorista in the chapel of Julius II, as mentioned in a letter from the theorist Spataro to Venetian musician Giovanni del Lago on 1529-01-25",
+		"Bibliography (BIB) ID": "BIB:Sherr_1975",
+		"BIB Pages": "34–40",
+		"Input data": "LO",
+		"Date entered": "2023-3-28",
+		"Update data": "BSO",
+		"Date updated": "2023-5-9"
 	},
 	{
-		"URLBASE": "BCO:Philippus_de_Primis",
-		"https://rism.online/people/": "Philippus de Primis"
+		"Biography Composer (BCO) ID": "BCO:Pierre_de_la_Rue",
+		"Composer Name": "Pierre de la Rue",
+		"Alias": "De Platea; De Robore; De Vico; Delarue, Pierre; Larue, Pierre de; Petrus Platensis; Petrus de Vico; Pierazzon, Pierre de; Pierchon, Pierre de; Pierquin, Pierre de; Pierson, Pierre de; Rue, Pierre de; Straeten, Pieter van der; Vander Straeten, Pierre de",
+		"Death Date": "1518-11-20",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/142/",
+		"RISM ID": "pe30001841",
+		"RISM Link": "https://rism.online/people/30001841",
+		"Input data": "LO",
+		"Date entered": "2024-1-19",
+		"Update data": "BSO",
+		"Date updated": "2024-1-19"
 	},
 	{
-		"URLBASE": "BCO:Pierre_de_la_Rue",
-		"https://rism.online/people/": "Pierre de la Rue"
+		"Biography Composer (BCO) ID": "BCO:Philippe_Verdelot",
+		"Composer Name": "Philippe Verdelot",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/249/",
+		"RISM ID": "pe30013948",
+		"RISM Link": "https://rism.online/people/30013948",
+		"Input data": "BSO",
+		"Date entered": "2024-3-17"
 	},
 	{
-		"URLBASE": "BCO:Philippe_Verdelot",
-		"https://rism.online/people/": "Philippe Verdelot"
+		"Biography Composer (BCO) ID": "BCO:Petrus_de_Renaldis",
+		"Composer Name": "Petrus de Renaldis",
+		"Alias": "Renaldo",
+		"Death Date": "1521-1",
+		"Description": "magister chori at Padua Cathedral",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/78/",
+		"Bibliography (BIB) ID": "BIB:Nosow_1991",
+		"BIB Pages": "108",
+		"Input data": "BSO",
+		"Date entered": "2024-3-18"
 	},
 	{
-		"URLBASE": "BCO:Petrus_de_Renaldis",
-		"https://rism.online/people/": "Petrus de Renaldis"
+		"Biography Composer (BCO) ID": "BCO:Lupus_Hellinck",
+		"Composer Name": "Lupus Hellinck",
+		"Alias": "Lupus",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/264/",
+		"RISM ID": "pe30006996",
+		"RISM Link": "https://rism.online/people/30006996",
+		"Input data": "BSO",
+		"Date entered": "2024-3-18"
 	},
 	{
-		"URLBASE": "BCO:Lupus_Hellinck",
-		"https://rism.online/people/": "Lupus Hellinck"
+		"Biography Composer (BCO) ID": "BCO:Guillaume_Du_Fay",
+		"Composer Name": "Guillaume Du Fay",
+		"Birth Date": "~1400",
+		"Death Date": "1474-11-27",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/91/",
+		"RISM ID": "pe30005374",
+		"RISM Link": "https://rism.online/people/30005374",
+		"Bibliography (BIB) ID": "BIB:Starr_1992",
+		"BIB Pages": "258–59",
+		"Input data": "LO",
+		"Date entered": "2024-3-22"
 	},
 	{
-		"URLBASE": "BCO:Guillaume_Du_Fay",
-		"https://rism.online/people/": "Guillaume Du Fay"
+		"Biography Composer (BCO) ID": "BCO:Johannes_Ghiselin",
+		"Composer Name": "Johannes Ghiselin",
+		"Alias": "Verbonnet",
+		"Death Date": "1507",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/102/",
+		"RISM ID": "pe30012342",
+		"RISM Link": "https://rism.online/people/30012342",
+		"Input data": "SMB",
+		"Date entered": "2024-6-29"
 	},
 	{
-		"URLBASE": "BCO:Johannes_Ghiselin",
-		"https://rism.online/people/": "Johannes Ghiselin"
-	},
-	{
-		"URLBASE": "BCO:Alexander_Agricola",
-		"https://rism.online/people/": "Alexander Agricola"
+		"Biography Composer (BCO) ID": "BCO:Alexander_Agricola",
+		"Composer Name": "Alexander Agricola",
+		"Birth Date": "~1446",
+		"Death Date": "1506",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/182/",
+		"RISM ID": "pe30005595",
+		"RISM Link": "https://rism.online/people/30005595",
+		"Input data": "SMB",
+		"Date entered": "2024-6-29"
 	}
 ]

@@ -9,6 +9,78 @@
 
 <script>
 
+let events = {% include metadata/Events.json %};
+
+
+//////////////////////////////
+//
+// buildLookupTables –- 
+//
+
+function buildLookupTables() {
+	let metadata = MAP.METADATA;
+	if (!metadata){
+		console.warn("No METADATA!");
+		return;
+	}
+	for (sheet in metadata) {
+		if (sheet === "Events"){
+			continue;
+		}
+		buildLookupTable(sheet);
+	}
+}
+
+
+//////////////////////////////
+//
+// buildLookupTable –-
+//
+
+function buildLookupTable(sheet) {
+    let sheetArray = MAP.METADATA[sheet];
+    if (!sheetArray || !Array.isArray(sheetArray)){
+        console.warn("No METADATA FOR", sheet);
+        return;
+    }
+    MAP.lookup[sheet] = {};
+    const lookup = MAP.lookup[sheet];
+
+    // Dynamically determine the ID key
+    let idKey = null;
+    if (sheetArray.length > 0) {
+        const firstEntry = sheetArray[0];
+        for (let key in firstEntry) {
+            if (key.toLowerCase().includes("id")) {
+                idKey = key;
+                break;
+            }
+        }
+    }
+
+    if (!idKey) {
+        console.warn(`No ID key found for sheet ${sheet}`);
+        return;
+    }
+
+    for (let entry of sheetArray) {
+        let id = entry[idKey];
+        if (!id){
+            console.warn("NO ID FOR ENTRY", entry);
+            continue;
+        }
+        lookup[id] = entry;
+    }
+}
+
+//////////////////////////////
+//
+// findLocationInfo –-
+//
+
+function findInfo(id, sheet) {
+    return MAP.lookup[sheet] ? MAP.lookup[sheet][id] : null;
+}
 
 //////////////////////////////
 //
@@ -16,11 +88,12 @@
 //
 
 function doMapSetups() {
+
 	let Opts = {
 		name: "map",
-		view: [50, 12],
+		view: [48, 9],
 		zoom: 5,
-		zoomMin: 4,
+		zoomMin: 5,
 		zoomMax: 19
 	};
 	doMapSetup(Opts);
@@ -47,7 +120,7 @@ function doMapSetup(opts) {
 	}
 	if (typeof opts.zoom === "undefined") {
 		console.warn("zoom option is not specified, setting to 4");
-		opts.zoom = 4;
+		opts.zoom = 5;
 	}
 	if (typeof opts.zoomMin === "undefined") {
 		console.warn("zoomMin option is not specified, setting to zoom");
@@ -70,6 +143,89 @@ function doMapSetup(opts) {
 			attribution: attribution
 		}
 	).addTo(map);
+
+	let ID = MAP.cindex("EV", "EVID");
+	let LOC = MAP.cindex("EV", "LOCID");
+	let BIOID = MAP.cindex("EV", "BIOID");
+	let EINFO = MAP.cindex("EV", "EINFO");
+	let DATERANGE = MAP.cindex("EV", "DATERANGE");
+	let LOCID = MAP.cindex("LOC", "LOCID");
+	let LOCNAME = MAP.cindex("LOC", "LOCNAME");
+	let COORD = MAP.cindex("LOC", "COORD");
+	let BCONAME = MAP.cindex("BCO", "BCONAME");
+	let BMUNAME = MAP.cindex("BMU", "BMUNAME");
+	let BNONAME = MAP.cindex("BNO", "BNONAME");
+
+	let person = "";
+	let personprocessed = "";
+	let locationid = "";
+	let daterange = "";
+	let coordinates = "";
+	let coordinatesprocessed = "";
+	let description = "";
+
+	for (let i=0; i<events.length; i++) {		
+		//only process events for map if there's a location
+		if (events[i][LOC]) {
+			locationid = events[i][LOC];
+			let locationInfo = findInfo(locationid, "Locations");
+
+			if (events[i][BIOID]) {
+				person = events[i][BIOID];
+				let composerInfo = findInfo(person, "Bio_Composers");
+				let musicianInfo = findInfo(person, "Bio_Musicians");
+				let noncomposerInfo = findInfo(person, "Bio_Nonmusicians");
+
+				//Find ID to determine
+				let nameshort = person.substring(0,3);
+
+				//Use whichever info exists
+				if (nameshort === "BCO" && composerInfo) {
+					personprocessed = composerInfo[BCONAME];
+				} else if (nameshort === "BMU" && musicianInfo) {
+				    	personprocessed = musicianInfo[BMUNAME];
+				} else if (nameshort === "BNO" && noncomposerInfo) {
+				    	personprocessed = noncomposerInfo[BNONAME];
+				} else {
+					continue;
+				}
+			} 
+
+			if (events[i][DATERANGE]) {
+				daterange = events[i][DATERANGE];
+			}
+
+			if (events[i][EINFO]) {
+				description = events[i][EINFO];
+			}
+			
+			coordinates = locationInfo[COORD];
+			if (coordinates !== undefined){
+				coordinatesprocessed = coordinates.split(/,?\s+,?/);
+			} else {
+				continue;
+			}
+		}
+
+		if (locationid && description) {
+			L.marker(coordinatesprocessed)
+			.addTo(map)
+			.bindPopup(`[${daterange}] ${personprocessed}: ${description}`);
+		} else if (locationid) {
+			L.marker(coordinatesprocessed)
+			.addTo(map)
+			.bindPopup(`[${daterange}] ${personprocessed}`);
+		}
+
+		//reset variables for next event
+		person = "";
+		personprocessed = "";
+		daterange = "";
+		locationid = "";
+		coordinates = "";
+		coordinatesprocessed = "";
+		description = "";
+	}
 
 }
 
