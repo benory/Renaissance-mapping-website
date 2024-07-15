@@ -258,10 +258,15 @@ function makeTableBody(headings, data) {
 	let output = "";
 	let person = "";
 	let personprocessed = "";
+	let locationprocessed = "";
+	let archiveprocessed = "";
 
 	let BCONAME = MAP.cindex("BCO", "BCONAME");
 	let BMUNAME = MAP.cindex("BMU", "BMUNAME");
 	let BNONAME = MAP.cindex("BNO", "BNONAME");
+	let LOCNAME = MAP.cindex("LOC", "LOCNAME");
+	let ARDARC = MAP.cindex("ARD", "ARC");
+	let ARDARCFOND = MAP.cindex("ARD", "ARCFOND");
 	
 	for (let i=0; i<data.length; i++) {
 			let entry = data[i];
@@ -274,8 +279,11 @@ function makeTableBody(headings, data) {
 					let composerInfo = findInfo(value, "Bio_Composers");
 					let musicianInfo = findInfo(value, "Bio_Musicians");
 					let nonmusicianInfo = findInfo(value, "Bio_Nonmusicians");
+					let locationInfo = findInfo(value, "Locations");
+					let archiveInfo = findInfo(value, "Archival_Docs");
+					
+					//get name for person if biography ID, or if location ID
 					if (valueshort == "BCO" || valueshort == "BMU" || valueshort == "BNO" ) {
-						console.warn("person", value);
 						//get name from composer, musician, or non-musician biography sheets
 						if (valueshort === "BCO" && composerInfo) {
 							personprocessed = composerInfo[BCONAME];
@@ -285,6 +293,13 @@ function makeTableBody(headings, data) {
 						    personprocessed = nonmusicianInfo[BNONAME];
 						}
 						output += personprocessed;
+					} else if (valueshort == "LOC") {
+						//get name from location sheet
+						locationprocessed = locationInfo[LOCNAME];
+						output += locationprocessed;
+					} else if (valueshort == "ARD") {
+						archiveprocessed = `${archiveInfo[ARDARC]}, ${archiveInfo[ARDARCFOND]}`;
+						output += archiveprocessed;
 					} else {
 						output += value;
 					}
