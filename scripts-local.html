@@ -84,35 +84,16 @@ function findInfo(id, sheet) {
 
 //////////////////////////////
 //
-// doMapSetups -- Set up all maps on the page
-//
-
-function doMapSetups() {
-
-	//set up map coordinates and zoom
-	let Opts = {
-		name: "map",
-		view: [48, 9],
-		zoom: 5,
-		zoomMin: 5,
-		zoomMax: 19
-	};
-	doMapSetup(Opts);
-}
-
-
-//////////////////////////////
-//
-// doMapSetup -- Add a particular map to the page.
+// doMapSetup –- 
 //
 
 function doMapSetup(opts) {
 	if (typeof opts === "undefined") {
-		console.error("doMapSetups input parameter is undefined");
+		console.error("doMapSetup input parameter is undefined");
 		return;
 	}
 	if (typeof opts.name === "undefined") {
-		console.error("doMapSetups name parameter is undefined");
+		console.error("doMapSetup name parameter is undefined");
 		return;
 	}
 	if (typeof opts.view === "undefined") {
@@ -126,26 +107,30 @@ function doMapSetup(opts) {
 	if (typeof opts.zoomMin === "undefined") {
 		console.warn("zoomMin option is not specified, setting to zoom");
 		opts.zoomMin = opts.zoom;
-		return;
 	}
 	if (typeof opts.zoomMax === "undefined") {
 		console.warn("zoomMax option is not specified, setting to 19");
 		opts.zoomMax = 19;
 	}
 
-	let map = L.map(opts.name).setView(opts.view, opts.zoom);
+	if (map) {
+		map.eachLayer(function(layer) {
+			map.removeLayer(layer);
+		});
+		map.remove();
+	}
+
+	map = L.map(opts.name).setView(opts.view, opts.zoom);
 	map.options.minZoom = opts.zoomMin;
 
 	let mapImage = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
-	let attribution = "&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>"
-	L.tileLayer(mapImage,
-		{
-			maxZoom: opts.zoomMax,
-			attribution: attribution
-		}
-	).addTo(map);
+	let attribution = "&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>";
+	L.tileLayer(mapImage, {
+		maxZoom: opts.zoomMax,
+		attribution: attribution
+	}).addTo(map);
 
-	//get names of variables
+	// Get names of variables
 	let ID = MAP.cindex("EV", "EVID");
 	let LOC = MAP.cindex("EV", "LOCID");
 	let BIOID = MAP.cindex("EV", "BIOID");
@@ -158,7 +143,7 @@ function doMapSetup(opts) {
 	let BMUNAME = MAP.cindex("BMU", "BMUNAME");
 	let BNONAME = MAP.cindex("BNO", "BNONAME");
 
-	//establish variables
+	// Establish variables
 	let person = "";
 	let personprocessed = "";
 	let locationid = "";
@@ -167,8 +152,10 @@ function doMapSetup(opts) {
 	let coordinatesprocessed = "";
 	let description = "";
 
-	for (let i=0; i<events.length; i++) {		
-		//only process events for map if there's a location
+	markers = []; // Clear the markers array
+
+	for (let i = 0; i < events.length; i++) {
+		// Only process events for map if there's a location
 		if (events[i][LOC]) {
 			locationid = events[i][LOC];
 			let locationInfo = findInfo(locationid, "Locations");
@@ -179,52 +166,54 @@ function doMapSetup(opts) {
 				let musicianInfo = findInfo(person, "Bio_Musicians");
 				let nonmusicianInfo = findInfo(person, "Bio_Nonmusicians");
 
-				//get first three letters to determine type of ID 
-				let nameshort = person.substring(0,3);
+				// Get first three letters to determine type of ID
+				let nameshort = person.substring(0, 3);
 
-				//get name from composer, musician, or non-musician biography sheets
+				// Get name from composer, musician, or non-musician biography sheets
 				if (nameshort === "BCO" && composerInfo) {
 					personprocessed = composerInfo[BCONAME];
 				} else if (nameshort === "BMU" && musicianInfo) {
-				    	personprocessed = musicianInfo[BMUNAME];
+					personprocessed = musicianInfo[BMUNAME];
 				} else if (nameshort === "BNO" && nonmusicianInfo) {
-				    	personprocessed = nonmusicianInfo[BNONAME];
+					personprocessed = nonmusicianInfo[BNONAME];
 				} else {
 					continue;
 				}
-			} 
+			}
 
-			//get dates
+			// Get dates
 			if (events[i][DATERANGE]) {
 				daterange = events[i][DATERANGE];
 			}
 
-			//get event description
+			// Get event description
 			if (events[i][EINFO]) {
 				description = events[i][EINFO];
 			}
-			
-			//get coordinates
+
+			// Get coordinates
 			coordinates = locationInfo[COORD];
-			if (coordinates !== undefined){
+			if (coordinates !== undefined) {
 				coordinatesprocessed = coordinates.split(/,?\s+,?/);
 			} else {
 				continue;
 			}
 		}
 
-		//create point on map
+		// Create point on map
 		if (locationid && description) {
-			L.marker(coordinatesprocessed)
-			.addTo(map)
-			.bindPopup(`[${daterange}] ${personprocessed}: ${description}`);
+			let marker = L.marker(coordinatesprocessed)
+				.addTo(map)
+				.bindPopup(`[${daterange}] ${personprocessed}: ${description}`);
+			markers.push({ marker, text: `[${daterange}] ${personprocessed}: ${description}` });
 		} else if (locationid) {
-			L.marker(coordinatesprocessed)
-			.addTo(map)
-			.bindPopup(`[${daterange}] ${personprocessed}`);
+			let marker = L.marker(coordinatesprocessed)
+				.addTo(map)
+				.bindPopup(`[${daterange}] ${personprocessed}`);
+			markers.push({ marker, text: `[${daterange}] ${personprocessed}` });
 		}
 
-		//reset variables for next event
+		// Reset variables for next event
 		person = "";
 		personprocessed = "";
 		daterange = "";
@@ -233,7 +222,33 @@ function doMapSetup(opts) {
 		coordinatesprocessed = "";
 		description = "";
 	}
+}
 
+//////////////////////////////
+//
+// UserSearch –-
+//
+
+function UserSearch() {
+	let input = document.querySelector("#input");
+	let regex = new RegExp(input.value, 'i');
+	let searchCount = 0;
+
+	// Loop through all markers and show/hide based on search query:
+	markers.forEach(({ marker, text }) => {
+		if (text.match(regex)) {
+			marker.addTo(map);
+			searchCount++;
+		} else {
+			map.removeLayer(marker);
+		}
+	});
+
+	let searchString = searchCount === 1 ? `[${searchCount} event]` : `[${searchCount} events]`;
+	let searchStringElement = document.querySelector("#search-count");
+	if (searchStringElement) {
+		searchStringElement.innerHTML = searchString;
+	}
 }
 
 </script>

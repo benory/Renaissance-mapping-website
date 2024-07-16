@@ -7,6 +7,8 @@ MAP.menus = {};              // elements for displaying search menus by sheet na
 MAP.activeResults = null;
 MAP.lookup = {};
 
+let map; // Global reference to the map
+let markers = []; // Global array to hold map markers
 
 MAP.index = {};						// header name mapping by sheet
 MAP.index.Archival_Docs = {};		// header names for archival documents sheet
@@ -81,7 +83,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
 	buildLookupTables();
-	doMapSetups();
+
+	let Opts = {
+		name: "map",
+		view: [48, 9],
+		zoom: 5,
+		zoomMin: 5,
+		zoomMax: 19
+	};
+
+	doMapSetup(Opts);
+
 });
 
 </script>
