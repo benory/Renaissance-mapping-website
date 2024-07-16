@@ -15,7 +15,7 @@ title: database
 	<span class="sheet-button" data-sheet="Documents">Document Entries</span>
 </div>
 
-<input type="text" id="input" onkeyup="UserSearch()" placeholder="Enter title, composer, source, or date"><span id="search-count"></span>
+<input type="text" id="input" onkeyup="UserSearch()" placeholder="Enter person, place, or event"><span id="search-count"></span>
 
 <div id="browse-interface">
 	<div class="sheet-display" data-sheet="Events">

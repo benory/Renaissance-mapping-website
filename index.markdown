@@ -8,4 +8,6 @@ layout: page
 {% include_relative styles-local.html %}
 {% include_relative scripts-local.html %}
 
+<input type="text" id="input" onkeyup="UserSearch()" placeholder="Enter person, place, or event"><span id="search-count"></span>
+
 <div id="map"></div>
