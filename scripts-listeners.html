@@ -9,6 +9,7 @@ MAP.lookup = {};
 
 let map; // Global reference to the map
 let markers = []; // Global array to hold map markers
+let markerClusterGroup;
 
 MAP.index = {};						// header name mapping by sheet
 MAP.index.Archival_Docs = {};		// header names for archival documents sheet
@@ -103,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelector("#composer-select").checked = true;
     document.querySelector("#musician-select").checked = true;
-    document.querySelector("#non-musician-select").checked = true;
+    document.querySelector("#non-musician-select").checked = false;
 
     document.querySelectorAll('.checkbox-item input[type="checkbox"]').forEach(checkbox => {
         checkbox.addEventListener('change', filterMarkers);
