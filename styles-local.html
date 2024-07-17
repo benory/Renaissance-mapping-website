@@ -7,15 +7,16 @@ main.page-content {padding: 0px;}
 		height: 600px;
 }
 
-#input {
-	background-image: url('../images/searchicon.png'); /* Add a search icon to input */
-	background-position: 10px 12px; /* Position the search icon */
-	background-repeat: no-repeat; /* Do not repeat the icon image */
-	border: 1px solid #ddd; /* Add a grey border */
-	font-size: 16px; /* Increase font-size */
-	margin-bottom: 12px; /* Add some space below the input */
-	padding: 12px 20px 12px 40px; /* Add some padding */
-	width: 37%; /* Full-width */
+.search-bar input[type="text"] {
+    flex-grow: 1; /* Allow input to take available space */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 16px; /* Increase font-size */
+    background-image: url('../images/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    box-sizing: border-box; /* Ensure padding and border are included in width and height calculations */
+    width: 100%;
 }
 
 
@@ -24,6 +25,28 @@ main.page-content {padding: 0px;}
 	margin-left: 10px;
 	padding: 12px; /* Add some padding */
 	width: 100%; /* Full-width */
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the spacing between elements as needed */
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: column; /* Make checkboxes stack vertically */
+    gap: 1px; /* Adjust the spacing between checkboxes */
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-item label {
+    margin-left: 5px; /* Adjust the space between checkbox and label */
+    white-space: nowrap; /* Prevent label text from breaking onto two lines */
 }
 
 </style>

@@ -82,173 +82,238 @@ function findInfo(id, sheet) {
     return MAP.lookup[sheet] ? MAP.lookup[sheet][id] : null;
 }
 
-//////////////////////////////
-//
-// doMapSetup –- 
-//
-
+// Function to setup the map and add markers
+// Function to setup the map and add markers
 function doMapSetup(opts) {
-	if (typeof opts === "undefined") {
-		console.error("doMapSetup input parameter is undefined");
-		return;
-	}
-	if (typeof opts.name === "undefined") {
-		console.error("doMapSetup name parameter is undefined");
-		return;
-	}
-	if (typeof opts.view === "undefined") {
-		console.error("view option is not specified");
-		return;
-	}
-	if (typeof opts.zoom === "undefined") {
-		console.warn("zoom option is not specified, setting to 4");
-		opts.zoom = 5;
-	}
-	if (typeof opts.zoomMin === "undefined") {
-		console.warn("zoomMin option is not specified, setting to zoom");
-		opts.zoomMin = opts.zoom;
-	}
-	if (typeof opts.zoomMax === "undefined") {
-		console.warn("zoomMax option is not specified, setting to 19");
-		opts.zoomMax = 19;
-	}
+    if (typeof opts === "undefined") {
+        console.error("doMapSetup input parameter is undefined");
+        return;
+    }
+    if (typeof opts.name === "undefined") {
+        console.error("doMapSetup name parameter is undefined");
+        return;
+    }
+    if (typeof opts.view === "undefined") {
+        console.error("view option is not specified");
+        return;
+    }
+    if (typeof opts.zoom === "undefined") {
+        console.warn("zoom option is not specified, setting to 4");
+        opts.zoom = 5;
+    }
+    if (typeof opts.zoomMin === "undefined") {
+        console.warn("zoomMin option is not specified, setting to zoom");
+        opts.zoomMin = opts.zoom;
+    }
+    if (typeof opts.zoomMax === "undefined") {
+        console.warn("zoomMax option is not specified, setting to 19");
+        opts.zoomMax = 19;
+    }
 
-	if (map) {
-		map.eachLayer(function(layer) {
-			map.removeLayer(layer);
-		});
-		map.remove();
-	}
+    if (map) {
+        map.eachLayer(function(layer) {
+            map.removeLayer(layer);
+        });
+        map.remove();
+    }
 
-	map = L.map(opts.name).setView(opts.view, opts.zoom);
-	map.options.minZoom = opts.zoomMin;
+    map = L.map(opts.name).setView(opts.view, opts.zoom);
+    map.options.minZoom = opts.zoomMin;
 
-	let mapImage = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
-	let attribution = "&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>";
-	L.tileLayer(mapImage, {
-		maxZoom: opts.zoomMax,
-		attribution: attribution
-	}).addTo(map);
+    let mapImage = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
+    let attribution = "&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>";
+    L.tileLayer(mapImage, {
+        maxZoom: opts.zoomMax,
+        attribution: attribution
+    }).addTo(map);
 
-	// Get names of variables
-	let ID = MAP.cindex("EV", "EVID");
-	let LOC = MAP.cindex("EV", "LOCID");
-	let BIOID = MAP.cindex("EV", "BIOID");
-	let EINFO = MAP.cindex("EV", "EINFO");
-	let DATERANGE = MAP.cindex("EV", "DATERANGE");
-	let LOCID = MAP.cindex("LOC", "LOCID");
-	let LOCNAME = MAP.cindex("LOC", "LOCNAME");
-	let COORD = MAP.cindex("LOC", "COORD");
-	let BCONAME = MAP.cindex("BCO", "BCONAME");
-	let BMUNAME = MAP.cindex("BMU", "BMUNAME");
-	let BNONAME = MAP.cindex("BNO", "BNONAME");
+    // Get names of variables
+    let ID = MAP.cindex("EV", "EVID");
+    let LOC = MAP.cindex("EV", "LOCID");
+    let BIOID = MAP.cindex("EV", "BIOID");
+    let EINFO = MAP.cindex("EV", "EINFO");
+    let DATERANGE = MAP.cindex("EV", "DATERANGE");
+    let LOCID = MAP.cindex("LOC", "LOCID");
+    let LOCNAME = MAP.cindex("LOC", "LOCNAME");
+    let COORD = MAP.cindex("LOC", "COORD");
+    let BCONAME = MAP.cindex("BCO", "BCONAME");
+    let BMUNAME = MAP.cindex("BMU", "BMUNAME");
+    let BNONAME = MAP.cindex("BNO", "BNONAME");
 
-	// Establish variables
-	let person = "";
-	let personprocessed = "";
-	let locationid = "";
-	let daterange = "";
-	let coordinates = "";
-	let coordinatesprocessed = "";
-	let description = "";
+    // Establish variables
+    let person = "";
+    let personprocessed = "";
+    let locationid = "";
+    let daterange = "";
+    let coordinates = "";
+    let coordinatesprocessed = "";
+    let description = "";
 
-	markers = []; // Clear the markers array
+    markers = []; // Clear the markers array
 
-	for (let i = 0; i < events.length; i++) {
-		// Only process events for map if there's a location
-		if (events[i][LOC]) {
-			locationid = events[i][LOC];
-			let locationInfo = findInfo(locationid, "Locations");
+    for (let i = 0; i < events.length; i++) {
+        // Only process events for map if there's a location
+        if (events[i][LOC]) {
+            locationid = events[i][LOC];
+            let locationInfo = findInfo(locationid, "Locations");
 
-			if (events[i][BIOID]) {
-				person = events[i][BIOID];
-				let composerInfo = findInfo(person, "Bio_Composers");
-				let musicianInfo = findInfo(person, "Bio_Musicians");
-				let nonmusicianInfo = findInfo(person, "Bio_Nonmusicians");
+            if (events[i][BIOID]) {
+                person = events[i][BIOID];
+                let composerInfo = findInfo(person, "Bio_Composers");
+                let musicianInfo = findInfo(person, "Bio_Musicians");
+                let nonmusicianInfo = findInfo(person, "Bio_Nonmusicians");
 
-				// Get first three letters to determine type of ID
-				let nameshort = person.substring(0, 3);
+                // Get first three letters to determine type of ID
+                let nameshort = person.substring(0, 3);
 
-				// Get name from composer, musician, or non-musician biography sheets
-				if (nameshort === "BCO" && composerInfo) {
-					personprocessed = composerInfo[BCONAME];
-				} else if (nameshort === "BMU" && musicianInfo) {
-					personprocessed = musicianInfo[BMUNAME];
-				} else if (nameshort === "BNO" && nonmusicianInfo) {
-					personprocessed = nonmusicianInfo[BNONAME];
-				} else {
-					continue;
-				}
-			}
+                // Get name from composer, musician, or non-musician biography sheets
+                if (nameshort === "BCO" && composerInfo) {
+                    personprocessed = composerInfo[BCONAME];
+                } else if (nameshort === "BMU" && musicianInfo) {
+                    personprocessed = musicianInfo[BMUNAME];
+                } else if (nameshort === "BNO" && nonmusicianInfo) {
+                    personprocessed = nonmusicianInfo[BNONAME];
+                } else {
+                    continue;
+                }
+            }
 
-			// Get dates
-			if (events[i][DATERANGE]) {
-				daterange = events[i][DATERANGE];
-			}
+            // Get dates
+            if (events[i][DATERANGE]) {
+                daterange = events[i][DATERANGE];
+            }
 
-			// Get event description
-			if (events[i][EINFO]) {
-				description = events[i][EINFO];
-			}
+            // Get event description
+            if (events[i][EINFO]) {
+                description = events[i][EINFO];
+            }
 
-			// Get coordinates
-			coordinates = locationInfo[COORD];
-			if (coordinates !== undefined) {
-				coordinatesprocessed = coordinates.split(/,?\s+,?/);
-			} else {
-				continue;
-			}
-		}
+            // Get coordinates
+            coordinates = locationInfo[COORD];
+            if (coordinates !== undefined) {
+                coordinatesprocessed = coordinates.split(/,?\s+,?/);
+            } else {
+                continue;
+            }
 
-		// Create point on map
-		if (locationid && description) {
-			let marker = L.marker(coordinatesprocessed)
-				.addTo(map)
-				.bindPopup(`[${daterange}] ${personprocessed}: ${description}`);
-			markers.push({ marker, text: `[${daterange}] ${personprocessed}: ${description}` });
-		} else if (locationid) {
-			let marker = L.marker(coordinatesprocessed)
-				.addTo(map)
-				.bindPopup(`[${daterange}] ${personprocessed}`);
-			markers.push({ marker, text: `[${daterange}] ${personprocessed}` });
-		}
+            // Create point on map
+            let marker = L.marker(coordinatesprocessed).bindPopup(`[${daterange}] ${personprocessed}: ${description}`);
+            markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}` });
+        }
+    }
 
-		// Reset variables for next event
-		person = "";
-		personprocessed = "";
-		daterange = "";
-		locationid = "";
-		coordinates = "";
-		coordinatesprocessed = "";
-		description = "";
-	}
+    // Apply the initial filter
+    filterMarkers();
 }
+
+// Function to filter markers based on checkboxes
+function filterMarkers() {
+    console.log("filterMarkers function called");
+
+    // Fetch checkbox states
+    let showComposers = document.querySelector("#composer-select").checked;
+    let showMusicians = document.querySelector("#musician-select").checked;
+    let showNonMusicians = document.querySelector("#non-musician-select").checked;
+
+    console.log("Composer checkbox:", showComposers);
+    console.log("Musician checkbox:", showMusicians);
+    console.log("Non-musician checkbox:", showNonMusicians);
+
+    // Loop through all markers and show/hide based on checkboxes
+    markers.forEach(({ marker, personID }) => {
+        let type = personID.substring(0, 3);
+        console.warn("Processing personID:", personID, "Type:", type);
+        let show = false;
+
+        // Determine if the marker should be shown based on checkbox states
+        if (type === "BCO" && showComposers) {
+            show = true;
+            console.warn("Adding marker for composer:", personID);
+        } else if (type === "BMU" && showMusicians) {
+            show = true;
+            console.warn("Adding marker for musician:", personID);
+        } else if (type === "BNO" && showNonMusicians) {
+            show = true;
+            console.warn("Adding marker for non-musician:", personID);
+        }
+
+        // Add or remove marker from map based on show status
+        if (show) {
+            if (!map.hasLayer(marker)) {
+                marker.addTo(map);
+                console.log("Marker added to map for personID:", personID);
+            }
+        } else {
+            if (map.hasLayer(marker)) {
+                map.removeLayer(marker);
+                console.log("Marker removed from map for personID:", personID);
+            }
+        }
+    });
+    
+    // Ensure map is refreshed to reflect changes
+    map.invalidateSize();
+
+    // After filtering by checkboxes, apply search filter
+    UserSearch(true);
+}
+
 
 //////////////////////////////
 //
 // UserSearch –-
 //
 
-function UserSearch() {
-	let input = document.querySelector("#input");
-	let regex = new RegExp(input.value, 'i');
-	let searchCount = 0;
+function UserSearch(skipFilter = false) {
+    let input = document.querySelector("#input");
+    let regex = new RegExp(input.value, 'i');
+    let searchCount = 0;
 
-	// Loop through all markers and show/hide based on search query:
-	markers.forEach(({ marker, text }) => {
-		if (text.match(regex)) {
-			marker.addTo(map);
-			searchCount++;
-		} else {
-			map.removeLayer(marker);
-		}
-	});
+    // Fetch checkbox states
+    let showComposers = document.querySelector("#composer-select").checked;
+    let showMusicians = document.querySelector("#musician-select").checked;
+    let showNonMusicians = document.querySelector("#non-musician-select").checked;
 
-	let searchString = searchCount === 1 ? `[${searchCount} event]` : `[${searchCount} events]`;
-	let searchStringElement = document.querySelector("#search-count");
-	if (searchStringElement) {
-		searchStringElement.innerHTML = searchString;
-	}
+    // Loop through all markers and show/hide based on search query and checkbox states
+    markers.forEach(({ marker, text, personID }) => {
+        let type = personID.substring(0, 3);
+        let show = false;
+
+        // Determine if the marker should be shown based on checkbox states
+        if (type === "BCO" && showComposers) {
+            show = true;
+        } else if (type === "BMU" && showMusicians) {
+            show = true;
+        } else if (type === "BNO" && showNonMusicians) {
+            show = true;
+        }
+
+        // Add or remove marker from map based on search query and checkbox states
+        if (text.match(regex) && show) {
+            if (!map.hasLayer(marker)) {
+                marker.addTo(map);
+                console.log("Marker added to map by search and checkbox:", text);
+            }
+            searchCount++;
+        } else {
+            if (map.hasLayer(marker)) {
+                map.removeLayer(marker);
+                console.log("Marker removed from map by search or checkbox:", text);
+            }
+        }
+    });
+
+    let searchString = searchCount === 1 ? `[${searchCount} event]` : `[${searchCount} events]`;
+    let searchStringElement = document.querySelector("#search-count");
+    if (searchStringElement) {
+        searchStringElement.innerHTML = searchString;
+    }
+
+    // If the function is called from filterMarkers, no need to re-filter by checkboxes
+    if (!skipFilter) {
+        filterMarkers();
+    }
 }
+
 
 </script>

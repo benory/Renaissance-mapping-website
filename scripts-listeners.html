@@ -73,7 +73,6 @@ document.addEventListener("DOMContentLoaded", function () {
 		}
 		output[id] = value;
 	}
-	console.warn("ID MAPPING FOR HEADINGS", output);
 });
 
 //////////////////////////////
@@ -94,6 +93,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	doMapSetup(Opts);
 
+});
+
+//////////////////////////////
+//
+// checkbox-item input[type="checkbox"] – show markers if box is clicked
+//
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelector("#composer-select").checked = true;
+    document.querySelector("#musician-select").checked = true;
+    document.querySelector("#non-musician-select").checked = true;
+
+    document.querySelectorAll('.checkbox-item input[type="checkbox"]').forEach(checkbox => {
+        checkbox.addEventListener('change', filterMarkers);
+    });
+
+    filterMarkers();
 });
 
 </script>
