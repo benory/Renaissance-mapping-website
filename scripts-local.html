@@ -208,16 +208,11 @@ function doMapSetup(opts) {
 
 // Function to filter markers based on checkboxes
 function filterMarkers() {
-    console.log("filterMarkers function called");
 
     // Fetch checkbox states
     let showComposers = document.querySelector("#composer-select").checked;
     let showMusicians = document.querySelector("#musician-select").checked;
     let showNonMusicians = document.querySelector("#non-musician-select").checked;
-
-    console.log("Composer checkbox:", showComposers);
-    console.log("Musician checkbox:", showMusicians);
-    console.log("Non-musician checkbox:", showNonMusicians);
 
     // Loop through all markers and show/hide based on checkboxes
     markers.forEach(({ marker, personID }) => {
@@ -241,12 +236,10 @@ function filterMarkers() {
         if (show) {
             if (!map.hasLayer(marker)) {
                 marker.addTo(map);
-                console.log("Marker added to map for personID:", personID);
             }
         } else {
             if (map.hasLayer(marker)) {
                 map.removeLayer(marker);
-                console.log("Marker removed from map for personID:", personID);
             }
         }
     });
@@ -292,13 +285,11 @@ function UserSearch(skipFilter = false) {
         if (text.match(regex) && show) {
             if (!map.hasLayer(marker)) {
                 marker.addTo(map);
-                console.log("Marker added to map by search and checkbox:", text);
             }
             searchCount++;
         } else {
             if (map.hasLayer(marker)) {
                 map.removeLayer(marker);
-                console.log("Marker removed from map by search or checkbox:", text);
             }
         }
     });
