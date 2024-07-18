@@ -1,10 +1,5 @@
 [
 	{
-		"Archival Document (ARD) ID": "ARD:Augusta_Viromandorum_Hemeraeus",
-		"Input data": "FEM",
-		"Date entered": "2023-6-7"
-	},
-	{
 		"Archival Document (ARD) ID": "ARD:Brussels_Acquits_1579B",
 		"Location ID (LOC)": "LOC:Brussels-Archives_Generales_du_Royaume",
 		"Archive": "Archives Générales du Royaume",
@@ -551,11 +546,6 @@
 		"Date entered": "2023-3-21"
 	},
 	{
-		"Archival Document (ARD) ID": "ARD:St_Quentin_Hemeraeus",
-		"Input data": "FEM",
-		"Date entered": "2023-6-7"
-	},
-	{
 		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Vaticana_734",
 		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
 		"Archive": "Vatican Library",
@@ -1097,7 +1087,7 @@
 	},
 	{
 		"Archival Document (ARD) ID": "ARD:Aix_en_Provence_Archives_Departementales_des_Bouches_du_Rhone_309E290",
-		"Location ID (LOC)": "#N/A",
+		"Location ID (LOC)": "LOC:Aix-en-Provence",
 		"Archive": "Archives Départementales des Bouches du Rhone",
 		"Input data": "FEM",
 		"Date entered": "2024-4-12"

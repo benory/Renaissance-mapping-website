@@ -547,5 +547,23 @@
 		"Pages": "540-548",
 		"Input data": "SMB",
 		"Date entered": "2024-6-29"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Hemeraeus_1633",
+		"Author": "Hémeré [Hemeraeus], Claude",
+		"Name of Article": "Tabella chronologica",
+		"Location": "Paris",
+		"Publication Year": "1633",
+		"Input data": "FEM",
+		"Date entered": "2024-7-16"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Hemeraeus_1643",
+		"Author": "Hémeré [Hemeraeus], Claude",
+		"Name of Article": "Augusta Viromandorum",
+		"Location": "Paris",
+		"Publication Year": "1643",
+		"Input data": "FEM",
+		"Date entered": "2024-7-16"
 	}
 ]

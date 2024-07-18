@@ -1,7 +1,6 @@
 [
 	{
 		"Document Entry (DOE) ID": "DOE:Augusta_Viromandorum_1643",
-		"Archival Document (ARD)": "ARD:Augusta_Viromandorum_Hemeraeus",
 		"Folios/Pages": "p. 342",
 		"Language": "Latin",
 		"Earliest Year": "1460",
@@ -10,11 +9,13 @@
 		"Date Range": "1460 to April 1466",
 		"Description": "List of names associated with St Géry, Cambrai in the early 1460s. Possibly indicates activity as choirboy, endorced by Fallows",
 		"Document Type": "ecclesiastical roster",
-		"Bibliography ID (BIB) (if different)": "BIB:Fallows_2009",
+		"Bibliography ID (BIB) (if different)": "BIB:Hemeraeus_1643; BIB:Fallows_2009",
 		"BIB Pages": "353",
 		"Related People": "BCO:Josquin_des_Prez",
 		"Input data": "FEM",
-		"Date entered": "2023-6-7"
+		"Date entered": "2023-6-7",
+		"Update data": "BSO",
+		"Date updated": "2024-7-16"
 	},
 	{
 		"Document Entry (DOE) ID": "DOE:Brussels_AGR_1",
@@ -1750,7 +1751,6 @@
 	},
 	{
 		"Document Entry (DOE) ID": "DOE:St-Quentin_1633",
-		"Archival Document (ARD)": "ARD:St_Quentin_Hemeraeus",
 		"Folios/Pages": "pp. 161–62",
 		"Language": "Latin",
 		"Earliest Year": "1460",
@@ -1759,7 +1759,7 @@
 		"Date Range": "1460 to  April 1466",
 		"Description": "List of names associated with St-Quentin in the early 1460s. Possibly indicates activity as choirboy",
 		"Document Type": "ecclesiastical roster",
-		"Bibliography ID (BIB) (if different)": "BIB:Fallows_2009",
+		"Bibliography ID (BIB) (if different)": "BIB:Hemeraeus_1633; BIB:Fallows_2009",
 		"BIB Pages": "353",
 		"Related People": "BCO:Josquin_des_Prez",
 		"Input data": "FEM",
