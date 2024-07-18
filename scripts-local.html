@@ -200,8 +200,22 @@ function doMapSetup(opts) {
             }
 
             // Create point on map
-            let marker = L.marker(coordinatesprocessed).bindPopup(`[${daterange}] ${personprocessed}: ${description}`);
-            markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}` });
+            if (description) {
+                let marker = L.marker(coordinatesprocessed).bindPopup(`[${daterange}] ${personprocessed}: ${description}`);
+                markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}` });
+            } else if (!description) {
+                let marker = L.marker(coordinatesprocessed).bindPopup(`[${daterange}] ${personprocessed}`);
+                markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}` });
+            }
+
+            // Reset variables
+            person = "";
+            personprocessed = "";
+            locationid = "";
+            daterange = "";
+            coordinates = "";
+            coordinatesprocessed = "";
+            description = "";
         }
     }
 
