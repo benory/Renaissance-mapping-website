@@ -217,19 +217,15 @@ function filterMarkers() {
     // Loop through all markers and show/hide based on checkboxes
     markers.forEach(({ marker, personID }) => {
         let type = personID.substring(0, 3);
-        console.warn("Processing personID:", personID, "Type:", type);
         let show = false;
 
         // Determine if the marker should be shown based on checkbox states
         if (type === "BCO" && showComposers) {
             show = true;
-            console.warn("Adding marker for composer:", personID);
         } else if (type === "BMU" && showMusicians) {
             show = true;
-            console.warn("Adding marker for musician:", personID);
         } else if (type === "BNO" && showNonMusicians) {
             show = true;
-            console.warn("Adding marker for non-musician:", personID);
         }
 
         // Add or remove marker from map based on show status
@@ -305,6 +301,5 @@ function UserSearch(skipFilter = false) {
         filterMarkers();
     }
 }
-
 
 </script>
