@@ -138,16 +138,25 @@ function doMapSetup(opts) {
     let DATERANGE = MAP.cindex("EV", "DATERANGE");
     let LOCID = MAP.cindex("LOC", "LOCID");
     let LOCNAME = MAP.cindex("LOC", "LOCNAME");
+    let LOCCITY = MAP.cindex("LOC", "CITY");
     let COORD = MAP.cindex("LOC", "COORD");
     let BCONAME = MAP.cindex("BCO", "BCONAME");
     let BMUNAME = MAP.cindex("BMU", "BMUNAME");
     let BNONAME = MAP.cindex("BNO", "BNONAME");
 
+    // Get variable names for certainty markers
+    let CERTLOC = MAP.cindex("EV", "CERTLOC");
+    let CERTEDATE = MAP.cindex("EV", "CERTEDATE");
+    let CERTLDATE = MAP.cindex("EV", "CERTLDATE");
+    let CERTRANGE = MAP.cindex("EV", "CERTRANGE");
+
     // Establish variables
+    let eventid = "";
     let person = "";
     let personprocessed = "";
     let locationid = "";
     let locationprocessed = "";
+    let largerlocation = "";
     let daterange = "";
     let coordinates = "";
     let coordinatesprocessed = "";
@@ -156,12 +165,21 @@ function doMapSetup(opts) {
     markers = []; // Clear the markers array
 
     for (let i = 0; i < events.length; i++) {
-        // Only process events for map if there's a location
-        if (events[i][LOC]) {
+        
+        // Only process events for map if there's a location and a date
+        if (events[i][LOC] && events[i][DATERANGE]) {
+            eventid = events[i][ID];
             locationid = events[i][LOC];
             let locationInfo = findInfo(locationid, "Locations");
-            let locationprocessed = locationInfo[LOCNAME];
+            locationprocessed = locationInfo[LOCNAME];
 
+            // Find larger location, if applicable
+            let largerlocation = locationInfo[LOCCITY];
+            if (largerlocation) {
+                locationprocessed += `, ${largerlocation}`;
+            }
+
+            // Get name of person
             if (events[i][BIOID]) {
                 person = events[i][BIOID];
                 let composerInfo = findInfo(person, "Bio_Composers");
@@ -201,6 +219,26 @@ function doMapSetup(opts) {
                 continue;
             }
 
+            // Get certainty information
+            let locationCertainty = events[i][CERTLOC];
+            let earliestDateCertainty = events[i][CERTEDATE];
+            let latestDateCertainty = events[i][CERTLDATE];
+            let rangeCertainty = events[i][CERTLOC];
+
+            // Add information about location certainty to location
+            if (locationCertainty && locationCertainty !== 1){
+                if (locationCertainty == 2){
+                    locationprocessed += ` [probable]`;
+                } else if (locationCertainty == 3){
+                    locationprocessed += ` [possible]`;
+                } else if (locationCertainty == 4){
+                    locationprocessed += ` [doubtful]`;
+                } else {
+                    console.warn("Forbidden location certainty for", eventid);
+                    continue;
+                }
+            }
+
             // Create point on map
             if (description) {
                 let marker = L.marker(coordinatesprocessed).bindPopup(`<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} <br><b>Description:</b> ${description}`);
@@ -214,6 +252,8 @@ function doMapSetup(opts) {
             person = "";
             personprocessed = "";
             locationid = "";
+            locationprocessed = "";
+            largerlocation = "";
             daterange = "";
             coordinates = "";
             coordinatesprocessed = "";

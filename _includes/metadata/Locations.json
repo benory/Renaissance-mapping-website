@@ -2,7 +2,6 @@
 	{
 		"Location ID (LOC)": "LOC:Abbeville",
 		"Name of Location": "Abbeville",
-		"City or Larger Place": "Abbeville",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/2JR62MFUaT2zaLPdA",
 		"Coordinates": "50.10547226856863, 1.8385906026484242",
@@ -13,7 +12,6 @@
 	{
 		"Location ID (LOC)": "LOC:Abbiategrasso",
 		"Name of Location": "Abbiategrasso",
-		"City or Larger Place": "Abbiategrasso",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/EJuRhwA9JhTtoVZA6",
 		"Coordinates": "45.39902708105254, 8.916982774514207",
@@ -23,7 +21,6 @@
 	{
 		"Location ID (LOC)": "LOC:Ainieres",
 		"Name of Location": "Ainières",
-		"City or Larger Place": "Ainières",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/DKaauYn4qUmxYzxJ6",
 		"Coordinates": "50.70526351338895, 3.555790229828516",
@@ -33,7 +30,6 @@
 	{
 		"Location ID (LOC)": "LOC:Aix-en-Provence",
 		"Name of Location": "Aix-en-Provence",
-		"City or Larger Place": "Aix-en-Provence",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/xtiEFnEVicsiNNbF8",
 		"Coordinates": "43.53090909518784, 5.4428556273405055",
@@ -43,7 +39,6 @@
 	{
 		"Location ID (LOC)": "LOC:Ala",
 		"Name of Location": "Ala",
-		"City or Larger Place": "Ala",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/fgEvu7zuA8WePTnF9",
 		"Coordinates": "45.762591858847976, 11.005518532574154",
@@ -53,7 +48,6 @@
 	{
 		"Location ID (LOC)": "LOC:Amboise",
 		"Name of Location": "Amboise",
-		"City or Larger Place": "Amboise",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/VHFT9Mv5H2iXjg197",
 		"Coordinates": "47.41311246753222, 0.984497511382773",
@@ -65,7 +59,6 @@
 	{
 		"Location ID (LOC)": "LOC:Amiens",
 		"Name of Location": "Amiens",
-		"City or Larger Place": "Amiens",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/oAA64MnjgqCTFxQv8",
 		"Coordinates": "49.8949214194963, 2.3042480328014188",
@@ -75,7 +68,6 @@
 	{
 		"Location ID (LOC)": "LOC:Ancenis",
 		"Name of Location": "Ancenis",
-		"City or Larger Place": "Ancenis",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/zo49TmpiSi8ixBs99",
 		"Coordinates": "47.36742819571173, -1.1812742286994986",
@@ -85,7 +77,6 @@
 	{
 		"Location ID (LOC)": "LOC:Angers",
 		"Name of Location": "Angers",
-		"City or Larger Place": "Angers",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/xJshMXGMxnznqmcVA",
 		"Coordinates": "47.47669774274866, -0.5388737795963101",
@@ -95,7 +86,6 @@
 	{
 		"Location ID (LOC)": "LOC:Anseroeul",
 		"Name of Location": "Anseroeul",
-		"City or Larger Place": "Anseroeul",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/ELJF3JZKjgTRPPx26",
 		"Coordinates": "50.73256503436909, 3.5208506399126525",
@@ -105,7 +95,6 @@
 	{
 		"Location ID (LOC)": "LOC:Antoing",
 		"Name of Location": "Antoing",
-		"City or Larger Place": "Antoing",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/ZQoVe8BhtM1byrBA7",
 		"Coordinates": "50.56741584372118, 3.4510179878407117",
@@ -115,7 +104,6 @@
 	{
 		"Location ID (LOC)": "LOC:Anvaing",
 		"Name of Location": "Anvaing",
-		"City or Larger Place": "Anvaing",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/tsvAybVfEHypamvt5",
 		"Coordinates": "50.68363446259208, 3.560988206999815",
@@ -126,14 +114,12 @@
 	{
 		"Location ID (LOC)": "LOC:Arcq",
 		"Name of Location": "Arcq",
-		"City or Larger Place": "Arcq",
 		"Input data": "LO",
 		"Date entered": "2024-1-24"
 	},
 	{
 		"Location ID (LOC)": "LOC:Asti",
 		"Name of Location": "Asti",
-		"City or Larger Place": "Asti",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/CX5Z2sUyZJY7tBnM8",
 		"Coordinates": "44.900825294186745, 8.207307034172176",
@@ -143,7 +129,6 @@
 	{
 		"Location ID (LOC)": "LOC:Ath",
 		"Name of Location": "Ath",
-		"City or Larger Place": "Ath",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/ohhUftCB8DaoTa4g9",
 		"Coordinates": "50.63413499928307, 3.7725576518129746",
@@ -153,7 +138,6 @@
 	{
 		"Location ID (LOC)": "LOC:Aulla",
 		"Name of Location": "Aulla",
-		"City or Larger Place": "Aulla",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/EGZsvz7Vi5BWCEgv8",
 		"Coordinates": "44.21678229002701, 9.966974936627645",
@@ -163,7 +147,6 @@
 	{
 		"Location ID (LOC)": "LOC:Auray",
 		"Name of Location": "Auray",
-		"City or Larger Place": "Auray",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/zrF4mEcYCzaUNDu57",
 		"Coordinates": "47.670226278708896, -2.9902961271159088",
@@ -173,14 +156,12 @@
 	{
 		"Location ID (LOC)": "LOC:Auservant",
 		"Name of Location": "Auservant",
-		"City or Larger Place": "Auservant",
 		"Input data": "LO",
 		"Date entered": "2024-1-23"
 	},
 	{
 		"Location ID (LOC)": "LOC:Avignon",
 		"Name of Location": "Avignon",
-		"City or Larger Place": "Avignon",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/eTzF4wYqgQXfKuog6",
 		"Coordinates": "43.95121925911959, 4.803389437590431",
@@ -191,7 +172,6 @@
 	{
 		"Location ID (LOC)": "LOC:Bain-de-Bretagne",
 		"Name of Location": "Bain-de-Bretagne",
-		"City or Larger Place": "Bain-de-Bretagne",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/NtXZaTdisXJXgCxu6",
 		"Coordinates": "47.84345667585647, -1.6656705205684665",
@@ -201,7 +181,6 @@
 	{
 		"Location ID (LOC)": "LOC:Barcelona",
 		"Name of Location": "Barcelona",
-		"City or Larger Place": "Barcelona",
 		"Modern Country": "Spain",
 		"Google URL": "https://maps.app.goo.gl/67ytYXqqc5C5E9Hu5",
 		"Coordinates": "41.387089642735056, 2.172158358015489",
@@ -212,7 +191,6 @@
 	{
 		"Location ID (LOC)": "LOC:Baura",
 		"Name of Location": "Baura",
-		"City or Larger Place": "Baura",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/14Dvq5HgGZKA1hLeA",
 		"Coordinates": "44.85265506595091, 11.718882413195228",
@@ -222,7 +200,6 @@
 	{
 		"Location ID (LOC)": "LOC:Beclers",
 		"Name of Location": "Beclers",
-		"City or Larger Place": "Beclers",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/GYx1RGSjB1AxpE8EA",
 		"Coordinates": "50.6219793696418, 3.5049930295120526",
@@ -232,7 +209,6 @@
 	{
 		"Location ID (LOC)": "LOC:Bellaria",
 		"Name of Location": "Bellaria",
-		"City or Larger Place": "Bellaria",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/oiw38cCDm3qnnyfz8",
 		"Coordinates": "44.598201573109755, 10.9136419285137",
@@ -242,14 +218,12 @@
 	{
 		"Location ID (LOC)": "LOC:Biernez",
 		"Name of Location": "Biernez",
-		"City or Larger Place": "Biernez",
 		"Input data": "LO",
 		"Date entered": "2024-1-23"
 	},
 	{
 		"Location ID (LOC)": "LOC:Blain",
 		"Name of Location": "Blain",
-		"City or Larger Place": "Blain",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/cffnVBgcyC3H4fDY9",
 		"Coordinates": "47.475857091956, -1.7659353879437931",
@@ -259,7 +233,6 @@
 	{
 		"Location ID (LOC)": "LOC:Blicquy",
 		"Name of Location": "Blicquy",
-		"City or Larger Place": "Blicquy",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/XsUQdtSZ3BVf74FL7",
 		"Coordinates": "50.59093507312855, 3.6926449122032237",
@@ -269,7 +242,6 @@
 	{
 		"Location ID (LOC)": "LOC:Blois",
 		"Name of Location": "Blois",
-		"City or Larger Place": "Blois",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/wu5VXEAWzMdhnmyP6",
 		"Coordinates": "47.58551587056589, 1.3368235542951457",
@@ -287,7 +259,6 @@
 	{
 		"Location ID (LOC)": "LOC:Bologna",
 		"Name of Location": "Bologna",
-		"City or Larger Place": "Bologna",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/TGCazEJBhD4tNUQC9",
 		"Coordinates": "44.488898015002874, 11.340522038649713",
@@ -297,7 +268,6 @@
 	{
 		"Location ID (LOC)": "LOC:Bolsena",
 		"Name of Location": "Bolsena",
-		"City or Larger Place": "Bolsena",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/t5TsSvrXTu2C1XT49",
 		"Coordinates": "42.6441378392413, 11.98629327931354",
@@ -307,7 +277,6 @@
 	{
 		"Location ID (LOC)": "LOC:Bolzano",
 		"Name of Location": "Bolzano",
-		"City or Larger Place": "Bolzano",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/WC8axkSVx9B6vzoY8",
 		"Coordinates": "46.498210665889104, 11.353508556995719",
@@ -317,7 +286,6 @@
 	{
 		"Location ID (LOC)": "LOC:Bonneval",
 		"Name of Location": "Bonneval",
-		"City or Larger Place": "Bonneval",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/DyDKJmuvQLFV81B47",
 		"Coordinates": "48.181767225788846, 1.3840619741949463",
@@ -327,7 +295,6 @@
 	{
 		"Location ID (LOC)": "LOC:Borgio_S_Donnino",
 		"Name of Location": "Borgo S. Donnino",
-		"City or Larger Place": "Borgo S. Donnino",
 		"Modern Country": "Italy",
 		"Input data": "BSO",
 		"Date entered": "2023-5-2"
@@ -335,7 +302,6 @@
 	{
 		"Location ID (LOC)": "LOC:Bourges",
 		"Name of Location": "Bourges",
-		"City or Larger Place": "Bourges",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/VmBE63R6x7kFGFQh7",
 		"Coordinates": "47.08189271572467, 2.3964096248283484",
@@ -345,7 +311,6 @@
 	{
 		"Location ID (LOC)": "LOC:Bouvignies",
 		"Name of Location": "Bouvignies",
-		"City or Larger Place": "Bouvignies",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/VCYRVfRxqaPoariq7",
 		"Coordinates": "50.43543767460065, 3.24518585143495",
@@ -355,7 +320,6 @@
 	{
 		"Location ID (LOC)": "LOC:Brescello",
 		"Name of Location": "Brescello",
-		"City or Larger Place": "Brescello",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/jGx4SeR8NeJYCveu9",
 		"Coordinates": "44.89847596329252, 10.517538437141136",
@@ -365,7 +329,6 @@
 	{
 		"Location ID (LOC)": "LOC:Brest",
 		"Name of Location": "Brest",
-		"City or Larger Place": "Brest",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/K4ykW4vT3W7Bgw4v9",
 		"Coordinates": "48.39017713367009, -4.489287515101668",
@@ -405,7 +368,6 @@
 	{
 		"Location ID (LOC)": "LOC:Budapest",
 		"Name of Location": "Budapest",
-		"City or Larger Place": "Budapest",
 		"Modern Country": "Hungary",
 		"Google URL": "https://maps.app.goo.gl/6kBKr8vUrHWbQqbR6",
 		"Coordinates": "47.500117823906024, 19.032103216497337",
@@ -415,7 +377,6 @@
 	{
 		"Location ID (LOC)": "LOC:Buissenal",
 		"Name of Location": "Buissenal",
-		"City or Larger Place": "Buissenal",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/w74S7v8eADuNHpKL8",
 		"Coordinates": "50.670421167332584, 3.6197328069509545",
@@ -426,7 +387,6 @@
 	{
 		"Location ID (LOC)": "LOC:Cambrai",
 		"Name of Location": "Cambrai",
-		"City or Larger Place": "Cambrai",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/8VyY6rSeyjL3DhBx9",
 		"Coordinates": "50.17348623575531, 3.2367631233471728",
@@ -469,7 +429,6 @@
 	{
 		"Location ID (LOC)": "LOC:Carpentras",
 		"Name of Location": "Carpentras",
-		"City or Larger Place": "Carpentras",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/7qxxAohyXyDFFpDv6",
 		"Coordinates": "44.05538839877659, 5.052542640120198",
@@ -490,7 +449,6 @@
 	{
 		"Location ID (LOC)": "LOC:Celles",
 		"Name of Location": "Celles",
-		"City or Larger Place": "Celles",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/C9jEuMffrKSqNChM7",
 		"Coordinates": "50.23142088344768, 5.005548043908784",
@@ -501,7 +459,6 @@
 	{
 		"Location ID (LOC)": "LOC:Chalon-sur-Saone",
 		"Name of Location": "Chalon-sur-Saône",
-		"City or Larger Place": "Chalon-sur-Saône",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/QGbxuKCA9R2wqnex6",
 		"Coordinates": "46.78022492126495, 4.851537820213891",
@@ -511,7 +468,6 @@
 	{
 		"Location ID (LOC)": "LOC:Chambery",
 		"Name of Location": "Chambery",
-		"City or Larger Place": "Chambery",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/vojg2ijxLzHwb9Sr8",
 		"Coordinates": "45.564888, 5.922580",
@@ -521,14 +477,12 @@
 	{
 		"Location ID (LOC)": "LOC:Chapelle",
 		"Name of Location": "Chapelle",
-		"City or Larger Place": "Chapelle",
 		"Input data": "LO",
 		"Date entered": "2024-1-23"
 	},
 	{
 		"Location ID (LOC)": "LOC:Chartres",
 		"Name of Location": "Chartres",
-		"City or Larger Place": "Chartes",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/m7gFDJd5EpKmcm3m7",
 		"Coordinates": "48.44394802199311, 1.4902206726843918",
@@ -540,7 +494,6 @@
 	{
 		"Location ID (LOC)": "LOC:Chateau-Renault",
 		"Name of Location": "Château-Renault",
-		"City or Larger Place": "Château-Renault",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/fBY5Tj4aHFCpfN2P8",
 		"Coordinates": "47.59156720785083, 0.9028885182439247",
@@ -550,7 +503,6 @@
 	{
 		"Location ID (LOC)": "LOC:Chateaubriant",
 		"Name of Location": "Châteaubriant",
-		"City or Larger Place": "Châteaubriant",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/YeCk46DiPb8qsisk9",
 		"Coordinates": "47.72537848100903, -1.3295437315086864",
@@ -560,7 +512,6 @@
 	{
 		"Location ID (LOC)": "LOC:Chateauneuf-sur-Loire",
 		"Name of Location": "Chateauneuf-sur-Loire",
-		"City or Larger Place": "Chateauneuf-sur-Loire",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/G2T46mQE6E84D9CB9",
 		"Coordinates": "47.86608518376506, 2.196232679067816",
@@ -570,7 +521,6 @@
 	{
 		"Location ID (LOC)": "LOC:Chinon",
 		"Name of Location": "Chinon",
-		"City or Larger Place": "Chinon",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/NBpbQwkbiw4geovG8",
 		"Coordinates": "47.16733297706925, 0.2381005420396015",
@@ -580,7 +530,6 @@
 	{
 		"Location ID (LOC)": "LOC:Codigoro",
 		"Name of Location": "Codrigoro",
-		"City or Larger Place": "Codrigoro",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/8aERRrpV7gZkPBKm8",
 		"Coordinates": "44.83006581259533, 12.110257742109034",
@@ -590,7 +539,6 @@
 	{
 		"Location ID (LOC)": "LOC:Conde-sur-lEscaut",
 		"Name of Location": "Condé-sur-l'Escaut",
-		"City or Larger Place": "Condé-sur-l'Escaut",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/nz6z2JpXudxUWQTH6",
 		"Coordinates": "50.448104567089395, 3.5948772967029776",
@@ -600,7 +548,6 @@
 	{
 		"Location ID (LOC)": "LOC:Corneto",
 		"Name of Location": "Corneto",
-		"City or Larger Place": "Corneto",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/FU82uCM2R8mWp7hJ8",
 		"Coordinates": "42.79260194196413, 13.437849724010471",
@@ -610,7 +557,6 @@
 	{
 		"Location ID (LOC)": "LOC:Courville-sur-Eure",
 		"Name of Location": "Courville-sur-Eure",
-		"City or Larger Place": "Courville-sur-Eure",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/oxurU2aG1VG7q7rq5",
 		"Coordinates": "48.448461955382655, 1.2435289792192432",
@@ -620,7 +566,6 @@
 	{
 		"Location ID (LOC)": "LOC:Cremona",
 		"Name of Location": "Cremona",
-		"City or Larger Place": "Cremona",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/U8NKsJZDDJeH9Jkr8",
 		"Coordinates": "45.13265228505448, 10.020710146322584",
@@ -630,7 +575,6 @@
 	{
 		"Location ID (LOC)": "LOC:Dergneau",
 		"Name of Location": "Dergneau",
-		"City or Larger Place": "Dergneau",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/AFhGvPXxyz42UKP69",
 		"Coordinates": "50.71425009126885, 3.5694573912373486",
@@ -640,7 +584,6 @@
 	{
 		"Location ID (LOC)": "LOC:Dijon",
 		"Name of Location": "Dijon",
-		"City or Larger Place": "Dijon",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/xLCAuULfsC1yfpi48",
 		"Coordinates": "47.32113547138486, 5.043888962907794",
@@ -650,7 +593,6 @@
 	{
 		"Location ID (LOC)": "LOC:Dinan",
 		"Name of Location": "Dinan",
-		"City or Larger Place": "Dinan",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/7Jt8NnmMgXFS33Ed7",
 		"Coordinates": "48.45471075470048, -2.0470272298640637",
@@ -660,14 +602,12 @@
 	{
 		"Location ID (LOC)": "LOC:Dinniez",
 		"Name of Location": "Dinniez",
-		"City or Larger Place": "Dinniez",
 		"Input data": "LO",
 		"Date entered": "2024-1-23"
 	},
 	{
 		"Location ID (LOC)": "LOC:Eger",
 		"Name of Location": "Eger",
-		"City or Larger Place": "Eger",
 		"Modern Country": "Hungary",
 		"Google URL": "https://maps.app.goo.gl/9ZaNS4nGbtcBw6wm9",
 		"Coordinates": "47.902690686877236, 20.37733129723944",
@@ -677,7 +617,6 @@
 	{
 		"Location ID (LOC)": "LOC:Ellignies",
 		"Name of Location": "Ellignies",
-		"City or Larger Place": "Ellignies",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/jzQ6izEbXVy8DPdg8",
 		"Coordinates": "50.571819135555096, 3.679585262304278",
@@ -688,7 +627,6 @@
 	{
 		"Location ID (LOC)": "LOC:Enghien",
 		"Name of Location": "Enghien",
-		"City or Larger Place": "Enghien",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/cPS76EQpnfZRt54q9",
 		"Coordinates": "50.69401102754687, 4.037926433423386",
@@ -698,7 +636,6 @@
 	{
 		"Location ID (LOC)": "LOC:Escanaffles",
 		"Name of Location": "Escanaffles",
-		"City or Larger Place": "Escanaffles",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/MbE7zgLaCzbeS8VWA",
 		"Coordinates": "50.75427626010349, 3.448131946025702",
@@ -708,7 +645,6 @@
 	{
 		"Location ID (LOC)": "LOC:Esztergom",
 		"Name of Location": "Esztergom",
-		"City or Larger Place": "Esztergom",
 		"Modern Country": "Hungary",
 		"Google URL": "https://maps.app.goo.gl/YCjmdBPqS2SAf5xW6",
 		"Coordinates": "47.78751755457725, 18.73668878383042",
@@ -718,7 +654,6 @@
 	{
 		"Location ID (LOC)": "LOC:Etampes",
 		"Name of Location": "Etampes",
-		"City or Larger Place": "Etampes",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/NivhaASXyHqWGbvt9",
 		"Coordinates": "48.43297999182367, 2.1561272613395825",
@@ -728,7 +663,6 @@
 	{
 		"Location ID (LOC)": "LOC:Faenza",
 		"Name of Location": "Faenza",
-		"City or Larger Place": "Faenza",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/1UTsvMmsYuoi1WRn9",
 		"Coordinates": "44.290222036755864, 11.878032343876146",
@@ -738,7 +672,6 @@
 	{
 		"Location ID (LOC)": "LOC:Fanano",
 		"Name of Location": "Fanano",
-		"City or Larger Place": "Fanano",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/dNx3wQMT7RphGAVo8",
 		"Coordinates": "44.20774343589212, 10.79662493950079",
@@ -749,7 +682,6 @@
 	{
 		"Location ID (LOC)": "LOC:Fano",
 		"Name of Location": "Fano",
-		"City or Larger Place": "Fano",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/cXF4YcACaRZZtwXL9",
 		"Coordinates": "43.83928778507242, 13.020039947019237",
@@ -760,7 +692,6 @@
 	{
 		"Location ID (LOC)": "LOC:Felonica",
 		"Name of Location": "Felonica",
-		"City or Larger Place": "Felonica",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/Cqc2rJbsmbXyxSdx8",
 		"Coordinates": "44.97889759040997, 11.353243516362701",
@@ -770,7 +701,6 @@
 	{
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Name of Location": "Ferrara",
-		"City or Larger Place": "Ferrara",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/mky5C5x7bNkmgDoe9",
 		"Coordinates": "44.838057906693024, 11.6246409911621",
@@ -792,7 +722,6 @@
 	{
 		"Location ID (LOC)": "LOC:Florence",
 		"Name of Location": "Florence",
-		"City or Larger Place": "Florence",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/Dff8YxjmNBZbf4vK7",
 		"Coordinates": "43.771995871356054, 11.2468008872142",
@@ -823,7 +752,6 @@
 	{
 		"Location ID (LOC)": "LOC:Fontevraud-lAbbaye",
 		"Name of Location": "Fontevraud-l'Abbaye",
-		"City or Larger Place": "Fontevraud-l'Abbaye",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/fgQbnxaUUdnubJ3g6",
 		"Coordinates": "47.18149296872278, 0.044214158738103214",
@@ -833,7 +761,6 @@
 	{
 		"Location ID (LOC)": "LOC:Forest",
 		"Name of Location": "Forest",
-		"City or Larger Place": "Forest",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/9KdvSd2iMB4YP4Gq8",
 		"Coordinates": "50.81001666728323, 4.324638064256282",
@@ -844,7 +771,6 @@
 	{
 		"Location ID (LOC)": "LOC:Forli",
 		"Name of Location": "Forli",
-		"City or Larger Place": "Forli",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/1fVAt3jAe8x5bDjJA",
 		"Coordinates": "44.22234760954347, 12.041323628339896",
@@ -854,7 +780,6 @@
 	{
 		"Location ID (LOC)": "LOC:Francolino",
 		"Name of Location": "Francolino",
-		"City or Larger Place": "Francolino",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/EAo9oFg87GF7yCY26",
 		"Coordinates": "44.903390034978344, 11.658421826338717",
@@ -864,7 +789,6 @@
 	{
 		"Location ID (LOC)": "LOC:Frasnes",
 		"Name of Location": "Frasnes",
-		"City or Larger Place": "Frasnes",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/a2ByakxFtByRnbCUA",
 		"Coordinates": "50.66752578845051, 3.5992609978224",
@@ -875,7 +799,6 @@
 	{
 		"Location ID (LOC)": "LOC:Geneva",
 		"Name of Location": "Geneva",
-		"City or Larger Place": "Geneva",
 		"Modern Country": "Switzerland",
 		"Google URL": "https://maps.app.goo.gl/W8jqsQsncd6T3fjt6",
 		"Coordinates": "46.200813, 6.148758",
@@ -885,7 +808,6 @@
 	{
 		"Location ID (LOC)": "LOC:Genoa",
 		"Name of Location": "Genoa",
-		"City or Larger Place": "Genoa",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/Gx6cKnnAZjQoMWEo7",
 		"Coordinates": "44.40404009444587, 8.942671767272765",
@@ -916,7 +838,6 @@
 	{
 		"Location ID (LOC)": "LOC:Ghoy",
 		"Name of Location": "Ghoy",
-		"City or Larger Place": "Ghoy",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/dGvMcyjvqv8tfiAS6",
 		"Coordinates": "50.735581309645355, 3.8124074409773367",
@@ -926,7 +847,6 @@
 	{
 		"Location ID (LOC)": "LOC:Grammont",
 		"Name of Location": "Grammont",
-		"City or Larger Place": "Grammont",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/MS6msgqG5R3aKReL7",
 		"Coordinates": "50.77409316923406, 3.882940390461884",
@@ -937,7 +857,6 @@
 	{
 		"Location ID (LOC)": "LOC:Grenoble",
 		"Name of Location": "Grenoble",
-		"City or Larger Place": "Grenoble",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/dpmh3FbLJ5XDug6z7",
 		"Coordinates": "45.18828453603132, 5.726097058610723",
@@ -957,7 +876,6 @@
 	{
 		"Location ID (LOC)": "LOC:Gubbio",
 		"Name of Location": "Gubbio",
-		"City or Larger Place": "Gubbio",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/4r91kuAjHWo5YM5b9",
 		"Coordinates": "43.35152279765471, 12.574599933465686",
@@ -967,7 +885,6 @@
 	{
 		"Location ID (LOC)": "LOC:Guingamp",
 		"Name of Location": "Guingamp",
-		"City or Larger Place": "Guingamp",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/kJ1kdq79YjatVZMaA",
 		"Coordinates": "48.56143748608783, -3.148006791814988",
@@ -977,7 +894,6 @@
 	{
 		"Location ID (LOC)": "LOC:Hacquegnies_Quartes",
 		"Name of Location": "Hacquegnies Quartes",
-		"City or Larger Place": "Hacquegnies Quartes",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/EbjAUHd3BL4ArZYm8",
 		"Coordinates": "50.65192760532023, 3.594941906325845",
@@ -988,7 +904,6 @@
 	{
 		"Location ID (LOC)": "LOC:Havines",
 		"Name of Location": "Havines",
-		"City or Larger Place": "Havines",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/Jeg7Tdecw73skhMcA",
 		"Coordinates": "50.61814306653796, 3.4647254272975454",
@@ -999,7 +914,6 @@
 	{
 		"Location ID (LOC)": "LOC:Hennebont",
 		"Name of Location": "Hennebont",
-		"City or Larger Place": "Hennebont",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/fpxhENKhQQaXrDus5",
 		"Coordinates": "47.802611307866364, -3.276606221480914",
@@ -1009,7 +923,6 @@
 	{
 		"Location ID (LOC)": "LOC:Houtain",
 		"Name of Location": "Houtain",
-		"City or Larger Place": "Houtain",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/2aPP2tLkYy9pG8zv6",
 		"Coordinates": "50.64247209609103, 3.684675589467357",
@@ -1020,7 +933,6 @@
 	{
 		"Location ID (LOC)": "LOC:Hoves",
 		"Name of Location": "Hoves",
-		"City or Larger Place": "Hoves",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/ZobbVJoA3WngaVnX9",
 		"Coordinates": "50.67487084592202, 4.036127823984837",
@@ -1030,7 +942,6 @@
 	{
 		"Location ID (LOC)": "LOC:Innsbruck",
 		"Name of Location": "Innsbruck",
-		"City or Larger Place": "Innsbruck",
 		"Modern Country": "Austria",
 		"Google URL": "https://maps.app.goo.gl/AhbNs7Qj1n7hjxuG7",
 		"Coordinates": "47.26795562524704, 11.398356943887316",
@@ -1040,7 +951,6 @@
 	{
 		"Location ID (LOC)": "LOC:La_Bassee",
 		"Name of Location": "La Bassée",
-		"City or Larger Place": "La Bassée",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/tHHYx2cjnTNXtQ6P7",
 		"Coordinates": "50.54017828596823, 2.8091934982021036",
@@ -1051,7 +961,6 @@
 	{
 		"Location ID (LOC)": "LOC:La_Charite-sur-Loire",
 		"Name of Location": "La Charité-sur-Loire",
-		"City or Larger Place": "La Charité-sur-Loire",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/ZZdDPZvoJWbot6vc6",
 		"Coordinates": "47.177095676172854, 3.0192120935954008",
@@ -1061,7 +970,6 @@
 	{
 		"Location ID (LOC)": "LOC:La_Cote-Saint-Andre",
 		"Name of Location": "La Côte-Saint-André",
-		"City or Larger Place": "La Côte-Saint-André",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/eYFLxRXomEom8qiKA",
 		"Coordinates": "45.39374143694027, 5.260443235688535",
@@ -1071,7 +979,6 @@
 	{
 		"Location ID (LOC)": "LOC:La_Fleche",
 		"Name of Location": "La Flèche",
-		"City or Larger Place": "La Flèche",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/5wmetgBEGEudhtHy8",
 		"Coordinates": "47.70000851914407, -0.05109761849565527",
@@ -1091,7 +998,6 @@
 	{
 		"Location ID (LOC)": "LOC:La_Paglia",
 		"Name of Location": "La Paglia",
-		"City or Larger Place": "La Paglia",
 		"Modern Country": "Italy",
 		"Input data": "BSO",
 		"Date entered": "2023-5-2"
@@ -1099,7 +1005,6 @@
 	{
 		"Location ID (LOC)": "LOC:Lamballe",
 		"Name of Location": "Lamballe",
-		"City or Larger Place": "Lamballe",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/g877K4PhtrLjJTEc8",
 		"Coordinates": "48.46919243032948, -2.517291131485199",
@@ -1109,7 +1014,6 @@
 	{
 		"Location ID (LOC)": "LOC:Langres",
 		"Name of Location": "Langres",
-		"City or Larger Place": "Langres",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/KKkycwkwkd6AkwGM7",
 		"Coordinates": "47.8668144183899, 5.334291163488875",
@@ -1119,7 +1023,6 @@
 	{
 		"Location ID (LOC)": "LOC:Lannion",
 		"Name of Location": "Lannion",
-		"City or Larger Place": "Lannion",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/KhzYDY7faqWcCUQT6",
 		"Coordinates": "48.731515626858204, -3.4611563846939717",
@@ -1129,7 +1032,6 @@
 	{
 		"Location ID (LOC)": "LOC:Laon",
 		"Name of Location": "Laon",
-		"City or Larger Place": "Laon",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/YtCGZwCfrrZsGnFk9",
 		"Coordinates": "49.564446, 3.624003",
@@ -1139,7 +1041,6 @@
 	{
 		"Location ID (LOC)": "LOC:Larbresle",
 		"Name of Location": "L'Arbresle",
-		"City or Larger Place": "L'Arbresle",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/uUFiZ5QffKReGshk6",
 		"Coordinates": "45.83495880934688, 4.615524278301241",
@@ -1149,7 +1050,6 @@
 	{
 		"Location ID (LOC)": "LOC:Larchant",
 		"Name of Location": "Larchant",
-		"City or Larger Place": "Larchant",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/yp2KmLjcuRyQCG1P9",
 		"Coordinates": "48.284629149170236, 2.596867983151952",
@@ -1159,7 +1059,6 @@
 	{
 		"Location ID (LOC)": "LOC:Laval",
 		"Name of Location": "Laval",
-		"City or Larger Place": "Laval",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/X3wt2r74Nxx729yv7",
 		"Coordinates": "48.11283017758302, -0.7280706117309891",
@@ -1179,7 +1078,6 @@
 	{
 		"Location ID (LOC)": "LOC:Le_Mans",
 		"Name of Location": "Le Mans",
-		"City or Larger Place": "Le Mans",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/wb12q7uHYiv6SMLP7",
 		"Coordinates": "48.01311945101852, 0.21612630782823053",
@@ -1189,7 +1087,6 @@
 	{
 		"Location ID (LOC)": "LOC:Le_Petit_Robien",
 		"Name of Location": "Le Petit Robien",
-		"City or Larger Place": "Le Petit Robien",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/W6vkHjVeq4wxDb388",
 		"Coordinates": "48.39132306140204, -2.9216269888885598",
@@ -1199,7 +1096,6 @@
 	{
 		"Location ID (LOC)": "LOC:Le_Puy-Notre-Dame",
 		"Name of Location": "Le Puy-Notre-Dame",
-		"City or Larger Place": "Le Puy-Notre-Dame",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/GgpZhRS2LkdQBgwS9",
 		"Coordinates": "47.12508325623518, -0.2273021238351422",
@@ -1209,7 +1105,6 @@
 	{
 		"Location ID (LOC)": "LOC:Legeuil",
 		"Name of Location": "Legeuil",
-		"City or Larger Place": "Legeuil",
 		"Modern Country": "France",
 		"Input data": "BSO",
 		"Date entered": "2023-5-2"
@@ -1217,7 +1112,6 @@
 	{
 		"Location ID (LOC)": "LOC:Les_Montils-sous-Blois",
 		"Name of Location": "Les Montils-sous-Blois",
-		"City or Larger Place": "Les Montils-sous-Blois",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/4jW355gzknx45DTk8",
 		"Coordinates": "47.49630536339211, 1.2999234771297676",
@@ -1227,7 +1121,6 @@
 	{
 		"Location ID (LOC)": "LOC:Lesneven",
 		"Name of Location": "Lesneven",
-		"City or Larger Place": "Lesneven",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/PU2NbGiVZHEgqCESA",
 		"Coordinates": "48.572190122981, -4.32193192256545",
@@ -1237,7 +1130,6 @@
 	{
 		"Location ID (LOC)": "LOC:Leuze",
 		"Name of Location": "Leuze",
-		"City or Larger Place": "Leuze",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/Pka6DRKZpA3kLXNh9",
 		"Coordinates": "50.599811905007954, 3.6244058552985527",
@@ -1259,7 +1151,6 @@
 	{
 		"Location ID (LOC)": "LOC:LIle-Bouchard",
 		"Name of Location": "L'Île-Bouchard",
-		"City or Larger Place": "L'Île-Bouchard",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/pUZjJiBcxGKpzXtw7",
 		"Coordinates": "47.12054696183189, 0.42299109743722096",
@@ -1289,7 +1180,6 @@
 	{
 		"Location ID (LOC)": "LOC:Loches",
 		"Name of Location": "Loches",
-		"City or Larger Place": "Loches",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/vMuyeMyzQf4aC6nD9",
 		"Coordinates": "47.12944602088033, 0.997791465498557",
@@ -1299,7 +1189,6 @@
 	{
 		"Location ID (LOC)": "LOC:Locronan",
 		"Name of Location": "Locronan",
-		"City or Larger Place": "Locronan",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/xHGD5Tjvjsydudsw8",
 		"Coordinates": "48.09860960556787, -4.207608817935596",
@@ -1309,7 +1198,6 @@
 	{
 		"Location ID (LOC)": "LOC:Loiano",
 		"Name of Location": "Loiano",
-		"City or Larger Place": "Loiano",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/NEmtnYuXxU7HXHvx7",
 		"Coordinates": "44.27232308372881, 11.317307507375741",
@@ -1328,7 +1216,6 @@
 	{
 		"Location ID (LOC)": "LOC:Lyon",
 		"Name of Location": "Lyon",
-		"City or Larger Place": "Lyon",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/y43Q51FoBkZT6DNY7",
 		"Coordinates": "45.763593228228494, 4.839570345938341",
@@ -1348,7 +1235,6 @@
 	{
 		"Location ID (LOC)": "LOC:Macon",
 		"Name of Location": "Mâcon",
-		"City or Larger Place": "Mâcon",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/FFxyC2ZSF131972A7",
 		"Coordinates": "46.30708658070305, 4.829106052692328",
@@ -1358,7 +1244,6 @@
 	{
 		"Location ID (LOC)": "LOC:Magliano_Romano",
 		"Name of Location": "Magliano Romano",
-		"City or Larger Place": "Magliano Romano",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/Vv3qvBzqJvYtAsGcA",
 		"Coordinates": "42.16012118130383, 12.437432498073134",
@@ -1368,7 +1253,6 @@
 	{
 		"Location ID (LOC)": "LOC:Mainvaut",
 		"Name of Location": "Mainvaut",
-		"City or Larger Place": "Mainvaut",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/sQogcccnTeUpDzpWA",
 		"Coordinates": "50.6503879171574, 3.7172030362267874",
@@ -1379,7 +1263,6 @@
 	{
 		"Location ID (LOC)": "LOC:Mantua",
 		"Name of Location": "Mantua",
-		"City or Larger Place": "Mantua",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/dZB5D9gsccXcdntt7",
 		"Coordinates": "45.156580400625906, 10.791274204809342",
@@ -1389,7 +1272,6 @@
 	{
 		"Location ID (LOC)": "LOC:Marcoussis",
 		"Name of Location": "Marcoussis",
-		"City or Larger Place": "Marcoussis",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/HA3iqSWCBBH9dssc8",
 		"Coordinates": "48.643069794445765, 2.229087839286009",
@@ -1399,7 +1281,6 @@
 	{
 		"Location ID (LOC)": "LOC:Massa",
 		"Name of Location": "Massa",
-		"City or Larger Place": "Massa",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/n9983Pq2SGtEaphB6",
 		"Coordinates": "44.035601781038956, 10.139077682384428",
@@ -1409,7 +1290,6 @@
 	{
 		"Location ID (LOC)": "LOC:Maulde",
 		"Name of Location": "Maulde",
-		"City or Larger Place": "Maulde",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/195aK1S6F1L6KrN58",
 		"Coordinates": "50.6169369998807, 3.5480782730180658",
@@ -1440,7 +1320,6 @@
 	{
 		"Location ID (LOC)": "LOC:Mehun-sur-Yevre",
 		"Name of Location": "Mehun-sur-Yèvre",
-		"City or Larger Place": "Mehun-sur-Yèvre",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/5qx7pmSeujBoVubk6",
 		"Coordinates": "47.14599322706833, 2.214475478895086",
@@ -1450,7 +1329,6 @@
 	{
 		"Location ID (LOC)": "LOC:Melegnano",
 		"Name of Location": "Melegnano",
-		"City or Larger Place": "Melegnano",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/fuQAazdVm31ToGM96",
 		"Coordinates": "45.35614813814076, 9.322126086552313",
@@ -1460,7 +1338,6 @@
 	{
 		"Location ID (LOC)": "LOC:Melun",
 		"Name of Location": "Melun",
-		"City or Larger Place": "Melun",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/fo697n8iEZKAzeGZ8",
 		"Coordinates": "48.542132062609234, 2.6567044599835845",
@@ -1470,7 +1347,6 @@
 	{
 		"Location ID (LOC)": "LOC:Meslay-du-Maine",
 		"Name of Location": "Meslay-du-Maine",
-		"City or Larger Place": "Meslay-du-Maine",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/v7hxoLUDFihQyXCq5",
 		"Coordinates": "47.95000951952568, -0.5521125685006583",
@@ -1480,7 +1356,6 @@
 	{
 		"Location ID (LOC)": "LOC:Migliarino",
 		"Name of Location": "Migliarino",
-		"City or Larger Place": "Migliarino",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/MuWFwwyof7SAWxwG9",
 		"Coordinates": "44.771284063738875, 11.93137826718972",
@@ -1491,7 +1366,6 @@
 	{
 		"Location ID (LOC)": "LOC:Milan",
 		"Name of Location": "Milan",
-		"City or Larger Place": "Milan",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/PyivAvxzJ8AQD2g68",
 		"Coordinates": "45.46390820662916, 9.194208207771696",
@@ -1522,7 +1396,6 @@
 	{
 		"Location ID (LOC)": "LOC:Mirandola",
 		"Name of Location": "Mirandola",
-		"City or Larger Place": "Mirandola",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/YUBjrXm1hgSJjgiG7",
 		"Coordinates": "44.88631067838768, 11.059362193177517",
@@ -1532,7 +1405,6 @@
 	{
 		"Location ID (LOC)": "LOC:Modena",
 		"Name of Location": "Modena",
-		"City or Larger Place": "Modena",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/9smWTTD9ZwNYQx8A8",
 		"Coordinates": "44.64794929608133, 10.925161875638802",
@@ -1563,7 +1435,6 @@
 	{
 		"Location ID (LOC)": "LOC:Montbonnot",
 		"Name of Location": "Montbonnot",
-		"City or Larger Place": "Montbonnot",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/ELntFamFLa8KuDuNA",
 		"Coordinates": "45.22573806736759, 5.801693591347928",
@@ -1573,7 +1444,6 @@
 	{
 		"Location ID (LOC)": "LOC:Monthlery",
 		"Name of Location": "Monthléry",
-		"City or Larger Place": "Monthléry",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/KMMwhxCrRSqM64yt5",
 		"Coordinates": "48.63828344717152, 2.271836582648886",
@@ -1593,7 +1463,6 @@
 	{
 		"Location ID (LOC)": "LOC:Montroeul",
 		"Name of Location": "Montroeul",
-		"City or Larger Place": "Montroeul",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/JBRSPs5rdXfrhW8x7",
 		"Coordinates": "50.435906835125046, 3.7085102842826863",
@@ -1603,7 +1472,6 @@
 	{
 		"Location ID (LOC)": "LOC:Montsoreau",
 		"Name of Location": "Montsoreau",
-		"City or Larger Place": "Montsoreau",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/esGE3FmX9A33Ssku7",
 		"Coordinates": "47.21301929870693, 0.05728269095974709",
@@ -1613,7 +1481,6 @@
 	{
 		"Location ID (LOC)": "LOC:Morlaix",
 		"Name of Location": "Morlaix",
-		"City or Larger Place": "Morlaix",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/ejPEXmVT8VadEfhF7",
 		"Coordinates": "48.57735258682668, -3.8294977294388888",
@@ -1623,7 +1490,6 @@
 	{
 		"Location ID (LOC)": "LOC:Moulins",
 		"Name of Location": "Moulins",
-		"City or Larger Place": "Moulins",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/eAk38UbaFAWSrRBg9",
 		"Coordinates": "46.56779929737375, 3.3344970007899164",
@@ -1633,7 +1499,6 @@
 	{
 		"Location ID (LOC)": "LOC:Moustiers",
 		"Name of Location": "Moustiers",
-		"City or Larger Place": "Moustiers",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/fjMkYR1VbXyJS4Wj9",
 		"Coordinates": "43.84503264103763, 6.224227903183533",
@@ -1644,7 +1509,6 @@
 	{
 		"Location ID (LOC)": "LOC:Nantes",
 		"Name of Location": "Nantes",
-		"City or Larger Place": "Nantes",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/p53VDB39uE2jyfJo8",
 		"Coordinates": "47.216986777408, -1.5476348568541896",
@@ -1683,7 +1547,6 @@
 	{
 		"Location ID (LOC)": "LOC:Nesle",
 		"Name of Location": "Nesle",
-		"City or Larger Place": "Nesle",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/upFdvPKrQz59nEXd9",
 		"Coordinates": "49.75719620675876, 2.909112141421389",
@@ -1693,7 +1556,6 @@
 	{
 		"Location ID (LOC)": "LOC:Nevers",
 		"Name of Location": "Nevers",
-		"City or Larger Place": "Nevers",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/9aziqnGP2RuYP8Mz9",
 		"Coordinates": "46.99053086624116, 3.161481544121609",
@@ -1703,7 +1565,6 @@
 	{
 		"Location ID (LOC)": "LOC:Oeudeghien",
 		"Name of Location": "Oeudeghien",
-		"City or Larger Place": "Oeudeghien",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/iNf55VxTaFmgoFAi9",
 		"Coordinates": "50.68147773855011, 3.7131049663583813",
@@ -1723,7 +1584,6 @@
 	{
 		"Location ID (LOC)": "LOC:Orange",
 		"Name of Location": "Orange",
-		"City or Larger Place": "Orange",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/CkkAPQPWjcBMQwKV9",
 		"Coordinates": "44.14097780053765, 4.7914450233622325",
@@ -1734,7 +1594,6 @@
 	{
 		"Location ID (LOC)": "LOC:Orleans",
 		"Name of Location": "Orléans",
-		"City or Larger Place": "Orléans",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/fU9uRsQuzFejGox2A",
 		"Coordinates": "47.903086747057856, 1.9104953286013922",
@@ -1765,7 +1624,6 @@
 	{
 		"Location ID (LOC)": "LOC:Padua",
 		"Name of Location": "Padua",
-		"City or Larger Place": "Padua",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/9vcaFy7gwse7dMth6",
 		"Coordinates": "45.406014267702446, 11.87476548629084",
@@ -1799,7 +1657,6 @@
 	{
 		"Location ID (LOC)": "LOC:Paris",
 		"Name of Location": "Paris",
-		"City or Larger Place": "Paris",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/mNbbVgqMx72CnG1aA",
 		"Coordinates": "48.85634077897506, 2.354242318994187",
@@ -1850,7 +1707,6 @@
 	{
 		"Location ID (LOC)": "LOC:Parma",
 		"Name of Location": "Parma",
-		"City or Larger Place": "Parma",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/eMDW1a2mbFmCbj3E8",
 		"Coordinates": "44.801100316638326, 10.330718198302144",
@@ -1860,7 +1716,6 @@
 	{
 		"Location ID (LOC)": "LOC:Pesaro",
 		"Name of Location": "Pesaro",
-		"City or Larger Place": "Pesaro",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/GatvVhwhpa472mHw6",
 		"Coordinates": "43.912298618311524, 12.918183375652852",
@@ -1870,7 +1725,6 @@
 	{
 		"Location ID (LOC)": "LOC:Peschiera_del_Garda",
 		"Name of Location": "Peschiera del Garda",
-		"City or Larger Place": "Peschiera del Garda",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/p4Ayb9s71H3fYXdP6",
 		"Coordinates": "45.439724275589974, 10.68669596734244",
@@ -1890,7 +1744,6 @@
 	{
 		"Location ID (LOC)": "LOC:Poissy",
 		"Name of Location": "Poissy",
-		"City or Larger Place": "Poissy",
 		"Google URL": "https://goo.gl/maps/eQ9vpm5oy4wgXTGR9",
 		"Coordinates": "48.92963892289776, 2.0461617993858714",
 		"Input data": "BSO",
@@ -1920,7 +1773,6 @@
 	{
 		"Location ID (LOC)": "LOC:Polesella",
 		"Name of Location": "Polesella",
-		"City or Larger Place": "Polesella",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/CNkQ9toxonHC6qUKA",
 		"Coordinates": "44.964024926524196, 11.750855061770514",
@@ -1930,7 +1782,6 @@
 	{
 		"Location ID (LOC)": "LOC:Pontoise",
 		"Name of Location": "Pontoise",
-		"City or Larger Place": "Pontoise",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/7xQqXHJFbg2KnQtU7",
 		"Coordinates": "49.051143465074745, 2.1027320392268853",
@@ -1940,7 +1791,6 @@
 	{
 		"Location ID (LOC)": "LOC:Popuelles",
 		"Name of Location": "Popuelles",
-		"City or Larger Place": "Popuelles",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/aUZtpoPXd35erNYp9",
 		"Coordinates": "50.6688532330955, 3.5164998634281055",
@@ -1950,7 +1800,6 @@
 	{
 		"Location ID (LOC)": "LOC:Pottes",
 		"Name of Location": "Pottes",
-		"City or Larger Place": "Pottes",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/DgxoH8yAAaceMHgG8",
 		"Coordinates": "50.73195741201547, 3.4065193531004265",
@@ -1971,7 +1820,6 @@
 	{
 		"Location ID (LOC)": "LOC:Quartes",
 		"Name of Location": "Quartes",
-		"City or Larger Place": "Quartes",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/xHn4morcJDXuFwMf6",
 		"Coordinates": "50.6549307235917, 3.513167744453804",
@@ -1981,7 +1829,6 @@
 	{
 		"Location ID (LOC)": "LOC:Quimper",
 		"Name of Location": "Quimper",
-		"City or Larger Place": "Quimper",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/9RBthAwZrGzs1L6A9",
 		"Coordinates": "47.99629579254708, -4.096516065873283",
@@ -1991,7 +1838,6 @@
 	{
 		"Location ID (LOC)": "LOC:Reggio",
 		"Name of Location": "Reggio",
-		"City or Larger Place": "Reggio",
 		"Modern Country": "Italy",
 		"Input data": "BSO",
 		"Date entered": "2023-5-2"
@@ -1999,7 +1845,6 @@
 	{
 		"Location ID (LOC)": "LOC:Reims",
 		"Name of Location": "Reims",
-		"City or Larger Place": "Reims",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/UEzMvww5wxKUQciJ6",
 		"Coordinates": "49.25858953522194, 4.030367242701698",
@@ -2009,7 +1854,6 @@
 	{
 		"Location ID (LOC)": "LOC:Renaix",
 		"Name of Location": "Renaix",
-		"City or Larger Place": "Renaix",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/ZPZPhC2vwZeeiNE88",
 		"Coordinates": "50.747048142285884, 3.6019394818312516",
@@ -2020,7 +1864,6 @@
 	{
 		"Location ID (LOC)": "LOC:Rennes",
 		"Name of Location": "Rennes",
-		"City or Larger Place": "Rennes",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/k2KiA8kLQiVpBzBD8",
 		"Coordinates": "48.11659240468555, -1.6709372314166058",
@@ -2039,7 +1882,6 @@
 	{
 		"Location ID (LOC)": "LOC:Rimini",
 		"Name of Location": "Rimini",
-		"City or Larger Place": "Rimini",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/JsNyAKcTdueAY2yU6",
 		"Coordinates": "44.06591324161023, 12.559523113308297",
@@ -2049,7 +1891,6 @@
 	{
 		"Location ID (LOC)": "LOC:Roanne",
 		"Name of Location": "Roanne",
-		"City or Larger Place": "Roanne",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/zP2N1waZAcEtNzFF7",
 		"Coordinates": "46.03478520409757, 4.071783724834728",
@@ -2059,7 +1900,6 @@
 	{
 		"Location ID (LOC)": "LOC:Romans_sur_Isere",
 		"Name of Location": "Romans-sur-Isère",
-		"City or Larger Place": "Romans-sur-Isère",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/JNkMp19X9Ex5pp2D6",
 		"Coordinates": "45.04316301067813, 5.0580443814275915",
@@ -2069,7 +1909,6 @@
 	{
 		"Location ID (LOC)": "LOC:Rome",
 		"Name of Location": "Rome",
-		"City or Larger Place": "Rome",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/Xita9u8wtHU7GvHv8",
 		"Coordinates": "41.901265727908445, 12.507143890556955",
@@ -2102,7 +1941,6 @@
 	{
 		"Location ID (LOC)": "LOC:Romorantin-Lanthenay",
 		"Name of Location": "Romorantin-Lanthenay",
-		"City or Larger Place": "Romorantin-Lanthenay",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/1Ya2sMW1Cv36SsGw5",
 		"Coordinates": "47.36136940180296, 1.7272318023379432",
@@ -2113,7 +1951,6 @@
 	{
 		"Location ID (LOC)": "LOC:Ronciglione",
 		"Name of Location": "Ronciglione",
-		"City or Larger Place": "Ronciglione",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/wahz2V1X3pvjWS3q6",
 		"Coordinates": "42.29432084461648, 12.220563193548568",
@@ -2123,7 +1960,6 @@
 	{
 		"Location ID (LOC)": "LOC:Rouen",
 		"Name of Location": "Rouen",
-		"City or Larger Place": "Rouen",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/v8yQEHrto4j4Q4p57",
 		"Coordinates": "49.44477806177639, 1.0942586269715147",
@@ -2133,7 +1969,6 @@
 	{
 		"Location ID (LOC)": "LOC:Rubiera",
 		"Name of Location": "Rubiera",
-		"City or Larger Place": "Rubiera",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/dRupT5Au1rxyp3Mn6",
 		"Coordinates": "44.653018061504234, 10.780074104553874",
@@ -2144,7 +1979,6 @@
 	{
 		"Location ID (LOC)": "LOC:Sabbioncello_San_Vittore",
 		"Name of Location": "Sabbioncello San Vittore",
-		"City or Larger Place": "Sabbioncello San Vittore",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/ftdAEwLid57nLBJ67",
 		"Coordinates": "44.83830984419105, 11.826285856484972",
@@ -2164,7 +1998,6 @@
 	{
 		"Location ID (LOC)": "LOC:Saint-Amand",
 		"Name of Location": "Saint-Amand",
-		"City or Larger Place": "Saint-Amand",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/VPxuFZLgKzE8ojJq7",
 		"Coordinates": "50.51979231276751, 4.544283827571723",
@@ -2174,7 +2007,6 @@
 	{
 		"Location ID (LOC)": "LOC:Saint-Brieuc",
 		"Name of Location": "Saint-Brieuc",
-		"City or Larger Place": "Saint-Brieuc",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/truiwvonwFcWPirT7",
 		"Coordinates": "48.51330422750265, -2.770385436915853",
@@ -2184,7 +2016,6 @@
 	{
 		"Location ID (LOC)": "LOC:Saint-Denis",
 		"Name of Location": "Saint-Denis",
-		"City or Larger Place": "Saint-Denis",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/3ejqv3LVLmQYXiKLA",
 		"Coordinates": "48.936434460141136, 2.359350384321306",
@@ -2204,7 +2035,6 @@
 	{
 		"Location ID (LOC)": "LOC:Saint-Germain-en-Laye",
 		"Name of Location": "Saint-Germain-en-Laye",
-		"City or Larger Place": "Saint-Germain-en-Laye",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/Hp554DCVfTS7Pf4t8",
 		"Coordinates": "48.897981122198324, 2.1028220350820725",
@@ -2214,7 +2044,6 @@
 	{
 		"Location ID (LOC)": "LOC:Saint-Jean-du-Doigt",
 		"Name of Location": "Saint-Jean-du-Doigt",
-		"City or Larger Place": "Saint-Jean-du-Doigt",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/EkDE2yBXhyXtDTYD7",
 		"Coordinates": "48.66532681481105, -3.7641937823262497",
@@ -2224,7 +2053,6 @@
 	{
 		"Location ID (LOC)": "LOC:Saint-Malo",
 		"Name of Location": "Saint-Malo",
-		"City or Larger Place": "Saint-Malo",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/tNFqBm8JMs5y8gCWA",
 		"Coordinates": "48.64935410614159, -2.0262047000978463",
@@ -2234,7 +2062,6 @@
 	{
 		"Location ID (LOC)": "LOC:Saint-Pol-de-Leon",
 		"Name of Location": "Saint-Pol-de-Léon",
-		"City or Larger Place": "Saint-Pol-de-Léon",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/oUUa1YGpm87Swkvd7",
 		"Coordinates": "48.683649917790675, -3.9834026044130075",
@@ -2244,7 +2071,6 @@
 	{
 		"Location ID (LOC)": "LOC:Saint-Sauveur",
 		"Name of Location": "Saint-Sauveur",
-		"City or Larger Place": "Saint-Sauveur",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/4WbceDZDtpxpiJsWA",
 		"Coordinates": "50.71585037822556, 3.6031307675430146",
@@ -2260,7 +2086,6 @@
 	{
 		"Location ID (LOC)": "LOC:Saumur",
 		"Name of Location": "Saumur",
-		"City or Larger Place": "Saumur",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/k7WjsaA395HyNMwG6",
 		"Coordinates": "47.25972600105215, -0.08075666226480538",
@@ -2270,7 +2095,6 @@
 	{
 		"Location ID (LOC)": "LOC:Savignano_sul_Rubicone",
 		"Name of Location": "Savignano sul Rubicone",
-		"City or Larger Place": "Savignano sul Rubicone",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/CG3MZZdhE3bduk5f7",
 		"Coordinates": "44.09353240192197, 12.400729164208345",
@@ -2280,7 +2104,6 @@
 	{
 		"Location ID (LOC)": "LOC:Savona",
 		"Name of Location": "Savona",
-		"City or Larger Place": "Savona",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/C4fZcGdjWi3wtAEv9",
 		"Coordinates": "44.29739695359327, 8.470392529680641",
@@ -2310,7 +2133,6 @@
 	{
 		"Location ID (LOC)": "LOC:Spilimberto",
 		"Name of Location": "Spilimberto",
-		"City or Larger Place": "Spilimberto",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/onr4TeARQRDJfxRLA",
 		"Coordinates": "44.53368827222971, 11.020976771863324",
@@ -2320,7 +2142,6 @@
 	{
 		"Location ID (LOC)": "LOC:Suscinio",
 		"Name of Location": "Suscinio",
-		"City or Larger Place": "Suscinio",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/cgxk8haaUhYGTBBG7",
 		"Coordinates": "47.52203367269411, -2.6849845202386247",
@@ -2330,7 +2151,6 @@
 	{
 		"Location ID (LOC)": "LOC:Tarare",
 		"Name of Location": "Tarare",
-		"City or Larger Place": "Tarare",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/bwQw86HTLrvfiKRn7",
 		"Coordinates": "45.8970779569219, 4.433083033644222",
@@ -2340,7 +2160,6 @@
 	{
 		"Location ID (LOC)": "LOC:Thieulain",
 		"Name of Location": "Thieulain",
-		"City or Larger Place": "Thieulain",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/uVa8VNPcDaaPjedF8",
 		"Coordinates": "50.6207161823949, 3.605272512196036",
@@ -2350,7 +2169,6 @@
 	{
 		"Location ID (LOC)": "LOC:Thouars",
 		"Name of Location": "Thouars",
-		"City or Larger Place": "Thouars",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/U19PV1fpjuzVhLeh7",
 		"Coordinates": "46.97916009434013, -0.2353061891102845",
@@ -2360,7 +2178,6 @@
 	{
 		"Location ID (LOC)": "LOC:Tiffauges",
 		"Name of Location": "Tiffauges",
-		"City or Larger Place": "Tiffauges",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/9VtoamycyjH7nw7V9",
 		"Coordinates": "47.01307441224209, -1.1148221850025433",
@@ -2370,7 +2187,6 @@
 	{
 		"Location ID (LOC)": "LOC:Tournai",
 		"Name of Location": "Tournai",
-		"City or Larger Place": "Tournai",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/HBY3X4MYHPopo25s6",
 		"Coordinates": "50.60438791776806, 3.3912704563427827",
@@ -2380,7 +2196,6 @@
 	{
 		"Location ID (LOC)": "LOC:Tournus",
 		"Name of Location": "Tournus",
-		"City or Larger Place": "Tournus",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/ubtzBHMSkFVHvUKP8",
 		"Coordinates": "46.56230875708862, 4.911076990359664",
@@ -2390,7 +2205,6 @@
 	{
 		"Location ID (LOC)": "LOC:Tours",
 		"Name of Location": "Tours",
-		"City or Larger Place": "Tours",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/TUtzErhYSX5y9hVEA",
 		"Coordinates": "47.39470747173119, 0.686183769462214",
@@ -2410,7 +2224,6 @@
 	{
 		"Location ID (LOC)": "LOC:Treguier",
 		"Name of Location": "Tréguier",
-		"City or Larger Place": "Tréguier",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/qttCJGAS4SA9sqYEA",
 		"Coordinates": "48.78759063474656, -3.2309706267178386",
@@ -2420,7 +2233,6 @@
 	{
 		"Location ID (LOC)": "LOC:Trento",
 		"Name of Location": "Trento",
-		"City or Larger Place": "Trento",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/DmsHmvVWKzrsyiyF9",
 		"Coordinates": "46.074380986488805, 11.121385050086475",
@@ -2430,7 +2242,6 @@
 	{
 		"Location ID (LOC)": "LOC:Turin",
 		"Name of Location": "Turin",
-		"City or Larger Place": "Turin",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/GFV2wHLPHd73inPVA",
 		"Coordinates": "45.0725338852325, 7.6875961550146155",
@@ -2452,7 +2263,6 @@
 	{
 		"Location ID (LOC)": "LOC:Urbino",
 		"Name of Location": "Urbino",
-		"City or Larger Place": "Urbino",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/rQyX2YaHqVT9tku69",
 		"Coordinates": "43.72586079227329, 12.636939725179847",
@@ -2462,7 +2272,6 @@
 	{
 		"Location ID (LOC)": "LOC:Vaccarassio",
 		"Name of Location": "Vaccarassio",
-		"City or Larger Place": "Vaccarassio",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/FZp8aH2GJaSDtciK9",
 		"Coordinates": "44.137959898504995, 4.9829967690436225",
@@ -2474,7 +2283,6 @@
 	{
 		"Location ID (LOC)": "LOC:Valence",
 		"Name of Location": "Valence",
-		"City or Larger Place": "Valence",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/PHEZxdmf3e9t5Ykb9",
 		"Coordinates": "44.933384129850346, 4.901450461432498",
@@ -2484,7 +2292,6 @@
 	{
 		"Location ID (LOC)": "LOC:Valenciennes",
 		"Name of Location": "Valenciennes",
-		"City or Larger Place": "Valenciennes",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/ZLFPZLiPDb1FD6U69",
 		"Coordinates": "50.3571985714604, 3.5166583876261717",
@@ -2494,7 +2301,6 @@
 	{
 		"Location ID (LOC)": "LOC:Vannes",
 		"Name of Location": "Vannes",
-		"City or Larger Place": "Vannes",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/bAWLEGJq5eNiGAH26",
 		"Coordinates": "47.657587381927996, -2.757046652293406",
@@ -2553,14 +2359,12 @@
 	{
 		"Location ID (LOC)": "LOC:Velaine",
 		"Name of Location": "Velaine",
-		"City or Larger Place": "Velaine",
 		"Input data": "LO",
 		"Date entered": "2024-1-24"
 	},
 	{
 		"Location ID (LOC)": "LOC:Velaines",
 		"Name of Location": "Velaines",
-		"City or Larger Place": "Velaines",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/LZBEoGQtCGGQC1KU8",
 		"Coordinates": "50.67853340077704, 3.489800396912093",
@@ -2570,7 +2374,6 @@
 	{
 		"Location ID (LOC)": "LOC:Venice",
 		"Name of Location": "Venice",
-		"City or Larger Place": "Venice",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/Dw3A5Bf8ZKhtVL6J9",
 		"Coordinates": "45.439606539608135, 12.320718269276547",
@@ -2580,7 +2383,6 @@
 	{
 		"Location ID (LOC)": "LOC:Venice-Basilica_di_San_Marco",
 		"Name of Location": "Venice",
-		"City or Larger Place": "Venice",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/gU9mTCYxr7TaZ4Cq9",
 		"Coordinates": "45.43456011262989, 12.339713283482023",
@@ -2590,7 +2392,6 @@
 	{
 		"Location ID (LOC)": "LOC:Verona",
 		"Name of Location": "Verona",
-		"City or Larger Place": "Verona",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/Waxm42mG2QYVzxRy5",
 		"Coordinates": "45.43889156614366, 10.986865844530875",
@@ -2600,7 +2401,6 @@
 	{
 		"Location ID (LOC)": "LOC:Vienna",
 		"Name of Location": "Vienna",
-		"City or Larger Place": "Vienna",
 		"Modern Country": "Austria",
 		"Google URL": "https://maps.app.goo.gl/PemX21FTLt7i3yZY6",
 		"Coordinates": "48.21010074830227, 16.39202252903936",
@@ -2610,7 +2410,6 @@
 	{
 		"Location ID (LOC)": "LOC:Vigevano",
 		"Name of Location": "Vigevano",
-		"City or Larger Place": "Vigevano",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/8zRk4HWw71SRU49w6",
 		"Coordinates": "45.322669785634076, 8.854451113510965",
@@ -2620,7 +2419,6 @@
 	{
 		"Location ID (LOC)": "LOC:Villers-Notre-Dame",
 		"Name of Location": "Villers-Notre-Dame",
-		"City or Larger Place": "Villers-Notre-Dame",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/cxbwfJdpjHjTceC56",
 		"Coordinates": "50.61762498149518, 3.742035102585504",
@@ -2640,7 +2438,6 @@
 	{
 		"Location ID (LOC)": "LOC:Viterbo",
 		"Name of Location": "Viterbo",
-		"City or Larger Place": "Viterbo",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/z1EQAzNzLnqkcKaB6",
 		"Coordinates": "42.43673210470105, 12.134073772268174",
@@ -2650,7 +2447,6 @@
 	{
 		"Location ID (LOC)": "LOC:Vitre",
 		"Name of Location": "Vitré",
-		"City or Larger Place": "Vitré",
 		"Modern Country": "France",
 		"Google URL": "https://goo.gl/maps/WiNzabRfiyVJvcSy6",
 		"Coordinates": "48.12058031980275, -1.226837500931666",
@@ -2660,7 +2456,6 @@
 	{
 		"Location ID (LOC)": "LOC:Vizille",
 		"Name of Location": "Vizille",
-		"City or Larger Place": "Vizille",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/ryiJBj1FjqLW5i418",
 		"Coordinates": "45.077518962816754, 5.773784243087939",
@@ -2670,7 +2465,6 @@
 	{
 		"Location ID (LOC)": "LOC:Vorghenza",
 		"Name of Location": "Vorghenza",
-		"City or Larger Place": "Vorghenza",
 		"Modern Country": "Italy",
 		"Google URL": "https://goo.gl/maps/CDF77xNJERwGd7tr7",
 		"Coordinates": "44.76732039453713, 11.749590289425926",
@@ -2680,7 +2474,6 @@
 	{
 		"Location ID (LOC)": "LOC:Wastine",
 		"Name of Location": "Wastine",
-		"City or Larger Place": "Wastine",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/yYoLEeWJRaBru7JZ8",
 		"Coordinates": "50.67090162962098, 4.804554725304624",
@@ -2691,7 +2484,6 @@
 	{
 		"Location ID (LOC)": "LOC:Wattripont",
 		"Name of Location": "Wattripont",
-		"City or Larger Place": "Wattripont",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/KzWdHKmUb8rX1H987",
 		"Coordinates": "50.72951709304043, 3.547994962855839",
@@ -2710,7 +2502,6 @@
 	{
 		"Location ID (LOC)": "LOC:Worms",
 		"Name of Location": "Worms",
-		"City or Larger Place": "Worms",
 		"Modern Country": "Germany",
 		"Google URL": "https://maps.app.goo.gl/uEkAhfMwJC2hrZSX6",
 		"Coordinates": "49.63461719676762, 8.353168089977842",
@@ -2720,7 +2511,6 @@
 	{
 		"Location ID (LOC)": "LOC:Zocca",
 		"Name of Location": "Zocca",
-		"City or Larger Place": "Zocca",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/P8fvwP1yQrGozaRc7",
 		"Coordinates": "44.93832255108442, 11.74906653794804",
