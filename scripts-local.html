@@ -147,6 +147,7 @@ function doMapSetup(opts) {
     let person = "";
     let personprocessed = "";
     let locationid = "";
+    let locationprocessed = "";
     let daterange = "";
     let coordinates = "";
     let coordinatesprocessed = "";
@@ -159,6 +160,7 @@ function doMapSetup(opts) {
         if (events[i][LOC]) {
             locationid = events[i][LOC];
             let locationInfo = findInfo(locationid, "Locations");
+            let locationprocessed = locationInfo[LOCNAME];
 
             if (events[i][BIOID]) {
                 person = events[i][BIOID];
@@ -201,10 +203,10 @@ function doMapSetup(opts) {
 
             // Create point on map
             if (description) {
-                let marker = L.marker(coordinatesprocessed).bindPopup(`[${daterange}] ${personprocessed}: ${description}`);
+                let marker = L.marker(coordinatesprocessed).bindPopup(`<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} <br><b>Description:</b> ${description}`);
                 markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}` });
             } else if (!description) {
-                let marker = L.marker(coordinatesprocessed).bindPopup(`[${daterange}] ${personprocessed}`);
+                let marker = L.marker(coordinatesprocessed).bindPopup(`<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed}`);
                 markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}` });
             }
 
