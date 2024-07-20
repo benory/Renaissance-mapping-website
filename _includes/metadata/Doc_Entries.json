@@ -3414,5 +3414,42 @@
 		"Related People": "BCO:Heinrich_Isaac",
 		"Input data": "SMB",
 		"Date entered": "2024-6-29"
+	},
+	{
+		"Document Entry (DOE) ID": "DOE:Modena_ASM_42",
+		"Archival Document (ARD)": "ARD:Modena_Musica_B2",
+		"Language": "Italian",
+		"Earliest Year": "1491",
+		"Earliest Month": "7",
+		"Earliest Day": "10",
+		"Latest Year": "1491",
+		"Latest Month": "7",
+		"Latest Day": "10",
+		"Date Range": "10 July 1491",
+		"Description": "Ghiselin writes about a benifice for his son",
+		"Document Type": "benefice",
+		"Bibliography ID (BIB) (if different)": "BIB:Gottwald_1962",
+		"BIB Pages": "11",
+		"Related People": "BCO:Johannes_Ghiselin",
+		"Input data": "SMB",
+		"Date entered": "2024-7-19"
+	},
+	{
+		"Document Entry (DOE) ID": "DOE:Modena_ASM_43",
+		"Archival Document (ARD)": "ARD:Modena_Dispacci_3",
+		"Language": "Italian",
+		"Earliest Year": "1503",
+		"Earliest Month": "4",
+		"Earliest Day": "12",
+		"Latest Year": "1503",
+		"Latest Month": "4",
+		"Latest Day": "12",
+		"Date Range": "12 April 1503",
+		"Description": "Ghiselin sighted in Ferrara",
+		"Bibliography ID (BIB) (if different)": "BIB:Gottwald_1962",
+		"BIB Pages": "15",
+		"Related People": "BCO:Johannes_Ghiselin",
+		"Input data": "SMB",
+		"Date entered": "2024-7-19"
 	}
 ]

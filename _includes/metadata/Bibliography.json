@@ -565,5 +565,15 @@
 		"Publication Year": "1643",
 		"Input data": "FEM",
 		"Date entered": "2024-7-16"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Gottwald_1962",
+		"Author": "Gottwald, Clytus",
+		"Name of Article": "Johannes Ghiselin-Johannes Verbonnet: Stilkritische Untersuchung zum Problem ihrer Identitaet",
+		"Location": "Wiesbaden",
+		"Publisher": "Breitkopf & Haertel",
+		"Publication Year": "1962",
+		"Input data": "SMB",
+		"Date entered": "2024-7-19"
 	}
 ]

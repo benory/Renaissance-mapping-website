@@ -1234,5 +1234,23 @@
 		"Signature": "104",
 		"Input data": "SMB",
 		"Date entered": "2024-6-29"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Modena_Musica_B2",
+		"Location ID (LOC)": "LOC:Modena-Archivio_di_Stato",
+		"Archive": "Archivio di Stato di Modena",
+		"Archival Fond": "Musica e Musicisti",
+		"Signature": "B. 2",
+		"Input data": "SMB",
+		"Date entered": "2024-7-19"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Modena_Dispacci_3",
+		"Location ID (LOC)": "LOC:Modena-Archivio_di_Stato",
+		"Archive": "Archivio di Stato di Modena",
+		"Archival Fond": "Dispacci de la Francia",
+		"Signature": "B. 3",
+		"Input data": "SMB",
+		"Date entered": "2024-7-19"
 	}
 ]
