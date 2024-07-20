@@ -150,6 +150,13 @@ function doMapSetup(opts) {
     let CERTLDATE = MAP.cindex("EV", "CERTLDATE");
     let CERTRANGE = MAP.cindex("EV", "CERTRANGE");
 
+    // Get variable names for document entries
+    let DOEID = MAP.cindex("EV", "DOEID");
+    let ARDID = MAP.cindex("DOE", "ARDID");
+    let ARDARC = MAP.cindex("ARD", "ARC");
+    let ARDARCFOND = MAP.cindex("ARD", "ARCFOND");
+    let ARDSIG = MAP.cindex("ARD", "SIG");
+
     // Establish variables
     let eventid = "";
     let person = "";
@@ -161,6 +168,9 @@ function doMapSetup(opts) {
     let coordinates = "";
     let coordinatesprocessed = "";
     let description = "";
+    let docentry = "";
+    let bibliography = "";
+    let archiveprocessed = "";
 
     markers = []; // Clear the markers array
 
@@ -223,29 +233,80 @@ function doMapSetup(opts) {
             let locationCertainty = events[i][CERTLOC];
             let earliestDateCertainty = events[i][CERTEDATE];
             let latestDateCertainty = events[i][CERTLDATE];
-            let rangeCertainty = events[i][CERTLOC];
+            let rangeCertainty = events[i][CERTRANGE];
 
             // Add information about location certainty to location
-            if (locationCertainty && locationCertainty !== 1){
-                if (locationCertainty == 2){
-                    locationprocessed += ` [probable]`;
-                } else if (locationCertainty == 3){
-                    locationprocessed += ` [possible]`;
-                } else if (locationCertainty == 4){
-                    locationprocessed += ` [doubtful]`;
+            if (locationCertainty){
+
+                // Only consider location certainty if not certain
+                if (locationCertainty !== 1) {
+                    if (locationCertainty == 2){
+                        locationprocessed += ` [probable]`;
+                    } else if (locationCertainty == 3){
+                        locationprocessed += ` [possible]`;
+                    } else if (locationCertainty == 4){
+                        locationprocessed += ` [doubtful]`;
+                    } else {
+                        console.warn("Forbidden location certainty for", eventid);
+                        continue;
+                    }
+                }
+            }
+
+            // Get archival signature for linked document entry, if applicable
+            if (events[i][DOEID]) {
+                docentry = events[i][DOEID];
+                let archivalid = "";
+
+                // Split docentries if multiple documents separated by a semicolon
+                if (docentry.match(";")){
+                    docentry = docentry.trim().split(/\s*;\s*/);
+                    console.warn("Split for", events[i][ID]);
                 } else {
-                    console.warn("Forbidden location certainty for", eventid);
-                    continue;
+                    docentry = [ docentry ];
+                }
+                
+                for (let j=0; j<docentry.length; j++){
+                    console.warn("docentry", docentry);
+                    // Get archival document from document entries data
+                    let documentInfo = findInfo(docentry[j], "Doc_Entries");
+                    
+                    // Only process if there's an archive linked to the document
+                    if (documentInfo) {
+                        archivalid = documentInfo[ARDID];
+                    }
+                    
+                    // Get archival signature from archival documents data
+                    if (archivalid) {
+                        let archivalInfo = findInfo(archivalid, "Archival_Docs");
+                        let archive = archivalInfo[ARDARC];
+                        let fond = archivalInfo[ARDARCFOND];
+                        let signature = archivalInfo[ARDSIG];
+
+                        if (archive && j == 0){
+                            archiveprocessed += `<br><b>Archival Document:</b> ${archive}`;
+                        } else if (archive) {
+                            archiveprocessed += `; ${archive}`;
+                        }
+
+                        if (archive && fond){
+                            archiveprocessed += `, ${fond}`;
+                        }
+
+                        if (archive && fond && signature){
+                            archiveprocessed += ` ${signature}`;
+                        }
+                    }
                 }
             }
 
             // Create point on map
             if (description) {
-                let marker = L.marker(coordinatesprocessed).bindPopup(`<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} <br><b>Description:</b> ${description}`);
+                let marker = L.marker(coordinatesprocessed).bindPopup(`<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} <br><b>Description:</b> ${description} ${archiveprocessed}`);
                 markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}` });
             } else if (!description) {
-                let marker = L.marker(coordinatesprocessed).bindPopup(`<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed}`);
-                markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}` });
+                let marker = L.marker(coordinatesprocessed).bindPopup(`<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} ${archiveprocessed}`);
+                markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}` });
             }
 
             // Reset variables
@@ -258,6 +319,9 @@ function doMapSetup(opts) {
             coordinates = "";
             coordinatesprocessed = "";
             description = "";
+            docentry = "";
+            bibliography = "";
+            archiveprocessed = "";
         }
     }
 
