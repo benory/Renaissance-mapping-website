@@ -267,6 +267,7 @@ function makeTableBody(headings, data) {
 	let LOCNAME = MAP.cindex("LOC", "LOCNAME");
 	let ARDARC = MAP.cindex("ARD", "ARC");
 	let ARDARCFOND = MAP.cindex("ARD", "ARCFOND");
+	let ARDSIG = MAP.cindex("ARD", "SIG");
 	
 	for (let i=0; i<data.length; i++) {
 			let entry = data[i];
@@ -298,8 +299,19 @@ function makeTableBody(headings, data) {
 						locationprocessed = locationInfo[LOCNAME];
 						output += locationprocessed;
 					} else if (valueshort == "ARD") {
-						archiveprocessed = `${archiveInfo[ARDARC]}, ${archiveInfo[ARDARCFOND]}`;
+						if (archiveInfo[ARDARC]) {
+							archiveprocessed += `${archiveInfo[ARDARC]}`;
+						}
+						if (archiveInfo[ARDARCFOND]) {
+							archiveprocessed += `, ${archiveInfo[ARDARCFOND]}`;
+						}
+						if (archiveInfo[ARDSIG]) {
+							archiveprocessed += ` ${archiveInfo[ARDSIG]}`;
+						}
 						output += archiveprocessed;
+
+						//reset archiveprocessed
+						archiveprocessed = "";
 					} else {
 						output += value;
 					}
