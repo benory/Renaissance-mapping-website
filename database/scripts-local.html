@@ -239,15 +239,25 @@ function displayBrowseTableDocuments(data) {
 
 function makeTableHeader(headings) {
 	let output = "";
+	let personheading = "Person";
+	let locationheading = "Location";
+	let archivalheading = "Archive";
 	for (let i=0; i<headings.length; i++ ) {
 		output += `<th>`;
-		output += headings[i];
+		if (headings[i] == MAP.cindex("EV", "BIOID")) {
+			output += personheading;
+		} else if (headings[i] == MAP.cindex("EV", "LOCID")) {
+			output += locationheading;
+		} else if (headings[i] == MAP.cindex("DOE", "ARDID")){
+			output += archivalheading;
+		}
+		else {
+			output += headings[i];
+		}
 		output += `</th>`;
 	}
 	return output;
 }
-
-
 
 //////////////////////////////
 //
