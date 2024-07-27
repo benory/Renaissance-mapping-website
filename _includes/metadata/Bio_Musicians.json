@@ -1,5 +1,14 @@
 [
 	{
+		"Biography Musician (BMU) ID": "BMU:Adam_piffaro",
+		"Musician Name": "Adam piffaro",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Agostino_della_Viola",
 		"Musician Name": "Agostino della Viola",
 		"Description": "musician at Ferrarese court",
@@ -28,6 +37,24 @@
 		"BIB Pages": "37–38",
 		"Input data": "LO",
 		"Date entered": "2023-3-28"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Aluisio_cantore",
+		"Musician Name": "Aluisio cantore",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "356",
+		"Input data": "RP",
+		"Date entered": "2024-7-25"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Andrea_della_Viola",
+		"Musician Name": "Andrea della Viola",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Andrea_Picardo",
@@ -66,6 +93,24 @@
 		"Date entered": "2023-3-9"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Antonii_cappellano",
+		"Musician Name": "Antonii cappellano",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Antonio_da_Cambrai",
+		"Musician Name": "Antonio da Cambrai cantadore",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "357",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Antonio_da_Venezia",
 		"Musician Name": "Antonio da Venezia",
 		"Description": "musician at Ferrarese court",
@@ -93,14 +138,13 @@
 		"Date entered": "2023-3-9"
 	},
 	{
-		"Biography Musician (BMU) ID": "BMU:Antonius_Cortit",
-		"Musician Name": "Antonius Cortit",
-		"Alias": "Cortiz, Curtis, Curtill",
-		"Description": "singer in the papal chapel; recruited from the chapel of John of Navarre; left the papal chapel sometime between 1476 and 1479",
-		"Bibliography ID (BIB)": "BIB:Starr_1987",
-		"BIB Pages": "115; 119–20",
-		"Input data": "LO",
-		"Date entered": "2024-3-15"
+		"Biography Musician (BMU) ID": "BMU:Antonio_trombeta",
+		"Musician Name": "Antonio trombeta",
+		"Description": "trumpeter at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Antonius_Baneston",
@@ -122,6 +166,25 @@
 		"Date entered": "2024-3-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Antonius_Cortit",
+		"Musician Name": "Antonius Cortit",
+		"Alias": "Cortiz, Curtis, Curtill",
+		"Description": "singer in the papal chapel; recruited from the chapel of John of Navarre; left the papal chapel sometime between 1476 and 1479",
+		"Bibliography ID (BIB)": "BIB:Starr_1987",
+		"BIB Pages": "115; 119–20",
+		"Input data": "LO",
+		"Date entered": "2024-3-15"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Antonius_de_Alemania",
+		"Musician Name": "Antonius de Alemania",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "357",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Antonius_Walthieri",
 		"Musician Name": "Antonius Walthieri",
 		"Alias": "Walthier, Valthieri",
@@ -131,6 +194,15 @@
 		"Internal notes": "listed as Antonius Walthier",
 		"Input data": "LO",
 		"Date entered": "2023-3-28"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Anzelino_pifaro_portonaro",
+		"Musician Name": "Anzelino pifaro portonaro",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "356",
+		"Input data": "RP",
+		"Date entered": "2024-7-25"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Archangelo_Blasi",
@@ -205,19 +277,20 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Bartolomeo_de_Fiandra",
 		"Musician Name": "Bartolomeo de Fiandra cantore",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-6-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Bartolomeo_de_Fiandra",
-		"Musician Name": "Bartolomeo de Fiandra cantore",
 		"Description": "musician at Ferrarese court",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "361–2",
+		"BIB Pages": "360–2",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bartolomeo_Raimondo_de_Valenza",
+		"Musician Name": "Bartolomeo Raimondo de Valenza",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "357",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Bartolomeo_Spagnolo",
@@ -229,6 +302,15 @@
 		"Date entered": "2023-3-9",
 		"Update data": "BSO",
 		"Date updated": "2024-2-12"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bazo_dArezzo",
+		"Musician Name": "Bazo d'Arezzo trombeta",
+		"Description": "trumpeter at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Benedetto_da_Como",
@@ -248,6 +330,15 @@
 		"BIB Pages": "115; 121",
 		"Input data": "LO",
 		"Date entered": "2024-3-15"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernardino_da_Sisi",
+		"Musician Name": "Bernardino da Sisi trombeta",
+		"Description": "trumpeter at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Bernardo_da_Colornio",
@@ -277,6 +368,15 @@
 		"Date entered": "2024-3-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Biagio_Montelmo",
+		"Musician Name": "Biagio Montelmo",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "357",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Bono_Radulphi",
 		"Musician Name": "Bono Radulphi",
 		"Description": "singer in the papal chapel; a motu proprio places him in the chapel in February 1500",
@@ -286,6 +386,15 @@
 		"Date entered": "2023-3-28"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Carlo_da_Bologna",
+		"Musician Name": "Carlo da Bologna piffaro",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Carlo_de_Fiandra",
 		"Musician Name": "Carlo de Fiandra compositore de chantj",
 		"Description": "musician at Ferrarese court",
@@ -293,6 +402,15 @@
 		"BIB Pages": "361",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Christoforo_de_Modena",
+		"Musician Name": "Christoforo de Modena cantore",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Christoforus_Rousseaux",
@@ -351,6 +469,15 @@
 		"Date entered": "2024-4-4"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Cordiere_cantore",
+		"Musician Name": "Cordiere cantore",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Cornelio_de_Fiandra",
 		"Musician Name": "Cornelio de Fiandra",
 		"Description": "musician at Ferrarese court",
@@ -371,6 +498,24 @@
 		"BIB Pages": "26–30",
 		"Input data": "LO",
 		"Date entered": "2023-3-28"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Dioda_buffone",
+		"Musician Name": "Dioda buffone",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "357",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Domenico_del_Reame",
+		"Musician Name": "Domenico del Reame trombeta",
+		"Description": "trumpeter at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "356",
+		"Input data": "RP",
+		"Date entered": "2024-7-25"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Domenico_organista",
@@ -456,6 +601,51 @@
 		"Date entered": "2024-3-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Francesco_da_Montepulziano",
+		"Musician Name": "Francesco da Montepulziano trombeta",
+		"Description": "trumpeter at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Francesco_de_la_Gata",
+		"Musician Name": "Francesco de la Gata tenorista",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Francesco_de_Orthona",
+		"Musician Name": "Francesco de Orthona tamburino",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Francesco_Malacise",
+		"Musician Name": "Francesco Malacise tenorista",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "355",
+		"Input data": "RP",
+		"Date entered": "2024-7-25"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Francesco_tamborin",
+		"Musician Name": "Francesco tamborin",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Francois_Le_Vigoreux",
 		"Musician Name": "François Le Vigoreux",
 		"Bibliography ID (BIB)": "BIB:Sherr_1988",
@@ -537,6 +727,14 @@
 		"Date entered": "2024-2-12"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Giam_Francese",
+		"Musician Name": "Giam Francese cantore",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-15"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Giam_Guaschon",
 		"Musician Name": "Giam Guaschon",
 		"Description": "musician at Ferrarese court",
@@ -544,6 +742,15 @@
 		"BIB Pages": "362",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gian_cantore",
+		"Musician Name": "Gian cantore",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Gian_de_Fiandra",
@@ -557,6 +764,50 @@
 		"Date updated": "2024-2-12"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Gian_Francese",
+		"Musician Name": "Gian Francese cantore",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Giletto_Picardo",
+		"Musician Name": "Giletto Picardo cantore",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-15"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Giovanni_Marco",
+		"Musician Name": "Giovanni Marco cantore",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "357-58",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Giovanni_suonatore",
+		"Musician Name": "Giovanni suonatore",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "357",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Girardo_cantore",
+		"Musician Name": "Girardo cantore",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Girolamo",
 		"Musician Name": "Girolamo",
 		"Description": "musician at Ferrarese court",
@@ -566,13 +817,22 @@
 		"Date entered": "2023-3-9"
 	},
 	{
-		"Biography Musician (BMU) ID": "BMU:Girolamo_Albanexe_capelano",
+		"Biography Musician (BMU) ID": "BMU:Girolamo_Albanexe",
 		"Musician Name": "Girolamo Albanexe capelano",
 		"Description": "musician at Ferrarese court",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
 		"BIB Pages": "360–2",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Girolamo_Albanexe",
+		"Musician Name": "Girolamo Albanexe capelano",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "357",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Girolamo_Beltrandi",
@@ -584,6 +844,15 @@
 		"Date entered": "2023-3-9",
 		"Update data": "BSO",
 		"Date updated": "2024-2-12"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Girolamo_da_Ferrara",
+		"Musician Name": "Girolamo da Ferrara soprano",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Girolamo_da_Sestola",
@@ -633,6 +902,42 @@
 		"Date entered": "2024-3-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Gregorio_soprano_piffaro",
+		"Musician Name": "Gregorio soprano piffaro",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guaspar_del_organo",
+		"Musician Name": "Guaspar del organo",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guglielmo_tamburino",
+		"Musician Name": "Guglielmo tamburino",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guido_Zohane",
+		"Musician Name": "Guido Zohane",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Guillaume_Bouchier",
 		"Musician Name": "Guillaume Bouchier",
 		"Description": "provost and canon",
@@ -678,6 +983,15 @@
 		"Date entered": "2024-3-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Henricus_de_Alemania",
+		"Musician Name": "Henricus de Alemania",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "357",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Henricus_Rosa",
 		"Musician Name": "Henricus Rose",
 		"Alias": "De Zelle",
@@ -686,14 +1000,6 @@
 		"BIB Pages": "115",
 		"Input data": "LO",
 		"Date entered": "2024-3-15"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Hilaire_Bernoneau",
-		"Musician Name": "Hilaire Bernoneau",
-		"Bibliography ID (BIB)": "BIB:Sherr_1988",
-		"BIB Pages": "61–64",
-		"Input data": "BSO",
-		"Date entered": "2024-4-4"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Hieronimus_Beltrandi",
@@ -714,6 +1020,14 @@
 		"BIB Pages": "360–3",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Hilaire_Bernoneau",
+		"Musician Name": "Hilaire Bernoneau",
+		"Bibliography ID (BIB)": "BIB:Sherr_1988",
+		"BIB Pages": "61–64",
+		"Input data": "BSO",
+		"Date entered": "2024-4-4"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Illario_Turluron",
@@ -785,6 +1099,15 @@
 		"Date entered": "2023-3-28"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Jacomo_capelano",
+		"Musician Name": "Jacomo capelano dela illustrissima madama",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Jacomo_da_Sansegondo",
 		"Musician Name": "Jacomo da Sansegondo cantore",
 		"Description": "musician at Ferrarese court",
@@ -811,6 +1134,42 @@
 		"Internal notes": "Also appears as \"Jacomo cantore\"",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacomo_della_Viola",
+		"Musician Name": "Jacomo della Viola",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacomo_dellarpa",
+		"Musician Name": "Jacomo dell'arpa sonadore",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacotin_cantore",
+		"Musician Name": "Jacotin cantore",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jani_contrabasso",
+		"Musician Name": "Jani contrabasso",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Jannes_Pezenin",
@@ -874,6 +1233,15 @@
 		"BIB Pages": "71–72",
 		"Input data": "LO",
 		"Date entered": "2023-4-2"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johanne_a_Senesino",
+		"Musician Name": "Johanne a Senesino musico",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Barbe",
@@ -959,6 +1327,16 @@
 		"BIB Pages": "115",
 		"Input data": "LO",
 		"Date entered": "2024-3-15"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Gallicus",
+		"Musician Name": "Johannes Gallicus",
+		"Alias": "Johannes Gallicus professor ordinis fratrum Minorum",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "357",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Gonbert",
@@ -1201,12 +1579,48 @@
 		"Date entered": "2024-3-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Ludovico_da_Bologna",
+		"Musician Name": "Ludovico da Bologna piffaro",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Ludovico_da_Modena",
 		"Musician Name": "Ludovico da Modena",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
 		"BIB Pages": "361",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Ludovico_dallarpa",
+		"Musician Name": "Ludovico dall'arpa",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "357",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Ludovico_tenorista",
+		"Musician Name": "Ludovico tenorista",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "356",
+		"Input data": "RP",
+		"Date entered": "2024-7-25"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Ludovigo_da_Bologna",
+		"Musician Name": "Ludovigo da Bologna piffaro",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Ludovigo_da_Fulgano",
@@ -1217,12 +1631,30 @@
 		"Date entered": "2023-3-9"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Luzido_trombeta",
+		"Musician Name": "Luzido trombeta",
+		"Description": "trumpeter at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:M_Gian_Cantore",
 		"Musician Name": "M. Gian Cantore",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
 		"BIB Pages": "361",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Marino_cappellano",
+		"Musician Name": "Marino cappellano",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Martinus_Scudero",
@@ -1273,6 +1705,14 @@
 		"Date entered": "2023-3-28"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Matio_de_Paris",
+		"Musician Name": "Matio de Paris",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-15"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Matio_Fiamingo",
 		"Musician Name": "Matio Fiamingo",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
@@ -1309,6 +1749,15 @@
 		"Date entered": "2024-4-4"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Michiele_da_Fiorenza",
+		"Musician Name": "Michiele da Fiorenza cantore",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Michiele_da_Lucca",
 		"Musician Name": "Michiele da Lucca",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009; BIB:Lockwood_1979",
@@ -1317,6 +1766,24 @@
 		"Date entered": "2023-3-9",
 		"Update data": "BSO",
 		"Date updated": "2024-2-12"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Michiele_Tedesco",
+		"Musician Name": "Michiele Tedesco piffaro",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nardo_tamburino",
+		"Musician Name": "Nardo tamburino",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Nicasius_de_Villin",
@@ -1333,6 +1800,24 @@
 		"BIB Pages": "68",
 		"Input data": "BSO",
 		"Date entered": "2024-4-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicolo_de_Carmielli_dallarpa",
+		"Musician Name": "Nicolo de Carmielli dall'arpa",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "357",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicolo_de_larpa",
+		"Musician Name": "Nicolo de l'arpa",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Nicolo_Fiorentino",
@@ -1378,6 +1863,15 @@
 		"Date entered": "2023-3-28"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Paulo_Grillo",
+		"Musician Name": "Paulo Grillo",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "355",
+		"Input data": "RP",
+		"Date entered": "2024-7-25"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Paulus_de_Trottis",
 		"Musician Name": "Paulus de Trottis",
 		"Alias": "Trots",
@@ -1386,6 +1880,14 @@
 		"BIB Pages": "37–42",
 		"Input data": "LO",
 		"Date entered": "2023-3-28"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pedros_contra_alto",
+		"Musician Name": "Pedros contra alto",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-15"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Petro_Rosello",
@@ -1412,6 +1914,15 @@
 		"BIB Pages": "115",
 		"Input data": "LO",
 		"Date entered": "2024-3-15"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_de_Valentina",
+		"Musician Name": "Petrus de Valentina",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "357",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Petrus_Devre",
@@ -1474,12 +1985,40 @@
 		"Date entered": "2024-3-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Philippo_de_Primis_de_Fano",
+		"Musician Name": "Philippo de Primis de Fano cantore",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Philippus_Ladai",
 		"Musician Name": "Philippus Ladai",
 		"Bibliography ID (BIB)": "BIB:Starr_1987",
 		"BIB Pages": "115",
 		"Input data": "LO",
 		"Date entered": "2024-3-15"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Piedro_da_Ragona",
+		"Musician Name": "Piedro da Ragona maestro di clavicembalo",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Piedro_de_Augustino",
+		"Musician Name": "Piedro de Augustino trombone",
+		"Alias": "Also appears as Piedro Augustino trombone",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Piedro_Som_de_Milleville",
@@ -1489,6 +2028,15 @@
 		"BIB Pages": "362; 210",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Piero_Antonio_da_Bologna",
+		"Musician Name": "Piero Antonio da Bologna trombeta",
+		"Description": "trumpeter at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Piero_Cariom",
@@ -1507,6 +2055,23 @@
 		"Date entered": "2023-3-9"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Piero_Griego",
+		"Musician Name": "Piero Griego",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Piero_Picardo",
+		"Musician Name": "Piero Picardo cantore",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-15"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Pierre_Jouault",
 		"Musician Name": "Pierre Jouault",
 		"Alias": "Brule",
@@ -1522,6 +2087,60 @@
 		"BIB Pages": "76–77",
 		"Input data": "BSO",
 		"Date entered": "2024-4-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pietro_Rossello",
+		"Musician Name": "Pietro Rossello",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pietrobono_dal_Chitarino",
+		"Musician Name": "Pietrobono dal Chitarino",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pollo_dalle_Conchele",
+		"Musician Name": "Pollo dalle Conchele",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:priette_Turuso_capelano",
+		"Musician Name": "priette Turuso capelano",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Raganello_trombeta",
+		"Musician Name": "Raganello trombeta",
+		"Description": "trumpeter at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Rainaldo_dal_Chitarino",
+		"Musician Name": "Rainaldo dal Chitarino",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Raynaldus_de_Odena",
@@ -1594,6 +2213,15 @@
 		"Date entered": "2023-3-28"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Rossetto_de_Thomaso",
+		"Musician Name": "Rosetto de Thomaso trombeta",
+		"Description": "trumpeter at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Rosso_de_Meniato",
 		"Musician Name": "Rosso de Meniato organista",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
@@ -1608,6 +2236,15 @@
 		"BIB Pages": "362",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Sebastiano_trombeta",
+		"Musician Name": "Sebastiano trombeta",
+		"Description": "trumpeter at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "355-56",
+		"Input data": "RP",
+		"Date entered": "2024-7-25"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Sigerius_de_Nerin",
@@ -1637,6 +2274,24 @@
 		"Date entered": "2023-3-28"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Stefano_de_Piamonte",
+		"Musician Name": "Stefano de Piamonti tamburino",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "357",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Stiefano_da_Montepulziano",
+		"Musician Name": "Stiefano da Montepulziano trombeta",
+		"Description": "trumpeter at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Thomas_Fazanis",
 		"Musician Name": "Thomas Fazanis",
 		"Alias": "Thome de Fazanis",
@@ -1664,12 +2319,29 @@
 		"Date entered": "2024-3-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Thomaso_da_Parixe",
+		"Musician Name": "Thomaso da Parixe",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-15"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Thomaso_Fiamingo",
 		"Musician Name": "Thomaso Fiamingo contrabasso",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
 		"BIB Pages": "360–61",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Udorigo_tenorista",
+		"Musician Name": "Udorigo tenorista",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "357",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Ugo_Parazeti",
@@ -1732,6 +2404,42 @@
 		"Date entered": "2024-3-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Zampaulo_della_Viola",
+		"Musician Name": "Zampaulo della Viola",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Zampietro_da_Trani",
+		"Musician Name": "Zampietro da Trani tamburino",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Zenovese_tenorista",
+		"Musician Name": "Zenovese tenorista",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359-60",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Zilio_trombeta",
+		"Musician Name": "Zilio trombeta",
+		"Description": "trumpeter at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Zoanne_cantore",
 		"Musician Name": "Zoanne cantore",
 		"Alias": "Could be Zoanne Raimondino",
@@ -1741,12 +2449,39 @@
 		"Date entered": "2023-3-9"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Zoanne_capelano",
+		"Musician Name": "Zoanne capelano",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "357-58",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Zoanne_da_Modena",
 		"Musician Name": "Zoanne da Modena cappellano",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
 		"BIB Pages": "361",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Zoanne_da_Padova",
+		"Musician Name": "Zoanne da Padova trombone",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "358-59",
+		"Input data": "RP",
+		"Date entered": "2024-7-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Zoanne_dAlemagna",
+		"Musician Name": "Zoanne d'Alemagna piffaro",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "357",
+		"Input data": "RP",
+		"Date entered": "2024-7-22"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Zoanne_de_Locha",
@@ -1798,6 +2533,15 @@
 		"Date updated": "2024-2-12"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Zoanne_Martini",
+		"Musician Name": "Zoanne Martini",
+		"Description": "singer at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "359",
+		"Input data": "RP",
+		"Date entered": "2024-7-16"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Zoanne_Michiele",
 		"Musician Name": "Zoanne Michiele",
 		"Alias": "Jean Michel",
@@ -1809,212 +2553,13 @@
 		"Date updated": "2024-2-12"
 	},
 	{
-		"Biography Musician (BMU) ID": "BMU:Zoanne_Vivas",
-		"Musician Name": "Zoanne Vivas cantore",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360–62",
-		"Input data": "BSO",
-		"Date entered": "2023-3-9"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Giam_Francese",
-		"Musician Name": "Giam Francese cantore",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-15"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Matio_de_Paris",
-		"Musician Name": "Matio de Paris",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-15"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Giletto_Picardo",
-		"Musician Name": "Giletto Picardo cantore",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-15"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Zohane_de_Argentina",
-		"Musician Name": "Zohane de Argentina organista",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-15"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Thomaso_da_Parixe",
-		"Musician Name": "Thomaso da Parixe",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-15"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Pedros_contra_alto",
-		"Musician Name": "Pedros contra alto",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-15"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Piero_Picardo",
-		"Musician Name": "Piero Picardo cantore",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-15"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Adam_piffaro",
-		"Musician Name": "Adam piffaro",
+		"Biography Musician (BMU) ID": "BMU:Zoanne_Raimondino",
+		"Musician Name": "Zoanne Raimondino cantore et organista",
 		"Description": "musician at Ferrarese court",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
 		"BIB Pages": "359",
 		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Andrea_della_Viola",
-		"Musician Name": "Andrea della Viola",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Gregorio_soprano_piffaro",
-		"Musician Name": "Gregorio soprano piffaro",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jacomo_dellarpa",
-		"Musician Name": "Jacomo dell'arpa sonadore",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jacomo_della_Viola",
-		"Musician Name": "Jacomo della Viola",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Nardo_tamburino",
-		"Musician Name": "Nardo tamburino",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Rainaldo_dal_Chitarino",
-		"Musician Name": "Rainaldo dal Chitarino",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Zampaulo_della_Viola",
-		"Musician Name": "Zampaulo della Viola",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Antonii_cappellano",
-		"Musician Name": "Antonii cappellano",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Francesco_tamborin",
-		"Musician Name": "Francesco tamborin",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Gian_cantore",
-		"Musician Name": "Gian cantore",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Guido_Zohane",
-		"Musician Name": "Guido Zohane",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jani_contrabasso",
-		"Musician Name": "Jani contrabasso",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Ludovigo_da_Bologna",
-		"Musician Name": "Ludovigo da Bologna piffaro",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Marino_cappellano",
-		"Musician Name": "Marino cappellano",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Pietro_Rossello",
-		"Musician Name": "Pietro Rossello",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "360",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
+		"Date entered": "2024-7-17"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Zoanne_trombon",
@@ -2026,309 +2571,19 @@
 		"Date entered": "2024-7-16"
 	},
 	{
-		"Biography Musician (BMU) ID": "BMU:Michiele_Tedesco",
-		"Musician Name": "Michiele Tedesco piffaro",
-		"Description": "musician at Ferrarese court",
+		"Biography Musician (BMU) ID": "BMU:Zoanne_Vivas",
+		"Musician Name": "Zoanne Vivas cantore",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "359",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
+		"BIB Pages": "360–62",
+		"Input data": "BSO",
+		"Date entered": "2023-3-9"
 	},
 	{
-		"Biography Musician (BMU) ID": "BMU:Cordiere_cantore",
-		"Musician Name": "Cordiere cantore",
-		"Description": "singer at Ferrarese court",
+		"Biography Musician (BMU) ID": "BMU:Zohane_de_Argentina",
+		"Musician Name": "Zohane de Argentina organista",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "359",
+		"BIB Pages": "360",
 		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Girardo_cantore",
-		"Musician Name": "Girardo cantore",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "359",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Girolamo_da_Ferrara",
-		"Musician Name": "Girolamo da Ferrara soprano",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "359",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jacotin_cantore",
-		"Musician Name": "Jacotin cantore",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "359",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Johanne_a_Senesino",
-		"Musician Name": "Johanne a Senesino musico",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "359",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Michiele_da_Fiorenza",
-		"Musician Name": "Michiele da Fiorenza cantore",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "359",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Pollo_dalle_Conchele",
-		"Musician Name": "Pollo dalle Conchele",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "359",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Zoanne_Martini",
-		"Musician Name": "Zoanne Martini",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "359",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Zenovese_tenorista",
-		"Musician Name": "Zenovese tenorista",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "359-60",
-		"Input data": "RP",
-		"Date entered": "2024-7-16"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Francesco_de_la_Gata",
-		"Musician Name": "Francesco de la Gata tenorista",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "359",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Piedro_da_Ragona",
-		"Musician Name": "Piedro da Ragona maestro di clavicembalo",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "359",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Zampietro_da_Trani",
-		"Musician Name": "Zampietro da Trani tamburino",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "359",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Zoanne_Raimondino",
-		"Musician Name": "Zoanne Raimondino cantore et organista",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "359",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Antonio_trombeta",
-		"Musician Name": "Antonio trombeta",
-		"Description": "trumpeter at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358-59",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Bazo_dArezzo",
-		"Musician Name": "Bazo d'Arezzo trombeta",
-		"Description": "trumpeter at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358-59",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Bernardino_da_Sisi",
-		"Musician Name": "Bernardino da Sisi trombeta",
-		"Description": "trumpeter at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358-59",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Francesco_da_Montepulziano",
-		"Musician Name": "Francesco da Montepulziano trombeta",
-		"Description": "trumpeter at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358-59",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Luzido_trombeta",
-		"Musician Name": "Luzido trombeta",
-		"Description": "trumpeter at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358-59",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Piero_Antonio_da_Bologna",
-		"Musician Name": "Piero Antonio da Bologna trombeta",
-		"Description": "trumpeter at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358-59",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Raganello_trombeta",
-		"Musician Name": "Raganello trombeta",
-		"Description": "trumpeter at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358-59",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Rossetto_de_Thomaso",
-		"Musician Name": "Rosetto de Thomaso trombeta",
-		"Description": "trumpeter at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358-59",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Stiefano_da_Montepulziano",
-		"Musician Name": "Stiefano da Montepulziano trombeta",
-		"Description": "trumpeter at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358-59",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Francesco_de_Orthona",
-		"Musician Name": "Francesco de Orthona tamburino",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358-59",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Guglielmo_tamburino",
-		"Musician Name": "Guglielmo tamburino",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358-59",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Nicolo_de_larpa",
-		"Musician Name": "Nicolo de l'arpa",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358-59",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Pietrobono_dal_Chitarino",
-		"Musician Name": "Pietrobono dal Chitarino",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358-59",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Christoforo_de_Modena",
-		"Musician Name": "Christoforo de Modena cantore",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358-59",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Piero_Griego",
-		"Musician Name": "Piero Griego",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358-59",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Zilio_trombeta",
-		"Musician Name": "Zilio trombeta",
-		"Description": "trumpeter at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358-59",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Zoanne_da_Padova",
-		"Musician Name": "Zoanne da Padova trombone",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358-59",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Carlo_da_Bologna",
-		"Musician Name": "Carlo da Bologna piffaro",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Ludovico_da_Bologna",
-		"Musician Name": "Ludovico da Bologna piffaro",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Philippo_de_Primis_de_Fano",
-		"Musician Name": "Philippo de Primis de Fano cantore",
-		"Description": "singer at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "358",
-		"Input data": "RP",
-		"Date entered": "2024-7-17"
+		"Date entered": "2024-7-15"
 	}
 ]

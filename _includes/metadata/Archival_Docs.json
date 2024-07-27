@@ -1252,5 +1252,23 @@
 		"Signature": "B. 3",
 		"Input data": "SMB",
 		"Date entered": "2024-7-19"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Florence_SM_1",
+		"Location ID (LOC)": "LOC:Florence",
+		"Archive": "Archivio dell'Opera di Santa Maria del Fiore",
+		"Archival Fond": "Quaderni Cassa",
+		"Signature": "VIII, 1",
+		"Input data": "SMB",
+		"Date entered": "2024-7-25"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Lille_Nord_2152",
+		"Location ID (LOC)": "LOC:Lille-Archives_Departmentales",
+		"Archive": "Archives dep du Nord a Lille",
+		"Archival Fond": "B",
+		"Signature": "2152",
+		"Input data": "SMB",
+		"Date entered": "2024-7-26"
 	}
 ]

@@ -575,5 +575,37 @@
 		"Publication Year": "1962",
 		"Input data": "SMB",
 		"Date entered": "2024-7-19"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:D'Accone_1961",
+		"Author": "D'Accone, Frank",
+		"Name of Article": "The Singers of San Giovanni in Florence during the 15th Century",
+		"Name of Volume/Journal": "Journal of the American Musicological Society",
+		"Volume": "14 no. 3",
+		"Publication Year": "1961",
+		"Pages": "307-358",
+		"Input data": "SMB",
+		"Date entered": "2024-7-25"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Meconi_2003",
+		"Author": "Meconi, Honey",
+		"Name of Article": "Pierre de la Rue and Musical Life at the Habsburg-Burgundian Court",
+		"Location": "Oxford",
+		"Publisher": "Oxford University Press",
+		"Publication Year": "2003",
+		"Input data": "SMB",
+		"Date entered": "2024-7-26"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Doorslaer_1934",
+		"Author": "Doorslaer, Georges",
+		"Name of Article": "La Chapelle musicale de philippe le Beau",
+		"Name of Volume/Journal": "Revue belge d'archeologie et d'histoire de l'art",
+		"Volume": "4",
+		"Publication Year": "1934",
+		"Pages": "21-57, 139-65",
+		"Input data": "SMB",
+		"Date entered": "2024-7-26"
 	}
 ]

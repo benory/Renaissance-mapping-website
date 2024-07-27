@@ -1297,6 +1297,15 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Location ID (LOC)": "LOC:Mechelen",
+		"Name of Location": "Mechelen",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/Gy4eyxwWuxdx8N7H9",
+		"Coordinates": "51.028048, 4.480420",
+		"Input data": "SMB",
+		"Date entered": "2024-7-26"
+	},
+	{
 		"Location ID (LOC)": "LOC:Mechelen-Sint-Romboutskathedraal",
 		"Name of Location": "Sint-Romboutskathedraal",
 		"City or Larger Place": "Mechelen",

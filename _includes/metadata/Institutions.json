@@ -62,5 +62,13 @@
 		"Institution Description": "Chapel of Maximilian I, Holy Roman Emperor",
 		"Input data": "SMB",
 		"Date entered": "2024-6-22"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Philip_Fair",
+		"Institution Name": "Chapel of Philip the Fair",
+		"Alias": "Habsburg-Burgundian court chapel",
+		"Institution Description": "Chapel of Philip the Fair, duke of Burgundy 1482-1506",
+		"Input data": "SMB",
+		"Date entered": "2024-7-25"
 	}
 ]
