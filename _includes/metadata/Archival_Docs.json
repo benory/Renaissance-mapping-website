@@ -1263,12 +1263,39 @@
 		"Date entered": "2024-7-25"
 	},
 	{
-		"Archival Document (ARD) ID": "ARD:Lille_Nord_2152",
+		"Archival Document (ARD) ID": "ARD:Lille_ADN_2152",
 		"Location ID (LOC)": "LOC:Lille-Archives_Departmentales",
 		"Archive": "Archives Départementales du Nord",
 		"Archival Fond": "B",
 		"Signature": "2152",
 		"Input data": "SMB",
 		"Date entered": "2024-7-26"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Paris_BnF_Dupuy_503",
+		"Location ID (LOC)": "LOC:Paris-BNF",
+		"Archive": "Bibliothèque nationale de France",
+		"Archival Fond": "Dupuy",
+		"Signature": "503",
+		"Input data": "SMB",
+		"Date entered": "2024-7-28"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Simancas_AGS_Casa_14",
+		"Location ID (LOC)": "LOC:Simancas",
+		"Archive": "Archivo general de Simancas",
+		"Archival Fond": "Casa y sitios reales",
+		"Signature": "14",
+		"Input data": "SMB",
+		"Date entered": "2024-7-28"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Kortrijk_RtK_Onze_169",
+		"Location ID (LOC)": "LOC:Kortrijk",
+		"Archive": "Rijksarchief te Kortrijk",
+		"Archival Fond": "Onze-Lieve-Vrouwekerk",
+		"Signature": "169",
+		"Input data": "SMB",
+		"Date entered": "2024-7-28"
 	}
 ]

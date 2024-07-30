@@ -555,6 +555,16 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Location ID (LOC)": "LOC:Conil_de_la_Frontera",
+		"Name of Location": "Conil de la Frontera",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/wGUk1ek4JPQhDP5r5",
+		"Coordinates": "36.277045, -6.093605",
+		"Aliases": "Connoille",
+		"Input data": "SMB",
+		"Date entered": "2025-7-28"
+	},
+	{
 		"Location ID (LOC)": "LOC:Courville-sur-Eure",
 		"Name of Location": "Courville-sur-Eure",
 		"Modern Country": "France",
@@ -604,6 +614,15 @@
 		"Name of Location": "Dinniez",
 		"Input data": "LO",
 		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Dover",
+		"Name of Location": "Dover",
+		"Modern Country": "England",
+		"Google URL": "https://maps.app.goo.gl/vc2QYn8vbozD7nMN8",
+		"Coordinates": "51.123574, 1.317677",
+		"Input data": "SMB",
+		"Date entered": "2024-7-28"
 	},
 	{
 		"Location ID (LOC)": "LOC:Eger",
@@ -949,6 +968,15 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Location ID (LOC)": "LOC:Kortrijk",
+		"Name of Location": "Kortrijk",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/jrKmLLEGLcUg6HAw5",
+		"Coordinates": "50.83, 3.26",
+		"Input data": "SMB",
+		"Date entered": "2024-7-28"
+	},
+	{
 		"Location ID (LOC)": "LOC:La_Bassee",
 		"Name of Location": "La Bassée",
 		"Modern Country": "France",
@@ -1240,6 +1268,15 @@
 		"Coordinates": "46.30708658070305, 4.829106052692328",
 		"Input data": "BSO",
 		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Madrid",
+		"Name of Location": "Madrid",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/dFGAQkKdkhBxwFbD9",
+		"Coordinates": "40.416866, -3.704854",
+		"Input data": "SMB",
+		"Date entered": "2024-7-28"
 	},
 	{
 		"Location ID (LOC)": "LOC:Magliano_Romano",
@@ -2140,6 +2177,15 @@
 		"Date entered": "2023-5-3"
 	},
 	{
+		"Location ID (LOC)": "LOC:Simancas",
+		"Name of Location": "Simancas",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/YKNF78fTZVPAiHDU9",
+		"Coordinates": "41.6, -4.83",
+		"Input data": "SMB",
+		"Date entered": "2024-7-28"
+	},
+	{
 		"Location ID (LOC)": "LOC:Spilimberto",
 		"Name of Location": "Spilimberto",
 		"Modern Country": "Italy",
@@ -2498,6 +2544,15 @@
 		"Coordinates": "50.72951709304043, 3.547994962855839",
 		"Input data": "LO",
 		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Windsor",
+		"Name of Location": "Windsor",
+		"Modern Country": "England",
+		"Google URL": "https://maps.app.goo.gl/7gQnfdSWJwPwWZr76",
+		"Coordinates": "51°29'01.7\"N 0°36'15.8\"W",
+		"Input data": "SMB",
+		"Date entered": "2024-7-28"
 	},
 	{
 		"Location ID (LOC)": "LOC:Weimar",
