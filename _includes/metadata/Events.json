@@ -20694,6 +20694,7 @@
 		"Event ID": "EV:01333",
 		"Location ID (LOC)": "LOC:Ferrara",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Zoanne_de_Troia",
+		"LOC Certainty": "5",
 		"Earliest Year": "1484",
 		"Latest Year": "1485",
 		"Date Range": "1484 to   1485",

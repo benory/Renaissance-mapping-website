@@ -236,20 +236,18 @@ function doMapSetup(opts) {
             let rangeCertainty = events[i][CERTRANGE];
 
             // Add information about location certainty to location
-            if (locationCertainty){
-
-                // Only consider location certainty if not certain
-                if (locationCertainty !== 1) {
-                    if (locationCertainty == 2){
-                        locationprocessed += ` [probable]`;
-                    } else if (locationCertainty == 3){
-                        locationprocessed += ` [possible]`;
-                    } else if (locationCertainty == 4){
-                        locationprocessed += ` [doubtful]`;
-                    } else {
-                        console.warn("Forbidden location certainty for", eventid);
-                        continue;
-                    }
+            // Only consider location certainty if not certain
+            // Return a console message if the location certainty is not 1, 2, 3, or 4
+            if (locationCertainty && locationCertainty !== "1"){
+                if (locationCertainty === "2"){
+                    locationprocessed += ` [probable]`;
+                } else if (locationCertainty === "3"){
+                    locationprocessed += ` [possible]`;
+                } else if (locationCertainty === "4"){
+                    locationprocessed += ` [doubtful]`;
+                } else {
+                    console.warn("Forbidden location certainty for", eventid, locationCertainty);
+                    continue;
                 }
             }
 
@@ -273,7 +271,9 @@ function doMapSetup(opts) {
                     if (documentInfo) {
                         archivalid = documentInfo[ARDID];
                     }
-                    
+                    if (events[i][BIOID] === "BCO:Pierre_de_la_Rue"){
+                        console.warn("BCO:Pierre_de_la_Rue", events[i][ID]); 
+                    }
                     // Get archival signature from archival documents data
                     if (archivalid) {
                         let archivalInfo = findInfo(archivalid, "Archival_Docs");
@@ -300,9 +300,15 @@ function doMapSetup(opts) {
 
             // Create point on map
             if (description) {
+                if (events[i][BIOID] === "BCO:Pierre_de_la_Rue"){
+                    console.warn("BCO:Pierre_de_la_Rue", events[i][ID]); 
+                }
                 let marker = L.marker(coordinatesprocessed).bindPopup(`<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} <br><b>Description:</b> ${description} ${archiveprocessed}`);
                 markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}` });
-            } else if (!description) {
+            } else {
+                if (events[i][BIOID] === "BCO:Pierre_de_la_Rue"){
+                    console.warn("BCO:Pierre_de_la_Rue", events[i][ID]); 
+                }
                 let marker = L.marker(coordinatesprocessed).bindPopup(`<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} ${archiveprocessed}`);
                 markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}` });
             }
