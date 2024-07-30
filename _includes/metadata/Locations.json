@@ -546,6 +546,16 @@
 		"Date entered": "2024-4-2"
 	},
 	{
+		"Location ID (LOC)": "LOC:Conil_de_la_Frontera",
+		"Name of Location": "Conil de la Frontera",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/wGUk1ek4JPQhDP5r5",
+		"Coordinates": "36.27822786720899, -6.0853386560611",
+		"Aliases": "Connoille",
+		"Input data": "SMB",
+		"Date entered": "2025-7-28"
+	},
+	{
 		"Location ID (LOC)": "LOC:Corneto",
 		"Name of Location": "Corneto",
 		"Modern Country": "Italy",
@@ -553,16 +563,6 @@
 		"Coordinates": "42.79260194196413, 13.437849724010471",
 		"Input data": "BSO",
 		"Date entered": "2024-3-13"
-	},
-	{
-		"Location ID (LOC)": "LOC:Conil_de_la_Frontera",
-		"Name of Location": "Conil de la Frontera",
-		"Modern Country": "Spain",
-		"Google URL": "https://maps.app.goo.gl/wGUk1ek4JPQhDP5r5",
-		"Coordinates": "36.277045, -6.093605",
-		"Aliases": "Connoille",
-		"Input data": "SMB",
-		"Date entered": "2025-7-28"
 	},
 	{
 		"Location ID (LOC)": "LOC:Courville-sur-Eure",
@@ -620,7 +620,7 @@
 		"Name of Location": "Dover",
 		"Modern Country": "England",
 		"Google URL": "https://maps.app.goo.gl/vc2QYn8vbozD7nMN8",
-		"Coordinates": "51.123574, 1.317677",
+		"Coordinates": "51.12757721034788, 1.3142072247035061",
 		"Input data": "SMB",
 		"Date entered": "2024-7-28"
 	},
@@ -972,7 +972,7 @@
 		"Name of Location": "Kortrijk",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/jrKmLLEGLcUg6HAw5",
-		"Coordinates": "50.83, 3.26",
+		"Coordinates": "50.826044558279015, 3.2493637279581287",
 		"Input data": "SMB",
 		"Date entered": "2024-7-28"
 	},
@@ -1274,7 +1274,7 @@
 		"Name of Location": "Madrid",
 		"Modern Country": "Spain",
 		"Google URL": "https://maps.app.goo.gl/dFGAQkKdkhBxwFbD9",
-		"Coordinates": "40.416866, -3.704854",
+		"Coordinates": "40.41600101589137, -3.724855248983449",
 		"Input data": "SMB",
 		"Date entered": "2024-7-28"
 	},
@@ -1337,8 +1337,8 @@
 		"Location ID (LOC)": "LOC:Mechelen",
 		"Name of Location": "Mechelen",
 		"Modern Country": "Belgium",
-		"Google URL": "https://maps.app.goo.gl/Gy4eyxwWuxdx8N7H9",
-		"Coordinates": "51.028048, 4.480420",
+		"Google URL": "https://maps.app.goo.gl/TdttHL17utFBNCqG8",
+		"Coordinates": "51.02515544700608, 4.477071194560778",
 		"Input data": "SMB",
 		"Date entered": "2024-7-26"
 	},
@@ -2180,8 +2180,8 @@
 		"Location ID (LOC)": "LOC:Simancas",
 		"Name of Location": "Simancas",
 		"Modern Country": "Spain",
-		"Google URL": "https://maps.app.goo.gl/YKNF78fTZVPAiHDU9",
-		"Coordinates": "41.6, -4.83",
+		"Google URL": "https://maps.app.goo.gl/HMHrok71NSzVo7bj7",
+		"Coordinates": "41.59086438525299, -4.830088918158715",
 		"Input data": "SMB",
 		"Date entered": "2024-7-28"
 	},
@@ -2546,15 +2546,6 @@
 		"Date entered": "2024-1-23"
 	},
 	{
-		"Location ID (LOC)": "LOC:Windsor",
-		"Name of Location": "Windsor",
-		"Modern Country": "England",
-		"Google URL": "https://maps.app.goo.gl/7gQnfdSWJwPwWZr76",
-		"Coordinates": "51°29'01.7\"N 0°36'15.8\"W",
-		"Input data": "SMB",
-		"Date entered": "2024-7-28"
-	},
-	{
 		"Location ID (LOC)": "LOC:Weimar",
 		"Name of Location": "Weimar",
 		"Modern Country": "Germany",
@@ -2562,6 +2553,15 @@
 		"Coordinates": "50.983888, 11.328832",
 		"Input data": "SMB",
 		"Date entered": "2024-6-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Windsor",
+		"Name of Location": "Windsor",
+		"Modern Country": "England",
+		"Google URL": "https://maps.app.goo.gl/2WHzKLiJgvnSBX498",
+		"Coordinates": "51.48029706529804, -0.614829375398924",
+		"Input data": "SMB",
+		"Date entered": "2024-7-28"
 	},
 	{
 		"Location ID (LOC)": "LOC:Worms",

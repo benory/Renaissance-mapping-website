@@ -1,5 +1,16 @@
 [
 	{
+		"Biography Composer (BCO) ID": "BCO:Alexander_Agricola",
+		"Composer Name": "Alexander Agricola",
+		"Birth Date": "~1446",
+		"Death Date": "1506",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/182/",
+		"RISM ID": "pe30005595",
+		"RISM Link": "https://rism.online/people/30005595",
+		"Input data": "SMB",
+		"Date entered": "2024-6-29"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Antoine_Bruhier",
 		"Composer Name": "Antoine Bruhier",
 		"Description": "French singer and composer",
@@ -168,6 +179,19 @@
 		"Date updated": "2023-5-9"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Guillaume_Du_Fay",
+		"Composer Name": "Guillaume Du Fay",
+		"Birth Date": "~1400",
+		"Death Date": "1474-11-27",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/91/",
+		"RISM ID": "pe30005374",
+		"RISM Link": "https://rism.online/people/30005374",
+		"Bibliography (BIB) ID": "BIB:Starr_1992",
+		"BIB Pages": "258–59",
+		"Input data": "LO",
+		"Date entered": "2024-3-22"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Heinrich_Isaac",
 		"Composer Name": "Heinrich Isaac",
 		"Alias": "Arrhigus, Heinrich; Arrigo Tedesco; Arrigo Ugonis; Arrigo d'Ugo; Arrigo de Alemania; Arrigo di Fiandra; Arrigo il Tedesco; Isaac, Henricus; Isaak, Heinrich; Isac, Heinrich; Izac, Heinrich; Ysaac, Heinrich; Ysac, Heinrich; Ysach, Heinrich; Ysak, Heinrich; Yzaac, Heinrich; Yzac, Heinrich",
@@ -299,6 +323,17 @@
 		"Date updated": "2023-5-9"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Johannes_Ghiselin",
+		"Composer Name": "Johannes Ghiselin",
+		"Alias": "Verbonnet",
+		"Death Date": "1507",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/102/",
+		"RISM ID": "pe30012342",
+		"RISM Link": "https://rism.online/people/30012342",
+		"Input data": "SMB",
+		"Date entered": "2024-6-29"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Johannes_Hillanis",
 		"Composer Name": "Johannes Hillanis",
 		"Alias": "De Aragonia; De Lannis; De Lyanas; De Yllanes; Ylianas; Yllianis",
@@ -391,6 +426,16 @@
 		"Date updated": "2023-5-9"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Lupus_Hellinck",
+		"Composer Name": "Lupus Hellinck",
+		"Alias": "Lupus",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/264/",
+		"RISM ID": "pe30006996",
+		"RISM Link": "https://rism.online/people/30006996",
+		"Input data": "BSO",
+		"Date entered": "2024-3-18"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Marbrianus_de_Orto",
 		"Composer Name": "Marbrianus de Orto",
 		"Alias": "De Horto, Marbrianus de; De Orto, Marbrianus; Dujardin, Marbrianus; Dujardin, Marbrianus de; Horto, Marbrianus de; Ortho, Marbrianus de; Orto, Marbriano de",
@@ -440,6 +485,27 @@
 		"Date entered": "2024-3-16"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Petrus_de_Renaldis",
+		"Composer Name": "Petrus de Renaldis",
+		"Alias": "Renaldo",
+		"Death Date": "1521-1",
+		"Description": "magister chori at Padua Cathedral",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/78/",
+		"Bibliography (BIB) ID": "BIB:Nosow_1991",
+		"BIB Pages": "108",
+		"Input data": "BSO",
+		"Date entered": "2024-3-18"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Philippe_Verdelot",
+		"Composer Name": "Philippe Verdelot",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/249/",
+		"RISM ID": "pe30013948",
+		"RISM Link": "https://rism.online/people/30013948",
+		"Input data": "BSO",
+		"Date entered": "2024-3-17"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Philippus_de_Primis",
 		"Composer Name": "Philippus de Primis",
 		"Description": "singer in the papal chapel 1492–1494; 1501–1503; 1507; probably entered the chapel in November, 1491, since he is subject to a letter from the Duke of Ferrara to his Roman ambassador complaining that Primis has left his service; his name is crossed out in April 1507, although he is counted in the payment; possibly the Philipo de Primis from Fano who wrote a mass and was a tenorista in the chapel of Julius II, as mentioned in a letter from the theorist Spataro to Venetian musician Giovanni del Lago on 1529-01-25",
@@ -462,71 +528,5 @@
 		"Date entered": "2024-1-19",
 		"Update data": "BSO",
 		"Date updated": "2024-1-19"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Philippe_Verdelot",
-		"Composer Name": "Philippe Verdelot",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/249/",
-		"RISM ID": "pe30013948",
-		"RISM Link": "https://rism.online/people/30013948",
-		"Input data": "BSO",
-		"Date entered": "2024-3-17"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Petrus_de_Renaldis",
-		"Composer Name": "Petrus de Renaldis",
-		"Alias": "Renaldo",
-		"Death Date": "1521-1",
-		"Description": "magister chori at Padua Cathedral",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/78/",
-		"Bibliography (BIB) ID": "BIB:Nosow_1991",
-		"BIB Pages": "108",
-		"Input data": "BSO",
-		"Date entered": "2024-3-18"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Lupus_Hellinck",
-		"Composer Name": "Lupus Hellinck",
-		"Alias": "Lupus",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/264/",
-		"RISM ID": "pe30006996",
-		"RISM Link": "https://rism.online/people/30006996",
-		"Input data": "BSO",
-		"Date entered": "2024-3-18"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Guillaume_Du_Fay",
-		"Composer Name": "Guillaume Du Fay",
-		"Birth Date": "~1400",
-		"Death Date": "1474-11-27",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/91/",
-		"RISM ID": "pe30005374",
-		"RISM Link": "https://rism.online/people/30005374",
-		"Bibliography (BIB) ID": "BIB:Starr_1992",
-		"BIB Pages": "258–59",
-		"Input data": "LO",
-		"Date entered": "2024-3-22"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Johannes_Ghiselin",
-		"Composer Name": "Johannes Ghiselin",
-		"Alias": "Verbonnet",
-		"Death Date": "1507",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/102/",
-		"RISM ID": "pe30012342",
-		"RISM Link": "https://rism.online/people/30012342",
-		"Input data": "SMB",
-		"Date entered": "2024-6-29"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Alexander_Agricola",
-		"Composer Name": "Alexander Agricola",
-		"Birth Date": "~1446",
-		"Death Date": "1506",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/182/",
-		"RISM ID": "pe30005595",
-		"RISM Link": "https://rism.online/people/30005595",
-		"Input data": "SMB",
-		"Date entered": "2024-6-29"
 	}
 ]
