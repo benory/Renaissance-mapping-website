@@ -298,8 +298,6 @@ function doMapSetup(opts) {
                     // Swap latitude and longitude
                     coordinatesprocessed = [coordsArray[1], coordsArray[0]];
 
-                    console.log('Coordinates:', coordinatesprocessed);
-
                     const geoJsonFeature = {
                         type: "Feature",
                         geometry: {
@@ -312,8 +310,6 @@ function doMapSetup(opts) {
                                 `<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} ${archiveprocessed}`
                         }
                     };
-
-                    console.log('GeoJSON Feature:', geoJsonFeature);
 
                     const geojsonMarkerOptions = {
                         radius: 5,
@@ -336,7 +332,6 @@ function doMapSetup(opts) {
                     continue;
                 }
             } else {
-                console.warn('No coordinates found for location:', locationInfo);
                 continue;
             }
             // Reset variables
