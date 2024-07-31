@@ -221,14 +221,6 @@ function doMapSetup(opts) {
                 description = events[i][EINFO];
             }
 
-            // Get coordinates
-            coordinates = locationInfo[COORD];
-            if (coordinates !== undefined) {
-                coordinatesprocessed = coordinates.split(/,?\s+,?/);
-            } else {
-                continue;
-            }
-
             // Get certainty information
             let locationCertainty = events[i][CERTLOC];
             let earliestDateCertainty = events[i][CERTEDATE];
@@ -295,15 +287,58 @@ function doMapSetup(opts) {
                 }
             }
 
-            // Create point on map
-            if (description) {
-                let marker = L.marker(coordinatesprocessed).bindPopup(`<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} <br><b>Description:</b> ${description} ${archiveprocessed}`);
-                markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}` });
-            } else {
-                let marker = L.marker(coordinatesprocessed).bindPopup(`<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} ${archiveprocessed}`);
-                markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}` });
-            }
+            // Get coordinates
+            coordinates = locationInfo[COORD];
+            if (coordinates !== undefined) {
+                // Convert the comma-separated string into an array
+                let coordsArray = coordinates.split(',').map(Number);
 
+                // Ensure coordinates are in the format [longitude, latitude]
+                if (coordsArray.length === 2 && !isNaN(coordsArray[0]) && !isNaN(coordsArray[1])) {
+                    // Swap latitude and longitude
+                    coordinatesprocessed = [coordsArray[1], coordsArray[0]];
+
+                    console.log('Coordinates:', coordinatesprocessed);
+
+                    const geoJsonFeature = {
+                        type: "Feature",
+                        geometry: {
+                            type: "Point",
+                            coordinates: coordinatesprocessed // Ensure this is [longitude, latitude]
+                        },
+                        properties: {
+                            popupContent: description ? 
+                                `<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} <br><b>Description:</b> ${description} ${archiveprocessed}` : 
+                                `<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} ${archiveprocessed}`
+                        }
+                    };
+
+                    console.log('GeoJSON Feature:', geoJsonFeature);
+
+                    const geojsonMarkerOptions = {
+                        radius: 5,
+                        fillColor: "#0c8aff", //black fill color
+                        color: "#000000", //Black border color
+                        weight: 1,
+                        opacity: 1,
+                        fillOpacity: 0.8
+                    };
+
+                    let marker = L.geoJson(geoJsonFeature, {
+                        pointToLayer: function (feature, latlng) {
+                            return L.circleMarker(latlng, geojsonMarkerOptions);
+                        }
+                    }).bindPopup(geoJsonFeature.properties.popupContent);
+
+                    markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}` });
+                } else {
+                    console.warn('Invalid coordinates:', coordsArray);
+                    continue;
+                }
+            } else {
+                console.warn('No coordinates found for location:', locationInfo);
+                continue;
+            }
             // Reset variables
             person = "";
             personprocessed = "";
