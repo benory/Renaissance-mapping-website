@@ -271,9 +271,6 @@ function doMapSetup(opts) {
                     if (documentInfo) {
                         archivalid = documentInfo[ARDID];
                     }
-                    if (events[i][BIOID] === "BCO:Pierre_de_la_Rue"){
-                        console.warn("BCO:Pierre_de_la_Rue", events[i][ID]); 
-                    }
                     // Get archival signature from archival documents data
                     if (archivalid) {
                         let archivalInfo = findInfo(archivalid, "Archival_Docs");
@@ -300,15 +297,9 @@ function doMapSetup(opts) {
 
             // Create point on map
             if (description) {
-                if (events[i][BIOID] === "BCO:Pierre_de_la_Rue"){
-                    console.warn("BCO:Pierre_de_la_Rue", events[i][ID]); 
-                }
                 let marker = L.marker(coordinatesprocessed).bindPopup(`<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} <br><b>Description:</b> ${description} ${archiveprocessed}`);
                 markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}` });
             } else {
-                if (events[i][BIOID] === "BCO:Pierre_de_la_Rue"){
-                    console.warn("BCO:Pierre_de_la_Rue", events[i][ID]); 
-                }
                 let marker = L.marker(coordinatesprocessed).bindPopup(`<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} ${archiveprocessed}`);
                 markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}` });
             }
