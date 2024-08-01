@@ -231,6 +231,7 @@ function doMapSetup(opts) {
             // Only consider location certainty if not certain
             // Return a console message if the location certainty is not 1, 2, 3, or 4
             if (locationCertainty && locationCertainty !== "1"){
+                console.log("locationCertainty for", eventid, locationCertainty);
                 if (locationCertainty === "2"){
                     locationprocessed += ` [probable]`;
                 } else if (locationCertainty === "3"){
@@ -307,7 +308,11 @@ function doMapSetup(opts) {
                         properties: {
                             popupContent: description ? 
                                 `<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} <br><b>Description:</b> ${description} ${archiveprocessed}` : 
-                                `<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} ${archiveprocessed}`
+                                `<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} ${archiveprocessed}`,
+                            locationCertainty: locationCertainty,
+                            earliestDateCertainty: earliestDateCertainty,
+                            latestDateCertainty: latestDateCertainty,
+                            rangeCertainty: rangeCertainty
                         }
                     };
 
@@ -326,7 +331,7 @@ function doMapSetup(opts) {
                         }
                     }).bindPopup(geoJsonFeature.properties.popupContent);
 
-                    markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}` });
+                    markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}`, locationCertainty: locationCertainty, earliestDateCertainty: earliestDateCertainty, latestDateCertainty: latestDateCertainty, rangeCertainty: rangeCertainty });
                 } else {
                     console.warn('Invalid coordinates:', coordsArray);
                     continue;
@@ -356,15 +361,15 @@ function doMapSetup(opts) {
 
 // Function to filter markers based on checkboxes
 function filterMarkers() {
-    console.time()
 
     // Fetch checkbox states
     let showComposers = document.querySelector("#composer-select").checked;
     let showMusicians = document.querySelector("#musician-select").checked;
     let showNonMusicians = document.querySelector("#non-musician-select").checked;
+    let showCertainty = document.querySelector("#certainty-select").checked;
 
     // Loop through all markers and show/hide based on checkboxes
-    markers.forEach(({ marker, personID }) => {
+    markers.forEach(({ marker, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty}) => {
         let type = personID.substring(0, 3);
         let show = false;
 
@@ -375,6 +380,22 @@ function filterMarkers() {
             show = true;
         } else if (type === "BNO" && showNonMusicians) {
             show = true;
+        }
+
+        // Do not show points if events are not certain
+        if (showCertainty){
+            if (locationCertainty && locationCertainty !== "1"){
+                show = false;
+            } 
+            if (earliestDateCertainty && earliestDateCertainty !== "1") {
+                show = false;
+            }
+            if (latestDateCertainty && latestDateCertainty !== "1") {
+                show = false;
+            }
+            if (rangeCertainty && rangeCertainty !== "1") {
+                show = false;
+            }
         }
 
         // Add or remove marker from map based on show status
@@ -395,7 +416,6 @@ function filterMarkers() {
     // After filtering by checkboxes, apply search filter
     UserSearch(true);
 
-    console.timeEnd()
 }
 
 
@@ -413,9 +433,10 @@ function UserSearch(skipFilter = false) {
     let showComposers = document.querySelector("#composer-select").checked;
     let showMusicians = document.querySelector("#musician-select").checked;
     let showNonMusicians = document.querySelector("#non-musician-select").checked;
+    let showCertainty = document.querySelector("#certainty-select").checked;
 
     // Loop through all markers and show/hide based on search query and checkbox states
-    markers.forEach(({ marker, text, personID }) => {
+    markers.forEach(({ marker, text, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty }) => {
         let type = personID.substring(0, 3);
         let show = false;
 
@@ -426,6 +447,22 @@ function UserSearch(skipFilter = false) {
             show = true;
         } else if (type === "BNO" && showNonMusicians) {
             show = true;
+        }
+
+        // Do not show points if events are not certain
+        if (showCertainty){
+            if (locationCertainty && locationCertainty !== "1"){
+                show = false;
+            }
+            if (earliestDateCertainty && earliestDateCertainty !== "1") {
+                show = false;
+            } 
+            if (latestDateCertainty && latestDateCertainty !== "1") {
+                show = false;
+            }
+            if (rangeCertainty && rangeCertainty !== "1") {
+                show = false;
+            }
         }
 
         // Add or remove marker from map based on search query and checkbox states

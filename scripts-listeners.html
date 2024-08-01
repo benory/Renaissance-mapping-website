@@ -9,7 +9,6 @@ MAP.lookup = {};
 
 let map; // Global reference to the map
 let markers = []; // Global array to hold map markers
-let markerClusterGroup;
 
 MAP.index = {};						// header name mapping by sheet
 MAP.index.Archival_Docs = {};		// header names for archival documents sheet
@@ -36,6 +35,11 @@ MAP.METADATA.Headers = {% include metadata/Headers.json %};
 MAP.METADATA.Institutions = {% include metadata/Institutions.json %};
 MAP.METADATA.Locations = {% include metadata/Locations.json %};
 MAP.METADATA.Occasions = {% include metadata/Occasions.json %};
+
+let locationCertainty = "";
+let earliestDateCertainty = "";
+let latestDateCertainty = "";
+let rangeCertainty = "";
 
 //////////////////////////////
 //
@@ -105,6 +109,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector("#composer-select").checked = true;
     document.querySelector("#musician-select").checked = true;
     document.querySelector("#non-musician-select").checked = false;
+
+	document.querySelector("#certainty-select").checked = true;
 
     document.querySelectorAll('.checkbox-item input[type="checkbox"]').forEach(checkbox => {
         checkbox.addEventListener('change', filterMarkers);

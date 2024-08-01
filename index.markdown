@@ -25,6 +25,10 @@ layout: page
             <label for="non-musician-select">View non-musicians</label>
         </div>
     </div>
-</div><br>
+</div>
+<div class="checkbox-item">
+    <input type="checkbox" id="certainty-select" name="certainty-select" value="certainty-select">
+    <label for="certainty-select">View only events with total certainty</label>
+</div><div class="small-space"></div>
 
 <div id="map"></div>
