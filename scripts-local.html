@@ -227,11 +227,10 @@ function doMapSetup(opts) {
             let latestDateCertainty = events[i][CERTLDATE];
             let rangeCertainty = events[i][CERTRANGE];
 
-            // Add information about location certainty to location
+            // Add information about location uncertainty to location
             // Only consider location certainty if not certain
             // Return a console message if the location certainty is not 1, 2, 3, or 4
             if (locationCertainty && locationCertainty !== "1"){
-                console.log("locationCertainty for", eventid, locationCertainty);
                 if (locationCertainty === "2"){
                     locationprocessed += ` [probable]`;
                 } else if (locationCertainty === "3"){
@@ -243,6 +242,54 @@ function doMapSetup(opts) {
                     continue;
                 }
             }
+
+            // Add information about date uncertainty to date range
+            // Only consider date certainty if not certain
+            // Return a console message if the date certainty is not 1, 2, 3, or 4
+
+            if (earliestDateCertainty && earliestDateCertainty !== "1"){
+                if (earliestDateCertainty === "2"){
+                    daterange += ` [earliest date probable]`;
+                } else if (earliestDateCertainty === "3"){
+                    daterange += ` [earliest date possible]`;
+                } else if (earliestDateCertainty === "4"){
+                    daterange += ` [earliest date doubtful]`;
+                } else {
+                    console.warn("Forbidden earliestDateCertainty certainty for", eventid, earliestDateCertainty);
+                    continue;
+                }
+            }
+
+            if (latestDateCertainty && latestDateCertainty !== "1"){
+                if (latestDateCertainty === "2"){
+                    daterange += ` [latest date probable]`;
+                } else if (latestDateCertainty === "3"){
+                    daterange += ` [latest date possible]`;
+                } else if (latestDateCertainty === "4"){
+                    daterange += ` [latest date doubtful]`;
+                } else {
+                    console.warn("Forbidden latestDateCertainty certainty for", eventid, latestDateCertainty);
+                    continue;
+                }
+            }
+
+            // Add information about event uncertainty to description
+            // Only consider event certainty if not certain
+            // Return a console message if the event certainty is not 1, 2, 3, or 4
+
+            if (rangeCertainty && rangeCertainty !== "1"){
+                if (rangeCertainty === "2"){
+                    description += ` [event probable]`;
+                } else if (rangeCertainty === "3"){
+                    description += ` [event possible]`;
+                } else if (rangeCertainty === "4"){
+                    description += ` [event doubtful]`;
+                } else {
+                    console.warn("Forbidden rangeCertainty certainty for", eventid, rangeCertainty);
+                    continue;
+                }
+            }
+
 
             // Get archival signature for linked document entry, if applicable
             if (events[i][DOEID]) {
