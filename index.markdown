@@ -28,7 +28,25 @@ layout: page
 </div>
 <div class="checkbox-item">
     <input type="checkbox" id="certainty-select" name="certainty-select" value="certainty-select">
-    <label for="certainty-select">View only events with total certainty</label>
-</div><div class="small-space"></div>
+    <label for="certainty-select">View only certain and probable events</label>
+</div>
+<div class="checkbox-item">
+    <input type="checkbox" id="chronology-select" name="chronology-select" value="chronology-select">
+    <label for="chronology-select">Filter by date</label>
+</div>
+
+<div class="small-space"></div>
 
 <div id="map"></div>
+
+<div class="small-space"></div>
+
+<div class="slider-container">
+    <div class="slider-wrapper">
+        <span id="slider-start-label" class="slider-label"><b>1400</b></span>
+        <input type="range" id="date-slider" min="1400" max="1600" value="1500" step="1" oninput="updateDateRange(this.value)">
+        <span id="slider-active-label" class="slider-active-label">1500</span>
+        <span id="slider-end-label" class="slider-label"><b>1600</b></span>
+    </div>
+    <span id="slider-date-range"></span>
+</div>

@@ -36,10 +36,16 @@ MAP.METADATA.Institutions = {% include metadata/Institutions.json %};
 MAP.METADATA.Locations = {% include metadata/Locations.json %};
 MAP.METADATA.Occasions = {% include metadata/Occasions.json %};
 
+// Global variables for certainty
 let locationCertainty = "";
 let earliestDateCertainty = "";
 let latestDateCertainty = "";
 let rangeCertainty = "";
+
+// Global variables for chronological slider
+let minDate = new Date("1400-01-01");
+let maxDate = new Date("1600-01-01");
+let currentDateRange = [minDate, maxDate];
 
 //////////////////////////////
 //
@@ -109,14 +115,29 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector("#composer-select").checked = true;
     document.querySelector("#musician-select").checked = true;
     document.querySelector("#non-musician-select").checked = false;
-
-	document.querySelector("#certainty-select").checked = true;
+    document.querySelector("#certainty-select").checked = true;
+    document.querySelector("#chronology-select").checked = true;
 
     document.querySelectorAll('.checkbox-item input[type="checkbox"]').forEach(checkbox => {
-        checkbox.addEventListener('change', filterMarkers);
+        checkbox.addEventListener('change', handleCheckboxChange);
     });
 
-    filterMarkers();
+    handleCheckboxChange();
 });
+
+function handleCheckboxChange() {
+    if (document.querySelector("#chronology-select").checked) {
+        const sliderValue = document.getElementById('date-slider').value;
+        filterMarkersByDate(sliderValue);        
+    } else {
+        filterMarkers();
+    }
+}
+
+// Initial call to position the active label correctly on page load
+window.onload = function() {
+    const initialValue = document.getElementById('date-slider').value;
+    updateDateRange(initialValue);
+};
 
 </script>

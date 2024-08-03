@@ -9,7 +9,7 @@ main.page-content {
 
 #map {
 		flex: 1;
-		height: 500px;
+		height: 450px;
 }
 
 .search-bar input[type="text"] {
@@ -56,6 +56,50 @@ main.page-content {
 
 .small-space {
     height: 25px; /* Adjust the height as needed */
+}
+
+/* Center the slider container */
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Container for the slider and its labels */
+.slider-wrapper {
+    display: flex;
+    align-items: center;
+    width: 80%;  /* Adjust width as needed */
+    max-width: 800px;  /* Set a maximum width */
+    position: relative; /* For positioning the active label */
+}
+
+/* Make the slider wider */
+.slider-wrapper input[type="range"] {
+    flex-grow: 1;  /* Allow the slider to grow and fill the space */
+    margin: 0 10px;  /* Add some margin to the slider */
+}
+
+/* Style the date range span */
+#slider-date-range {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Style for the active value label */
+.slider-active-label {
+    position: absolute;
+    top: -25px;  /* Adjust this value to position the active label above the slider */
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+/* Align the start and end labels */
+.slider-label {
+    width: 50px; /* Adjust the width as needed */
+    text-align: center;
 }
 
 </style>

@@ -136,6 +136,12 @@ function doMapSetup(opts) {
     let BIOID = MAP.cindex("EV", "BIOID");
     let EINFO = MAP.cindex("EV", "EINFO");
     let DATERANGE = MAP.cindex("EV", "DATERANGE");
+    let EYEAR = MAP.cindex("EV","EYEAR");
+    let EMONTH = MAP.cindex("EV","EMONTH");
+    let EDAY = MAP.cindex("EV","EDAY");
+    let LYEAR = MAP.cindex("EV","LYEAR");
+    let LMONTH = MAP.cindex("EV","LMONTH");
+    let LDAY = MAP.cindex("EV","LDAY");
     let LOCID = MAP.cindex("LOC", "LOCID");
     let LOCNAME = MAP.cindex("LOC", "LOCNAME");
     let LOCCITY = MAP.cindex("LOC", "CITY");
@@ -165,6 +171,14 @@ function doMapSetup(opts) {
     let locationprocessed = "";
     let largerlocation = "";
     let daterange = "";
+    let earliestyear = "";
+    let earliestmonth = "";
+    let earliestday = "";
+    let earliestdate = "";
+    let latestyear = "";
+    let latestmonth = "";
+    let latestday = "";
+    let latestdate = "";
     let coordinates = "";
     let coordinatesprocessed = "";
     let description = "";
@@ -214,6 +228,18 @@ function doMapSetup(opts) {
             // Get dates
             if (events[i][DATERANGE]) {
                 daterange = events[i][DATERANGE];
+                
+                // Get earliest/latest years, months, dates
+                earliestyear = events[i][EYEAR];
+                earliestmonth = events[i][EMONTH];
+                earliestday = events[i][EDAY];
+                latestyear = events[i][LYEAR];
+                latestmonth = events[i][LMONTH];
+                latestday = events[i][LDAY];
+
+                // Put together earliest and latest dates in YEAR-MONTH-DAY format
+                earliestdate = `${earliestyear}-${earliestmonth}-${earliestday}`;
+                latestdate = `${latestyear}-${latestmonth}-${latestday}`;
             }
 
             // Get event description
@@ -359,7 +385,9 @@ function doMapSetup(opts) {
                             locationCertainty: locationCertainty,
                             earliestDateCertainty: earliestDateCertainty,
                             latestDateCertainty: latestDateCertainty,
-                            rangeCertainty: rangeCertainty
+                            rangeCertainty: rangeCertainty,
+                            earliestyear: earliestyear,
+                            latestyear: latestyear
                         }
                     };
 
@@ -378,7 +406,7 @@ function doMapSetup(opts) {
                         }
                     }).bindPopup(geoJsonFeature.properties.popupContent);
 
-                    markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}`, locationCertainty: locationCertainty, earliestDateCertainty: earliestDateCertainty, latestDateCertainty: latestDateCertainty, rangeCertainty: rangeCertainty });
+                    markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}`, locationCertainty: locationCertainty, earliestDateCertainty: earliestDateCertainty, latestDateCertainty: latestDateCertainty, rangeCertainty: rangeCertainty, earliestyear: earliestyear, latestyear: latestyear });
                 } else {
                     console.warn('Invalid coordinates:', coordsArray);
                     continue;
@@ -399,8 +427,17 @@ function doMapSetup(opts) {
             docentry = "";
             bibliography = "";
             archiveprocessed = "";
+            earliestyear = "";
+            earliestmonth = "";
+            earliestday = "";
+            earliestdate = "";
+            latestyear = "";
+            latestmonth = "";
+            latestday = "";
+            latestdate = "";
         }
     }
+
 
     // Apply the initial filter
     filterMarkers();
@@ -431,16 +468,16 @@ function filterMarkers() {
 
         // Do not show points if events are not certain
         if (showCertainty){
-            if (locationCertainty && locationCertainty !== "1"){
+            if (locationCertainty && locationCertainty !== "1" && locationCertainty !== "2"){
                 show = false;
             } 
-            if (earliestDateCertainty && earliestDateCertainty !== "1") {
+            if (earliestDateCertainty && earliestDateCertainty !== "1" && earliestDateCertainty !== "2") {
                 show = false;
             }
-            if (latestDateCertainty && latestDateCertainty !== "1") {
+            if (latestDateCertainty && latestDateCertainty !== "1" && latestDateCertainty !== "2") {
                 show = false;
             }
-            if (rangeCertainty && rangeCertainty !== "1") {
+            if (rangeCertainty && rangeCertainty !== "1" && rangeCertainty !== "2") {
                 show = false;
             }
         }
@@ -482,6 +519,8 @@ function UserSearch(skipFilter = false) {
     let showNonMusicians = document.querySelector("#non-musician-select").checked;
     let showCertainty = document.querySelector("#certainty-select").checked;
 
+    document.querySelector("#chronology-select").checked = false;
+
     // Loop through all markers and show/hide based on search query and checkbox states
     markers.forEach(({ marker, text, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty }) => {
         let type = personID.substring(0, 3);
@@ -498,16 +537,16 @@ function UserSearch(skipFilter = false) {
 
         // Do not show points if events are not certain
         if (showCertainty){
-            if (locationCertainty && locationCertainty !== "1"){
-                show = false;
-            }
-            if (earliestDateCertainty && earliestDateCertainty !== "1") {
+            if (locationCertainty && locationCertainty !== "1" && locationCertainty !== "2"){
                 show = false;
             } 
-            if (latestDateCertainty && latestDateCertainty !== "1") {
+            if (earliestDateCertainty && earliestDateCertainty !== "1" && earliestDateCertainty !== "2") {
                 show = false;
             }
-            if (rangeCertainty && rangeCertainty !== "1") {
+            if (latestDateCertainty && latestDateCertainty !== "1" && latestDateCertainty !== "2") {
+                show = false;
+            }
+            if (rangeCertainty && rangeCertainty !== "1" && rangeCertainty !== "2") {
                 show = false;
             }
         }
@@ -533,6 +572,98 @@ function UserSearch(skipFilter = false) {
 
     // If the function is called from filterMarkers, no need to re-filter by checkboxes
     if (!skipFilter) {
+        filterMarkers();
+    }
+}
+
+// Function to update the active value label and reapply filters
+function updateDateRange(value) {
+    // Update the active value label
+    const activeLabel = document.getElementById('slider-active-label');
+    activeLabel.textContent = `Year: ${value}`;
+
+    // Position the active label above the slider handle
+    const slider = document.getElementById('date-slider');
+    const sliderWidth = slider.offsetWidth;
+    const max = slider.max;
+    const min = slider.min;
+    const percent = (value - min) / (max - min);
+    const labelLeft = percent * sliderWidth + 60;
+    activeLabel.style.left = `${labelLeft}px`;
+
+    // Filter markers based on the current slider value
+    filterMarkersByDate(value);
+}
+
+function filterMarkersByDate(currentYear) {
+    // Fetch checkbox states
+    let showComposers = document.querySelector("#composer-select").checked;
+    let showMusicians = document.querySelector("#musician-select").checked;
+    let showNonMusicians = document.querySelector("#non-musician-select").checked;
+    let showCertainty = document.querySelector("#certainty-select").checked;
+    let showChronology = document.querySelector("#chronology-select").checked;
+
+    // Add searchcount
+    let searchCount = 0;
+
+    if (showChronology) {
+        markers.forEach(({ marker, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear }) => {
+            let type = personID.substring(0, 3);
+            let show = false;
+
+            // Determine if the marker should be shown based on checkbox states
+            if (type === "BCO" && showComposers) {
+                show = true;
+            } else if (type === "BMU" && showMusicians) {
+                show = true;
+            } else if (type === "BNO" && showNonMusicians) {
+                show = true;
+            }
+
+            // Do not show points if events are not certain
+            if (showCertainty){
+                if (locationCertainty && locationCertainty !== "1" && locationCertainty !== "2"){
+                    show = false;
+                } 
+                if (earliestDateCertainty && earliestDateCertainty !== "1" && earliestDateCertainty !== "2") {
+                    show = false;
+                }
+                if (latestDateCertainty && latestDateCertainty !== "1" && latestDateCertainty !== "2") {
+                    show = false;
+                }
+                if (rangeCertainty && rangeCertainty !== "1" && rangeCertainty !== "2") {
+                    show = false;
+                }
+            }
+
+            // Apply chronological filter
+            if (earliestyear > currentYear || latestyear < currentYear) {
+                show = false;
+            }
+
+            // Add or remove marker from map based on show status
+            if (show) {
+                if (!map.hasLayer(marker)) {
+                    marker.addTo(map);   
+                }
+                searchCount++;
+            } else {
+                if (map.hasLayer(marker)) {
+                    map.removeLayer(marker);
+                }
+            }
+        });
+
+        let searchString = searchCount === 1 ? `[${searchCount} event]` : `[${searchCount} events]`;
+        let searchStringElement = document.querySelector("#search-count");
+        if (searchStringElement) {
+            searchStringElement.innerHTML = searchString;
+        }
+
+        // Ensure map is refreshed to reflect changes
+        map.invalidateSize();
+    } else {
+        // If chronology is not enabled, fallback to the main filterMarkers function
         filterMarkers();
     }
 }
