@@ -443,63 +443,67 @@ function doMapSetup(opts) {
     filterMarkers();
 }
 
+// Helper function to fetch checkbox states
+function getCheckboxStates() {
+    return {
+        showComposers: document.querySelector("#composer-select").checked,
+        showMusicians: document.querySelector("#musician-select").checked,
+        showNonMusicians: document.querySelector("#non-musician-select").checked,
+        showCertainty: document.querySelector("#certainty-select").checked,
+        showChronology: document.querySelector("#chronology-select").checked,
+    };
+}
+
+// Helper function to determine if a marker should be shown based on checkbox states and certainty
+function shouldShowMarker(type, checkboxStates, certainties) {
+    let { showComposers, showMusicians, showNonMusicians, showCertainty } = checkboxStates;
+    let { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty } = certainties;
+
+    let show = false;
+    
+    if ((type === "BCO" && showComposers) ||
+        (type === "BMU" && showMusicians) ||
+        (type === "BNO" && showNonMusicians)) {
+        show = true;
+    }
+
+    if (showCertainty) {
+        if (locationCertainty && locationCertainty !== "1" && locationCertainty !== "2") show = false;
+        if (earliestDateCertainty && earliestDateCertainty !== "1" && earliestDateCertainty !== "2") show = false;
+        if (latestDateCertainty && latestDateCertainty !== "1" && latestDateCertainty !== "2") show = false;
+        if (rangeCertainty && rangeCertainty !== "1" && rangeCertainty !== "2") show = false;
+    }
+
+    return show;
+}
+
+// Helper function to add or remove marker from map
+function updateMarkerOnMap(marker, show) {
+    if (show) {
+        if (!map.hasLayer(marker)) {
+            marker.addTo(map);
+        }
+    } else {
+        if (map.hasLayer(marker)) {
+            map.removeLayer(marker);
+        }
+    }
+}
+
 // Function to filter markers based on checkboxes
 function filterMarkers() {
+    const checkboxStates = getCheckboxStates();
 
-    // Fetch checkbox states
-    let showComposers = document.querySelector("#composer-select").checked;
-    let showMusicians = document.querySelector("#musician-select").checked;
-    let showNonMusicians = document.querySelector("#non-musician-select").checked;
-    let showCertainty = document.querySelector("#certainty-select").checked;
+    markers.forEach(({ marker, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty }) => {
+        const type = personID.substring(0, 3);
+        const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
+        const show = shouldShowMarker(type, checkboxStates, certainties);
 
-    // Loop through all markers and show/hide based on checkboxes
-    markers.forEach(({ marker, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty}) => {
-        let type = personID.substring(0, 3);
-        let show = false;
-
-        // Determine if the marker should be shown based on checkbox states
-        if (type === "BCO" && showComposers) {
-            show = true;
-        } else if (type === "BMU" && showMusicians) {
-            show = true;
-        } else if (type === "BNO" && showNonMusicians) {
-            show = true;
-        }
-
-        // Do not show points if events are not certain
-        if (showCertainty){
-            if (locationCertainty && locationCertainty !== "1" && locationCertainty !== "2"){
-                show = false;
-            } 
-            if (earliestDateCertainty && earliestDateCertainty !== "1" && earliestDateCertainty !== "2") {
-                show = false;
-            }
-            if (latestDateCertainty && latestDateCertainty !== "1" && latestDateCertainty !== "2") {
-                show = false;
-            }
-            if (rangeCertainty && rangeCertainty !== "1" && rangeCertainty !== "2") {
-                show = false;
-            }
-        }
-
-        // Add or remove marker from map based on show status
-        if (show) {
-            if (!map.hasLayer(marker)) {
-                marker.addTo(map);
-            }
-        } else {
-            if (map.hasLayer(marker)) {
-                map.removeLayer(marker);
-            }
-        }
+        updateMarkerOnMap(marker, show);
     });
-    
-    // Ensure map is refreshed to reflect changes
+
     map.invalidateSize();
-
-    // After filtering by checkboxes, apply search filter
     UserSearch(true);
-
 }
 
 
@@ -508,69 +512,25 @@ function filterMarkers() {
 // UserSearch –-
 //
 
+// UserSearch function
 function UserSearch(skipFilter = false) {
-    let input = document.querySelector("#input");
-    let regex = new RegExp(input.value, 'i');
+    const input = document.querySelector("#input");
+    const regex = new RegExp(input.value, 'i');
     let searchCount = 0;
-
-    // Fetch checkbox states
-    let showComposers = document.querySelector("#composer-select").checked;
-    let showMusicians = document.querySelector("#musician-select").checked;
-    let showNonMusicians = document.querySelector("#non-musician-select").checked;
-    let showCertainty = document.querySelector("#certainty-select").checked;
-
+    const checkboxStates = getCheckboxStates();
     document.querySelector("#chronology-select").checked = false;
 
-    // Loop through all markers and show/hide based on search query and checkbox states
     markers.forEach(({ marker, text, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty }) => {
-        let type = personID.substring(0, 3);
-        let show = false;
+        const type = personID.substring(0, 3);
+        const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
+        const show = shouldShowMarker(type, checkboxStates, certainties) && text.match(regex);
 
-        // Determine if the marker should be shown based on checkbox states
-        if (type === "BCO" && showComposers) {
-            show = true;
-        } else if (type === "BMU" && showMusicians) {
-            show = true;
-        } else if (type === "BNO" && showNonMusicians) {
-            show = true;
-        }
-
-        // Do not show points if events are not certain
-        if (showCertainty){
-            if (locationCertainty && locationCertainty !== "1" && locationCertainty !== "2"){
-                show = false;
-            } 
-            if (earliestDateCertainty && earliestDateCertainty !== "1" && earliestDateCertainty !== "2") {
-                show = false;
-            }
-            if (latestDateCertainty && latestDateCertainty !== "1" && latestDateCertainty !== "2") {
-                show = false;
-            }
-            if (rangeCertainty && rangeCertainty !== "1" && rangeCertainty !== "2") {
-                show = false;
-            }
-        }
-
-        // Add or remove marker from map based on search query and checkbox states
-        if (text.match(regex) && show) {
-            if (!map.hasLayer(marker)) {
-                marker.addTo(map);
-            }
-            searchCount++;
-        } else {
-            if (map.hasLayer(marker)) {
-                map.removeLayer(marker);
-            }
-        }
+        updateMarkerOnMap(marker, show);
+        if (show) searchCount++;
     });
 
-    let searchString = searchCount === 1 ? `[${searchCount} event]` : `[${searchCount} events]`;
-    let searchStringElement = document.querySelector("#search-count");
-    if (searchStringElement) {
-        searchStringElement.innerHTML = searchString;
-    }
+    document.querySelector("#search-count").innerHTML = `[${searchCount} ${searchCount === 1 ? "event" : "events"}]`;
 
-    // If the function is called from filterMarkers, no need to re-filter by checkboxes
     if (!skipFilter) {
         filterMarkers();
     }
@@ -578,11 +538,8 @@ function UserSearch(skipFilter = false) {
 
 // Function to update the active value label and reapply filters
 function updateDateRange(value) {
-    // Update the active value label
     const activeLabel = document.getElementById('slider-active-label');
     activeLabel.textContent = `Year: ${value}`;
-
-    // Position the active label above the slider handle
     const slider = document.getElementById('date-slider');
     const sliderWidth = slider.offsetWidth;
     const max = slider.max;
@@ -590,80 +547,31 @@ function updateDateRange(value) {
     const percent = (value - min) / (max - min);
     const labelLeft = percent * sliderWidth + 60;
     activeLabel.style.left = `${labelLeft}px`;
-
-    // Filter markers based on the current slider value
     filterMarkersByDate(value);
 }
 
+// Function to filter markers based on date slider value
 function filterMarkersByDate(currentYear) {
-    // Fetch checkbox states
-    let showComposers = document.querySelector("#composer-select").checked;
-    let showMusicians = document.querySelector("#musician-select").checked;
-    let showNonMusicians = document.querySelector("#non-musician-select").checked;
-    let showCertainty = document.querySelector("#certainty-select").checked;
-    let showChronology = document.querySelector("#chronology-select").checked;
-
-    // Add searchcount
+    const checkboxStates = getCheckboxStates();
     let searchCount = 0;
 
-    if (showChronology) {
+    if (checkboxStates.showChronology) {
         markers.forEach(({ marker, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear }) => {
-            let type = personID.substring(0, 3);
-            let show = false;
+            const type = personID.substring(0, 3);
+            const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
+            let show = shouldShowMarker(type, checkboxStates, certainties);
 
-            // Determine if the marker should be shown based on checkbox states
-            if (type === "BCO" && showComposers) {
-                show = true;
-            } else if (type === "BMU" && showMusicians) {
-                show = true;
-            } else if (type === "BNO" && showNonMusicians) {
-                show = true;
-            }
-
-            // Do not show points if events are not certain
-            if (showCertainty){
-                if (locationCertainty && locationCertainty !== "1" && locationCertainty !== "2"){
-                    show = false;
-                } 
-                if (earliestDateCertainty && earliestDateCertainty !== "1" && earliestDateCertainty !== "2") {
-                    show = false;
-                }
-                if (latestDateCertainty && latestDateCertainty !== "1" && latestDateCertainty !== "2") {
-                    show = false;
-                }
-                if (rangeCertainty && rangeCertainty !== "1" && rangeCertainty !== "2") {
-                    show = false;
-                }
-            }
-
-            // Apply chronological filter
             if (earliestyear > currentYear || latestyear < currentYear) {
                 show = false;
             }
 
-            // Add or remove marker from map based on show status
-            if (show) {
-                if (!map.hasLayer(marker)) {
-                    marker.addTo(map);   
-                }
-                searchCount++;
-            } else {
-                if (map.hasLayer(marker)) {
-                    map.removeLayer(marker);
-                }
-            }
+            updateMarkerOnMap(marker, show);
+            if (show) searchCount++;
         });
 
-        let searchString = searchCount === 1 ? `[${searchCount} event]` : `[${searchCount} events]`;
-        let searchStringElement = document.querySelector("#search-count");
-        if (searchStringElement) {
-            searchStringElement.innerHTML = searchString;
-        }
-
-        // Ensure map is refreshed to reflect changes
+        document.querySelector("#search-count").innerHTML = `[${searchCount} ${searchCount === 1 ? "event" : "events"}]`;
         map.invalidateSize();
     } else {
-        // If chronology is not enabled, fallback to the main filterMarkers function
         filterMarkers();
     }
 }
