@@ -1297,5 +1297,15 @@
 		"Signature": "169",
 		"Input data": "SMB",
 		"Date entered": "2024-7-28"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:New_York_Pierpont_4",
+		"Location ID (LOC)": "LOC:New_York",
+		"Archive": "Pierpont Morgan Library",
+		"Archival Fond": "Autograph Letters",
+		"Signature": "VR/R of F/Box I/Charles VIII/No. 4",
+		"Description": "autograph letter from Charles VIII",
+		"Input data": "SMB",
+		"Date entered": "2024-8-2"
 	}
 ]

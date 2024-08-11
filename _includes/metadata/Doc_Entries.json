@@ -3564,5 +3564,26 @@
 		"Related People": "BCO:Pierre_de_la_Rue",
 		"Input data": "SMB",
 		"Date entered": "2024-7-28"
+	},
+	{
+		"Document Entry (DOE) ID": "DOE:New_York_PP_1",
+		"Archival Document (ARD)": "ARD:New_York_Pierpont_4",
+		"Language": "French",
+		"Earliest Year": "1492",
+		"Earliest Month": "4",
+		"Earliest Day": "25",
+		"Latest Year": "1492",
+		"Latest Month": "4",
+		"Latest Day": "25",
+		"Date Range": "25 April 1492",
+		"Description": "Charles VIII asks for Agricola's return from Florence",
+		"Document Type": "letter",
+		"Sender": "Charles VIII",
+		"Recipient": "Pietro de Medici",
+		"Bibliography ID (BIB) (if different)": "BIB:Picker_1966",
+		"BIB Pages": "668",
+		"Related People": "BCO:Alexander_Agricola",
+		"Input data": "SMB",
+		"Date entered": "2024-8-2"
 	}
 ]

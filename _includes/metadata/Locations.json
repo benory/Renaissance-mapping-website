@@ -356,6 +356,46 @@
 		"Date entered": "2024-3-18"
 	},
 	{
+		"Location ID (LOC)": "LOC:Bruges-Sint-Gilliskerk",
+		"Name of Location": "Sint-Gilliskerk",
+		"City or Larger Place": "Bruges",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/A2CcAZwTE7TFLFTJ8",
+		"Coordinates": "51.21486949799302, 3.2265145954036965",
+		"Input data": "LO",
+		"Date entered": "2024-8-10"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bruges-Sint-Jakobskerk",
+		"Name of Location": "Sint-Jakobskerk",
+		"City or Larger Place": "Bruges",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/8WfH62E4GjaSbMBY7",
+		"Coordinates": "51.210411533740604, 3.2204128778877954",
+		"Input data": "LO",
+		"Date entered": "2024-8-10"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bruges-Sint-Salvatorskathedraal",
+		"Name of Location": "Sint-Salvatorskathedraal",
+		"City or Larger Place": "Bruges",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/1BJxgHZPXprdchK9A",
+		"Coordinates": "51.205613292379596, 3.221660310778442",
+		"Wikidata": "Q1378149",
+		"Input data": "LO",
+		"Date entered": "2024-8-10"
+	},
+	{
+		"Location ID (LOC)": "LOC:Brussels",
+		"Name of Location": "Brussels",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/EuTx2Cx88GYtR1ZY8",
+		"Coordinates": "50.84, 4.35",
+		"Input data": "SMB",
+		"Date entered": "2024-8-4"
+	},
+	{
 		"Location ID (LOC)": "LOC:Brussels-Archives_Generales_du_Royaume",
 		"Name of Location": "Archives Générales du Royaume",
 		"City or Larger Place": "Brussels",
@@ -1242,6 +1282,15 @@
 		"Date entered": "2024-7-11"
 	},
 	{
+		"Location ID (LOC)": "LOC:London",
+		"Name of Location": "London",
+		"Modern Country": "United Kingdom",
+		"Google URL": "https://maps.app.goo.gl/2qDQfaowKqrYCvvJA",
+		"Coordinates": "51.50, -0.11",
+		"Input data": "SMB",
+		"Date entered": "2024-8-9"
+	},
+	{
 		"Location ID (LOC)": "LOC:Lyon",
 		"Name of Location": "Lyon",
 		"Modern Country": "France",
@@ -1607,6 +1656,14 @@
 		"Coordinates": "46.99053086624116, 3.161481544121609",
 		"Input data": "BSO",
 		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:New_York",
+		"Name of Location": "New York",
+		"City or Larger Place": "New York",
+		"Modern Country": "USA",
+		"Google URL": "https://maps.app.goo.gl/PtiHWkXTpw842K3XA",
+		"Coordinates": "40.786274, -73.962137"
 	},
 	{
 		"Location ID (LOC)": "LOC:Oeudeghien",
@@ -2106,6 +2163,15 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Location ID (LOC)": "LOC:Saint-Outrille",
+		"Name of Location": "Saint-Outrille",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/xfhHPdviWmdbcjoc8",
+		"Coordinates": "47°08′41″N 1°50′28″E",
+		"Input data": "SMB",
+		"Date entered": "2024-8-10"
+	},
+	{
 		"Location ID (LOC)": "LOC:Saint-Pol-de-Leon",
 		"Name of Location": "Saint-Pol-de-Léon",
 		"Modern Country": "France",
@@ -2238,6 +2304,15 @@
 		"Coordinates": "47.01307441224209, -1.1148221850025433",
 		"Input data": "BSO",
 		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Toledo",
+		"Name of Location": "Toledo",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/MbJXoQq8kWXQRyS77",
+		"Coordinates": "39.86, -4.02",
+		"Input data": "SMB",
+		"Date entered": "2024-8-4"
 	},
 	{
 		"Location ID (LOC)": "LOC:Tournai",

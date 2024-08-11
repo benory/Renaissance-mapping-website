@@ -70,5 +70,20 @@
 		"Institution Description": "Chapel of Philip the Fair, duke of Burgundy 1482-1506",
 		"Input data": "SMB",
 		"Date entered": "2024-7-25"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Marguerite_Austria",
+		"Institution Name": "Chapel of Marguerite of Austria",
+		"Alias": "Habsburg-Burgundian court chapel",
+		"Institution Description": "Chapel of Marguerite of Austria, Governor of the Habsburg Netherlands",
+		"Input data": "SMB",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Ferdinand_II",
+		"Institution Name": "Chapel of Ferdinand II",
+		"Alias": "\"the Catholic\"",
+		"Input data": "SMB",
+		"Date entered": "2024-8-9"
 	}
 ]

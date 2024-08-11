@@ -607,5 +607,91 @@
 		"Pages": "21-57, 139-65",
 		"Input data": "SMB",
 		"Date entered": "2024-7-26"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Picker_1966",
+		"Author": "Picker, Martin",
+		"Name of Article": "A Letter of Charles VIII of France Concerning Alexander Agricola",
+		"Name of Volume/Journal": "Aspects of Medieval and Renaissance Music: A Birthday Offering to Gustave Reese",
+		"Editor": "Jan LaRue",
+		"Edition": "1978 reissue",
+		"Location": "New York",
+		"Publisher": "Pendragon",
+		"Publication Year": "1966",
+		"Pages": "665-672",
+		"Input data": "SMB",
+		"Date entered": "2024-8-2"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Sartori_1957",
+		"Author": "Sartori, Claudio",
+		"Name of Article": "Organs, Organ-Builders, and Organists in Milan, 1450-1476: New and Unpublished documents",
+		"Name of Volume/Journal": "Music Quarterly",
+		"Volume": "41 no. 1",
+		"Publication Year": "1957",
+		"Pages": "57-67",
+		"Input data": "SMB",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Strohm_1985",
+		"Author": "Strohm, Reinhard",
+		"Name of Article": "Music in Late Medieval Bruges",
+		"Edition": "1990 reprint with corrections",
+		"Publisher": "Oxford University Press",
+		"Publication Year": "1985",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Gottwald_1961",
+		"Author": "Gottwald, Clytus",
+		"Name of Article": "Johannes Ghselin: Janne Verbonnet: Some Traces of his Life",
+		"Name of Volume/Journal": "Musica Disciplina",
+		"Volume": "15",
+		"Publication Year": "1961",
+		"Pages": "105-111",
+		"Input data": "SMB",
+		"Date entered": "2024-8-9"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Schmidt-Goerg_1938",
+		"Author": "Schmidt-Goerg, Joseph",
+		"Name of Article": "Nicolas Gombert: Kapellmeister Kaiser Karls V. Leben und Werk",
+		"Location": "Bonn",
+		"Publisher": "Ludwig Roehrscheid Verlag",
+		"Publication Year": "1938",
+		"Input data": "SMB",
+		"Date entered": "2024-8-9"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Bowers_2001",
+		"Author": "Bowers, Roger",
+		"Name of Article": "London (i): II. Music at Court 1. The Chapel Royal",
+		"Name of Volume/Journal": "Grove Music Online",
+		"Publisher": "Oxford University Press",
+		"Publication Year": "2001",
+		"Input data": "SMB",
+		"Date entered": "2024-8-9"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Atlas_1985",
+		"Author": "Atlas, Allan",
+		"Name of Article": "Music at the Aragonese Court of Naples",
+		"Location": "Cambridge",
+		"Publisher": "Cambridge University Press",
+		"Publication Year": "1985",
+		"Input data": "SMB",
+		"Date entered": "2024-8-9"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Higgins_1990",
+		"Author": "Higgins, Paula",
+		"Name of Article": "Tracing the Careers of Late Medieval Composers: The Case of Philippe Basiron of Bourges",
+		"Name of Volume/Journal": "Acta Musicologica",
+		"Volume": "62",
+		"Publication Year": "1990",
+		"Input data": "SMB",
+		"Date entered": "2024-8-10"
 	}
 ]

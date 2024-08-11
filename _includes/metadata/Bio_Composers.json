@@ -79,6 +79,11 @@
 		"Date updated": "2024-2-11"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Bernardus_Ycart",
+		"Composer Name": "Bernardus Ycart",
+		"Description": "composer at Neapolitan court"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Bertrandus_Vaqueras",
 		"Composer Name": "Bertrandus Vaqueras",
 		"Alias": "Bassa, Bertrandus della; Bassea, Bertrandus de; Bernardus de Brassia; Bertrandus de Brassia; De Bassea, Bertrandus; Della Bassa, Bertrandus; Vacares, Bertrandus; Vacqueras, Beltrame; Vacqueras, Bernardus; Vacqueras, Bertrandus; Vagares, Bertrandus; Vagueras, Bertrandus; Vassadelli, Bertrandus",
@@ -190,6 +195,15 @@
 		"BIB Pages": "258–59",
 		"Input data": "LO",
 		"Date entered": "2024-3-22"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Guillaume_Faugues",
+		"Composer Name": "Guillaume Faugues",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/370/",
+		"RISM ID": "pe50041917",
+		"RISM Link": "https://rism.online/people/50041917",
+		"Input data": "SMB",
+		"Date entered": "2024-8-10"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Heinrich_Isaac",
@@ -402,6 +416,45 @@
 		"Date updated": "2023-5-9"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Johannes_Vincenet",
+		"Composer Name": "Johannes Vincenet",
+		"Description": "composer at Neapolitan court"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:John_Plummer",
+		"Composer Name": "John Plummer",
+		"Birth Date": "1410",
+		"Death Date": "1483",
+		"Description": "composer at Chapel Royal (British)",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/359/",
+		"RISM ID": "pe41009372",
+		"RISM Link": "https://rism.online/people/41009372",
+		"Bibliography (BIB) ID": "BIB:Bowers_2001",
+		"Input data": "SMB",
+		"Date entered": "2024-8-9"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:John_Pyamour",
+		"Composer Name": "John Pyamour",
+		"Death Date": "1491",
+		"Description": "composer at Chapel Royal (British)",
+		"Bibliography (BIB) ID": "BIB:Bowers_2001",
+		"Input data": "SMB",
+		"Date entered": "2024-8-9"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:John_Sheppard",
+		"Composer Name": "John Sheppard",
+		"Death Date": "1558-12",
+		"Description": "composer at Chapel Royal (British)",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/958/",
+		"RISM ID": "pe30004071",
+		"RISM Link": "https://rism.online/people/30004071",
+		"Bibliography (BIB) ID": "BIB:Bowers_2001",
+		"Input data": "SMB",
+		"Date entered": "2024-8-9"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Josquin_des_Prez",
 		"Composer Name": "Josquin des Prez",
 		"Alias": "De Pres; Deprez, Josquin; Deprès, Josquin; Des Prez; Des Près, Josse; Des Prés, Josquin; Desprez, Josquin; Desprez, Josse; Després, Josquin; Du Pres; Dupré, Josquin; Gossequin des Pres; Ioschinus de Pratis; Ioschinus de Prattis; Iuschino; Jodocus [Pratensis]; Jodocus [de Prato]; Jodocus a Prato; Jodocus de Pratis; Josquin Dascanio; Josquin [Deprez]; Josquin [des Pres]; Josquin d'Ascanio; Josquin des Prés; Josse Desprez; Josse [des Prés]; Jossequin Lebloitte dit Desprez; Jossequin des Pres; Judocus de Pratis; Judocus des Pres; Juschino; Jöskin; Praetensis, Jodici; Pres, Josquin de; Prez, Josquin des; Prés, Josquin D.; Prés, Josquin des; Josquin [des Prez]",
@@ -412,6 +465,11 @@
 		"RISM Link": "https://rism.online/people/20000367",
 		"Input data": "BSO",
 		"Date entered": "2023-5-17"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Juan_Cornago",
+		"Composer Name": "Juan Cornago",
+		"Description": "composer at Neapolitan court"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Loyset_Compere",
@@ -485,6 +543,15 @@
 		"Date entered": "2024-3-16"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Pere_Oriola",
+		"Composer Name": "Pere Oriola",
+		"Description": "composer at Neapolitan court",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/376/",
+		"Bibliography (BIB) ID": "BIB:Atlas_1985",
+		"Input data": "SMB",
+		"Date entered": "2024-8-9"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Petrus_de_Renaldis",
 		"Composer Name": "Petrus de Renaldis",
 		"Alias": "Renaldo",
@@ -528,5 +595,53 @@
 		"Date entered": "2024-1-19",
 		"Update data": "BSO",
 		"Date updated": "2024-1-19"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Robert_Fayrfax",
+		"Composer Name": "Robert Fayrfax",
+		"Birth Date": "1464-4-23",
+		"Death Date": "1521-8-24",
+		"Description": "composer at Chapel Royal (British)",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/2442/",
+		"RISM ID": "pe30008185",
+		"RISM Link": "https://rism.online/people/30008185",
+		"Bibliography (BIB) ID": "BIB:Bowers_2001",
+		"Input data": "SMB",
+		"Date entered": "2024-8-9"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Thomas_Tallis",
+		"Composer Name": "Thomas Tallis",
+		"Death Date": "1585-11-23",
+		"Description": "composer at Chapel Royal (British)",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/194/",
+		"RISM ID": "pe30004082",
+		"RISM Link": "https://rism.online/people/30004082",
+		"Bibliography (BIB) ID": "BIB:Bowers_2001",
+		"Input data": "SMB",
+		"Date entered": "2024-8-9"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:William_Cornysh",
+		"Composer Name": "William Cornysh",
+		"Death Date": "1523-8",
+		"Description": "composer at Chapel Royal (British)",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/536/",
+		"RISM ID": "pe30101129",
+		"RISM Link": "https://rism.online/people/30101129",
+		"Bibliography (BIB) ID": "BIB:Bowers_2001",
+		"Input data": "SMB",
+		"Date entered": "2024-8-9"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Philippe_Basiron",
+		"Composer Name": "Philippe Basiron",
+		"Death Date": "1491-5-31",
+		"Description": "Composer, Bourges",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/198/",
+		"RISM ID": "pe30016303",
+		"RISM Link": "https://rism.online/people/30016303",
+		"Input data": "SMB",
+		"Date entered": "2024-8-10"
 	}
 ]

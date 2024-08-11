@@ -1535,7 +1535,6 @@
 		"Description": "singer in the papal chapel; mentioned once in the Introitus et Exitus as having collected chapel salaries in January 1512; possibility that the name reflects an illegible rendering of Scrivano",
 		"Bibliography ID (BIB)": "BIB:Sherr_1975",
 		"BIB Pages": "73",
-		"Internal notes": "may be the same person in the row above",
 		"Input data": "LO",
 		"Date entered": "2023-4-2"
 	},
@@ -2585,5 +2584,1657 @@
 		"BIB Pages": "360",
 		"Input data": "RP",
 		"Date entered": "2024-7-15"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Arnoldus_Absalonis",
+		"Musician Name": "Arnoldus Absalonis",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Christianus_Alleris",
+		"Musician Name": "Christianus Alleris",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacques_Amouret",
+		"Musician Name": "Jacques Amouret",
+		"Alias": "Amoury, Jacques",
+		"Description": "musician in Bruges; singer at the Savoy court; singer at the Burgundian court",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Victor_Arnoldi",
+		"Musician Name": "Victor Arnoldi",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jaspar_de_Atrio",
+		"Musician Name": "Jaspar de Atrio",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Balde",
+		"Musician Name": "Johannes Balde",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Band",
+		"Musician Name": "Johannes Band",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Matthias_de_Banc",
+		"Musician Name": "Matthias de Banc",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Willelmus_Tasset_Barbier",
+		"Musician Name": "Willelmus Tasset Barbier",
+		"Death Date": "1367-12",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Balduinus_Beecling",
+		"Musician Name": "Balduinus Beecling",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Cornelius_van_Belle",
+		"Musician Name": "Cornelius van Belle",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Rubertinus_de_Bergis",
+		"Musician Name": "Rubertinus de Bergis",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Berout",
+		"Musician Name": "Jacobus Berout",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_de_Bliekere",
+		"Musician Name": "Petrus de Bliekere",
+		"Death Date": "1520-6-9",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Blijman",
+		"Musician Name": "Johannes Blijman",
+		"Death Date": "1510",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Achilles_de_Bleysere",
+		"Musician Name": "Achilles de Bleysere",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Paulus_Bloume",
+		"Musician Name": "Paulus Bloume",
+		"Death Date": "1479",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Philippus_Bollaert",
+		"Musician Name": "Philippus Bollaert",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Bouchout",
+		"Musician Name": "Johannes Bouchout",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Victor_Brunijnc",
+		"Musician Name": "Victor Brunijnc",
+		"Alias": "de Brune, Victor",
+		"Description": "musician in Bruges; probably the singer \"Victore de Bruges\" in the ducal chapel in Milan",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Buus",
+		"Musician Name": "Jacobus Buus",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Augustinus_de_Calewe",
+		"Musician Name": "Augustinus de Calewe",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Campioens",
+		"Musician Name": "Johannes Campioens",
+		"Alias": "Champion, Johannes",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Capella",
+		"Musician Name": "Johannes de Capella",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_de_Capella",
+		"Musician Name": "Petrus de Capella",
+		"Death Date": "1502",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Caseman",
+		"Musician Name": "Jacobus Caseman",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_Clenquemeure",
+		"Musician Name": "Petrus Clenquemeure",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Clerici",
+		"Musician Name": "Johannes Clerici",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Christianus_de_Clita",
+		"Musician Name": "Christianus de Clita",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Symon_Coene",
+		"Musician Name": "Symon Coene",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Martinus_Colins",
+		"Musician Name": "Martinus Colins",
+		"Death Date": "1491-5-23",
+		"Description": "musician in Bruges; musician in the chapel of Maximilian of Habsburg; probably the \"Martin tenoristre\" in chapel of Mary of Burgundy",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Coopman",
+		"Musician Name": "Jacobus Coopman",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_Coots",
+		"Musician Name": "Petrus Coots",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jean_Cordier",
+		"Musician Name": "Jean Cordier",
+		"Alias": "Cordier, Johannes",
+		"Death Date": "1501-9-28",
+		"Description": "musician in Bruges; singer in the chapels of Florence, Rome, Milan, Naples, Habsburg",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Crauweel",
+		"Musician Name": "Johannes Crauweel",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Egidius_Crekele",
+		"Musician Name": "Egidius Crekele",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Cornelius_van_der_Damme",
+		"Musician Name": "Cornelius van der Damme",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Richardus_Dath",
+		"Musician Name": "Richardus Dath",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_Debbout",
+		"Musician Name": "Petrus Debbout",
+		"Alias": "Dubbout, Petrus; De Wout, Petrus",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pierkin_Deelers",
+		"Musician Name": "Pierkin Deelers",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Victor_Deister",
+		"Musician Name": "Victor Deister",
+		"Alias": "Deysen, Victor",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Doorne",
+		"Musician Name": "Jacobus Doorne",
+		"Alias": "Doorme, Jacobus",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Philippus_Dullaert",
+		"Musician Name": "Philippus Dullaert",
+		"Death Date": "c. 1463",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Fernandez",
+		"Musician Name": "Johannes Fernandez",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Arnoldus_de_Fine",
+		"Musician Name": "Arnoldus de Fine",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Fraxinis",
+		"Musician Name": "Johannes de Fraxinis",
+		"Alias": "(de?) Fraeye, Johannes",
+		"Description": "musician in Bruges; perhaps the papal singer Johannes de Fraccinis",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Galliant",
+		"Musician Name": "Jacobus Galliant",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gallici",
+		"Musician Name": "Gallici",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Genays",
+		"Musician Name": "Johannes de Genays",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gossaert",
+		"Musician Name": "Gossaert",
+		"Alias": "son of Francisci Gossaert of Ghent",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_de_Gouy",
+		"Musician Name": "Jacobus de Gouy",
+		"Death Date": "1485-5-30",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Grac",
+		"Musician Name": "Johannes Grac",
+		"Alias": "Grach, Johannes; Johannes Grac of Bourbourg",
+		"Description": "musician in Bruges; scribe; cleric",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Claeys_Grappe",
+		"Musician Name": "Claeys Grappe",
+		"Death Date": "1517",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Rycquaert_Grisel",
+		"Musician Name": "Rycquaert Grisel",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Aliamus_de_Groote",
+		"Musician Name": "Aliamus de Groote",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Laurentius_de_Groote",
+		"Musician Name": "Laurentius de Groote",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jan_van_der_Hecke",
+		"Musician Name": "Jan van der Hecke",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Heyns",
+		"Musician Name": "Johannes Heyns",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jan_van_Hille",
+		"Musician Name": "Jan van Hille",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Judocus_van_Hille",
+		"Musician Name": "Judocus van Hille",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Hollandrinus",
+		"Musician Name": "Johannes Hollandrinus",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Honie",
+		"Musician Name": "Jacobus Honie",
+		"Alias": "Honin, Jacobus",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Michael_Hugheloot",
+		"Musician Name": "Michael Hugheloot",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Huusman",
+		"Musician Name": "Jacobus Huusman",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Adrianus_Juvenis",
+		"Musician Name": "Adrianus Juvenis",
+		"Alias": "De Jonghe, Juvenis",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Juvenis",
+		"Musician Name": "Johannes Juvenis",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Walterus_Knuut",
+		"Musician Name": "Walterus_Knuut",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Lamberts",
+		"Musician Name": "Johannes Lamberts",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Thomas_Le_Canu",
+		"Musician Name": "Thoams Le Canu",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Stephanus_Le_Cristenier",
+		"Musician Name": "Stephanus Le Cristenier",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Cornelius_Leonis",
+		"Musician Name": "Cornelius Leonis",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Cornelius_van_Loo",
+		"Musician Name": "Cornelius van Loo",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Laurentius_de_Lovanio",
+		"Musician Name": "Laurentius de Lovanio",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jan_Luuc",
+		"Musician Name": "Jan Luuc",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Luucx",
+		"Musician Name": "Jacobus Luucx",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Maes",
+		"Musician Name": "Jacobus Maes",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Maes",
+		"Musician Name": "Johannes Maes",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Eustacius_Manessier",
+		"Musician Name": "Eustacius Manessier",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Margas",
+		"Musician Name": "Johannes Margas",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicolaus_Mayoul",
+		"Musician Name": "Nicolaus Mayoul",
+		"Description": "musician in Bruges; Franciscan friar; chaplain of Maximilian of Habsburg and Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Eustacius_Metteresse",
+		"Musician Name": "Eustacius Metteresse",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Egidius_Michaelis",
+		"Musician Name": "Egidius Michaelis",
+		"Description": "musician in Bruges; Mag. Univ. Louvain",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bertinus_Moens",
+		"Musician Name": "Bertinus Moens",
+		"Death Date": "1480",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Cornelius_Moerijnc",
+		"Musician Name": "Cornelius Moerijnc",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Paschasius_van_der_Moersch",
+		"Musician Name": "Paschasius van der Moersch",
+		"Alias": "van der Moere, Paschasius",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_van_der_Moersch",
+		"Musician Name": "Petrus van der Moersch",
+		"Alias": "van der Moere, Petrus",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Monachi",
+		"Musician Name": "Jacobus Monachi",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pieter_Nachtegale",
+		"Musician Name": "Pieter Nachtegale",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Ludovicus_Nepotis",
+		"Musician Name": "Ludovicus Nepotis",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Ondanch",
+		"Musician Name": "Johannes Ondanch",
+		"Death Date": "1425",
+		"Description": "musician in Bruges; ducal organist; death year is the date of his will",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Ostandis",
+		"Musician Name": "Johannes de Ostandis",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_Paes",
+		"Musician Name": "Petrus Paes",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "156",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Philippe_Paillet",
+		"Musician Name": "Philippe Paillet",
+		"Alias": "Paillette, Philippe; Philipot de Bruges",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Eustacius_de_Paris",
+		"Musician Name": "Eustacius de Paris",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Cesar_Pastoris",
+		"Musician Name": "Cesar Pastoris",
+		"Description": "musician in Bruges; prother of Johannes Pastoris",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Pastoris",
+		"Musician Name": "Johannes Pastoris",
+		"Description": "musician in Bruges; brother of Cesar Pastoris",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_Patinier",
+		"Musician Name": "Patrus Patinier",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Peerbome",
+		"Musician Name": "Johannes Peerbome",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Estienne_Petault",
+		"Musician Name": "Estienne Petault",
+		"Description": "musician in Bruges; ducal chaplain",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jean_Le_Petit",
+		"Musician Name": "Jean Le Petit",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Judocus_Pijpe",
+		"Musician Name": "Judocus Pijpe",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Pipelare",
+		"Musician Name": "Johannes Pipelare",
+		"Description": "musician in Bruges; singer at St Peter's in Rome",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Platea",
+		"Musician Name": "Johannes de Platea",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Plouvier",
+		"Musician Name": "Johannes Plouvier",
+		"Description": "musician in Bruges; perhaps the same as Jean Plouvier, chaplain of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Perchevaldus_de_Polinchove",
+		"Musician Name": "Perchevaldus de Polinchove",
+		"Death Date": "1505-11-5",
+		"Description": "musician in Bruges; scribe",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Pont",
+		"Musician Name": "Johannes de Pont",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Prato",
+		"Musician Name": "Johannes de Prato",
+		"Alias": "de Pratis, Johannes",
+		"Description": "musician in Bruges; probably identical with Johannes de Prato, cantos of St Donatian's in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Walterus_de_Raedt",
+		"Musician Name": "Walterus de Raedt",
+		"Description": "musician in Bruges; perhaps the \"Dominus Walterus\" who took over succentorship after death of Busnois, sharing with \"Denis\" (van Spiere?)",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Raes",
+		"Musician Name": "Johannes Raes",
+		"Description": "musician in Bruges; perhaps the \"Johannes Raat,\" singer at St Peter's in Rome and in the papal chapel",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Simon_Ranarii",
+		"Musician Name": "Simon Ranarii",
+		"Description": "musician in Bruges; singer of King Sigismund",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Rapponde",
+		"Musician Name": "Johannes Rapponde",
+		"Description": "musician in Bruges; perhaps a relative of merchants from Lucca, Dino Rapondi and Filippo Rapondi",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "157",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_van_Ravescote",
+		"Musician Name": "Jacobus van Ravescote",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Paschasius_Rekenare",
+		"Musician Name": "Paschasius Rekenare",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicolaous_Rembert",
+		"Musician Name": "Nicolaous Rembert",
+		"Description": "musician in Bruges; singer at St Peter's in Rome",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Reyneville",
+		"Musician Name": "Johannes Reyneville",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Roberti",
+		"Musician Name": "Johannes Roberti",
+		"Death Date": "1467-7",
+		"Description": "musician in Bruges; scribe",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Rogerii",
+		"Musician Name": "Johannes Rogerii",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guillermus_de_Rogiault",
+		"Musician Name": "Guillermus de Rogiault",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guillermus_Rosa",
+		"Musician Name": "Guillermus Rosa",
+		"Death Date": "1489-7-28",
+		"Description": "musician in Bruges; papal singer; tenorista at St Peter's",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Rykelin",
+		"Musician Name": "Johannes Rykelin",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_van_Ryn",
+		"Musician Name": "Johannes van Ryn",
+		"Description": "musician in Bruges; from Antwerp",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Karolus_Saarlot",
+		"Musician Name": "Karolus Saarlot",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Leon_de_Saint-Vaast",
+		"Musician Name": "Léon de Saint-Vaast",
+		"Description": "musician in Bruges; sommelier of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Robertus_Sandewin",
+		"Musician Name": "Robertus Sandewin",
+		"Death Date": "1453-3-13",
+		"Description": "musician in Bruges; papal singer at Council of Constance",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicolaus_Sarigot_de_Scriva",
+		"Musician Name": "Nicolaus Sarigot de Scriva",
+		"Description": "musician in Bruges; perhaps the Nicolaus Sardigo who sang at St Peter's in Rome",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_van_der_Sluus",
+		"Musician Name": "Johannes van der Sluus",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Smout",
+		"Musician Name": "Johannes Smout",
+		"Alias": "Smoutkin, Johannes",
+		"Description": "musician in Bruges; scribe",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Franciscus_Spasboen",
+		"Musician Name": "Franciscus Spasboen",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Denijs_van_Spiere",
+		"Musician Name": "Denijs van Spiere",
+		"Description": "musician in Bruges; scribe; perhaps the \"Denis\" who was interim succentor at St Saviousr's in Bruges with \"Walterus\" (de Raedt?)",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Theodorus_Spierinck",
+		"Musician Name": "Theodorus Spierinck",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Balduinus_Spoet",
+		"Musician Name": "Balduinus Spoet",
+		"Death Date": "1476",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "158",
+		"Input data": "LO",
+		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Eligius_Stalinhooft",
+		"Musician Name": "Eligius Stalinhooft",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "159",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Stephani",
+		"Musician Name": "Johannes Stephani",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "159",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Storkin",
+		"Musician Name": "Johannes Storkin",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "159",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Tayaert",
+		"Musician Name": "Jacobus Tayaert",
+		"Description": "musician in Bruges; scribe",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "159",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Tyck",
+		"Musician Name": "Jacobus Tyck",
+		"Alias": "Tijcke, Jacobus",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "159",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernardinus_Vale",
+		"Musician Name": "Bernardinus Vale",
+		"Description": "musician in Bruges; perhaps the \"Bernardinus de Flandria\" who sang at St Peter's in Rome",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "159",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacquetus_de_Vico",
+		"Musician Name": "Jacquetus de Vico",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "159",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Vico",
+		"Musician Name": "Johannes de Vico",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "159",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_van_Vineloo",
+		"Musician Name": "Petrus van Vineloo",
+		"Death Date": "1507",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "159",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Voosdonc",
+		"Musician Name": "Johannes Voosdonc",
+		"Alias": "Voysdonc, Johannes",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "159",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernardus_Vos",
+		"Musician Name": "Bernardus Vos",
+		"Alias": "son of Arnoldi de Vos",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "159",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Vos",
+		"Musician Name": "Johannes de Vos",
+		"Description": "musician in Bruges; scribe",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "159",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Waellin",
+		"Musician Name": "Johannes Waellin",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "159",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicasius_Weyts",
+		"Musician Name": "Nicasius Weyts",
+		"Description": "musician in Bruges; probably \"Magister Nicasius Weyts Carmelita,\" author of counterpoint treatise, in cod. Faenza 117",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "159",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Wilhoudt",
+		"Musician Name": "Johannes Wilhoudt",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "159",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pieter_Willems",
+		"Musician Name": "Pieter Willems",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "159",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jan_Wulfaert",
+		"Musician Name": "Jan Wulfaert",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Zaghere",
+		"Musician Name": "Zaghere",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Alexius_Zelandrie",
+		"Musician Name": "Alexius Zelandrie",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_Zoeteman",
+		"Musician Name": "Petrus Zoeteman",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_de_Zomere",
+		"Musician Name": "Petrus de Zomere",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Zomerghem",
+		"Musician Name": "Johannes de Zomerghem",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_Zouburg",
+		"Musician Name": "Petrus Zouburg",
+		"Alias": "De Husene, Petrus",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Zwinemersch",
+		"Musician Name": "Johannes Zwinemersch",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Albertus",
+		"Musician Name": "Albertus",
+		"Description": "musician in Bruges; from Antwerp or Germany",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Andraes",
+		"Musician Name": "Andraes",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bertin",
+		"Musician Name": "Bertin",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Clemens",
+		"Musician Name": "Clemens",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Coppin",
+		"Musician Name": "Coppin",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Coppin_II",
+		"Musician Name": "Coppin",
+		"Description": "musician in Bruges; perhaps Coppin Bucquel de Bruges, the ducal chaplain",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Dammaert_de_Forcten",
+		"Musician Name": "Dammaert de Forcten",
+		"Description": "musician in Bruges; son or pupil of Johannes Ondanch or son of citizen Dammaert de Straeten",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Ghiselbrecht",
+		"Musician Name": "Ghiselbrecht",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gillis",
+		"Musician Name": "Gillis",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Goutier",
+		"Musician Name": "Goutier",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jean_de_cantare",
+		"Musician Name": "Jean de cantare",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes",
+		"Musician Name": "Johannes",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Karolus",
+		"Musician Name": "Karolus",
+		"Description": "musician in Bruges; perhaps Karolus de Campis",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Oliverus",
+		"Musician Name": "Oliverus",
+		"Description": "musician in Bruges; perhaps Oliverus de Beka",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Philippus",
+		"Musician Name": "Philippus",
+		"Alias": "van Wettere (?)",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Philips",
+		"Musician Name": "Philips",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Riquaert",
+		"Musician Name": "Riquaert",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Robijn",
+		"Musician Name": "Robijn",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "161",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Salvator",
+		"Musician Name": "Salvator",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "161",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Simon",
+		"Musician Name": "Simon",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "161",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Stassinetus",
+		"Musician Name": "Stassinetus",
+		"Alias": "de Coppelaere (?)",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "161",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Valentin_de_cantere",
+		"Musician Name": "Valentin de cantere",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "161",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Vincentius",
+		"Musician Name": "Vincentius",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "161",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Winnocus",
+		"Musician Name": "Winnocus",
+		"Description": "musician in Bruges; perhaps the \"Vinocus tenorista\" who sang at St Peter's in Rome",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "161",
+		"Input data": "LO",
+		"Date entered": "2024-8-7"
 	}
 ]
