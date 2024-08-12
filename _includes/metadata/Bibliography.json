@@ -693,5 +693,16 @@
 		"Publication Year": "1990",
 		"Input data": "SMB",
 		"Date entered": "2024-8-10"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:VanderStraeten_IV",
+		"Author": "Van der Straeten, Edmond",
+		"Name of Article": "La musique aux Pays-Bas avant le 19e. siècle",
+		"Volume": "IV",
+		"Location": "Brussels",
+		"Publisher": "Van Trigt",
+		"Publication Year": "1878",
+		"Input data": "SMB",
+		"Date entered": "2024-8-11"
 	}
 ]

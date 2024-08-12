@@ -85,5 +85,11 @@
 		"Alias": "\"the Catholic\"",
 		"Input data": "SMB",
 		"Date entered": "2024-8-9"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Ferdinand_I",
+		"Institution Name": "Chapel of Ferdinand I",
+		"Input data": "SMB",
+		"Date entered": "2024-8-11"
 	}
 ]

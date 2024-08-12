@@ -416,9 +416,9 @@
 		"Date updated": "2023-5-9"
 	},
 	{
-		"Biography Composer (BCO) ID": "BCO:Johannes_Vincenet",
-		"Composer Name": "Johannes Vincenet",
-		"Description": "composer at Neapolitan court"
+		"Biography Composer (BCO) ID": "BCO:Vincenet",
+		"Composer Name": "Vincenet",
+		"Description": "composer at Neapolitan court, NOT Johannes"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:John_Plummer",
@@ -643,5 +643,16 @@
 		"RISM Link": "https://rism.online/people/30016303",
 		"Input data": "SMB",
 		"Date entered": "2024-8-10"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Franchinus_Gaffurius",
+		"Composer Name": "Franchinus Gaffurius",
+		"Death Date": "1522-6-22",
+		"Description": "Composer, theorist, scribe",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/307/",
+		"RISM ID": "pe30102810",
+		"RISM Link": "https://rism.online/people/30102810",
+		"Input data": "SMB",
+		"Date entered": "2024-8-11"
 	}
 ]
