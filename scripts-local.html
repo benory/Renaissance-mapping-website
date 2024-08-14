@@ -185,6 +185,7 @@ function doMapSetup(opts) {
     let docentry = "";
     let bibliography = "";
     let archiveprocessed = "";
+    let nameshort = "";
 
     markers = []; // Clear the markers array
 
@@ -211,7 +212,7 @@ function doMapSetup(opts) {
                 let nonmusicianInfo = findInfo(person, "Bio_Nonmusicians");
 
                 // Get first three letters to determine type of ID
-                let nameshort = person.substring(0, 3);
+                nameshort = person.substring(0, 3);
 
                 // Get name from composer, musician, or non-musician biography sheets
                 if (nameshort === "BCO" && composerInfo) {
@@ -391,9 +392,21 @@ function doMapSetup(opts) {
                         }
                     };
 
+                    // Determine color based on nameshort
+                    let fillColor;
+                    if (nameshort === "BCO") {
+                        fillColor = "#440154"; // Color for composers (BCO)
+                    } else if (nameshort === "BMU") {
+                        fillColor = "#23ed5c"; // Color for musicians (BMU)
+                    } else if (nameshort === "BNO") {
+                        fillColor = "#fde725"; // Color for non-musicians (BNO)
+                    } else {
+                        fillColor = "#0c8aff"; // Default color if no match
+                    }
+
                     const geojsonMarkerOptions = {
                         radius: 5,
-                        fillColor: "#0c8aff", //black fill color
+                        fillColor: fillColor, //black fill color
                         color: "#000000", //Black border color
                         weight: 1,
                         opacity: 1,
@@ -460,7 +473,7 @@ function shouldShowMarker(type, checkboxStates, certainties) {
     let { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty } = certainties;
 
     let show = false;
-    
+
     if ((type === "BCO" && showComposers) ||
         (type === "BMU" && showMusicians) ||
         (type === "BNO" && showNonMusicians)) {
@@ -509,10 +522,9 @@ function filterMarkers() {
 
 //////////////////////////////
 //
-// UserSearch –-
+// UserSearch –- freetext search through data
 //
 
-// UserSearch function
 function UserSearch(skipFilter = false) {
     const input = document.querySelector("#input");
     const regex = new RegExp(input.value, 'i');
