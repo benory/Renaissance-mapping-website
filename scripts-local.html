@@ -421,7 +421,7 @@ function doMapSetup(opts) {
 
                     markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}`, locationCertainty: locationCertainty, earliestDateCertainty: earliestDateCertainty, latestDateCertainty: latestDateCertainty, rangeCertainty: rangeCertainty, earliestyear: earliestyear, latestyear: latestyear });
                 } else {
-                    console.warn('Invalid coordinates:', coordsArray);
+                    console.warn('Invalid coordinates:', coordsArray, events[i]);
                     continue;
                 }
             } else {
