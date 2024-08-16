@@ -548,22 +548,54 @@ function UserSearch(skipFilter = false) {
     }
 }
 
-// Function to update the active value label and reapply filters
-function updateDateRange(value) {
-    const activeLabel = document.getElementById('slider-active-label');
-    activeLabel.textContent = `Year: ${value}`;
-    const slider = document.getElementById('date-slider');
-    const sliderWidth = slider.offsetWidth;
-    const max = slider.max;
-    const min = slider.min;
-    const percent = (value - min) / (max - min);
-    const labelLeft = percent * sliderWidth + 60;
-    activeLabel.style.left = `${labelLeft}px`;
-    filterMarkersByDate(value);
+// Function to update the active value labels and reapply filters
+function updateDateRange() {
+    const sliderMin = document.getElementById('date-slider-min');
+    const sliderMax = document.getElementById('date-slider-max');
+    const startActiveLabel = document.getElementById('slider-start-active-label');
+    const endActiveLabel = document.getElementById('slider-end-active-label');
+
+    let minValue = parseInt(sliderMin.value, 10);
+    let maxValue = parseInt(sliderMax.value, 10);
+
+    // Ensure the min handle doesn't exceed the max handle
+    if (minValue > maxValue) {
+        minValue = maxValue;
+        sliderMin.value = minValue;
+    }
+
+    // Ensure the max handle doesn't fall below the min handle
+    if (maxValue < minValue) {
+        maxValue = minValue;
+        sliderMax.value = maxValue;
+    }
+
+    // Update the global date range with year values
+    currentDateRange[0] = minValue;
+    currentDateRange[1] = maxValue;
+
+    // Update the labels
+    startActiveLabel.textContent = currentDateRange[0];
+    endActiveLabel.textContent = currentDateRange[1];
+
+    // Position the labels dynamically
+    const sliderWidth = sliderMin.offsetWidth;
+    const minPercent = (minValue - sliderMin.min) / (sliderMin.max - sliderMin.min);
+    const maxPercent = (maxValue - sliderMin.min) / (sliderMin.max - sliderMin.min);
+
+    // Adjust the rate of movement by scaling down the percentage
+    const adjustmentFactor = 0.975; // Adjust this value to control the rate of movement
+    const adjustedMinPercent = minPercent * adjustmentFactor;
+    const adjustedMaxPercent = maxPercent * adjustmentFactor;
+
+    startActiveLabel.style.left = `${adjustedMinPercent * sliderWidth}px`;
+    endActiveLabel.style.left = `${adjustedMaxPercent * sliderWidth}px`;
+
+    // Call a function to reapply filters based on the selected range
+    filterMarkersByDateRange(currentDateRange[0], currentDateRange[1]);
 }
 
-// Function to filter markers based on date slider value
-function filterMarkersByDate(currentYear) {
+function filterMarkersByDateRange(minYear, maxYear) {
     const checkboxStates = getCheckboxStates();
     let searchCount = 0;
 
@@ -573,7 +605,7 @@ function filterMarkersByDate(currentYear) {
             const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
             let show = shouldShowMarker(type, checkboxStates, certainties);
 
-            if (earliestyear > currentYear || latestyear < currentYear) {
+            if (earliestyear > maxYear || latestyear < minYear) {
                 show = false;
             }
 
@@ -586,6 +618,22 @@ function filterMarkersByDate(currentYear) {
     } else {
         filterMarkers();
     }
+}
+
+function updateSliderBackground() {
+    const sliderMin = document.getElementById("date-slider-min");
+    const sliderMax = document.getElementById("date-slider-max");
+
+    const minValue = parseInt(sliderMin.value);
+    const maxValue = parseInt(sliderMax.value);
+
+    const minPercent = ((minValue - sliderMin.min) / (sliderMin.max - sliderMin.min)) * 100;
+    const maxPercent = ((maxValue - sliderMax.min) / (sliderMax.max - sliderMax.min)) * 100;
+
+    // Apply gradient as background
+    sliderMin.style.background = `linear-gradient(to right, #ddd 0%, #ddd ${minPercent}%, #1E90FF ${minPercent}%, #1E90FF ${maxPercent}%, #ddd ${maxPercent}%, #ddd 100%)`;
+    sliderMax.style.background = sliderMin.style.background;
+
 }
 
 </script>

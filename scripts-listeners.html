@@ -127,8 +127,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function handleCheckboxChange() {
     if (document.querySelector("#chronology-select").checked) {
-        const sliderValue = document.getElementById('date-slider').value;
-        filterMarkersByDate(sliderValue);        
+        const sliderMin = document.getElementById('date-slider-min').value;
+        const sliderMax = document.getElementById('date-slider-max').value;
+        filterMarkersByDateRange(sliderMin, sliderMax);        
     } else {
         filterMarkers();
     }
@@ -136,8 +137,8 @@ function handleCheckboxChange() {
 
 // Initial call to position the active label correctly on page load
 window.onload = function() {
-    const initialValue = document.getElementById('date-slider').value;
-    updateDateRange(initialValue);
+    updateDateRange();
+    updateSliderBackground();
 };
 
 </script>

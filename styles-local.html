@@ -58,48 +58,127 @@ main.page-content {
     height: 25px; /* Adjust the height as needed */
 }
 
-/* Center the slider container */
 .slider-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: relative;
     width: 100%;
-    margin: 20px 0;
+    padding: 20px 0;
 }
 
-/* Container for the slider and its labels */
 .slider-wrapper {
-    display: flex;
-    align-items: center;
-    width: 80%;  /* Adjust width as needed */
-    max-width: 800px;  /* Set a maximum width */
-    position: relative; /* For positioning the active label */
+    position: relative;
+    width: 100%;
 }
 
-/* Make the slider wider */
-.slider-wrapper input[type="range"] {
-    flex-grow: 1;  /* Allow the slider to grow and fill the space */
-    margin: 0 10px;  /* Add some margin to the slider */
-}
-
-/* Style the date range span */
-#slider-date-range {
-    margin-top: 10px;
-    text-align: center;
-}
-
-/* Style for the active value label */
-.slider-active-label {
+input[type="range"] {
     position: absolute;
-    top: -25px;  /* Adjust this value to position the active label above the slider */
-    transform: translateX(-50%);
-    white-space: nowrap;
+    pointer-events: none;
+    width: 100%;
+    -webkit-appearance: none;
+    background: transparent; /* Track background is transparent */
+    z-index: 1; /* Below thumbs */
 }
 
-/* Align the start and end labels */
-.slider-label {
-    width: 50px; /* Adjust the width as needed */
-    text-align: center;
+/* Thumb Styling */
+input[type="range"]::-webkit-slider-thumb {
+    pointer-events: auto;
+    position: relative;
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    top: -6px;
+    background: #333;
+    border-radius: 50%;
+    z-index: 3; /* Ensure thumbs are above tracks */
+}
+
+input[type="range"]::-moz-range-thumb {
+    pointer-events: auto;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background: #333;
+    border-radius: 50%;
+    z-index: 2; /* Ensure thumbs are above tracks */
+}
+
+input[type="range"]::-ms-thumb {
+    pointer-events: auto;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background: #333;
+    border-radius: 50%;
+    z-index: 2; /* Ensure thumbs are above tracks */
+}
+
+/* Track Styling */
+input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8px;
+    background: transparent; /* Track itself is transparent */
+    border-radius: 5px;
+    z-index: 1; /* Below thumbs */
+}
+
+input[type="range"]::-moz-range-track {
+    width: 100%;
+    height: 8px;
+    background: transparent;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+input[type="range"]::-ms-track {
+    width: 100%;
+    height: 8px;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+    z-index: 1;
+}
+
+#slider-start-label {
+    position: absolute;
+    left: -25px;
+    top: -5px;
+    font-size: 14px;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+#slider-end-label {
+    position: absolute;
+    right: -25px;
+    top: -5px;
+    font-size: 14px;
+    transform: translateX(50%);
+    z-index: 1;
+}
+
+.slider-active-label-container {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.slider-active-label-start {
+    position: absolute;
+    font-size: 14px;
+    background-color: white;
+    top: -25px;
+    z-index: 1; /* Labels are above everything */
+}
+
+.slider-active-label-end {  
+    position: absolute;
+    font-size: 14px;
+    background-color: white;
+    top: -25px;
+    z-index: 1; /* Labels are above everything */
 }
 
 </style>
