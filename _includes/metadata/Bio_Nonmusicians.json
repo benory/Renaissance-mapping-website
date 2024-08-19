@@ -404,6 +404,15 @@
 		"Date updated": "2024-1-19"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Marie_Du_Fayt",
+		"Person Name": "Marie Du Fayt",
+		"Noted Positions": "Dufay's mother",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "33",
+		"Input data": "SMB",
+		"Date entered": "2024-8-18"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Martin_Luther",
 		"Person Name": "Martin Luther",
 		"Birth Date": "1483-11-10",
@@ -698,5 +707,32 @@
 		"Person Name": "Bernardus",
 		"Noted Positions": "scribe",
 		"Description": "copied music, perhaps plainsong only, for Sr Donatian's Our Lady's in Bruges; perhaps Bernard de Waghe(n), magistrate of Sijssle"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Charles_of_Charolais",
+		"Person Name": "Charles of Charolais",
+		"Alias": "Count Charles",
+		"Description": "Count of Charolais",
+		"Bibliography ID (BIB)": "BIB:Gallagher_2010",
+		"BIB Pages": "23",
+		"Input data": "SMB",
+		"Date entered": "2024-8-17"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:John_of_Burgundy",
+		"Person Name": "John of Burgundy",
+		"Description": "Bishop of Cambrai",
+		"Bibliography ID (BIB)": "BIB:Gallagher_2010",
+		"BIB Pages": "23",
+		"Input data": "SMB",
+		"Date entered": "2024-8-17"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Charles_the_Bold",
+		"Person Name": "Charles Martin",
+		"Alias": "\"the Bold\"",
+		"Description": "duke of Burgundy",
+		"Input data": "SMB",
+		"Date entered": "2024-8-17"
 	}
 ]

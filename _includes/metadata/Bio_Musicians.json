@@ -955,6 +955,14 @@
 		"Date entered": "2024-4-4"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Guillaume_Malbecque",
+		"Musician Name": "Guillaume Malbecque",
+		"Bibliography ID (BIB)": "BIB:Gallagher_2010",
+		"BIB Pages": "15",
+		"Input data": "SMB",
+		"Date entered": "2024-8-17"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Guillaume_Porci",
 		"Musician Name": "Guillaume Porci",
 		"Bibliography ID (BIB)": "BIB:Sherr_1988",
@@ -1224,6 +1232,24 @@
 		"BIB Pages": "77",
 		"Input data": "BSO",
 		"Date entered": "2024-4-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_L'Escripvain",
+		"Musician Name": "Jehan L'Escripvain",
+		"Description": "scribe and bookbinder at Cambrai",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "44",
+		"Input data": "SMB",
+		"Date entered": "2024-8-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Malin",
+		"Musician Name": "Jehan Malin",
+		"Description": "Magister puerorum at Cambrai",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "43",
+		"Input data": "SMB",
+		"Date entered": "2024-8-18"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Jo_Sorno",
@@ -2168,6 +2194,15 @@
 		"Date entered": "2024-3-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Robert_le_Canoine",
+		"Musician Name": "Robert le Canoine",
+		"Description": "briefly magister puerorum at Cambrai",
+		"Bibliography ID (BIB)": "BIB:Gallagher_2010",
+		"BIB Pages": "22",
+		"Input data": "SMB",
+		"Date entered": "2024-8-17"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Roberto_Ferrarese",
 		"Musician Name": "Roberto Ferrarese",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
@@ -2669,8 +2704,8 @@
 		"Date entered": "2024-8-4"
 	},
 	{
-		"Biography Musician (BMU) ID": "BMU:Balduinus_Beecling",
-		"Musician Name": "Balduinus Beecling",
+		"Biography Musician (BMU) ID": "BMU:Balduinus_Beeclinc",
+		"Musician Name": "Balduinus Beeclinc",
 		"Description": "musician in Bruges",
 		"Bibliography ID (BIB)": "BIB:Strohm_1985",
 		"BIB Pages": "152",
@@ -4236,5 +4271,32 @@
 		"BIB Pages": "161",
 		"Input data": "LO",
 		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Richard_de_Loqueville",
+		"Musician Name": "Richard de Loqueville",
+		"Description": "musician, choirmaster at Cambrai",
+		"Bibliography ID (BIB)": "BIB:Gallagher_2010",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-8-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Zemberch",
+		"Musician Name": "Jehan Zemberch",
+		"Description": "musician, choirmaster at Cambrai",
+		"Bibliography ID (BIB)": "BIB:Gallagher_2010",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-8-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_du_Sart",
+		"Musician Name": "Jehan du Sart",
+		"Description": "musician, choirmaster at Cambrai",
+		"Bibliography ID (BIB)": "BIB:Gallagher_2010",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-8-17"
 	}
 ]

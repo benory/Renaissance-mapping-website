@@ -529,7 +529,7 @@
 	{
 		"Bibliography (BIB) ID": "BIB:Staehelin_1977",
 		"Author": "Staehelin, Martin",
-		"Name of Article": "Die Messen Heinrich Isaacs",
+		"Name of Volume/Journal": "Die Messen Heinrich Isaacs",
 		"Volume": "2",
 		"Location": "Bern",
 		"Publisher": "Paul Haupt",
@@ -551,7 +551,7 @@
 	{
 		"Bibliography (BIB) ID": "BIB:Hemeraeus_1633",
 		"Author": "Hémeré [Hemeraeus], Claude",
-		"Name of Article": "Tabella chronologica",
+		"Name of Volume/Journal": "Tabella chronologica",
 		"Location": "Paris",
 		"Publication Year": "1633",
 		"Input data": "FEM",
@@ -560,7 +560,7 @@
 	{
 		"Bibliography (BIB) ID": "BIB:Hemeraeus_1643",
 		"Author": "Hémeré [Hemeraeus], Claude",
-		"Name of Article": "Augusta Viromandorum",
+		"Name of Volume/Journal": "Augusta Viromandorum",
 		"Location": "Paris",
 		"Publication Year": "1643",
 		"Input data": "FEM",
@@ -590,7 +590,7 @@
 	{
 		"Bibliography (BIB) ID": "BIB:Meconi_2003",
 		"Author": "Meconi, Honey",
-		"Name of Article": "Pierre de la Rue and Musical Life at the Habsburg-Burgundian Court",
+		"Name of Volume/Journal": "Pierre de la Rue and Musical Life at the Habsburg-Burgundian Court",
 		"Location": "Oxford",
 		"Publisher": "Oxford University Press",
 		"Publication Year": "2003",
@@ -636,7 +636,7 @@
 	{
 		"Bibliography (BIB) ID": "BIB:Strohm_1985",
 		"Author": "Strohm, Reinhard",
-		"Name of Article": "Music in Late Medieval Bruges",
+		"Name of Volume/Journal": "Music in Late Medieval Bruges",
 		"Edition": "1990 reprint with corrections",
 		"Publisher": "Oxford University Press",
 		"Publication Year": "1985",
@@ -656,8 +656,8 @@
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Schmidt-Goerg_1938",
-		"Author": "Schmidt-Goerg, Joseph",
-		"Name of Article": "Nicolas Gombert: Kapellmeister Kaiser Karls V. Leben und Werk",
+		"Author": "Schmidt-Görg, Joseph",
+		"Name of Volume/Journal": "Nicolas Gombert: Kapellmeister Kaiser Karls V. Leben und Werk",
 		"Location": "Bonn",
 		"Publisher": "Ludwig Roehrscheid Verlag",
 		"Publication Year": "1938",
@@ -677,7 +677,7 @@
 	{
 		"Bibliography (BIB) ID": "BIB:Atlas_1985",
 		"Author": "Atlas, Allan",
-		"Name of Article": "Music at the Aragonese Court of Naples",
+		"Name of Volume/Journal": "Music at the Aragonese Court of Naples",
 		"Location": "Cambridge",
 		"Publisher": "Cambridge University Press",
 		"Publication Year": "1985",
@@ -697,12 +697,67 @@
 	{
 		"Bibliography (BIB) ID": "BIB:VanderStraeten_IV",
 		"Author": "Van der Straeten, Edmond",
-		"Name of Article": "La musique aux Pays-Bas avant le 19e. siècle",
+		"Name of Volume/Journal": "La musique aux Pays-Bas avant le 19e. siècle",
 		"Volume": "IV",
 		"Location": "Brussels",
 		"Publisher": "Van Trigt",
 		"Publication Year": "1878",
 		"Input data": "SMB",
 		"Date entered": "2024-8-11"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Wexler_2014",
+		"Author": "Wexler, Richard",
+		"Name of Volume/Journal": "Antoine Bruhier: Life and Works of a Renaissance Papal Composer",
+		"Series": "Epitome musical",
+		"Location": "Turhout",
+		"Publisher": "Brepols",
+		"Publication Year": "2014",
+		"Input data": "SMB",
+		"Date entered": "2024-8-16"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Gallagher_2010",
+		"Author": "Gallagher, Sean",
+		"Name of Volume/Journal": "Johannes Regis",
+		"Series": "Epitome musical",
+		"Location": "Turhout",
+		"Publisher": "Brepols",
+		"Publication Year": "2010",
+		"Input data": "SMB",
+		"Date entered": "2024-8-17"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Starr_1995",
+		"Author": "Starr, Pamela F.",
+		"Name of Article": "Southern Exposure: Roman Light on Johannes Regis",
+		"Name of Volume/Journal": "Revue belge de Musicolog",
+		"Volume": "49",
+		"Publication Year": "1995",
+		"Pages": "27-38",
+		"Input data": "SMB",
+		"Date entered": "2024-8-17"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Planchart_2018",
+		"Author": "Planchart, Alejandro",
+		"Name of Volume/Journal": "Guillaume Du Fay: The Life and Works",
+		"Location": "Cambridge",
+		"Publisher": "Cambridge University Press",
+		"Publication Year": "2018",
+		"Input data": "SMB",
+		"Date entered": "2024-8-18"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Robin_1985",
+		"Author": "Robin, Francoise",
+		"Name of Article": "Josquin des Prés au service de René d'Anjou?",
+		"Name of Volume/Journal": "Revue de Musicologie",
+		"Volume": "71 no. 1/2",
+		"Publication Year": "1985",
+		"Pages": "180-181",
+		"URL": "https://doi.org/10.2307/928600",
+		"Input data": "FEM",
+		"Date entered": "2024-8-18"
 	}
 ]

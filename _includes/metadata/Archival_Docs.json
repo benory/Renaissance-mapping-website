@@ -1307,5 +1307,30 @@
 		"Description": "autograph letter from Charles VIII",
 		"Input data": "SMB",
 		"Date entered": "2024-8-2"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Supplicationum_1425",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Supplicationum",
+		"Signature": "1425",
+		"Input data": "SMB",
+		"Date entered": "2024-6-21"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Modena_MS_Busta",
+		"Location ID (LOC)": "LOC:Modena",
+		"Archive": "Archivio di Stato Modena",
+		"Archival Fond": "Busta",
+		"Signature": "I",
+		"Input data": "SMB",
+		"Date entered": "2024-8-16"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Aix_en_Provence_Archives_Departementales_des_Bouches_du_Rhone_B273",
+		"Location ID (LOC)": "LOC:Marseille",
+		"Archive": "Archives Départementales des Bouches du Rhone (housed in Marseille)",
+		"Input data": "FEM",
+		"Date entered": "2024-8-18"
 	}
 ]

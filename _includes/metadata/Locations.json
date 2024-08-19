@@ -508,6 +508,7 @@
 	{
 		"Location ID (LOC)": "LOC:Chambery",
 		"Name of Location": "Chambery",
+		"City or Larger Place": "Savoy",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/vojg2ijxLzHwb9Sr8",
 		"Coordinates": "45.564888, 5.922580",
@@ -1661,9 +1662,18 @@
 		"Location ID (LOC)": "LOC:New_York",
 		"Name of Location": "New York",
 		"City or Larger Place": "New York",
-		"Modern Country": "USA",
+		"Modern Country": "United States of America",
 		"Google URL": "https://maps.app.goo.gl/PtiHWkXTpw842K3XA",
 		"Coordinates": "40.786274, -73.962137"
+	},
+	{
+		"Location ID (LOC)": "LOC:Noyon",
+		"Name of Location": "Noyon",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/ikdQd5BDSY2u7sfMA",
+		"Coordinates": "49.57980588402727, 2.9999740613441555",
+		"Input data": "SMB",
+		"Date entered": "2024-8-16"
 	},
 	{
 		"Location ID (LOC)": "LOC:Oeudeghien",
@@ -2223,6 +2233,15 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Location ID (LOC)": "LOC:Savoy",
+		"Name of Location": "Savoy",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/RwNSXqYkWrCukJGm7",
+		"Coordinates": "45.58, 6.5",
+		"Input data": "SMB",
+		"Date entered": "2024-8-18"
+	},
+	{
 		"Location ID (LOC)": "LOC:Seiches-sur-le-Loir-Chateau_Le_Vergier",
 		"Name of Location": "Château le Verger",
 		"City or Larger Place": "Seiches sur le Loir",
@@ -2250,6 +2269,15 @@
 		"Coordinates": "41.59086438525299, -4.830088918158715",
 		"Input data": "SMB",
 		"Date entered": "2024-7-28"
+	},
+	{
+		"Location ID (LOC)": "LOC:Soignies",
+		"Name of Location": "Soignies",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/if3Mkx5Yo27m7JnS7",
+		"Coordinates": "50.58, 4.07",
+		"Input data": "SMB",
+		"Date entered": "2024-8-17"
 	},
 	{
 		"Location ID (LOC)": "LOC:Spilimberto",
@@ -2446,7 +2474,6 @@
 	{
 		"Location ID (LOC)": "LOC:Vatican",
 		"Name of Location": "Vatican City",
-		"City or Larger Place": "Vatican City",
 		"Modern Country": "Vatican City",
 		"Google URL": "https://goo.gl/maps/LfHZu6BmqwXrUa1w8",
 		"Coordinates": "41.902053936326794, 12.455099071146412",
@@ -2655,5 +2682,14 @@
 		"Coordinates": "44.93832255108442, 11.74906653794804",
 		"Input data": "BSO",
 		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Marseille",
+		"Name of Location": "Marseille",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/tZZp2bNwCdJagwMw9",
+		"Coordinates": "43.302217934871926, 5.364842532975952",
+		"Input data": "FEM",
+		"Date entered": "2024-8-18"
 	}
 ]

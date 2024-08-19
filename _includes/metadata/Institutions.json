@@ -91,5 +91,39 @@
 		"Institution Name": "Chapel of Ferdinand I",
 		"Input data": "SMB",
 		"Date entered": "2024-8-11"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Sigismondo",
+		"Institution Name": "Chapel of Sigismondo d'Este",
+		"Institution Description": "chapel of Sigismondo d'Este",
+		"Input data": "SMB",
+		"Date entered": "2024-8-16"
+	},
+	{
+		"Institution ID (INS)": "INS:Leo_Secreti",
+		"Institution Name": "Chapel of Leo X",
+		"Institution Description": "Private chapel of Leo X",
+		"Input data": "SMB",
+		"Date entered": "2024-8-16"
+	},
+	{
+		"Institution ID (INS)": "INS:Saint_Vincent",
+		"Institution Name": "Saint-Vincent church",
+		"Institution Description": "Church in Soignies",
+		"Input data": "SMB",
+		"Date entered": "2024-8-17"
+	},
+	{
+		"Institution ID (INS)": "INS:Cambrai_Cathedral",
+		"Institution Name": "Cambrai Cathedral",
+		"Input data": "SMB",
+		"Date entered": "2024-8-17"
+	},
+	{
+		"Institution ID (INS)": "INS:St_Gery",
+		"Institution Name": "St Gery",
+		"Institution Description": "Church in Cambrai",
+		"Input data": "SMB",
+		"Date entered": "2024-8-18"
 	}
 ]

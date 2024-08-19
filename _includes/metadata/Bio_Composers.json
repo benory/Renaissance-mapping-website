@@ -390,6 +390,17 @@
 		"Date entered": "2024-3-6"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Johannes_Regis",
+		"Composer Name": "Johannes Regis",
+		"Alias": "Leroy, Jean",
+		"Description": "composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/149/",
+		"RISM ID": "pe30101081",
+		"RISM Link": "https://rism.online/people/30101081",
+		"Input data": "SMB",
+		"Date entered": "2024-8-17"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Johannes_Scribanus",
 		"Composer Name": "Johannes Scribanus",
 		"Alias": "Scrivano, Scribano, Escribano",
@@ -418,7 +429,9 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Vincenet",
 		"Composer Name": "Vincenet",
-		"Description": "composer at Neapolitan court, NOT Johannes"
+		"Description": "composer at Neapolitan court, NOT Johannes",
+		"Input data": "SMB",
+		"Date entered": "2024-8-9"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:John_Plummer",
