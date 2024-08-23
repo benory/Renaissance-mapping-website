@@ -1,5 +1,29 @@
 [
 	{
+		"Archival Document (ARD) ID": "ARD:Aix_en_Provence_Archives_Departementales_des_Bouches_du_Rhone_309E290",
+		"Location ID (LOC)": "LOC:Aix-en-Provence",
+		"Archive": "Archives Départementales des Bouches du Rhone",
+		"Input data": "FEM",
+		"Date entered": "2024-4-12"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Aix_en_Provence_Archives_Departementales_des_Bouches_du_Rhone_B273",
+		"Location ID (LOC)": "LOC:Marseille",
+		"Archive": "Archives Départementales des Bouches du Rhone",
+		"Description": "housed in Marseille",
+		"Input data": "FEM",
+		"Date entered": "2024-8-18"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Bibliotheque_Chartres_MS_1009",
+		"Location ID (LOC)": "LOC:Chartres",
+		"Archive": "Chartres Library",
+		"Archival Fond": "MS",
+		"Signature": "1009",
+		"Input data": "SMB",
+		"Date entered": "2024-6-16"
+	},
+	{
 		"Archival Document (ARD) ID": "ARD:Brussels_Acquits_1579B",
 		"Location ID (LOC)": "LOC:Brussels-Archives_Generales_du_Royaume",
 		"Archive": "Archives Générales du Royaume",
@@ -350,6 +374,15 @@
 		"Date entered": "2024-2-5"
 	},
 	{
+		"Archival Document (ARD) ID": "ARD:Chambery_Archivio_Dipartimentale_della_Savoia_124",
+		"Location ID (LOC)": "LOC:Turin",
+		"Archive": "Archivio di Stato di Torino",
+		"Archival Fond": "Fonds retrocedes de Turin",
+		"Signature": "Inv. 124, SA. 3625",
+		"Input data": "SMB",
+		"Date entered": "2024-6-8"
+	},
+	{
 		"Archival Document (ARD) ID": "ARD:Conde_FF_69",
 		"Location ID (LOC)": "LOC:Condé_sur_lEscaut,_Archives_Communales",
 		"Archive": "Archives Communales",
@@ -368,6 +401,33 @@
 		"Date entered": "2023-3-21"
 	},
 	{
+		"Archival Document (ARD) ID": "ARD:Florence_Archepiscopate_VIII_I",
+		"Location ID (LOC)": "LOC:Florence",
+		"Archive": "Archivio dell’Opera dell’Arciospitale di Santa Maria del Fiore",
+		"Archival Fond": "Quaderni di cassa",
+		"Signature": "VIII, I",
+		"Input data": "SMB",
+		"Date entered": "2024-6-21"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Florence_Biblioteca_Nazionale_Galileana_1",
+		"Location ID (LOC)": "LOC:Florence",
+		"Archive": "Biblioteca Nazionale Centrale di Firenze",
+		"Archival Fond": "Galileana",
+		"Signature": "1",
+		"Input data": "SMB",
+		"Date entered": "2024-6-16"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Florence_MAP_104",
+		"Location ID (LOC)": "LOC:Florence-Archivio_di_Stato",
+		"Archive": "Archivio di Stato di Firenze",
+		"Archival Fond": "Medici avanti il Principato",
+		"Signature": "104",
+		"Input data": "SMB",
+		"Date entered": "2024-6-29"
+	},
+	{
 		"Archival Document (ARD) ID": "ARD:Florence_Mediceo_43",
 		"Location ID (LOC)": "LOC:Florence-Archivio_di_Stato",
 		"Archive": "Archivio di Stato di Firenze",
@@ -377,6 +437,15 @@
 		"Date entered": "2024-3-17"
 	},
 	{
+		"Archival Document (ARD) ID": "ARD:Florence_SM_1",
+		"Location ID (LOC)": "LOC:Florence",
+		"Archive": "Archivio dell'Opera di Santa Maria del Fiore",
+		"Archival Fond": "Quaderni Cassa",
+		"Signature": "VIII, 1",
+		"Input data": "SMB",
+		"Date entered": "2024-7-25"
+	},
+	{
 		"Archival Document (ARD) ID": "ARD:Ghent_K5239",
 		"Location ID (LOC)": "LOC:Ghent-Rijksarchief",
 		"Archive": "Rijksarchief te Gent",
@@ -384,6 +453,33 @@
 		"Signature": "annual accounts of the 'Gilde van OLV-op-de-rade' in the church of St. John, K 5239 (1514-1529)",
 		"Input data": "BSO",
 		"Date entered": "2024-3-16"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Innsbruck_Hof_1497",
+		"Location ID (LOC)": "LOC:Innsbruck",
+		"Archive": "Landesregierungsarchiv",
+		"Archival Fond": "Geschäft von Hof",
+		"Signature": "1497",
+		"Input data": "SMB",
+		"Date entered": "2024-6-21"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Innsbruck_RB_1484",
+		"Location ID (LOC)": "LOC:Innsbruck",
+		"Archive": "Landesregierungsarchiv",
+		"Archival Fond": "Raitbuch",
+		"Signature": "1484",
+		"Input data": "SMB",
+		"Date entered": "2024-6-27"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Kortrijk_RtK_Onze_169",
+		"Location ID (LOC)": "LOC:Kortrijk",
+		"Archive": "Rijksarchief te Kortrijk",
+		"Archival Fond": "Onze-Lieve-Vrouwekerk",
+		"Signature": "169",
+		"Input data": "SMB",
+		"Date entered": "2024-7-28"
 	},
 	{
 		"Archival Document (ARD) ID": "ARD:Lille_7G_2414",
@@ -402,6 +498,15 @@
 		"Signature": "2416 (fasc. 1494-5)",
 		"Input data": "BSO",
 		"Date entered": "2023-3-21"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Lille_ADN_2152",
+		"Location ID (LOC)": "LOC:Lille-Archives_Departmentales",
+		"Archive": "Archives Départementales du Nord",
+		"Archival Fond": "B",
+		"Signature": "2152",
+		"Input data": "SMB",
+		"Date entered": "2024-7-26"
 	},
 	{
 		"Archival Document (ARD) ID": "ARD:Mechelen_stadsrekeningen_186",
@@ -427,6 +532,15 @@
 		"Signature": "Filza IX minute di Lettere a Bartolomeo Cavalieri, 1500–1505",
 		"Input data": "BSO",
 		"Date entered": "2023-3-21"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Modena_Dispacci_3",
+		"Location ID (LOC)": "LOC:Modena-Archivio_di_Stato",
+		"Archive": "Archivio di Stato di Modena",
+		"Archival Fond": "Dispacci de la Francia",
+		"Signature": "B. 3",
+		"Input data": "SMB",
+		"Date entered": "2024-7-19"
 	},
 	{
 		"Archival Document (ARD) ID": "ARD:Modena_Ducale_1503",
@@ -456,24 +570,6 @@
 		"Date entered": "2023-3-21"
 	},
 	{
-		"Archival Document (ARD) ID": "ARD:Modena_Estense_5",
-		"Location ID (LOC)": "LOC:Modena-Archivio_di_Stato",
-		"Archive": "Archivio di Stato di Modena",
-		"Archival Fond": "Archivio segreto estense",
-		"Signature": "Cancelleria, Estero, Ambasciatori, Francia, B. 5, Filza 65",
-		"Input data": "BSO",
-		"Date entered": "2024-2-11"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Modena_Estense_6",
-		"Location ID (LOC)": "LOC:Modena-Archivio_di_Stato",
-		"Archive": "Archivio di Stato di Modena",
-		"Archival Fond": "Archivio segreto estense",
-		"Signature": "Cancelleria, Estero, Ambasciatori, Francia, B. 6",
-		"Input data": "BSO",
-		"Date entered": "2024-2-12"
-	},
-	{
 		"Archival Document (ARD) ID": "ARD:Modena_Estense_13",
 		"Location ID (LOC)": "LOC:Modena-Archivio_di_Stato",
 		"Archive": "Archivio di Stato di Modena",
@@ -501,6 +597,60 @@
 		"Date entered": "2024-2-28"
 	},
 	{
+		"Archival Document (ARD) ID": "ARD:Modena_Estense_5",
+		"Location ID (LOC)": "LOC:Modena-Archivio_di_Stato",
+		"Archive": "Archivio di Stato di Modena",
+		"Archival Fond": "Archivio segreto estense",
+		"Signature": "Cancelleria, Estero, Ambasciatori, Francia, B. 5, Filza 65",
+		"Input data": "BSO",
+		"Date entered": "2024-2-11"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Modena_Estense_6",
+		"Location ID (LOC)": "LOC:Modena-Archivio_di_Stato",
+		"Archive": "Archivio di Stato di Modena",
+		"Archival Fond": "Archivio segreto estense",
+		"Signature": "Cancelleria, Estero, Ambasciatori, Francia, B. 6",
+		"Input data": "BSO",
+		"Date entered": "2024-2-12"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Modena_MS_1506",
+		"Location ID (LOC)": "LOC:Modena-Archivio_di_Stato",
+		"Archive": "Archivio di Stato Modena",
+		"Archival Fond": "MS",
+		"Signature": "1506",
+		"Input data": "SMB",
+		"Date entered": "2024-6-19"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Modena_MS_1509",
+		"Location ID (LOC)": "LOC:Modena-Archivio_di_Stato",
+		"Archive": "Archivio di Stato Modena",
+		"Archival Fond": "MS",
+		"Signature": "1509",
+		"Input data": "SMB",
+		"Date entered": "2024-6-19"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Modena_MS_1510",
+		"Location ID (LOC)": "LOC:Modena-Archivio_di_Stato",
+		"Archive": "Archivio di Stato Modena",
+		"Archival Fond": "MS",
+		"Signature": "1510",
+		"Input data": "SMB",
+		"Date entered": "2024-6-19"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Modena_MS_Busta",
+		"Location ID (LOC)": "LOC:Modena-Archivio_di_Stato",
+		"Archive": "Archivio di Stato Modena",
+		"Archival Fond": "Busta",
+		"Signature": "I",
+		"Input data": "SMB",
+		"Date entered": "2024-8-16"
+	},
+	{
 		"Archival Document (ARD) ID": "ARD:Modena_Musica_B1",
 		"Location ID (LOC)": "LOC:Modena-Archivio_di_Stato",
 		"Archive": "Archivio di Stato di Modena",
@@ -508,6 +658,15 @@
 		"Signature": "B. 1",
 		"Input data": "BSO",
 		"Date entered": "2023-3-21"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Modena_Musica_B2",
+		"Location ID (LOC)": "LOC:Modena-Archivio_di_Stato",
+		"Archive": "Archivio di Stato di Modena",
+		"Archival Fond": "Musica e Musicisti",
+		"Signature": "B. 2",
+		"Input data": "SMB",
+		"Date entered": "2024-7-19"
 	},
 	{
 		"Archival Document (ARD) ID": "ARD:Modena_Particolari_Bidone",
@@ -544,6 +703,295 @@
 		"Signature": "B. II, Doc. 69-V/20",
 		"Input data": "BSO",
 		"Date entered": "2023-3-21"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:New_York_Pierpont_4",
+		"Location ID (LOC)": "LOC:New_York-Morgan_Library",
+		"Archive": "Pierpont Morgan Library",
+		"Archival Fond": "Autograph Letters",
+		"Signature": "VR/R of F/Box I/Charles VIII/No. 4",
+		"Description": "autograph letter from Charles VIII",
+		"Input data": "SMB",
+		"Date entered": "2024-8-2"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Orleans_Loiret_6J22",
+		"Location ID (LOC)": "LOC:Orleans-Archives_du_Loiret",
+		"Archive": "Archives departementales du Loiret",
+		"Archival Fond": "Collection Joursanvault",
+		"Signature": "6J22",
+		"Input data": "ECZ",
+		"Date entered": "2024-2-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Paris_Archives_Nationales_127",
+		"Location ID (LOC)": "LOC:Paris-Notre-Dame",
+		"Archive": "Paris Archives Nationales",
+		"Archival Fond": "Registres capitulaires médiévaux de Notre-Dame de Paris",
+		"Signature": "127",
+		"Input data": "SMB",
+		"Date entered": "2024-5-29"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Paris_Archives_Nationales_128",
+		"Location ID (LOC)": "LOC:Paris-Notre-Dame",
+		"Archive": "Paris Archives Nationales",
+		"Archival Fond": "Registres capitulaires médiévaux de Notre-Dame de Paris",
+		"Signature": "128",
+		"Input data": "SMB",
+		"Date entered": "2024-5-29"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Paris_BnF_Dupuy_503",
+		"Location ID (LOC)": "LOC:Paris-BNF",
+		"Archive": "Bibliothèque nationale de France",
+		"Archival Fond": "Dupuy",
+		"Signature": "503",
+		"Input data": "SMB",
+		"Date entered": "2024-7-28"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Paris_BNF_francais_2926",
+		"Location ID (LOC)": "LOC:Paris-BNF",
+		"Archive": "Bibliothèque nationale de France",
+		"Archival Fond": "MS francais",
+		"Signature": "2926",
+		"Input data": "ECZ",
+		"Date entered": "2024-2-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Poitiers_Vienne_G527",
+		"Location ID (LOC)": "LOC:Poitiers-Archives_Vienne",
+		"Archive": "Archives départementales de la Vienne",
+		"Archival Fond": "Actes capitulaires de Saint-Hilaire de Poitiers",
+		"Signature": "G527",
+		"Input data": "ECZ",
+		"Date entered": "2024-2-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Simancas_AGS_Casa_14",
+		"Location ID (LOC)": "LOC:Simancas",
+		"Archive": "Archivo general de Simancas",
+		"Archival Fond": "Casa y sitios reales",
+		"Signature": "14",
+		"Input data": "SMB",
+		"Date entered": "2024-7-28"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Libri_Annatarum_17",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Libri Annatarum",
+		"Signature": "17",
+		"Input data": "LO",
+		"Date entered": "2024-3-1"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1009",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Lateranensia",
+		"Signature": "1009",
+		"Input data": "LO",
+		"Date entered": "2023-5-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1013",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Lateranensia",
+		"Signature": "1013",
+		"Input data": "LO",
+		"Date entered": "2023-5-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1045",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Lateranensia",
+		"Signature": "1045",
+		"Input data": "LO",
+		"Date entered": "2023-5-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1086",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Lateranensia",
+		"Signature": "1086",
+		"Input data": "LO",
+		"Date entered": "2023-5-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1098",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Lateranensia",
+		"Signature": "1098",
+		"Input data": "LO",
+		"Date entered": "2023-5-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1105",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Lateranensia",
+		"Signature": "1105",
+		"Input data": "LO",
+		"Date entered": "2023-5-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1160",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Lateranensia",
+		"Signature": "1160",
+		"Input data": "LO",
+		"Date entered": "2023-5-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1171",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Lateranensia",
+		"Signature": "1171",
+		"Input data": "LO",
+		"Date entered": "2024-2-17"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1194",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Lateranensia",
+		"Signature": "1194",
+		"Input data": "LO",
+		"Date entered": "2023-5-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1197",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Lateranensia",
+		"Signature": "1197",
+		"Input data": "LO",
+		"Date entered": "2023-5-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1206A",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Lateranensia",
+		"Signature": "1206A",
+		"Input data": "LO",
+		"Date entered": "2023-5-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1239",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Lateranensia",
+		"Signature": "1239",
+		"Input data": "LO",
+		"Date entered": "2023-5-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1248",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Lateranensia",
+		"Signature": "1248",
+		"Input data": "LO",
+		"Date entered": "2023-5-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1254",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Lateranensia",
+		"Signature": "1254",
+		"Input data": "LO",
+		"Date entered": "2023-5-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1267",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Lateranensia",
+		"Signature": "1267",
+		"Input data": "LO",
+		"Date entered": "2023-5-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_483",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Lateranensia",
+		"Signature": "483",
+		"Input data": "LO",
+		"Date entered": "2024-3-1"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_977",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Lateranensia",
+		"Signature": "977",
+		"Input data": "LO",
+		"Date entered": "2023-5-22"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Supplicationum_1386",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Supplicationum",
+		"Signature": "1386",
+		"Input data": "SMB",
+		"Date entered": "2024-6-16"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Supplicationum_1391",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Supplicationum",
+		"Signature": "1391",
+		"Input data": "SMB",
+		"Date entered": "2024-6-16"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Supplicationum_1393",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Supplicationum",
+		"Signature": "1393",
+		"Input data": "SMB",
+		"Date entered": "2024-6-21"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Supplicationum_1425",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Supplicationum",
+		"Signature": "1425",
+		"Input data": "SMB",
+		"Date entered": "2024-6-21"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Supplicationum_461",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Supplicationum",
+		"Signature": "461",
+		"Input data": "LO",
+		"Date entered": "2024-3-1"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Supplicationum_595",
+		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
+		"Archive": "Vatican Library",
+		"Archival Fond": "Registra Supplicationum",
+		"Signature": "595",
+		"Input data": "LO",
+		"Date entered": "2024-3-1"
 	},
 	{
 		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Vaticana_734",
@@ -870,213 +1318,6 @@
 		"Date entered": "2023-3-21"
 	},
 	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1009",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Lateranensia",
-		"Signature": "1009",
-		"Input data": "LO",
-		"Date entered": "2023-5-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1013",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Lateranensia",
-		"Signature": "1013",
-		"Input data": "LO",
-		"Date entered": "2023-5-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1045",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Lateranensia",
-		"Signature": "1045",
-		"Input data": "LO",
-		"Date entered": "2023-5-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1086",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Lateranensia",
-		"Signature": "1086",
-		"Input data": "LO",
-		"Date entered": "2023-5-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1098",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Lateranensia",
-		"Signature": "1098",
-		"Input data": "LO",
-		"Date entered": "2023-5-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1105",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Lateranensia",
-		"Signature": "1105",
-		"Input data": "LO",
-		"Date entered": "2023-5-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1160",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Lateranensia",
-		"Signature": "1160",
-		"Input data": "LO",
-		"Date entered": "2023-5-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1171",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Lateranensia",
-		"Signature": "1171",
-		"Input data": "LO",
-		"Date entered": "2024-2-17"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1194",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Lateranensia",
-		"Signature": "1194",
-		"Input data": "LO",
-		"Date entered": "2023-5-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1197",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Lateranensia",
-		"Signature": "1197",
-		"Input data": "LO",
-		"Date entered": "2023-5-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1206A",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Lateranensia",
-		"Signature": "1206A",
-		"Input data": "LO",
-		"Date entered": "2023-5-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1239",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Lateranensia",
-		"Signature": "1239",
-		"Input data": "LO",
-		"Date entered": "2023-5-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1248",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Lateranensia",
-		"Signature": "1248",
-		"Input data": "LO",
-		"Date entered": "2023-5-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1254",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Lateranensia",
-		"Signature": "1254",
-		"Input data": "LO",
-		"Date entered": "2023-5-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_1267",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Lateranensia",
-		"Signature": "1267",
-		"Input data": "LO",
-		"Date entered": "2023-5-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_977",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Lateranensia",
-		"Signature": "977",
-		"Input data": "LO",
-		"Date entered": "2023-5-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Orleans_Loiret_6J22",
-		"Location ID (LOC)": "LOC:Orleans-Archives_du_Loiret",
-		"Archive": "Archives departementales du Loiret",
-		"Archival Fond": "Collection Joursanvault",
-		"Signature": "6J22",
-		"Input data": "ECZ",
-		"Date entered": "2024-2-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Paris_BNF_francais_2926",
-		"Location ID (LOC)": "LOC:Paris-BNF",
-		"Archive": "Bibliothèque nationale de France",
-		"Archival Fond": "MS francais",
-		"Signature": "2926",
-		"Input data": "ECZ",
-		"Date entered": "2024-2-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Poitiers_Vienne_G527",
-		"Location ID (LOC)": "LOC:Poitiers-Archives_Vienne",
-		"Archive": "Archives départementales de la Vienne",
-		"Archival Fond": "Actes capitulaires de Saint-Hilaire de Poitiers",
-		"Signature": "G527",
-		"Input data": "ECZ",
-		"Date entered": "2024-2-22"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Libri_Annatarum_17",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Libri Annatarum",
-		"Signature": "17",
-		"Input data": "LO",
-		"Date entered": "2024-3-1"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Supplicationum_595",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Supplicationum",
-		"Signature": "595",
-		"Input data": "LO",
-		"Date entered": "2024-3-1"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Lateranensia_483",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Lateranensia",
-		"Signature": "483",
-		"Input data": "LO",
-		"Date entered": "2024-3-1"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Supplicationum_461",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Supplicationum",
-		"Signature": "461",
-		"Input data": "LO",
-		"Date entered": "2024-3-1"
-	},
-	{
 		"Archival Document (ARD) ID": "ARD:Vatican_Sacra_Penitentiaria_9",
 		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
 		"Archive": "Vatican Library",
@@ -1086,128 +1327,13 @@
 		"Date entered": "2024-3-1"
 	},
 	{
-		"Archival Document (ARD) ID": "ARD:Aix_en_Provence_Archives_Departementales_des_Bouches_du_Rhone_309E290",
-		"Location ID (LOC)": "LOC:Aix-en-Provence",
-		"Archive": "Archives Départementales des Bouches du Rhone",
-		"Input data": "FEM",
-		"Date entered": "2024-4-12"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Paris_Archives_Nationales_127",
-		"Location ID (LOC)": "LOC:Paris-Notre-Dame",
-		"Archive": "Paris Archives Nationales",
-		"Archival Fond": "Registres capitulaires médiévaux de Notre-Dame de Paris",
-		"Signature": "127",
-		"Input data": "SMB",
-		"Date entered": "2024-5-29"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Paris_Archives_Nationales_128",
-		"Location ID (LOC)": "LOC:Paris-Notre-Dame",
-		"Archive": "Paris Archives Nationales",
-		"Archival Fond": "Registres capitulaires médiévaux de Notre-Dame de Paris",
-		"Signature": "128",
-		"Input data": "SMB",
-		"Date entered": "2024-5-29"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Chambery_Archivio_Dipartimentale_della_Savoia_124",
-		"Location ID (LOC)": "LOC:Turin",
-		"Archive": "Archivio di Stato di Torino",
-		"Archival Fond": "Fonds retrocedes de Turin",
-		"Signature": "Inv. 124, SA. 3625",
-		"Input data": "SMB",
-		"Date entered": "2024-6-8"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Supplicationum_1386",
+		"Archival Document (ARD) ID": "ARD:Vatican_Segreto_DC_11",
 		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Supplicationum",
-		"Signature": "1386",
+		"Archive": "Archivio Segreto Vaticano",
+		"Archival Fond": "Diversa Cameralia",
+		"Signature": "11",
 		"Input data": "SMB",
-		"Date entered": "2024-6-16"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Supplicationum_1391",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Supplicationum",
-		"Signature": "1391",
-		"Input data": "SMB",
-		"Date entered": "2024-6-16"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Bibliotheque_Chartres_MS_1009",
-		"Location ID (LOC)": "LOC:Chartres",
-		"Archive": "Chartres Library",
-		"Archival Fond": "MS",
-		"Signature": "1009",
-		"Input data": "SMB",
-		"Date entered": "2024-6-16"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Florence_Biblioteca_Nazionale_Galileana_1",
-		"Location ID (LOC)": "LOC:Florence",
-		"Archive": "Biblioteca Nazionale Centrale di Firenze",
-		"Archival Fond": "Galileana",
-		"Signature": "1",
-		"Input data": "SMB",
-		"Date entered": "2024-6-16"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Modena_MS_1506",
-		"Location ID (LOC)": "LOC:Modena",
-		"Archive": "Archivio di Stato Modena",
-		"Archival Fond": "MS",
-		"Signature": "1506",
-		"Input data": "SMB",
-		"Date entered": "2024-6-19"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Modena_MS_1510",
-		"Location ID (LOC)": "LOC:Modena",
-		"Archive": "Archivio di Stato Modena",
-		"Archival Fond": "MS",
-		"Signature": "1510",
-		"Input data": "SMB",
-		"Date entered": "2024-6-19"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Modena_MS_1509",
-		"Location ID (LOC)": "LOC:Modena",
-		"Archive": "Archivio di Stato Modena",
-		"Archival Fond": "MS",
-		"Signature": "1509",
-		"Input data": "SMB",
-		"Date entered": "2024-6-19"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Supplicationum_1393",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Supplicationum",
-		"Signature": "1393",
-		"Input data": "SMB",
-		"Date entered": "2024-6-21"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Florence_Archepiscopate_VIII_I",
-		"Location ID (LOC)": "LOC:Florence",
-		"Archive": "Archivio dell’Opera dell’Arciospitale di Santa Maria del Fiore",
-		"Archival Fond": "Quaderni di cassa",
-		"Signature": "VIII, I",
-		"Input data": "SMB",
-		"Date entered": "2024-6-21"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Innsbruck_Hof_1497",
-		"Location ID (LOC)": "LOC:Innsbruck",
-		"Archive": "Landesregierungsarchiv",
-		"Archival Fond": "Geschäft von Hof",
-		"Signature": "1497",
-		"Input data": "SMB",
-		"Date entered": "2024-6-21"
+		"Date entered": "2024-8-22"
 	},
 	{
 		"Archival Document (ARD) ID": "ARD:Weimar_EGA_5910",
@@ -1216,121 +1342,5 @@
 		"Signature": "5910",
 		"Input data": "SMB",
 		"Date entered": "2024-6-23"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Innsbruck_RB_1484",
-		"Location ID (LOC)": "LOC:Innsbruck",
-		"Archive": "Landesregierungsarchiv",
-		"Archival Fond": "Raitbuch",
-		"Signature": "1484",
-		"Input data": "SMB",
-		"Date entered": "2024-6-27"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Florence_MAP_104",
-		"Location ID (LOC)": "LOC:Florence",
-		"Archive": "Archivio di Stato",
-		"Archival Fond": "Medici avanti il Principato",
-		"Signature": "104",
-		"Input data": "SMB",
-		"Date entered": "2024-6-29"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Modena_Musica_B2",
-		"Location ID (LOC)": "LOC:Modena-Archivio_di_Stato",
-		"Archive": "Archivio di Stato di Modena",
-		"Archival Fond": "Musica e Musicisti",
-		"Signature": "B. 2",
-		"Input data": "SMB",
-		"Date entered": "2024-7-19"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Modena_Dispacci_3",
-		"Location ID (LOC)": "LOC:Modena-Archivio_di_Stato",
-		"Archive": "Archivio di Stato di Modena",
-		"Archival Fond": "Dispacci de la Francia",
-		"Signature": "B. 3",
-		"Input data": "SMB",
-		"Date entered": "2024-7-19"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Florence_SM_1",
-		"Location ID (LOC)": "LOC:Florence",
-		"Archive": "Archivio dell'Opera di Santa Maria del Fiore",
-		"Archival Fond": "Quaderni Cassa",
-		"Signature": "VIII, 1",
-		"Input data": "SMB",
-		"Date entered": "2024-7-25"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Lille_ADN_2152",
-		"Location ID (LOC)": "LOC:Lille-Archives_Departmentales",
-		"Archive": "Archives Départementales du Nord",
-		"Archival Fond": "B",
-		"Signature": "2152",
-		"Input data": "SMB",
-		"Date entered": "2024-7-26"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Paris_BnF_Dupuy_503",
-		"Location ID (LOC)": "LOC:Paris-BNF",
-		"Archive": "Bibliothèque nationale de France",
-		"Archival Fond": "Dupuy",
-		"Signature": "503",
-		"Input data": "SMB",
-		"Date entered": "2024-7-28"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Simancas_AGS_Casa_14",
-		"Location ID (LOC)": "LOC:Simancas",
-		"Archive": "Archivo general de Simancas",
-		"Archival Fond": "Casa y sitios reales",
-		"Signature": "14",
-		"Input data": "SMB",
-		"Date entered": "2024-7-28"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Kortrijk_RtK_Onze_169",
-		"Location ID (LOC)": "LOC:Kortrijk",
-		"Archive": "Rijksarchief te Kortrijk",
-		"Archival Fond": "Onze-Lieve-Vrouwekerk",
-		"Signature": "169",
-		"Input data": "SMB",
-		"Date entered": "2024-7-28"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:New_York_Pierpont_4",
-		"Location ID (LOC)": "LOC:New_York",
-		"Archive": "Pierpont Morgan Library",
-		"Archival Fond": "Autograph Letters",
-		"Signature": "VR/R of F/Box I/Charles VIII/No. 4",
-		"Description": "autograph letter from Charles VIII",
-		"Input data": "SMB",
-		"Date entered": "2024-8-2"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Vatican_Registra_Supplicationum_1425",
-		"Location ID (LOC)": "LOC:Vatican-Bibliotheca_Apostolica_Vaticana",
-		"Archive": "Vatican Library",
-		"Archival Fond": "Registra Supplicationum",
-		"Signature": "1425",
-		"Input data": "SMB",
-		"Date entered": "2024-6-21"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Modena_MS_Busta",
-		"Location ID (LOC)": "LOC:Modena",
-		"Archive": "Archivio di Stato Modena",
-		"Archival Fond": "Busta",
-		"Signature": "I",
-		"Input data": "SMB",
-		"Date entered": "2024-8-16"
-	},
-	{
-		"Archival Document (ARD) ID": "ARD:Aix_en_Provence_Archives_Departementales_des_Bouches_du_Rhone_B273",
-		"Location ID (LOC)": "LOC:Marseille",
-		"Archive": "Archives Départementales des Bouches du Rhone (housed in Marseille)",
-		"Input data": "FEM",
-		"Date entered": "2024-8-18"
 	}
 ]

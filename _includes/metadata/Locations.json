@@ -391,7 +391,7 @@
 		"Name of Location": "Brussels",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/EuTx2Cx88GYtR1ZY8",
-		"Coordinates": "50.84, 4.35",
+		"Coordinates": "50.84880929604464, 4.354471003459594",
 		"Input data": "SMB",
 		"Date entered": "2024-8-4"
 	},
@@ -594,7 +594,17 @@
 		"Coordinates": "36.27822786720899, -6.0853386560611",
 		"Aliases": "Connoille",
 		"Input data": "SMB",
-		"Date entered": "2025-7-28"
+		"Date entered": "2024-7-28"
+	},
+	{
+		"Location ID (LOC)": "LOC:Constance",
+		"Name of Location": "Constance",
+		"Modern Country": "Germany",
+		"Google URL": "https://maps.app.goo.gl/j2ztxyBaAhqez31X6",
+		"Coordinates": "47.67600160000001, 9.196604566169464",
+		"Aliases": "Konstanz",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
 	},
 	{
 		"Location ID (LOC)": "LOC:Corneto",
@@ -1287,7 +1297,7 @@
 		"Name of Location": "London",
 		"Modern Country": "United Kingdom",
 		"Google URL": "https://maps.app.goo.gl/2qDQfaowKqrYCvvJA",
-		"Coordinates": "51.50, -0.11",
+		"Coordinates": "51.50642296495793, -0.13387098563972913",
 		"Input data": "SMB",
 		"Date entered": "2024-8-9"
 	},
@@ -1659,12 +1669,12 @@
 		"Date entered": "2023-5-17"
 	},
 	{
-		"Location ID (LOC)": "LOC:New_York",
-		"Name of Location": "New York",
+		"Location ID (LOC)": "LOC:New_York-Morgan_Library",
+		"Name of Location": "Morgan Library",
 		"City or Larger Place": "New York",
 		"Modern Country": "United States of America",
-		"Google URL": "https://maps.app.goo.gl/PtiHWkXTpw842K3XA",
-		"Coordinates": "40.786274, -73.962137"
+		"Google URL": "https://maps.app.goo.gl/NqW9fDrYjvNEH9y4A",
+		"Coordinates": "40.749380201023754, -73.98072118630186"
 	},
 	{
 		"Location ID (LOC)": "LOC:Noyon",
@@ -1816,6 +1826,15 @@
 		"Coordinates": "48.869758758702034, 2.352674375117449",
 		"Input data": "BSO",
 		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Patras",
+		"Name of Location": "Patras",
+		"Modern Country": "Greece",
+		"Google URL": "https://maps.app.goo.gl/AzaqmAQa71pR9TMD6",
+		"Coordinates": "38.24825044952356, 21.733574421364168",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
 	},
 	{
 		"Location ID (LOC)": "LOC:Parma",
@@ -2237,7 +2256,7 @@
 		"Name of Location": "Savoy",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/RwNSXqYkWrCukJGm7",
-		"Coordinates": "45.58, 6.5",
+		"Coordinates": "45.57253221455803, 6.396867595608568",
 		"Input data": "SMB",
 		"Date entered": "2024-8-18"
 	},
@@ -2275,7 +2294,7 @@
 		"Name of Location": "Soignies",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/if3Mkx5Yo27m7JnS7",
-		"Coordinates": "50.58, 4.07",
+		"Coordinates": "50.579198320100204, 4.070298212313548",
 		"Input data": "SMB",
 		"Date entered": "2024-8-17"
 	},
@@ -2338,7 +2357,7 @@
 		"Name of Location": "Toledo",
 		"Modern Country": "Spain",
 		"Google URL": "https://maps.app.goo.gl/MbJXoQq8kWXQRyS77",
-		"Coordinates": "39.86, -4.02",
+		"Coordinates": "39.86352693956841, -4.026552444846155",
 		"Input data": "SMB",
 		"Date entered": "2024-8-4"
 	},
@@ -2652,7 +2671,7 @@
 		"Name of Location": "Weimar",
 		"Modern Country": "Germany",
 		"Google URL": "https://maps.app.goo.gl/tBuebG1r46Rha16C8",
-		"Coordinates": "50.983888, 11.328832",
+		"Coordinates": "50.97850229535213, 11.322746934302707",
 		"Input data": "SMB",
 		"Date entered": "2024-6-23"
 	},

@@ -206,6 +206,17 @@
 		"Date entered": "2024-8-10"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Guillaume_Lemarcherier",
+		"Composer Name": "Guillaume Lemarcherier",
+		"Alias": "Guillaume Legrant",
+		"Description": "musician to Sigismund HRE",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/168/",
+		"RISM ID": "pe41009503",
+		"RISM Link": "https://rism.online/people/41009503",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Heinrich_Isaac",
 		"Composer Name": "Heinrich Isaac",
 		"Alias": "Arrhigus, Heinrich; Arrigo Tedesco; Arrigo Ugonis; Arrigo d'Ugo; Arrigo de Alemania; Arrigo di Fiandra; Arrigo il Tedesco; Isaac, Henricus; Isaak, Heinrich; Isac, Heinrich; Izac, Heinrich; Ysaac, Heinrich; Ysac, Heinrich; Ysach, Heinrich; Ysak, Heinrich; Yzaac, Heinrich; Yzac, Heinrich",
@@ -425,6 +436,14 @@
 		"Date entered": "2023-3-28",
 		"Update data": "BSO",
 		"Date updated": "2023-5-9"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:John_Forest",
+		"Composer Name": "John Forest",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/137/",
+		"Bibliography (BIB) ID": "BIB:Planchart_2018",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Vincenet",
@@ -667,5 +686,17 @@
 		"RISM Link": "https://rism.online/people/30102810",
 		"Input data": "SMB",
 		"Date entered": "2024-8-11"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Arnold_de_Lantins",
+		"Composer Name": "Arnold de Lantins",
+		"Description": "Composer, singer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/150/",
+		"RISM ID": "pe30109013",
+		"RISM Link": "https://rism.online/people/30109013",
+		"Bibliography (BIB) ID": "BIB:Planchart_2018",
+		"BIB Pages": "122",
+		"Input data": "SMB",
+		"Date entered": "2024-8-22"
 	}
 ]

@@ -13,5 +13,12 @@
 		"Occasion Description": "the last major engagement of the War of the League of Cambrai, with Francis I defeating the Old Swiss Confederacy",
 		"Input data": "BSO",
 		"Date entered": "2024-3-19"
+	},
+	{
+		"Occasion ID (OCC)": "OCC:Council_of_Constance",
+		"Occasion Name": "Council of Constance",
+		"Occasion Description": "Ecumenical council",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
 	}
 ]

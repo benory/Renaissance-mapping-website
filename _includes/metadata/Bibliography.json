@@ -759,5 +759,17 @@
 		"URL": "https://doi.org/10.2307/928600",
 		"Input data": "FEM",
 		"Date entered": "2024-8-18"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Planchart_2001",
+		"Author": "Planchart, Alejandro",
+		"Name of Article": "Du Fay, Guillaume",
+		"Name of Volume/Journal": "Oxford Music Online [Grove]",
+		"Edition": "2001",
+		"Location": "Oxford",
+		"Publisher": "Oxford University Press",
+		"Publication Year": "2001",
+		"Input data": "SMB",
+		"Date entered": "2024-8-22"
 	}
 ]

@@ -101,6 +101,14 @@
 		"Date entered": "2024-2-14"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Carlo_di_Galeotto_Malatesta",
+		"Person Name": "Carlo di Galeotto Malatesta",
+		"Alias": "Carlo I",
+		"Noted Positions": "representative of Gregory XII to Council of Constance",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Cesare_Borgia",
 		"Person Name": "Cesare Borgia",
 		"Birth Date": "1475-9-13",
@@ -552,6 +560,13 @@
 		"Date updated": "2024-2-11"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Sigismund",
+		"Person Name": "Sigismund",
+		"Noted Positions": "King of Germany, Holy Roman Emperor",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Sixtus_IV",
 		"Person Name": "Pope Sixtus IV",
 		"Alias": "Francesco della Rovere",
@@ -721,6 +736,8 @@
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:John_of_Burgundy",
 		"Person Name": "John of Burgundy",
+		"Birth Date": "1404",
+		"Death Date": "1479",
 		"Description": "Bishop of Cambrai",
 		"Bibliography ID (BIB)": "BIB:Gallagher_2010",
 		"BIB Pages": "23",
@@ -734,5 +751,26 @@
 		"Description": "duke of Burgundy",
 		"Input data": "SMB",
 		"Date entered": "2024-8-17"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jehan_de_Lens",
+		"Person Name": "Jehan de Lens",
+		"Noted Positions": "bishop of Cambrai",
+		"Description": "Bishop of Cambrai",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "54",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Louis_Allemand",
+		"Person Name": "Louis Allemand",
+		"Death Date": "16 Sep 1450",
+		"Noted Positions": "Bishop of Arles, cardinal",
+		"Description": "Bishop of Arles, cardinal",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "19",
+		"Input data": "SMB",
+		"Date entered": "2024-8-22"
 	}
 ]

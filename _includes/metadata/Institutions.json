@@ -125,5 +125,33 @@
 		"Institution Description": "Church in Cambrai",
 		"Input data": "SMB",
 		"Date entered": "2024-8-18"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Martin_V",
+		"Institution Name": "Chapel of Martin V",
+		"Institution Description": "chapel of pope Martin V",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Alfonso_Carillo",
+		"Institution Name": "Chapel of Alfonso Carillo",
+		"Institution Description": "Chapel of bologna legate Carillo",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Louis_Alemand",
+		"Institution Name": "Chapel of Louis Alemand",
+		"Institution Description": "Chapel of Bishop of Arles, later Cardinal",
+		"Input data": "SMB",
+		"Date entered": "2024-8-22"
+	},
+	{
+		"Institution ID (INS)": "INS:Papal_Chapel_Florence",
+		"Institution Name": "Papal chapel of Eugenius IV",
+		"Institution Description": "Papal chapel in Florence",
+		"Input data": "SMB",
+		"Date entered": "2024-8-22"
 	}
 ]

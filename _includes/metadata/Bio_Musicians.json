@@ -956,7 +956,8 @@
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Guillaume_Malbecque",
-		"Musician Name": "Guillaume Malbecque",
+		"Musician Name": "Guillaume le Metayer",
+		"Alias": "Malbecque",
 		"Bibliography ID (BIB)": "BIB:Gallagher_2010",
 		"BIB Pages": "15",
 		"Input data": "SMB",
@@ -1036,6 +1037,14 @@
 		"BIB Pages": "61–64",
 		"Input data": "BSO",
 		"Date entered": "2024-4-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Hugo_de_Montfort",
+		"Musician Name": "Hugo de Montfort",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "54",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Illario_Turluron",
@@ -1859,6 +1868,14 @@
 		"BIB Pages": "74",
 		"Input data": "BSO",
 		"Date entered": "2024-4-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Oswald_von_Wolkenstein",
+		"Musician Name": "Oswald von Wolkenstein",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "54",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:P_de_Abbatia",
@@ -4298,5 +4315,309 @@
 		"BIB Pages": "25",
 		"Input data": "SMB",
 		"Date entered": "2024-8-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Giovanni_da_Pavia",
+		"Musician Name": "Giovanni da Pavia",
+		"Description": "singer at Council of Constance",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "56",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_le_Bonure",
+		"Musician Name": "Jehan le Bonure",
+		"Alias": "Hachot",
+		"Description": "singer at Council of Constance",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "56",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Paulus_de_Monte_Sancto",
+		"Musician Name": "Paulus de Monte Sancto",
+		"Description": "singer at Council of Constance",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "56",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Francois_Gousserat",
+		"Musician Name": "Francois Gousserat",
+		"Description": "singer at Council of Constance",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "56",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernard_Buc",
+		"Musician Name": "Bernard Buc",
+		"Alias": "Buxi",
+		"Description": "singer at Council of Constance",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "56",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacques_de_Romedenne",
+		"Musician Name": "Jacques de Romedenne",
+		"Description": "singer at Council of Constance",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "57",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Mathieu_Hanelle",
+		"Musician Name": "Mathieu Hanelle",
+		"Description": "singer at Council of Constance, Martin V, and Alexander V",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "57",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Briant",
+		"Musician Name": "Jehan Briant",
+		"Description": "singer at Council of Constance",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "57",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_de_Semeries",
+		"Musician Name": "Jehan de Semeries",
+		"Alias": "Ionathas",
+		"Description": "singer at Council of Constance",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "57",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_Lair",
+		"Musician Name": "Petrus Lair",
+		"Description": "singer at Council of Constance",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "57",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Frederic",
+		"Musician Name": "Jehan Frederic",
+		"Alias": "Bourdon",
+		"Description": "singer at Council of Constance",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "57",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Mathieu_Thorote",
+		"Musician Name": "Mathieu Thorote",
+		"Alias": "Bruyant",
+		"Description": "Member of Martin V's chapel",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "58",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Andrieu_de_Maure",
+		"Musician Name": "Andrieu de Maure",
+		"Description": "Member of Martin V's chapel",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "58",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Percheval_de_Nokerstoke",
+		"Musician Name": "Percheval de Nokerstoke",
+		"Description": "Member of Martin V's chapel",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "58",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Adriaan_Reyner",
+		"Musician Name": "Adriaan Reyner",
+		"Description": "Member of Martin V's chapel",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "58",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Etienne_Chanelle",
+		"Musician Name": "Etienne Chanelle",
+		"Description": "Member of Martin V's chapel",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "58",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_de_Carnin",
+		"Musician Name": "Jehan de Carnin",
+		"Description": "Member of Martin V's chapel",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "58",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Dornart",
+		"Musician Name": "Jehan Dornart",
+		"Description": "Member of Martin V's chapel",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "58",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicaise_Petitdieu",
+		"Musician Name": "Nicaise Petitdieu",
+		"Description": "Member of Martin V's chapel",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "58",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernard_Guillaume_de_Anglade",
+		"Musician Name": "Bernard Guillaume de Anglade",
+		"Description": "Member of chapel of Alfonso Carillo",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "83",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_de_la_Tour",
+		"Musician Name": "Jehan de la Tour",
+		"Description": "Member of chapel of Alfonso Carillo",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "83",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Tordoir",
+		"Musician Name": "Jehan Tordoir",
+		"Description": "Member of chapel of Alfonso Carillo",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "83",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Vincenet",
+		"Musician Name": "Jehan Vincenet",
+		"Description": "Member of chapel of Alfonso Carillo",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "83",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Philippe_de_la_Folie",
+		"Musician Name": "Philippe de la Folie",
+		"Description": "Member of chapel of Alfonso Carillo",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "83",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pierre_L'Escuyer",
+		"Musician Name": "Pierre L'Escuyer",
+		"Description": "Member of chapel of Alfonso Carillo",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "83",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gilles_Flannel",
+		"Musician Name": "Gilles Flannel",
+		"Alias": "Lenfant",
+		"Description": "Senior singer in papal chapel",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "93",
+		"Input data": "SMB",
+		"Date entered": "2024-8-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bertauld_Dauce",
+		"Musician Name": "Bertauld Dauce",
+		"Description": "Member of papal chapel",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "112",
+		"Input data": "SMB",
+		"Date entered": "2024-8-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Augustin",
+		"Musician Name": "Jehan Augustin",
+		"Alias": "Dupassage",
+		"Description": "Member of papal chapel",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "113",
+		"Input data": "SMB",
+		"Date entered": "2024-8-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_de_Lesme",
+		"Musician Name": "Jehan de Lesme",
+		"Description": "Member of papal chapel",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "113",
+		"Input data": "SMB",
+		"Date entered": "2024-8-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Toussaint_de_la_Rouelle",
+		"Musician Name": "Toussaint de la Rouelle",
+		"Description": "Member of papal chapel",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "113",
+		"Input data": "SMB",
+		"Date entered": "2024-8-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Barthelemy_Poignare",
+		"Musician Name": "Barthelemy Poignare",
+		"Description": "Member of papal chapel",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "113",
+		"Input data": "SMB",
+		"Date entered": "2024-8-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gautier_Libert",
+		"Musician Name": "Gautier Libert",
+		"Description": "Member of papal chapel",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "113",
+		"Input data": "SMB",
+		"Date entered": "2024-8-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacques_Robaille",
+		"Musician Name": "Jacques Robaille",
+		"Description": "Member of papal chapel",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "113",
+		"Input data": "SMB",
+		"Date entered": "2024-8-22"
 	}
 ]
