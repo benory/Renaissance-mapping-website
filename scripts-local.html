@@ -364,7 +364,9 @@ function doMapSetup(opts) {
 
             // Get coordinates
             coordinates = locationInfo[COORD];
-            if (coordinates !== undefined) {
+
+            // Map points if there are coordinates and the earliest and latest years are defined
+            if (coordinates !== undefined && earliestyear !== undefined && latestyear !== undefined) {
                 // Convert the comma-separated string into an array
                 let coordsArray = coordinates.split(',').map(Number);
 
