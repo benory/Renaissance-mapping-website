@@ -336,6 +336,25 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Location ID (LOC)": "LOC:Bruges",
+		"Name of Location": "Bruges",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/4RySDkw6g83gA7n58",
+		"Coordinates": "51.209331605102435, 3.2248282184289367",
+		"Input data": "LO",
+		"Date entered": "2024-8-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bruges-Heilig-Bloedbasiliek",
+		"Name of Location": "Heilig-Bloedbasiliek",
+		"City or Larger Place": "Bruges",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/TkV678PY5aQMuZqD9",
+		"Coordinates": "51.20811205488964, 3.2265488769075112",
+		"Input data": "LO",
+		"Date entered": "2024-8-24"
+	},
+	{
 		"Location ID (LOC)": "LOC:Bruges-Onze-Lieve-Vrouwekerk",
 		"Name of Location": "Onze-Lieve-Vrouwekerk",
 		"City or Larger Place": "Bruges",
@@ -2445,6 +2464,16 @@
 		"Coordinates": "43.72586079227329, 12.636939725179847",
 		"Input data": "BSO",
 		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Utrecht-Domkerk",
+		"Name of Location": "Domkerk",
+		"City or Larger Place": "Utrecht",
+		"Modern Country": "Netherlands",
+		"Google URL": "https://maps.app.goo.gl/7TvRNPPMMgNDt1uWA",
+		"Coordinates": "52.09096071516298, 5.12251164683536",
+		"Input data": "LO",
+		"Date entered": "2024-8-23"
 	},
 	{
 		"Location ID (LOC)": "LOC:Vaccarassio",

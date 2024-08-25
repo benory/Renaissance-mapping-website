@@ -3042,7 +3042,7 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Fernandez",
 		"Musician Name": "Johannes Fernandez",
-		"Description": "musician in Bruges",
+		"Description": "musician in Bruges, \"blind musician of international fame\"",
 		"Bibliography ID (BIB)": "BIB:Strohm_1985",
 		"BIB Pages": "154",
 		"Input data": "LO",
@@ -3068,8 +3068,8 @@
 		"Date entered": "2024-8-5"
 	},
 	{
-		"Biography Musician (BMU) ID": "BMU:Jacobus_Galliant",
-		"Musician Name": "Jacobus Galliant",
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Gallant",
+		"Musician Name": "Jacobus Gallant",
 		"Description": "musician in Bruges",
 		"Bibliography ID (BIB)": "BIB:Strohm_1985",
 		"BIB Pages": "154",
@@ -3162,8 +3162,8 @@
 		"Date entered": "2024-8-6"
 	},
 	{
-		"Biography Musician (BMU) ID": "BMU:Jan_van_der_Hecke",
-		"Musician Name": "Jan van der Hecke",
+		"Biography Musician (BMU) ID": "BMU:Jan_van_den_Hecke",
+		"Musician Name": "Jan van den Hecke",
 		"Description": "musician in Bruges",
 		"Bibliography ID (BIB)": "BIB:Strohm_1985",
 		"BIB Pages": "155",
@@ -4619,5 +4619,97 @@
 		"BIB Pages": "113",
 		"Input data": "SMB",
 		"Date entered": "2024-8-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Christianus_Baelde",
+		"Musician Name": "Christianus Baelde",
+		"Description": "musician in Bruges; scribe",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-23"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Alcmaer",
+		"Musician Name": "Johannes Alcmaer",
+		"Alias": "Alcmaere, Johannes",
+		"Description": "musician in Bruges; scribe",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-23"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guillermus_van_der_Driessche",
+		"Musician Name": "Guillermus van der Driesseche",
+		"Description": "musician in Bruges; bookseller",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-23"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Dhondt",
+		"Musician Name": "Johannes Dhondt",
+		"Alias": "Dont, Johannes",
+		"Description": "musician in Bruges; scribe",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-23"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Claeys_Frueyten",
+		"Musician Name": "Claeys Frueyten",
+		"Description": "musician in Bruges; scribe",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-23"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Leonardus_Gladio",
+		"Musician Name": "Leonardus Gladio",
+		"Description": "musician in Bruges; scribe, cleric; died before February 1420",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-23"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pierkin_Goedemaers",
+		"Musician Name": "Pierkon Goedemaers",
+		"Description": "musician in Bruges; scribe; might be the same person as musician Pierkin Deelers",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-23"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jan_Vilt",
+		"Musician Name": "Jan Vilt",
+		"Description": "musician in Bruges; scribe; member of the booksellers' guild",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "159",
+		"Input data": "LO",
+		"Date entered": "2024-8-23"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernardus",
+		"Musician Name": "Bernardus",
+		"Description": "musician in Bruges; scribe; perhaps Bernard de Waghe(n), magistrate of Sijssle",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "160",
+		"Input data": "LO",
+		"Date entered": "2024-8-23"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pierre_Basin",
+		"Musician Name": "Pierre Basin",
+		"Description": "musician in Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-23"
 	}
 ]
