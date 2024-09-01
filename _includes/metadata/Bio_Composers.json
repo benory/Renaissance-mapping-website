@@ -811,5 +811,35 @@
 		"BIB Pages": "155",
 		"Input data": "LO",
 		"Date entered": "2024-8-24"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Oswald_von_Wolkenstein",
+		"Composer Name": "Oswald von Wolkenstein",
+		"Description": "Composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/1063/",
+		"RISM ID": "po30008941",
+		"RISM Link": "https://rism.online/people/30008941",
+		"Bibliography (BIB) ID": "BIB:Planchart_2018",
+		"Input data": "SMB",
+		"Date entered": "2024-8-30"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Symon_le_Breton",
+		"Composer Name": "Symon le Breton",
+		"Description": "Composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/346/",
+		"Bibliography (BIB) ID": "BIB:Planchart_2018",
+		"BIB Pages": "210",
+		"Input data": "SMB",
+		"Date entered": "2024-8-31"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Guillaume_le_Metayer",
+		"Composer Name": "Guillaume le Metayer",
+		"Alias": "Malbecque",
+		"Description": "Composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/1506/",
+		"RISM ID": "pe41016860",
+		"RISM Link": "https://rism.online/people/41016860"
 	}
 ]

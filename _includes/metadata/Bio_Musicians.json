@@ -4711,5 +4711,23 @@
 		"BIB Pages": "152",
 		"Input data": "LO",
 		"Date entered": "2024-8-23"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Symon_Mellet",
+		"Musician Name": "Symon Mellet",
+		"Description": "Copyist in Cambrai",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "191",
+		"Input data": "SMB",
+		"Date entered": "2024-8-30"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Paul_le_Josne",
+		"Musician Name": "Paul le Josne",
+		"Description": "Magister puerorum in Cambrai",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "237",
+		"Input data": "SMB",
+		"Date entered": "2024-8-30"
 	}
 ]

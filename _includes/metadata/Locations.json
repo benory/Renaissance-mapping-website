@@ -2739,5 +2739,14 @@
 		"Coordinates": "43.302217934871926, 5.364842532975952",
 		"Input data": "FEM",
 		"Date entered": "2024-8-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Mons",
+		"Name of Location": "Mons",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/fMByreU4yRTK8z4C7",
+		"Coordinates": "50.45113400858925, 3.9595772028888914",
+		"Input data": "SMB",
+		"Date entered": "2024-8-31"
 	}
 ]
