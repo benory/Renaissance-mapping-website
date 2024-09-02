@@ -771,5 +771,27 @@
 		"Publication Year": "2001",
 		"Input data": "SMB",
 		"Date entered": "2024-8-22"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Burn_2003",
+		"Author": "Burn, David",
+		"Name of Article": "What Did Isaac Write for Constance?",
+		"Name of Volume/Journal": "Journal of Musicology",
+		"Volume": "20 no 1",
+		"Publisher": "University of California Press",
+		"Publication Year": "2003",
+		"Pages": "45-72",
+		"Input data": "SMB",
+		"Date entered": "2024-9-1"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Ghisi_1937",
+		"Author": "Ghisi, Federica",
+		"Name of Article": "I Canti carnascialeschi nelle fonti musicali del XV e XVI secolo",
+		"Location": "Florence",
+		"Publisher": "Olschki",
+		"Publication Year": "1937",
+		"Input data": "SMB",
+		"Date entered": "2025-9-1"
 	}
 ]
