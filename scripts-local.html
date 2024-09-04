@@ -604,7 +604,7 @@ function updateDateRange() {
     startActiveLabel.style.left = `${adjustedMinPercent * sliderWidth}px`;
     endActiveLabel.style.left = `${adjustedMaxPercent * sliderWidth}px`;
 
-    // Call a function to reapply filters based on the selected range
+    // Call a function to reapply filters based on the selected range, or go to UserSearch depending on whether there is text.
     const input = document.querySelector("#input");
 
     if (input){

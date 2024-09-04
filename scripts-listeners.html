@@ -126,7 +126,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function handleCheckboxChange() {
-    if (document.querySelector("#chronology-select").checked) {
+    const input = document.querySelector("#input");
+    
+    if (input){
+    	UserSearch();
+    } else if (document.querySelector("#chronology-select").checked) {
         const sliderMin = document.getElementById('date-slider-min').value;
         const sliderMax = document.getElementById('date-slider-max').value;
         filterMarkersByDateRange(sliderMin, sliderMax);        
