@@ -529,15 +529,24 @@ function filterMarkers() {
 
 function UserSearch(skipFilter = false) {
     const input = document.querySelector("#input");
+    if (!input) return;
+
     const regex = new RegExp(input.value, 'i');
     let searchCount = 0;
     const checkboxStates = getCheckboxStates();
-    document.querySelector("#chronology-select").checked = false;
+    const minYear = document.getElementById('date-slider-min').value;
+    const maxYear = document.getElementById('date-slider-max').value;
 
-    markers.forEach(({ marker, text, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty }) => {
+    markers.forEach(({ marker, text, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear }) => {
         const type = personID.substring(0, 3);
         const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
-        const show = shouldShowMarker(type, checkboxStates, certainties) && text.match(regex);
+        let show = shouldShowMarker(type, checkboxStates, certainties) && text.match(regex);
+
+        if (checkboxStates.showChronology) {
+            if (earliestyear > maxYear || latestyear < minYear) {
+                show = false;
+            }
+        }
 
         updateMarkerOnMap(marker, show);
         if (show) searchCount++;
@@ -548,6 +557,8 @@ function UserSearch(skipFilter = false) {
     if (!skipFilter) {
         filterMarkers();
     }
+
+    map.invalidateSize();
 }
 
 // Function to update the active value labels and reapply filters
@@ -594,7 +605,13 @@ function updateDateRange() {
     endActiveLabel.style.left = `${adjustedMaxPercent * sliderWidth}px`;
 
     // Call a function to reapply filters based on the selected range
-    filterMarkersByDateRange(currentDateRange[0], currentDateRange[1]);
+    const input = document.querySelector("#input");
+
+    if (input){
+        UserSearch();
+    } else {
+        filterMarkersByDateRange(currentDateRange[0], currentDateRange[1]);
+    }
 }
 
 function filterMarkersByDateRange(minYear, maxYear) {
