@@ -12,19 +12,28 @@ layout: page
     <input type="text" id="input" onkeyup="UserSearch()" placeholder="Enter person, place, or event">
     <span id="search-count"></span>
     <div class="checkbox-container">
-        <div class="checkbox-item">
-            <input type="checkbox" id="composer-select" name="composer-select" value="composer-select">
-            <label for="composer-select">View composers</label>
-        </div>
-        <div class="checkbox-item">
-            <input type="checkbox" id="musician-select" name="musician-select" value="musician-select">
-            <label for="musician-select">View musicians</label>
-        </div>
-        <div class="checkbox-item">
-            <input type="checkbox" id="non-musician-select" name="non-musician-select" value="non-musician-select">
-            <label for="non-musician-select">View non-musicians</label>
-        </div>
+    <div class="checkbox-item">
+        <input type="checkbox" id="composer-select" name="composer-select" value="composer-select">
+        <label for="composer-select">
+            <span class="color-sample" style="background-color: #440154;"></span>
+            View composers
+        </label>
     </div>
+    <div class="checkbox-item">
+        <input type="checkbox" id="musician-select" name="musician-select" value="musician-select">
+        <label for="musician-select">
+            <span class="color-sample" style="background-color: #23ed5c;"></span>
+            View musicians
+        </label>
+    </div>
+    <div class="checkbox-item">
+        <input type="checkbox" id="non-musician-select" name="non-musician-select" value="non-musician-select">
+        <label for="non-musician-select">
+            <span class="color-sample" style="background-color: #fde725;"></span>
+            View non-musicians
+        </label>
+    </div>
+</div>
 </div>
 <div class="checkbox-item">
     <input type="checkbox" id="certainty-select" name="certainty-select" value="certainty-select">
