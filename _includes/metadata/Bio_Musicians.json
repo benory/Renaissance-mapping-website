@@ -4729,5 +4729,133 @@
 		"BIB Pages": "237",
 		"Input data": "SMB",
 		"Date entered": "2024-8-30"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Marco_da_Norsa",
+		"Musician Name": "Marco da Norsa trombeta",
+		"Description": "trumpeter at Ferrarese Court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "355",
+		"Input data": "RP",
+		"Date entered": "2024-9-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Francesco_trombetino",
+		"Musician Name": "Francesco trombetino",
+		"Description": "trumpeter at Ferrarese Court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "355",
+		"Input data": "RP",
+		"Date entered": "2024-9-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Andrea_dalla_Viola",
+		"Musician Name": "Andrea dalla Viola",
+		"Alias": "Andrea della Viola",
+		"Description": "musician at Ferrarese Court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "355",
+		"Input data": "RP",
+		"Date entered": "2024-9-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Azelino_pifaro",
+		"Musician Name": "Azelino pifaro portonaro",
+		"Description": "musician at Ferrarese Court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "355",
+		"Input data": "RP",
+		"Date entered": "2024-9-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernardino_trombone",
+		"Musician Name": "Bernardino trombone cugnado de Piero",
+		"Description": "musician at Ferrarese Court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "355",
+		"Input data": "RP",
+		"Date entered": "2024-9-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Roma_piffaro",
+		"Musician Name": "Roma () piffaro",
+		"Description": "musician at Ferrarese Court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "355",
+		"Internal notes": "Parentheses appear in Lockwood source",
+		"Input data": "RP",
+		"Date entered": "2024-9-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Alvaro_dal_Castello",
+		"Musician Name": "Alvaro dal Castello",
+		"Description": "singer at Ferrarese Court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "355",
+		"Input data": "RP",
+		"Date entered": "2024-9-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Girolimo_del_Brum",
+		"Musician Name": "Girolimo del Brum",
+		"Description": "singer at Ferrarese Court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "355",
+		"Input data": "RP",
+		"Date entered": "2024-9-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jannes",
+		"Musician Name": "Jannes",
+		"Description": "singer at Ferrarese Court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "355",
+		"Input data": "RP",
+		"Date entered": "2024-9-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Ludovico_da_Domenico",
+		"Musician Name": "Ludovico da Domenico",
+		"Description": "singer at Ferrarese Court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "355",
+		"Input data": "RP",
+		"Date entered": "2024-9-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Egidio_Giletto",
+		"Musician Name": "Egidio Giletto",
+		"Description": "singer at Ferrarese Court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "355",
+		"Input data": "RP",
+		"Date entered": "2024-9-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Fiascho_sonatore",
+		"Musician Name": "Fiascho sonatore",
+		"Description": "singer at Ferrarese Court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "355",
+		"Input data": "RP",
+		"Date entered": "2024-9-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Rigo_cantore",
+		"Musician Name": "Rigo cantore",
+		"Description": "singer at Ferrarese Court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "355",
+		"Input data": "RP",
+		"Date entered": "2024-9-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Rinaldo_da_Forli",
+		"Musician Name": "Rinaldo da Forli",
+		"Description": "singer at Ferrarese Court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "355",
+		"Input data": "RP",
+		"Date entered": "2024-9-6"
 	}
 ]
