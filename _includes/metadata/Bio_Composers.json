@@ -846,5 +846,16 @@
 		"BIB Pages": "210",
 		"Input data": "SMB",
 		"Date entered": "2024-8-31"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Vincent_du_Bruequet",
+		"Composer Name": "Vincent du Bruequet",
+		"Alias": "Vincenet",
+		"Death Date": "1479",
+		"Description": "Composer",
+		"Bibliography (BIB) ID": "BIB:Planchart_2018",
+		"BIB Pages": "245",
+		"Input data": "SMB",
+		"Date entered": "2024-9-8"
 	}
 ]

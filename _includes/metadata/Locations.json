@@ -686,6 +686,15 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Location ID (LOC)": "LOC:Dordrecht",
+		"Name of Location": "Dordrecht",
+		"Modern Country": "Netherlands",
+		"Google URL": "https://maps.app.goo.gl/yMMvy7bUcnzAtm8M6",
+		"Coordinates": "51.813311141297255, 4.689981787082144",
+		"Input data": "LO",
+		"Date entered": "2024-9-8"
+	},
+	{
 		"Location ID (LOC)": "LOC:Dover",
 		"Name of Location": "Dover",
 		"Modern Country": "England",

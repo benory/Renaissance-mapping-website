@@ -153,5 +153,12 @@
 		"Institution Description": "Papal chapel in Florence",
 		"Input data": "SMB",
 		"Date entered": "2024-8-22"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Louis_Savoy",
+		"Institution Name": "Chapel of Louis I",
+		"Institution Description": "Duke of Savoy 1440-1465",
+		"Input data": "SMB",
+		"Date entered": "2024-9-8"
 	}
 ]
