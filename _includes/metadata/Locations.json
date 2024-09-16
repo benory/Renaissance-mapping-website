@@ -216,6 +216,15 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Location ID (LOC)": "LOC:Besancon",
+		"Name of Location": "Besancon",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/NYRfntQ8LpUjV4c78",
+		"Coordinates": "47.23783135287421, 6.022559582078615",
+		"Input data": "SMB",
+		"Date entered": "2024-9-15"
+	},
+	{
 		"Location ID (LOC)": "LOC:Biernez",
 		"Name of Location": "Biernez",
 		"Input data": "LO",
@@ -1723,6 +1732,16 @@
 		"Coordinates": "40.749380201023754, -73.98072118630186"
 	},
 	{
+		"Location ID (LOC)": "LOC:Nivelles",
+		"Name of Location": "Nivelles",
+		"City or Larger Place": "Brabant",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/ybCs2ab8EEkpUceu5",
+		"Coordinates": "50.6, 4.32",
+		"Input data": "SMB",
+		"Date entered": "2024-9-14"
+	},
+	{
 		"Location ID (LOC)": "LOC:Noyon",
 		"Name of Location": "Noyon",
 		"Modern Country": "France",
@@ -1739,6 +1758,15 @@
 		"Coordinates": "50.68147773855011, 3.7131049663583813",
 		"Input data": "LO",
 		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ohain",
+		"Name of Location": "Ohain",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/czpmhw29pxWDtxqY6",
+		"Coordinates": "50.03998186205061, 4.118653558973217",
+		"Input data": "SMB",
+		"Date entered": "2024-9-15"
 	},
 	{
 		"Location ID (LOC)": "LOC:Olivet-Abbaye_de_Clairmont",

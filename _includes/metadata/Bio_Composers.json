@@ -857,5 +857,32 @@
 		"BIB Pages": "245",
 		"Input data": "SMB",
 		"Date entered": "2024-9-8"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Nicole_Grenon",
+		"Composer Name": "Nicole Grenon",
+		"Alias": "Nicolas",
+		"Death Date": "1456-10-17",
+		"Description": "Composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/97/",
+		"RISM ID": "pe30109807",
+		"RISM Link": "https://rism.online/people/30109807",
+		"Bibliography (BIB) ID": "BIB:Planchart_2018",
+		"BIB Pages": "265",
+		"Input data": "SMB",
+		"Date entered": "2024-9-15"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Gilles_Binchois",
+		"Composer Name": "Gilles Binchois",
+		"Death Date": "1460-9-20",
+		"Description": "Composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/153/",
+		"RISM ID": "pe30020900",
+		"RISM Link": "https://rism.online/people/30020900",
+		"Bibliography (BIB) ID": "BIB:Planchart_2018",
+		"BIB Pages": "277",
+		"Input data": "SMB",
+		"Date entered": "2024-9-15"
 	}
 ]

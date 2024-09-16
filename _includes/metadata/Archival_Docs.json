@@ -1342,5 +1342,13 @@
 		"Signature": "5910",
 		"Input data": "SMB",
 		"Date entered": "2024-6-23"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Varda_Diary",
+		"Archival Fond": "Aleanders Tagebuch",
+		"Signature": "L",
+		"Description": "Diaries of Girolamo Aleandro",
+		"Input data": "SMB",
+		"Date entered": "2024-9-14"
 	}
 ]

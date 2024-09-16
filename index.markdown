@@ -50,6 +50,10 @@ layout: page
 
 <div class="small-space"></div>
 
+<table class="histogram">
+    <tr id="histogramRow"></tr>
+</table>
+
 <div class="slider-container">
     <div class="slider-wrapper">
         <span id="slider-start-label" class="slider-label"><b>1400</b></span>

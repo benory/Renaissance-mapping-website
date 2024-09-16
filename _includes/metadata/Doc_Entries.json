@@ -3658,5 +3658,26 @@
 		"Related People": "BCO:Heinrich_Isaac",
 		"Input data": "SMB",
 		"Date entered": "2024-6-23"
+	},
+	{
+		"Document Entry (DOE) ID": "DOE:Varda_Diary",
+		"Archival Document (ARD)": "ARD:Varda_Diary",
+		"Folios/Pages": "fol. 101a-108a",
+		"Language": "Latin",
+		"Earliest Year": "1539",
+		"Earliest Month": "2",
+		"Earliest Day": "11",
+		"Latest Year": "1539",
+		"Latest Month": "2",
+		"Latest Day": "11",
+		"Date Range": "11 February 1539",
+		"Description": "Josquin said to have been at Corvinius's court",
+		"Document Type": "Diary",
+		"Bibliography ID (BIB) (if different)": "BIB:Fallows_2009",
+		"BIB Pages": "112",
+		"Related People": "BCO:Josquin_des_Prez",
+		"Notes": "See also https://babel.hathitrust.org/cgi/pt?id=wu.89106554223&seq=305",
+		"Input data": "SMB",
+		"Date entered": "2024-9-14"
 	}
 ]

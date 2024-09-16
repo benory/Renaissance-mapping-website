@@ -5098,5 +5098,14 @@
 		"BIB Pages": "243",
 		"Input data": "SMB",
 		"Date entered": "2024-9-8"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gilles_Crepin",
+		"Musician Name": "Gilles Crepin",
+		"Description": "singer",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "284",
+		"Input data": "SMB",
+		"Date entered": "2024-9-8"
 	}
 ]

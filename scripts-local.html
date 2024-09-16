@@ -505,20 +505,88 @@ function updateMarkerOnMap(marker, show) {
     }
 }
 
-// Function to filter markers based on checkboxes
+// Function to filter markers based on checkboxes and breakdown by decade
 function filterMarkers() {
     const checkboxStates = getCheckboxStates();
+    const histogramCounts = {}; // Object to hold count of events per decade
+    const histogramRow = document.getElementById("histogramRow");
 
-    markers.forEach(({ marker, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty }) => {
-        const type = personID.substring(0, 3);
+    // Clear the histogram before adding new values
+    histogramRow.innerHTML = '';
+
+    markers.forEach(({ marker, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear }) => {
+        const type = personID.substring(0, 3);  // Example of how type could be extracted
         const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
         const show = shouldShowMarker(type, checkboxStates, certainties);
 
-        updateMarkerOnMap(marker, show);
+        // Only process markers that should be shown
+        if (show) {
+            // Get all decades between the earliest year and latest year
+            const decades = getDecades(earliestyear, latestyear);
+
+            decades.forEach(decade => {
+                if (!histogramCounts[decade]) {
+                    histogramCounts[decade] = 0;
+                }
+                histogramCounts[decade] += 1; // Increment the count for this decade
+            });
+        }
+
+        updateMarkerOnMap(marker, show); // Update marker visibility on the map
     });
 
+    // Now that we have the counts, update the histogram
+    updateHistogram(histogramCounts);
+    
     map.invalidateSize();
     UserSearch(true);
+}
+
+// Function to get all decades between two years
+function getDecades(earliestYear, latestYear) {
+    const decades = [];
+    let startDecade = getDecade(earliestYear);  // Get the starting decade (e.g., 1990 for 1994)
+    const endDecade = getDecade(latestYear);  // Get the ending decade (e.g., 2000 for 2002)
+
+    // Loop through each decade from the start to end
+    for (let decade = startDecade; decade <= endDecade; decade += 10) {
+        decades.push(decade);
+    }
+
+    return decades;  // Return array of decades, e.g., [1990, 2000] if marker spans 1994 to 2002
+}
+
+// Function to calculate the decade from a given year
+function getDecade(year) {
+    return Math.floor(year / 10) * 10;  // Returns the decade, e.g., 1990 for years 1990-1999
+}
+
+// Function to update the histogram based on counts
+function updateHistogram(histogramCounts) {
+    const histogramRow = document.getElementById("histogramRow");
+    const decades = Object.keys(histogramCounts).sort((a, b) => a - b);  // Sort decades in ascending order
+
+    // Find the maximum count to scale the height proportionally
+    const maxCount = Math.max(...Object.values(histogramCounts));
+
+    // Define a maximum height, e.g., 100px
+    const maxHeight = 50;
+
+    decades.forEach(decade => {
+        const count = histogramCounts[decade];
+        const cell = document.createElement("td");
+        const div = document.createElement("div");
+        div.className = "count";
+        
+        // Scale the height proportionally to the maximum count
+        const height = (count / maxCount) * maxHeight; // Proportional height
+
+        div.style.height = height + "px";  // Example height scaling (modify as needed)
+        div.title = `${count} events in the ${decade}s`;
+
+        cell.appendChild(div);
+        histogramRow.appendChild(cell);
+    });
 }
 
 

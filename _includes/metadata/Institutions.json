@@ -160,5 +160,20 @@
 		"Institution Description": "Duke of Savoy 1440-1465",
 		"Input data": "SMB",
 		"Date entered": "2024-9-8"
+	},
+	{
+		"Institution ID (INS)": "INS:St_Gertrude",
+		"Institution Name": "St Gertrude Collegiate church",
+		"Institution Description": "St Gertrude Collegiate church",
+		"Input data": "SMB",
+		"Date entered": "2024-9-14"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Corvinius",
+		"Institution Name": "Chapel of Mathias Corvinius",
+		"Alias": "Hungarian royal court",
+		"Institution Description": "Chapel of Mathias Corvinius, king of Hungary",
+		"Input data": "SMB",
+		"Date entered": "2024-9-14"
 	}
 ]

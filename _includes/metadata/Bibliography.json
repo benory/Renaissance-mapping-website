@@ -792,6 +792,42 @@
 		"Publisher": "Olschki",
 		"Publication Year": "1937",
 		"Input data": "SMB",
-		"Date entered": "2025-9-1"
+		"Date entered": "2024-9-1"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Woodley_2009",
+		"Author": "Woodley, Ronald",
+		"Name of Article": "Tinctoris and Nivelles: The Obit Evidence",
+		"Name of Volume/Journal": "Journal of the Alamire Foundation",
+		"Volume": "1",
+		"Edition": "2009",
+		"Publisher": "Brepols",
+		"Publication Year": "2009",
+		"Pages": "110-121",
+		"URL": "https://www.brepolsonline.net/doi/pdf/10.1484/J.JAF.1.100442",
+		"Date entered": "2024-9-14"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Woodley_1981",
+		"Author": "Woodley, Ronald",
+		"Name of Article": "Iohannes Tinctoris: A Review of the Documentary Biographical Evidence",
+		"Name of Volume/Journal": "JAMS",
+		"Volume": "34 no. 2",
+		"Edition": "1981",
+		"Publisher": "AMS",
+		"Publication Year": "1981",
+		"Pages": "217-248",
+		"Input data": "SMB",
+		"Date entered": "2024-9-14"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Woodley_EMT",
+		"Author": "Woodley, Ronald",
+		"Name of Article": "Johannes Tinctoris: Biographical Outline",
+		"Name of Volume/Journal": "Early Music Theory Online",
+		"Publication Year": "2013",
+		"URL": "https://earlymusictheory.org/Tinctoris/Tinctoris/BiographicalOutline/",
+		"Input data": "SMB",
+		"Date entered": "2024-9-14"
 	}
 ]

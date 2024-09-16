@@ -88,7 +88,7 @@ input[type="range"]::-webkit-slider-thumb {
     top: -6px;
     background: #333;
     border-radius: 50%;
-    z-index: 3; /* Ensure thumbs are above tracks */
+    z-index: 2000; /* Ensure thumbs are above tracks */
 }
 
 input[type="range"]::-moz-range-thumb {
@@ -188,6 +188,26 @@ input[type="range"]::-ms-track {
     border-radius: 50%;
     margin-right: 5px;
     vertical-align: middle;
+}
+
+table.histogram {
+  width: 100%; /* Make the table take the full width of the container */
+  border-collapse: collapse;
+  table-layout: fixed; /* Ensure that each <td> is equally wide */
+}
+
+table.histogram td {
+  width: auto; /* Let the <td> auto-adjust to fill the space */
+  padding: 0; /* Remove any padding */
+  vertical-align: bottom; /* Align bars to the bottom */
+}
+
+table.histogram div.count {
+  width: 100%; /* Make the div (bars) take the full width of the <td> */
+  background-color: #eee;
+  color: red;
+  display: inline-block;
+  border: 1px solid #aaa;
 }
 
 </style>
