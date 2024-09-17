@@ -505,10 +505,10 @@ function updateMarkerOnMap(marker, show) {
     }
 }
 
-// Function to filter markers based on checkboxes and breakdown by decade
+// Function to filter markers based on checkboxes and breakdown by decade (1400-1600)
 function filterMarkers() {
     const checkboxStates = getCheckboxStates();
-    const histogramCounts = {}; // Object to hold count of events per decade
+    const histogramCounts = initializeDecades(1400, 1590); // Initialize all decades between 1400-1590 with 0 count
     const histogramRow = document.getElementById("histogramRow");
 
     // Clear the histogram before adding new values
@@ -519,16 +519,19 @@ function filterMarkers() {
         const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
         const show = shouldShowMarker(type, checkboxStates, certainties);
 
-        // Only process markers that should be shown
-        if (show) {
-            // Get all decades between the earliest year and latest year
-            const decades = getDecades(earliestyear, latestyear);
+        // Filter out markers that fall completely outside of the 1400-1600 range
+        if (show && latestyear >= 1400 && earliestyear <= 1600) {
+            // Clamp earliestyear and latestyear to the 1400-1600 range
+            const clampedEarliest = Math.max(1400, earliestyear);
+            const clampedLatest = Math.min(1600, latestyear);
+
+            // Get all decades between the clamped earliest year and clamped latest year
+            const decades = getDecades(clampedEarliest, clampedLatest);
 
             decades.forEach(decade => {
-                if (!histogramCounts[decade]) {
-                    histogramCounts[decade] = 0;
+                if (histogramCounts[decade] !== undefined) {
+                    histogramCounts[decade] += 1; // Increment the count for this decade
                 }
-                histogramCounts[decade] += 1; // Increment the count for this decade
             });
         }
 
@@ -540,6 +543,15 @@ function filterMarkers() {
     
     map.invalidateSize();
     UserSearch(true);
+}
+
+// Function to initialize all decades between a given start and end year with 0
+function initializeDecades(startYear, endYear) {
+    const histogramCounts = {};
+    for (let year = startYear; year <= endYear; year += 10) {
+        histogramCounts[year] = 0;  // Initialize each decade with 0 events
+    }
+    return histogramCounts;
 }
 
 // Function to get all decades between two years
