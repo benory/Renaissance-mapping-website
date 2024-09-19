@@ -138,24 +138,6 @@ input[type="range"]::-ms-track {
     z-index: 1;
 }
 
-#slider-start-label {
-    position: absolute;
-    left: -25px;
-    top: -5px;
-    font-size: 14px;
-    transform: translateX(-50%);
-    z-index: 1;
-}
-
-#slider-end-label {
-    position: absolute;
-    right: -25px;
-    top: -5px;
-    font-size: 14px;
-    transform: translateX(50%);
-    z-index: 1;
-}
-
 .slider-active-label-container {
     position: relative;
     width: 100%;
@@ -169,6 +151,7 @@ input[type="range"]::-ms-track {
 .slider-active-label-start {
     position: absolute;
     font-size: 14px;
+    font-weight: bold;
     background-color: white;
     top: 25px;
     z-index: 1; /* Labels are above everything */
@@ -177,6 +160,7 @@ input[type="range"]::-ms-track {
 .slider-active-label-end {  
     position: absolute;
     font-size: 14px;
+    font-weight: bold;
     background-color: white;
     top: 25px;
     z-index: 1; /* Labels are above everything */
@@ -204,11 +188,13 @@ table.histogram td {
 }
 
 table.histogram div.count {
-  width: 100%; /* Make the div (bars) take the full width of the <td> */
-  background-color: #eee;
-  color: red;
-  display: inline-block;
-  border: 1px solid #aaa;
+    width: 100%;
+    vertical-align: bottom;
+    background-color: #eee;
+    color: black;
+    display: top;
+    border: 1px solid #aaa;
+    position: relative; /* Added to position the label correctly */
 }
 
 </style>

@@ -56,7 +56,6 @@ layout: page
 
 <div class="slider-container">
     <div class="slider-wrapper">
-        <span id="slider-start-label" class="slider-label"><b>1400</b></span>
         <div class="slider-highlighted-track"></div> <!-- The blue track -->
         <div class="slider-min-container">
             <input type="range" id="date-slider-min" min="1400" max="1600" value="1400" step="1" oninput="updateDateRange(); updateSliderBackground()">
@@ -68,7 +67,6 @@ layout: page
             <span id="slider-start-active-label" class="slider-active-label-start">1400</span>
             <span id="slider-end-active-label" class="slider-active-label-end">1600</span>
         </div>
-        <span id="slider-end-label" class="slider-label"><b>1600</b></span>
     </div>
     <span id="slider-date-range"></span>
 </div>

@@ -505,7 +505,6 @@ function updateMarkerOnMap(marker, show) {
     }
 }
 
-// Function to filter markers based on checkboxes and breakdown by decade (1400-1600)
 // Function to filter markers based on checkboxes and breakdown by decade (1400-1600), with optional searchRegex
 function filterMarkers(searchRegex = null) {
     const checkboxStates = getCheckboxStates();
@@ -583,28 +582,61 @@ function getDecade(year) {
 // Function to update the histogram based on counts
 function updateHistogram(histogramCounts) {
     const histogramRow = document.getElementById("histogramRow");
+    histogramRow.innerHTML = '';  // Clear existing content
+
     const decades = Object.keys(histogramCounts).sort((a, b) => a - b);  // Sort decades in ascending order
 
-    // Find the maximum count to scale the height proportionally
+    // Find the maximum and minimum count to scale the height proportionally
     const maxCount = Math.max(...Object.values(histogramCounts));
+    const minCount = Math.min(...Object.values(histogramCounts));
 
-    // Define a maximum height, e.g., 100px
+    // Define a maximum height, e.g., 50px
     const maxHeight = 50;
 
+    // Create a cell for both maxCount and minCount labels at the left of the histogram
+    const labelCell = document.createElement("td");
+    labelCell.style.verticalAlign = "top";
+    labelCell.style.position = "relative";
+    labelCell.style.width = "50px";  // Adjust width for both labels
+
+    // Create maxCount label
+    const maxCountLabel = document.createElement("div");
+    maxCountLabel.textContent = maxCount;
+    maxCountLabel.style.fontSize = "12px";
+    maxCountLabel.style.color = "black";
+    maxCountLabel.style.position = "relative";
+    maxCountLabel.style.left = "-25px";  // Move the label outside of the histogram
+    maxCountLabel.style.top = "-10px";   // Move it up slightly
+
+    // Create minCount label
+    const minCountLabel = document.createElement("div");
+    minCountLabel.textContent = minCount;
+    minCountLabel.style.fontSize = "12px";
+    minCountLabel.style.color = "black";
+    minCountLabel.style.position = "relative";
+    minCountLabel.style.left = "-15px";  // Align with maxCount label
+    minCountLabel.style.top = "30px";    // Position it below maxCount label
+
+    // Append both labels to the same labelCell
+    labelCell.appendChild(maxCountLabel);
+    labelCell.appendChild(minCountLabel);
+    histogramRow.appendChild(labelCell);  // Add the label cell to the row
+
+    // Create the histogram bars
     decades.forEach(decade => {
         const count = histogramCounts[decade];
         const cell = document.createElement("td");
         const div = document.createElement("div");
         div.className = "count";
-        
+
         // Scale the height proportionally to the maximum count
         const height = (count / maxCount) * maxHeight; // Proportional height
 
-        div.style.height = height + "px";  // Example height scaling (modify as needed)
+        div.style.height = height + "px";  // Set the height of the bar
         div.title = `${count} events in the ${decade}s`;
 
         cell.appendChild(div);
-        histogramRow.appendChild(cell);
+        histogramRow.appendChild(cell);  // Add the bar to the row
     });
 }
 
