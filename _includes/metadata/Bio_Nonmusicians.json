@@ -75,6 +75,10 @@
 		"Date entered": "2023-5-8"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Ascanio_Sforza",
+		"Person Name": "Ascanio Sforza"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Bartolomeo_Cartari",
 		"Person Name": "Bartolomeo Cartari",
 		"Noted Positions": "Ferrarese Ambassador to Venice",
@@ -118,12 +122,29 @@
 		"Date entered": "2023-5-8"
 	},
 	{
-		"Biography Non-Musician (BNO) ID": "BNO:Charlotte_dAlbret",
-		"Person Name": "Charlotte d'Albret",
-		"Death Date": "1514-3-11",
-		"Noted Positions": "wealthy French noblewoman, married Cesare Borgia",
-		"Input data": "BSO",
-		"Date entered": "2023-5-8"
+		"Biography Non-Musician (BNO) ID": "BNO:Charles_of_Charolais",
+		"Person Name": "Charles of Charolais",
+		"Alias": "Count Charles",
+		"Description": "Count of Charolais",
+		"Bibliography ID (BIB)": "BIB:Gallagher_2010",
+		"BIB Pages": "23",
+		"Input data": "SMB",
+		"Date entered": "2024-8-17"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Charles_of_Orleans",
+		"Person Name": "Charles d'Orleans",
+		"Birth Date": "1407-11-23",
+		"Death Date": "1465-1-5",
+		"Noted Positions": "Duke of Orleans (1407–1465), Duke of Valois, Count of Beaumont-sur-Oise, Count of Blois"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Charles_the_Bold",
+		"Person Name": "Charles Martin",
+		"Alias": "\"the Bold\"",
+		"Description": "duke of Burgundy",
+		"Input data": "SMB",
+		"Date entered": "2024-8-17"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Charles_V",
@@ -142,6 +163,14 @@
 		"Noted Positions": "King of France (r. 1483-1489)",
 		"Input data": "SMB",
 		"Date entered": "2024-5-29"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Charlotte_dAlbret",
+		"Person Name": "Charlotte d'Albret",
+		"Death Date": "1514-3-11",
+		"Noted Positions": "wealthy French noblewoman, married Cesare Borgia",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Claude_Hermere",
@@ -176,20 +205,6 @@
 		"Date updated": "2023-5-8"
 	},
 	{
-		"Biography Non-Musician (BNO) ID": "BNO:Ferdinand_Columbus",
-		"Person Name": "Ferdinand Columbus",
-		"Birth Date": "1488-8-15",
-		"Death Date": "1539-7-12",
-		"Noted Positions": "book collector",
-		"Description": "son of Christopher Columbus; in 1513 visited Rome and purchased almost all exisiting Petrucci prints but was was unable to find \"Misse Josquin\" and \"Missarum Josquin Liber secundus\"",
-		"Bibliography ID (BIB)": "BIB:Fallows_2009",
-		"BIB Pages": "6",
-		"Input data": "LO",
-		"Date entered": "2024-1-19",
-		"Update data": "BSO",
-		"Date updated": "2024-1-19"
-	},
-	{
 		"Biography Non-Musician (BNO) ID": "BNO:Enea_Pio",
 		"Person Name": "Enea Pio",
 		"Noted Positions": "solider, ambassador for Duke Alfonso I d'Este",
@@ -206,6 +221,41 @@
 		"Noted Positions": "Duke of Ferrara (r. 1471–1505)",
 		"Input data": "BSO",
 		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Eugenius_IV",
+		"Person Name": "Gabriele Condulmer",
+		"Alias": "Eugenius IV",
+		"Death Date": "23 Feb 1447",
+		"Noted Positions": "Pope",
+		"Description": "Pope",
+		"Input data": "SMB",
+		"Date entered": "2024-8-30"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Ferdinand_Columbus",
+		"Person Name": "Ferdinand Columbus",
+		"Birth Date": "1488-8-15",
+		"Death Date": "1539-7-12",
+		"Noted Positions": "book collector",
+		"Description": "son of Christopher Columbus; in 1513 visited Rome and purchased almost all exisiting Petrucci prints but was was unable to find \"Misse Josquin\" and \"Missarum Josquin Liber secundus\"",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "6",
+		"Input data": "LO",
+		"Date entered": "2024-1-19",
+		"Update data": "BSO",
+		"Date updated": "2024-1-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Filippo_Calandrini",
+		"Person Name": "Filippo Calandrini",
+		"Birth Date": "1403",
+		"Death Date": "1476-7-18",
+		"Noted Positions": "Cardinal, Cardinal Penitentiary under Pius II.",
+		"Bibliography ID (BIB)": "BIB:Starr_1992",
+		"BIB Pages": "260",
+		"Input data": "LO",
+		"Date entered": "2024-3-31"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Francis_I",
@@ -332,12 +382,33 @@
 		"Date entered": "2023-6-7"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jehan_de_Lens",
+		"Person Name": "Jehan de Lens",
+		"Noted Positions": "bishop of Cambrai",
+		"Description": "Bishop of Cambrai",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "54",
+		"Input data": "SMB",
+		"Date entered": "2024-8-21"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Johannes_Orceau",
 		"Person Name": "Johannes Orceau",
 		"Death Date": "1512",
 		"Noted Positions": "scribe of the Sistine chapel, 1501–12; died fall 1512",
 		"Input data": "BSO",
 		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:John_of_Burgundy",
+		"Person Name": "John of Burgundy",
+		"Birth Date": "1404",
+		"Death Date": "1479",
+		"Description": "Bishop of Cambrai",
+		"Bibliography ID (BIB)": "BIB:Gallagher_2010",
+		"BIB Pages": "23",
+		"Input data": "SMB",
+		"Date entered": "2024-8-17"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Julius_II",
@@ -381,6 +452,17 @@
 		"Date entered": "2023-5-8"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Louis_Allemand",
+		"Person Name": "Louis Allemand",
+		"Death Date": "16 Sep 1450",
+		"Noted Positions": "Bishop of Arles, cardinal",
+		"Description": "Bishop of Arles, cardinal",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "19",
+		"Input data": "SMB",
+		"Date entered": "2024-8-22"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Louis_XI",
 		"Person Name": "Louis XI, King of France",
 		"Birth Date": "1423-7-3",
@@ -397,6 +479,18 @@
 		"Noted Positions": "King of France (r. 1498–1515); King of Naples (r. 1501–4)",
 		"Input data": "BSO",
 		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Ludovico_I",
+		"Person Name": "Ludovico",
+		"Alias": "Louis I, Lodovico I",
+		"Birth Date": "1413-2-24",
+		"Death Date": "1465-1-29",
+		"Noted Positions": "Duke of Savoy (r. 1440–1465)",
+		"Bibliography ID (BIB)": "BIB:Starr_1992",
+		"BIB Pages": "258",
+		"Input data": "LO",
+		"Date entered": "2024-3-22"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Marguerite_of_Austria",
@@ -434,6 +528,27 @@
 		"Person Name": "Matteo Ghai",
 		"Input data": "BSO",
 		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Michel_Gaillard",
+		"Person Name": "Michel Gaillard",
+		"Noted Positions": "advisor and treasurer to Marie of Cleves",
+		"Bibliography ID (BIB)": "BIB:Higgins_2009",
+		"BIB Pages": "180",
+		"Input data": "ECZ",
+		"Date entered": "2024-2-22"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Nicholas_V",
+		"Person Name": "Tommaso Parentucelli",
+		"Alias": "Pope Nicholas V",
+		"Birth Date": "1397-11-15",
+		"Death Date": "1455-3-24",
+		"Noted Positions": "Pope (r. 1447–1455)",
+		"Bibliography ID (BIB)": "BIB:Starr_1992",
+		"BIB Pages": "258–59",
+		"Input data": "LO",
+		"Date entered": "2024-3-22"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Nicolaus_Menent",
@@ -482,6 +597,12 @@
 		"Date entered": "2024-1-19",
 		"Update data": "BSO",
 		"Date updated": "2024-1-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Petrus_Tirasonensis",
+		"Person Name": "Petrus Tirasonensis",
+		"Alias": "Petrus Ferriz",
+		"Noted Positions": "Bishop of Tarazona, chief Referendarius to Paul II"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Philip_I",
@@ -548,6 +669,16 @@
 		"BIB Pages": "11"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Rene_of_Anjou",
+		"Person Name": "René of Anjou",
+		"Alias": "René I",
+		"Birth Date": "1409-1-16",
+		"Death Date": "1480-7-10",
+		"Noted Positions": "Duke of Anjou and Count of Provence from 1434 to 1480,  King of Naples from 1435 to 1442",
+		"Input data": "FEM",
+		"Date entered": "2024-4-2"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Sigismondo_I_dEste",
 		"Person Name": "Sigismondo I d'Este",
 		"Birth Date": "1480-9",
@@ -577,132 +708,5 @@
 		"Date entered": "2023-4-16",
 		"Update data": "BSO",
 		"Date updated": "2023-5-8"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Michel_Gaillard",
-		"Person Name": "Michel Gaillard",
-		"Noted Positions": "advisor and treasurer to Marie of Cleves",
-		"Bibliography ID (BIB)": "BIB:Higgins_2009",
-		"BIB Pages": "180",
-		"Input data": "ECZ",
-		"Date entered": "2024-2-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Charles_of_Orleans",
-		"Person Name": "Charles d'Orleans",
-		"Birth Date": "1407-11-23",
-		"Death Date": "1465-1-5",
-		"Noted Positions": "Duke of Orleans (1407–1465), Duke of Valois, Count of Beaumont-sur-Oise, Count of Blois"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Petrus_Tirasonensis",
-		"Person Name": "Petrus Tirasonensis",
-		"Alias": "Petrus Ferriz",
-		"Noted Positions": "Bishop of Tarazona, chief Referendarius to Paul II"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Nicholas_V",
-		"Person Name": "Tommaso Parentucelli",
-		"Alias": "Pope Nicholas V",
-		"Birth Date": "1397-11-15",
-		"Death Date": "1455-3-24",
-		"Noted Positions": "Pope (r. 1447–1455)",
-		"Bibliography ID (BIB)": "BIB:Starr_1992",
-		"BIB Pages": "258–59",
-		"Input data": "LO",
-		"Date entered": "2024-3-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Ludovico_I",
-		"Person Name": "Ludovico",
-		"Alias": "Louis I, Lodovico I",
-		"Birth Date": "1413-2-24",
-		"Death Date": "1465-1-29",
-		"Noted Positions": "Duke of Savoy (r. 1440–1465)",
-		"Bibliography ID (BIB)": "BIB:Starr_1992",
-		"BIB Pages": "258",
-		"Input data": "LO",
-		"Date entered": "2024-3-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Filippo_Calandrini",
-		"Person Name": "Filippo Calandrini",
-		"Birth Date": "1403",
-		"Death Date": "1476-7-18",
-		"Noted Positions": "Cardinal, Cardinal Penitentiary under Pius II.",
-		"Bibliography ID (BIB)": "BIB:Starr_1992",
-		"BIB Pages": "260",
-		"Input data": "LO",
-		"Date entered": "2024-3-31"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Rene_of_Anjou",
-		"Person Name": "René of Anjou",
-		"Alias": "René I",
-		"Birth Date": "1409-1-16",
-		"Death Date": "1480-7-10",
-		"Noted Positions": "Duke of Anjou and Count of Provence from 1434 to 1480,  King of Naples from 1435 to 1442",
-		"Input data": "FEM",
-		"Date entered": "2024-4-2"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Charles_of_Charolais",
-		"Person Name": "Charles of Charolais",
-		"Alias": "Count Charles",
-		"Description": "Count of Charolais",
-		"Bibliography ID (BIB)": "BIB:Gallagher_2010",
-		"BIB Pages": "23",
-		"Input data": "SMB",
-		"Date entered": "2024-8-17"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:John_of_Burgundy",
-		"Person Name": "John of Burgundy",
-		"Birth Date": "1404",
-		"Death Date": "1479",
-		"Description": "Bishop of Cambrai",
-		"Bibliography ID (BIB)": "BIB:Gallagher_2010",
-		"BIB Pages": "23",
-		"Input data": "SMB",
-		"Date entered": "2024-8-17"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Charles_the_Bold",
-		"Person Name": "Charles Martin",
-		"Alias": "\"the Bold\"",
-		"Description": "duke of Burgundy",
-		"Input data": "SMB",
-		"Date entered": "2024-8-17"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Jehan_de_Lens",
-		"Person Name": "Jehan de Lens",
-		"Noted Positions": "bishop of Cambrai",
-		"Description": "Bishop of Cambrai",
-		"Bibliography ID (BIB)": "BIB:Planchart_2018",
-		"BIB Pages": "54",
-		"Input data": "SMB",
-		"Date entered": "2024-8-21"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Louis_Allemand",
-		"Person Name": "Louis Allemand",
-		"Death Date": "16 Sep 1450",
-		"Noted Positions": "Bishop of Arles, cardinal",
-		"Description": "Bishop of Arles, cardinal",
-		"Bibliography ID (BIB)": "BIB:Planchart_2018",
-		"BIB Pages": "19",
-		"Input data": "SMB",
-		"Date entered": "2024-8-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Eugenius_IV",
-		"Person Name": "Gabriele Condulmer",
-		"Alias": "Eugenius IV",
-		"Death Date": "23 Feb 1447",
-		"Noted Positions": "Pope",
-		"Description": "Pope",
-		"Input data": "SMB",
-		"Date entered": "2024-8-30"
 	}
 ]

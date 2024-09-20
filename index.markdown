@@ -39,10 +39,6 @@ layout: page
     <input type="checkbox" id="certainty-select" name="certainty-select" value="certainty-select">
     <label for="certainty-select">View only certain and probable events</label>
 </div>
-<div class="checkbox-item">
-    <input type="checkbox" id="chronology-select" name="chronology-select" value="chronology-select">
-    <label for="chronology-select">Filter by date</label>
-</div>
 
 <div class="small-space"></div>
 

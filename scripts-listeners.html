@@ -116,7 +116,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector("#musician-select").checked = true;
     document.querySelector("#non-musician-select").checked = false;
     document.querySelector("#certainty-select").checked = true;
-    document.querySelector("#chronology-select").checked = true;
 
     document.querySelectorAll('.checkbox-item input[type="checkbox"]').forEach(checkbox => {
         checkbox.addEventListener('change', handleCheckboxChange);
@@ -130,12 +129,8 @@ function handleCheckboxChange() {
     
     if (input){
     	UserSearch();
-    } else if (document.querySelector("#chronology-select").checked) {
-        const sliderMin = document.getElementById('date-slider-min').value;
-        const sliderMax = document.getElementById('date-slider-max').value;
-        filterMarkersByDateRange(sliderMin, sliderMax);        
     } else {
-        filterMarkers();
+        filterMarkers();        
     }
 }
 

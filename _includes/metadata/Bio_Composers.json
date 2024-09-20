@@ -11,6 +11,16 @@
 		"Date entered": "2024-6-29"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Aliamus_de_Groote",
+		"Composer Name": "Aliamus de Groote",
+		"Death Date": "1501",
+		"Description": "Composer; chaplain; succentor; member of the confraternity of Our Lady van der Sne and Holy Ghost",
+		"Bibliography (BIB) ID": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-24"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Antoine_Bruhier",
 		"Composer Name": "Antoine Bruhier",
 		"Description": "French singer and composer",
@@ -80,6 +90,18 @@
 		"Date updated": "2024-2-11"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Arnold_de_Lantins",
+		"Composer Name": "Arnold de Lantins",
+		"Description": "Composer, singer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/150/",
+		"RISM ID": "pe30109013",
+		"RISM Link": "https://rism.online/people/30109013",
+		"Bibliography (BIB) ID": "BIB:Planchart_2018",
+		"BIB Pages": "122",
+		"Input data": "SMB",
+		"Date entered": "2024-8-22"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Bernardus_Ycart",
 		"Composer Name": "Bernardus Ycart",
 		"Description": "composer at Neapolitan court"
@@ -121,6 +143,19 @@
 		"Date entered": "2024-4-5"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Cornelius_Heyns",
+		"Composer Name": "Cornelius Heyns",
+		"Death Date": "1485",
+		"Description": "Composer; cleric; singer; chaplain; succentor; not identical with the Cistercian monk Nornelius Heyns",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/357/",
+		"RISM ID": "pe50042037",
+		"RISM Link": "https://rism.online/people/50042037",
+		"Bibliography (BIB) ID": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-24"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Crispin_van_Stappen",
 		"Composer Name": "Crispin van Stappen",
 		"Alias": "Crispinus; Stappen, Crispiaenen van; Stappen, Crispijn van; Stappen, Crispijne van; Stappen, Crispin de; Stappen, Crispin van; Stappen, Crispin van der; Stappen, Crispinus de; Stappen, Crispinus vander",
@@ -155,6 +190,17 @@
 		"Date entered": "2024-2-22"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Franchinus_Gaffurius",
+		"Composer Name": "Franchinus Gaffurius",
+		"Death Date": "1522-6-22",
+		"Description": "Composer, theorist, scribe",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/307/",
+		"RISM ID": "pe30102810",
+		"RISM Link": "https://rism.online/people/30102810",
+		"Input data": "SMB",
+		"Date entered": "2024-8-11"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Gaspar_van_Weerbeke",
 		"Composer Name": "Gaspar van Weerbeke",
 		"Alias": "Gaspar van Weerbeke; Gaspar van Weerbeke; Gaspar van Weerbeke, Gaspar van; Gaspard; Gaspare de Alemania; Gaspare de Alemania, Gaspar van; Gaspare vice abate; Gaspare vice abate, Gaspar van; Veerbeke di Fiandra; Veerbeke di Fiandra, Gaspar van; Verbech; Verbech, Gaspar van; Verbecht; Verbecht, Gaspar van; Verbeck; Verbeck, Gaspar van; Warbeck; Warbeck, Gaspar van; Weerbecke, Gaspar; Weerbecke, Gaspar van; Weerbecke, Gaspar van; Weerbeke, Gaspar van; Werbeck; Werbeck, Gaspar van; Werbeke; Werbeke, Gaspar van",
@@ -168,6 +214,32 @@
 		"Date entered": "2023-3-28",
 		"Update data": "BSO",
 		"Date updated": "2023-5-9"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Gilles_Binchois",
+		"Composer Name": "Gilles Binchois",
+		"Death Date": "1460-9-20",
+		"Description": "Composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/153/",
+		"RISM ID": "pe30020900",
+		"RISM Link": "https://rism.online/people/30020900",
+		"Bibliography (BIB) ID": "BIB:Planchart_2018",
+		"BIB Pages": "277",
+		"Input data": "SMB",
+		"Date entered": "2024-9-15"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Gilles_Joye",
+		"Composer Name": "Gilles Joye",
+		"Death Date": "1483-12-31",
+		"Description": "Composer; singer; chaplain; canon",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/235/",
+		"RISM ID": "pe30109808",
+		"RISM Link": "https://rism.online/people/30109808",
+		"Bibliography (BIB) ID": "BIB:Strohm_1985",
+		"BIB Pages": "155",
+		"Input data": "LO",
+		"Date entered": "2024-8-24"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Giovanni_Spataro",
@@ -205,6 +277,19 @@
 		"RISM Link": "https://rism.online/people/50041917",
 		"Input data": "SMB",
 		"Date entered": "2024-8-10"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Guillaume_le_Metayer",
+		"Composer Name": "Guillaume le Metayer",
+		"Alias": "Malbecque",
+		"Description": "Composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/1506/",
+		"RISM ID": "pe41016860",
+		"RISM Link": "https://rism.online/people/41016860",
+		"Bibliography (BIB) ID": "BIB:Planchart_2018",
+		"BIB Pages": "210",
+		"Input data": "SMB",
+		"Date entered": "2024-8-31"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Guillaume_Lemarcherier",
@@ -246,6 +331,28 @@
 		"Date entered": "2023-3-9",
 		"Update data": "BSO",
 		"Date updated": "2023-5-9"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Jacobus_Coutreman",
+		"Composer Name": "Jacobus Coutreman",
+		"Alias": "Couterman, Jacobus",
+		"Description": "Composer; cleric; succentor; organist; scribe",
+		"RISM ID": "pe51016472",
+		"RISM Link": "https://rism.online/people/51016472",
+		"Bibliography (BIB) ID": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-24"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Jacobus_de_Clibano",
+		"Composer Name": "Jacobus de Clibano",
+		"Description": "Composer; cleric; succentor; chaplain",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/177/",
+		"Bibliography (BIB) ID": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-24"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Jacotin_Frontin",
@@ -310,6 +417,18 @@
 		"Date entered": "2024-4-5"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Jeronimus_de_Clibano",
+		"Composer Name": "Jeronimus de Clibano",
+		"Alias": "Clibano, Hieronimus; Clibano, Jerôme; Du Four, Jherome; de Clibano, Heronimus; de Clibano, Jeronimus; de Clibano, Jerôme; de Clibano, Jheronimo; de Clibano, Jheronimus",
+		"Description": "Composer; chaplain; succentor; singer; from s'Hertogenbosch",
+		"RISM ID": "pe30102030",
+		"RISM Link": "https://rism.online/people/30102030",
+		"Bibliography (BIB) ID": "BIB:Strohm_1985",
+		"BIB Pages": "153",
+		"Input data": "LO",
+		"Date entered": "2024-8-24"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Jheronimus_Vinders",
 		"Composer Name": "Jheronimus Vinders",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/508/",
@@ -334,6 +453,18 @@
 		"Date entered": "2023-5-24"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Johannes_Boubert",
+		"Composer Name": "Johannes Boubert",
+		"Description": "Composer, cleric, succentor",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/2100/",
+		"RISM ID": "pe50035489",
+		"RISM Link": "https://rism.online/people/50035489",
+		"Bibliography (BIB) ID": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-23"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Johannes_de_Stokem",
 		"Composer Name": "Johannes de Stokem",
 		"Alias": "De Prato, Johannes; Johannes [Stockem]; Johannes [Stokem]; Johannes [de Prato]; Johannes [de Stoccken]; Johannes [de Stochem]; Johannes [de Stokem]; Pratis, Johannes de; Prato, Johannes de; Shtoken, Johannes de; Sthokem, Johannes; Sthoken, Johannes de; Stoccken, Johannes de; Stochem, Johannes de; Stockem, Johannes; Stoeckem, Jean; Stoecken, Johannes de; Stokem, Jean; Stokem, Johannes de; Stoken, Johannes de; Stokhem, Johannes",
@@ -347,6 +478,15 @@
 		"Date entered": "2023-3-28",
 		"Update data": "BSO",
 		"Date updated": "2023-5-9"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Johannes_Ecghaert",
+		"Composer Name": "Johannes Ecghaert",
+		"Description": "Composer; succentor; chaplain; probably the composer \"Egardus\"",
+		"Bibliography (BIB) ID": "BIB:Strohm_1985",
+		"BIB Pages": "154",
+		"Input data": "LO",
+		"Date entered": "2024-8-24"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Johannes_Ghiselin",
@@ -447,13 +587,6 @@
 		"Date entered": "2024-8-21"
 	},
 	{
-		"Biography Composer (BCO) ID": "BCO:Vincenet",
-		"Composer Name": "Vincenet",
-		"Description": "composer at Neapolitan court, NOT Johannes",
-		"Input data": "SMB",
-		"Date entered": "2024-8-9"
-	},
-	{
 		"Biography Composer (BCO) ID": "BCO:John_Plummer",
 		"Composer Name": "John Plummer",
 		"Birth Date": "1410",
@@ -552,6 +685,17 @@
 		"Date entered": "2024-4-5"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Nicasius_de_Brauwere",
+		"Composer Name": "Nicasius de Brauwere",
+		"Alias": "Braxatoris",
+		"Description": "Composer, succentor",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/429/",
+		"Bibliography (BIB) ID": "BIB:Strohm_1985",
+		"BIB Pages": "152",
+		"Input data": "LO",
+		"Date entered": "2024-8-23"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Niccolo_de_Pictis",
 		"Composer Name": "Niccolò de Pictis",
 		"Alias": "Pittis",
@@ -567,6 +711,20 @@
 		"Date updated": "2024-3-19"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Nicole_Grenon",
+		"Composer Name": "Nicole Grenon",
+		"Alias": "Nicolas",
+		"Death Date": "1456-10-17",
+		"Description": "Composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/97/",
+		"RISM ID": "pe30109807",
+		"RISM Link": "https://rism.online/people/30109807",
+		"Bibliography (BIB) ID": "BIB:Planchart_2018",
+		"BIB Pages": "265",
+		"Input data": "SMB",
+		"Date entered": "2024-9-15"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Noel_Bauldeweyn",
 		"Composer Name": "Noel Bauldeweyn",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/265/",
@@ -574,6 +732,18 @@
 		"RISM Link": "https://rism.online/people/30001642",
 		"Input data": "BSO",
 		"Date entered": "2024-3-16"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Oswald_von_Wolkenstein",
+		"Composer Name": "Oswald von Wolkenstein",
+		"Description": "Composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/1063/",
+		"RISM ID": "po30008941",
+		"RISM Link": "https://rism.online/people/30008941",
+		"Bibliography (BIB) ID": "BIB:Planchart_2018",
+		"BIB Pages": "54",
+		"Input data": "SMB",
+		"Date entered": "2024-8-30"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Pere_Oriola",
@@ -595,6 +765,17 @@
 		"BIB Pages": "108",
 		"Input data": "BSO",
 		"Date entered": "2024-3-18"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Philippe_Basiron",
+		"Composer Name": "Philippe Basiron",
+		"Death Date": "1491-5-31",
+		"Description": "Composer, Bourges",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/198/",
+		"RISM ID": "pe30016303",
+		"RISM Link": "https://rism.online/people/30016303",
+		"Input data": "SMB",
+		"Date entered": "2024-8-10"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Philippe_Verdelot",
@@ -643,119 +824,14 @@
 		"Date entered": "2024-8-9"
 	},
 	{
-		"Biography Composer (BCO) ID": "BCO:Thomas_Tallis",
-		"Composer Name": "Thomas Tallis",
-		"Death Date": "1585-11-23",
-		"Description": "composer at Chapel Royal (British)",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/194/",
-		"RISM ID": "pe30004082",
-		"RISM Link": "https://rism.online/people/30004082",
-		"Bibliography (BIB) ID": "BIB:Bowers_2001",
-		"Input data": "SMB",
-		"Date entered": "2024-8-9"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:William_Cornysh",
-		"Composer Name": "William Cornysh",
-		"Death Date": "1523-8",
-		"Description": "composer at Chapel Royal (British)",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/536/",
-		"RISM ID": "pe30101129",
-		"RISM Link": "https://rism.online/people/30101129",
-		"Bibliography (BIB) ID": "BIB:Bowers_2001",
-		"Input data": "SMB",
-		"Date entered": "2024-8-9"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Philippe_Basiron",
-		"Composer Name": "Philippe Basiron",
-		"Death Date": "1491-5-31",
-		"Description": "Composer, Bourges",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/198/",
-		"RISM ID": "pe30016303",
-		"RISM Link": "https://rism.online/people/30016303",
-		"Input data": "SMB",
-		"Date entered": "2024-8-10"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Franchinus_Gaffurius",
-		"Composer Name": "Franchinus Gaffurius",
-		"Death Date": "1522-6-22",
-		"Description": "Composer, theorist, scribe",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/307/",
-		"RISM ID": "pe30102810",
-		"RISM Link": "https://rism.online/people/30102810",
-		"Input data": "SMB",
-		"Date entered": "2024-8-11"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Arnold_de_Lantins",
-		"Composer Name": "Arnold de Lantins",
-		"Description": "Composer, singer",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/150/",
-		"RISM ID": "pe30109013",
-		"RISM Link": "https://rism.online/people/30109013",
+		"Biography Composer (BCO) ID": "BCO:Symon_le_Breton",
+		"Composer Name": "Symon le Breton",
+		"Description": "Composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/346/",
 		"Bibliography (BIB) ID": "BIB:Planchart_2018",
-		"BIB Pages": "122",
+		"BIB Pages": "210",
 		"Input data": "SMB",
-		"Date entered": "2024-8-22"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Johannes_Boubert",
-		"Composer Name": "Johannes Boubert",
-		"Description": "Composer, cleric, succentor",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/2100/",
-		"RISM ID": "pe50035489",
-		"RISM Link": "https://rism.online/people/50035489",
-		"Bibliography (BIB) ID": "BIB:Strohm_1985",
-		"BIB Pages": "152",
-		"Input data": "LO",
-		"Date entered": "2024-8-23"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Nicasius_de_Brauwere",
-		"Composer Name": "Nicasius de Brauwere",
-		"Alias": "Braxatoris",
-		"Description": "Composer, succentor",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/429/",
-		"Bibliography (BIB) ID": "BIB:Strohm_1985",
-		"BIB Pages": "152",
-		"Input data": "LO",
-		"Date entered": "2024-8-23"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Jacobus_de_Clibano",
-		"Composer Name": "Jacobus de Clibano",
-		"Description": "Composer; cleric; succentor; chaplain",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/177/",
-		"Bibliography (BIB) ID": "BIB:Strohm_1985",
-		"BIB Pages": "153",
-		"Input data": "LO",
-		"Date entered": "2024-8-24"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Jeronimus_de_Clibano",
-		"Composer Name": "Jeronimus de Clibano",
-		"Alias": "Clibano, Hieronimus; Clibano, Jerôme; Du Four, Jherome; de Clibano, Heronimus; de Clibano, Jeronimus; de Clibano, Jerôme; de Clibano, Jheronimo; de Clibano, Jheronimus",
-		"Description": "Composer; chaplain; succentor; singer; from s'Hertogenbosch",
-		"RISM ID": "pe30102030",
-		"RISM Link": "https://rism.online/people/30102030",
-		"Bibliography (BIB) ID": "BIB:Strohm_1985",
-		"BIB Pages": "153",
-		"Input data": "LO",
-		"Date entered": "2024-8-24"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Jacobus_Coutreman",
-		"Composer Name": "Jacobus Coutreman",
-		"Alias": "Couterman, Jacobus",
-		"Description": "Composer; cleric; succentor; organist; scribe",
-		"RISM ID": "pe51016472",
-		"RISM Link": "https://rism.online/people/51016472",
-		"Bibliography (BIB) ID": "BIB:Strohm_1985",
-		"BIB Pages": "153",
-		"Input data": "LO",
-		"Date entered": "2024-8-24"
+		"Date entered": "2024-8-31"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Thomas_Fabri",
@@ -768,84 +844,23 @@
 		"Date entered": "2024-8-24"
 	},
 	{
-		"Biography Composer (BCO) ID": "BCO:Johannes_Ecghaert",
-		"Composer Name": "Johannes Ecghaert",
-		"Description": "Composer; succentor; chaplain; probably the composer \"Egardus\"",
-		"Bibliography (BIB) ID": "BIB:Strohm_1985",
-		"BIB Pages": "154",
-		"Input data": "LO",
-		"Date entered": "2024-8-24"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Aliamus_de_Groote",
-		"Composer Name": "Aliamus de Groote",
-		"Death Date": "1501",
-		"Description": "Composer; chaplain; succentor; member of the confraternity of Our Lady van der Sne and Holy Ghost",
-		"Bibliography (BIB) ID": "BIB:Strohm_1985",
-		"BIB Pages": "155",
-		"Input data": "LO",
-		"Date entered": "2024-8-24"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Cornelius_Heyns",
-		"Composer Name": "Cornelius Heyns",
-		"Death Date": "1485",
-		"Description": "Composer; cleric; singer; chaplain; succentor; not identical with the Cistercian monk Nornelius Heyns",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/357/",
-		"RISM ID": "pe50042037",
-		"RISM Link": "https://rism.online/people/50042037",
-		"Bibliography (BIB) ID": "BIB:Strohm_1985",
-		"BIB Pages": "155",
-		"Input data": "LO",
-		"Date entered": "2024-8-24"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Gilles_Joye",
-		"Composer Name": "Gilles Joye",
-		"Death Date": "1483-12-31",
-		"Description": "Composer; singer; chaplain; canon",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/235/",
-		"RISM ID": "pe30109808",
-		"RISM Link": "https://rism.online/people/30109808",
-		"Bibliography (BIB) ID": "BIB:Strohm_1985",
-		"BIB Pages": "155",
-		"Input data": "LO",
-		"Date entered": "2024-8-24"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Oswald_von_Wolkenstein",
-		"Composer Name": "Oswald von Wolkenstein",
-		"Description": "Composer",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/1063/",
-		"RISM ID": "po30008941",
-		"RISM Link": "https://rism.online/people/30008941",
-		"Bibliography (BIB) ID": "BIB:Planchart_2018",
-		"BIB Pages": "54",
+		"Biography Composer (BCO) ID": "BCO:Thomas_Tallis",
+		"Composer Name": "Thomas Tallis",
+		"Death Date": "1585-11-23",
+		"Description": "composer at Chapel Royal (British)",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/194/",
+		"RISM ID": "pe30004082",
+		"RISM Link": "https://rism.online/people/30004082",
+		"Bibliography (BIB) ID": "BIB:Bowers_2001",
 		"Input data": "SMB",
-		"Date entered": "2024-8-30"
+		"Date entered": "2024-8-9"
 	},
 	{
-		"Biography Composer (BCO) ID": "BCO:Symon_le_Breton",
-		"Composer Name": "Symon le Breton",
-		"Description": "Composer",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/346/",
-		"Bibliography (BIB) ID": "BIB:Planchart_2018",
-		"BIB Pages": "210",
+		"Biography Composer (BCO) ID": "BCO:Vincenet",
+		"Composer Name": "Vincenet",
+		"Description": "composer at Neapolitan court, NOT Johannes",
 		"Input data": "SMB",
-		"Date entered": "2024-8-31"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Guillaume_le_Metayer",
-		"Composer Name": "Guillaume le Metayer",
-		"Alias": "Malbecque",
-		"Description": "Composer",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/1506/",
-		"RISM ID": "pe41016860",
-		"RISM Link": "https://rism.online/people/41016860",
-		"Bibliography (BIB) ID": "BIB:Planchart_2018",
-		"BIB Pages": "210",
-		"Input data": "SMB",
-		"Date entered": "2024-8-31"
+		"Date entered": "2024-8-9"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Vincent_du_Bruequet",
@@ -859,30 +874,15 @@
 		"Date entered": "2024-9-8"
 	},
 	{
-		"Biography Composer (BCO) ID": "BCO:Nicole_Grenon",
-		"Composer Name": "Nicole Grenon",
-		"Alias": "Nicolas",
-		"Death Date": "1456-10-17",
-		"Description": "Composer",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/97/",
-		"RISM ID": "pe30109807",
-		"RISM Link": "https://rism.online/people/30109807",
-		"Bibliography (BIB) ID": "BIB:Planchart_2018",
-		"BIB Pages": "265",
+		"Biography Composer (BCO) ID": "BCO:William_Cornysh",
+		"Composer Name": "William Cornysh",
+		"Death Date": "1523-8",
+		"Description": "composer at Chapel Royal (British)",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/536/",
+		"RISM ID": "pe30101129",
+		"RISM Link": "https://rism.online/people/30101129",
+		"Bibliography (BIB) ID": "BIB:Bowers_2001",
 		"Input data": "SMB",
-		"Date entered": "2024-9-15"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Gilles_Binchois",
-		"Composer Name": "Gilles Binchois",
-		"Death Date": "1460-9-20",
-		"Description": "Composer",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/153/",
-		"RISM ID": "pe30020900",
-		"RISM Link": "https://rism.online/people/30020900",
-		"Bibliography (BIB) ID": "BIB:Planchart_2018",
-		"BIB Pages": "277",
-		"Input data": "SMB",
-		"Date entered": "2024-9-15"
+		"Date entered": "2024-8-9"
 	}
 ]
