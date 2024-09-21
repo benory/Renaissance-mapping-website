@@ -175,5 +175,12 @@
 		"Institution Description": "Chapel of Mathias Corvinius, king of Hungary",
 		"Input data": "SMB",
 		"Date entered": "2024-9-14"
+	},
+	{
+		"Institution ID (INS)": "INS:Saint_Martin",
+		"Institution Name": "Saint Martin",
+		"Institution Description": "Collegiate church in Tours",
+		"Input data": "SMB",
+		"Date entered": "2024-9-20"
 	}
 ]

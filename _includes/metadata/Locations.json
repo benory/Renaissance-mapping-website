@@ -2491,6 +2491,15 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Location ID (LOC)": "LOC:Troyes",
+		"Name of Location": "Troyes",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/svniXQeJjrqSLNwy5",
+		"Coordinates": "48.297419752965304, 4.0740744637188735",
+		"Input data": "SMB",
+		"Date entered": "2024-9-20"
+	},
+	{
 		"Location ID (LOC)": "LOC:Turin",
 		"Name of Location": "Turin",
 		"Modern Country": "Italy",
