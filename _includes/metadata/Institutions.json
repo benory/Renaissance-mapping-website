@@ -182,5 +182,12 @@
 		"Institution Description": "Collegiate church in Tours",
 		"Input data": "SMB",
 		"Date entered": "2024-9-20"
+	},
+	{
+		"Institution ID (INS)": "INS:Notre_Dame",
+		"Institution Name": "Notre Dame",
+		"Institution Description": "Paris church",
+		"Input data": "SMB",
+		"Date entered": "2024-9-22"
 	}
 ]

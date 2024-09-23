@@ -884,5 +884,34 @@
 		"Bibliography (BIB) ID": "BIB:Bowers_2001",
 		"Input data": "SMB",
 		"Date entered": "2024-8-9"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Jean_Cousin",
+		"Composer Name": "Jean Cousin",
+		"Alias": "Escatefer",
+		"Description": "composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/457/",
+		"Bibliography (BIB) ID": "BIB:Perkins_1984",
+		"BIB Pages": "531",
+		"Input data": "SMB",
+		"Date entered": "2024-9-22"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Jehan_Fresneau",
+		"Composer Name": "Jehan Fresneau",
+		"Description": "composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/202/",
+		"RISM ID": "pe41016838",
+		"RISM Link": "https://rism.online/people/41016838",
+		"Bibliography (BIB) ID": "BIB:Perkins_1984",
+		"BIB Pages": "535",
+		"Input data": "SMB",
+		"Date entered": "2024-9-22"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Perkins_1984",
+		"BIB Pages": "537",
+		"Input data": "SMB",
+		"Date entered": "2024-9-22"
 	}
 ]
