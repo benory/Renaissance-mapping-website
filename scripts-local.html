@@ -446,8 +446,10 @@ function doMapSetup(opts) {
                         bibliography += `: ${pages}`;
                     }
 
-                    if (bibliographypages) {
+                    if (pages && bibliographypages) {
                         bibliography += `, at ${bibliographypages}`;
+                    } else if (bibliographypages) {
+                        bibliography += `, ${bibliographypages}`;
                     }
 
                     bibliography += `.`;
