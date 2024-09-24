@@ -381,7 +381,11 @@ function doMapSetup(opts) {
             // Get bibliography, if applicable
             if (events[i][BIBID]){
                 let bibliographyid = events[i][BIBID];
-                let bibliographypages = events[i][BIBPAGES];
+                let bibliographypages = "";
+
+                if (events[i][BIBPAGES]){
+                    bibliographypages = events[i][BIBPAGES];
+                }
             
                 // Split bibliography entries if multiple entries separated by a semicolon
                 if (bibliographyid.match(";")){
@@ -423,7 +427,7 @@ function doMapSetup(opts) {
                     }
 
                     if (editor) {
-                        bibliography += `, ${editor}`;
+                        bibliography += `, ed. ${editor}`;
                     }
 
                     if (volumenumber) {
