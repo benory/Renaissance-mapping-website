@@ -163,6 +163,22 @@ function doMapSetup(opts) {
     let ARDARCFOND = MAP.cindex("ARD", "ARCFOND");
     let ARDSIG = MAP.cindex("ARD", "SIG");
 
+    // Get variable names for bibliography entries
+    let BIBID = MAP.cindex("EV", "BIBID");
+    let BIBPAGES = MAP.cindex("EV", "BIBPAGES");
+    let AUTHOR = MAP.cindex("BIB", "AUTHOR");
+    let ARTNAME = MAP.cindex("BIB", "ARTNAME");
+    let VOLNAME = MAP.cindex("BIB", "VOLNAME");
+    let EDIT = MAP.cindex("BIB", "EDIT");
+    let VOLNO = MAP.cindex("BIB", "VOLNO");
+    let EDITION = MAP.cindex("BIB", "EDITION");
+    let SER = MAP.cindex("BIB", "SER");
+    let BIBLOC = MAP.cindex("BIB", "LOC");
+    let PUB = MAP.cindex("BIB", "PUB");
+    let YEAR = MAP.cindex("BIB", "YEAR");
+    let PAGES = MAP.cindex("BIB", "PAGES");
+    let URL = MAP.cindex("BIB", "URL");
+
     // Establish variables
     let eventid = "";
     let person = "";
@@ -361,6 +377,79 @@ function doMapSetup(opts) {
                     }
                 }
             }
+            
+            // Get bibliography, if applicable
+            if (events[i][BIBID]){
+                let bibliographyid = events[i][BIBID];
+                let bibliographypages = events[i][BIBPAGES];
+            
+                // Split bibliography entries if multiple entries separated by a semicolon
+                if (bibliographyid.match(";")){
+                    bibliographyid = bibliographyid.trim().split(/\s*;\s*/);
+                    bibliographypages = bibliographypages.trim().split(/\s*;\s*/);
+                } else {
+                    bibliographyid = [ bibliographyid ];
+                    bibliographypages = [ bibliographypages ];
+                }
+                
+                for (let j=0; j<bibliographyid.length; j++){
+
+                    let bibliographyInfo = findInfo(bibliographyid[j], "Bibliography");
+
+                    let author = bibliographyInfo[AUTHOR];
+                    let articlename = bibliographyInfo[ARTNAME];
+                    let volumename = bibliographyInfo[VOLNAME];
+                    let editor = bibliographyInfo[EDIT];
+                    let volumenumber = bibliographyInfo[VOLNO];
+                    let edition = bibliographyInfo[EDITION];
+                    let series = bibliographyInfo[SER];
+                    let bibliographylocation = bibliographyInfo[BIBLOC];
+                    let publisher = bibliographyInfo[PUB];
+                    let year = bibliographyInfo[YEAR];
+                    let pages = bibliographyInfo[PAGES];
+                    let bibliographyurl = bibliographyInfo[URL];
+                    
+
+                    if (author){
+                        bibliography += `${author}, `;
+                    }
+
+                    if (articlename) {
+                        bibliography += `"${articlename}," `;
+                    }
+
+                    if (volumename){
+                        bibliography += `<i>${volumename}</i>`;
+                    }
+
+                    if (editor) {
+                        bibliography += `, ${editor}`;
+                    }
+
+                    if (volumenumber) {
+                        bibliography += ` ${volumenumber}`;
+                    }
+
+                    if (bibliographylocation && publisher && year){
+                        bibliography += ` (${bibliographylocation}: ${publisher}, ${year})`;
+                    } else if (bibliographylocation && year){
+                        bibliography += ` (${bibliographylocation}: ${year})`;
+                    } else if (year) {
+                        bibliography += ` (${year})`;
+                    }
+
+                    if (pages){
+                        bibliography += `: ${pages}`;
+                    }
+
+                    if (bibliographypages) {
+                        bibliography += `, at ${bibliographypages}`;
+                    }
+
+                    bibliography += `.`;
+                    
+                }
+            }
 
             // Get coordinates
             coordinates = locationInfo[COORD];
@@ -383,14 +472,14 @@ function doMapSetup(opts) {
                         },
                         properties: {
                             popupContent: description ? 
-                                `<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} <br><b>Description:</b> ${description} ${archiveprocessed}` : 
-                                `<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} ${archiveprocessed}`,
+                                `<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} <br><b>Description:</b> ${description} ${archiveprocessed} <br> <b>Bibliography:</b> ${bibliography}` : 
+                                `<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} ${archiveprocessed} <br><b>Bibliography:</b> ${bibliography}`,
                             locationCertainty: locationCertainty,
                             earliestDateCertainty: earliestDateCertainty,
                             latestDateCertainty: latestDateCertainty,
                             rangeCertainty: rangeCertainty,
                             earliestyear: earliestyear,
-                            latestyear: latestyear
+                            latestyear: latestyear,
                         }
                     };
 

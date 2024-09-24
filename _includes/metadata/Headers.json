@@ -1107,7 +1107,7 @@
 	},
 	{
 		"Spreadsheet ID": "BIB",
-		"JavaScript Name": "EDITOR",
+		"JavaScript Name": "EDIT",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "E",
@@ -1182,27 +1182,34 @@
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "N",
-		"Column Name": "Input data"
+		"Column Name": "Notes"
 	},
 	{
 		"Spreadsheet ID": "BIB",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "O",
-		"Column Name": "Date entered"
+		"Column Name": "Input data"
 	},
 	{
 		"Spreadsheet ID": "BIB",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "P",
-		"Column Name": "Update data"
+		"Column Name": "Date entered"
 	},
 	{
 		"Spreadsheet ID": "BIB",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
 		"Column": "Q",
+		"Column Name": "Update data"
+	},
+	{
+		"Spreadsheet ID": "BIB",
+		"GID": "1074180020",
+		"Spreadsheet Name": "Bibliography",
+		"Column": "R",
 		"Column Name": "Date updated"
 	}
 ]
