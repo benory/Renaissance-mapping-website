@@ -390,12 +390,15 @@ function doMapSetup(opts) {
                 // Split bibliography entries if multiple entries separated by a semicolon
                 if (bibliographyid.match(";")){
                     bibliographyid = bibliographyid.trim().split(/\s*;\s*/);
-                    bibliographypages = bibliographypages.trim().split(/\s*;\s*/);
                 } else {
                     bibliographyid = [ bibliographyid ];
+                }
+                if (bibliographypages.match(";")){
+                    bibliographypages = bibliographypages.trim().split(/\s*;\s*/);
+                } else {
                     bibliographypages = [ bibliographypages ];
                 }
-                
+            
                 for (let j=0; j<bibliographyid.length; j++){
 
                     let bibliographyInfo = findInfo(bibliographyid[j], "Bibliography");
@@ -447,14 +450,18 @@ function doMapSetup(opts) {
                     }
 
                     if (pages && bibliographypages) {
-                        bibliography += `, at ${bibliographypages}`;
-                    } else if (bibliographypages) {
-                        bibliography += `, ${bibliographypages}`;
+                        bibliography += `, at ${bibliographypages[j]}`;
+                    } else if (bibliographypages > 0) {
+                        bibliography += `, ${bibliographypages[j]}`;
                     }
 
-                    bibliography += `.`;
-                    
+                    if (j < bibliographyid.length - 1){
+                        bibliography += `; and `
+                    } else {
+                        bibliography += `.`;
+                    }
                 }
+                
             }
 
             // Get coordinates
@@ -536,6 +543,7 @@ function doMapSetup(opts) {
             description = "";
             docentry = "";
             bibliography = "";
+            bibliographypages = "";
             archiveprocessed = "";
             earliestyear = "";
             earliestmonth = "";
