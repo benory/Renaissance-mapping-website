@@ -485,8 +485,15 @@ function doMapSetup(opts) {
                         },
                         properties: {
                             popupContent: description ? 
-                                `<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} <br><b>Description:</b> ${description} ${archiveprocessed} <br> <b>Bibliography:</b> ${bibliography}` : 
-                                `<b>Person:</b> ${personprocessed}<br><b>Date:</b> ${daterange}<br> <b>Place:</b> ${locationprocessed} ${archiveprocessed} <br><b>Bibliography:</b> ${bibliography}`,
+                            `<b>Person:</b> ${personprocessed}<br>
+                            <b>Date:</b> ${daterange}<br>
+                            <b>Place:</b> ${locationprocessed} <br>
+                            <b>Description:</b> ${description} ${archiveprocessed} 
+                            ${bibliography ? `<b><br>Bibliography:</b> ${bibliography}` : ''}` : 
+                            `<b>Person:</b> ${personprocessed}<br>
+                            <b>Date:</b> ${daterange}<br>
+                            <b>Place:</b> ${locationprocessed} ${archiveprocessed} 
+                            ${bibliography ? `<br><b>Bibliography:</b> ${bibliography}` : ''}`,
                             locationCertainty: locationCertainty,
                             earliestDateCertainty: earliestDateCertainty,
                             latestDateCertainty: latestDateCertainty,
