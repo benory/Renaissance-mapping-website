@@ -722,7 +722,7 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Eustachius_de_Havresse",
 		"Musician Name": "Eustachius de Havresse",
-		"Alias": "de Avresse",
+		"Alias": "de Avresse, Tassin, de Chavendal",
 		"Description": "singer in the papal chapel; had been member of chapel of Sixtus IV; enters the Confraternità di Santo Spirito in Sassia on 1483-05-19; from October 1484 to September, 1488, he is listed but marked \"absentes\" and not paid; again marked \"absentes\" in July 1491",
 		"Bibliography ID (BIB)": "BIB:Sherr_1975",
 		"BIB Pages": "26–33",
@@ -5671,5 +5671,105 @@
 		"BIB Pages": "552",
 		"Input data": "SMB",
 		"Date entered": "2024-9-26"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Philippe_Boutillat",
+		"Musician Name": "Philippe Boutillat",
+		"Description": "Singer for Rene d'Anjou",
+		"Bibliography ID (BIB)": "BIB:MerkleyP_2017",
+		"BIB Pages": "33",
+		"Input data": "SMB",
+		"Date entered": "2024-9-27"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pierre_Lescaudet",
+		"Musician Name": "Pierre Lescaudet",
+		"Description": "Singer for Rene d'Anjou",
+		"Bibliography ID (BIB)": "BIB:MerkleyP_2017",
+		"BIB Pages": "33",
+		"Input data": "SMB",
+		"Date entered": "2024-9-27"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pierre_de_Monade",
+		"Musician Name": "Pierre de Monade",
+		"Description": "Singer for Rene d'Anjou",
+		"Bibliography ID (BIB)": "BIB:MerkleyP_2017",
+		"BIB Pages": "33",
+		"Input data": "SMB",
+		"Date entered": "2024-9-27"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Oudet_Garin",
+		"Musician Name": "Oudet Garin",
+		"Description": "Singer for Rene d'Anjou",
+		"Bibliography ID (BIB)": "BIB:MerkleyP_2017",
+		"BIB Pages": "33",
+		"Input data": "SMB",
+		"Date entered": "2024-9-27"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Arnault_Sperti",
+		"Musician Name": "Arnault Sperti",
+		"Description": "Singer for Rene d'Anjou",
+		"Bibliography ID (BIB)": "BIB:MerkleyP_2017",
+		"BIB Pages": "33",
+		"Input data": "SMB",
+		"Date entered": "2024-9-27"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicholas_Michon",
+		"Musician Name": "Nicholas Michon",
+		"Description": "Singer for Rene d'Anjou",
+		"Bibliography ID (BIB)": "BIB:MerkleyP_2017",
+		"BIB Pages": "41",
+		"Input data": "SMB",
+		"Date entered": "2024-9-27"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Etienne_de_Saint-Germain",
+		"Musician Name": "Etienne de Saint-Germain",
+		"Description": "Singer for Rene d'Anjou",
+		"Bibliography ID (BIB)": "BIB:MerkleyP_2017",
+		"BIB Pages": "42",
+		"Input data": "SMB",
+		"Date entered": "2024-9-27"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Lonnet",
+		"Musician Name": "Jehan Lonnet",
+		"Description": "Singer for Rene d'Anjou",
+		"Bibliography ID (BIB)": "BIB:MerkleyP_2017",
+		"BIB Pages": "42",
+		"Input data": "SMB",
+		"Date entered": "2024-9-27"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guillot_Guillemart",
+		"Musician Name": "Guillot Guillemart",
+		"Description": "Singer for Rene d'Anjou",
+		"Bibliography ID (BIB)": "BIB:MerkleyP_2017",
+		"BIB Pages": "42",
+		"Input data": "SMB",
+		"Date entered": "2024-9-27"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pierre_Donnel",
+		"Musician Name": "Pierre Donnel",
+		"Alias": "Barbier",
+		"Description": "Singer for Rene d'Anjou",
+		"Bibliography ID (BIB)": "BIB:MerkleyP_2017",
+		"BIB Pages": "42",
+		"Input data": "SMB",
+		"Date entered": "2024-9-27"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Haquinet",
+		"Musician Name": "Jehan Haquinet",
+		"Description": "Singer for Rene d'Anjou",
+		"Bibliography ID (BIB)": "BIB:MerkleyP_2017",
+		"BIB Pages": "42",
+		"Input data": "SMB",
+		"Date entered": "2024-9-27"
 	}
 ]

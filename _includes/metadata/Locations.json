@@ -2794,5 +2794,14 @@
 		"Coordinates": "44.93832255108442, 11.74906653794804",
 		"Input data": "BSO",
 		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Segneur",
+		"Name of Location": "Segneur",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/Wxi5hqvwMnHV3bcK7",
+		"Coordinates": "43.201397031863166, -0.4222282795738645",
+		"Input data": "SMB",
+		"Date entered": "2024-9-26"
 	}
 ]
