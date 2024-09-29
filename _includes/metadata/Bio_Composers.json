@@ -107,6 +107,18 @@
 		"Description": "composer at Neapolitan court"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Bertran_Feragut",
+		"Composer Name": "Bertran_Feragut",
+		"Description": "composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/275/",
+		"RISM ID": "pe41016866",
+		"RISM Link": "https://rism.online/people/41016866",
+		"Bibliography (BIB) ID": "BIB:MerkleyP_2017",
+		"BIB Pages": "40",
+		"Input data": "SMB",
+		"Date entered": "2024-9-27"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Bertrandus_Vaqueras",
 		"Composer Name": "Bertrandus Vaqueras",
 		"Alias": "Bassa, Bertrandus della; Bassea, Bertrandus de; Bernardus de Brassia; Bertrandus de Brassia; De Bassea, Bertrandus; Della Bassa, Bertrandus; Vacares, Bertrandus; Vacqueras, Beltrame; Vacqueras, Bernardus; Vacqueras, Bertrandus; Vagares, Bertrandus; Vagueras, Bertrandus; Vassadelli, Bertrandus",
@@ -375,6 +387,17 @@
 		"Date entered": "2024-3-19"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Jean_Cousin",
+		"Composer Name": "Jean Cousin",
+		"Alias": "Escatefer",
+		"Description": "composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/457/",
+		"Bibliography (BIB) ID": "BIB:Perkins_1984",
+		"BIB Pages": "531",
+		"Input data": "SMB",
+		"Date entered": "2024-9-22"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Jean_de_la_Fage",
 		"Composer Name": "Jean de la Fage",
 		"Description": "composer, probably French",
@@ -415,6 +438,18 @@
 		"RISM Link": "https://rism.online/people/30012751",
 		"Input data": "BSO",
 		"Date entered": "2024-4-5"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Jehan_Fresneau",
+		"Composer Name": "Jehan Fresneau",
+		"Description": "composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/202/",
+		"RISM ID": "pe41016838",
+		"RISM Link": "https://rism.online/people/41016838",
+		"Bibliography (BIB) ID": "BIB:Perkins_1984",
+		"BIB Pages": "535",
+		"Input data": "SMB",
+		"Date entered": "2024-9-22"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Jeronimus_de_Clibano",
@@ -884,40 +919,5 @@
 		"Bibliography (BIB) ID": "BIB:Bowers_2001",
 		"Input data": "SMB",
 		"Date entered": "2024-8-9"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Jean_Cousin",
-		"Composer Name": "Jean Cousin",
-		"Alias": "Escatefer",
-		"Description": "composer",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/457/",
-		"Bibliography (BIB) ID": "BIB:Perkins_1984",
-		"BIB Pages": "531",
-		"Input data": "SMB",
-		"Date entered": "2024-9-22"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Jehan_Fresneau",
-		"Composer Name": "Jehan Fresneau",
-		"Description": "composer",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/202/",
-		"RISM ID": "pe41016838",
-		"RISM Link": "https://rism.online/people/41016838",
-		"Bibliography (BIB) ID": "BIB:Perkins_1984",
-		"BIB Pages": "535",
-		"Input data": "SMB",
-		"Date entered": "2024-9-22"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Bertran_Feragut",
-		"Composer Name": "Bertran_Feragut",
-		"Description": "composer",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/275/",
-		"RISM ID": "pe41016866",
-		"RISM Link": "https://rism.online/people/41016866",
-		"Bibliography (BIB) ID": "BIB:MerkleyP_2017",
-		"BIB Pages": "40",
-		"Input data": "SMB",
-		"Date entered": "2024-9-27"
 	}
 ]

@@ -2024,6 +2024,15 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Location ID (LOC)": "LOC:Provence",
+		"Name of Location": "Provence",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/4eLMg7aAPawqbiZd6",
+		"Coordinates": "43.33013264409081, 5.659957081979914",
+		"Input data": "SMB",
+		"Date entered": "2024-9-28"
+	},
+	{
 		"Location ID (LOC)": "LOC:Quartes",
 		"Name of Location": "Quartes",
 		"Modern Country": "Belgium",
@@ -2333,6 +2342,15 @@
 		"Coordinates": "45.57253221455803, 6.396867595608568",
 		"Input data": "SMB",
 		"Date entered": "2024-8-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Segneur",
+		"Name of Location": "Segneur",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/Wxi5hqvwMnHV3bcK7",
+		"Coordinates": "43.201397031863166, -0.4222282795738645",
+		"Input data": "SMB",
+		"Date entered": "2024-9-26"
 	},
 	{
 		"Location ID (LOC)": "LOC:Seiches-sur-le-Loir-Chateau_Le_Vergier",
@@ -2794,14 +2812,5 @@
 		"Coordinates": "44.93832255108442, 11.74906653794804",
 		"Input data": "BSO",
 		"Date entered": "2024-3-8"
-	},
-	{
-		"Location ID (LOC)": "LOC:Segneur",
-		"Name of Location": "Segneur",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/Wxi5hqvwMnHV3bcK7",
-		"Coordinates": "43.201397031863166, -0.4222282795738645",
-		"Input data": "SMB",
-		"Date entered": "2024-9-26"
 	}
 ]
