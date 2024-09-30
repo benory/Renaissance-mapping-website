@@ -739,6 +739,17 @@
 		"Date entered": "2024-8-17"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Straeten_1878",
+		"Author": "Edmond vander Straeten",
+		"Name of Volume/Journal": "La musique aux Pays-Bas avant le 19e. siècle",
+		"Volume": "4",
+		"Location": "Brussels",
+		"Publisher": "Van Trigt",
+		"Publication Year": "1878",
+		"Input data": "SMB",
+		"Date entered": "2024-8-11"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Straeten_1882",
 		"Author": "Edmond vander Straeten",
 		"Name of Volume/Journal": "La musique aux Pays-Bas avant le XIXe siècle",
@@ -758,17 +769,6 @@
 		"Notes": "1990 reprint with corrections",
 		"Input data": "LO",
 		"Date entered": "2024-8-4"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Straeten_1878",
-		"Author": "Edmond vander Straeten",
-		"Name of Volume/Journal": "La musique aux Pays-Bas avant le 19e. siècle",
-		"Volume": "4",
-		"Location": "Brussels",
-		"Publisher": "Van Trigt",
-		"Publication Year": "1878",
-		"Input data": "SMB",
-		"Date entered": "2024-8-11"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Wegman_2001",
@@ -802,6 +802,17 @@
 		"Publication Year": "2014",
 		"Input data": "SMB",
 		"Date entered": "2024-8-16"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Wilson_2006",
+		"Author": "Blake Wilson",
+		"Name of Article": "Heinrich Isaac among the Florentines",
+		"Name of Volume/Journal": "Journal of Musicology",
+		"Volume": "23 no. 1",
+		"Publication Year": "2006",
+		"Pages": "97-152",
+		"Input data": "SMB",
+		"Date entered": "2024-9-29"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Woodley_1981",
