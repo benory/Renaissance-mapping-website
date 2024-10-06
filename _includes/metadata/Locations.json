@@ -198,6 +198,15 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Location ID (LOC)": "LOC:Bar-le-Duc",
+		"Name of Location": "Bar-le-Duc",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/x9w5RVnFEEsBbB5eA",
+		"Coordinates": "48.78, 5.16",
+		"Input data": "SMB",
+		"Date entered": "2024-10-5"
+	},
+	{
 		"Location ID (LOC)": "LOC:Beclers",
 		"Name of Location": "Beclers",
 		"Modern Country": "Belgium",
@@ -866,6 +875,15 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Location ID (LOC)": "LOC:Forcalquier",
+		"Name of Location": "Forcalquier",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/xb2ZpcqFBA77X39F9",
+		"Coordinates": "43.96, 5.78",
+		"Input data": "SMB",
+		"Date entered": "2024-10-5"
+	},
+	{
 		"Location ID (LOC)": "LOC:Forest",
 		"Name of Location": "Forest",
 		"Modern Country": "Belgium",
@@ -1171,6 +1189,15 @@
 		"Coordinates": "48.284629149170236, 2.596867983151952",
 		"Input data": "BSO",
 		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Launay",
+		"Name of Location": "Launay",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/KYVLYZs7LTcErek99",
+		"Coordinates": "49.10, 0.74",
+		"Input data": "SMB",
+		"Date entered": "2024-10-5"
 	},
 	{
 		"Location ID (LOC)": "LOC:Laval",
@@ -2702,6 +2729,15 @@
 		"Coordinates": "45.322669785634076, 8.854451113510965",
 		"Input data": "BSO",
 		"Date entered": "2024-2-11"
+	},
+	{
+		"Location ID (LOC)": "LOC:Villebernier",
+		"Name of Location": "Villebernier",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/tgz6Q4j6tUV5rK6R7",
+		"Coordinates": "47.26, -0.03",
+		"Input data": "SMB",
+		"Date entered": "2024-10-5"
 	},
 	{
 		"Location ID (LOC)": "LOC:Villers-Notre-Dame",

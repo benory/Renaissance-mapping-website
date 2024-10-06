@@ -1022,6 +1022,15 @@
 		"Date entered": "2024-8-7"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Daniel_Schach",
+		"Musician Name": "Daniel Schach",
+		"Description": "singer in Milan, and for the pope, priest in Tournai",
+		"Bibliography ID (BIB)": "BIB:MerkleyP_2017",
+		"BIB Pages": "63",
+		"Input data": "SMB",
+		"Date entered": "2024-10-5"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Daniel_Staet",
 		"Musician Name": "Daniel Staet",
 		"Alias": "de Staet",
