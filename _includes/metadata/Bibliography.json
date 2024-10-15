@@ -672,6 +672,17 @@
 		"Date entered": "2024-4-4"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Sherr_1992",
+		"Author": "Richard Sherr",
+		"Name of Article": "The Spanish Nation in the Papal Chapel, 1492-1521",
+		"Name of Volume/Journal": "Early Music",
+		"Volume": "20 no. 4",
+		"Publication Year": "1992",
+		"Pages": "601-610",
+		"Input data": "SMB",
+		"Date entered": "2024-10-12"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Sherr_1994",
 		"Author": "Richard Sherr",
 		"Name of Article": "A Biographical Miscellany: Josquin, Tinctoris, Obrecht, Brumel",
@@ -791,6 +802,17 @@
 		"Pages": "203–17",
 		"Input data": "SMB",
 		"Date entered": "2024-6-7"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Wegman_2009",
+		"Author": "Rob C. Wegman",
+		"Name of Article": "The Testament of Jean de Sainte Gille (d. 1501)",
+		"Name of Volume/Journal": "Revue de Musicologie",
+		"Volume": "95 no. 1",
+		"Publication Year": "2009",
+		"Pages": "7-36",
+		"Input data": "SMB",
+		"Date entered": "2024-10-13"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Wexler_2014",

@@ -90,6 +90,15 @@
 		"Date updated": "2024-2-11"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Antonius_Ribera",
+		"Composer Name": "Antonius Ribera",
+		"Description": "Composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/572/",
+		"Internal notes": "NO RISM PAGE",
+		"Input data": "SMB",
+		"Date entered": "2024-10-12"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Arnold_de_Lantins",
 		"Composer Name": "Arnold de Lantins",
 		"Description": "Composer, singer",
@@ -211,6 +220,16 @@
 		"RISM Link": "https://rism.online/people/30102810",
 		"Input data": "SMB",
 		"Date entered": "2024-8-11"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Francisco_de_Peñalosa",
+		"Composer Name": "Francisco de Peñalosa",
+		"Description": "Composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/570/",
+		"RISM ID": "pe30024040",
+		"RISM Link": "https://rism.online/people/30024040",
+		"Input data": "SMB",
+		"Date entered": "2024-10-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Gaspar_van_Weerbeke",
@@ -406,6 +425,14 @@
 		"RISM Link": "https://rism.online/people/30018710",
 		"Input data": "BSO",
 		"Date entered": "2024-3-19"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Jean_de_Saint_Gille",
+		"Composer Name": "Jean de Saint Gille",
+		"Alias": "Lourdays",
+		"Description": "Tenorist; Composer, but all works are lost",
+		"Bibliography (BIB) ID": "BIB:Wegman_2009",
+		"BIB Pages": "7-36"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Jean_Lheritier",

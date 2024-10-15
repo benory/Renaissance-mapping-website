@@ -95,7 +95,7 @@
 	{
 		"Institution ID (INS)": "INS:Chapel_Sigismondo",
 		"Institution Name": "Chapel of Sigismondo d'Este",
-		"Institution Description": "chapel of Sigismondo d'Este",
+		"Institution Description": "Chapel of Sigismondo d'Este",
 		"Input data": "SMB",
 		"Date entered": "2024-8-16"
 	},
@@ -129,7 +129,7 @@
 	{
 		"Institution ID (INS)": "INS:Chapel_Martin_V",
 		"Institution Name": "Chapel of Martin V",
-		"Institution Description": "chapel of pope Martin V",
+		"Institution Description": "Chapel of Pope Martin V",
 		"Input data": "SMB",
 		"Date entered": "2024-8-21"
 	},
@@ -157,14 +157,14 @@
 	{
 		"Institution ID (INS)": "INS:Chapel_Louis_Savoy",
 		"Institution Name": "Chapel of Louis I",
-		"Institution Description": "Duke of Savoy 1440-1465",
+		"Institution Description": "Duke of Savoy, 1440-1465",
 		"Input data": "SMB",
 		"Date entered": "2024-9-8"
 	},
 	{
 		"Institution ID (INS)": "INS:St_Gertrude",
 		"Institution Name": "St Gertrude Collegiate church",
-		"Institution Description": "St Gertrude Collegiate church",
+		"Institution Description": "St Gertrude collegiate church",
 		"Input data": "SMB",
 		"Date entered": "2024-9-14"
 	},
@@ -172,7 +172,7 @@
 		"Institution ID (INS)": "INS:Chapel_Corvinius",
 		"Institution Name": "Chapel of Mathias Corvinius",
 		"Alias": "Hungarian royal court",
-		"Institution Description": "Chapel of Mathias Corvinius, king of Hungary",
+		"Institution Description": "Chapel of Mathias Corvinius, King of Hungary",
 		"Input data": "SMB",
 		"Date entered": "2024-9-14"
 	},

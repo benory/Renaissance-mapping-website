@@ -202,7 +202,7 @@
 		"Name of Location": "Bar-le-Duc",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/x9w5RVnFEEsBbB5eA",
-		"Coordinates": "48.78, 5.16",
+		"Coordinates": "48.77505448575818, 5.163731885418648",
 		"Input data": "SMB",
 		"Date entered": "2024-10-5"
 	},
@@ -548,7 +548,7 @@
 		"City or Larger Place": "Savoy",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/vojg2ijxLzHwb9Sr8",
-		"Coordinates": "45.564888, 5.922580",
+		"Coordinates": "45.564600839681866, 5.917672422394321",
 		"Input data": "SMB",
 		"Date entered": "2024-6-8"
 	},
@@ -879,7 +879,7 @@
 		"Name of Location": "Forcalquier",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/xb2ZpcqFBA77X39F9",
-		"Coordinates": "43.96, 5.78",
+		"Coordinates": "43.95791080831321, 5.78450953049866",
 		"Input data": "SMB",
 		"Date entered": "2024-10-5"
 	},
@@ -925,10 +925,18 @@
 		"Location ID (LOC)": "LOC:Geneva",
 		"Name of Location": "Geneva",
 		"Modern Country": "Switzerland",
-		"Google URL": "https://maps.app.goo.gl/W8jqsQsncd6T3fjt6",
-		"Coordinates": "46.200813, 6.148758",
+		"Google URL": "https://maps.app.goo.gl/JEQSLM8NZMwhhuP16",
+		"Coordinates": "46.204709346168386, 6.146300260432896",
 		"Input data": "SMB",
 		"Date entered": "2024-6-6"
+	},
+	{
+		"Location ID (LOC)": "LOC:Geneva-Cathedrale_Saint-Pierre_Geneve",
+		"Name of Location": "Cathédrale Saint-Pierre Genève",
+		"City or Larger Place": "Geneva",
+		"Modern Country": "Switzerland",
+		"Google URL": "https://maps.app.goo.gl/W8jqsQsncd6T3fjt6",
+		"Coordinates": "46.201189364327526, 6.148660609864471"
 	},
 	{
 		"Location ID (LOC)": "LOC:Genoa",
@@ -1168,7 +1176,7 @@
 		"Name of Location": "Laon",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/YtCGZwCfrrZsGnFk9",
-		"Coordinates": "49.564446, 3.624003",
+		"Coordinates": "49.56424242475855, 3.6212148999161022",
 		"Input data": "SMB",
 		"Date entered": "2024-6-7"
 	},
@@ -1195,7 +1203,7 @@
 		"Name of Location": "Launay",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/KYVLYZs7LTcErek99",
-		"Coordinates": "49.10, 0.74",
+		"Coordinates": "49.104165545777846, 0.741423538827597",
 		"Input data": "SMB",
 		"Date entered": "2024-10-5"
 	},
@@ -1728,7 +1736,7 @@
 		"Name of Location": "Naples",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/4g9zdbbnQzeUWk4z5",
-		"Coordinates": "40.853016, 14.258840",
+		"Coordinates": "40.85133657573077, 14.274411490600192",
 		"Input data": "SMB",
 		"Date entered": "2024-6-29"
 	},
@@ -1764,7 +1772,7 @@
 		"City or Larger Place": "Brabant",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/ybCs2ab8EEkpUceu5",
-		"Coordinates": "50.6, 4.32",
+		"Coordinates": "50.59658218093609, 4.319961248270501",
 		"Input data": "SMB",
 		"Date entered": "2024-9-14"
 	},
@@ -1947,6 +1955,15 @@
 		"Date entered": "2024-8-21"
 	},
 	{
+		"Location ID (LOC)": "LOC:Pertuis",
+		"Name of Location": "Pertuis",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/8CgLFmwgNCAdd1dx8",
+		"Coordinates": "43.69488255093293, 5.50493849578251",
+		"Input data": "SMB",
+		"Date entered": "2024-10-11"
+	},
+	{
 		"Location ID (LOC)": "LOC:Pesaro",
 		"Name of Location": "Pesaro",
 		"Modern Country": "Italy",
@@ -1981,6 +1998,15 @@
 		"Coordinates": "48.92963892289776, 2.0461617993858714",
 		"Input data": "BSO",
 		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Poitiers",
+		"Name of Location": "Poitiers",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/2djfX6PBDBwVdRUK6",
+		"Coordinates": "46.5801470307369, 0.34553623437883146",
+		"Input data": "SMB",
+		"Date entered": "2024-10-11"
 	},
 	{
 		"Location ID (LOC)": "LOC:Poitiers-Archives_Vienne",
@@ -2371,6 +2397,15 @@
 		"Date entered": "2024-8-18"
 	},
 	{
+		"Location ID (LOC)": "LOC:Sees",
+		"Name of Location": "Sées",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/N1jEiCuUrEzMy8j18",
+		"Coordinates": "48.60634188825696, 0.17246175332042596",
+		"Input data": "SMB",
+		"Date entered": "2024-10-13"
+	},
+	{
 		"Location ID (LOC)": "LOC:Segneur",
 		"Name of Location": "Segneur",
 		"Modern Country": "France",
@@ -2443,6 +2478,15 @@
 		"Coordinates": "45.8970779569219, 4.433083033644222",
 		"Input data": "RP",
 		"Date entered": "2024-7-11"
+	},
+	{
+		"Location ID (LOC)": "LOC:Tarascon",
+		"Name of Location": "Tarascon",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/rjk2WTpp2yGshjPY7",
+		"Coordinates": "43.806093785350875, 4.6593672150596985",
+		"Input data": "SMB",
+		"Date entered": "2024-10-11"
 	},
 	{
 		"Location ID (LOC)": "LOC:Thieulain",
@@ -2735,7 +2779,7 @@
 		"Name of Location": "Villebernier",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/tgz6Q4j6tUV5rK6R7",
-		"Coordinates": "47.26, -0.03",
+		"Coordinates": "47.25312735855043, -0.02925122165684786",
 		"Input data": "SMB",
 		"Date entered": "2024-10-5"
 	},
