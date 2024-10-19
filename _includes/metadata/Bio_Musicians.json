@@ -9,6 +9,15 @@
 		"Date entered": "2024-8-4"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Adam_le_Grand",
+		"Musician Name": "Adam le Grand",
+		"Description": "Musician in Cambrai",
+		"Bibliography ID (BIB)": "BIB:Wright_1978",
+		"BIB Pages": "297",
+		"Input data": "SMB",
+		"Date entered": "2024-10-18"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Adam_piffaro",
 		"Musician Name": "Adam piffaro",
 		"Description": "musician at Ferrarese court",
@@ -1049,6 +1058,15 @@
 		"Date entered": "2024-9-20"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Craspourniet",
+		"Musician Name": "Craspourniet",
+		"Description": "Musician at Cambrai",
+		"Bibliography ID (BIB)": "BIB:Wright_1978",
+		"BIB Pages": "299",
+		"Input data": "SMB",
+		"Date entered": "2024-10-18"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Dammaert_de_Forcten",
 		"Musician Name": "Dammaert de Forcten",
 		"Description": "musician in Bruges; son or pupil of Johannes Ondanch or son of citizen Dammaert de Straeten",
@@ -1210,6 +1228,15 @@
 		"Date entered": "2024-9-6"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Egidius_Boulangier",
+		"Musician Name": "Egidius Boulangier",
+		"Description": "Singer in Cambrai",
+		"Bibliography ID (BIB)": "BIB:Wright_1978",
+		"BIB Pages": "297",
+		"Input data": "SMB",
+		"Date entered": "2024-10-18"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Egidius_Cossee",
 		"Musician Name": "Egidius Cossee",
 		"Description": "singer in the papal chapel; had been member of chapel of Sixtus IV; enters the Confraternità di Santo Spirito in Sassia on 1484-06-07",
@@ -1253,6 +1280,15 @@
 		"BIB Pages": "159",
 		"Input data": "LO",
 		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Estienne_Brulle",
+		"Musician Name": "Estienne Brulle",
+		"Description": "Copyist in Cambrai",
+		"Bibliography ID (BIB)": "BIB:Wright_1978",
+		"BIB Pages": "299",
+		"Input data": "SMB",
+		"Date entered": "2024-10-18"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Estienne_Ferrier",
@@ -1841,6 +1877,15 @@
 		"Date entered": "2023-3-9"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Godemare",
+		"Musician Name": "Godemare",
+		"Description": "cantor at Cambrai",
+		"Bibliography ID (BIB)": "BIB:Wright_1978",
+		"BIB Pages": "299",
+		"Input data": "SMB",
+		"Date entered": "2024-10-18"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Golinus_Madoche",
 		"Musician Name": "Golinus Madoche",
 		"Alias": "Colinus, Hugolinus, Gosminus; Mandatis, Madoctes, Madontis",
@@ -2283,6 +2328,15 @@
 		"BIB Pages": "156",
 		"Input data": "LO",
 		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Radulphi",
+		"Musician Name": "Jacobus Radulphi",
+		"Description": "Singer in Cambrai",
+		"Bibliography ID (BIB)": "BIB:Wright_1978",
+		"BIB Pages": "297",
+		"Input data": "SMB",
+		"Date entered": "2024-10-18"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Jacobus_Tayaert",
@@ -3943,6 +3997,16 @@
 		"Date entered": "2024-8-6"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Ludovicus_Therache",
+		"Musician Name": "Ludovicus Therache",
+		"Alias": "Loys, Lois",
+		"Description": "copyist in Cambrai",
+		"Bibliography ID (BIB)": "BIB:Wright_1978",
+		"BIB Pages": "299",
+		"Input data": "SMB",
+		"Date entered": "2024-10-18"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Ludovigo_da_Bologna",
 		"Musician Name": "Ludovigo da Bologna piffaro",
 		"Description": "singer at Ferrarese court",
@@ -4225,6 +4289,15 @@
 		"Date entered": "2024-10-13"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Michael_Magistri",
+		"Musician Name": "Michael Magistri",
+		"Description": "Copyist in Cambrai",
+		"Bibliography ID (BIB)": "BIB:Wright_1978",
+		"BIB Pages": "299",
+		"Input data": "SMB",
+		"Date entered": "2024-10-18"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Michaeli_Touppe",
 		"Musician Name": "Michaeli Touppe",
 		"Alias": "Michael",
@@ -4437,6 +4510,15 @@
 		"Date entered": "2024-4-5"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Nouel_Jhesus",
+		"Musician Name": "Nouel Jhesus",
+		"Description": "Copyist in Cambrai",
+		"Bibliography ID (BIB)": "BIB:Wright_1978",
+		"BIB Pages": "299",
+		"Input data": "SMB",
+		"Date entered": "2024-10-18"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Oliverus",
 		"Musician Name": "Oliverus",
 		"Description": "musician in Bruges; perhaps Oliverus de Beka",
@@ -4598,6 +4680,12 @@
 		"BIB Pages": "360–1",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_Burgundo",
+		"Musician Name": "Petrus Burgundo",
+		"Description": "Singer at Cambrai",
+		"Bibliography ID (BIB)": "BIB:Wright_1978"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Petrus_Clenquemeure",
@@ -5431,6 +5519,15 @@
 		"Date entered": "2024-8-7"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Robinet_Presiau",
+		"Musician Name": "Robinet Presiau",
+		"Description": "Copyist in Cambrai",
+		"Bibliography ID (BIB)": "BIB:Wright_1978",
+		"BIB Pages": "299",
+		"Input data": "SMB",
+		"Date entered": "2024-10-18"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Roderigo_de_Lignoquerci",
 		"Musician Name": "Roderigo de Lignoquerci",
 		"Alias": "Robertus",
@@ -5625,11 +5722,22 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Symon_Mellet",
 		"Musician Name": "Symon Mellet",
+		"Death Date": "1481",
 		"Description": "Copyist in Cambrai",
 		"Bibliography ID (BIB)": "BIB:Planchart_2018",
 		"BIB Pages": "191",
+		"Internal notes": "Death date from Wright_1978",
 		"Input data": "SMB",
 		"Date entered": "2024-8-30"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Symon_Miellet",
+		"Musician Name": "Symon Miellet",
+		"Description": "Copyist in Cambrai",
+		"Bibliography ID (BIB)": "BIB:Wright_1978",
+		"Internal notes": "Not the same as the famous one",
+		"Input data": "SMB",
+		"Date entered": "2024-10-18"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Theodorus_Spierinck",
