@@ -901,5 +901,18 @@
 		"Publication Year": "2005",
 		"Input data": "SMB",
 		"Date entered": "2024-6-21"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Eakins_2016",
+		"Author": "Guillaume Faugues",
+		"Name of Volume/Journal": "The Complete Extant Transmissions of the Masses",
+		"Editor": "Rex Eakins",
+		"Volume": "4",
+		"Series": "Collected Works 29",
+		"Location": "Lions Bay",
+		"Publisher": "The Institute of Mediaeval Music",
+		"Publication Year": "2016",
+		"Input data": "AN",
+		"Date entered": "2024-10-21"
 	}
 ]

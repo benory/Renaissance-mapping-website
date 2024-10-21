@@ -40607,5 +40607,18 @@
 		"BIB Pages": "90",
 		"Input data": "SMB",
 		"Date entered": "2024-10-21"
+	},
+	{
+		"Event ID": "EV:02411",
+		"Location ID (LOC)": "LOC:Bourges-Sainte-Chapelle",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Guillaume_Faugues",
+		"Earliest Year": "1462",
+		"Latest Year": "1463",
+		"Date Range": "1462 to   1463",
+		"Description": "Master of choirboys, paid a three months' salary",
+		"Bibliography ID (BIB)": "BIB:Eakins_2016",
+		"BIB Pages": "xi",
+		"Input data": "AN",
+		"Date entered": "2024-10-21"
 	}
 ]

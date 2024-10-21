@@ -327,6 +327,16 @@
 		"Date entered": "2024-7-11"
 	},
 	{
+		"Location ID (LOC)": "LOC:Bourges-Sainte-Chapelle",
+		"Name of Location": "Sainte Chapelle",
+		"City or Larger Place": "Bourges",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/j8EJwWLA9mAXNBZN8",
+		"Coordinates": "47.100524240050234, 2.4165022852821365",
+		"Input data": "AN",
+		"Date entered": "2024-10-21"
+	},
+	{
 		"Location ID (LOC)": "LOC:Bouvignies",
 		"Name of Location": "Bouvignies",
 		"Modern Country": "France",
