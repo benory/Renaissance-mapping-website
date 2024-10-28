@@ -1,6 +1,5 @@
 [
 	{
-		"Bibliography (BIB) ID": "BIB:Atlas_1985",
 		"Author": "Allan Atlas",
 		"Name of Volume/Journal": "Music at the Aragonese Court of Naples",
 		"Location": "Cambridge",
@@ -10,7 +9,6 @@
 		"Date entered": "2024-8-9"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Atlas_1989",
 		"Author": "Allan Atlas",
 		"Name of Article": "Agricola, Ghiselin, and Alfonso II of Naples",
 		"Name of Volume/Journal": "Journal of Musicology",
@@ -21,7 +19,6 @@
 		"Date entered": "2024-6-29"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Baumgartner_1994",
 		"Author": "Frederic J. Baumgartner",
 		"Name of Volume/Journal": "Louis XII",
 		"Location": "New York",
@@ -31,7 +28,6 @@
 		"Date entered": "2023-4-27"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Benfield_1984",
 		"Author": "Judith Benfield",
 		"Name of Article": "Music in Verona, c.1480–1530",
 		"Publisher": "Ph.D. diss., University of Cambridge",
@@ -40,7 +36,6 @@
 		"Date entered": "2023-3-21"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Blackburn_2016",
 		"Author": "Lupus Hellinck",
 		"Name of Volume/Journal": "Three Four-Part Masses",
 		"Editor": "Bonnie J. Blackburn",
@@ -51,7 +46,6 @@
 		"Date entered": "2024-3-18"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Boorman_2006",
 		"Author": "Stanley Boorman",
 		"Name of Volume/Journal": "Ottaviano Petrucci",
 		"Location": "Oxford",
@@ -61,7 +55,6 @@
 		"Date entered": "2023-3-21"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Bouquet_1968",
 		"Author": "Marie-Therese Bouquet",
 		"Name of Article": "La Capella Musicale dei Duchi di Savoia dal 1450 al 1500",
 		"Name of Volume/Journal": "Rivista Italiana di Musicologia",
@@ -73,7 +66,6 @@
 		"Date entered": "2024-6-8"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Bowers_2001",
 		"Author": "Roger Bowers",
 		"Name of Article": "London",
 		"Name of Volume/Journal": "Grove Music Online",
@@ -83,7 +75,6 @@
 		"Date entered": "2024-8-9"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Bragard_1957",
 		"Author": "Anne-Marie Bragard",
 		"Name of Article": "Verdelot en Italie",
 		"Name of Volume/Journal": "Revue belge de Musicologie",
@@ -94,7 +85,6 @@
 		"Date entered": "2024-3-17"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Burn_2003",
 		"Author": "David Burn",
 		"Name of Article": "What Did Isaac Write for Constance?",
 		"Name of Volume/Journal": "Journal of Musicology",
@@ -106,7 +96,6 @@
 		"Date entered": "2024-9-1"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Catalano_1931",
 		"Author": "Michele Catalano",
 		"Name of Volume/Journal": "Vita di Ludovico Ariosto: Ricostruita su novi documenti",
 		"Volume": "2 vols.",
@@ -117,7 +106,15 @@
 		"Date entered": "2023-4-27"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:D'Accone_1961",
+		"Author": "Giulio Cattin",
+		"Name of Volume/Journal": "Ruffino Bartolucci d'Assisi: Opere Sacre e Profane",
+		"Location": "Padua",
+		"Publisher": "Centro Studi Antoniani",
+		"Publication Year": "199",
+		"Input data": "SMB",
+		"Date entered": "2024-10-23"
+	},
+	{
 		"Author": "Frank D'Accone",
 		"Name of Article": "The Singers of San Giovanni in Florence during the 15th Century",
 		"Name of Volume/Journal": "Journal of the American Musicological Society",
@@ -128,7 +125,6 @@
 		"Date entered": "2024-7-25"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:D'Accone_1963",
 		"Author": "Frank D'Accone",
 		"Name of Article": "Heinrich Isaac in Florence: New and Unpublished Documents",
 		"Name of Volume/Journal": "Music Quarterly",
@@ -139,7 +135,6 @@
 		"Date entered": "2024-6-23"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Dean_2001a",
 		"Author": "Jeffrey Dean",
 		"Name of Article": "Hylaire",
 		"Name of Volume/Journal": "Grove Music Online",
@@ -149,7 +144,6 @@
 		"Date entered": "2023-3-21"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Dean_2001b",
 		"Author": "Jeffrey Dean",
 		"Name of Article": "Longueval, Antoine de",
 		"Name of Volume/Journal": "Grove Music Online",
@@ -159,7 +153,6 @@
 		"Date entered": "2023-3-21"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Doorslaer_1934",
 		"Author": "Georges Doorslaer",
 		"Name of Article": "La Chapelle musicale de philippe le Beau",
 		"Name of Volume/Journal": "Revue belge d'archeologie et d'histoire de l'art",
@@ -170,7 +163,6 @@
 		"Date entered": "2024-7-26"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Dumitrescu_2012",
 		"Author": "Theodor Dumitrescu",
 		"Name of Article": "Who Was 'Prioris'? A Royal Composer Recovered",
 		"Name of Volume/Journal": "Journal of the American Musicological Society",
@@ -182,7 +174,6 @@
 		"Date entered": "2024-1-25"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Fallows_2009",
 		"Author": "David Fallows",
 		"Name of Volume/Journal": "Josquin",
 		"Location": "Turnhout",
@@ -192,7 +183,6 @@
 		"Date entered": "2023-3-21"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Filocamo_2010",
 		"Name of Volume/Journal": "Florence, BNC, Panciatichi 27: Text and Context",
 		"Editor": "Gioia Filocamo",
 		"Volume": "Section II, volume 1",
@@ -204,7 +194,6 @@
 		"Date entered": "2023-4-13"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Gallagher_2010",
 		"Author": "Sean Gallagher",
 		"Name of Volume/Journal": "Johannes Regis",
 		"Series": "Epitome musical",
@@ -215,7 +204,6 @@
 		"Date entered": "2024-8-17"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Ghisi_1937",
 		"Author": "Federico Ghisi",
 		"Name of Article": "I Canti carnascialeschi nelle fonti musicali del XV e XVI secolo",
 		"Location": "Florence",
@@ -225,7 +213,6 @@
 		"Date entered": "2024-9-1"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Gottwald_1961",
 		"Author": "Clytus Gottwald",
 		"Name of Article": "Johannes Ghselin: Janne Verbonnet: Some Traces of his Life",
 		"Name of Volume/Journal": "Musica Disciplina",
@@ -236,7 +223,6 @@
 		"Date entered": "2024-8-9"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Gottwald_1962",
 		"Author": "Clytus Gottwald",
 		"Name of Article": "Johannes Ghiselin-Johannes Verbonnet: Stilkritische Untersuchung zum Problem ihrer Identitaet",
 		"Location": "Wiesbaden",
@@ -246,7 +232,6 @@
 		"Date entered": "2024-7-19"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Heidrich_1992",
 		"Author": "Jürgen Heidrich",
 		"Name of Article": "Heinrich Isaac in Torgau?",
 		"Name of Volume/Journal": "Heinrich Isaac und Paul Hofhaimer im Umfeld von Kaiser Maximilian I",
@@ -259,7 +244,6 @@
 		"Date entered": "2024-6-23"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Hemeraeus_1633",
 		"Author": "Claude Hémeré [Hemeraeus]",
 		"Name of Volume/Journal": "Tabella chronologica",
 		"Location": "Paris",
@@ -268,7 +252,6 @@
 		"Date entered": "2024-7-16"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Hemeraeus_1643",
 		"Author": "Claude Hémeré [Hemeraeus]",
 		"Name of Volume/Journal": "Augusta Viromandorum",
 		"Location": "Paris",
@@ -277,7 +260,6 @@
 		"Date entered": "2024-7-16"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Higgins_1990",
 		"Author": "Paula Higgins",
 		"Name of Article": "Tracing the Careers of Late Medieval Composers: The Case of Philippe Basiron of Bourges",
 		"Name of Volume/Journal": "Acta Musicologica",
@@ -287,7 +269,6 @@
 		"Date entered": "2024-8-10"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Higgins_2009",
 		"Author": "Paula Higgins",
 		"Name of Article": "Speaking of the Devil and Discipuli: Eloy d'Amerval, Saint-Martin of Tours, and Music in the Loire Valley, ca. 1465–1505",
 		"Name of Volume/Journal": "Uno gentile et subtile ingenio",
@@ -296,7 +277,6 @@
 		"Date entered": "2024-2-22"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Jas_1994",
 		"Author": "Eric Jas",
 		"Name of Article": "A Rediscovered Mass of Jheronimus Vinders?",
 		"Name of Volume/Journal": "From Ciconia to Sweelinck: donum natalicium Willem Elders",
@@ -309,7 +289,6 @@
 		"Date entered": "2024-3-16"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Kellman_2009",
 		"Author": "Herbert Kellman",
 		"Name of Article": "Dad and Granddad Were Cops: Josquin's Ancestry",
 		"Name of Volume/Journal": "Uno Gentile et Subtile Ingenio: Studies in Renaissance Music in Honour of Bonnie J. Blackburn",
@@ -322,7 +301,6 @@
 		"Date entered": "2024-2-11"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Kostrzewski_2021",
 		"Author": "Brett Kostrzewski",
 		"Name of Article": "Rome after Josquin: The Missa La sol fa re mi reconsidered",
 		"Name of Volume/Journal": "Journal of Musicology",
@@ -333,7 +311,6 @@
 		"Date entered": "2023-3-21"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Lockwood_1976",
 		"Author": "Lewis Lockwood",
 		"Name of Article": "Josquin at Ferrara: New Documents and Letters",
 		"Name of Volume/Journal": "Josquin des Prez: Proceedings of the International Josquin Festival Conference held at The Juilliard School at Lincoln Center in New York City, 21–25 June 1971",
@@ -346,7 +323,6 @@
 		"Date entered": "2023-3-21"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Lockwood_1979",
 		"Author": "Lewis Lockwood",
 		"Name of Article": "Jean Mouton and Jean Michel: New Evidence on French Music and Musicians in Italy, 1505–1520",
 		"Name of Volume/Journal": "Journal of the American Musicological Society",
@@ -357,7 +333,6 @@
 		"Date entered": "2024-2-11"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Lockwood_1998",
 		"Author": "Lewis Lockwood",
 		"Name of Article": "A Virtuoso Singer at Ferrara and Rome: The Case of Bidon",
 		"Name of Volume/Journal": "Papal Music and Musicians in Late Medieval and Renaissance Rome",
@@ -370,7 +345,6 @@
 		"Date entered": "2023-5-19"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Lockwood_2009",
 		"Author": "Lewis Lockwood",
 		"Name of Volume/Journal": "Music in Renaissance Ferrara, 1400–1505",
 		"Edition": "2nd",
@@ -381,7 +355,6 @@
 		"Date entered": "2023-3-21"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Lowinsky_1950",
 		"Author": "Edward E. Lowinsky",
 		"Name of Article": "A Newly Discovered Sixteenth-Century Motet Manuscript at the Biblioteca Vallicelliana in Rome",
 		"Name of Volume/Journal": "Journal of the American Musicological Society",
@@ -393,7 +366,6 @@
 		"Date entered": "2024-6-16"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Magro_1999",
 		"Author": "Agostino Magro",
 		"Name of Article": "Premierement ma baronnie de chasteauneuf': Jean De Ockeghem, Treasurer of St Martin's in Tours",
 		"Name of Volume/Journal": "Early Music History",
@@ -404,7 +376,6 @@
 		"Date entered": "2024-9-20"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Meconi_2003",
 		"Author": "Honey Meconi",
 		"Name of Volume/Journal": "Pierre de la Rue and Musical Life at the Habsburg-Burgundian Court",
 		"Location": "Oxford",
@@ -414,7 +385,6 @@
 		"Date entered": "2024-7-26"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Merkley_M_1999",
 		"Author": "Paul A. Merkley and Lora L. M. Merkley",
 		"Name of Volume/Journal": "Music and Patronage in the Sforza Court",
 		"Location": "Turnhout",
@@ -424,7 +394,6 @@
 		"Date entered": "2023-6-7"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:MerkleyP_2001",
 		"Author": "Paul Merkley",
 		"Name of Article": "Josquin Desprez in Ferrara",
 		"Name of Volume/Journal": "Journal of Musicology",
@@ -435,7 +404,6 @@
 		"Date entered": "2023-3-21"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:MerkleyP_2017",
 		"Author": "Paul Merkley",
 		"Name of Volume/Journal": "Music and Patronage in the Court of Rene d'Anjou: Sacred and Secular Music in the Literary Program and Ceremonial",
 		"Location": "Tempe",
@@ -445,7 +413,6 @@
 		"Date entered": "2024-9-27"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Nassiet_2022",
 		"Author": "Michel Nassiet",
 		"Name of Volume/Journal": "Anne de Bretagne: Correspondance et itinéraire",
 		"Location": "Rennes",
@@ -455,7 +422,6 @@
 		"Date entered": "2023-5-2"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Newcomb_2001",
 		"Author": "Anthony Newcomb",
 		"Name of Article": "Milleville",
 		"Name of Volume/Journal": "Grove Music Online",
@@ -465,7 +431,6 @@
 		"Date entered": "2023-3-21"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Noble_1976",
 		"Author": "Jeremy Noble",
 		"Name of Article": "New Light on Josquin's Benefices",
 		"Name of Volume/Journal": "Josquin des Prez: Proceedings of the International Josquin Festival Conference held at The Juilliard School at Lincoln Center in New York City, 21–25 June 1971",
@@ -478,7 +443,6 @@
 		"Date entered": "2023-3-21"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Nosow_1991",
 		"Author": "Robert Nosow",
 		"Name of Article": "The Dating and Provenance of Bologna, Civico Museo Bibliografico Musicale, MS Q 19",
 		"Name of Volume/Journal": "Journal of Musicology",
@@ -489,7 +453,6 @@
 		"Date entered": "2024-3-18"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Perkins_1984",
 		"Author": "Leeman L. Perkins",
 		"Name of Article": "Musical Patronage at the Royal Court of France Under Charles VII and Louis XI (1422-83)",
 		"Name of Volume/Journal": "Journal of the American Musicological Society",
@@ -500,7 +463,6 @@
 		"Date entered": "2024-9-21"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Picker_1966",
 		"Author": "Martin Picker",
 		"Name of Article": "A Letter of Charles VIII of France Concerning Alexander Agricola",
 		"Name of Volume/Journal": "Aspects of Medieval and Renaissance Music: A Birthday Offering to Gustave Reese",
@@ -514,7 +476,6 @@
 		"Date entered": "2024-8-2"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Pidoux_1964",
 		"Author": "Pierre Pidoux",
 		"Name of Article": "Antoine Brumel à Genève",
 		"Name of Volume/Journal": "Revue de Musicologie",
@@ -526,7 +487,6 @@
 		"Date entered": "2024-6-6"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Pirro_1928",
 		"Author": "Andre Pirro",
 		"Name of Article": "Dokumente über Antoine Brumel, Louis van Pullaer, und Crispin van Stappen",
 		"Name of Volume/Journal": "Zeitschrift fuer Musikwissenschaft",
@@ -540,7 +500,6 @@
 		"Date entered": "2024-6-1"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Planchart_2001",
 		"Author": "Alejandro Planchart",
 		"Name of Article": "Du Fay, Guillaume",
 		"Name of Volume/Journal": "Grove Music Online",
@@ -551,7 +510,6 @@
 		"Date entered": "2024-8-22"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Planchart_2018",
 		"Author": "Alejandro Planchart",
 		"Name of Volume/Journal": "Guillaume Du Fay: The Life and Works",
 		"Location": "Cambridge",
@@ -561,7 +519,6 @@
 		"Date entered": "2024-8-18"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Prizer_1977",
 		"Author": "William F. Prizer",
 		"Name of Article": "La cappella di Francesco II Gonzaga e la musica sacra a Mantova nel primo ventennio del Cinquecento",
 		"Name of Volume/Journal": "Mantova e I Gonzaga nella Civiltà del Rinascimento",
@@ -573,7 +530,6 @@
 		"Date entered": "2024-6-19"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Prizer_1996",
 		"Author": "William F. Prizer",
 		"Name of Article": "Secular Music at Milan during the Early Cinquecento: Florence, Biblioteca del Conservatorio, MS Basevi 2441",
 		"Name of Volume/Journal": "Musica Disciplina",
@@ -584,7 +540,6 @@
 		"Date entered": "2023-3-21"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Rifkin_2012",
 		"Author": "Joshua Rifkin",
 		"Name of Article": "A Black Hole? Problems in the Motet Around 1500",
 		"Name of Volume/Journal": "The Motet Around 1500: On the Relationship of Imitation and Text Treatment?",
@@ -597,7 +552,6 @@
 		"Date entered": "2023-5-18"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Robin_1985",
 		"Author": "Francoise Robin",
 		"Name of Article": "Josquin des Prés au service de René d'Anjou?",
 		"Name of Volume/Journal": "Revue de Musicologie",
@@ -609,7 +563,6 @@
 		"Date entered": "2024-8-18"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Sartori_1957",
 		"Author": "Claudio Sartori",
 		"Name of Article": "Organs, Organ-Builders, and Organists in Milan, 1450-1476: New and Unpublished documents",
 		"Name of Volume/Journal": "Music Quarterly",
@@ -620,7 +573,6 @@
 		"Date entered": "2024-8-4"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Schmidt-Goerg_1938",
 		"Author": "Joseph Schmidt-Görg",
 		"Name of Volume/Journal": "Nicolas Gombert: Kapellmeister Kaiser Karls V. Leben und Werk",
 		"Location": "Bonn",
@@ -630,7 +582,6 @@
 		"Date entered": "2024-8-9"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Schreurs_2015",
 		"Author": "Eugeen Schreurs",
 		"Name of Article": "Noel Bauldeweyn - Magister Cantorum in Mechelen and Antwerp (?): Some Reflections Arising from a 'Brumel' Mass in Brno",
 		"Name of Volume/Journal": "Tijdschrift van de Koninklijke Vereniging voor Nederlandse Muziekgeschiedenis",
@@ -641,7 +592,6 @@
 		"Date entered": "2024-3-16"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Sherr_1975",
 		"Author": "Richard Sherr",
 		"Name of Article": "The Papal Chapel ca. 1492–1513 and its Polyphonic Sources",
 		"Publisher": "Ph.D. diss., Princeton University",
@@ -650,7 +600,6 @@
 		"Date entered": "2023-5-8"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Sherr_1984",
 		"Author": "Richard Sherr",
 		"Name of Article": "Verdelot in Florence, Coppini in Rome, and the Singer 'La Fiore'",
 		"Name of Volume/Journal": "Journal of the American Musicological Society",
@@ -661,7 +610,6 @@
 		"Date entered": "2024-3-17"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Sherr_1988",
 		"Author": "Richard Sherr",
 		"Name of Article": "The Membership of the Chapels of Louis XII and Anne de Bretagne in the Years Preceding their Deaths",
 		"Name of Volume/Journal": "Journal of Musicology",
@@ -672,7 +620,6 @@
 		"Date entered": "2024-4-4"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Sherr_1992",
 		"Author": "Richard Sherr",
 		"Name of Article": "The Spanish Nation in the Papal Chapel, 1492-1521",
 		"Name of Volume/Journal": "Early Music",
@@ -683,7 +630,6 @@
 		"Date entered": "2024-10-12"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Sherr_1994",
 		"Author": "Richard Sherr",
 		"Name of Article": "A Biographical Miscellany: Josquin, Tinctoris, Obrecht, Brumel",
 		"Name of Volume/Journal": "Musicologia Humana: Studies in Honor of Warren and Ursula Kirkendale",
@@ -696,7 +642,6 @@
 		"Date entered": "2024-5-30"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Sherr_2001",
 		"Author": "Richard Sherr",
 		"Name of Article": "Bidon, Antonio",
 		"Name of Volume/Journal": "Grove Music Online",
@@ -706,7 +651,6 @@
 		"Date entered": "2023-3-21"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Staehelin_1977",
 		"Author": "Martin Staehelin",
 		"Name of Volume/Journal": "Die Messen Heinrich Isaacs",
 		"Volume": "2",
@@ -717,7 +661,6 @@
 		"Date entered": "2024-6-27"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Starr_1987",
 		"Author": "Pamela F. Starr",
 		"Name of Article": "Music and Music Patronage at the Papal Court, 1447–1464",
 		"Publisher": "Ph.D. diss., Yale University",
@@ -726,7 +669,6 @@
 		"Date entered": "2024-3-15"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Starr_1992",
 		"Author": "Pamela F. Starr",
 		"Name of Article": "Rome as the Centre of the Universe: Papal Grace and Music Patronage",
 		"Name of Volume/Journal": "Early Music History",
@@ -739,7 +681,6 @@
 		"Date entered": "2024-3-1"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Starr_1995",
 		"Author": "Pamela F. Starr",
 		"Name of Article": "Southern Exposure: Roman Light on Johannes Regis",
 		"Name of Volume/Journal": "Revue belge de Musicologie",
@@ -750,7 +691,6 @@
 		"Date entered": "2024-8-17"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Straeten_1878",
 		"Author": "Edmond vander Straeten",
 		"Name of Volume/Journal": "La musique aux Pays-Bas avant le 19e. siècle",
 		"Volume": "4",
@@ -761,7 +701,6 @@
 		"Date entered": "2024-8-11"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Straeten_1882",
 		"Author": "Edmond vander Straeten",
 		"Name of Volume/Journal": "La musique aux Pays-Bas avant le XIXe siècle",
 		"Volume": "6",
@@ -772,7 +711,6 @@
 		"Date entered": "2023-3-22"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Strohm_1985",
 		"Author": "Reinhard Strohm",
 		"Name of Volume/Journal": "Music in Late Medieval Bruges",
 		"Publisher": "Oxford University Press",
@@ -782,7 +720,6 @@
 		"Date entered": "2024-8-4"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Wegman_2001",
 		"Author": "Rob C. Wegman",
 		"Name of Article": "Obrecht, Jacob",
 		"Name of Volume/Journal": "Grove Music Online",
@@ -792,7 +729,6 @@
 		"Date entered": "2023-3-21"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Wegman_2008",
 		"Author": "Rob C. Wegman",
 		"Name of Article": "Ockeghem, Brumel, Josquin: New Documents in Troyes",
 		"Name of Volume/Journal": "Early Music",
@@ -804,7 +740,6 @@
 		"Date entered": "2024-6-7"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Wegman_2009",
 		"Author": "Rob C. Wegman",
 		"Name of Article": "The Testament of Jean de Sainte Gille (d. 1501)",
 		"Name of Volume/Journal": "Revue de Musicologie",
@@ -815,7 +750,6 @@
 		"Date entered": "2024-10-13"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Wexler_2014",
 		"Author": "Richard Wexler",
 		"Name of Volume/Journal": "Antoine Bruhier: Life and Works of a Renaissance Papal Composer",
 		"Series": "Epitome musical",
@@ -826,7 +760,6 @@
 		"Date entered": "2024-8-16"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Wilson_2006",
 		"Author": "Blake Wilson",
 		"Name of Article": "Heinrich Isaac among the Florentines",
 		"Name of Volume/Journal": "Journal of Musicology",
@@ -837,7 +770,6 @@
 		"Date entered": "2024-9-29"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Woodley_1981",
 		"Author": "Ronald Woodley",
 		"Name of Article": "Iohannes Tinctoris: A Review of the Documentary Biographical Evidence",
 		"Name of Volume/Journal": "Journal of the American Musicological Society",
@@ -848,7 +780,6 @@
 		"Date entered": "2024-9-14"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Woodley_2009",
 		"Author": "Ronald Woodley",
 		"Name of Article": "Tinctoris and Nivelles: The Obit Evidence",
 		"Name of Volume/Journal": "Journal of the Alamire Foundation",
@@ -860,7 +791,6 @@
 		"Date entered": "2024-9-14"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Woodley_2013",
 		"Author": "Ronald Woodley",
 		"Name of Article": "Johannes Tinctoris: Biographical Outline",
 		"Name of Volume/Journal": "Early Music Theory Online",
@@ -870,7 +800,6 @@
 		"Date entered": "2024-9-14"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Wright_1978",
 		"Author": "Craig Wright",
 		"Name of Article": "Performance Practices at the Cathedral of Cambrai 1475-1550",
 		"Name of Volume/Journal": "Musical Quarterly",
@@ -881,7 +810,6 @@
 		"Date entered": "2024-10-18"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Wright_1981",
 		"Author": "Craig Wright",
 		"Name of Article": "Antoine Brumel and Patronage at Paris",
 		"Name of Volume/Journal": "Music in Medieval and Early Modern Europe",
@@ -894,7 +822,6 @@
 		"Date entered": "2024-5-29"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Zanovello_2005",
 		"Author": "Giovanni Zanovello",
 		"Name of Article": "Heinrich Isaac, The Mass Misericordias Domini, and Music in Late Fifteenth-Century Florence",
 		"Publisher": "Ph.D. diss., Princeton University",
@@ -903,7 +830,6 @@
 		"Date entered": "2024-6-21"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Eakins_2016",
 		"Author": "Guillaume Faugues",
 		"Name of Volume/Journal": "The Complete Extant Transmissions of the Masses",
 		"Editor": "Rex Eakins",
@@ -914,5 +840,13 @@
 		"Publication Year": "2016",
 		"Input data": "AN",
 		"Date entered": "2024-10-21"
+	},
+	{
+		"Author": "Marco Pellegrini",
+		"Name of Volume/Journal": "Ascanio Maria Sforza: la parabola politica di un cardinale-principe del rinascimento",
+		"Volume": "2 vols.",
+		"Location": "Rome",
+		"Publisher": "Istituto storico italiano per il medioevo",
+		"Publication Year": "2002"
 	}
 ]

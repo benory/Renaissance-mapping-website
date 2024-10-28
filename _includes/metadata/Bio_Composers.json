@@ -886,6 +886,16 @@
 		"Date entered": "2024-8-9"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Ruffino_Bartolucci",
+		"Composer Name": "Ruffino Bartolucci",
+		"Alias": "d'Assisi, Fra Ruffino",
+		"Death Date": "1541?",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/1912/",
+		"Bibliography (BIB) ID": "BIB:Cattin_1991",
+		"Input data": "SMB",
+		"Date entered": "2024-10-23"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Symon_le_Breton",
 		"Composer Name": "Symon le Breton",
 		"Description": "Composer",

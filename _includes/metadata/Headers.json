@@ -1078,8 +1078,7 @@
 		"JavaScript Name": "BIBID",
 		"GID": "1074180020",
 		"Spreadsheet Name": "Bibliography",
-		"Column": "A",
-		"Column Name": "Bibliography (BIB) ID"
+		"Column": "A"
 	},
 	{
 		"Spreadsheet ID": "BIB",

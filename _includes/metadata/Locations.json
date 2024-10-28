@@ -118,6 +118,15 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Location ID (LOC)": "LOC:Assisi",
+		"Name of Location": "Assisi",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/FsBkaksh3cJwFPLQ7",
+		"Coordinates": "43.07, 12.62",
+		"Input data": "SMB",
+		"Date entered": "2024-10-23"
+	},
+	{
 		"Location ID (LOC)": "LOC:Asti",
 		"Name of Location": "Asti",
 		"Modern Country": "Italy",
@@ -223,6 +232,15 @@
 		"Coordinates": "44.598201573109755, 10.9136419285137",
 		"Input data": "BSO",
 		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bergamo",
+		"Name of Location": "Bergamo",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/8XowhiwNcQf8FL126",
+		"Coordinates": "45.7, 9.7",
+		"Input data": "SMB",
+		"Date entered": "2024-10-23"
 	},
 	{
 		"Location ID (LOC)": "LOC:Besancon",
