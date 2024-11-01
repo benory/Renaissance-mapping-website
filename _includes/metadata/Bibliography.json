@@ -933,5 +933,19 @@
 		"Location": "Rome",
 		"Publisher": "Istituto storico italiano per il medioevo",
 		"Publication Year": "2002"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Ferer_2014",
+		"Author": "Mary Ferer",
+		"Name of Article": "Gombert, Thiebault, Crecquillon, Canis, Payen and the chapel of Charles V",
+		"Name of Volume/Journal": "Early Music",
+		"Volume": "42",
+		"Location": "Oxford",
+		"Publisher": "Oxford University Press",
+		"Publication Year": "2014",
+		"Pages": "191-206",
+		"URL": "https://doi.org/10.1093/em/cau027",
+		"Input data": "AN",
+		"Date entered": "2024-10-28"
 	}
 ]

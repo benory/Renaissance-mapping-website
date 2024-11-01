@@ -2920,5 +2920,14 @@
 		"Coordinates": "44.93832255108442, 11.74906653794804",
 		"Input data": "BSO",
 		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Monzon",
+		"Name of Location": "Monzon",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/VjugNhXpdGmRceSJ8",
+		"Coordinates": "41.915806718067515, 0.19271135325122624",
+		"Input data": "AN",
+		"Date entered": "2024-10-31"
 	}
 ]

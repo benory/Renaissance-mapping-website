@@ -722,9 +722,17 @@
 		"Date entered": "2024-3-18"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Maistre_Jhan",
+		"Composer Name": "Maistre Jhan",
+		"Alias": "de Ferrara",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/218/",
+		"Input data": "SMB",
+		"Date entered": "2024-10-31"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Marbrianus_de_Orto",
 		"Composer Name": "Marbrianus de Orto",
-		"Alias": "De Horto, Marbrianus de; De Orto, Marbrianus; Dujardin, Marbrianus; Dujardin, Marbrianus de; Horto, Marbrianus de; Ortho, Marbrianus de; Orto, Marbriano de",
+		"Alias": "De Horto, Marbrianus de; De Orto, Marbrianus; Dujardin, Marbrianus; Dujardin, Marbrianus de; Horto, Marbrianus de; Ortho, Marbrianus de; Orto, Marbriano de; Orto, Marbrian de",
 		"Death Date": "1529",
 		"Description": "singer in the papal chapel from 1484–94; enters the chapel of Sixtus IV in December 1483; self-inscribed in the Confraternità di Santo Spirito in Sassia on 1484-06-07; had more than twelve benefices; Sherr notes that de Orto \"must have been a valued singer\"",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/301/",
@@ -956,5 +964,65 @@
 		"Bibliography (BIB) ID": "BIB:Bowers_2001",
 		"Input data": "SMB",
 		"Date entered": "2024-8-9"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Nicolas_Gombert",
+		"Composer Name": "Nicolas Gombert",
+		"Description": "composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/263/",
+		"RISM ID": "pe30006168",
+		"RISM Link": "https://rism.online/people/30006168",
+		"Bibliography (BIB) ID": "BIB:Ferer_2014",
+		"BIB Pages": "198",
+		"Input data": "AN",
+		"Date entered": "2024-10-28"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Cornelius_Canis",
+		"Composer Name": "Cornelius Canis",
+		"Description": "composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/671/",
+		"RISM ID": "pe30007460",
+		"RISM Link": "https://rism.online/people/30007460",
+		"Bibliography (BIB) ID": "BIB:Ferer_2014",
+		"BIB Pages": "198",
+		"Input data": "AN",
+		"Date entered": "2024-10-28"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Jacques_Champion",
+		"Composer Name": "Jacques Champion",
+		"Description": "maitre des enffans at Imperial chapel of Charles V",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/626/",
+		"Bibliography (BIB) ID": "BIB:Ferer_2014",
+		"BIB Pages": "194-195, 198",
+		"Input data": "AN",
+		"Date entered": "2024-10-31"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Nicolas_Champion",
+		"Composer Name": "Nicolas Champion",
+		"Alias": "le Liegeois",
+		"Birth Date": "~1470-5",
+		"Death Date": "1533",
+		"Description": "composer, priest, singer; maitre de la chapelle at Imperial chapel of Charles V",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/627/",
+		"RISM ID": "pe30102560",
+		"RISM Link": "https://rism.online/people/30102560",
+		"Bibliography (BIB) ID": "BIB:Ferer_2014",
+		"BIB Pages": "198",
+		"Input data": "AN",
+		"Date entered": "2024-10-31"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Adrien_Thiebault_dit_Pickart",
+		"Composer Name": "Adrien Thiebault dit Pickart",
+		"Birth Date": "1496",
+		"Death Date": "1546",
+		"Description": "composer, musican, maitre de la chapelle at Imperial chapel of Charles V",
+		"Bibliography (BIB) ID": "BIB:Ferer_2014",
+		"BIB Pages": "198",
+		"Input data": "AN",
+		"Date entered": "2024-10-31"
 	}
 ]
