@@ -716,5 +716,72 @@
 		"Date entered": "2023-4-16",
 		"Update data": "BSO",
 		"Date updated": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Henry_Smetz",
+		"Person Name": "Henry Smetz",
+		"Alias": "Smets, Henry; Smetz, Henriz",
+		"Noted Positions": "calcant/souffleur d’orghes (responsible for adding air into the organ bellows) at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2014",
+		"BIB Pages": "202",
+		"Input data": "AN",
+		"Date entered": "2024-11-05"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Cornelis_Swaen",
+		"Person Name": "Cornelis Swaen",
+		"Noted Positions": "calcant/souffleur d’orghes (responsible for adding air into the organ bellows) at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2014",
+		"BIB Pages": "202",
+		"Input data": "AN",
+		"Date entered": "2024-11-05"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Baudechon_le_Jeusne",
+		"Person Name": "Baudechon le Jeusne",
+		"Alias": "le Jeusne, Baudeken",
+		"Noted Positions": "quartermaster (?) at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2014",
+		"BIB Pages": "201",
+		"Input data": "AN",
+		"Date entered": "2024-11-05"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jennin_Mathieu",
+		"Person Name": "Jennin Mathieu",
+		"Alias": "Mathieu, Joannes",
+		"Noted Positions": "cleric at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2014",
+		"BIB Pages": "201",
+		"Input data": "AN",
+		"Date entered": "2024-11-05"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Fransquin_du_Breuck",
+		"Person Name": "Fransquin du Breuck",
+		"Noted Positions": "cleric at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2014",
+		"BIB Pages": "201",
+		"Input data": "AN",
+		"Date entered": "2024-11-05"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jehan_Champepin",
+		"Person Name": "Jehan Champepin",
+		"Noted Positions": "cleric at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2014",
+		"BIB Pages": "201",
+		"Input data": "AN",
+		"Date entered": "2024-11-05"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jehan_Baudewin",
+		"Person Name": "Jehan Baudewin",
+		"Alias": "Bauduwyn, Jehan",
+		"Noted Positions": "porter (?) at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2014",
+		"BIB Pages": "201",
+		"Input data": "AN",
+		"Date entered": "2024-11-05"
 	}
 ]
