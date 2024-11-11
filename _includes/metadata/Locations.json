@@ -2785,6 +2785,16 @@
 		"Date entered": "2023-5-3"
 	},
 	{
+		"Location ID (LOC)": "LOC:Vicenza",
+		"Name of Location": "Vicenza",
+		"City or Larger Place": "Veneto",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/b8wUzwjiXeQF4Ra57",
+		"Coordinates": "45.55, 11.55",
+		"Input data": "SMB",
+		"Date entered": "2024-11-9"
+	},
+	{
 		"Location ID (LOC)": "LOC:Vienna",
 		"Name of Location": "Vienna",
 		"Modern Country": "Austria",
