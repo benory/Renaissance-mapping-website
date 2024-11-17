@@ -304,6 +304,15 @@
 		"Date entered": "2024-10-22"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Andrea_de_Servi",
+		"Musician Name": "Andrea de Servi",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "13",
+		"Input data": "SMB",
+		"Date entered": "2024-11-15"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Andrea_della_Viola",
 		"Musician Name": "Andrea della Viola",
 		"Description": "musician at Ferrarese court",
@@ -367,6 +376,15 @@
 		"Date entered": "2024-8-21"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Angelo_del_Favilla",
+		"Musician Name": "Angelo del Favilla",
+		"Description": "copyist in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "19",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Anechino_trombeta",
 		"Musician Name": "Anechino trombeta",
 		"Description": "musician at Ferrarese court",
@@ -374,6 +392,15 @@
 		"BIB Pages": "347",
 		"Input data": "RP",
 		"Date entered": "2024-10-31"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Angelo_di_Rafaello_di_Bartolomeo_di_Firenze",
+		"Musician Name": "Angelo di Rafaello di Bartolomeo di Firenza",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "20",
+		"Input data": "SMB",
+		"Date entered": "2024-11-17"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Anna_cantarina_Anglica",
@@ -713,6 +740,15 @@
 		"Date entered": "2024-9-6"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Baccio_Moschini",
+		"Musician Name": "Baccio Moschini",
+		"Description": "organist in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "16",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Baldessare_cantore",
 		"Musician Name": "Baldessare cantore",
 		"Description": "musician at Ferrarese court",
@@ -852,6 +888,24 @@
 		"Date entered": "2024-10-14"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Bartolomeo_degli_Organi",
+		"Musician Name": "Bartolomeo degli Organi",
+		"Description": "organist in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "16",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bartolomeo_di_Michelangelo",
+		"Musician Name": "Bartolomeo di Michelangelo",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "12",
+		"Input data": "SMB",
+		"Date entered": "2024-11-14"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Bartolomeo_Raimondo_de_Valenza",
 		"Musician Name": "Bartolomeo Raimondo de Valenza",
 		"Description": "singer at Ferrarese court",
@@ -879,6 +933,25 @@
 		"BIB Pages": "552",
 		"Input data": "SMB",
 		"Date entered": "2024-9-26"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Battista_di_Biagio",
+		"Musician Name": "Battista di Biagio",
+		"Description": "singer in florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "13",
+		"Input data": "SMB",
+		"Date entered": "2024-11-15"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Battista_di_Giovanni_Agrichola",
+		"Musician Name": "Battista di Giovanni Agrichola",
+		"Alias": "el Pretino",
+		"Description": "singer in florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "19",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Bazo_dArezzo",
@@ -980,6 +1053,15 @@
 		"BIB Pages": "361–2",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernardo_Pisano",
+		"Musician Name": "Bernardo Pisano",
+		"Description": "singer in florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "13",
+		"Input data": "SMB",
+		"Date entered": "2024-11-15"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Bernardo_sonadore",
@@ -1155,6 +1237,15 @@
 		"BIB Pages": "354",
 		"Input data": "RP",
 		"Date entered": "2024-9-20"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Brueto",
+		"Musician Name": "Brueto",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "18",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Carles",
@@ -1451,6 +1542,15 @@
 		"Date entered": "2024-9-20"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Cornelio_da_Firenze",
+		"Musician Name": "Cornelio da Firenze",
+		"Description": "singer in florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "13",
+		"Input data": "SMB",
+		"Date entered": "2024-11-15"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Cornelio_de_Fiandra",
 		"Musician Name": "Cornelio de Fiandra",
 		"Description": "musician at Ferrarese court",
@@ -1461,6 +1561,16 @@
 		"Date entered": "2023-3-9",
 		"Update data": "BSO",
 		"Date updated": "2024-2-12"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Cornelio_Snalaart",
+		"Musician Name": "Cornelio Snalaart",
+		"Alias": "Senolaart",
+		"Description": "singer in florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "17",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Cornelius_Leonis",
@@ -1804,6 +1914,15 @@
 		"Date entered": "2024-8-6"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:el_Picho",
+		"Musician Name": "el Picho",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "15",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Eligius_Stalinhooft",
 		"Musician Name": "Eligius Stalinhooft",
 		"Description": "musician in Bruges",
@@ -1944,6 +2063,15 @@
 		"Date entered": "2024-9-6"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Filippo_da_Prato",
+		"Musician Name": "Filippo da Prato",
+		"Description": "singer in florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "13",
+		"Input data": "SMB",
+		"Date entered": "2024-11-15"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Filippo_Padua",
 		"Musician Name": "Filippo Padua piffaro",
 		"Description": "musician at Ferrarese court",
@@ -2045,6 +2173,24 @@
 		"Date entered": "2024-7-17"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Francesco_della_Tosa",
+		"Musician Name": "Francesco della Tosa",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "19",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Francesco_di_Carlo_della_Tossa",
+		"Musician Name": "Francesco di Carlo della Tossa",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "15",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Francesco_Malacise",
 		"Musician Name": "Francesco Malacise tenorista",
 		"Description": "musician at Ferrarese court",
@@ -2106,6 +2252,15 @@
 		"BIB Pages": "201",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Francisco_Grisovan",
+		"Musician Name": "Francisco Grisovan",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "18",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Franciscus_Spasboen",
@@ -2382,6 +2537,16 @@
 		"Date entered": "2024-7-22"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Gianpiero_di_Niccolo",
+		"Musician Name": "Gianpiero di Niccolo",
+		"Alias": "Masacone",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "15",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Giletto_Picardo",
 		"Musician Name": "Giletto Picardo cantore",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
@@ -2446,6 +2611,33 @@
 		"Date entered": "2024-10-31"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Giovanantonio_di_Jacopo",
+		"Musician Name": "Giovanantonio di Jacopo",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "15",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Giovanbattista_d'Arezzo",
+		"Musician Name": "Giovanbattista d'Arezzo",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "15",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Giovanbattista_di_ser_Bartolomeo",
+		"Musician Name": "Giovanbattista di ser Bartolomeo",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "23",
+		"Input data": "SMB",
+		"Date entered": "2024-11-17"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Giovanfrancesco_di_Antonio",
 		"Musician Name": "Giovanfrancesco di Antonio",
 		"Description": "contratenor at Florence",
@@ -2453,6 +2645,15 @@
 		"BIB Pages": "4",
 		"Input data": "SMB",
 		"Date entered": "2024-11-12"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Giovangualberto",
+		"Musician Name": "Giovangualberto",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "9",
+		"Input data": "SMB",
+		"Date entered": "2024-11-14"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Giovanni_Albanese",
@@ -2826,6 +3027,15 @@
 		"BIB Pages": "362",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Giuliano_di_Michele",
+		"Musician Name": "Giuliano di Michele",
+		"Description": "singer in florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "13",
+		"Input data": "SMB",
+		"Date entered": "2024-11-15"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Gobelet",
@@ -5504,6 +5714,15 @@
 		"Date entered": "2024-10-13"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Magdolo_d'Arezzo",
+		"Musician Name": "Magdolo d'Arezzo",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "9",
+		"Input data": "SMB",
+		"Date entered": "2024-11-14"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Magister_Guillermus",
 		"Musician Name": "Magister Guillermus",
 		"Description": "singer at Cambrai",
@@ -5547,6 +5766,15 @@
 		"BIB Pages": "353",
 		"Input data": "RP",
 		"Date entered": "2024-9-26"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Marco_di_Domenico",
+		"Musician Name": "Marco di Domenico",
+		"Description": "singer in florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "13",
+		"Input data": "SMB",
+		"Date entered": "2024-11-15"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Marco_fratello_de_Bari",
@@ -5769,6 +5997,24 @@
 		"Date entered": "2023-3-9"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Matteo_del_Favilla",
+		"Musician Name": "Matteo del Favilla",
+		"Description": "singer in florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "13",
+		"Input data": "SMB",
+		"Date entered": "2024-11-15"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Matteo_di_Piero",
+		"Musician Name": "Matteo di Piero",
+		"Description": "Organist, priest",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "11",
+		"Input data": "SMB",
+		"Date entered": "2024-11-14"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Mattheus_Gavres",
 		"Musician Name": "Mattheus Gavres",
 		"Description": "Singer for Rene d'Anjou",
@@ -5785,6 +6031,15 @@
 		"BIB Pages": "152",
 		"Input data": "LO",
 		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Mattia_Rampollini",
+		"Musician Name": "Mattia Rampollini",
+		"Description": "chapelmaster in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "17",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Melchiore_garzon",
@@ -5848,6 +6103,16 @@
 		"BIB Pages": "64",
 		"Input data": "BSO",
 		"Date entered": "2024-4-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Michelangelo_di_Lorenzo",
+		"Musician Name": "Michelangelo di Lorenza",
+		"Alias": "Gazza",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "19",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Michiel_de_Wolf",
@@ -6185,6 +6450,15 @@
 		"BIB Pages": "26",
 		"Input data": "LO",
 		"Date entered": "2023-3-28"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Paolo_de_Pinna_da_Monopoli",
+		"Musician Name": "Paolo de Pinna da Monopoli",
+		"Description": "singer in florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "17",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Paschasius_de_Rekenare",
@@ -7440,6 +7714,16 @@
 		"Date entered": "2023-3-9"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Rubinetto_francioso",
+		"Musician Name": "Rubinetto francioso",
+		"Alias": "frater rubinetto",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "9",
+		"Input data": "SMB",
+		"Date entered": "2024-11-14"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Ruzido_trombeta",
 		"Musician Name": "Ruzido trombeta",
 		"Description": "trumpeter at Ferrarese court",
@@ -7586,6 +7870,15 @@
 		"Date entered": "2024-9-20"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Stefano_di_Niccolo",
+		"Musician Name": "Stefano di Niccolo",
+		"Description": "singer in florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "13",
+		"Input data": "SMB",
+		"Date entered": "2024-11-15"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Stefans_de_Savoia",
 		"Musician Name": "Stefans de Savoia pifaro",
 		"Description": "musician at Ferrarese court",
@@ -7593,6 +7886,15 @@
 		"BIB Pages": "350",
 		"Input data": "RP",
 		"Date entered": "2024-10-24"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Stefano_Gherardini",
+		"Musician Name": "Stefano Gherardini",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "13",
+		"Input data": "SMB",
+		"Date entered": "2024-11-15"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Stephanus_Le_Cristenier",
@@ -7820,6 +8122,15 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Ventura_di_Biagio",
+		"Musician Name": "Ventura di Biagio",
+		"Description": "singer in florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "13",
+		"Input data": "SMB",
+		"Date entered": "2024-11-15"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Victor_Arnoldi",
 		"Musician Name": "Victor Arnoldi",
 		"Description": "musician in Bruges",
@@ -7902,6 +8213,15 @@
 		"Date entered": "2023-3-9"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Virgilio_di_Domenico",
+		"Musician Name": "Virgilio di Domenico",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "9",
+		"Input data": "SMB",
+		"Date entered": "2024-11-14"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Walrandus_Rogery",
 		"Musician Name": "Walrandus Rogery",
 		"Bibliography ID (BIB)": "BIB:Starr_1987",
@@ -7955,6 +8275,15 @@
 		"BIB Pages": "202",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Zacheria_da_Chastello",
+		"Musician Name": "Zacheria da Chastello",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "12",
+		"Input data": "SMB",
+		"Date entered": "2024-11-15"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Zaghere",
@@ -8019,6 +8348,15 @@
 		"BIB Pages": "349",
 		"Input data": "RP",
 		"Date entered": "2024-10-31"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Zanobi_Guidetti",
+		"Musician Name": "Zanobi Guidetti",
+		"Description": "organist in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "16",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Zenobi_felice",

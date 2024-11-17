@@ -155,6 +155,15 @@
 		"Date updated": "2024-4-4"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Charles_d'Argentil",
+		"Composer Name": "Charles d'Argentil",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/287/",
+		"RISM ID": "pe30017603",
+		"RISM Link": "https://rism.online/people/30017603",
+		"Input data": "SMB",
+		"Date entered": "2024-11-17"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Claudin_de_Sermisy",
 		"Composer Name": "Claudin de Sermisy",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/222/",
@@ -220,6 +229,15 @@
 		"RISM Link": "https://rism.online/people/30102810",
 		"Input data": "SMB",
 		"Date entered": "2024-8-11"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Francesco_de_Layolle",
+		"Composer Name": "Francesco de Layolle",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/1148/",
+		"RISM ID": "pe30010858",
+		"RISM Link": "https://rism.online/people/30010858",
+		"Input data": "SMB",
+		"Date entered": "2024-11-15"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Francisco_de_Peñalosa",
@@ -753,6 +771,14 @@
 		"RISM Link": "https://rism.online/people/30022179",
 		"Input data": "BSO",
 		"Date entered": "2024-4-5"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Matteo_di_Paolo",
+		"Composer Name": "Matteo di Paolo",
+		"Description": "Composer in Florence",
+		"Internal notes": "no surviving pieces",
+		"Input data": "SMB",
+		"Date entered": "2024-11-14"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Nicasius_de_Brauwere",
