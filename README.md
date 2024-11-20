@@ -10,6 +10,7 @@ Files/directories:
 - CNAME == gives the website URL hosted on Github
 - Gemfile == needed for local website display
 - Gemfile.lock == maybe needed for local website display
+- LICENSE == license for website
 - Makefile == makefile for running scripts locally
 - README.md == this file
 - _config.yml == configuration file with site-wide settings
