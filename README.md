@@ -1,4 +1,4 @@
-# Mapping the Musical Renaissance Website #
+# Mapping the Musical Renaissance #
 
 Files/directories:
 - _includes == Liquid include files
