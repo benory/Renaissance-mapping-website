@@ -17,4 +17,4 @@ Files/directories:
 - index.markdown == the home page (compiled into index.html)
 - scripts-listeners.html == JavaScript listeners for the home page
 - scripts-local.html == JavaScript scripts for the home page
-- style-local.css == CSS styles for the home page
+- style-local.html == CSS styles for the home page
