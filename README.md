@@ -10,10 +10,11 @@ Files/directories:
 - CNAME == gives the website URL hosted on Github
 - Gemfile == needed for local website display
 - Gemfile.lock == maybe needed for local website display
+- LICENSE == license for website
 - Makefile == makefile for running scripts locally
 - README.md == this file
 - _config.yml == configuration file with site-wide settings
 - index.markdown == the home page (compiled into index.html)
 - scripts-listeners.html == JavaScript listeners for the home page
 - scripts-local.html == JavaScript scripts for the home page
-- style-local.css == CSS styles for the home page
+- style-local.html == CSS styles for the home page
