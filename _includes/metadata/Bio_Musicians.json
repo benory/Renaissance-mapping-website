@@ -1,6 +1,6 @@
 [
 	{
-		"Biography Musician (BMU) ID": "BMU:Achilles_de_Bleysere",
+		"Biography Musician (BMU) ID": "Biography Musician (BMU) ID",
 		"Musician Name": "Achilles de Bleysere",
 		"Description": "musician in Bruges",
 		"Bibliography ID (BIB)": "BIB:Strohm_1985",
@@ -51,6 +51,7 @@
 		"Description": "musician at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "201",
+		"Internal notes": "not verified by Appendix C in terms of normal personnel vs. singer",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
 	},
@@ -90,6 +91,15 @@
 		"BIB Pages": "200",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Agostino_di_Iacopo",
+		"Musician Name": "Agostino di Iacopo",
+		"Description": "singer in Florence, bass",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Alberto_Burbulius",
@@ -162,6 +172,16 @@
 		"BIB Pages": "354",
 		"Input data": "RP",
 		"Date entered": "2024-9-20"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Alex_Gobbo",
+		"Musician Name": "Alex Gobbo",
+		"Alias": "di Terranova",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "32",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Alexandre_de_l'Orteil",
@@ -322,6 +342,15 @@
 		"Date entered": "2024-7-16"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Andrea_Mancivelli",
+		"Musician Name": "Andrea Mancivelli",
+		"Description": "singer in Florence,",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "30",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Andrea_Picardo",
 		"Musician Name": "Andrea Picardo",
 		"Description": "musician at Ferrarese court",
@@ -356,6 +385,15 @@
 		"BIB Pages": "115–17",
 		"Input data": "LO",
 		"Date entered": "2024-3-15"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Andreas_Noppe",
+		"Musician Name": "Andreas Noppe",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "58",
+		"Input data": "SMB",
+		"Date entered": "2024-12-1"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Andree_Haquart",
@@ -445,6 +483,7 @@
 		"Description": "musician at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "200",
+		"Internal notes": "not verified by Appendix C in terms of normal personnel vs. singer",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
 	},
@@ -537,6 +576,15 @@
 		"BIB Pages": "4",
 		"Input data": "SMB",
 		"Date entered": "2024-11-12"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Antonio_di_Simone_banchiere",
+		"Musician Name": "Antonio di Simone banchiere",
+		"Description": "singer in Florence, soprano",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Antonio_Scatolaro",
@@ -682,6 +730,7 @@
 		"Description": "musician at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "200-1",
+		"Internal notes": "not verified by Appendix C in terms of normal personnel vs. singer",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
 	},
@@ -773,6 +822,15 @@
 		"BIB Pages": "152",
 		"Input data": "LO",
 		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Balduinus_Bant",
+		"Musician Name": "Balduinus Bant",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "47",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Balduinus_Spoet",
@@ -935,6 +993,33 @@
 		"Date entered": "2024-9-26"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Bastiano_di_Giovanni_Tinucci",
+		"Musician Name": "Bastiano di Giovanni Tinucci",
+		"Description": "singer in florence, contralto",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Batista_di_Bartolomeo",
+		"Musician Name": "Batista di Bartolomeo",
+		"Description": "singer in florence, soprano",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "32",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Batista_di_Lorenzo_Bracci",
+		"Musician Name": "Batista di Lorenzo Bracci",
+		"Description": "singer in florence, tenor",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Battista_di_Biagio",
 		"Musician Name": "Battista di Biagio",
 		"Description": "singer in florence",
@@ -952,6 +1037,15 @@
 		"BIB Pages": "19",
 		"Input data": "SMB",
 		"Date entered": "2024-11-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Batista_Landini",
+		"Musician Name": "Batista Landini",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "32",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Bazo_dArezzo",
@@ -1053,6 +1147,15 @@
 		"BIB Pages": "361–2",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernardo_Grassucci",
+		"Musician Name": "Bernardo Grassucci",
+		"Description": "singer in florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Bernardo_Pisano",
@@ -1221,6 +1324,15 @@
 		"Date entered": "2024-10-31"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Bono_di_Bastiano_Porcellotti",
+		"Musician Name": "Bono di Bastiano Porcellotti",
+		"Description": "singer in florence, soprano",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "32",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Bono_Radulphi",
 		"Musician Name": "Bono Radulphi",
 		"Description": "singer in the papal chapel; a motu proprio places him in the chapel in February 1500",
@@ -1294,6 +1406,15 @@
 		"Date entered": "2024-10-13"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Cecchino_di_Filippo_ciabbatino",
+		"Musician Name": "Cecchino di Filippo ciabbatino",
+		"Description": "singer in florence, soprano",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Cesar_Pastoris",
 		"Musician Name": "Cesar Pastoris",
 		"Description": "musician in Bruges; prother of Johannes Pastoris",
@@ -1358,6 +1479,15 @@
 		"Internal notes": "listed as Christophorus Rousseau in pay records",
 		"Input data": "LO",
 		"Date entered": "2023-3-28"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Cipriano_di_Lancilotto",
+		"Musician Name": "Cipriano di Lancilotto",
+		"Description": "singer in Florence, tenor",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Claeys_Frueyten",
@@ -1551,6 +1681,16 @@
 		"Date entered": "2024-11-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Cornelio_de_Benis",
+		"Musician Name": "Cornelio de Benis",
+		"Alias": "Brugni",
+		"Description": "singer in florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "31",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Cornelio_de_Fiandra",
 		"Musician Name": "Cornelio de Fiandra",
 		"Description": "musician at Ferrarese court",
@@ -1643,6 +1783,15 @@
 		"BIB Pages": "299",
 		"Input data": "SMB",
 		"Date entered": "2024-10-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Cristoforo_di_Galeotto",
+		"Musician Name": "Cristoforo di Galeotto",
+		"Description": "Singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "31",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Dammaert_de_Forcten",
@@ -1923,6 +2072,15 @@
 		"Date entered": "2024-11-16"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Eligius_Beck",
+		"Musician Name": "Eligius Beck",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "47",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Eligius_Stalinhooft",
 		"Musician Name": "Eligius Stalinhooft",
 		"Description": "musician in Bruges",
@@ -2182,6 +2340,33 @@
 		"Date entered": "2024-11-16"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Francesco_di_Bartolomeo",
+		"Musician Name": "Francesco di Bartolomeo",
+		"Description": "singer in florence, soprano",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "32",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Francesco_di_Biagio",
+		"Musician Name": "Francesco di Biagio",
+		"Description": "singer in florence, soprano",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "32",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Francesco_di_Cammillo_orolaio",
+		"Musician Name": "Francesco di Cammillo orolaio",
+		"Description": "singer in florence, soprano",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Francesco_di_Carlo_della_Tossa",
 		"Musician Name": "Francesco di Carlo della Tossa",
 		"Description": "singer in Florence",
@@ -2189,6 +2374,33 @@
 		"BIB Pages": "15",
 		"Input data": "SMB",
 		"Date entered": "2024-11-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Francesco_di_Bernardo_Corteccia",
+		"Musician Name": "Francesco di Bernardo Corteccia",
+		"Description": "Chapelmaster in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Francesco_di_Filippo",
+		"Musician Name": "Francesco di Filippo",
+		"Description": "singer in florence, soprano",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "32",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Francesco_di_Lorenzo_Aglietti",
+		"Musician Name": "Francesco di Lorenzo Agliette",
+		"Description": "singer in Florence, bass",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Francesco_Malacise",
@@ -2250,6 +2462,7 @@
 		"Description": "musician at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "201",
+		"Internal notes": "not verified by Appendix C in terms of normal personnel vs. singer",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
 	},
@@ -2416,6 +2629,15 @@
 		"Date entered": "2024-4-4"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Georgius",
+		"Musician Name": "Georgius",
+		"Description": "singer in Bruges, \"virgifer chori\"",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "47",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Georgius_de_Duno",
 		"Musician Name": "Georgius de Duno",
 		"Alias": "Georgius di Duno, Georgius Duno",
@@ -2424,6 +2646,15 @@
 		"BIB Pages": "31–36",
 		"Input data": "LO",
 		"Date entered": "2023-3-28"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Georgius_Pulli",
+		"Musician Name": "Georgius Pulli",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "47",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Georgius_Sguri",
@@ -2491,6 +2722,15 @@
 		"Date entered": "2024-8-7"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Ghysbertus_Pieterssone",
+		"Musician Name": "Ghysbertus Pieterssone",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "61",
+		"Input data": "SMB",
+		"Date entered": "2024-12-1"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Giam_Francese",
 		"Musician Name": "Giam Francese cantore",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
@@ -2535,6 +2775,15 @@
 		"BIB Pages": "359",
 		"Input data": "RP",
 		"Date entered": "2024-7-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gianpiero_Masiaccioni",
+		"Musician Name": "Gianpiero Masiaccioni",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "32",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Gianpiero_di_Niccolo",
@@ -2620,6 +2869,15 @@
 		"Date entered": "2024-11-16"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Giovanbattista_di_Antonio_Gallacini",
+		"Musician Name": "Giovanbattista di Antonio Gallacini",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "32",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Giovanbattista_d'Arezzo",
 		"Musician Name": "Giovanbattista d'Arezzo",
 		"Description": "singer in Florence",
@@ -2645,6 +2903,15 @@
 		"BIB Pages": "4",
 		"Input data": "SMB",
 		"Date entered": "2024-11-12"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Giovanfrancesco_dipintore_detto_Bassotto",
+		"Musician Name": "Giovanfrancesco dipintore detto Bassotto",
+		"Description": "singer in Florence, bass",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Giovangualberto",
@@ -2808,6 +3075,15 @@
 		"BIB Pages": "347",
 		"Input data": "RP",
 		"Date entered": "2024-10-31"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Giovanni_di_Tommaso_tintore",
+		"Musician Name": "Giovanni di Tommaso tintore",
+		"Description": "singer in Florence, soprano",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Giovanni_di_Zopo",
@@ -3029,6 +3305,15 @@
 		"Date entered": "2023-3-9"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Giuliano_di_Iacopo",
+		"Musician Name": "Giuliano di Iacopo",
+		"Description": "singer in florence, tenor",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "26",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Giuliano_di_Michele",
 		"Musician Name": "Giuliano di Michele",
 		"Description": "singer in florence",
@@ -3038,9 +3323,9 @@
 		"Date entered": "2024-11-15"
 	},
 	{
-		"Biography Musician (BMU) ID": "BMU:Gobelet",
-		"Musician Name": "Gobelet",
-		"Alias": "Obelet",
+		"Biography Musician (BMU) ID": "BMU:Jehan_Gobelet",
+		"Musician Name": "Jehan Gobelet",
+		"Alias": "Obelet; just \"Gobelet\"",
 		"Description": "musician at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "200",
@@ -3062,6 +3347,7 @@
 		"Description": "musician at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "201",
+		"Internal notes": "not verified by Appendix C in terms of normal personnel vs. singer",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
 	},
@@ -3104,6 +3390,15 @@
 		"Date entered": "2024-7-16"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Gregorius_Mijs",
+		"Musician Name": "Gregorius Mijs",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "58",
+		"Input data": "SMB",
+		"Date entered": "2024-12-01"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Guarparo_de_lorgano",
 		"Musician Name": "Guarparo de l'organo",
 		"Description": "musician at Ferrarese court",
@@ -3138,6 +3433,15 @@
 		"BIB Pages": "354",
 		"Input data": "RP",
 		"Date entered": "2024-9-20"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guasparre_di_Antonio",
+		"Musician Name": "Guasparre di Antonio",
+		"Description": "singer in florence, soprano",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "32",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Guglielmo_da_Lege",
@@ -3322,6 +3626,15 @@
 		"Date entered": "2024-10-31"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Henricus_Bolle",
+		"Musician Name": "Henricus Bolle",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "48",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Henricus_de_Alemania",
 		"Musician Name": "Henricus de Alemania",
 		"Description": "singer at Ferrarese court",
@@ -3331,13 +3644,22 @@
 		"Date entered": "2024-7-22"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Henricus_de_Miltere",
+		"Musician Name": "Henricus de Miltere",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "51",
+		"Input data": "SMB",
+		"Date entered": "2024-11-30"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Henricus_Rosa",
 		"Musician Name": "Henricus Rose",
 		"Alias": "De Zelle",
 		"Description": "singer in the papal chapel",
 		"Bibliography ID (BIB)": "BIB:Starr_1987",
 		"BIB Pages": "115",
-		"Input data": "LO",
+		"Input data": "SMB",
 		"Date entered": "2024-3-15"
 	},
 	{
@@ -3346,6 +3668,7 @@
 		"Description": "musician at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "201",
+		"Internal notes": "not verified by Appendix C in terms of normal personnel vs. singer",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
 	},
@@ -3357,6 +3680,15 @@
 		"BIB Pages": "194",
 		"Input data": "AN",
 		"Date entered": "2024-10-28"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Hieronimo_Carasco",
+		"Musician Name": "Hieronimo Carasco",
+		"Description": "singer in florence, bass",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "30",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Hieronimus_Beltrandi",
@@ -3412,6 +3744,15 @@
 		"BIB Pages": "54",
 		"Input data": "SMB",
 		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Iacopo_di_Giovanni_Rossino",
+		"Musician Name": "Iacopo_di_Giovanni_Rossino",
+		"Description": "singer in florence, contralto",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Illario_Turluron",
@@ -3544,6 +3885,15 @@
 		"Date entered": "2024-11-05"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Berbloc",
+		"Musician Name": "Jacobus Berbloc",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "48",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Jacobus_Berout",
 		"Musician Name": "Jacobus Berout",
 		"Description": "musician in Bruges",
@@ -3645,6 +3995,15 @@
 		"BIB Pages": "155",
 		"Input data": "LO",
 		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Juvenis",
+		"Musician Name": "Jacobus Juvenis",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "47",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Jacobus_Luucx",
@@ -3822,6 +4181,15 @@
 		"Date entered": "2024-10-14"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Jacopo_di_Bartolomeo",
+		"Musician Name": "Jacopo di Bartolomeo",
+		"Description": "singer in florence, soprano",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "32",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Jacopo_di_Bonaiuto_delle_Gavine",
 		"Musician Name": "Jacopo di Bonaiuto delle Gavine",
 		"Description": "bassus at Florence",
@@ -3829,6 +4197,15 @@
 		"BIB Pages": "4",
 		"Input data": "SMB",
 		"Date entered": "2024-11-12"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacopo_di_Salvestro",
+		"Musician Name": "Jacopo di Salvestro",
+		"Description": "singer in florence, soprano",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "32",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Jacotin_cantore",
@@ -3861,6 +4238,7 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Jacques_Liegois",
 		"Musician Name": "Jacques Liegois",
+		"Alias": "Liegeois dit Bamelroy, Jacques",
 		"Description": "musician at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "201",
@@ -4113,6 +4491,7 @@
 		"Description": "musician at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "200",
+		"Internal notes": "not verified by Appendix C in terms of normal personnel vs. singer",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
 	},
@@ -4471,6 +4850,15 @@
 		"Date entered": "2024-8-23"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Baerle",
+		"Musician Name": "Johannes Baerle",
+		"Description": "singer in Bruges, \"virgifer chori\"",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "48",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Balde",
 		"Musician Name": "Johannes Balde",
 		"Description": "musician in Bruges",
@@ -4506,6 +4894,15 @@
 		"BIB Pages": "152",
 		"Input data": "LO",
 		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Boubaert",
+		"Musician Name": "Johannes Boubaert",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "47",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Bouchout",
@@ -4546,6 +4943,15 @@
 		"Date entered": "2024-10-31"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Capertarij",
+		"Musician Name": "Johannes Capertarij",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "51",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Clerici",
 		"Musician Name": "Johannes Clerici",
 		"Description": "musician in Bruges",
@@ -4562,6 +4968,15 @@
 		"BIB Pages": "115",
 		"Input data": "LO",
 		"Date entered": "2024-3-15"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Coolbrant",
+		"Musician Name": "Johannes Coolbrant",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "47",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Crauweel",
@@ -4591,6 +5006,15 @@
 		"Date entered": "2023-3-28"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Busco",
+		"Musician Name": "Johannes de Busco",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "60",
+		"Input data": "SMB",
+		"Date entered": "2024-12-1"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_de_Capella",
 		"Musician Name": "Johannes de Capella",
 		"Description": "musician in Bruges",
@@ -4608,6 +5032,33 @@
 		"BIB Pages": "115",
 		"Input data": "LO",
 		"Date entered": "2024-3-15"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Clita",
+		"Musician Name": "Johannes de Clita",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "58",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Coc",
+		"Musician Name": "Johannes de Coc",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "48",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Cokelbeke",
+		"Musician Name": "Johannes de Cokelbeke",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "59",
+		"Input data": "SMB",
+		"Date entered": "2024-12-1"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_de_Fonte",
@@ -4648,6 +5099,15 @@
 		"Date entered": "2024-8-5"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Gotthem",
+		"Musician Name": "Johannes de Gotthem",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "47",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_de_Lillers",
 		"Musician Name": "Johannes de Lillers",
 		"Alias": "de Lillers, Joannes; Lilleers, Joannes",
@@ -4665,6 +5125,15 @@
 		"BIB Pages": "115",
 		"Input data": "LO",
 		"Date entered": "2024-3-15"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Montheau",
+		"Musician Name": "Johannes de Montheau",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "51",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_de_Ostendis",
@@ -4819,6 +5288,15 @@
 		"Date entered": "2023-3-28"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Halet",
+		"Musician Name": "Johannes Halet",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "47",
+		"Input data": "SMB",
+		"Date entered": "2024_11_29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Heyns",
 		"Musician Name": "Johannes Heyns",
 		"Description": "musician in Bruges",
@@ -4913,6 +5391,15 @@
 		"Date entered": "2024-8-6"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Mandaert",
+		"Musician Name": "Johannes Mandaert",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "47",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Margas",
 		"Musician Name": "Johannes Margas",
 		"Description": "musician in Bruges",
@@ -4967,6 +5454,15 @@
 		"BIB Pages": "35",
 		"Input data": "SMB",
 		"Date entered": "2024-10-13"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Molinet",
+		"Musician Name": "Johannes Molinet",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "60",
+		"Input data": "SMB",
+		"Date entered": "2024-12-1"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Monstreul",
@@ -5069,6 +5565,15 @@
 		"BIB Pages": "38–42",
 		"Input data": "LO",
 		"Date entered": "2023-3-28"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Post",
+		"Musician Name": "Johannes Postel",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "60",
+		"Input data": "SMB",
+		"Date entered": "2024-12-1"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Postel",
@@ -5335,6 +5840,7 @@
 		"Description": "musician at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "201",
+		"Internal notes": "not verified by Appendix C in terms of normal personnel vs. singer",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
 	},
@@ -5420,6 +5926,15 @@
 		"BIB Pages": "155",
 		"Input data": "LO",
 		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Laurentius_Steenaert",
+		"Musician Name": "Laurentius Steenaert",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "51",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Laurentius_de_Lovanio",
@@ -5559,6 +6074,15 @@
 		"BIB Pages": "350",
 		"Input data": "RP",
 		"Date entered": "2024-10-24"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Lucas",
+		"Musician Name": "Lucas",
+		"Description": "singer in Bruges, \"virgifer chori\"",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "47",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Lucas_Werner",
@@ -5804,6 +6328,15 @@
 		"Date entered": "2024-10-31"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Marcus_Calf",
+		"Musician Name": "Marcus Calf",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "47",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Marino_cappellano",
 		"Musician Name": "Marino cappellano",
 		"Description": "singer at Ferrarese court",
@@ -5879,6 +6412,15 @@
 		"Date entered": "2023-3-28"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Masino_di_Antonio",
+		"Musician Name": "Masino di Antonio",
+		"Description": "singer in Florence, soprano",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Massino",
 		"Musician Name": "Massino",
 		"Alias": "Masino; Thomas dictus Misinus; thomas de Parigi",
@@ -5916,6 +6458,15 @@
 		"Date entered": "2024-10-11"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Mathias_Coolbrant",
+		"Musician Name": "Mathias Coolbrant",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "48",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Mathias_Coyniel",
 		"Musician Name": "Mathias Corniel",
 		"Description": "singer, French court",
@@ -5925,8 +6476,18 @@
 		"Date entered": "2024-9-26"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Mathias_Merschaert",
+		"Musician Name": "Mathias Merschaert",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "48",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Mathias_Roydumel",
 		"Musician Name": "Mathias Roydumel",
+		"Alias": "Reydummel, Mathias",
 		"Description": "musician at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "201",
@@ -6115,6 +6676,15 @@
 		"Date entered": "2024-11-16"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Michele_di_Bartolomeo",
+		"Musician Name": "Michele di Bartolomeo",
+		"Description": "singer in florence, soprano",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "32",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Michiel_de_Wolf",
 		"Musician Name": "Michiel de Wolf",
 		"Description": "musician at Imperial chapel of Charles V",
@@ -6222,6 +6792,15 @@
 		"Date entered": "2024-8-7"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Niccolo_di_Giovanni",
+		"Musician Name": "Niccolo di Giovanni",
+		"Description": "singer in florence, contralto",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Niccolo_Pedoni",
 		"Musician Name": "Niccolo Pedoni",
 		"Description": "bassus in Florence",
@@ -6266,6 +6845,15 @@
 		"Date entered": "2024-8-6"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Nicolaus",
+		"Musician Name": "Nicolaus",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "47",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Nicolaus_cantore",
 		"Musician Name": "Nicolaus cantore",
 		"Description": "musician at Ferrarese court",
@@ -6284,6 +6872,24 @@
 		"Date entered": "2024-10-31"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Nicolaus_de_Flya",
+		"Musician Name": "Nicolaus de Flya",
+		"Description": "singer in Bruges, \"virgifer chori\"",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "48",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicolaus_de_Claustro",
+		"Musician Name": "Nicolaus de Claustro",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "47",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Nicolaus_Enquerran",
 		"Musician Name": "Nicolaus Enquerran",
 		"Description": "Singer in Rouen",
@@ -6291,6 +6897,15 @@
 		"BIB Pages": "35",
 		"Input data": "SMB",
 		"Date entered": "2024-10-13"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicolaus_Grape",
+		"Musician Name": "Nicolaus Grape",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "60",
+		"Input data": "SMB",
+		"Date entered": "2024-12-1"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Nicolaus_Mayoul",
@@ -6450,6 +7065,15 @@
 		"BIB Pages": "26",
 		"Input data": "LO",
 		"Date entered": "2023-3-28"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pagolo_di_Francesco",
+		"Musician Name": "Pagolo di Francesco",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "32",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Paolo_de_Pinna_da_Monopoli",
@@ -6617,6 +7241,15 @@
 		"Date entered": "2023-3-9"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_Brule",
+		"Musician Name": "Petrus Brule",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "50",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Petrus_Burgundo",
 		"Musician Name": "Petrus Burgundo",
 		"Description": "Singer at Cambrai",
@@ -6659,6 +7292,15 @@
 		"BIB Pages": "153",
 		"Input data": "LO",
 		"Date entered": "2024-8-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_de_Corte",
+		"Musician Name": "Petrus de Corte",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "58",
+		"Input data": "SMB",
+		"Date entered": "2024-12-1"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Petrus_de_Hely",
@@ -6962,6 +7604,15 @@
 		"Date entered": "2024-3-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Philippus_Pailliet",
+		"Musician Name": "Philippus Pailliet",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "51",
+		"Input data": "SMB",
+		"Date entered": "2024-11-30"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Philips",
 		"Musician Name": "Philips",
 		"Description": "musician in Bruges",
@@ -7071,6 +7722,15 @@
 		"Date entered": "2024-8-23"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Pierino_di_Antonio",
+		"Musician Name": "Pierino di Antonio",
+		"Description": "singer in Florence, soprano",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Piero_Antonio_da_Bologna",
 		"Musician Name": "Piero Antonio da Bologna trombeta",
 		"Description": "trumpeter at Ferrarese court",
@@ -7103,6 +7763,25 @@
 		"BIB Pages": "360–8",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Piero_di_Antonio_Gallacini",
+		"Musician Name": "Piero di Antonio Gallacini",
+		"Description": "singer in Florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "32",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Piero_di_Girolamo_Cardini",
+		"Musician Name": "Piero Girolano Cardini",
+		"Alias": "Papa",
+		"Description": "singer in Florence, bass",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Piero_Griego",
@@ -7145,6 +7824,7 @@
 		"Description": "musician at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "201",
+		"Internal notes": "not verified by Appendix C in terms of normal personnel vs. singer",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
 	},
@@ -7184,6 +7864,7 @@
 		"Description": "musician at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "200-1",
+		"Internal notes": "not verified by Appendix C in terms of normal personnel vs. singer",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
 	},
@@ -7349,6 +8030,15 @@
 		"Date entered": "2024-9-26"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Rafaello_di_Piero_Turini",
+		"Musician Name": "Rafaello di Piero Turini",
+		"Description": "singer in florence, contralto",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Raganello_trombeta",
 		"Musician Name": "Raganello trombeta",
 		"Description": "trumpeter at Ferrarese court",
@@ -7395,6 +8085,15 @@
 		"BIB Pages": "351",
 		"Input data": "RP",
 		"Date entered": "2024-10-23"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Reginaldus",
+		"Musician Name": "Reginaldus",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "48",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Remigius_Mastaing",
@@ -7680,6 +8379,15 @@
 		"Date entered": "2024-9-6"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Romboldus_de_Ver",
+		"Musician Name": "Romboldus de Ver",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "48",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Rossetto_de_Thomaso",
 		"Musician Name": "Rosetto de Thomaso trombeta",
 		"Description": "trumpeter at Ferrarese court",
@@ -7831,6 +8539,15 @@
 		"Date entered": "2024-8-6"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Simone_Soldato",
+		"Musician Name": "Simone Soldato",
+		"Description": "singer in florence, contralto",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Simoni_Aengion",
 		"Musician Name": "Simoni Aengion",
 		"Alias": "Haengion; Simon Aengion\\",
@@ -7897,6 +8614,15 @@
 		"Date entered": "2024-11-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Stephanus",
+		"Musician Name": "Stephanus",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "48",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Stephanus_Le_Cristenier",
 		"Musician Name": "Stephanus Le Cristenier",
 		"Description": "musician in Bruges",
@@ -7913,6 +8639,15 @@
 		"BIB Pages": "358-59",
 		"Input data": "RP",
 		"Date entered": "2024-7-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Symon_Capron",
+		"Musician Name": "Symon Capron",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "47",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Symon_Coene",
@@ -7944,6 +8679,15 @@
 		"Date entered": "2024-10-18"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Symonet_le_Bouchier",
+		"Musician Name": "Symonet le Bouchier",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "48",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Theodorus_Spierinck",
 		"Musician Name": "Theodorus Spierinck",
 		"Description": "musician in Bruges",
@@ -7951,6 +8695,15 @@
 		"BIB Pages": "158",
 		"Input data": "LO",
 		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Theodricus_But",
+		"Musician Name": "Theodricus But",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "48",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Thomas_Fazanis",
@@ -8033,6 +8786,24 @@
 		"Date entered": "2024-10-24"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Tommaso_Corteccia",
+		"Musician Name": "Tommaso Corteccia",
+		"Description": "tenor, singer in florence",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "30",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Tommaso_di_Antonio_di_Piero",
+		"Musician Name": "Tommaso di Antonio di Piero",
+		"Description": "singer in florence, contralto",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Tommaso_trombeta",
 		"Musician Name": "Tommaso trombeta",
 		"Description": "musician at Ferrarese court",
@@ -8062,7 +8833,6 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Udorigo_tenorista",
 		"Musician Name": "Udorigo tenorista",
-		"Description": "singer at Ferrarese court",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
 		"BIB Pages": "357",
 		"Input data": "RP",
@@ -8131,6 +8901,15 @@
 		"Date entered": "2024-11-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Ventura_di_Lodovico_Peri",
+		"Musician Name": "Ventura di Lodovico Peri",
+		"Description": "singer in florence, bass",
+		"Bibliography ID (BIB)": "BIB:D'Accone_1971",
+		"BIB Pages": "25",
+		"Input data": "SMB",
+		"Date entered": "2024-11-20"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Victor_Arnoldi",
 		"Musician Name": "Victor Arnoldi",
 		"Description": "musician in Bruges",
@@ -8155,6 +8934,7 @@
 		"Description": "musician at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "200",
+		"Internal notes": "not verified by Appendix C in terms of normal personnel vs. singer",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
 	},

@@ -197,5 +197,12 @@
 		"Institution Description": "Chapel of Charles V (1500–1558), King of Spain, Holy Roman Emperor and Duke of Burgundy",
 		"Input data": "AN",
 		"Date entered": "2024-10-31"
+	},
+	{
+		"Institution ID (INS)": "INS:Our_Lady_Bruges",
+		"Institution Name": "Church of Our Lady",
+		"Institution Description": "Church in Bruges",
+		"Input data": "SMB",
+		"Date entered": "2024-11-29"
 	}
 ]

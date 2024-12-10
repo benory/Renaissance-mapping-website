@@ -201,6 +201,19 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Eakins_2016",
+		"Author": "Guillaume Faugues",
+		"Name of Volume/Journal": "The Complete Extant Transmissions of the Masses",
+		"Editor": "Rex Eakins",
+		"Volume": "4",
+		"Series": "Collected Works 29",
+		"Location": "Lions Bay",
+		"Publisher": "The Institute of Mediaeval Music",
+		"Publication Year": "2016",
+		"Input data": "AN",
+		"Date entered": "2024-10-21"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Fallows_2009",
 		"Author": "David Fallows",
 		"Name of Volume/Journal": "Josquin",
@@ -209,6 +222,20 @@
 		"Publication Year": "2009",
 		"Input data": "BSO",
 		"Date entered": "2023-3-21"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Ferer_2014",
+		"Author": "Mary Ferer",
+		"Name of Article": "Gombert, Thiebault, Crecquillon, Canis, Payen and the chapel of Charles V",
+		"Name of Volume/Journal": "Early Music",
+		"Volume": "42",
+		"Location": "Oxford",
+		"Publisher": "Oxford University Press",
+		"Publication Year": "2014",
+		"Pages": "191–206",
+		"URL": "https://doi.org/10.1093/em/cau027",
+		"Input data": "AN",
+		"Date entered": "2024-10-28"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Filocamo_2010",
@@ -508,6 +535,25 @@
 		"Date entered": "2024-3-18"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Nosow_2021",
+		"Author": "Robert Nosow",
+		"Name of Volume/Journal": "Hobrecht and his Singers",
+		"Location": "Turnhout",
+		"Publisher": "Brepols",
+		"Publication Year": "2021",
+		"Input data": "SMB",
+		"Date entered": "2024-11-21"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Pellegrini_2002",
+		"Author": "Marco Pellegrini",
+		"Name of Volume/Journal": "Ascanio Maria Sforza: la parabola politica di un cardinale-principe del rinascimento",
+		"Volume": "2 vols.",
+		"Location": "Rome",
+		"Publisher": "Istituto storico italiano per il medioevo",
+		"Publication Year": "2002"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Perkins_1984",
 		"Author": "Leeman L. Perkins",
 		"Name of Article": "Musical Patronage at the Royal Court of France Under Charles VII and Louis XI (1422-83)",
@@ -697,7 +743,7 @@
 		"Name of Volume/Journal": "Early Music",
 		"Volume": "20",
 		"Publication Year": "1992",
-		"Pages": "601-610",
+		"Pages": "601–610",
 		"Input data": "SMB",
 		"Date entered": "2024-10-12"
 	},
@@ -801,6 +847,20 @@
 		"Date entered": "2024-8-4"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Vanhulst_2005",
+		"Author": "Henri Vanhulst",
+		"Name of Article": "Clemens non Papa 'grant yvroigne et mal vivant'",
+		"Name of Volume/Journal": "Beyond Contemporary Fame: Reassessing the Art of Clemens non Papa and Thomas Crecquillon",
+		"Editor": "Eric Jas",
+		"Series": "Epitome musical",
+		"Location": "Turnhout",
+		"Publisher": "Brepols",
+		"Publication Year": "2005",
+		"Pages": "17–25",
+		"Input data": "AN",
+		"Date entered": "2024-12-04"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Wegman_2001",
 		"Author": "Rob C. Wegman",
 		"Name of Article": "Obrecht, Jacob",
@@ -829,7 +889,7 @@
 		"Name of Volume/Journal": "Revue de Musicologie",
 		"Volume": "95",
 		"Publication Year": "2009",
-		"Pages": "7-36",
+		"Pages": "7–36",
 		"Input data": "SMB",
 		"Date entered": "2024-10-13"
 	},
@@ -851,7 +911,7 @@
 		"Name of Volume/Journal": "Journal of Musicology",
 		"Volume": "23",
 		"Publication Year": "2006",
-		"Pages": "97-152",
+		"Pages": "97–152",
 		"Input data": "SMB",
 		"Date entered": "2024-9-29"
 	},
@@ -895,7 +955,7 @@
 		"Name of Volume/Journal": "Musical Quarterly",
 		"Volume": "64",
 		"Publication Year": "1978",
-		"Pages": "295-328",
+		"Pages": "295–328",
 		"Input data": "SMB",
 		"Date entered": "2024-10-18"
 	},
@@ -920,41 +980,5 @@
 		"Publication Year": "2005",
 		"Input data": "SMB",
 		"Date entered": "2024-6-21"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Eakins_2016",
-		"Author": "Guillaume Faugues",
-		"Name of Volume/Journal": "The Complete Extant Transmissions of the Masses",
-		"Editor": "Rex Eakins",
-		"Volume": "4",
-		"Series": "Collected Works 29",
-		"Location": "Lions Bay",
-		"Publisher": "The Institute of Mediaeval Music",
-		"Publication Year": "2016",
-		"Input data": "AN",
-		"Date entered": "2024-10-21"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Pellegrini_2002",
-		"Author": "Marco Pellegrini",
-		"Name of Volume/Journal": "Ascanio Maria Sforza: la parabola politica di un cardinale-principe del rinascimento",
-		"Volume": "2 vols.",
-		"Location": "Rome",
-		"Publisher": "Istituto storico italiano per il medioevo",
-		"Publication Year": "2002"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Ferer_2014",
-		"Author": "Mary Ferer",
-		"Name of Article": "Gombert, Thiebault, Crecquillon, Canis, Payen and the chapel of Charles V",
-		"Name of Volume/Journal": "Early Music",
-		"Volume": "42",
-		"Location": "Oxford",
-		"Publisher": "Oxford University Press",
-		"Publication Year": "2014",
-		"Pages": "191-206",
-		"URL": "https://doi.org/10.1093/em/cau027",
-		"Input data": "AN",
-		"Date entered": "2024-10-28"
 	}
 ]

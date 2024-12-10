@@ -92,6 +92,16 @@
 		"Date entered": "2023-5-8"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Baudechon_le_Jeusne",
+		"Person Name": "Baudechon le Jeusne",
+		"Alias": "le Jeusne, Baudeken",
+		"Noted Positions": "quartermaster at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2014",
+		"BIB Pages": "201",
+		"Input data": "AN",
+		"Date entered": "2024-11-05"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Bernadino_Salvetti",
 		"Person Name": "Bernadino Salvetti",
 		"Input data": "BSO",
@@ -205,6 +215,15 @@
 		"Date updated": "2023-5-8"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Cornelis_Swaen",
+		"Person Name": "Cornelis Swaen",
+		"Noted Positions": "calcant/souffleur d’orghes (responsible for adding air into the organ bellows) at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2014",
+		"BIB Pages": "202",
+		"Input data": "AN",
+		"Date entered": "2024-11-05"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Enea_Pio",
 		"Person Name": "Enea Pio",
 		"Noted Positions": "solider, ambassador for Duke Alfonso I d'Este",
@@ -274,6 +293,15 @@
 		"BIB Pages": "222n78",
 		"Input data": "BSO",
 		"Date entered": "2024-3-18"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Fransquin_du_Breuck",
+		"Person Name": "Fransquin du Breuck",
+		"Noted Positions": "cleric at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2014",
+		"BIB Pages": "201",
+		"Input data": "AN",
+		"Date entered": "2024-11-05"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:G_da_Sestola_dicto_Coglia",
@@ -363,6 +391,16 @@
 		"Date entered": "2024-9-22"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Henry_Smetz",
+		"Person Name": "Henry Smetz",
+		"Alias": "Smets, Henry; Smetz, Henriz",
+		"Noted Positions": "calcant/souffleur d’orghes (responsible for adding air into the organ bellows) at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2014",
+		"BIB Pages": "202",
+		"Input data": "AN",
+		"Date entered": "2024-11-05"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Innocent_VIII",
 		"Person Name": "Pope Innocent VIII",
 		"Alias": "Giovanni Battista Cybo",
@@ -390,6 +428,25 @@
 		"Date entered": "2023-6-7"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jehan_Baudewin",
+		"Person Name": "Jehan Baudewin",
+		"Alias": "Bauduwyn, Jehan",
+		"Noted Positions": "porter at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2014",
+		"BIB Pages": "201",
+		"Input data": "AN",
+		"Date entered": "2024-11-05"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jehan_Champepin",
+		"Person Name": "Jehan Champepin",
+		"Noted Positions": "cleric at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2014",
+		"BIB Pages": "201",
+		"Input data": "AN",
+		"Date entered": "2024-11-05"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Jehan_de_Lens",
 		"Person Name": "Jehan de Lens",
 		"Noted Positions": "bishop of Cambrai",
@@ -398,6 +455,16 @@
 		"BIB Pages": "54",
 		"Input data": "SMB",
 		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jennin_Mathieu",
+		"Person Name": "Jennin Mathieu",
+		"Alias": "Mathieu, Joannes",
+		"Noted Positions": "cleric at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2014",
+		"BIB Pages": "201",
+		"Input data": "AN",
+		"Date entered": "2024-11-05"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Johannes_Orceau",
@@ -716,72 +783,5 @@
 		"Date entered": "2023-4-16",
 		"Update data": "BSO",
 		"Date updated": "2023-5-8"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Henry_Smetz",
-		"Person Name": "Henry Smetz",
-		"Alias": "Smets, Henry; Smetz, Henriz",
-		"Noted Positions": "calcant/souffleur d’orghes (responsible for adding air into the organ bellows) at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2014",
-		"BIB Pages": "202",
-		"Input data": "AN",
-		"Date entered": "2024-11-05"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Cornelis_Swaen",
-		"Person Name": "Cornelis Swaen",
-		"Noted Positions": "calcant/souffleur d’orghes (responsible for adding air into the organ bellows) at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2014",
-		"BIB Pages": "202",
-		"Input data": "AN",
-		"Date entered": "2024-11-05"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Baudechon_le_Jeusne",
-		"Person Name": "Baudechon le Jeusne",
-		"Alias": "le Jeusne, Baudeken",
-		"Noted Positions": "quartermaster (?) at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2014",
-		"BIB Pages": "201",
-		"Input data": "AN",
-		"Date entered": "2024-11-05"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Jennin_Mathieu",
-		"Person Name": "Jennin Mathieu",
-		"Alias": "Mathieu, Joannes",
-		"Noted Positions": "cleric at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2014",
-		"BIB Pages": "201",
-		"Input data": "AN",
-		"Date entered": "2024-11-05"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Fransquin_du_Breuck",
-		"Person Name": "Fransquin du Breuck",
-		"Noted Positions": "cleric at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2014",
-		"BIB Pages": "201",
-		"Input data": "AN",
-		"Date entered": "2024-11-05"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Jehan_Champepin",
-		"Person Name": "Jehan Champepin",
-		"Noted Positions": "cleric at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2014",
-		"BIB Pages": "201",
-		"Input data": "AN",
-		"Date entered": "2024-11-05"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Jehan_Baudewin",
-		"Person Name": "Jehan Baudewin",
-		"Alias": "Bauduwyn, Jehan",
-		"Noted Positions": "porter (?) at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2014",
-		"BIB Pages": "201",
-		"Input data": "AN",
-		"Date entered": "2024-11-05"
 	}
 ]

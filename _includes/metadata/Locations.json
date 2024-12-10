@@ -2939,5 +2939,14 @@
 		"Coordinates": "41.915806718067515, 0.19271135325122624",
 		"Input data": "AN",
 		"Date entered": "2024-10-31"
+	},
+	{
+		"Location ID (LOC)": "LOC:s-Hertogenbosch",
+		"Name of Location": "'s-Hertogenbosch",
+		"Modern Country": "Netherlands",
+		"Google URL": "https://maps.app.goo.gl/KjR2j6HDsMyYWjM17",
+		"Coordinates": "51.69822392161367, 5.294145810019546",
+		"Input data": "AN",
+		"Date entered": "2024-12-04"
 	}
 ]

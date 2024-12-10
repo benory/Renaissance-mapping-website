@@ -1,5 +1,17 @@
 [
 	{
+		"Biography Composer (BCO) ID": "BCO:Adrien_Thiebault_dit_Pickart",
+		"Composer Name": "Adrien Thiebault dit Pickart",
+		"Alias": "Pickart, Adrien",
+		"Birth Date": "1496",
+		"Death Date": "1546",
+		"Description": "composer, musican, maitre de la chapelle at Imperial chapel of Charles V",
+		"Bibliography (BIB) ID": "BIB:Ferer_2014",
+		"BIB Pages": "198",
+		"Input data": "AN",
+		"Date entered": "2024-10-31"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Alexander_Agricola",
 		"Composer Name": "Alexander Agricola",
 		"Birth Date": "~1446",
@@ -173,6 +185,18 @@
 		"Date entered": "2024-4-5"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Cornelius_Canis",
+		"Composer Name": "Cornelius Canis",
+		"Description": "composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/671/",
+		"RISM ID": "pe30007460",
+		"RISM Link": "https://rism.online/people/30007460",
+		"Bibliography (BIB) ID": "BIB:Ferer_2014",
+		"BIB Pages": "198",
+		"Input data": "AN",
+		"Date entered": "2024-10-28"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Cornelius_Heyns",
 		"Composer Name": "Cornelius Heyns",
 		"Death Date": "1485",
@@ -220,6 +244,15 @@
 		"Date entered": "2024-2-22"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Francesco_de_Layolle",
+		"Composer Name": "Francesco de Layolle",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/1148/",
+		"RISM ID": "pe30010858",
+		"RISM Link": "https://rism.online/people/30010858",
+		"Input data": "SMB",
+		"Date entered": "2024-11-15"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Franchinus_Gaffurius",
 		"Composer Name": "Franchinus Gaffurius",
 		"Death Date": "1522-6-22",
@@ -229,15 +262,6 @@
 		"RISM Link": "https://rism.online/people/30102810",
 		"Input data": "SMB",
 		"Date entered": "2024-8-11"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Francesco_de_Layolle",
-		"Composer Name": "Francesco de Layolle",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/1148/",
-		"RISM ID": "pe30010858",
-		"RISM Link": "https://rism.online/people/30010858",
-		"Input data": "SMB",
-		"Date entered": "2024-11-15"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Francisco_de_Peñalosa",
@@ -382,6 +406,18 @@
 		"Date updated": "2023-5-9"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Jacobus_Clemens_non_Papa",
+		"Composer Name": "Jacobus Clemens non Papa",
+		"Birth Date": "~1510",
+		"Death Date": "1555",
+		"Description": "Clergyman, composer, singer, succentor",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/669/",
+		"RISM ID": "pe30000686",
+		"RISM Link": "https://rism.online/people/30000686",
+		"Input data": "AN",
+		"Date entered": "2024-12-4"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Jacobus_Coutreman",
 		"Composer Name": "Jacobus Coutreman",
 		"Alias": "Couterman, Jacobus",
@@ -422,6 +458,16 @@
 		"RISM Link": "https://rism.online/people/30004860",
 		"Input data": "BSO",
 		"Date entered": "2024-3-19"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Jacques_Champion",
+		"Composer Name": "Jacques Champion",
+		"Description": "maitre des enffans at Imperial chapel of Charles V",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/626/",
+		"Bibliography (BIB) ID": "BIB:Ferer_2014",
+		"BIB Pages": "194-195, 198",
+		"Input data": "AN",
+		"Date entered": "2024-10-31"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Jean_Cousin",
@@ -807,6 +853,48 @@
 		"Date updated": "2024-3-19"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Nicolas_Champion",
+		"Composer Name": "Nicolas Champion",
+		"Alias": "le Liegeois",
+		"Birth Date": "~1470-5",
+		"Death Date": "1533",
+		"Description": "composer, priest, singer; maitre de la chapelle at Imperial chapel of Charles V",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/627/",
+		"RISM ID": "pe30102560",
+		"RISM Link": "https://rism.online/people/30102560",
+		"Bibliography (BIB) ID": "BIB:Ferer_2014",
+		"BIB Pages": "198",
+		"Input data": "AN",
+		"Date entered": "2024-10-31"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Nicolas_Gombert",
+		"Composer Name": "Nicolas Gombert",
+		"Alias": "Gumbert, Nicolle",
+		"Description": "composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/263/",
+		"RISM ID": "pe30006168",
+		"RISM Link": "https://rism.online/people/30006168",
+		"Bibliography (BIB) ID": "BIB:Ferer_2014",
+		"BIB Pages": "198",
+		"Input data": "AN",
+		"Date entered": "2024-10-28"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Nicolas_Payen",
+		"Composer Name": "Nicolas Payen",
+		"Birth Date": "~1512",
+		"Death Date": "1559",
+		"Description": "composer, maitre de la chapelle at Imperial chapel of Charles V",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/1248/",
+		"RISM ID": "pe30008617",
+		"RISM Link": "https://rism.online/people/30008617",
+		"Bibliography (BIB) ID": "BIB:Ferer_2014",
+		"BIB Pages": "198",
+		"Input data": "AN",
+		"Date entered": "2024-11-5"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Nicole_Grenon",
 		"Composer Name": "Nicole Grenon",
 		"Alias": "Nicolas",
@@ -940,6 +1028,20 @@
 		"Date entered": "2024-8-31"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Thomas_Crecquillon",
+		"Composer Name": "Thomas Crecquillon",
+		"Birth Date": "~1505",
+		"Death Date": "~1557",
+		"Description": "composer, clergyman, singer, maitre de la chapelle at Imperial chapel of Charles V",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/418/",
+		"RISM ID": "pe30005361",
+		"RISM Link": "https://rism.online/people/30005361",
+		"Bibliography (BIB) ID": "BIB:Ferer_2014",
+		"BIB Pages": "198",
+		"Input data": "AN",
+		"Date entered": "2024-11-5"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Thomas_Fabri",
 		"Composer Name": "Thomas Fabri",
 		"Description": "Composer; cleric; succentor",
@@ -990,95 +1092,5 @@
 		"Bibliography (BIB) ID": "BIB:Bowers_2001",
 		"Input data": "SMB",
 		"Date entered": "2024-8-9"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Nicolas_Gombert",
-		"Composer Name": "Nicolas Gombert",
-		"Alias": "Gumbert, Nicolle",
-		"Description": "composer",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/263/",
-		"RISM ID": "pe30006168",
-		"RISM Link": "https://rism.online/people/30006168",
-		"Bibliography (BIB) ID": "BIB:Ferer_2014",
-		"BIB Pages": "198",
-		"Input data": "AN",
-		"Date entered": "2024-10-28"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Cornelius_Canis",
-		"Composer Name": "Cornelius Canis",
-		"Description": "composer",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/671/",
-		"RISM ID": "pe30007460",
-		"RISM Link": "https://rism.online/people/30007460",
-		"Bibliography (BIB) ID": "BIB:Ferer_2014",
-		"BIB Pages": "198",
-		"Input data": "AN",
-		"Date entered": "2024-10-28"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Jacques_Champion",
-		"Composer Name": "Jacques Champion",
-		"Description": "maitre des enffans at Imperial chapel of Charles V",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/626/",
-		"Bibliography (BIB) ID": "BIB:Ferer_2014",
-		"BIB Pages": "194-195, 198",
-		"Input data": "AN",
-		"Date entered": "2024-10-31"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Nicolas_Champion",
-		"Composer Name": "Nicolas Champion",
-		"Alias": "le Liegeois",
-		"Birth Date": "~1470-5",
-		"Death Date": "1533",
-		"Description": "composer, priest, singer; maitre de la chapelle at Imperial chapel of Charles V",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/627/",
-		"RISM ID": "pe30102560",
-		"RISM Link": "https://rism.online/people/30102560",
-		"Bibliography (BIB) ID": "BIB:Ferer_2014",
-		"BIB Pages": "198",
-		"Input data": "AN",
-		"Date entered": "2024-10-31"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Adrien_Thiebault_dit_Pickart",
-		"Composer Name": "Adrien Thiebault dit Pickart",
-		"Alias": "Pickart, Adrien",
-		"Birth Date": "1496",
-		"Death Date": "1546",
-		"Description": "composer, musican, maitre de la chapelle at Imperial chapel of Charles V",
-		"Bibliography (BIB) ID": "BIB:Ferer_2014",
-		"BIB Pages": "198",
-		"Input data": "AN",
-		"Date entered": "2024-10-31"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Thomas_Crecquillon",
-		"Composer Name": "Thomas Crecquillon",
-		"Birth Date": "~1505",
-		"Death Date": "~1557",
-		"Description": "composer, clergyman, singer, maitre de la chapelle at Imperial chapel of Charles V",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/418/",
-		"RISM ID": "pe30005361",
-		"RISM Link": "https://rism.online/people/30005361",
-		"Bibliography (BIB) ID": "BIB:Ferer_2014",
-		"BIB Pages": "198",
-		"Input data": "AN",
-		"Date entered": "2024-11-5"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Nicolas_Payen",
-		"Composer Name": "Nicolas Payen",
-		"Birth Date": "~1512",
-		"Death Date": "1559",
-		"Description": "composer, maitre de la chapelle at Imperial chapel of Charles V",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/1248/",
-		"RISM ID": "pe30008617",
-		"RISM Link": "https://rism.online/people/30008617",
-		"Bibliography (BIB) ID": "BIB:Ferer_2014",
-		"BIB Pages": "198",
-		"Input data": "AN",
-		"Date entered": "2024-11-5"
 	}
 ]
