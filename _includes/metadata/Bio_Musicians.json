@@ -3728,6 +3728,15 @@
 		"Date entered": "2024-4-4"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Hubertus_de_Belle",
+		"Musician Name": "Hubertus de Belle",
+		"Description": "choirboy in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "96",
+		"Input data": "SMB",
+		"Date entered": "2024-12-14"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Hughes_des_Couleurs",
 		"Musician Name": "Hughes des Couleurs",
 		"Alias": "des Couleurs, Hugues; des Colleurs, Hughes",
@@ -4886,6 +4895,15 @@
 		"Date entered": "2023-3-28"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Binchois",
+		"Musician Name": "Johannes Binchois",
+		"Description": "sginer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "107",
+		"Input data": "SMB",
+		"Date entered": "2024-12-15"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Blijman",
 		"Musician Name": "Johannes Blijman",
 		"Death Date": "1510",
@@ -5059,6 +5077,15 @@
 		"BIB Pages": "59",
 		"Input data": "SMB",
 		"Date entered": "2024-12-1"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Curtraco",
+		"Musician Name": "Johannes de Curtraco",
+		"Description": "choirboy in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "96",
+		"Input data": "SMB",
+		"Date entered": "2024-12-14"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_de_Fonte",

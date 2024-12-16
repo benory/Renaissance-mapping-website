@@ -102,6 +102,15 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Location ID (LOC)": "LOC:Antwerp",
+		"Name of Location": "Antwerp",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/xsafR3MCayZH1BUo7",
+		"Coordinates": "51.22, 4.4",
+		"Input data": "SMB",
+		"Date entered": "2024-12-15"
+	},
+	{
 		"Location ID (LOC)": "LOC:Anvaing",
 		"Name of Location": "Anvaing",
 		"Modern Country": "Belgium",
@@ -241,6 +250,15 @@
 		"Coordinates": "45.7, 9.7",
 		"Input data": "SMB",
 		"Date entered": "2024-10-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bergen_op_Zoom",
+		"Name of Location": "Bergen op Zoom",
+		"Modern Country": "Netherlands",
+		"Google URL": "https://maps.app.goo.gl/ciih8Aa6cXUMhtWYA",
+		"Coordinates": "51.5, 4.28",
+		"Input data": "SMB",
+		"Date entered": "2024-12-12"
 	},
 	{
 		"Location ID (LOC)": "LOC:Besancon",
@@ -974,6 +992,15 @@
 		"Coordinates": "44.40404009444587, 8.942671767272765",
 		"Input data": "BSO",
 		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ghent",
+		"Name of Location": "Ghent",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/cRS7e6MotdUREFMw5",
+		"Coordinates": "51, 3.72",
+		"Input data": "SMB",
+		"Date entered": "2024-12-15"
 	},
 	{
 		"Location ID (LOC)": "LOC:Ghent-Rijksarchief",
