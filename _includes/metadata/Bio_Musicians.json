@@ -1,6 +1,6 @@
 [
 	{
-		"Biography Musician (BMU) ID": "Biography Musician (BMU) ID",
+		"Biography Musician (BMU) ID": "BMU:Achilles_de_Bleysere",
 		"Musician Name": "Achilles de Bleysere",
 		"Description": "musician in Bruges",
 		"Bibliography ID (BIB)": "BIB:Strohm_1985",
@@ -4771,6 +4771,15 @@
 		"BIB Pages": "353",
 		"Input data": "RP",
 		"Date entered": "2024-9-26"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jeronimus_de_Clibano",
+		"Musician Name": "Jeronimus de Clibano",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "158",
+		"Input data": "SMB",
+		"Date entered": "2024-12-18"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Jo_Sorno",

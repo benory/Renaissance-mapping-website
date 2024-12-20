@@ -2383,6 +2383,15 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Location ID (LOC)": "LOC:Saint-Omer",
+		"Name of Location": "Saint-Omer",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/bGpCM7zH7htGSA5H8",
+		"Coordinates": "50.75, 2.26",
+		"Input data": "SMB",
+		"Date entered": "2024-12-18"
+	},
+	{
 		"Location ID (LOC)": "LOC:Saint-Outrille",
 		"Name of Location": "Saint-Outrille",
 		"Modern Country": "France",
