@@ -245,6 +245,9 @@ function doMapSetup(opts) {
             // Get dates
             if (events[i][DATERANGE]) {
                 daterange = events[i][DATERANGE];
+
+                // Remove extra spaces in date range
+                daterange = daterange.replace(/\s+/g, ' ').trim();
                 
                 // Get earliest/latest years, months, dates
                 earliestyear = events[i][EYEAR];
@@ -275,11 +278,11 @@ function doMapSetup(opts) {
             // Return a console message if the location certainty is not 1, 2, 3, or 4
             if (locationCertainty && locationCertainty !== "1"){
                 if (locationCertainty === "2"){
-                    locationprocessed += ` [probable]`;
+                    locationprocessed += `?`;
                 } else if (locationCertainty === "3"){
-                    locationprocessed += ` [possible]`;
+                    locationprocessed += `??`;
                 } else if (locationCertainty === "4"){
-                    locationprocessed += ` [doubtful]`;
+                    locationprocessed += `???`;
                 } else {
                     console.warn("Forbidden location certainty for", eventid, locationCertainty);
                     continue;
@@ -292,11 +295,11 @@ function doMapSetup(opts) {
 
             if (earliestDateCertainty && earliestDateCertainty !== "1"){
                 if (earliestDateCertainty === "2"){
-                    daterange += ` [earliest date probable]`;
+                    daterange += `?`;
                 } else if (earliestDateCertainty === "3"){
-                    daterange += ` [earliest date possible]`;
+                    daterange += `??`;
                 } else if (earliestDateCertainty === "4"){
-                    daterange += ` [earliest date doubtful]`;
+                    daterange += `???`;
                 } else {
                     console.warn("Forbidden earliestDateCertainty certainty for", eventid, earliestDateCertainty);
                     continue;
@@ -305,11 +308,11 @@ function doMapSetup(opts) {
 
             if (latestDateCertainty && latestDateCertainty !== "1"){
                 if (latestDateCertainty === "2"){
-                    daterange += ` [latest date probable]`;
+                    daterange += `?`;
                 } else if (latestDateCertainty === "3"){
-                    daterange += ` [latest date possible]`;
+                    daterange += `??`;
                 } else if (latestDateCertainty === "4"){
-                    daterange += ` [latest date doubtful]`;
+                    daterange += `???`;
                 } else {
                     console.warn("Forbidden latestDateCertainty certainty for", eventid, latestDateCertainty);
                     continue;
@@ -322,11 +325,11 @@ function doMapSetup(opts) {
 
             if (rangeCertainty && rangeCertainty !== "1"){
                 if (rangeCertainty === "2"){
-                    description += ` [event probable]`;
+                    description += `?`;
                 } else if (rangeCertainty === "3"){
-                    description += ` [event possible]`;
+                    description += `??`;
                 } else if (rangeCertainty === "4"){
-                    description += ` [event doubtful]`;
+                    description += `???`;
                 } else {
                     console.warn("Forbidden rangeCertainty certainty for", eventid, rangeCertainty);
                     continue;
@@ -530,7 +533,20 @@ function doMapSetup(opts) {
                         }
                     }).bindPopup(geoJsonFeature.properties.popupContent);
 
-                    markers.push({ marker, personID: person, text: `[${daterange}] ${personprocessed}: ${description}`, locationCertainty: locationCertainty, earliestDateCertainty: earliestDateCertainty, latestDateCertainty: latestDateCertainty, rangeCertainty: rangeCertainty, earliestyear: earliestyear, latestyear: latestyear });
+                    markers.push({ marker, 
+                        personID: person, 
+                        text: `[${daterange}] ${personprocessed}: ${description}`, 
+                        locationCertainty: locationCertainty, 
+                        earliestDateCertainty: earliestDateCertainty, 
+                        latestDateCertainty: latestDateCertainty, 
+                        rangeCertainty: rangeCertainty, 
+                        earliestyear: earliestyear, 
+                        latestyear: latestyear, 
+                        eventid: eventid, 
+                        description: description, 
+                        locationprocessed: locationprocessed, 
+                        daterange: daterange, 
+                        personprocessed: personprocessed });
                 } else {
                     console.warn('Invalid coordinates:', coordsArray, events[i]);
                     continue;
@@ -539,6 +555,7 @@ function doMapSetup(opts) {
                 continue;
             }
             // Reset variables
+            eventid = "";
             person = "";
             personprocessed = "";
             locationid = "";
@@ -626,13 +643,16 @@ function filterMarkers(searchRegex = null) {
 
     let searchCount = 0;  // Track how many markers match the filters
 
-    markers.forEach(({ marker, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, text }) => {
+    markers.forEach(({ marker, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, text, eventid, daterange, locationprocessed, description, personprocessed }) => {
         const type = personID.substring(0, 3);  // Example of how type could be extracted
         const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
         let show = shouldShowMarker(type, checkboxStates, certainties);
 
         // Apply search filter if searchRegex is provided
-        if (show && searchRegex && !text.match(searchRegex)) {
+        if (show && searchRegex && !(text.match(searchRegex) || 
+            locationprocessed.match(searchRegex) || 
+            String(earliestyear).match(searchRegex) || 
+            String(latestyear).match(searchRegex))) {
             show = false;
         }
 
@@ -661,8 +681,9 @@ function filterMarkers(searchRegex = null) {
             show = false;
         }
 
-        // Update marker visibility on the map
+        // Update marker visibility on the map and in table
         updateMarkerOnMap(marker, show);
+        updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, show, eventid);
     });
 
     // Update search count display
@@ -780,18 +801,23 @@ function UserSearch(skipFilter = false) {
     const minYear = document.getElementById('date-slider-min').value;
     const maxYear = document.getElementById('date-slider-max').value;
 
-    markers.forEach(({ marker, text, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear }) => {
+    markers.forEach(({ marker, text, personID, locationprocessed, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, eventid, daterange, description, personprocessed }) => {
+        console.warn(personprocessed, locationprocessed);
         const type = personID.substring(0, 3);
         const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
-        let show = shouldShowMarker(type, checkboxStates, certainties) && text.match(regex);
+        let show = shouldShowMarker(type, checkboxStates, certainties) && 
+           (text.match(regex) || 
+            locationprocessed.match(regex) || 
+            String(earliestyear).match(regex) || 
+            String(latestyear).match(regex));
 
         // Apply chronology filter based on date slider
-       
         if (earliestyear > maxYear || latestyear < minYear) {
             show = false;
         }
 
         updateMarkerOnMap(marker, show);
+        updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, show, eventid);
         if (show) searchCount++;
     });
 
@@ -886,6 +912,47 @@ function updateSliderBackground() {
         #ddd 100%)`;
 
     sliderMax.style.background = sliderMin.style.background;
+}
+
+
+function sanitizeEventId(eventid) {
+    return eventid.replace(/[^a-zA-Z0-9-_]/g, '_'); // Replace invalid characters with underscores
+}
+
+function updateMarkerSidebar(marker, show, eventid) {
+    
+    // Sanitize eventid for use as a DOM id
+    const sanitizedEventId = sanitizeEventId(eventid);
+
+    // Get the table body
+    const tableBody = document.querySelector('#active-markers-table tbody');
+    
+    // Check if the marker should be shown or removed
+    if (show) {
+        // Add the marker to the table if not already present
+        const existingRow = document.querySelector(`#marker-${sanitizedEventId}`);
+        if (!existingRow) {
+            const row = document.createElement('tr');
+            row.id = `marker-${sanitizedEventId}`; // Use sanitized id for the row
+
+            // Create a single cell for the row
+            const cell = document.createElement('td');
+            const truncatedDescription = marker.description ? marker.description.slice(0, 100) + (marker.description.length > 100 ? '...' : '') : '';
+            cell.textContent = `${marker.personprocessed || ''}, ${marker.locationprocessed || ''}, ${marker.daterange || ''}${truncatedDescription ? ', ' + truncatedDescription : ''}`;
+
+            // Append the cell to the row
+            row.appendChild(cell);
+
+            // Append the row to the table body
+            tableBody.appendChild(row);
+        }
+    } else {
+        // Remove the marker from the table if it's not visible
+        const existingRow = document.querySelector(`#marker-${sanitizedEventId}`);
+        if (existingRow) {
+            tableBody.removeChild(existingRow);
+        }
+    }
 }
 
 </script>

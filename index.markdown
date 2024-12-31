@@ -42,27 +42,36 @@ layout: page
 
 <div class="small-space"></div>
 
-<div id="map"></div>
-
-<div class="small-space"></div>
-
-<table class="histogram">
-    <tr id="histogramRow"></tr>
-</table>
-
-<div class="slider-container">
-    <div class="slider-wrapper">
-        <div class="slider-highlighted-track"></div> <!-- The blue track -->
-        <div class="slider-min-container">
-            <input type="range" id="date-slider-min" min="1400" max="1600" value="1400" step="1" oninput="updateDateRange(); updateSliderBackground()">
-        </div>
-        <div class="slider-max-container">
-            <input type="range" id="date-slider-max" min="1400" max="1600" value="1600" step="1" oninput="updateDateRange(); updateSliderBackground()">
-        </div>
-        <div class="slider-active-label-container">
-            <span id="slider-start-active-label" class="slider-active-label-start">1400</span>
-            <span id="slider-end-active-label" class="slider-active-label-end">1600</span>
+<div class="container">
+    <div class="row">
+        <div id="map"></div>
+        <div id="sidebar">
+            <div id="sidebar">
+                <table id="active-markers-table">
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
     </div>
-    <span id="slider-date-range"></span>
+    <div class="small-space"></div>
+    <div class="histogram-container">
+        <table class="histogram">
+            <tr id="histogramRow"></tr>
+        </table>
+        <div class="slider-container">
+            <div class="slider-wrapper">
+                <div class="slider-highlighted-track"></div> <!-- The blue track -->
+                <div class="slider-min-container">
+                    <input type="range" id="date-slider-min" min="1400" max="1600" value="1400" step="1" oninput="updateDateRange(); updateSliderBackground()">
+                </div>
+                <div class="slider-max-container">
+                    <input type="range" id="date-slider-max" min="1400" max="1600" value="1600" step="1" oninput="updateDateRange(); updateSliderBackground()">
+                </div>
+                <div class="slider-active-label-container">
+                    <span id="slider-start-active-label" class="slider-active-label-start">1400</span>
+                    <span id="slider-end-active-label" class="slider-active-label-end">1600</span>
+                </div>
+            </div>
+            <span id="slider-date-range"></span>
+    </div>
 </div>
