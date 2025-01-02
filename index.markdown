@@ -50,7 +50,7 @@ layout: page
                 <table id="active-markers-table">
                         <thead>
                             <tr>
-                                <th>Events Shown on Map</th>
+                                <th>Events Shown on Map<br>(click to select event)</th>
                             </tr>
                         </thead>
                     <tbody></tbody>
