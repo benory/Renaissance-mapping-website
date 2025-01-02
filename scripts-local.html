@@ -802,7 +802,6 @@ function UserSearch(skipFilter = false) {
     const maxYear = document.getElementById('date-slider-max').value;
 
     markers.forEach(({ marker, text, personID, locationprocessed, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, eventid, daterange, description, personprocessed }) => {
-        console.warn(personprocessed, locationprocessed);
         const type = personID.substring(0, 3);
         const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
         let show = shouldShowMarker(type, checkboxStates, certainties) && 
@@ -919,15 +918,13 @@ function sanitizeEventId(eventid) {
     return eventid.replace(/[^a-zA-Z0-9-_]/g, '_'); // Replace invalid characters with underscores
 }
 
-function updateMarkerSidebar(marker, show, eventid) {
-    
+function updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, show, eventid) {
     // Sanitize eventid for use as a DOM id
     const sanitizedEventId = sanitizeEventId(eventid);
 
     // Get the table body
     const tableBody = document.querySelector('#active-markers-table tbody');
-    
-    // Check if the marker should be shown or removed
+
     if (show) {
         // Add the marker to the table if not already present
         const existingRow = document.querySelector(`#marker-${sanitizedEventId}`);
@@ -937,11 +934,32 @@ function updateMarkerSidebar(marker, show, eventid) {
 
             // Create a single cell for the row
             const cell = document.createElement('td');
-            const truncatedDescription = marker.description ? marker.description.slice(0, 100) + (marker.description.length > 100 ? '...' : '') : '';
-            cell.textContent = `${marker.personprocessed || ''}, ${marker.locationprocessed || ''}, ${marker.daterange || ''}${truncatedDescription ? ', ' + truncatedDescription : ''}`;
+            const truncatedDescription = description
+                ? description.slice(0, 100) + (description.length > 100 ? '...' : '')
+                : '';
+            cell.textContent = `${personprocessed || ''}, ${locationprocessed || ''}, ${daterange || ''}${truncatedDescription ? ', ' + truncatedDescription : ''}`;
 
             // Append the cell to the row
             row.appendChild(cell);
+
+            // Add click event listener to center the map and open the pop-up
+            row.addEventListener('click', () => {
+                const marker = markers.find(m => m.eventid === eventid)?.marker; // Find the associated marker
+                if (marker) {
+                    if (marker.getLatLng) {
+                        // If it's a single point marker or CircleMarker, center the map and open the pop-up
+                        map.setView(marker.getLatLng()); // Adjust zoom level as needed
+                    }
+
+                    // Open the pop-up if available
+                    if (marker.openPopup) {
+                        marker.openPopup();
+                        console.warn(eventid);
+                    }
+                } else {
+                    console.warn(`No marker found for eventid: ${eventid}`);
+                }
+            });
 
             // Append the row to the table body
             tableBody.appendChild(row);

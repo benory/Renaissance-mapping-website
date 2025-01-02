@@ -244,7 +244,16 @@ table.histogram div.count {
     border-collapse: collapse;
 }
 
-#active-markers-table th, #active-markers-table td {
+#active-markers-table th {
+    text-align: center; /* Center the text horizontally */
+    font-size: 12px; /* Set the font size */
+    font-weight: bold; /* Optional: Make the header text bold */
+    padding: 5px; /* Add some padding for better spacing */
+    background-color: #f4f4f4; /* Optional: Add a light background color */
+    border-bottom: 1px solid #ccc; /* Optional: Add a border under the header */
+}
+
+#active-markers-table td {
     text-align: left;
     word-wrap: break-word; /* Break long text into new lines */
     overflow-wrap: anywhere; /* Ensure words don't overflow their cells */

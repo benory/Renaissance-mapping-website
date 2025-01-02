@@ -48,6 +48,11 @@ layout: page
         <div id="sidebar">
             <div id="sidebar">
                 <table id="active-markers-table">
+                        <thead>
+                            <tr>
+                                <th>Events Shown on Map</th>
+                            </tr>
+                        </thead>
                     <tbody></tbody>
                 </table>
             </div>
