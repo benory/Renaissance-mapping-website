@@ -385,7 +385,7 @@ function doMapSetup(opts) {
             if (events[i][BIBID]){
                 let bibliographyid = events[i][BIBID];
                 let bibliographypages = "";
-
+                
                 if (events[i][BIBPAGES]){
                     bibliographypages = events[i][BIBPAGES];
                 }
@@ -401,7 +401,7 @@ function doMapSetup(opts) {
                 } else {
                     bibliographypages = [ bibliographypages ];
                 }
-            
+
                 for (let j=0; j<bibliographyid.length; j++){
 
                     let bibliographyInfo = findInfo(bibliographyid[j], "Bibliography");
@@ -425,10 +425,14 @@ function doMapSetup(opts) {
                     }
 
                     if (articlename) {
-                        bibliography += `"${articlename}," `;
+                        bibliography += `"${articlename}`;
                     }
 
-                    if (volumename){
+                    if (articlename && volumename){
+                        bibliography += `," <i>${volumename}</i>`;
+                    } else if (articlename && !volumename) {
+                        bibliography += `"`;
+                    } else if (volumename && !articlename) {
                         bibliography += `<i>${volumename}</i>`;
                     }
 
@@ -567,6 +571,7 @@ function doMapSetup(opts) {
             description = "";
             docentry = "";
             bibliography = "";
+            bibliographyid = "";
             bibliographypages = "";
             archiveprocessed = "";
             earliestyear = "";
