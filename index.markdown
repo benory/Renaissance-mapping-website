@@ -9,7 +9,7 @@ layout: page
 {% include_relative scripts-local.html %}
 
 <div class="search-bar">
-    <input type="text" id="input" onkeyup="UserSearch()" placeholder="Enter person, place, or event">
+    <input type="text" id="input" onkeyup="UserSearch()" placeholder="Enter person, place, year, or event">
     <span id="search-count"></span>
     <div class="checkbox-container">
     <div class="checkbox-item">
