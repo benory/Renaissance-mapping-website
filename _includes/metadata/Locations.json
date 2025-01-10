@@ -1334,6 +1334,15 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Location ID (LOC)": "LOC:Leuven",
+		"Name of Location": "Leuven",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/w1cF43ymhyU1uM7j8",
+		"Coordinates": "50.88, 4.7",
+		"Input data": "SMB",
+		"Date entered": "2025-1-9"
+	},
+	{
 		"Location ID (LOC)": "LOC:Leuze",
 		"Name of Location": "Leuze",
 		"Modern Country": "Belgium",
@@ -2508,6 +2517,15 @@
 		"Date entered": "2024-7-28"
 	},
 	{
+		"Location ID (LOC)": "LOC:Sluis",
+		"Name of Location": "Sluis",
+		"Modern Country": "Netherlands",
+		"Google URL": "https://maps.app.goo.gl/bdP7cuuc3m5UV778A",
+		"Coordinates": "51.31, 3.39",
+		"Input data": "SMB",
+		"Date entered": "2025-1-8"
+	},
+	{
 		"Location ID (LOC)": "LOC:Soignies",
 		"Name of Location": "Soignies",
 		"Modern Country": "Belgium",
@@ -2587,6 +2605,15 @@
 		"Coordinates": "39.86352693956841, -4.026552444846155",
 		"Input data": "SMB",
 		"Date entered": "2024-8-4"
+	},
+	{
+		"Location ID (LOC)": "LOC:Torhout",
+		"Name of Location": "Torhour",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/Z3CupqgfTKHpV6on7",
+		"Coordinates": "51.06, 3.1",
+		"Input data": "SMB",
+		"Date entered": "2025-1-8"
 	},
 	{
 		"Location ID (LOC)": "LOC:Tournai",

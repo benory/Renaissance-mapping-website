@@ -469,6 +469,15 @@
 		"Date entered": "2024-11-05"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Anthonius_Hulle",
+		"Musician Name": "Anthonius Hulle",
+		"Description": "Singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "200",
+		"Input data": "SMB",
+		"Date entered": "2025-01-08"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Antoine_Bernard",
 		"Musician Name": "Antoine Bernard",
 		"Description": "singer at court of Savoy",
@@ -2631,6 +2640,7 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Georgius",
 		"Musician Name": "Georgius",
+		"Alias": "Georgius Minne de Hondiscota",
 		"Description": "singer in Bruges, \"virgifer chori\"",
 		"Bibliography ID (BIB)": "BIB:Nosow_2021",
 		"BIB Pages": "47",
@@ -7138,6 +7148,15 @@
 		"BIB Pages": "156",
 		"Input data": "LO",
 		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Paschasius_Volkerane",
+		"Musician Name": "Paschasius Volkerane",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "200",
+		"Input data": "SMB",
+		"Date entered": "2025-1-8"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Pasquier_le_Kent",
