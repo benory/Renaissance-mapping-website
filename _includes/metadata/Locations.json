@@ -1,5 +1,14 @@
 [
 	{
+		"Location ID (LOC)": "LOC:Aardenburg",
+		"Name of Location": "Aardenburg",
+		"Modern Country": "Netherlands",
+		"Google URL": "https://maps.app.goo.gl/APRLXVpsYpK2RuHB7",
+		"Coordinates": "51.27, 3.44",
+		"Input data": "SMB",
+		"Date entered": "2025-1-11"
+	},
+	{
 		"Location ID (LOC)": "LOC:Abbeville",
 		"Name of Location": "Abbeville",
 		"Modern Country": "France",
@@ -733,6 +742,15 @@
 		"Coordinates": "47.32113547138486, 5.043888962907794",
 		"Input data": "BSO",
 		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Diksmuide",
+		"Name of Location": "Diksmuide",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/AJhtVDBguzfWMtck6",
+		"Coordinates": "51.03, 2.86",
+		"Input data": "SMB",
+		"Date entered": "2025-1-11"
 	},
 	{
 		"Location ID (LOC)": "LOC:Dinan",
