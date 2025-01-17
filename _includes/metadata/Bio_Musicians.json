@@ -6066,6 +6066,15 @@
 		"Date entered": "2024-9-20"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Livinus_de_Hond",
+		"Musician Name": "Livinus de Hond",
+		"Description": "singer in Bruges",
+		"Bibliography ID (BIB)": "BIB:Nosow_2021",
+		"BIB Pages": "255",
+		"Input data": "SMB",
+		"Date entered": "2025-1-16"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Lorenzo_da_Modena",
 		"Musician Name": "Lorenzo da Modena",
 		"Description": "singer at Ferrarese Court",
