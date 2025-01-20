@@ -4,7 +4,7 @@
 		"Name of Location": "Aardenburg",
 		"Modern Country": "Netherlands",
 		"Google URL": "https://maps.app.goo.gl/APRLXVpsYpK2RuHB7",
-		"Coordinates": "51.27, 3.44",
+		"Coordinates": "51.2741802143012, 3.44555257222285",
 		"Input data": "SMB",
 		"Date entered": "2025-1-11"
 	},
@@ -115,7 +115,7 @@
 		"Name of Location": "Antwerp",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/xsafR3MCayZH1BUo7",
-		"Coordinates": "51.22, 4.4",
+		"Coordinates": "51.219097326019515, 4.41613266514408",
 		"Input data": "SMB",
 		"Date entered": "2024-12-15"
 	},
@@ -140,7 +140,7 @@
 		"Name of Location": "Assisi",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/FsBkaksh3cJwFPLQ7",
-		"Coordinates": "43.07, 12.62",
+		"Coordinates": "43.070634708285745, 12.620032196731941",
 		"Input data": "SMB",
 		"Date entered": "2024-10-23"
 	},
@@ -256,7 +256,7 @@
 		"Name of Location": "Bergamo",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/8XowhiwNcQf8FL126",
-		"Coordinates": "45.7, 9.7",
+		"Coordinates": "45.69401424856386, 9.675156995710083",
 		"Input data": "SMB",
 		"Date entered": "2024-10-23"
 	},
@@ -265,7 +265,7 @@
 		"Name of Location": "Bergen op Zoom",
 		"Modern Country": "Netherlands",
 		"Google URL": "https://maps.app.goo.gl/ciih8Aa6cXUMhtWYA",
-		"Coordinates": "51.5, 4.28",
+		"Coordinates": "51.493036931231856, 4.2850676756670945",
 		"Input data": "SMB",
 		"Date entered": "2024-12-12"
 	},
@@ -748,7 +748,7 @@
 		"Name of Location": "Diksmuide",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/AJhtVDBguzfWMtck6",
-		"Coordinates": "51.03, 2.86",
+		"Coordinates": "51.03074976859403, 2.8691947786612615",
 		"Input data": "SMB",
 		"Date entered": "2025-1-11"
 	},
@@ -1016,7 +1016,7 @@
 		"Name of Location": "Ghent",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/cRS7e6MotdUREFMw5",
-		"Coordinates": "51, 3.72",
+		"Coordinates": "51.046988485067665, 3.723477753897729",
 		"Input data": "SMB",
 		"Date entered": "2024-12-15"
 	},
@@ -1356,7 +1356,7 @@
 		"Name of Location": "Leuven",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/w1cF43ymhyU1uM7j8",
-		"Coordinates": "50.88, 4.7",
+		"Coordinates": "50.87904324260627, 4.707425861105747",
 		"Input data": "SMB",
 		"Date entered": "2025-1-9"
 	},
@@ -2414,7 +2414,7 @@
 		"Name of Location": "Saint-Omer",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/bGpCM7zH7htGSA5H8",
-		"Coordinates": "50.75, 2.26",
+		"Coordinates": "50.752455150543554, 2.25622251156979",
 		"Input data": "SMB",
 		"Date entered": "2024-12-18"
 	},
@@ -2539,7 +2539,7 @@
 		"Name of Location": "Sluis",
 		"Modern Country": "Netherlands",
 		"Google URL": "https://maps.app.goo.gl/bdP7cuuc3m5UV778A",
-		"Coordinates": "51.31, 3.39",
+		"Coordinates": "51.30843110569639, 3.387692192226465",
 		"Input data": "SMB",
 		"Date entered": "2025-1-8"
 	},
@@ -2626,10 +2626,10 @@
 	},
 	{
 		"Location ID (LOC)": "LOC:Torhout",
-		"Name of Location": "Torhour",
+		"Name of Location": "Torhout",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/Z3CupqgfTKHpV6on7",
-		"Coordinates": "51.06, 3.1",
+		"Coordinates": "51.06221536065341, 3.1048463989321293",
 		"Input data": "SMB",
 		"Date entered": "2025-1-8"
 	},
@@ -2871,7 +2871,7 @@
 		"City or Larger Place": "Veneto",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/b8wUzwjiXeQF4Ra57",
-		"Coordinates": "45.55, 11.55",
+		"Coordinates": "45.544924932394636, 11.545935701350174",
 		"Input data": "SMB",
 		"Date entered": "2024-11-9"
 	},
@@ -3029,5 +3029,100 @@
 		"Coordinates": "51.69822392161367, 5.294145810019546",
 		"Input data": "AN",
 		"Date entered": "2024-12-04"
+	},
+	{
+		"Location ID (LOC)": "LOC:Avila",
+		"Name of Location": "Avila",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/HGrnpySpAq9VMmWw6",
+		"Coordinates": "40.65659308957786, -4.680906239524707",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:Avila-Cathedral",
+		"Name of Location": "Avila Cathedral",
+		"City or Larger Place": "Avila",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/W8TAKUNzGRKWKjTP7",
+		"Coordinates": "40.655914575101626, -4.697778125050546",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:Plasencia",
+		"Name of Location": "Plasencia",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/9T6Qix2LfP56Njrf8",
+		"Coordinates": "40.04208109704795, -6.084143045441221",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:Plasencia-Cathedral",
+		"Name of Location": "Plasencia Cathedral",
+		"City or Larger Place": "Plasencia",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/ZeoxzqDMyBDztxtX6",
+		"Coordinates": "40.02790156148868, -6.090935121615249",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:Cordoba",
+		"Name of Location": "Cordoba",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/LCy5oBnHG8v91Y2x9",
+		"Coordinates": "37.88910409022997, -4.779249773263024",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:Cordoba-Cathedral",
+		"Name of Location": "Cordoba Cathedral",
+		"City or Larger Place": "Cordoba",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/APb3nEb8qA69XyWm7",
+		"Coordinates": "37.87900719244911, -4.779150869365893",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:Toledo-Cathedral",
+		"Name of Location": "Toledo Cathedral",
+		"City or Larger Place": "Toledo",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/Y94qChbJm7nsVWLK8",
+		"Coordinates": "39.85705919183117, -4.023568803670063",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:Marchena",
+		"Name of Location": "Marchena",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/RJM6FMPBvQ9eawnYA",
+		"Coordinates": "37.32730415467324, -5.417077458914847",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:Malaga",
+		"Name of Location": "Malaga",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/F6SBhvDuxZ5rFiLj6",
+		"Coordinates": "36.71752689251559, -4.427294828071452",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:Malaga-Cathedral",
+		"Name of Location": "Malaga Cathedral",
+		"City or Larger Place": "Malaga",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/uAquGfVgB9uX9Hi18",
+		"Coordinates": "36.72015910093052, -4.41928916774951",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
 	}
 ]

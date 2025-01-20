@@ -25,7 +25,7 @@
 		"Author": "Frederic J. Baumgartner",
 		"Name of Volume/Journal": "Louis XII",
 		"Location": "New York",
-		"Publisher": "St. Martin's Press",
+		"Publisher": "St. Martin's",
 		"Publication Year": "1994",
 		"Input data": "BSO",
 		"Date entered": "2023-4-27"
@@ -151,7 +151,7 @@
 		"Author": "Frank D'Accone",
 		"Name of Article": "The Musical Chapels at the Florentine Cathedral and Baptistry during the First Half of the 16th Century",
 		"Name of Volume/Journal": "Journal of the American Musicological Society",
-		"Volume": "24 no. 1",
+		"Volume": "24",
 		"Publication Year": "1971",
 		"Pages": "1-50"
 	},
@@ -205,7 +205,7 @@
 		"Volume": "4",
 		"Series": "Collected Works 29",
 		"Location": "Lions Bay",
-		"Publisher": "The Institute of Mediaeval Music",
+		"Publisher": "Institute of Mediaeval Music",
 		"Publication Year": "2016",
 		"Input data": "AN",
 		"Date entered": "2024-10-21"
@@ -406,7 +406,7 @@
 		"Name of Volume/Journal": "Papal Music and Musicians in Late Medieval and Renaissance Rome",
 		"Editor": "Richard Sherr",
 		"Location": "Oxford",
-		"Publisher": "Clarendon Press",
+		"Publisher": "Clarendon",
 		"Publication Year": "1998",
 		"Pages": "224–39",
 		"Input data": "BSO",
@@ -575,6 +575,20 @@
 		"Date entered": "2024-8-2"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Picker_1994",
+		"Author": "Martin Picker",
+		"Name of Article": "The Career of Marbriano de Orto (ca. 1450 - 1529)",
+		"Name of Volume/Journal": "Studien zur Geschichte der Paepstlichen Kapelle",
+		"Editor": "Bernhard Janz",
+		"Volume": "II",
+		"Location": "Rome",
+		"Publisher": "Biblioteca Apostolica Vaticana",
+		"Publication Year": "1994",
+		"Pages": "529-558",
+		"Input data": "SMB",
+		"Date entered": "2025-1-18"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Pidoux_1964",
 		"Author": "Pierre Pidoux",
 		"Name of Article": "Antoine Brumel à Genève",
@@ -593,7 +607,7 @@
 		"Editor": "Einstein, Alfred",
 		"Volume": "11",
 		"Location": "Wiesbaden",
-		"Publisher": "Brietkopf und Härtel",
+		"Publisher": "Breitkopf und Härtel",
 		"Publication Year": "1928",
 		"Pages": "349–53",
 		"Input data": "SMB",
@@ -749,7 +763,7 @@
 		"Name of Volume/Journal": "Musicologia Humana: Studies in Honor of Warren and Ursula Kirkendale",
 		"Editor": "Siegfried Gmeinwieser, David Hiley, Joerg Riedlbauer",
 		"Location": "Florence",
-		"Publisher": "Leo S. Olschki Editore",
+		"Publisher": "Leo S. Olschki",
 		"Publication Year": "1994",
 		"Pages": "65–73",
 		"Input data": "SMB",
@@ -797,6 +811,20 @@
 		"Pages": "223–262",
 		"Input data": "LO",
 		"Date entered": "2024-3-1"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Starr_1994",
+		"Author": "Pamela F. Starr",
+		"Name of Article": "Towards the Cappella Sistina: A Profile of the Cappella Pontificia during the pontificates of Nicholas V, Calixtus III, Pius II, and Paul II (1447-1471)",
+		"Name of Volume/Journal": "Studien zur Geschichte der Paepstlichen Kapelle",
+		"Editor": "Bernhard Janz",
+		"Volume": "II",
+		"Location": "Rome",
+		"Publisher": "Biblioteca Apostolica Vaticana",
+		"Publication Year": "1994",
+		"Pages": "451-475",
+		"Input data": "SMB",
+		"Date entered": "2025-1-19"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Starr_1995",
@@ -975,5 +1003,19 @@
 		"Publication Year": "2005",
 		"Input data": "SMB",
 		"Date entered": "2024-6-21"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Rees_2007",
+		"Author": "Owen Rees",
+		"Name of Article": "Cristobal de Morales: Sources, Influences, Reception - Introduction",
+		"Name of Volume/Journal": "Studies in Medieval and Renaissance Music",
+		"Editor": "Owen Rees, Bernadette Nelson",
+		"Volume": "6",
+		"Location": "Woodbridge",
+		"Publisher": "Boydell",
+		"Publication Year": "2007",
+		"Pages": "xxiii-xxxvii",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
 	}
 ]

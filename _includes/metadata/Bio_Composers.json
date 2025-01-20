@@ -1104,5 +1104,18 @@
 		"Bibliography (BIB) ID": "BIB:Bowers_2001",
 		"Input data": "SMB",
 		"Date entered": "2024-8-9"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Cristobal_de_Morales",
+		"Composer Name": "Cristobal de Morales",
+		"Birth Date": "~1500",
+		"Death Date": "1553",
+		"Description": "composer and singer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/270/",
+		"RISM ID": "pe30002254",
+		"RISM Link": "https://rism.online/people/30002254",
+		"Bibliography (BIB) ID": "BIB:Rees_2007",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
 	}
 ]

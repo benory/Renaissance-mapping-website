@@ -204,5 +204,11 @@
 		"Institution Description": "Church in Bruges",
 		"Input data": "SMB",
 		"Date entered": "2024-11-29"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Duke_Arcos",
+		"Institution Name": "Chapel of the Duke of Arcos",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
 	}
 ]
