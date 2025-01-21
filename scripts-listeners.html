@@ -122,6 +122,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     handleCheckboxChange();
+
+    // Add keydown listener for the Escape key
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+            hideAllDropdowns();
+        }
+    });
+
+    document.querySelectorAll('.dropdown').forEach(dropdown => {
+        dropdown.addEventListener('click', (event) => {
+            filterMarkers();
+        });
+    });
+
 });
 
 function handleCheckboxChange() {
@@ -134,10 +148,24 @@ function handleCheckboxChange() {
     }
 }
 
+// Hide all dropdown menus
+function hideAllDropdowns() {
+    document.querySelectorAll('.dropdown').forEach(dropdown => {
+        dropdown.style.display = 'none';
+    });
+
+    // Remove focus from any focused dropdown button
+    const activeButton = document.activeElement;
+    if (activeButton && activeButton.classList.contains('dropdown-btn')) {
+        activeButton.blur();
+    }
+}
+
 // Initial call to position the active label correctly on page load
 window.onload = function() {
     updateDateRange();
     updateSliderBackground();
+    populateDropdowns();
 };
 
 </script>

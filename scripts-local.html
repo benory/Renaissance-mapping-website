@@ -638,20 +638,34 @@ function updateMarkerOnMap(marker, show) {
 // Function to filter markers based on checkboxes and breakdown by decade (1400-1600), with optional searchRegex
 function filterMarkers(searchRegex = null) {
     const checkboxStates = getCheckboxStates();
-    const histogramCounts = initializeDecades(1400, 1590);  // Initialize all decades between 1400-1590 with 0 count
+    const histogramCounts = initializeDecades(1400, 1590); // Initialize all decades between 1400-1590 with 0 count
     const histogramRow = document.getElementById("histogramRow");
     const minYear = document.getElementById('date-slider-min').value;
     const maxYear = document.getElementById('date-slider-max').value;
 
+    // Retrieve active names from active containers
+    const activeNames = new Set([
+        ...getActiveNamesFromContainer('composer-active'),
+        ...getActiveNamesFromContainer('musician-active'),
+        ...getActiveNamesFromContainer('non-musician-active')
+    ]);
+
     // Clear the histogram before adding new values
     histogramRow.innerHTML = '';
 
-    let searchCount = 0;  // Track how many markers match the filters
+    let searchCount = 0; // Track how many markers match the filters
 
     markers.forEach(({ marker, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, text, eventid, daterange, locationprocessed, description, personprocessed }) => {
-        const type = personID.substring(0, 3);  // Example of how type could be extracted
+        const type = personID.substring(0, 3); // Extract type (e.g., BCO, BMU, BNO)
         const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
+
+        // Initial visibility check based on checkboxes and certainties
         let show = shouldShowMarker(type, checkboxStates, certainties);
+
+        // Apply active names filtering
+        if (activeNames.size > 0) {
+            show = activeNames.has(personprocessed);
+        }
 
         // Apply search filter if searchRegex is provided
         if (show && searchRegex && !(text.match(searchRegex) || 
@@ -661,7 +675,16 @@ function filterMarkers(searchRegex = null) {
             show = false;
         }
 
-        // If the marker is shown after all filtering, update histogram counts
+        // Apply date range filtering
+        if (show && (earliestyear > maxYear || latestyear < minYear)) {
+            show = false;
+        }
+
+        // Update marker visibility on the map and in the sidebar
+        updateMarkerOnMap(marker, show);
+        updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, show, eventid);
+
+        // If the marker is shown, update the histogram
         if (show) {
             searchCount++;
 
@@ -674,21 +697,12 @@ function filterMarkers(searchRegex = null) {
 
             decades.forEach(decade => {
                 if (histogramCounts[decade] !== undefined) {
-                    histogramCounts[decade] += 1;  // Increment the count for this decade
+                    histogramCounts[decade] += 1; // Increment the count for this decade
                 }
             });
         }
 
-        // Filter out markers that fall outside of the date range (minYear to maxYear)
-        // Must be done after the histogram is created
-        
-        if (earliestyear > maxYear || latestyear < minYear) {
-            show = false;
-        }
 
-        // Update marker visibility on the map and in table
-        updateMarkerOnMap(marker, show);
-        updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, show, eventid);
     });
 
     // Update search count display
@@ -699,6 +713,16 @@ function filterMarkers(searchRegex = null) {
 
     // Update the map size
     map.invalidateSize();
+}
+
+function getActiveNamesFromContainer(containerId) {
+    const container = document.getElementById(containerId);
+    if (!container) return [];
+    
+    return [...container.querySelectorAll('.selected-person-item')].map(item => {
+        // Remove the "×" button text, leaving only the name
+        return item.textContent.replace('×', '').trim();
+    });
 }
 
 // Function to initialize all decades between a given start and end year with 0
@@ -976,6 +1000,156 @@ function updateMarkerSidebar({ text, personprocessed, locationprocessed, dateran
             tableBody.removeChild(existingRow);
         }
     }
+}
+
+// Populate dropdowns based on markers
+function populateDropdowns() {
+    const composerList = document.querySelector('#composer-list .dropdown-items');
+    const musicianList = document.querySelector('#musician-list .dropdown-items');
+    const nonMusicianList = document.querySelector('#non-musician-list .dropdown-items');
+
+    composerList.innerHTML = '';
+    musicianList.innerHTML = '';
+    nonMusicianList.innerHTML = '';
+
+    const seenComposers = new Set();
+    const seenMusicians = new Set();
+    const seenNonMusicians = new Set();
+
+    markers.forEach(({ personID, personprocessed }) => {
+        // Skip already-selected names
+        if (selectedNames.has(personprocessed)) return;
+
+        const listItem = document.createElement('div');
+        listItem.className = 'dropdown-item';
+        listItem.textContent = personprocessed;
+
+        listItem.onclick = () => addSelectedPerson(personID, personprocessed);
+
+        if (personID.startsWith('BCO') && !seenComposers.has(personprocessed)) {
+            seenComposers.add(personprocessed);
+            composerList.appendChild(listItem);
+        } else if (personID.startsWith('BMU') && !seenMusicians.has(personprocessed)) {
+            seenMusicians.add(personprocessed);
+            musicianList.appendChild(listItem);
+        } else if (personID.startsWith('BNO') && !seenNonMusicians.has(personprocessed)) {
+            seenNonMusicians.add(personprocessed);
+            nonMusicianList.appendChild(listItem);
+        }
+    });
+}
+
+const selectedNames = new Set(); // Track selected names globally
+
+function addSelectedPerson(personID, personprocessed) {
+    const activeId = personID.startsWith('BCO')
+        ? 'composer-active'
+        : personID.startsWith('BMU')
+        ? 'musician-active'
+        : 'non-musician-active';
+
+    const dropdownId = personID.startsWith('BCO')
+        ? 'composer-list'
+        : personID.startsWith('BMU')
+        ? 'musician-list'
+        : 'non-musician-list';
+
+    const activeContainer = document.getElementById(activeId);
+
+    // Avoid duplicate active entries
+    if (!selectedNames.has(personprocessed)) {
+        selectedNames.add(personprocessed);
+
+        // Create a container for the active name
+        const selectedItem = document.createElement('div');
+        selectedItem.className = 'selected-person-item';
+
+        // Create the "x" button
+        const removeButton = document.createElement('span');
+        removeButton.className = 'remove-btn';
+        removeButton.textContent = '×';
+        removeButton.onclick = () => {
+            removeSelectedPerson(personID, personprocessed, dropdownId);
+            filterMarkers(); // Reapply filters after removal
+        };
+
+        selectedItem.appendChild(removeButton);
+        selectedItem.appendChild(document.createTextNode(personprocessed));
+
+        activeContainer.appendChild(selectedItem);
+
+        // Remove the name from the dropdown dynamically
+        const dropdown = document.querySelector(`#${dropdownId} .dropdown-items`);
+        [...dropdown.children].forEach(item => {
+            if (item.textContent === personprocessed) {
+                item.remove();
+            }
+        });
+
+        filterMarkers(); // Reapply filters after adding
+    }
+}
+
+function removeSelectedPerson(personID, personprocessed, dropdownId) {
+    const activeId = personID.startsWith('BCO')
+        ? 'composer-active'
+        : personID.startsWith('BMU')
+        ? 'musician-active'
+        : 'non-musician-active';
+
+    const activeContainer = document.getElementById(activeId);
+
+    [...activeContainer.children].forEach(child => {
+        if (child.textContent.includes(personprocessed)) {
+            child.remove();
+        }
+    });
+
+    selectedNames.delete(personprocessed);
+
+    const dropdown = document.querySelector(`#${dropdownId} .dropdown-items`);
+    const listItem = document.createElement('div');
+    listItem.className = 'dropdown-item';
+    listItem.textContent = personprocessed;
+
+    listItem.onclick = () => {
+        addSelectedPerson(personID, personprocessed);
+        filterMarkers();
+    };
+
+    dropdown.appendChild(listItem);
+
+    filterMarkers(); // Reapply filters after re-adding
+}
+
+// Toggle dropdown visibility
+function toggleDropdown(dropdownId) {
+    const dropdown = document.getElementById(dropdownId);
+
+    // Close all other dropdowns
+    document.querySelectorAll('.dropdown').forEach(d => {
+        if (d.id !== dropdownId) {
+            d.style.display = 'none';
+        }
+    });
+
+    // Toggle the current dropdown
+    dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+}
+
+function filterDropdown(dropdownId) {
+    const dropdown = document.getElementById(dropdownId);
+    const searchInput = dropdown.querySelector('.dropdown-search');
+    const filterValue = searchInput.value.toLowerCase();
+    const items = dropdown.querySelectorAll('.dropdown-item');
+
+    items.forEach(item => {
+        if (item.textContent.toLowerCase().includes(filterValue)) {
+            item.style.display = ''; // Show item
+        } else {
+            item.style.display = 'none'; // Hide item
+        }
+    });
 }
 
 </script>
