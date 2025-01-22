@@ -23,7 +23,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <img src="/images/Zazulia.jpg" alt="Emily Zazulia">
         <div class="bio">
             <h3>Emily Zazulia</h3>
-            <p><strong>Co-director</strong></p>
+            <p><strong>Co-Director</strong></p>
             <p>Short bio about the team member.</p>
         </div>
     </div>
@@ -31,7 +31,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <img src="/images/Rodin.jpg" alt="Jesse Rodin">
         <div class="bio">
             <h3>Jesse Rodin</h3>
-            <p><b>Co-director</b></p>
+            <p><b>Co-Director</b></p>
             <p>Short bio about the team member.</p>
         </div>
     </div>
@@ -39,7 +39,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <img src="/images/Ory.jpg" alt="Benjamin Ory">
         <div class="bio">
             <h3>Benjamin Ory</h3>
-            <p><b>Co-director</b></p>
+            <p><b>Co-Director</b></p>
             <p>Benjamin Ory is an FWO Junior Postdoctoral Fellow at KU Leuven. He received his PhD in musicology from Stanford University in 2022, and has since served as a Harvard University Villa I Tatti Digital Humanities Fellow, as visiting assistant professor of musicology at Williams College, and as a postdoctoral fellow at Stanford. He is the founder of <a href="https://1520s-project.org" target="_blank">The 1520s Project</a>, an open-source repository of sixteenth-century music. Ory’s research focuses on sixteenth-century polyphony as well as the early history of Renaissance musicology.</p>
         </div>
     </div>
