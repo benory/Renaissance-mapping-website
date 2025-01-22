@@ -130,6 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Add listener for clicks in the dropdown menus to run filterMarkers
     document.querySelectorAll('.dropdown').forEach(dropdown => {
         dropdown.addEventListener('click', (event) => {
             filterMarkers();
@@ -166,6 +167,9 @@ window.onload = function() {
     updateDateRange();
     updateSliderBackground();
     populateDropdowns();
+
+    // Call this function on page load to summon the marker if an eventid is in the URL
+	loadMarkerFromURL();
 };
 
 </script>

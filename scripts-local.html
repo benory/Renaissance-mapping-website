@@ -474,6 +474,9 @@ function doMapSetup(opts) {
             // Get coordinates
             coordinates = locationInfo[COORD];
 
+            // Create EventID for sharing
+            let shareID = eventid.slice(3); // Remove the first three characters
+
             // Map points if there are coordinates and the earliest and latest years are defined
             if (coordinates !== undefined && earliestyear !== undefined && latestyear !== undefined) {
                 // Convert the comma-separated string into an array
@@ -496,11 +499,11 @@ function doMapSetup(opts) {
                             <b>Date:</b> ${daterange}<br>
                             <b>Place:</b> ${locationprocessed} <br>
                             <b>Description:</b> ${description} ${archiveprocessed} 
-                            ${bibliography ? `<b><br>Bibliography:</b> ${bibliography}` : ''}` : 
+                            ${bibliography ? `<b><br>Bibliography:</b> ${bibliography}` : ''}<br> <a href="#" onclick="sharePoint('${shareID}')">Share point</a>` : 
                             `<b>Person:</b> ${personprocessed}<br>
                             <b>Date:</b> ${daterange}<br>
                             <b>Place:</b> ${locationprocessed} ${archiveprocessed} 
-                            ${bibliography ? `<br><b>Bibliography:</b> ${bibliography}` : ''}`,
+                            ${bibliography ? `<br><b>Bibliography:</b> ${bibliography}` : ''} <br> <a href="#" onclick="sharePoint('${shareID}')">Share point</a>`,
                             locationCertainty: locationCertainty,
                             earliestDateCertainty: earliestDateCertainty,
                             latestDateCertainty: latestDateCertainty,
@@ -1150,6 +1153,44 @@ function filterDropdown(dropdownId) {
             item.style.display = 'none'; // Hide item
         }
     });
+}
+
+// Function to handle sharing the point
+function sharePoint(eventid) {
+    const shareURL = `${window.location.origin}?eventid=${eventid}`;
+    
+    // Remove the "EV:" prefix if it exists
+    if (eventid.startsWith('EV:')) {
+        eventid = eventid.slice(3); // Remove the first three characters
+    }
+
+    navigator.clipboard.writeText(shareURL);``
+}
+
+// Function to handle loading a specific marker by event ID
+function loadMarkerFromURL() {
+    const urlParams = new URLSearchParams(window.location.search);
+    let eventid = urlParams.get('eventid');
+
+    if (eventid) {    
+        // Add the "EV:" prefix back to match markers array
+        eventid = `EV:${eventid}`;
+
+        // Find the marker with the matching eventid
+        const markerEntry = markers.find(entry => entry.eventid === eventid);
+        
+        if (markerEntry) {
+            const marker = markerEntry.marker; // Access the actual Leaflet marker
+            const latlng = marker.getBounds().getCenter(); // For GeoJSON markers, getBounds().getCenter() gives the center point
+
+            map.setView(latlng, 6); // Adjust zoom level as needed
+            marker.openPopup();
+        } else {
+            console.warn(`No marker found for eventid: ${eventid}`);
+        }
+    } else {
+        console.warn('No eventid found in URL');
+    }
 }
 
 </script>
