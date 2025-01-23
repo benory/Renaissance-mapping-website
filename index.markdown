@@ -71,7 +71,6 @@ layout: page
 
 <div class="container">
     <div class="row">
-        <div id="map"></div>
         <div id="sidebar">
             <div id="sidebar">
                 <table id="active-markers-table">
@@ -84,6 +83,7 @@ layout: page
                 </table>
             </div>
         </div>
+        <div id="map"></div>
     </div>
     <div class="small-space"></div>
     <div class="histogram-container">
