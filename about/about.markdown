@@ -14,7 +14,7 @@ The Renaissance lies scattered before us. For more than 200 years, scholars in d
 
 This is a new project. A 2022 grant from the [France–UC Berkeley fund](https://fbf.berkeley.edu/){:target="_blank"} allowed us to form an international team of students and scholars and develop these ideas. We identified a core data set centered on musicians active in the years around 1500, above all the towering figure Josquin des Prez (1450–1521). Using Josquin’s world as our center of gravity, we developed an organizational scheme and workflow for data entry. 
 
-A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/research-grants/humanities-seed-grants){:target="_blank"} has enabled us to build our mapping tool and expand our database. At present we have more than 3,500 events, ranging from letters by Ferrarese scribes to French royal chapel paylists to secondary literature describing [how one particular singer in Bruges was fired owing to his laziness, disobediance, and downright incompetence](../?eventid=03296).<br><br>
+A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/research-grants/humanities-seed-grants){:target="_blank"} has enabled us to build our mapping tool and expand our database. At present we have more than 3,500 events, ranging from letters by Ferrarese scribes to French royal chapel paylists to secondary literature that describes [how one particular singer in Bruges was fired owing to his laziness, disobediance, and downright incompetence](../?eventid=03296).<br><br>
 
 ### The Team
 
