@@ -20,7 +20,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
 
 <div class="team-container">
     <div class="team-member">
-        <img src="/images/Zazulia.jpg" alt="Emily Zazulia">
+        <img src="/images/headshots/Zazulia.jpg" alt="Emily Zazulia">
         <div class="bio">
             <h3>Emily Zazulia</h3>
             <p><strong>Co-Director</strong></p>
@@ -28,7 +28,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         </div>
     </div>
     <div class="team-member">
-        <img src="/images/Rodin.jpg" alt="Jesse Rodin">
+        <img src="/images/headshots/Rodin.jpg" alt="Jesse Rodin">
         <div class="bio">
             <h3>Jesse Rodin</h3>
             <p><b>Co-Director</b></p>
@@ -36,7 +36,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         </div>
     </div>
     <div class="team-member">
-        <img src="/images/Ory.jpg" alt="Benjamin Ory">
+        <img src="/images/headshots/Ory.jpg" alt="Benjamin Ory">
         <div class="bio">
             <h3>Benjamin Ory</h3>
             <p><b>Co-Director</b></p>
@@ -44,7 +44,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         </div>
     </div>
     <div class="team-member">
-        <img src="/images/Bradley.jpg" alt="Sam Bradley">
+        <img src="/images/headshots/Bradley.jpg" alt="Sam Bradley">
         <div class="bio">
             <h3>Sam Bradley</h3>
             <p><b>Team Member</b></p>
@@ -52,7 +52,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         </div>
     </div>
     <div class="team-member">
-        <img src="/images/headshot1.jpg" alt="Full Name">
+        <img src="/images/headshots/Oge.jpg" alt="Full Name">
         <div class="bio">
             <h3>Lara Oge</h3>
             <p><b>Team Member</b></p>
@@ -60,7 +60,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         </div>
     </div>
     <div class="team-member">
-        <img src="/images/Peacock.jpg" alt="Rupert Peacock">
+        <img src="/images/headshots/Peacock.jpg" alt="Rupert Peacock">
         <div class="bio">
             <h3>Rupert Peacock</h3>
             <p><b>Team Member</b></p>
@@ -68,7 +68,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         </div>
     </div>
     <div class="team-member">
-        <img src="/images/Nguyen.jpg" alt="Audrey Nguyen">
+        <img src="/images/headshots/Nguyen.jpg" alt="Audrey Nguyen">
         <div class="bio">
             <h3>Audrey Nguyen</h3>
             <p><b>Team Member</b></p>
@@ -76,7 +76,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         </div>
     </div>
     <div class="team-member">
-        <img src="/images/McIntyre.jpg" alt="Flannery McIntyre">
+        <img src="/images/headshots/McIntyre.jpg" alt="Flannery McIntyre">
         <div class="bio">
             <h3>Flannery McIntyre</h3>
             <p><b>Team Member</b></p>
