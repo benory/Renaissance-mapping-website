@@ -1157,7 +1157,7 @@ function filterDropdown(dropdownId) {
 
 // Function to handle sharing the point
 function sharePoint(eventid) {
-    const shareURL = `${window.location.origin}?eventid=${eventid}`;
+    const shareURL = `${window.location.origin}/?eventid=${eventid}`;
     
     // Remove the "EV:" prefix if it exists
     if (eventid.startsWith('EV:')) {
