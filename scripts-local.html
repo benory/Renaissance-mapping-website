@@ -1224,22 +1224,24 @@ function sharePoint(eventid) {
     navigator.clipboard.writeText(shareURL);``
 }
 
-// Function to handle loading a specific marker by event ID
 function loadMarkerFromURL() {
     const urlParams = new URLSearchParams(window.location.search);
     let eventid = urlParams.get('eventid');
 
     if (eventid) {    
-        // Add the "EV:" prefix back to match markers array
+        // Add the "EV:" prefix if required to match the markers array
         eventid = `EV:${eventid}`;
 
         // Find the marker with the matching eventid
         const markerEntry = markers.find(entry => entry.eventid === eventid);
-        
+
         if (markerEntry) {
             const marker = markerEntry.marker; // Access the actual Leaflet marker
-            const latlng = marker.getBounds().getCenter(); // For GeoJSON markers, getBounds().getCenter() gives the center point
 
+            // Get the marker's coordinates
+            const latlng = marker.getLatLng(); // Use getLatLng() for circleMarker
+
+            // Center the map on the marker and open its popup
             map.setView(latlng, 6); // Adjust zoom level as needed
             marker.openPopup();
         } else {
