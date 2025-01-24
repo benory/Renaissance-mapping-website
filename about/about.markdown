@@ -48,7 +48,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <div class="bio">
             <h3>Sam Bradley</h3>
             <p><b>Team Member</b></p>
-            <p>Short bio about the team member.</p>
+            <p>Sam Bradley received his PhD in Musicology from Boston University in 2024. He works on sources, style, compositional process, and performance practice in late fifteenth- and early sixteenth-century music.</p>
         </div>
     </div>
     <div class="team-member">
