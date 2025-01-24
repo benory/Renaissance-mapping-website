@@ -138,27 +138,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     map.on('moveend zoomend', () => {
-	    const visibleMarkers = getVisibleMarkers(); // Get markers in current view
-
-	    // Clear the sidebar
-	    const tableBody = document.querySelector('#active-markers-table tbody');
-	    tableBody.innerHTML = '';
-
-	    // Add visible markers to the sidebar
-	    visibleMarkers.forEach(({ text, personprocessed, locationprocessed, daterange, description, eventid }) => {
-	        updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, true, eventid);
-	    });
+	    updateSidebar(); // Update the sidebar when the map is moved or zoomed
+	    filterMarkers();
 	});
 });
 
 function handleCheckboxChange() {
     const input = document.querySelector("#input");
     
-    if (input){
-    	UserSearch();
+    if (input) {
+        UserSearch(); // If there is a search input, perform the search
     } else {
-        filterMarkers();        
+        filterMarkers(); // Apply filters to markers
     }
+
+    // Trigger sidebar update after filtering
+    updateSidebar();
 }
 
 // Hide all dropdown menus
