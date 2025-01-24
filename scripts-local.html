@@ -534,13 +534,17 @@ function doMapSetup(opts) {
                         fillOpacity: 0.8
                     };
 
-                    let marker = L.geoJson(geoJsonFeature, {
+                    // Inside L.geoJson creation:
+                    let marker; // Declare marker variable
+                    L.geoJson(geoJsonFeature, {
                         pointToLayer: function (feature, latlng) {
-                            return L.circleMarker(latlng, geojsonMarkerOptions);
-                        }
+                            marker = L.circleMarker(latlng, geojsonMarkerOptions); // Capture the marker
+                            return marker; // Return the created circleMarker
+                        },
                     }).bindPopup(geoJsonFeature.properties.popupContent);
 
-                    markers.push({ marker, 
+                    markers.push({ 
+                        marker: marker, 
                         personID: person, 
                         text: `[${daterange}] ${personprocessed}: ${description}`, 
                         locationCertainty: locationCertainty, 
@@ -1003,6 +1007,18 @@ function updateMarkerSidebar({ text, personprocessed, locationprocessed, dateran
             tableBody.removeChild(existingRow);
         }
     }
+}
+
+function getVisibleMarkers() {
+    const bounds = map.getBounds().pad(0.1); // Expand bounds slightly
+    return markers.filter(({ marker, eventid }) => {
+        if (marker.getLatLng) {
+            const isVisible = bounds.contains(marker.getLatLng());
+            return isVisible;
+        }
+        console.warn(`Marker ${eventid} does not have a valid LatLng.`);
+        return false;
+    });
 }
 
 // Populate dropdowns based on markers
