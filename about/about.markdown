@@ -56,7 +56,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <div class="bio">
             <h3>Lara Oge</h3>
             <p><b>Team Member</b></p>
-            <p>Short bio about the team member.</p>
+            <p>Lara Oge is an undergraduate in her final semester at UC Berkeley, studying Music with minors in Digital Humanities and Medieval Studies. She is broadly interested in the sources of fifteenth- and sixteenth-century polyphony.</p>
         </div>
     </div>
     <div class="team-member">
