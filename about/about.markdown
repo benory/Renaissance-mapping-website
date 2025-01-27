@@ -72,7 +72,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <div class="bio">
             <h3>Audrey Nguyen</h3>
             <p><b>Team Member</b></p>
-            <p>Short bio about the team member.</p>
+            <p>Audrey Nguyen is a first-year undergraduate at UC Berkeley, studying English with secondary areas in Music and History. Her interests center on the interactions between musicians and their contemporaries.</p>
         </div>
     </div>
     <div class="team-member">
