@@ -64,7 +64,8 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <div class="bio">
             <h3>Rupert Peacock</h3>
             <p><b>Team Member</b></p>
-            <p>Short bio about the team member.</p>
+            <p>Rupert Peacock sings with <a href="https://cutcircle.org/" target="_blank"> Cut Circle</a>. He began his singing career as a treble in King’s College Choir in Cambridge, UK. In 2024 he graduated from Princeton University with a BA in Music, a certificate in vocal consort performance, and as the recipient of the Isidore and Helen Sacks Memorial Prize. For his senior thesis he conducted research in the archives of Ely Cathedral; the thesis presents a previously unknown piece of sixteenth-century English choral music.
+.</p>
         </div>
     </div>
     <div class="team-member">
