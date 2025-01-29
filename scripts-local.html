@@ -649,7 +649,7 @@ function updateMarkerOnMap(marker, show) {
 }
 
 // Function to filter markers based on checkboxes and breakdown by decade (1400-1600), with optional searchRegex
-function filterMarkers(searchRegex = null) {
+function filterMarkers(searchRegex = null, skipSidebarUpdate = false) {
     const checkboxStates = getCheckboxStates(); // Retrieve current checkbox states
     const histogramCounts = initializeDecades(1400, 1590); // Initialize all decades between 1400-1590 with 0 count
     const histogramRow = document.getElementById("histogramRow");
@@ -665,6 +665,12 @@ function filterMarkers(searchRegex = null) {
 
     // Clear the histogram before adding new values
     histogramRow.innerHTML = '';
+
+    // Only clear the sidebar if we're NOT handling a UserSearch
+    if (!skipSidebarUpdate) {
+        const tableBody = document.querySelector('#active-markers-table tbody');
+        tableBody.innerHTML = '';
+    }
 
     let searchCount = 0; // Track how many markers match the filters
 
@@ -699,7 +705,11 @@ function filterMarkers(searchRegex = null) {
 
         // Update marker visibility on the map and in the sidebar
         updateMarkerOnMap(marker, show);
-        updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, show, eventid);
+        
+        // Only update the sidebar if we're NOT handling a UserSearch
+        if (!skipSidebarUpdate) {
+            updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, show, eventid);
+        }
 
         // If the marker is shown, update the histogram
         if (show) {
@@ -720,8 +730,10 @@ function filterMarkers(searchRegex = null) {
         }
     });
 
-    // After filtering, update the sidebar
-    updateSidebar();
+    // Only update the sidebar at the end if we're NOT handling a UserSearch
+    if (!skipSidebarUpdate) {
+        updateSidebar();
+    }
 
     // Update search count display
     document.querySelector("#search-count").innerHTML = `[${totalMarkers} ${totalMarkers === 1 ? "event" : "events"}, of which ${searchCount} are visible]`;
@@ -848,6 +860,10 @@ function UserSearch(skipFilter = false) {
     const minYear = document.getElementById('date-slider-min').value;
     const maxYear = document.getElementById('date-slider-max').value;
 
+    // Clear the sidebar before adding search results
+    const tableBody = document.querySelector('#active-markers-table tbody');
+    tableBody.innerHTML = '';
+
     markers.forEach(({ marker, text, personID, locationprocessed, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, eventid, daterange, description, personprocessed }) => {
         const type = personID.substring(0, 3);
         const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
@@ -870,8 +886,10 @@ function UserSearch(skipFilter = false) {
     // Update the search count display
     document.querySelector("#search-count").innerHTML = `[${searchCount} ${searchCount === 1 ? "event" : "events"}]`;
 
-    // Trigger filterMarkers and pass the search regex to update the histogram as well
-    filterMarkers(regex);
+    // Ensure sidebar is updated but prevent filterMarkers from overriding search results
+    if (!skipFilter) {
+        filterMarkers(regex, true);
+    }
 
     map.invalidateSize();
 }
