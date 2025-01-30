@@ -1,0 +1,100 @@
+<script>
+
+function updateSidebar() {
+    const visibleMarkers = getVisibleMarkers(); // Get markers visible on the map and passing filters
+
+    // Clear the sidebar
+    const tableBody = document.querySelector('#active-markers-table tbody');
+    tableBody.innerHTML = '';
+
+    // Add visible markers to the sidebar
+    visibleMarkers.forEach(({ text, personprocessed, locationprocessed, daterange, description, eventid }) => {
+        updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, true, eventid);
+    });
+}
+
+function updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, show, eventid) {
+    // Sanitize eventid for use as a DOM id
+    const sanitizedEventId = sanitizeEventId(eventid);
+
+    // Get the table body
+    const tableBody = document.querySelector('#active-markers-table tbody');
+
+    if (show) {
+        // Add the marker to the table if not already present
+        const existingRow = document.querySelector(`#marker-${sanitizedEventId}`);
+        if (!existingRow) {
+            const row = document.createElement('tr');
+            row.id = `marker-${sanitizedEventId}`; // Use sanitized id for the row
+
+            // Create a single cell for the row
+            const cell = document.createElement('td');
+            const truncatedDescription = description
+                ? description.slice(0, 100) + (description.length > 100 ? '...' : '')
+                : '';
+            cell.textContent = `${personprocessed || ''}, ${locationprocessed || ''}, ${daterange || ''}${truncatedDescription ? ', ' + truncatedDescription : ''}`;
+
+            // Append the cell to the row
+            row.appendChild(cell);
+
+            // Add click event listener to center the map and open the pop-up
+            row.addEventListener('click', () => {
+                const marker = markers.find(m => m.eventid === eventid)?.marker; // Find the associated marker
+                if (marker) {
+                    if (marker.getLatLng) {
+                        // If it's a single point marker or CircleMarker, center the map and open the pop-up
+                        map.setView(marker.getLatLng()); // Adjust zoom level as needed
+                    }
+
+                    // Open the pop-up if available
+                    if (marker.openPopup) {
+                        marker.openPopup();
+                        console.warn(eventid);
+                    }
+                } else {
+                    console.warn(`No marker found for eventid: ${eventid}`);
+                }
+            });
+
+            // Append the row to the table body
+            tableBody.appendChild(row);
+        }
+    } else {
+        // Remove the marker from the table if it's not visible
+        const existingRow = document.querySelector(`#marker-${sanitizedEventId}`);
+        if (existingRow) {
+            tableBody.removeChild(existingRow);
+        }
+    }
+}
+
+function getVisibleMarkers() {
+    const bounds = map.getBounds().pad(0.1); // Slightly expand bounds
+    const checkboxStates = getCheckboxStates(); // Retrieve the checkbox states
+
+    return markers.filter(({ marker, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, personprocessed, locationprocessed, text }) => {
+        // Check if marker is within bounds
+        if (!marker.getLatLng || !bounds.contains(marker.getLatLng())) {
+            return false; // Exclude markers outside bounds
+        }
+
+        // Determine marker type (e.g., BCO, BMU, BNO) from personID
+        const type = personID.substring(0, 3);
+        const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
+
+        // Check if the marker passes the checkbox filters
+        let show = shouldShowMarker(type, checkboxStates, certainties);
+
+        // Apply other filtering logic if needed
+        const minYear = document.getElementById('date-slider-min').value;
+        const maxYear = document.getElementById('date-slider-max').value;
+
+        if (show && (earliestyear > maxYear || latestyear < minYear)) {
+            show = false; // Filter by date range
+        }
+
+        return show; // Include marker if all checks pass
+    });
+}
+
+</script>

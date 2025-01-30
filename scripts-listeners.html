@@ -138,14 +138,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     map.on('moveend zoomend', () => {
-    const input = document.querySelector("#input");
-    if (input && input.value.trim() !== "") {
-        UserSearch(true);  // 🚀 Run UserSearch instead of filterMarkers if searching
-    } else {
-        updateSidebar();  
-        filterMarkers();
-    }
-});
+	    const input = document.querySelector("#input");
+	    if (input && input.value.trim() !== "") {
+	        // Run UserSearch instead of filterMarkers if searching
+	        UserSearch(true);
+	    } else {
+	        updateSidebar();  
+	        filterMarkers();
+	    }
+	});
 });
 
 function handleCheckboxChange() {

@@ -1,0 +1,87 @@
+<script>
+
+// Function to update the active value labels and reapply filters
+function updateDateRange() {
+    const sliderMin = document.getElementById('date-slider-min');
+    const sliderMax = document.getElementById('date-slider-max');
+    const startActiveLabel = document.getElementById('slider-start-active-label');
+    const endActiveLabel = document.getElementById('slider-end-active-label');
+
+    let minValue = parseInt(sliderMin.value, 10);
+    let maxValue = parseInt(sliderMax.value, 10);
+
+    // Ensure the min handle doesn't exceed the max handle
+    if (minValue > maxValue) {
+        minValue = maxValue;
+        sliderMin.value = minValue;
+    }
+
+    // Ensure the max handle doesn't fall below the min handle
+    if (maxValue < minValue) {
+        maxValue = minValue;
+        sliderMax.value = maxValue;
+    }
+
+    // Update the global date range with year values
+    currentDateRange[0] = minValue;
+    currentDateRange[1] = maxValue;
+
+    // Update the labels
+    startActiveLabel.textContent = currentDateRange[0];
+    endActiveLabel.textContent = currentDateRange[1];
+
+    // Position the labels dynamically
+    const sliderWidth = sliderMin.offsetWidth;
+    const minPercent = (minValue - sliderMin.min) / (sliderMin.max - sliderMin.min);
+    const maxPercent = (maxValue - sliderMin.min) / (sliderMin.max - sliderMin.min);
+
+    // Adjust the rate of movement by scaling down the percentage
+    const adjustmentFactor = 0.975; // Adjust this value to control the rate of movement
+    const adjustedMinPercent = minPercent * adjustmentFactor;
+    const adjustedMaxPercent = maxPercent * adjustmentFactor;
+
+    startActiveLabel.style.left = `${adjustedMinPercent * sliderWidth}px`;
+    endActiveLabel.style.left = `${adjustedMaxPercent * sliderWidth}px`;
+
+    // Call a function to reapply filters based on the selected range, or go to UserSearch depending on whether there is text.
+    const input = document.querySelector("#input");
+
+    if (input){
+        UserSearch();
+    } else {
+        filterMarkers();
+    }
+}
+
+function updateSliderBackground() {
+    const sliderMin = document.getElementById("date-slider-min");
+    const sliderMax = document.getElementById("date-slider-max");
+
+    const minValue = parseInt(sliderMin.value);
+    const maxValue = parseInt(sliderMax.value);
+
+    const totalRange = sliderMin.max - sliderMin.min;
+    const minPercent = ((minValue - sliderMin.min) / totalRange) * 100;
+    const maxPercent = ((maxValue - sliderMax.min) / totalRange) * 100;
+
+    // Define a constant width for the black portion (in percentage)
+    const blackWidth = 2;  // For example, 1% width in front of the thumb
+
+    // The black portion should be directly in front of the min thumb, but never extend beyond maxPercent
+    const blackEnd = Math.min(minPercent + blackWidth, maxPercent);
+
+    // Apply gradient as background
+    sliderMin.style.background = `linear-gradient(to right, 
+        #ddd 0%, 
+        #ddd ${minPercent}%, 
+        black ${minPercent}%, 
+        black ${blackEnd}%, 
+        #1E90FF ${blackEnd}%, 
+        #1E90FF ${maxPercent}%, 
+        #ddd ${maxPercent}%, 
+        #ddd 100%)`;
+
+    sliderMax.style.background = sliderMin.style.background;
+}
+
+</script>
