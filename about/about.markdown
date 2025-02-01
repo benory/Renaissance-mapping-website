@@ -81,7 +81,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <div class="bio">
             <h3>Flannery McIntyre</h3>
             <p><b>Team Member</b></p>
-            <p>Short bio about the team member.</p>
+            <p>Flannery McIntyre is a PhD Candidate in the Department of Music and Program in Medieval Studies at the University of California, Berkeley. Prior to starting her PhD, she earned a MPhil in Medieval Archaeology from the University of Cambridge. Her dissertation, entitled “An History of Music and Intellectual Culture, 300 – 900 A.D,” explores how people understood music’s place in the contexts of religion, material culture, quadrivial sciences, politics, and literature during Late Antiquity and the Early Middle Ages.</p>
         </div>
     </div>
 </div>
