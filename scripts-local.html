@@ -388,93 +388,61 @@ function doMapSetup(opts) {
             }
             
             // Get bibliography, if applicable
-            if (events[i][BIBID]){
-                let bibliographyid = events[i][BIBID];
-                let bibliographypages = "";
-                
-                if (events[i][BIBPAGES]){
-                    bibliographypages = events[i][BIBPAGES];
+            if (events[i][BIBID]) {
+                let bibliographyid = events[i][BIBID].trim();
+                let bibliographypages = events[i][BIBPAGES] ? events[i][BIBPAGES].trim() : "";
+
+                // Split bibliography entries if multiple entries are separated by a semicolon
+                let bibliographyIDs = bibliographyid.includes(";") ? bibliographyid.split(/\s*;\s*/) : [bibliographyid];
+                let bibliographyPages = bibliographypages.includes(";") ? bibliographypages.split(/\s*;\s*/) : [bibliographypages];
+
+                // Ensure the bibliography string starts fresh for each event
+                bibliography = "";
+
+                for (let j = 0; j < bibliographyIDs.length; j++) {
+                    let bibID = bibliographyIDs[j];
+                    let bibPage = bibliographyPages[j] || ""; // Avoid 'undefined'
+
+                    let bibliographyInfo = findInfo(bibID, "Bibliography");
+
+                    if (!bibliographyInfo) {
+                        console.warn("Missing bibliography info for", bibID);
+                        continue; // Skip if no data is found
+                    }
+
+                    let author = bibliographyInfo[AUTHOR] || "";
+                    let articlename = bibliographyInfo[ARTNAME] || "";
+                    let volumename = bibliographyInfo[VOLNAME] || "";
+                    let editor = bibliographyInfo[EDIT] || "";
+                    let volumenumber = bibliographyInfo[VOLNO] || "";
+                    let edition = bibliographyInfo[EDITION] || "";
+                    let series = bibliographyInfo[SER] || "";
+                    let bibliographylocation = bibliographyInfo[BIBLOC] || "";
+                    let publisher = bibliographyInfo[PUB] || "";
+                    let year = bibliographyInfo[YEAR] || "";
+                    let pages = bibliographyInfo[PAGES] || "";
+                    let bibliographyurl = bibliographyInfo[URL] || "";
+
+                    let entry = "";
+
+                    if (author) entry += `${author}, `;
+                    if (articlename) entry += `"${articlename},"`;
+                    if (articlename && volumename) entry += ` <i>${volumename}</i>`;
+                    else if (volumename) entry += `<i>${volumename}</i>`;
+
+                    if (editor) entry += `, ed. ${editor}`;
+                    if (volumenumber) entry += ` ${volumenumber}`;
+                    if (bibliographylocation && publisher && year) entry += ` (${bibliographylocation}: ${publisher}, ${year})`;
+                    else if (bibliographylocation && year) entry += ` (${bibliographylocation}: ${year})`;
+                    else if (year) entry += ` (${year})`;
+
+                    if (pages) entry += `: ${pages}`;
+                    if (bibPage) entry += `, at ${bibPage}`;
+
+                    // Append to bibliography string with proper formatting
+                    if (bibliography) bibliography += "; and ";
+                    bibliography += entry + "."; // Ensure each entry ends with a period
                 }
-            
-                // Split bibliography entries if multiple entries separated by a semicolon
-                if (bibliographyid.match(";")){
-                    bibliographyid = bibliographyid.trim().split(/\s*;\s*/);
-                } else {
-                    bibliographyid = [ bibliographyid ];
-                }
-                if (bibliographypages.match(";")){
-                    bibliographypages = bibliographypages.trim().split(/\s*;\s*/);
-                } else {
-                    bibliographypages = [ bibliographypages ];
-                }
-
-                for (let j=0; j<bibliographyid.length; j++){
-
-                    let bibliographyInfo = findInfo(bibliographyid[j], "Bibliography");
-
-                    let author = bibliographyInfo[AUTHOR];
-                    let articlename = bibliographyInfo[ARTNAME];
-                    let volumename = bibliographyInfo[VOLNAME];
-                    let editor = bibliographyInfo[EDIT];
-                    let volumenumber = bibliographyInfo[VOLNO];
-                    let edition = bibliographyInfo[EDITION];
-                    let series = bibliographyInfo[SER];
-                    let bibliographylocation = bibliographyInfo[BIBLOC];
-                    let publisher = bibliographyInfo[PUB];
-                    let year = bibliographyInfo[YEAR];
-                    let pages = bibliographyInfo[PAGES];
-                    let bibliographyurl = bibliographyInfo[URL];
-                    
-
-                    if (author){
-                        bibliography += `${author}, `;
-                    }
-
-                    if (articlename) {
-                        bibliography += `"${articlename}`;
-                    }
-
-                    if (articlename && volumename){
-                        bibliography += `," <i>${volumename}</i>`;
-                    } else if (articlename && !volumename) {
-                        bibliography += `"`;
-                    } else if (volumename && !articlename) {
-                        bibliography += `<i>${volumename}</i>`;
-                    }
-
-                    if (editor) {
-                        bibliography += `, ed. ${editor}`;
-                    }
-
-                    if (volumenumber) {
-                        bibliography += ` ${volumenumber}`;
-                    }
-
-                    if (bibliographylocation && publisher && year){
-                        bibliography += ` (${bibliographylocation}: ${publisher}, ${year})`;
-                    } else if (bibliographylocation && year){
-                        bibliography += ` (${bibliographylocation}: ${year})`;
-                    } else if (year) {
-                        bibliography += ` (${year})`;
-                    }
-
-                    if (pages){
-                        bibliography += `: ${pages}`;
-                    }
-
-                    if (pages && bibliographypages) {
-                        bibliography += `, at ${bibliographypages[j]}`;
-                    } else if (bibliographypages > 0) {
-                        bibliography += `, ${bibliographypages[j]}`;
-                    }
-
-                    if (j < bibliographyid.length - 1){
-                        bibliography += `; and `
-                    } else {
-                        bibliography += `.`;
-                    }
-                }
-                
             }
 
             // Get coordinates
@@ -588,8 +556,6 @@ function doMapSetup(opts) {
             description = "";
             docentry = "";
             bibliography = "";
-            bibliographyid = "";
-            bibliographypages = "";
             archiveprocessed = "";
             earliestyear = "";
             earliestmonth = "";
