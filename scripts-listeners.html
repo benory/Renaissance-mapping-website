@@ -7,9 +7,6 @@ MAP.menus = {};              // elements for displaying search menus by sheet na
 MAP.activeResults = null;
 MAP.lookup = {};
 
-let map; // Global reference to the map
-let markers = []; // Global array to hold map markers
-
 MAP.index = {};						// header name mapping by sheet
 MAP.index.Archival_Docs = {};		// header names for archival documents sheet
 MAP.index.Bibliography = {};		// header names for bibliography sheet
@@ -46,6 +43,9 @@ let rangeCertainty = "";
 let minDate = new Date("1400-01-01");
 let maxDate = new Date("1600-01-01");
 let currentDateRange = [minDate, maxDate];
+
+// Global variables for markerCluster
+let markerCluster;
 
 //////////////////////////////
 //
@@ -137,6 +137,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Click Event Listener for Clusters to Update Sidebar
+	markerCluster.on('clusterclick', function (event) {
+		const clusterMarkers = event.layer.getAllChildMarkers();
+		updateSidebarWithClusterMarkers(clusterMarkers);
+	});
+	
     map.on('moveend zoomend', () => {
 	    const input = document.querySelector("#input");
 	    if (input && input.value.trim() !== "") {
@@ -157,6 +163,9 @@ function handleCheckboxChange() {
     } else {
         filterMarkers(); // Apply filters to markers
     }
+
+    // Update the cluster display after filtering
+    updateClusterColors();
 
     // Trigger sidebar update after filtering
     updateSidebar();

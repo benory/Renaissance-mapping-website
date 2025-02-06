@@ -97,4 +97,26 @@ function getVisibleMarkers() {
     });
 }
 
+// Update Sidebar with Cluster Points
+function updateSidebarWithClusterMarkers(clusterMarkers) {
+    // Clear existing sidebar entries
+    const tableBody = document.querySelector('#active-markers-table tbody');
+    tableBody.innerHTML = '';
+
+    clusterMarkers.forEach(marker => {
+        // Find the corresponding data entry
+        const markerData = markers.find(m => m.marker === marker);
+
+        if (markerData) {
+            updateMarkerSidebar({
+                text: markerData.text,
+                personprocessed: markerData.personprocessed,
+                locationprocessed: markerData.locationprocessed,
+                daterange: markerData.daterange,
+                description: markerData.description
+            }, true, markerData.eventid);
+        }
+    });
+}
+
 </script>

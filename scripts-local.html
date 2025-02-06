@@ -11,6 +11,13 @@
 	     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
 	     crossorigin=""/>
 
+<!-- Load MarkerCluster CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+
+<!-- Load MarkerCluster JS -->
+<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+
 <script>
 
 let events = {% include metadata/Events.json %};
@@ -119,14 +126,15 @@ function doMapSetup(opts) {
         opts.zoomMax = 19;
     }
 
-    if (map) {
+    // Ensure `map` exists before trying to remove layers
+    if (typeof map !== "undefined" && map.eachLayer) {
         map.eachLayer(function(layer) {
             map.removeLayer(layer);
         });
         map.remove();
     }
 
-    map = L.map(opts.name).setView(opts.view, opts.zoom);
+    map = L.map(opts.name, { preferCanvas: true }).setView(opts.view, opts.zoom);
     map.options.minZoom = opts.zoomMin;
 
     let mapImage = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
@@ -208,6 +216,54 @@ function doMapSetup(opts) {
     let bibliography = "";
     let archiveprocessed = "";
     let nameshort = "";
+
+    // Initialize MarkerClusterGroup
+    markerCluster = L.markerClusterGroup({
+        maxClusterRadius: 50,  
+        spiderfyOnMaxZoom: false, 
+        showCoverageOnHover: false,
+        zoomToBoundsOnClick: false, // Prevents zooming in when clicking a cluster
+        iconCreateFunction: function(cluster) {
+            let markers = cluster.getAllChildMarkers();
+            let clusterColor = getClusterColor(markers);
+            const checkboxStates = getCheckboxStates();
+
+            let visibleMarkers = markers.filter(m => {
+                if (!m.options || !m.options.personID) return false;
+                const type = m.options.personID.substring(0, 3);
+                return shouldShowMarker(type, checkboxStates, m.options);
+            });
+
+            // Only cluster if there are more than 20 markers
+            if (markers.length <= 10) {
+                return L.divIcon({ html: '', className: 'hidden-cluster', iconSize: L.point(0, 0) });
+            }
+
+            return L.divIcon({
+                html: `
+                    <div style="
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: white;
+                        font-size: 14px;
+                        font-weight: bold;
+                        background: radial-gradient(circle, 
+                            ${clusterColor} 20%, 
+                            rgba(255, 255, 255, 0.1) 80%);
+                        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+                    ">
+                        ${cluster.getChildCount()}
+                    </div>
+                `,
+                className: 'custom-cluster',
+                iconSize: L.point(40, 40)
+            });
+        }
+    });
 
     markers = []; // Clear the markers array
 
@@ -509,12 +565,16 @@ function doMapSetup(opts) {
                     };
 
                     // Inside L.geoJson creation:
-                    let marker; // Declare marker variable
+                    let marker;
                     L.geoJson(geoJsonFeature, {
                         pointToLayer: function (feature, latlng) {
-                            marker = L.circleMarker(latlng, geojsonMarkerOptions); // Capture the marker
-                            marker.bindPopup(feature.properties.popupContent); // Bind the popup directly to the marker
-                            return marker; // Return the created circleMarker
+                            // Create the marker
+                            marker = L.circleMarker(latlng, geojsonMarkerOptions);
+                            // Bind popup
+                            marker.bindPopup(feature.properties.popupContent);
+                            // Add marker to the cluster group
+                            markerCluster.addLayer(marker); 
+                            return marker;
                         },
                     });
 
@@ -568,6 +628,8 @@ function doMapSetup(opts) {
         }
     }
 
+    map.addLayer(markerCluster);
+
     // Apply the initial filter
     filterMarkers();
 }
@@ -620,98 +682,92 @@ function updateMarkerOnMap(marker, show) {
 
 // Function to filter markers based on checkboxes and breakdown by decade (1400-1600), with optional searchRegex
 function filterMarkers(searchRegex = null, skipSidebarUpdate = false) {
-    const checkboxStates = getCheckboxStates(); // Retrieve current checkbox states
-    const histogramCounts = initializeDecades(1400, 1590); // Initialize all decades between 1400-1590 with 0 count
+    const checkboxStates = getCheckboxStates();
+    const histogramCounts = initializeDecades(1400, 1590);
     const histogramRow = document.getElementById("histogramRow");
-    const minYear = document.getElementById('date-slider-min').value;
-    const maxYear = document.getElementById('date-slider-max').value;
+    const minYear = parseInt(document.getElementById('date-slider-min').value, 10);
+    const maxYear = parseInt(document.getElementById('date-slider-max').value, 10);
 
-    // Retrieve active names from active containers
     const activeNames = new Set([
         ...getActiveNamesFromContainer('composer-active'),
         ...getActiveNamesFromContainer('musician-active'),
         ...getActiveNamesFromContainer('non-musician-active')
     ]);
 
-    // Clear the histogram before adding new values
-    histogramRow.innerHTML = '';
+    histogramRow.innerHTML = ''; // Clear histogram
 
-    // Only clear the sidebar if we're NOT handling a UserSearch
     if (!skipSidebarUpdate) {
-        const tableBody = document.querySelector('#active-markers-table tbody');
-        tableBody.innerHTML = '';
+        document.querySelector('#active-markers-table tbody').innerHTML = '';
     }
 
-    let searchCount = 0; // Track how many markers match the filters
-
-    // Use visibleMarkers() to get markers currently visible on the map and filtered by bounds
+    let searchCount = 0;
     const visible = getVisibleMarkers();
 
-    // Loop through the visible markers
+    const currentMarkers = new Set(markerCluster.getLayers());
+    const newMarkers = new Set();
+    const markersToRemove = new Set();
+
     visible.forEach(({ marker, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, text, eventid, daterange, locationprocessed, description, personprocessed }) => {
-        const type = personID.substring(0, 3); // Extract type (e.g., BCO, BMU, BNO)
+        const type = personID.substring(0, 3);
         const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
 
-        // Initial visibility check based on checkboxes and certainties
         let show = shouldShowMarker(type, checkboxStates, certainties);
 
-        // Apply active names filtering
-        if (activeNames.size > 0) {
-            show = activeNames.has(personprocessed);
-        }
-
-        // Apply search filter if searchRegex is provided
-        if (show && searchRegex && !(text.match(searchRegex) || 
-            locationprocessed.match(searchRegex) || 
-            String(earliestyear).match(searchRegex) || 
-            String(latestyear).match(searchRegex))) {
+        if (show && activeNames.size > 0 && !activeNames.has(personprocessed)) {
             show = false;
         }
 
-        // Apply date range filtering
+        if (show && searchRegex && !(text.match(searchRegex) || locationprocessed.match(searchRegex) || 
+            String(earliestyear).match(searchRegex) || String(latestyear).match(searchRegex))) {
+            show = false;
+        }
+
         if (show && (earliestyear > maxYear || latestyear < minYear)) {
             show = false;
         }
 
-        // Update marker visibility on the map and in the sidebar
         updateMarkerOnMap(marker, show);
-        
-        // Only update the sidebar if we're NOT handling a UserSearch
-        if (!skipSidebarUpdate) {
-            updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, show, eventid);
-        }
 
-        // If the marker is shown, update the histogram
         if (show) {
             searchCount++;
+            newMarkers.add(marker);
 
-            // Clamp earliestyear and latestyear to the 1400-1600 range
             const clampedEarliest = Math.max(1400, earliestyear);
             const clampedLatest = Math.min(1600, latestyear);
-
-            // Get all decades between the clamped earliest year and clamped latest year
-            const decades = getDecades(clampedEarliest, clampedLatest);
-
-            decades.forEach(decade => {
+            getDecades(clampedEarliest, clampedLatest).forEach(decade => {
                 if (histogramCounts[decade] !== undefined) {
-                    histogramCounts[decade] += 1; // Increment the count for this decade
+                    histogramCounts[decade]++;
                 }
             });
+
+            if (!skipSidebarUpdate) {
+                updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, true, eventid);
+            }
+        } else {
+            markersToRemove.add(marker);
         }
     });
 
-    // Only update the sidebar at the end if we're NOT handling a UserSearch
+    markersToRemove.forEach(marker => {
+        if (currentMarkers.has(marker)) {
+            markerCluster.removeLayer(marker);
+        }
+    });
+
+    newMarkers.forEach(marker => {
+        if (!currentMarkers.has(marker)) {
+            markerCluster.addLayer(marker);
+        }
+    });
+
     if (!skipSidebarUpdate) {
         updateSidebar();
     }
 
-    // Update search count display
     document.querySelector("#search-count").innerHTML = `[${totalMarkers} ${totalMarkers === 1 ? "event" : "events"}, of which ${searchCount} are visible]`;
 
-    // Now that we have the counts, update the histogram
     updateHistogram(histogramCounts);
-
-    // Update the map size
+    map.addLayer(markerCluster);
     map.invalidateSize();
 }
 
@@ -727,41 +783,49 @@ function UserSearch(skipFilter = false) {
     const regex = new RegExp(input.value, 'i');
     let searchCount = 0;
     const checkboxStates = getCheckboxStates();
-    const minYear = document.getElementById('date-slider-min').value;
-    const maxYear = document.getElementById('date-slider-max').value;
+    const minYear = parseInt(document.getElementById('date-slider-min').value, 10);
+    const maxYear = parseInt(document.getElementById('date-slider-max').value, 10);
 
-    // Clear the sidebar before adding search results
+    const visibleMarkers = new Set(markerCluster.getLayers());
+    const newVisibleMarkers = new Set();
+    const removedMarkers = new Set();
+
     const tableBody = document.querySelector('#active-markers-table tbody');
     tableBody.innerHTML = '';
 
     markers.forEach(({ marker, text, personID, locationprocessed, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, eventid, daterange, description, personprocessed }) => {
         const type = personID.substring(0, 3);
         const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
-        let show = shouldShowMarker(type, checkboxStates, certainties) && 
-           (text.match(regex) || 
-            locationprocessed.match(regex) || 
-            String(earliestyear).match(regex) || 
-            String(latestyear).match(regex));
 
-        // Apply chronology filter based on date slider
-        if (earliestyear > maxYear || latestyear < minYear) {
+        let show = shouldShowMarker(type, checkboxStates, certainties) &&
+            (text.match(regex) || locationprocessed.match(regex) ||
+            String(earliestyear).match(regex) || String(latestyear).match(regex));
+
+        if (show && (earliestyear > maxYear || latestyear < minYear)) {
             show = false;
         }
 
-        updateMarkerOnMap(marker, show);
-        updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, show, eventid);
-        if (show) searchCount++;
+        if (show) {
+            searchCount++;
+            newVisibleMarkers.add(marker);
+            if (!visibleMarkers.has(marker)) {
+                markerCluster.addLayer(marker);
+            }
+            updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, true, eventid);
+        } else if (visibleMarkers.has(marker)) {
+            removedMarkers.add(marker);
+        }
     });
 
-    /// Update search count display
+    removedMarkers.forEach(marker => markerCluster.removeLayer(marker));
+
     document.querySelector("#search-count").innerHTML = `[${totalMarkers} ${totalMarkers === 1 ? "event" : "events"}, of which ${searchCount} are visible]`;
 
-    // Ensure sidebar is updated but prevent filterMarkers from overriding search results
     if (!skipFilter) {
         filterMarkers(regex, true);
     }
 
-    map.invalidateSize();
+    markerCluster.refreshClusters();
 }
 
 function sanitizeEventId(eventid) {
@@ -807,5 +871,59 @@ function loadMarkerFromURL() {
         console.warn('No eventid found in URL');
     }
 }
+
+function updateClusterColors() {
+    // Clear existing clusters
+    const visible = getVisibleMarkers();
+    const currentMarkers = new Set(markerCluster.getLayers());
+    const newMarkers = new Set(visible.map(m => m.marker));
+
+    // Remove only markers that are no longer visible
+    currentMarkers.forEach(marker => {
+        if (!newMarkers.has(marker)) {
+            markerCluster.removeLayer(marker);
+        }
+    });
+
+    // Add only new markers that are not already in the cluster
+    newMarkers.forEach(marker => {
+        if (!currentMarkers.has(marker)) {
+            markerCluster.addLayer(marker);
+        }
+    });
+
+    // Get checkbox states
+    const checkboxStates = getCheckboxStates();
+
+    // Add only markers that pass the checkbox filters
+    markers.forEach(({ marker, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty }) => {
+        const type = personID.substring(0, 3);
+        const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
+
+        if (shouldShowMarker(type, checkboxStates, certainties)) {
+            markerCluster.addLayer(marker);
+        }
+    });
+
+    // Refresh map with new clusters
+    map.addLayer(markerCluster);
+}
+
+const clusterCache = new Map();
+
+function getClusterColor(markers) {
+    let clusterKey = markers.map(m => m.options.fillColor).sort().join(",");
+
+    if (clusterCache.has(clusterKey)) return clusterCache.get(clusterKey);
+
+    let clusterColor = "#0c8aff";
+    if (markers.some(m => m.options.fillColor === "#440154")) clusterColor = "#440154";
+    else if (markers.some(m => m.options.fillColor === "#23ed5c")) clusterColor = "#23ed5c";
+    else if (markers.some(m => m.options.fillColor === "#fde725")) clusterColor = "#fde725";
+
+    clusterCache.set(clusterKey, clusterColor);
+    return clusterColor;
+}
+
 
 </script>
