@@ -235,7 +235,7 @@ function doMapSetup(opts) {
             });
 
             // Only cluster if there are more than 20 markers
-            if (markers.length <= 10) {
+            if (markers.length <= 1) {
                 return L.divIcon({ html: '', className: 'hidden-cluster', iconSize: L.point(0, 0) });
             }
 
