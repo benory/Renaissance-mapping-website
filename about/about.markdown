@@ -32,7 +32,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <div class="bio">
             <h3>Jesse Rodin</h3>
             <p><b>Co-Director</b></p>
-            <p>Short bio about the team member.</p>
+            <p>Jesse Rodin is the Osgood Hooker Professor of Fine Arts (Department of Music) at Stanford University. He has published many books and articles on Renaissance music, including, most recently, the monograph <a href="https://www.cambridge.org/us/universitypress/subjects/music/medieval-and-renaissance-music/art-counterpoint-du-fay-josquin" target="_blank">The Art of Counterpoint from Du Fay to Josquin</a> (Cambridge University Press, 2024). Rodin directs the vocal ensemble <a href="https://cutcircle.org/" target="_blank">Cut Circle</a> as well as the <a href="https://josquin.stanford.edu/" target="_blank">Josquin Research Project</a>, a tool for exploring a large musical corpus. He is the recipient of awards and fellowships from organizations such as the American Council of Learned Societies, the American Musicological Society, and the Guggenheim Foundation.</p>
         </div>
     </div>
     <div class="team-member">
