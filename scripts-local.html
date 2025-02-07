@@ -741,7 +741,7 @@ function filterMarkers(searchRegex = null, skipSidebarUpdate = false) {
             });
 
             if (!skipSidebarUpdate) {
-                updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, true, eventid);
+                updateMarkerSidebar({ text, personID, personprocessed, locationprocessed, daterange, description }, true, eventid);
             }
         } else {
             markersToRemove.add(marker);
@@ -811,7 +811,7 @@ function UserSearch(skipFilter = false) {
             if (!visibleMarkers.has(marker)) {
                 markerCluster.addLayer(marker);
             }
-            updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, true, eventid);
+            updateMarkerSidebar({ text, personID, personprocessed, locationprocessed, daterange, description }, true, eventid);
         } else if (visibleMarkers.has(marker)) {
             removedMarkers.add(marker);
         }

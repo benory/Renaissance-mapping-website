@@ -8,12 +8,12 @@ function updateSidebar() {
     tableBody.innerHTML = '';
 
     // Add visible markers to the sidebar
-    visibleMarkers.forEach(({ text, personprocessed, locationprocessed, daterange, description, eventid }) => {
-        updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, true, eventid);
+    visibleMarkers.forEach(({ text, personID, personprocessed, locationprocessed, daterange, description, eventid }) => {
+        updateMarkerSidebar({ text, personID, personprocessed, locationprocessed, daterange, description }, true, eventid);
     });
 }
 
-function updateMarkerSidebar({ text, personprocessed, locationprocessed, daterange, description }, show, eventid) {
+function updateMarkerSidebar({ text, personID, personprocessed, locationprocessed, daterange, description }, show, eventid) {
     // Sanitize eventid for use as a DOM id
     const sanitizedEventId = sanitizeEventId(eventid);
 
@@ -26,6 +26,23 @@ function updateMarkerSidebar({ text, personprocessed, locationprocessed, dateran
         if (!existingRow) {
             const row = document.createElement('tr');
             row.id = `marker-${sanitizedEventId}`; // Use sanitized id for the row
+
+            // Assign background color based on person type
+            const type = personID ? personID.substring(0, 3) : '';
+            
+
+            let backgroundColor = 'rgba(68, 1, 84, 0.1)'; // Composer (BCO)
+            
+            if (type === 'BMU') {
+                backgroundColor = 'rgba(35, 237, 92, 0.1)'; // Musician (BMU)
+            } else if (type === 'BNO') {
+                backgroundColor = 'rgba(253, 231, 37, 0.1)'; // Default: Non-musician (BNO)
+            }
+
+            // Set row styling
+            row.style.backgroundColor = backgroundColor;
+            row.style.padding = '8px';
+            row.style.borderBottom = '1px solid #ddd';
 
             // Create a single cell for the row
             const cell = document.createElement('td');
@@ -110,6 +127,7 @@ function updateSidebarWithClusterMarkers(clusterMarkers) {
         if (markerData) {
             updateMarkerSidebar({
                 text: markerData.text,
+                personID: markerData.personID,
                 personprocessed: markerData.personprocessed,
                 locationprocessed: markerData.locationprocessed,
                 daterange: markerData.daterange,
