@@ -68,7 +68,8 @@ function addSelectedPerson(personID, personprocessed) {
         removeButton.textContent = '×';
         removeButton.onclick = () => {
             removeSelectedPerson(personID, personprocessed, dropdownId);
-            filterMarkers(); // Reapply filters after removal
+            console.warn("filterAndSearch addSelectedPerson");
+            filterAndSearchMarkers(); // Reapply filters after removal
         };
 
         selectedItem.appendChild(removeButton);
@@ -84,7 +85,8 @@ function addSelectedPerson(personID, personprocessed) {
             }
         });
 
-        filterMarkers(); // Reapply filters after adding
+        console.warn("filterAndSearch addSelectedPerson");
+        filterAndSearchMarkers(); // Reapply filters after adding
     }
 }
 
@@ -112,12 +114,14 @@ function removeSelectedPerson(personID, personprocessed, dropdownId) {
 
     listItem.onclick = () => {
         addSelectedPerson(personID, personprocessed);
-        filterMarkers();
+        console.warn("filterAndSearch removeselectedperson");
+        filterAndSearchMarkers();
     };
 
     dropdown.appendChild(listItem);
 
-    filterMarkers(); // Reapply filters after re-adding
+    console.warn("filterAndSearch removeselectedperson");
+    filterAndSearchMarkers(); // Reapply filters after re-adding
 }
 
 // Toggle dropdown visibility

@@ -121,8 +121,6 @@ document.addEventListener('DOMContentLoaded', () => {
         checkbox.addEventListener('change', handleCheckboxChange);
     });
 
-    handleCheckboxChange();
-
     // Add keydown listener for the Escape key
     document.addEventListener('keydown', (event) => {
         if (event.key === 'Escape') {
@@ -133,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add listener for clicks in the dropdown menus to run filterMarkers
     document.querySelectorAll('.dropdown').forEach(dropdown => {
         dropdown.addEventListener('click', (event) => {
-            filterMarkers();
+            filterAndSearchMarkers();
         });
     });
 
@@ -151,48 +149,15 @@ document.addEventListener('DOMContentLoaded', () => {
 	    updateSidebarWithClusterMarkers(clusterMarkers);
 	});
 	
-    map.on('moveend zoomend', () => {
-	    const input = document.querySelector("#input");
-	    if (input && input.value.trim() !== "") {
-	        // Run UserSearch instead of filterMarkers if searching
-	        UserSearch(true);
-	    } else {
-	        updateSidebar();  
-	        filterMarkers();
-	    }
+	map.on('moveend zoomend', () => {
+	    filterAndSearchMarkers();
 	});
 });
 
 function handleCheckboxChange() {
-    const input = document.querySelector("#input");
-    
-    if (input) {
-        UserSearch(); // If there is a search input, perform the search
-    } else {
-        filterMarkers(); // Apply filters to markers
-    }
+    // Run filtering logic to determine which markers should be shown
+    filterAndSearchMarkers();
 
-    // Ensure that individual markers are correctly shown/hidden
-    markers.forEach(({ marker, personID }) => {
-        const type = personID.substring(0, 3);
-        const checkboxStates = getCheckboxStates();
-        const show = shouldShowMarker(type, checkboxStates, {});
-
-        if (show) {
-            if (!map.hasLayer(marker)) {
-                marker.addTo(map); // Add to map if visible
-            }
-        } else {
-            if (map.hasLayer(marker)) {
-                map.removeLayer(marker); // Remove from map if hidden
-            }
-        }
-    });
-
-    // Refresh clusters based on new marker states
-    updateClusterColors();
-
-    // Trigger sidebar update to reflect marker changes
     updateSidebar();
 }
 

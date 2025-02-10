@@ -1,13 +1,52 @@
 <script>
 
 function updateSidebar() {
-    const visibleMarkers = getVisibleMarkers(); // Get markers visible on the map and passing filters
+    const checkboxStates = getCheckboxStates();
+    const minYear = parseInt(document.getElementById('date-slider-min').value, 10);
+    const maxYear = parseInt(document.getElementById('date-slider-max').value, 10);
+
+    const activeNames = new Set([
+        ...getActiveNamesFromContainer('composer-active'),
+        ...getActiveNamesFromContainer('musician-active'),
+        ...getActiveNamesFromContainer('non-musician-active')
+    ]);
+
+    const searchInput = document.querySelector("#input");
+    const searchRegex = searchInput && searchInput.value.trim() !== "" 
+        ? new RegExp(searchInput.value, 'i') 
+        : null;
 
     // Clear the sidebar
     const tableBody = document.querySelector('#active-markers-table tbody');
     tableBody.innerHTML = '';
 
-    // Add visible markers to the sidebar
+    // Get only markers within map bounds
+    const visibleMarkers = getVisibleMarkers().filter(({ marker, personID, locationCertainty, 
+        earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, 
+        text, personprocessed, locationprocessed }) => {
+        
+        const type = personID.substring(0, 3);
+        const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
+
+        let show = shouldShowMarker(type, checkboxStates, certainties);
+
+        if (show && activeNames.size > 0 && !activeNames.has(personprocessed)) {
+            show = false;
+        }
+
+        if (show && searchRegex && !(text.match(searchRegex) || locationprocessed.match(searchRegex) || 
+            String(earliestyear).match(searchRegex) || String(latestyear).match(searchRegex))) {
+            show = false;
+        }
+
+        if (show && (earliestyear > maxYear || latestyear < minYear)) {
+            show = false;
+        }
+
+        return show;
+    });
+
+    // Add filtered markers to the sidebar
     visibleMarkers.forEach(({ text, personID, personprocessed, locationprocessed, daterange, description, eventid }) => {
         updateMarkerSidebar({ text, personID, personprocessed, locationprocessed, daterange, description }, true, eventid);
     });
@@ -83,35 +122,6 @@ function updateMarkerSidebar({ text, personID, personprocessed, locationprocesse
             tableBody.removeChild(existingRow);
         }
     }
-}
-
-function getVisibleMarkers() {
-    const bounds = map.getBounds().pad(0.1); // Slightly expand bounds
-    const checkboxStates = getCheckboxStates(); // Retrieve the checkbox states
-
-    return markers.filter(({ marker, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, personprocessed, locationprocessed, text }) => {
-        // Check if marker is within bounds
-        if (!marker.getLatLng || !bounds.contains(marker.getLatLng())) {
-            return false; // Exclude markers outside bounds
-        }
-
-        // Determine marker type (e.g., BCO, BMU, BNO) from personID
-        const type = personID.substring(0, 3);
-        const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
-
-        // Check if the marker passes the checkbox filters
-        let show = shouldShowMarker(type, checkboxStates, certainties);
-
-        // Apply other filtering logic if needed
-        const minYear = document.getElementById('date-slider-min').value;
-        const maxYear = document.getElementById('date-slider-max').value;
-
-        if (show && (earliestyear > maxYear || latestyear < minYear)) {
-            show = false; // Filter by date range
-        }
-
-        return show; // Include marker if all checks pass
-    });
 }
 
 // Update Sidebar with Cluster Points

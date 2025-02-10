@@ -46,11 +46,7 @@ function updateDateRange() {
     // Call a function to reapply filters based on the selected range, or go to UserSearch depending on whether there is text.
     const input = document.querySelector("#input");
 
-    if (input){
-        UserSearch();
-    } else {
-        filterMarkers();
-    }
+    filterAndSearchMarkers();
 }
 
 function updateSliderBackground() {
