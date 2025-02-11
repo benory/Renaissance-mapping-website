@@ -210,5 +210,19 @@
 		"Institution Name": "Chapel of the Duke of Arcos",
 		"Input data": "AN",
 		"Date entered": "2025-01-19"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Juana_I",
+		"Institution Name": "Chapel of Juana I",
+		"Input data": "AN",
+		"Date entered": "2025-01-31"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Charles_the_Bold",
+		"Institution Name": "Chapel of Charles the Bold",
+		"Alias": "Burgundian court chapel",
+		"Institution Description": "Chapel of Charles the Bold, Duke of Burgundy 1467-1477",
+		"Input data": "LO",
+		"Date entered": "2025-2-9"
 	}
 ]

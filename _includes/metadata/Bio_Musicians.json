@@ -461,6 +461,7 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Anthoine_de_Berghes",
 		"Musician Name": "Anthoine de Berghes",
+		"Alias": "vande Berghe",
 		"Description": "first chaplain at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "198",
@@ -3703,9 +3704,9 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Henry_Bredemers",
 		"Musician Name": "Henry Bredemers",
-		"Description": "music teacher to the children of Philip the Fair",
+		"Description": "organist in chapel of Charles V; previously a part of the chapel of Philip the Fair",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
-		"BIB Pages": "194",
+		"BIB Pages": "248",
 		"Input data": "AN",
 		"Date entered": "2024-10-28"
 	},
@@ -6625,7 +6626,8 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Mathurin_du_Buisson",
 		"Musician Name": "Mathurin du Buisson",
-		"Description": "Singer at rouens",
+		"Alias": "Dubuisson, du Buysson, Dubuysson. Forestier??",
+		"Description": "Singer at Rouen and Paris Saint-Chappelle",
 		"Bibliography ID (BIB)": "BIB:Wegman_2009",
 		"BIB Pages": "35",
 		"Input data": "SMB",
@@ -8452,8 +8454,8 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Rodolf_Bascoutre",
 		"Musician Name": "Rodolf Bascoutre",
-		"Alias": "Bascontre, Rodolf",
-		"Description": "musician at Imperial chapel of Charles V",
+		"Alias": "le Frezon; Campin, Adolp; Campingius; Campnick",
+		"Description": "bass singer at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "200",
 		"Input data": "AN",
@@ -9754,5 +9756,34 @@
 		"BIB Pages": "348",
 		"Input data": "RP",
 		"Date entered": "2024-10-31"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Charles_Borse",
+		"Musician Name": "Charles Borse",
+		"Alias": "de Dunckercke; Bursa; Brugis; Brusis",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2014",
+		"BIB Pages": "247",
+		"Input data": "AN",
+		"Date entered": "2025-01-31"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pierre_Brabant",
+		"Musician Name": "Pierre Brabant",
+		"Alias": "Brabantius, Petrus; Pierquin",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2014",
+		"BIB Pages": "248",
+		"Input data": "AN",
+		"Date entered": "2025-01-31"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guillaume_Chevalier",
+		"Musician Name": "Guillaume Chevalier",
+		"Description": "singer and chaplain at Imperial chapel of Charles V; previously a part of both the chapels of Philip the Fair and Juana I",
+		"Bibliography ID (BIB)": "BIB:Ferer_2014",
+		"BIB Pages": "249",
+		"Input data": "AN",
+		"Date entered": "2025-01-31"
 	}
 ]

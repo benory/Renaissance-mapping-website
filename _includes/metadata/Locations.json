@@ -1785,6 +1785,19 @@
 		"Date entered": "2023-1-23"
 	},
 	{
+		"Location ID (LOC)": "LOC:Musee-Rodin",
+		"Name of Location": "Musée Rodin",
+		"City or Larger Place": "Paris",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/WSGkJVTgadMqpKRy8",
+		"Coordinates": "48.85551188700113, 2.315771024649868",
+		"Aliases": "The Museum of Jesse",
+		"Description": "A place where they keep all artifacts relating to Professor Rodin",
+		"URL": "https://www.musee-rodin.fr/en",
+		"Input data": "RP",
+		"Date entered": "2025-2-4"
+	},
+	{
 		"Location ID (LOC)": "LOC:Nantes",
 		"Name of Location": "Nantes",
 		"Modern Country": "France",
@@ -3124,5 +3137,124 @@
 		"Coordinates": "36.72015910093052, -4.41928916774951",
 		"Input data": "AN",
 		"Date entered": "2025-01-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:Pont-de-Metz",
+		"Name of Location": "Pont-de-Metz",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/y1e9QhhbwMUSJH4i6",
+		"Coordinates": "49.88148889117066, 2.242417426782667",
+		"Description": "Camp at Pont-de-Metz",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
+	},
+	{
+		"Location ID (LOC)": "LOC:Amiens-Saint-Acheul",
+		"Name of Location": "Saint Acheul",
+		"City or Larger Place": "Amiens",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/3aMcmeepoxGP68ct5",
+		"Coordinates": "49.88395446898833, 2.327535269209973",
+		"Aliases": "Saint-Acheul-lez-Amiens",
+		"Description": "Camp near Saint-Acheul-lez-Amiens",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
+	},
+	{
+		"Location ID (LOC)": "LOC:Fosse-Ferneuse",
+		"Name of Location": "Fosse-Ferneuse",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/cw9eSh47wkzafjDP6",
+		"Coordinates": "49.747404671281004, 1.8350951743886883",
+		"Description": "near Amiens",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
+	},
+	{
+		"Location ID (LOC)": "LOC:Peronne",
+		"Name of Location": "Péronne",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/zDFyMxEwhpidDrqs7",
+		"Coordinates": "49.933485774271496, 2.935823987760148",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
+	},
+	{
+		"Location ID (LOC)": "LOC:Doullens",
+		"Name of Location": "Doullens",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/vDeo8ZbnZVneadJUA",
+		"Coordinates": "50.15742276387348, 2.3410689754372913",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
+	},
+	{
+		"Location ID (LOC)": "LOC:Le-Crotoy",
+		"Name of Location": "Le Crotoy",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/fWwBbe9kswf116Bi7",
+		"Coordinates": "50.2150059419559, 1.6258580109612528",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
+	},
+	{
+		"Location ID (LOC)": "LOC:Beauvais-Saint-Lucien",
+		"Name of Location": "Saint Lucien",
+		"City or Larger Place": "Beauvais",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/HSyugUbpz3ncSFQs5",
+		"Coordinates": "49.440411042513865, 2.079248639095764",
+		"Aliases": "Saint-Lucien-lez-Beauvais",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
+	},
+	{
+		"Location ID (LOC)": "LOC:Eu",
+		"Name of Location": "Eu",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/URqwFRP8HfcfxiMN7",
+		"Coordinates": "50.04878219503119, 1.4196862887586197",
+		"Description": "Camp near Eu",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
+	},
+	{
+		"Location ID (LOC)": "LOC:Criel-sur-Mer",
+		"Name of Location": "Criel-sur-Mer",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/P8zn2UMXpone3qLeA",
+		"Coordinates": "50.01559633460083, 1.3156821036528639",
+		"Description": "Camp near Criel-sur-Mer",
+		"URL": "towards Dieppe",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
+	},
+	{
+		"Location ID (LOC)": "LOC:Pastez-de-Bellimont",
+		"Name of Location": "Pastez de Bellimont",
+		"Modern Country": "France",
+		"Description": "Camp at Pastez de Bellimont",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
+	},
+	{
+		"Location ID (LOC)": "LOC:Neufchatel-en-Bray",
+		"Name of Location": "Neufchâtel-en-Bray",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/dZH6B7m4XQTBPYm76",
+		"Coordinates": "49.73179544809637, 1.4416627985262254",
+		"Description": "Camp outside of Neufchâtel",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
+	},
+	{
+		"Location ID (LOC)": "LOC:Airaines",
+		"Name of Location": "Airaines",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/ABQvN7Hb5TaHo8Ue9",
+		"Coordinates": "49.96565770042656, 1.9431314886048843",
+		"Description": "Camp outside of Airaines",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
 	}
 ]

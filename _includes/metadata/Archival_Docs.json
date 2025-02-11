@@ -1350,5 +1350,50 @@
 		"Description": "Diaries of Girolamo Aleandro",
 		"Input data": "SMB",
 		"Date entered": "2024-9-14"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Lille_ADN_B_3435",
+		"Location ID (LOC)": "LOC:Lille-Archives_Departmentales",
+		"Archive": "Archives Départementales du Nord",
+		"Archival Fond": "B",
+		"Signature": "3435",
+		"Input data": "LO",
+		"Date entered": "2025-2-9"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Lille_ADN_B_3436",
+		"Location ID (LOC)": "LOC:Lille-Archives_Departmentales",
+		"Archive": "Archives Départementales du Nord",
+		"Archival Fond": "B",
+		"Signature": "3436",
+		"Input data": "LO",
+		"Date entered": "2025-2-9"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Lille_ADN_B_3437",
+		"Location ID (LOC)": "LOC:Lille-Archives_Departmentales",
+		"Archive": "Archives Départementales du Nord",
+		"Archival Fond": "B",
+		"Signature": "3437",
+		"Input data": "LO",
+		"Date entered": "2025-2-9"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Lille_ADN_B_3438",
+		"Location ID (LOC)": "LOC:Lille-Archives_Departmentales",
+		"Archive": "Archives Départementales du Nord",
+		"Archival Fond": "B",
+		"Signature": "3438",
+		"Input data": "LO",
+		"Date entered": "2025-2-9"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Lille_ADN_B_3439",
+		"Location ID (LOC)": "LOC:Lille-Archives_Departmentales",
+		"Archive": "Archives Départementales du Nord",
+		"Archival Fond": "B",
+		"Signature": "3439",
+		"Input data": "LO",
+		"Date entered": "2025-2-9"
 	}
 ]

@@ -93,6 +93,16 @@
 		"Date entered": "2024-3-17"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Brenet_1910",
+		"Author": "Michel Brenet",
+		"Name of Volume/Journal": "Les Musiciens de la Sainte-Chapelle du Palais",
+		"Location": "Paris",
+		"Publisher": "Librarie Alphonse Picard et Fils",
+		"Publication Year": "1910",
+		"Input data": "SMB",
+		"Date entered": "2025-1-30"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Burn_2003",
 		"Author": "David Burn",
 		"Name of Article": "What Did Isaac Write for Constance?",
@@ -959,6 +969,7 @@
 		"Publication Year": "2009",
 		"Pages": "110–121",
 		"URL": "https://www.brepolsonline.net/doi/pdf/10.1484/J.JAF.1.100442",
+		"Input data": "SMB",
 		"Date entered": "2024-9-14"
 	},
 	{
@@ -1017,5 +1028,27 @@
 		"Pages": "xxiii-xxxvii",
 		"Input data": "AN",
 		"Date entered": "2025-01-19"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Ferer_2012",
+		"Author": "Mary Tiffany Ferer",
+		"Name of Article": "Music and Ceremony at the Court of Charles V",
+		"Name of Volume/Journal": "Studies in Medieval and Renaissance Music",
+		"Editor": "Tess Knighton, Helen Deeming",
+		"Volume": "12",
+		"Location": "Woodbridge",
+		"Publisher": "Boydell",
+		"Publication Year": "2012",
+		"Input data": "AN",
+		"Date entered": "2025-02-01"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Higgins_1987",
+		"Author": "Paula Higgins",
+		"Name of Article": "Antoine Busnois and Musical Culture in Late Fifteenth-Century France and Burgundy",
+		"Publisher": "Ph.D. diss., Princeton University",
+		"Publication Year": "1987",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
 	}
 ]

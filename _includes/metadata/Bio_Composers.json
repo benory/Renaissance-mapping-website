@@ -35,6 +35,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Antoine_Bruhier",
 		"Composer Name": "Antoine Bruhier",
+		"Alias": "Brochier, Antoine; Broier, Antoine; Broyer, Antoine; Brubyer, Antoine; Brucher, Antoine; Bruchier, Antoine; Brugier, Antonio; Bruglier, Antoine; Bruher, Antoine; Bruhier, Antoine; Bruhiere, Antoine; Bruhyer, Antoine; Bruyer, Antoine",
 		"Description": "French singer and composer",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/220/",
 		"RISM ID": "pe30016485",
@@ -42,11 +43,14 @@
 		"Bibliography (BIB) ID": "BIB:Lockwood_1979",
 		"BIB Pages": "199",
 		"Input data": "BSO",
-		"Date entered": "2024-3-19"
+		"Date entered": "2024-3-19",
+		"Update data": "BSO",
+		"Date updated": "2025-2-10"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Antoine_Brumel",
 		"Composer Name": "Antoine Brumel",
+		"Alias": "Broemel, Antoine; Brommel, Antoine; Brommel, Anton; Brumel, A.; Brumel, Antoin; Brumel, Anton; Brumel, Antonio; Brumel, Antonius; Brumet, Antoine; Brummel, Antoine; Brummel, Anton; Brunel, Antoine; Brunel, Anton; Brunello, Antoine",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/199/",
 		"RISM ID": "pe20000368",
 		"RISM Link": "https://rism.online/people/20000368",
@@ -113,6 +117,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Arnold_de_Lantins",
 		"Composer Name": "Arnold de Lantins",
+		"Alias": "Arnold de Lantins; Arnoldus [Lantins]; Arnoldus [de Lantinis]; Arnoldus [de Lantins]; Lanctius; Lantinis; Lantinis, Arnoldus de; Lantins, Arnaldus de; Lantins, Arnoldo de; Lantins, Arnoldus de; Lantins, Ray. de; Lantins, Raynaldus de; Lantius; Latinis; Latinis, Arnoldo",
 		"Description": "Composer, singer",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/150/",
 		"RISM ID": "pe30109013",
@@ -120,16 +125,24 @@
 		"Bibliography (BIB) ID": "BIB:Planchart_2018",
 		"BIB Pages": "122",
 		"Input data": "SMB",
-		"Date entered": "2024-8-22"
+		"Date entered": "2024-8-22",
+		"Update data": "BSO",
+		"Date updated": "2025-2-10"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Bernardus_Ycart",
 		"Composer Name": "Bernardus Ycart",
-		"Description": "composer at Neapolitan court"
+		"Alias": "Hicart, Bernar; Hicart, Bernhard; Hycaert, Bernhard; Hycart, Bernhard; Hyckaert, Bernhard; Icart, Bernhard; Ycaert, Bernhard; Ycart, Ber.; Ycart, Bernar; Ycart, Bernard; Ycart, Bernardus",
+		"Description": "composer at Neapolitan court",
+		"Input data": "SMB",
+		"Date entered": "2024-8-11",
+		"Update data": "BSO",
+		"Date updated": "2025-2-10"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Bertran_Feragut",
 		"Composer Name": "Bertran Feragut",
+		"Alias": "Beltramus, de Francia; Beltrandus, de Vignone; Bertrand, di Avignone; Feracut, Bertran; Feragut, Beltrame; Feraguti, Bertrandus; Ferragut, Beltrame; Ferragut, Beltramus; Ferragut, Beltrandus; Ferragut, Bertrandus",
 		"Description": "composer",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/275/",
 		"RISM ID": "pe41016866",
@@ -169,11 +182,14 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Charles_d'Argentil",
 		"Composer Name": "Charles d'Argentil",
+		"Alias": "Argentil, Charles; Argentile, Charles; Argentilis, Charles de; Argentilli, Charles; Argentini, Charles; Carolus d'Argentille; Charles d'Argentille; Ciarles Argentil; D'Argentille; D'Argentilly, Carlo; D'Argentilly, Carolus; D'Argentilly, Petrocarlo; Dargentil, Charles; De Argentilis, Charles; dubatz",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/287/",
 		"RISM ID": "pe30017603",
 		"RISM Link": "https://rism.online/people/30017603",
 		"Input data": "SMB",
-		"Date entered": "2024-11-17"
+		"Date entered": "2024-11-17",
+		"Update data": "BSO",
+		"Date updated": "2025-2-10"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Claudin_de_Sermisy",
@@ -224,6 +240,19 @@
 		"Date entered": "2023-3-28",
 		"Update data": "BSO",
 		"Date updated": "2023-5-8"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Cristobal_de_Morales",
+		"Composer Name": "Cristobal de Morales",
+		"Birth Date": "~1500",
+		"Death Date": "1553",
+		"Description": "composer and singer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/270/",
+		"RISM ID": "pe30002254",
+		"RISM Link": "https://rism.online/people/30002254",
+		"Bibliography (BIB) ID": "BIB:Rees_2007",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Dionysius_Prioris",
@@ -1104,18 +1133,5 @@
 		"Bibliography (BIB) ID": "BIB:Bowers_2001",
 		"Input data": "SMB",
 		"Date entered": "2024-8-9"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Cristobal_de_Morales",
-		"Composer Name": "Cristobal de Morales",
-		"Birth Date": "~1500",
-		"Death Date": "1553",
-		"Description": "composer and singer",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/270/",
-		"RISM ID": "pe30002254",
-		"RISM Link": "https://rism.online/people/30002254",
-		"Bibliography (BIB) ID": "BIB:Rees_2007",
-		"Input data": "AN",
-		"Date entered": "2025-01-19"
 	}
 ]
