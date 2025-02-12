@@ -194,15 +194,19 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Claudin_de_Sermisy",
 		"Composer Name": "Claudin de Sermisy",
+		"Alias": "Cermisy, Claudin de; Claudin [de Sermisy]; Sermicy, Claudin de; Sermisi, Claudio de; Sermisy, Cl. de; Sermisy, Claude de; Sermizy, Claudin de; Sermysy, Claudin de; Sernisy, Claudin de; Servyzy, Claudin de",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/222/",
 		"RISM ID": "pe20000369",
 		"RISM Link": "https://rism.online/people/20000369",
 		"Input data": "BSO",
-		"Date entered": "2024-4-5"
+		"Date entered": "2024-4-5",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Cornelius_Canis",
 		"Composer Name": "Cornelius Canis",
+		"Alias": "Cornelis de Hond, Cornelius; De Hondt, Cornelius; Hondt, Cornelius",
 		"Description": "composer",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/671/",
 		"RISM ID": "pe30007460",
@@ -210,11 +214,14 @@
 		"Bibliography (BIB) ID": "BIB:Ferer_2014",
 		"BIB Pages": "198",
 		"Input data": "AN",
-		"Date entered": "2024-10-28"
+		"Date entered": "2024-10-28",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Cornelius_Heyns",
 		"Composer Name": "Cornelius Heyns",
+		"Alias": "Heyne, Cornelius; Heynz, Cornelius",
 		"Death Date": "1485",
 		"Description": "Composer; cleric; singer; chaplain; succentor; not identical with the Cistercian monk Nornelius Heyns",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/357/",
@@ -223,7 +230,9 @@
 		"Bibliography (BIB) ID": "BIB:Strohm_1985",
 		"BIB Pages": "155",
 		"Input data": "LO",
-		"Date entered": "2024-8-24"
+		"Date entered": "2024-8-24",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Crispin_van_Stappen",
@@ -244,6 +253,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Cristobal_de_Morales",
 		"Composer Name": "Cristobal de Morales",
+		"Alias": "Clericus Hispalensis; De Morales, Cristobal; Morales Hispalensis; Morales, Christophoro",
 		"Birth Date": "~1500",
 		"Death Date": "1553",
 		"Description": "composer and singer",
@@ -252,7 +262,9 @@
 		"RISM Link": "https://rism.online/people/30002254",
 		"Bibliography (BIB) ID": "BIB:Rees_2007",
 		"Input data": "AN",
-		"Date entered": "2025-01-19"
+		"Date entered": "2025-01-19",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Dionysius_Prioris",
@@ -269,38 +281,50 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Eloy_dAmerval",
 		"Composer Name": "Eloy d'Amerval",
+		"Alias": "Amerval, Eloy d'; Bloym; Damerval; Eligius; Eloym; Illigio",
 		"Input data": "ECZ",
-		"Date entered": "2024-2-22"
+		"Date entered": "2024-2-22",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Francesco_de_Layolle",
 		"Composer Name": "Francesco de Layolle",
+		"Alias": "Aiolla, Francesco de; Aiolle, Antonio Francesco Romolo di Agniolo di Piero; Aiolli, Francesco de; Ayolle, Francesco de; De Layolle, Francesco; Dell'Aiolle, Francesco; Dell'Aiolli, Francesco; Dell'Aiuola, Francesco; Dell'Ajolle, Francesco; Layolla, Francesco de; Layolle, François de",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/1148/",
 		"RISM ID": "pe30010858",
 		"RISM Link": "https://rism.online/people/30010858",
 		"Input data": "SMB",
-		"Date entered": "2024-11-15"
+		"Date entered": "2024-11-15",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Franchinus_Gaffurius",
 		"Composer Name": "Franchinus Gaffurius",
+		"Alias": "Gaffori, Franchino; Gaffori, Franchinus; Gafforius, Franchino; Gafforus, Franchinus; Gaffuri, Franchino; Gaffurio, Franchino; Gafor, Franchinus; Gafori, Franchino; Gafori, Franchinus; Gafurio, Franchino; Gafuris, Franchino; Gafurius, Franchinus; Gafurus, Franchinus",
 		"Death Date": "1522-6-22",
 		"Description": "Composer, theorist, scribe",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/307/",
 		"RISM ID": "pe30102810",
 		"RISM Link": "https://rism.online/people/30102810",
 		"Input data": "SMB",
-		"Date entered": "2024-8-11"
+		"Date entered": "2024-8-11",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Francisco_de_Peñalosa",
 		"Composer Name": "Francisco de Peñalosa",
+		"Alias": "Penyalosa, Francisco de; Pignalola, Francisco de",
 		"Description": "Composer",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/570/",
 		"RISM ID": "pe30024040",
 		"RISM Link": "https://rism.online/people/30024040",
 		"Input data": "SMB",
-		"Date entered": "2024-10-12"
+		"Date entered": "2024-10-12",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Gaspar_van_Weerbeke",
@@ -320,6 +344,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Gilles_Binchois",
 		"Composer Name": "Gilles Binchois",
+		"Alias": "Binch, Gilles; Binchis, Gilles; Binchoy, Gilles; Binchoys, Gilles; Bincoys, Gilles; Buchoi, Gilles; Bynczoys, Gilles; Bynzoys, Gilles; Gilles de Binck, Gilles; Gilles de Bins, Gilles; Prachoys, Gilles; Vinczois, Gilles; Wintzois, Gilles; de Binche, Gilles; de Bins, Gilles",
 		"Death Date": "1460-9-20",
 		"Description": "Composer",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/153/",
@@ -328,7 +353,9 @@
 		"Bibliography (BIB) ID": "BIB:Planchart_2018",
 		"BIB Pages": "277",
 		"Input data": "SMB",
-		"Date entered": "2024-9-15"
+		"Date entered": "2024-9-15",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Gilles_Joye",
@@ -361,6 +388,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Guillaume_Du_Fay",
 		"Composer Name": "Guillaume Du Fay",
+		"Alias": "Doufayt, Guillaume; Du Fay, Guglielmo; Du Fayt, Guillaume; Dufa, Guillaume; Dufay, Guillaume",
 		"Birth Date": "~1400",
 		"Death Date": "1474-11-27",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/91/",
@@ -369,16 +397,21 @@
 		"Bibliography (BIB) ID": "BIB:Starr_1992",
 		"BIB Pages": "258–59",
 		"Input data": "LO",
-		"Date entered": "2024-3-22"
+		"Date entered": "2024-3-22",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Guillaume_Faugues",
 		"Composer Name": "Guillaume Faugues",
+		"Alias": "Fagus, Guillaume; Faugues, Vincent; Fauques, Guillaume; La Fage, Guillaume",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/370/",
 		"RISM ID": "pe50041917",
 		"RISM Link": "https://rism.online/people/50041917",
 		"Input data": "SMB",
-		"Date entered": "2024-8-10"
+		"Date entered": "2024-8-10",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Guillaume_le_Metayer",
@@ -437,6 +470,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Jacobus_Clemens_non_Papa",
 		"Composer Name": "Jacobus Clemens non Papa",
+		"Alias": "Clemens non papa, Jacobus; Clement, Jacobus; Clément, Jacques; Jacobus Clement non papa",
 		"Birth Date": "~1510",
 		"Death Date": "1555",
 		"Description": "Clergyman, composer, singer, succentor",
@@ -444,7 +478,9 @@
 		"RISM ID": "pe30000686",
 		"RISM Link": "https://rism.online/people/30000686",
 		"Input data": "AN",
-		"Date entered": "2024-12-4"
+		"Date entered": "2024-12-4",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Jacobus_Coutreman",
@@ -471,10 +507,13 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Jacotin_Frontin",
 		"Composer Name": "Jacotin Frontin",
+		"Alias": "Frontin, Jacotin; Godebrie, Jacob; Godebrye, Jacob; Jacostin; Le Beel, Jacques; Le Bel, Jacotin; Level, Giacomo; Level, Jacobus; Level, Jacotinus; Level, Jacques",
 		"RISM ID": "pe30016657",
 		"RISM Link": "https://rism.online/people/30016657",
 		"Input data": "BSO",
-		"Date entered": "2024-2-14"
+		"Date entered": "2024-2-14",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Jacques_Arcadelt",
@@ -491,6 +530,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Jacques_Champion",
 		"Composer Name": "Jacques Champion",
+		"Alias": "Champion, Jacques (II); Sieur de La Chapelle",
 		"Description": "maitre des enffans at Imperial chapel of Charles V",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/626/",
 		"Bibliography (BIB) ID": "BIB:Ferer_2014",
@@ -512,12 +552,15 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Jean_de_la_Fage",
 		"Composer Name": "Jean de la Fage",
+		"Alias": "Fage, Jean de",
 		"Description": "composer, probably French",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/282/",
 		"RISM ID": "pe30018710",
 		"RISM Link": "https://rism.online/people/30018710",
 		"Input data": "BSO",
-		"Date entered": "2024-3-19"
+		"Date entered": "2024-3-19",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Jean_de_Saint_Gille",
@@ -530,7 +573,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Jean_Lheritier",
 		"Composer Name": "Jean Lhéritier",
-		"Alias": "Metregian Leretier",
+		"Alias": "Heritier, Jean; Lheretier, Jean; Lherithier, Jean; Lirithier, Jean; Héritier, Jean; L'Héritier, Jean; Leretier, Jean; Lerithier, Jean; Lhiretier, Jean; Liritier, Jean",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/219/",
 		"RISM ID": "pe30012541",
 		"RISM Link": "https://rism.online/people/30012541",
@@ -553,15 +596,19 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Jean_Richafort",
 		"Composer Name": "Jean Richafort",
+		"Alias": "Ricaforte, Jean; Ricartsvorde, Jean; Ricciaforte, Jean; Richaffort, Jean; Richaforth, Jean; Richauffort, Jean; Riçhaffort, Jean; Rycefort, Jean; Rÿchafort, Jean",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/214/",
 		"RISM ID": "pe30012751",
 		"RISM Link": "https://rism.online/people/30012751",
 		"Input data": "BSO",
-		"Date entered": "2024-4-5"
+		"Date entered": "2024-4-5",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Jehan_Fresneau",
 		"Composer Name": "Jehan Fresneau",
+		"Alias": "Fresneau, Joannes; Franau, Jehan; Franeau, Jean; Franeau, Jean; Frania, Jean de; Frania, Jehan de; Franier, Jean; Franier, Jehan; Frasnau, Jean; Frasnau, Jehan; Fremniau, Jo.; Fresneau, Jean",
 		"Description": "composer",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/202/",
 		"RISM ID": "pe41016838",
@@ -569,7 +616,9 @@
 		"Bibliography (BIB) ID": "BIB:Perkins_1984",
 		"BIB Pages": "535",
 		"Input data": "SMB",
-		"Date entered": "2024-9-22"
+		"Date entered": "2024-9-22",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Jeronimus_de_Clibano",
@@ -586,12 +635,15 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Jheronimus_Vinders",
 		"Composer Name": "Jheronimus Vinders",
+		"Alias": "Vender, Hieronymus; Vender, Jorius; Venders, Hieronymus; Vinders, Jheronimus; Vindter, Hieronymus",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/508/",
 		"RISM ID": "pe30007720",
 		"RISM Link": "https://rism.online/people/30007720",
 		"Bibliography (BIB) ID": "BIB:Jas_1994",
 		"Input data": "BSO",
-		"Date entered": "2024-3-16"
+		"Date entered": "2024-3-16",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Johannes_Baltazar",
@@ -646,13 +698,15 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Johannes_Ghiselin",
 		"Composer Name": "Johannes Ghiselin",
-		"Alias": "Verbonnet",
+		"Alias": "Geissling, Johannes; Geysling, Johannes; Ghiselain, Jean; Ghiselin, Jean; Ghiseling, Johannes; Ghisilinus, Johannes; Ghisling, Johannes; Giselin, Johannes; Giselinus, Johannes; Verbonet, Johannes; Verbonette, Johannes; Verbonnet, Jean; Verbonnet, Johannes",
 		"Death Date": "1507",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/102/",
 		"RISM ID": "pe30012342",
 		"RISM Link": "https://rism.online/people/30012342",
 		"Input data": "SMB",
-		"Date entered": "2024-6-29"
+		"Date entered": "2024-6-29",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Johannes_Hillanis",
@@ -699,7 +753,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Johannes_Regis",
 		"Composer Name": "Johannes Regis",
-		"Alias": "Leroy, Jean",
+		"Alias": "Leroy, Jehan; Regis, Jean",
 		"Description": "composer",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/149/",
 		"RISM ID": "pe30101081",
@@ -744,6 +798,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:John_Plummer",
 		"Composer Name": "John Plummer",
+		"Alias": "John, Plomer; John, Plourmel; John, Plumere; John, Plummer; John, Polmier; John, Polumier; Plomer, John; Plourmel, John; Plumere, John; Polmier, John; Polumier, John",
 		"Birth Date": "1410",
 		"Death Date": "1483",
 		"Description": "composer at Chapel Royal (British)",
@@ -757,6 +812,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:John_Pyamour",
 		"Composer Name": "John Pyamour",
+		"Alias": "Piamor, John",
 		"Death Date": "1491",
 		"Description": "composer at Chapel Royal (British)",
 		"Bibliography (BIB) ID": "BIB:Bowers_2001",
@@ -766,6 +822,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:John_Sheppard",
 		"Composer Name": "John Sheppard",
+		"Alias": "Shepard, John; Sheperd, John; Shepheard, John; Sheppard, John",
 		"Death Date": "1558-12",
 		"Description": "composer at Chapel Royal (British)",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/958/",
@@ -807,20 +864,24 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Lupus_Hellinck",
 		"Composer Name": "Lupus Hellinck",
-		"Alias": "Lupus",
+		"Alias": "Hellin, Lupus; Hellinc, Lupus; Hellync, Lupus; Hellynck, Lupus; Lupi, Lupus; Lupus, Lupus; Wolfhard, Lupus; Wolfram, Lupus; Wulfaert, Lupus; Wulframus, Lupus",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/264/",
 		"RISM ID": "pe30006996",
 		"RISM Link": "https://rism.online/people/30006996",
 		"Input data": "BSO",
-		"Date entered": "2024-3-18"
+		"Date entered": "2024-3-18",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
-		"Biography Composer (BCO) ID": "BCO:Maistre_Jhan",
-		"Composer Name": "Maistre Jhan",
-		"Alias": "de Ferrara",
+		"Biography Composer (BCO) ID": "BCO:Maistre_Jan",
+		"Composer Name": "Maistre Jan",
+		"Alias": "Gallus, Joannes; Gallus, Joannes Metre Jehan; Johannes de Ferrara; Le Cocq, Jean; M. Ian; Maistre Jam; Maistre Jan; Maistre Jehan; Metre Jehan",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/218/",
 		"Input data": "SMB",
-		"Date entered": "2024-10-31"
+		"Date entered": "2024-10-31",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Marbrianus_de_Orto",
@@ -841,11 +902,14 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Mathieu_Gascongne",
 		"Composer Name": "Mathieu Gascongne",
+		"Alias": "Gascogne, Mathieu; Gascone, Mathieu; Gascong, Mathieu; Gascongne, Johannes; Gascongus, Mathieu; Gasconia, Mathieu; Gasscoeing, Mathieu; Guascogna, Mathieu",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/227/",
 		"RISM ID": "pe30022179",
 		"RISM Link": "https://rism.online/people/30022179",
 		"Input data": "BSO",
-		"Date entered": "2024-4-5"
+		"Date entered": "2024-4-5",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Matteo_di_Paolo",
@@ -884,7 +948,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Nicolas_Champion",
 		"Composer Name": "Nicolas Champion",
-		"Alias": "le Liegeois",
+		"Alias": "Campion, Nicolas; Champion, Clais; Champion, Nicolaus; Le Liegeois; Le Liégeois; Nicolas Liegeois; Nicolas Liégeois; Sampion, Nicolas; Scampion, Nicolas; Scompianus, Nicolas",
 		"Birth Date": "~1470-5",
 		"Death Date": "1533",
 		"Description": "composer, priest, singer; maitre de la chapelle at Imperial chapel of Charles V",
@@ -894,12 +958,14 @@
 		"Bibliography (BIB) ID": "BIB:Ferer_2014",
 		"BIB Pages": "198",
 		"Input data": "AN",
-		"Date entered": "2024-10-31"
+		"Date entered": "2024-10-31",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Nicolas_Gombert",
 		"Composer Name": "Nicolas Gombert",
-		"Alias": "Gumbert, Nicolle",
+		"Alias": "Ghonbert, Nicolas; Gumbert, Nicolas; Nicolas",
 		"Description": "composer",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/263/",
 		"RISM ID": "pe30006168",
@@ -907,11 +973,14 @@
 		"Bibliography (BIB) ID": "BIB:Ferer_2014",
 		"BIB Pages": "198",
 		"Input data": "AN",
-		"Date entered": "2024-10-28"
+		"Date entered": "2024-10-28",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Nicolas_Payen",
 		"Composer Name": "Nicolas Payen",
+		"Alias": "Colin, Nicolas; Paen, Nicolas; Paien, Nicolas",
 		"Birth Date": "~1512",
 		"Death Date": "1559",
 		"Description": "composer, maitre de la chapelle at Imperial chapel of Charles V",
@@ -921,11 +990,14 @@
 		"Bibliography (BIB) ID": "BIB:Ferer_2014",
 		"BIB Pages": "198",
 		"Input data": "AN",
-		"Date entered": "2024-11-5"
+		"Date entered": "2024-11-5",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Nicolaus_Craen",
 		"Composer Name": "Nicolaus Craen",
+		"Alias": "Claes, Nicolaes; Claessen, Nicolaus; Craen, Nicolas; Cràn, Nicolaus; De Craen, Nicolaus; Van Craen, Nicolaus",
 		"Description": "Composer",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/267/",
 		"RISM ID": "pe30016301",
@@ -933,12 +1005,14 @@
 		"Bibliography (BIB) ID": "BIB:Nosow_2021",
 		"BIB Pages": "255",
 		"Input data": "SMB",
-		"Date entered": "2025-1-16"
+		"Date entered": "2025-1-16",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Nicole_Grenon",
 		"Composer Name": "Nicole Grenon",
-		"Alias": "Nicolas",
+		"Alias": "Grenon, Nicolas; Grenon, Nicolaus; Grenon, Nicole",
 		"Death Date": "1456-10-17",
 		"Description": "Composer",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/97/",
@@ -947,20 +1021,26 @@
 		"Bibliography (BIB) ID": "BIB:Planchart_2018",
 		"BIB Pages": "265",
 		"Input data": "SMB",
-		"Date entered": "2024-9-15"
+		"Date entered": "2024-9-15",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Noel_Bauldeweyn",
 		"Composer Name": "Noel Bauldeweyn",
+		"Alias": "Balbun, Noel; Balduin, Noel; Balduini, Natalis; Balduinus, Noel; Baldwyn, Noel; Baubdweyn, Noel; Baudouyn, Noel; Bauldewijn, Noel; Baulduin, Noel; Baulduinus, Noel; Baulduvin, Noel; Baydouyn, Noel; Bouldewijen, Noel; Maester Noél, Noel; Meester Noel, Noel; Noe; Valdobin, Noel; Valdovin, Noel; Valduin, Noel",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/265/",
 		"RISM ID": "pe30001642",
 		"RISM Link": "https://rism.online/people/30001642",
 		"Input data": "BSO",
-		"Date entered": "2024-3-16"
+		"Date entered": "2024-3-16",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Oswald_von_Wolkenstein",
 		"Composer Name": "Oswald von Wolkenstein",
+		"Alias": "Wolkenstein, Oswald von; Wolkensteiner",
 		"Description": "Composer",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/1063/",
 		"RISM ID": "po30008941",
@@ -968,7 +1048,9 @@
 		"Bibliography (BIB) ID": "BIB:Planchart_2018",
 		"BIB Pages": "54",
 		"Input data": "SMB",
-		"Date entered": "2024-8-30"
+		"Date entered": "2024-8-30",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Pere_Oriola",
@@ -994,22 +1076,28 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Philippe_Basiron",
 		"Composer Name": "Philippe Basiron",
+		"Alias": "Barizon, Philippe; Basseron, Philippe; Bassiron, Philippe; Bassiron, Philippus; Baziron, Philippe; Bazyron, Philippe; Phelippon de Bourges, Philippe; Phelippon, Philippe; Philippon, Philippe",
 		"Death Date": "1491-5-31",
 		"Description": "Composer, Bourges",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/198/",
 		"RISM ID": "pe30016303",
 		"RISM Link": "https://rism.online/people/30016303",
 		"Input data": "SMB",
-		"Date entered": "2024-8-10"
+		"Date entered": "2024-8-10",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Philippe_Verdelot",
 		"Composer Name": "Philippe Verdelot",
+		"Alias": "Des Loges, Philippe; Deslouges, Philippe; Verdelotto, Philippe",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/249/",
 		"RISM ID": "pe30013948",
 		"RISM Link": "https://rism.online/people/30013948",
 		"Input data": "BSO",
-		"Date entered": "2024-3-17"
+		"Date entered": "2024-3-17",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Philippus_de_Primis",
@@ -1038,6 +1126,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Robert_Fayrfax",
 		"Composer Name": "Robert Fayrfax",
+		"Alias": "Fairfax, Robert; Fayrefax, Robert",
 		"Birth Date": "1464-4-23",
 		"Death Date": "1521-8-24",
 		"Description": "composer at Chapel Royal (British)",
@@ -1046,17 +1135,21 @@
 		"RISM Link": "https://rism.online/people/30008185",
 		"Bibliography (BIB) ID": "BIB:Bowers_2001",
 		"Input data": "SMB",
-		"Date entered": "2024-8-9"
+		"Date entered": "2024-8-9",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Ruffino_Bartolucci",
 		"Composer Name": "Ruffino Bartolucci",
-		"Alias": "d'Assisi, Fra Ruffino",
+		"Alias": "Bartolucci, Rofino; Magistro Rofino; Rofino, Maestro; Rophin, Ruffino; Ruffino d'Assisi; Rufino, Fra",
 		"Death Date": "1541?",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/1912/",
 		"Bibliography (BIB) ID": "BIB:Cattin_1991",
 		"Input data": "SMB",
-		"Date entered": "2024-10-23"
+		"Date entered": "2024-10-23",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Symon_le_Breton",
@@ -1071,6 +1164,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Thomas_Crecquillon",
 		"Composer Name": "Thomas Crecquillon",
+		"Alias": "Carchillion, Thomas; Carchillon, Thomas; Chrequillon, Thomas; Crecguillon, Thomas; Crechillon, Thomas; Crecquillon, Thomas; Creguillon, Thomas; Crequillon, Thomas; Crequillonis, Thomas; Crequilon, Thomas; Cricquillon, Thomas; Criquillon, Thomas; Croquillon, Thomas; Crycquillyon, Thomas; Créquillon, Thomas; Cyrquillon, Thomas; Grequillon, Thomas; Griquillon, Thomas; Krequillon, Thomas; Krequilon, Thomas; Trequillion, Thomas",
 		"Birth Date": "~1505",
 		"Death Date": "~1557",
 		"Description": "composer, clergyman, singer, maitre de la chapelle at Imperial chapel of Charles V",
@@ -1095,6 +1189,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Thomas_Tallis",
 		"Composer Name": "Thomas Tallis",
+		"Alias": "Talis, Thomas; Talles, Thomas; Tallys, Thomas; Talys, Thomas",
 		"Death Date": "1585-11-23",
 		"Description": "composer at Chapel Royal (British)",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/194/",
@@ -1102,29 +1197,36 @@
 		"RISM Link": "https://rism.online/people/30004082",
 		"Bibliography (BIB) ID": "BIB:Bowers_2001",
 		"Input data": "SMB",
-		"Date entered": "2024-8-9"
+		"Date entered": "2024-8-9",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Vincenet",
 		"Composer Name": "Vincenet",
-		"Description": "composer at Neapolitan court, NOT Johannes",
+		"Description": "composer at Neapolitan court (n.b. different from Johannes Vincenet)",
 		"Input data": "SMB",
-		"Date entered": "2024-8-9"
+		"Date entered": "2024-8-9",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Vincent_du_Bruequet",
 		"Composer Name": "Vincent du Bruequet",
-		"Alias": "Vincenet",
+		"Alias": "Vincenet, Johannes",
 		"Death Date": "1479",
 		"Description": "Composer",
 		"Bibliography (BIB) ID": "BIB:Planchart_2018",
 		"BIB Pages": "245",
 		"Input data": "SMB",
-		"Date entered": "2024-9-8"
+		"Date entered": "2024-9-8",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:William_Cornysh",
 		"Composer Name": "William Cornysh",
+		"Alias": "Cornenysch, William; Cornish, William; Cornishe, William; Cornissh, William; Cornys, William; Cornysche, William; Cornyshe, William; Cornyssh, William; Cornysshe, William; Kornyche, William; William [Cornish]; William [Cornishe]; William [Cornysh]; William [Cornyshe]",
 		"Death Date": "1523-8",
 		"Description": "composer at Chapel Royal (British)",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/536/",
@@ -1132,6 +1234,8 @@
 		"RISM Link": "https://rism.online/people/30101129",
 		"Bibliography (BIB) ID": "BIB:Bowers_2001",
 		"Input data": "SMB",
-		"Date entered": "2024-8-9"
+		"Date entered": "2024-8-9",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	}
 ]

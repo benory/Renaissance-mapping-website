@@ -37,6 +37,16 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Location ID (LOC)": "LOC:Airaines",
+		"Name of Location": "Airaines",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/ABQvN7Hb5TaHo8Ue9",
+		"Coordinates": "49.96565770042656, 1.9431314886048843",
+		"Description": "Camp outside of Airaines",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
+	},
+	{
 		"Location ID (LOC)": "LOC:Aix-en-Provence",
 		"Name of Location": "Aix-en-Provence",
 		"Modern Country": "France",
@@ -73,6 +83,18 @@
 		"Coordinates": "49.8949214194963, 2.3042480328014188",
 		"Input data": "BSO",
 		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Amiens-Saint-Acheul",
+		"Name of Location": "Saint Acheul",
+		"City or Larger Place": "Amiens",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/3aMcmeepoxGP68ct5",
+		"Coordinates": "49.88395446898833, 2.327535269209973",
+		"Aliases": "Saint-Acheul-lez-Amiens",
+		"Description": "Camp near Saint-Acheul-lez-Amiens",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
 	},
 	{
 		"Location ID (LOC)": "LOC:Ancenis",
@@ -197,6 +219,25 @@
 		"Date entered": "2023-5-15"
 	},
 	{
+		"Location ID (LOC)": "LOC:Avila",
+		"Name of Location": "Avila",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/HGrnpySpAq9VMmWw6",
+		"Coordinates": "40.65659308957786, -4.680906239524707",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:Avila-Cathedral",
+		"Name of Location": "Avila Cathedral",
+		"City or Larger Place": "Avila",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/W8TAKUNzGRKWKjTP7",
+		"Coordinates": "40.655914575101626, -4.697778125050546",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
+	},
+	{
 		"Location ID (LOC)": "LOC:Bain-de-Bretagne",
 		"Name of Location": "Bain-de-Bretagne",
 		"Modern Country": "France",
@@ -204,6 +245,15 @@
 		"Coordinates": "47.84345667585647, -1.6656705205684665",
 		"Input data": "BSO",
 		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bar-le-Duc",
+		"Name of Location": "Bar-le-Duc",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/x9w5RVnFEEsBbB5eA",
+		"Coordinates": "48.77505448575818, 5.163731885418648",
+		"Input data": "SMB",
+		"Date entered": "2024-10-5"
 	},
 	{
 		"Location ID (LOC)": "LOC:Barcelona",
@@ -225,13 +275,15 @@
 		"Date entered": "2024-3-13"
 	},
 	{
-		"Location ID (LOC)": "LOC:Bar-le-Duc",
-		"Name of Location": "Bar-le-Duc",
+		"Location ID (LOC)": "LOC:Beauvais-Saint-Lucien",
+		"Name of Location": "Saint Lucien",
+		"City or Larger Place": "Beauvais",
 		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/x9w5RVnFEEsBbB5eA",
-		"Coordinates": "48.77505448575818, 5.163731885418648",
-		"Input data": "SMB",
-		"Date entered": "2024-10-5"
+		"Google URL": "https://maps.app.goo.gl/HSyugUbpz3ncSFQs5",
+		"Coordinates": "49.440411042513865, 2.079248639095764",
+		"Aliases": "Saint-Lucien-lez-Beauvais",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
 	},
 	{
 		"Location ID (LOC)": "LOC:Beclers",
@@ -318,6 +370,16 @@
 		"Modern Country": "France",
 		"Input data": "LO",
 		"Date entered": "2024-2-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bohain",
+		"Name of Location": "Bohain",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/NWwDcLSF2m9HrX2K9",
+		"Coordinates": "49.98662421654262, 3.4546200738428094",
+		"Description": "Camp in front of the Abbey of Bohain",
+		"Input data": "LO",
+		"Date entered": "2025-02-10"
 	},
 	{
 		"Location ID (LOC)": "LOC:Bologna",
@@ -699,6 +761,25 @@
 		"Date entered": "2024-8-21"
 	},
 	{
+		"Location ID (LOC)": "LOC:Cordoba",
+		"Name of Location": "Cordoba",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/LCy5oBnHG8v91Y2x9",
+		"Coordinates": "37.88910409022997, -4.779249773263024",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:Cordoba-Cathedral",
+		"Name of Location": "Cordoba Cathedral",
+		"City or Larger Place": "Cordoba",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/APb3nEb8qA69XyWm7",
+		"Coordinates": "37.87900719244911, -4.779150869365893",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
+	},
+	{
 		"Location ID (LOC)": "LOC:Corneto",
 		"Name of Location": "Corneto",
 		"Modern Country": "Italy",
@@ -724,6 +805,17 @@
 		"Coordinates": "45.13265228505448, 10.020710146322584",
 		"Input data": "BSO",
 		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Criel-sur-Mer",
+		"Name of Location": "Criel-sur-Mer",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/P8zn2UMXpone3qLeA",
+		"Coordinates": "50.01559633460083, 1.3156821036528639",
+		"Description": "Camp near Criel-sur-Mer",
+		"URL": "towards Dieppe",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
 	},
 	{
 		"Location ID (LOC)": "LOC:Dergneau",
@@ -775,6 +867,15 @@
 		"Coordinates": "51.813311141297255, 4.689981787082144",
 		"Input data": "LO",
 		"Date entered": "2024-9-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Doullens",
+		"Name of Location": "Doullens",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/vDeo8ZbnZVneadJUA",
+		"Coordinates": "50.15742276387348, 2.3410689754372913",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
 	},
 	{
 		"Location ID (LOC)": "LOC:Dover",
@@ -839,6 +940,16 @@
 		"Coordinates": "48.43297999182367, 2.1561272613395825",
 		"Input data": "BSO",
 		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Eu",
+		"Name of Location": "Eu",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/URqwFRP8HfcfxiMN7",
+		"Coordinates": "50.04878219503119, 1.4196862887586197",
+		"Description": "Camp near Eu",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
 	},
 	{
 		"Location ID (LOC)": "LOC:Faenza",
@@ -965,6 +1076,16 @@
 		"Coordinates": "44.22234760954347, 12.041323628339896",
 		"Input data": "BSO",
 		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Fosse-Ferneuse",
+		"Name of Location": "Fosse-Ferneuse",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/cw9eSh47wkzafjDP6",
+		"Coordinates": "49.747404671281004, 1.8350951743886883",
+		"Description": "near Amiens",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
 	},
 	{
 		"Location ID (LOC)": "LOC:Francolino",
@@ -1125,6 +1246,16 @@
 		"Coordinates": "47.802611307866364, -3.276606221480914",
 		"Input data": "BSO",
 		"Date entered": "2024-1-24"
+	},
+	{
+		"Location ID (LOC)": "LOC:Hombleux",
+		"Name of Location": "Hombleux",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/3CYXBsfWkMG4jR8S7",
+		"Coordinates": "49.73861128677674, 2.9858656834587585",
+		"Description": "Campt at Hombleux-lez-Ham",
+		"Input data": "LO",
+		"Date entered": "2025-02-10"
 	},
 	{
 		"Location ID (LOC)": "LOC:Houtain",
@@ -1327,6 +1458,25 @@
 		"Date entered": "2024-7-11"
 	},
 	{
+		"Location ID (LOC)": "LOC:Le-Cateau-Cambresis",
+		"Name of Location": "Le Cateau-Cambrésis",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/1cJXJBBeuhhs75Y36",
+		"Coordinates": "50.10392823660047, 3.5438209991180756",
+		"Aliases": "Château-Cambrésis",
+		"Input data": "LO",
+		"Date entered": "2025-02-11"
+	},
+	{
+		"Location ID (LOC)": "LOC:Le-Crotoy",
+		"Name of Location": "Le Crotoy",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/fWwBbe9kswf116Bi7",
+		"Coordinates": "50.2150059419559, 1.6258580109612528",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
+	},
+	{
 		"Location ID (LOC)": "LOC:Legeuil",
 		"Name of Location": "Legeuil",
 		"Modern Country": "France",
@@ -1512,6 +1662,25 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Location ID (LOC)": "LOC:Malaga",
+		"Name of Location": "Malaga",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/F6SBhvDuxZ5rFiLj6",
+		"Coordinates": "36.71752689251559, -4.427294828071452",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:Malaga-Cathedral",
+		"Name of Location": "Malaga Cathedral",
+		"City or Larger Place": "Malaga",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/uAquGfVgB9uX9Hi18",
+		"Coordinates": "36.72015910093052, -4.41928916774951",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
+	},
+	{
 		"Location ID (LOC)": "LOC:Mantua",
 		"Name of Location": "Mantua",
 		"Modern Country": "Italy",
@@ -1519,6 +1688,15 @@
 		"Coordinates": "45.156580400625906, 10.791274204809342",
 		"Input data": "BSO",
 		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Marchena",
+		"Name of Location": "Marchena",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/RJM6FMPBvQ9eawnYA",
+		"Coordinates": "37.32730415467324, -5.417077458914847",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
 	},
 	{
 		"Location ID (LOC)": "LOC:Marcoussis",
@@ -1757,6 +1935,15 @@
 		"Date entered": "2024-7-11"
 	},
 	{
+		"Location ID (LOC)": "LOC:Monzon",
+		"Name of Location": "Monzon",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/VjugNhXpdGmRceSJ8",
+		"Coordinates": "41.915806718067515, 0.19271135325122624",
+		"Input data": "AN",
+		"Date entered": "2024-10-31"
+	},
+	{
 		"Location ID (LOC)": "LOC:Morlaix",
 		"Name of Location": "Morlaix",
 		"Modern Country": "France",
@@ -1843,6 +2030,16 @@
 		"Coordinates": "49.75719620675876, 2.909112141421389",
 		"Input data": "BSO",
 		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Neufchatel-en-Bray",
+		"Name of Location": "Neufchâtel-en-Bray",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/dZH6B7m4XQTBPYm76",
+		"Coordinates": "49.73179544809637, 1.4416627985262254",
+		"Description": "Camp outside of Neufchâtel",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
 	},
 	{
 		"Location ID (LOC)": "LOC:Nevers",
@@ -2041,6 +2238,14 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Location ID (LOC)": "LOC:Pastez-de-Bellimont",
+		"Name of Location": "Pastez de Bellimont",
+		"Modern Country": "France",
+		"Description": "Camp at Pastez de Bellimont",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
+	},
+	{
 		"Location ID (LOC)": "LOC:Patras",
 		"Name of Location": "Patras",
 		"Modern Country": "Greece",
@@ -2048,6 +2253,15 @@
 		"Coordinates": "38.24825044952356, 21.733574421364168",
 		"Input data": "SMB",
 		"Date entered": "2024-8-21"
+	},
+	{
+		"Location ID (LOC)": "LOC:Peronne",
+		"Name of Location": "Péronne",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/zDFyMxEwhpidDrqs7",
+		"Coordinates": "49.933485774271496, 2.935823987760148",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
 	},
 	{
 		"Location ID (LOC)": "LOC:Pertuis",
@@ -2075,6 +2289,35 @@
 		"Coordinates": "45.439724275589974, 10.68669596734244",
 		"Input data": "BSO",
 		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Picquigny",
+		"Name of Location": "Picquigny",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/99t16M5nWa9LdiQi9",
+		"Coordinates": "49.94401023040057, 2.143138342859234",
+		"Description": "Camp near château of Picquigny",
+		"Input data": "LO",
+		"Date entered": "2025-02-10"
+	},
+	{
+		"Location ID (LOC)": "LOC:Plasencia",
+		"Name of Location": "Plasencia",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/9T6Qix2LfP56Njrf8",
+		"Coordinates": "40.04208109704795, -6.084143045441221",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:Plasencia-Cathedral",
+		"Name of Location": "Plasencia Cathedral",
+		"City or Larger Place": "Plasencia",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/ZeoxzqDMyBDztxtX6",
+		"Coordinates": "40.02790156148868, -6.090935121615249",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
 	},
 	{
 		"Location ID (LOC)": "LOC:Plessis-lez-Tours",
@@ -2132,6 +2375,16 @@
 		"Coordinates": "44.964024926524196, 11.750855061770514",
 		"Input data": "BSO",
 		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Pont-de-Metz",
+		"Name of Location": "Pont-de-Metz",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/y1e9QhhbwMUSJH4i6",
+		"Coordinates": "49.88148889117066, 2.242417426782667",
+		"Description": "Camp at Pont-de-Metz",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
 	},
 	{
 		"Location ID (LOC)": "LOC:Pontoise",
@@ -2338,6 +2591,15 @@
 		"Aliases": "Herberia",
 		"Input data": "BSO",
 		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:s-Hertogenbosch",
+		"Name of Location": "'s-Hertogenbosch",
+		"Modern Country": "Netherlands",
+		"Google URL": "https://maps.app.goo.gl/KjR2j6HDsMyYWjM17",
+		"Coordinates": "51.69822392161367, 5.294145810019546",
+		"Input data": "AN",
+		"Date entered": "2024-12-04"
 	},
 	{
 		"Location ID (LOC)": "LOC:Sabbioncello_San_Vittore",
@@ -2620,6 +2882,14 @@
 		"Date entered": "2023-5-17"
 	},
 	{
+		"Location ID (LOC)": "LOC:Thouay-lez-Bethune",
+		"Name of Location": "Thouay-lez-Bethune",
+		"Modern Country": "France",
+		"Description": "Béthune?",
+		"Input data": "LO",
+		"Date entered": "2025-02-11"
+	},
+	{
 		"Location ID (LOC)": "LOC:Tiffauges",
 		"Name of Location": "Tiffauges",
 		"Modern Country": "France",
@@ -2636,6 +2906,16 @@
 		"Coordinates": "39.86352693956841, -4.026552444846155",
 		"Input data": "SMB",
 		"Date entered": "2024-8-4"
+	},
+	{
+		"Location ID (LOC)": "LOC:Toledo-Cathedral",
+		"Name of Location": "Toledo Cathedral",
+		"City or Larger Place": "Toledo",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/Y94qChbJm7nsVWLK8",
+		"Coordinates": "39.85705919183117, -4.023568803670063",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
 	},
 	{
 		"Location ID (LOC)": "LOC:Torhout",
@@ -3024,237 +3304,5 @@
 		"Coordinates": "44.93832255108442, 11.74906653794804",
 		"Input data": "BSO",
 		"Date entered": "2024-3-8"
-	},
-	{
-		"Location ID (LOC)": "LOC:Monzon",
-		"Name of Location": "Monzon",
-		"Modern Country": "Spain",
-		"Google URL": "https://maps.app.goo.gl/VjugNhXpdGmRceSJ8",
-		"Coordinates": "41.915806718067515, 0.19271135325122624",
-		"Input data": "AN",
-		"Date entered": "2024-10-31"
-	},
-	{
-		"Location ID (LOC)": "LOC:s-Hertogenbosch",
-		"Name of Location": "'s-Hertogenbosch",
-		"Modern Country": "Netherlands",
-		"Google URL": "https://maps.app.goo.gl/KjR2j6HDsMyYWjM17",
-		"Coordinates": "51.69822392161367, 5.294145810019546",
-		"Input data": "AN",
-		"Date entered": "2024-12-04"
-	},
-	{
-		"Location ID (LOC)": "LOC:Avila",
-		"Name of Location": "Avila",
-		"Modern Country": "Spain",
-		"Google URL": "https://maps.app.goo.gl/HGrnpySpAq9VMmWw6",
-		"Coordinates": "40.65659308957786, -4.680906239524707",
-		"Input data": "AN",
-		"Date entered": "2025-01-19"
-	},
-	{
-		"Location ID (LOC)": "LOC:Avila-Cathedral",
-		"Name of Location": "Avila Cathedral",
-		"City or Larger Place": "Avila",
-		"Modern Country": "Spain",
-		"Google URL": "https://maps.app.goo.gl/W8TAKUNzGRKWKjTP7",
-		"Coordinates": "40.655914575101626, -4.697778125050546",
-		"Input data": "AN",
-		"Date entered": "2025-01-19"
-	},
-	{
-		"Location ID (LOC)": "LOC:Plasencia",
-		"Name of Location": "Plasencia",
-		"Modern Country": "Spain",
-		"Google URL": "https://maps.app.goo.gl/9T6Qix2LfP56Njrf8",
-		"Coordinates": "40.04208109704795, -6.084143045441221",
-		"Input data": "AN",
-		"Date entered": "2025-01-19"
-	},
-	{
-		"Location ID (LOC)": "LOC:Plasencia-Cathedral",
-		"Name of Location": "Plasencia Cathedral",
-		"City or Larger Place": "Plasencia",
-		"Modern Country": "Spain",
-		"Google URL": "https://maps.app.goo.gl/ZeoxzqDMyBDztxtX6",
-		"Coordinates": "40.02790156148868, -6.090935121615249",
-		"Input data": "AN",
-		"Date entered": "2025-01-19"
-	},
-	{
-		"Location ID (LOC)": "LOC:Cordoba",
-		"Name of Location": "Cordoba",
-		"Modern Country": "Spain",
-		"Google URL": "https://maps.app.goo.gl/LCy5oBnHG8v91Y2x9",
-		"Coordinates": "37.88910409022997, -4.779249773263024",
-		"Input data": "AN",
-		"Date entered": "2025-01-19"
-	},
-	{
-		"Location ID (LOC)": "LOC:Cordoba-Cathedral",
-		"Name of Location": "Cordoba Cathedral",
-		"City or Larger Place": "Cordoba",
-		"Modern Country": "Spain",
-		"Google URL": "https://maps.app.goo.gl/APb3nEb8qA69XyWm7",
-		"Coordinates": "37.87900719244911, -4.779150869365893",
-		"Input data": "AN",
-		"Date entered": "2025-01-19"
-	},
-	{
-		"Location ID (LOC)": "LOC:Toledo-Cathedral",
-		"Name of Location": "Toledo Cathedral",
-		"City or Larger Place": "Toledo",
-		"Modern Country": "Spain",
-		"Google URL": "https://maps.app.goo.gl/Y94qChbJm7nsVWLK8",
-		"Coordinates": "39.85705919183117, -4.023568803670063",
-		"Input data": "AN",
-		"Date entered": "2025-01-19"
-	},
-	{
-		"Location ID (LOC)": "LOC:Marchena",
-		"Name of Location": "Marchena",
-		"Modern Country": "Spain",
-		"Google URL": "https://maps.app.goo.gl/RJM6FMPBvQ9eawnYA",
-		"Coordinates": "37.32730415467324, -5.417077458914847",
-		"Input data": "AN",
-		"Date entered": "2025-01-19"
-	},
-	{
-		"Location ID (LOC)": "LOC:Malaga",
-		"Name of Location": "Malaga",
-		"Modern Country": "Spain",
-		"Google URL": "https://maps.app.goo.gl/F6SBhvDuxZ5rFiLj6",
-		"Coordinates": "36.71752689251559, -4.427294828071452",
-		"Input data": "AN",
-		"Date entered": "2025-01-19"
-	},
-	{
-		"Location ID (LOC)": "LOC:Malaga-Cathedral",
-		"Name of Location": "Malaga Cathedral",
-		"City or Larger Place": "Malaga",
-		"Modern Country": "Spain",
-		"Google URL": "https://maps.app.goo.gl/uAquGfVgB9uX9Hi18",
-		"Coordinates": "36.72015910093052, -4.41928916774951",
-		"Input data": "AN",
-		"Date entered": "2025-01-19"
-	},
-	{
-		"Location ID (LOC)": "LOC:Pont-de-Metz",
-		"Name of Location": "Pont-de-Metz",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/y1e9QhhbwMUSJH4i6",
-		"Coordinates": "49.88148889117066, 2.242417426782667",
-		"Description": "Camp at Pont-de-Metz",
-		"Input data": "LO",
-		"Date entered": "2025-02-09"
-	},
-	{
-		"Location ID (LOC)": "LOC:Amiens-Saint-Acheul",
-		"Name of Location": "Saint Acheul",
-		"City or Larger Place": "Amiens",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/3aMcmeepoxGP68ct5",
-		"Coordinates": "49.88395446898833, 2.327535269209973",
-		"Aliases": "Saint-Acheul-lez-Amiens",
-		"Description": "Camp near Saint-Acheul-lez-Amiens",
-		"Input data": "LO",
-		"Date entered": "2025-02-09"
-	},
-	{
-		"Location ID (LOC)": "LOC:Fosse-Ferneuse",
-		"Name of Location": "Fosse-Ferneuse",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/cw9eSh47wkzafjDP6",
-		"Coordinates": "49.747404671281004, 1.8350951743886883",
-		"Description": "near Amiens",
-		"Input data": "LO",
-		"Date entered": "2025-02-09"
-	},
-	{
-		"Location ID (LOC)": "LOC:Peronne",
-		"Name of Location": "Péronne",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/zDFyMxEwhpidDrqs7",
-		"Coordinates": "49.933485774271496, 2.935823987760148",
-		"Input data": "LO",
-		"Date entered": "2025-02-09"
-	},
-	{
-		"Location ID (LOC)": "LOC:Doullens",
-		"Name of Location": "Doullens",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/vDeo8ZbnZVneadJUA",
-		"Coordinates": "50.15742276387348, 2.3410689754372913",
-		"Input data": "LO",
-		"Date entered": "2025-02-09"
-	},
-	{
-		"Location ID (LOC)": "LOC:Le-Crotoy",
-		"Name of Location": "Le Crotoy",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/fWwBbe9kswf116Bi7",
-		"Coordinates": "50.2150059419559, 1.6258580109612528",
-		"Input data": "LO",
-		"Date entered": "2025-02-09"
-	},
-	{
-		"Location ID (LOC)": "LOC:Beauvais-Saint-Lucien",
-		"Name of Location": "Saint Lucien",
-		"City or Larger Place": "Beauvais",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/HSyugUbpz3ncSFQs5",
-		"Coordinates": "49.440411042513865, 2.079248639095764",
-		"Aliases": "Saint-Lucien-lez-Beauvais",
-		"Input data": "LO",
-		"Date entered": "2025-02-09"
-	},
-	{
-		"Location ID (LOC)": "LOC:Eu",
-		"Name of Location": "Eu",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/URqwFRP8HfcfxiMN7",
-		"Coordinates": "50.04878219503119, 1.4196862887586197",
-		"Description": "Camp near Eu",
-		"Input data": "LO",
-		"Date entered": "2025-02-09"
-	},
-	{
-		"Location ID (LOC)": "LOC:Criel-sur-Mer",
-		"Name of Location": "Criel-sur-Mer",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/P8zn2UMXpone3qLeA",
-		"Coordinates": "50.01559633460083, 1.3156821036528639",
-		"Description": "Camp near Criel-sur-Mer",
-		"URL": "towards Dieppe",
-		"Input data": "LO",
-		"Date entered": "2025-02-09"
-	},
-	{
-		"Location ID (LOC)": "LOC:Pastez-de-Bellimont",
-		"Name of Location": "Pastez de Bellimont",
-		"Modern Country": "France",
-		"Description": "Camp at Pastez de Bellimont",
-		"Input data": "LO",
-		"Date entered": "2025-02-09"
-	},
-	{
-		"Location ID (LOC)": "LOC:Neufchatel-en-Bray",
-		"Name of Location": "Neufchâtel-en-Bray",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/dZH6B7m4XQTBPYm76",
-		"Coordinates": "49.73179544809637, 1.4416627985262254",
-		"Description": "Camp outside of Neufchâtel",
-		"Input data": "LO",
-		"Date entered": "2025-02-09"
-	},
-	{
-		"Location ID (LOC)": "LOC:Airaines",
-		"Name of Location": "Airaines",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/ABQvN7Hb5TaHo8Ue9",
-		"Coordinates": "49.96565770042656, 1.9431314886048843",
-		"Description": "Camp outside of Airaines",
-		"Input data": "LO",
-		"Date entered": "2025-02-09"
 	}
 ]
