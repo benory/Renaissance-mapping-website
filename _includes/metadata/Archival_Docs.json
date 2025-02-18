@@ -1395,5 +1395,41 @@
 		"Signature": "3439",
 		"Input data": "LO",
 		"Date entered": "2025-2-9"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Paris_Archives_Nationales_K_53029",
+		"Location ID (LOC)": "LOC:Paris-Archives_Nationales",
+		"Archive": "Paris Archives Nationales",
+		"Archival Fond": "K",
+		"Signature": "53029",
+		"Input data": "LO",
+		"Date entered": "2025-2-17"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Brussels_PEA_9",
+		"Location ID (LOC)": "LOC:Brussels-Archives_Generales_du_Royaume",
+		"Archive": "Archives Générales du Royaume",
+		"Archival Fond": "Papiers d'Etat et de l'Audience",
+		"Signature": "9",
+		"Input data": "LO",
+		"Date entered": "2025-2-17"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Paris_BnF_fr_8255",
+		"Location ID (LOC)": "LOC:Paris-BNF",
+		"Archive": "Bibliothèque nationale de France",
+		"Archival Fond": "fonds français",
+		"Signature": "8255",
+		"Input data": "LO",
+		"Date entered": "2025-2-17"
+	},
+	{
+		"Archival Document (ARD) ID": "ARD:Paris_BnF_fr_3867",
+		"Location ID (LOC)": "LOC:Paris-BNF",
+		"Archive": "Bibliothèque nationale de France",
+		"Archival Fond": "fonds français",
+		"Signature": "3867",
+		"Input data": "LO",
+		"Date entered": "2025-2-17"
 	}
 ]
