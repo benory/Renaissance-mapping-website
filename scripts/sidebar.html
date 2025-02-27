@@ -21,7 +21,7 @@ function updateSidebar() {
     tableBody.innerHTML = '';
 
     // Get only markers within map bounds
-    const visibleMarkers = getVisibleMarkers().filter(({ marker, personID, locationCertainty, 
+    const visibleMarkers = getVisibleMarkers().filter(({ marker, personID, locationCertainty, alias, 
         earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, 
         text, personprocessed, locationprocessed }) => {
         
@@ -34,7 +34,7 @@ function updateSidebar() {
             show = false;
         }
 
-        if (show && searchRegex && !(text.match(searchRegex) || locationprocessed.match(searchRegex) || 
+        if (show && searchRegex && !(text.match(searchRegex) || locationprocessed.match(searchRegex) || alias.join(" ").match(searchRegex) ||
             String(earliestyear).match(searchRegex) || String(latestyear).match(searchRegex))) {
             show = false;
         }

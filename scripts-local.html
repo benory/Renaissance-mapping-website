@@ -163,6 +163,9 @@ function doMapSetup(opts) {
     let BCONAME = MAP.cindex("BCO", "BCONAME");
     let BMUNAME = MAP.cindex("BMU", "BMUNAME");
     let BNONAME = MAP.cindex("BNO", "BNONAME");
+    let BCOALIAS = MAP.cindex("BCO", "ALIAS");
+    let BMUALIAS = MAP.cindex("BMU", "ALIAS");
+    let BNOALIAS = MAP.cindex("BNO", "ALIAS");
 
     // Get variable names for certainty markers
     let CERTLOC = MAP.cindex("EV", "CERTLOC");
@@ -196,6 +199,7 @@ function doMapSetup(opts) {
     // Establish variables
     let eventid = "";
     let person = "";
+    let alias = "";
     let personprocessed = "";
     let locationid = "";
     let locationprocessed = "";
@@ -295,12 +299,21 @@ function doMapSetup(opts) {
                 // Get name from composer, musician, or non-musician biography sheets
                 if (nameshort === "BCO" && composerInfo) {
                     personprocessed = composerInfo[BCONAME];
+                    alias = composerInfo[BCOALIAS];
                 } else if (nameshort === "BMU" && musicianInfo) {
                     personprocessed = musicianInfo[BMUNAME];
+                    alias = musicianInfo[BMUALIAS];
                 } else if (nameshort === "BNO" && nonmusicianInfo) {
                     personprocessed = nonmusicianInfo[BNONAME];
+                    alias = nonmusicianInfo[BNOALIAS];
                 } else {
                     continue;
+                }
+                // Split aliases if multiple documents separated by a semicolon
+                if (alias && alias.match(";")){
+                    alias = alias.trim().split(/\s*;\s*/);
+                } else {
+                    alias = [ alias ];
                 }
             }
 
@@ -540,6 +553,7 @@ function doMapSetup(opts) {
                             rangeCertainty: rangeCertainty,
                             earliestyear: earliestyear,
                             latestyear: latestyear,
+                            alias: alias
                         }
                     };
 
@@ -583,7 +597,8 @@ function doMapSetup(opts) {
 
                     markers.push({ 
                         marker: marker, 
-                        personID: person, 
+                        personID: person,
+                        alias: alias,
                         text: `[${daterange}] ${personprocessed}: ${description}`, 
                         locationCertainty: locationCertainty, 
                         earliestDateCertainty: earliestDateCertainty, 
@@ -625,6 +640,7 @@ function doMapSetup(opts) {
             latestmonth = "";
             latestday = "";
             latestdate = "";
+            alias = "";
         }
     }
 
@@ -716,7 +732,7 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
         document.querySelector('#active-markers-table tbody').innerHTML = '';
     }
 
-    visibleMarkers.forEach(({ marker, personID, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, text, eventid, daterange, locationprocessed, description, personprocessed }) => {
+    visibleMarkers.forEach(({ marker, personID, alias, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, text, eventid, daterange, locationprocessed, description, personprocessed }) => {
         const type = personID.substring(0, 3);
         const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
 
@@ -727,7 +743,7 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
             show = false;
         }
 
-        if (show && searchRegex && !(text.match(searchRegex) || locationprocessed.match(searchRegex) || 
+        if (show && searchRegex && !(text.match(searchRegex) || locationprocessed.match(searchRegex) || alias.join(" ").match(searchRegex) ||
             String(earliestyear).match(searchRegex) || String(latestyear).match(searchRegex))) {
             show = false;
         }
