@@ -257,6 +257,17 @@
 		"Date entered": "2023-4-13"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Frey_1955",
+		"Author": "Herman-Walther Frey",
+		"Name of Article": "Regesten zur päpstlichen Kapelle unter Leo X und zu seiner Privatkapelle",
+		"Name of Volume/Journal": "Die Musikforschung",
+		"Volume": "9 no. 1&2",
+		"Publication Year": "1956",
+		"Pages": "58-73, 139-156",
+		"Input data": "SMB",
+		"Date entered": "2025-3-20"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Gallagher_2010",
 		"Author": "Sean Gallagher",
 		"Name of Volume/Journal": "Johannes Regis",
@@ -384,6 +395,17 @@
 		"Pages": "67–108",
 		"Input data": "BSO",
 		"Date entered": "2023-3-21"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Lesure_1958",
+		"Author": "Francois Lesure",
+		"Name of Article": "Notes Pour une Biographie de Jean L'Heritier",
+		"Name of Volume/Journal": "Revue de Musicologie",
+		"Volume": "42 no. 118",
+		"Publication Year": "1958",
+		"Pages": "219-220",
+		"Input data": "SMB",
+		"Date entered": "2025-3-15"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Lockwood_1976",
@@ -558,6 +580,15 @@
 		"Location": "Rome",
 		"Publisher": "Istituto storico italiano per il medioevo",
 		"Publication Year": "2002"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Perkins_1965",
+		"Author": "Leeman Perkins",
+		"Name of Volume/Journal": "The Motets of Jean Lheritier",
+		"Publisher": "[unpubl. PhD diss., Yale]",
+		"Publication Year": "1965",
+		"Input data": "SMB",
+		"Date entered": "2025-3-15"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Perkins_1984",
@@ -1050,5 +1081,76 @@
 		"Publication Year": "1987",
 		"Input data": "LO",
 		"Date entered": "2025-02-09"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Bent_2001",
+		"Author": "Margaret Bent",
+		"Name of Article": "Dunstaple [Dunstable, Dunstapell, Dumstable, Donstaple, etc.], John",
+		"Name of Volume/Journal": "Grove Music Online",
+		"Publication Year": "2001",
+		"URL": "https://www-oxfordmusiconline-com.libproxy.berkeley.edu/grovemusic/view/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-0000008331",
+		"Input data": "FEM",
+		"Date entered": "2025-03-01"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Bent_1981",
+		"Author": "Margaret Bent",
+		"Name of Article": "Dunstaple",
+		"Publisher": "Oxford University Press",
+		"Publication Year": "1981",
+		"Input data": "FEM",
+		"Date entered": "2025-03-01"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Bent_2004",
+		"Author": "Margaret Bent",
+		"Name of Article": "Dunstaple [Dunstable], John",
+		"Name of Volume/Journal": "Oxford Dictionary of National Biography.",
+		"Publication Year": "2004",
+		"URL": "https://www-oxforddnb-com.libproxy.berkeley.edu/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-8286.",
+		"Input data": "FEM",
+		"Date entered": "2025-03-01"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Higgins_1999",
+		"Name of Volume/Journal": "Antoine Busnoys: Method, Meaning, and Context in Late Medieval Music",
+		"Editor": "Paula Higgins",
+		"Location": "Oxford",
+		"Publisher": "Clarendon Press",
+		"Publication Year": "1999",
+		"Input data": "SMB",
+		"Date entered": "2024-03-13"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Callewier_2009",
+		"Author": "Hendrik Callewier",
+		"Name of Article": "\"What you do on the Sly...Will be Deemed Forgiven in the Sight of the Most High\": Gilles Goye and the Changing Status of Singers in Fifteenth-Century Bruges",
+		"Name of Volume/Journal": "Journal of the Alamire Foundation",
+		"Volume": "1",
+		"Publication Year": "2009",
+		"Pages": "89–109",
+		"Input data": "ECZ",
+		"Date entered": "2025-03-17"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Smijers_1931",
+		"Name of Article": "De Illustre Lieve Vrouwe Broederschap te 's-Hertogenbosch. V. Rekeningen van Sint Jan 1475 tot Sint Jan 1500",
+		"Name of Volume/Journal": "TVNM",
+		"Volume": "XIII",
+		"Publication Year": "1932",
+		"Pages": "181-237",
+		"Input data": "SMB",
+		"Date entered": "2025-3-19"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Cross_1963",
+		"Author": "Ronald Cross",
+		"Name of Article": "The Life and Works of Matthaeus Pipelare",
+		"Name of Volume/Journal": "Musica Disciplina",
+		"Volume": "17",
+		"Publication Year": "1963",
+		"Pages": "97-114",
+		"Input data": "SMB",
+		"Date entered": "2025-3-19"
 	}
 ]

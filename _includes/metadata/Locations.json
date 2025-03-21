@@ -679,6 +679,15 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Location ID (LOC)": "LOC:Charolles",
+		"Name of Location": "Charolles",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/QAt6iSY1Uh1uxDwK6",
+		"Coordinates": "46.43, 4.28",
+		"Input data": "SMB",
+		"Date entered": "2025-3-14"
+	},
+	{
 		"Location ID (LOC)": "LOC:Chartres",
 		"Name of Location": "Chartres",
 		"Modern Country": "France",
@@ -3521,5 +3530,40 @@
 		"Coordinates": "48.85993523786181, 2.3572505268837807",
 		"Input data": "LO",
 		"Date entered": "2025-2-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Dunstable",
+		"Name of Location": "Dunstable, Bedfordshire",
+		"Modern Country": "UK",
+		"Google URL": "https://maps.app.goo.gl/7J9edSt8rG5oqyf76",
+		"Coordinates": "51.886550049842675, -0.5214161621300504",
+		"Input data": "FEM",
+		"Date entered": "2025-03-01"
+	},
+	{
+		"Location ID (LOC)": "LOC:Therouanne",
+		"Name of Location": "Thérouanne",
+		"City or Larger Place": "Pas-de-Calais",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/eS1ywpMeD5iguFhq7",
+		"Coordinates": "50.64, 2.26",
+		"Input data": "SMB",
+		"Date entered": "2025-3-15"
+	},
+	{
+		"Location ID (LOC)": "LOC:Condom",
+		"Name of Location": "Condom",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/Fn4QKjqeWEZmreNC7",
+		"Coordinates": "43.96, 0.37",
+		"Input data": "SMB",
+		"Date entered": "2025-3-15"
+	},
+	{
+		"Location ID (LOC)": "LOC:Courtrai",
+		"Name of Location": "Courtrai",
+		"Modern Country": "Belgium",
+		"Google URL": "Kortrijk",
+		"Aliases": "Kortrijk"
 	}
 ]

@@ -33,6 +33,17 @@
 		"Date entered": "2024-8-24"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Andreas_de_Silva",
+		"Composer Name": "Andreas de Silva",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/209/",
+		"RISM ID": "pe30024652",
+		"RISM Link": "https://rism.online/people/30024652",
+		"Bibliography (BIB) ID": "BIB:Frey_1955",
+		"BIB Pages": "61",
+		"Input data": "SMB",
+		"Date entered": "2025-3-20"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Antoine_Bruhier",
 		"Composer Name": "Antoine Bruhier",
 		"Alias": "Brochier, Antoine; Broier, Antoine; Broyer, Antoine; Brubyer, Antoine; Brucher, Antoine; Bruchier, Antoine; Brugier, Antonio; Bruglier, Antoine; Bruher, Antoine; Bruhier, Antoine; Bruhiere, Antoine; Bruhyer, Antoine; Bruyer, Antoine",
@@ -360,6 +371,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Gilles_Joye",
 		"Composer Name": "Gilles Joye",
+		"Alias": "Egidius van den Abeele, de Abellis, de Aubeaux",
 		"Death Date": "1483-12-31",
 		"Description": "Composer; singer; chaplain; canon",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/235/",
@@ -368,7 +380,9 @@
 		"Bibliography (BIB) ID": "BIB:Strohm_1985",
 		"BIB Pages": "155",
 		"Input data": "LO",
-		"Date entered": "2024-8-24"
+		"Date entered": "2024-8-24",
+		"Update data": "ECZ",
+		"Date updated": "2025-3-17"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Giovanni_Spataro",
@@ -920,6 +934,16 @@
 		"Date entered": "2024-11-14"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Matthaeus_Pipelare",
+		"Composer Name": "Matthaeus Pipelare",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/147/",
+		"RISM ID": "pe30016483",
+		"RISM Link": "https://rism.online/people/30016483",
+		"Bibliography (BIB) ID": "BIB:Cross_1963",
+		"Input data": "SMB",
+		"Date entered": "2025-3-19"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Nicasius_de_Brauwere",
 		"Composer Name": "Nicasius de Brauwere",
 		"Alias": "Braxatoris",
@@ -1237,5 +1261,18 @@
 		"Date entered": "2024-8-9",
 		"Update data": "BSO",
 		"Date updated": "2025-2-12"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:John_Dunstaple",
+		"Composer Name": "John Dunstaple",
+		"Alias": "Dunstable, John; Dunstapell, John; Dumstable, John; Donstaple, John",
+		"Birth Date": "~1390",
+		"Death Date": "1453-12-24",
+		"Description": "English composer",
+		"RISM ID": "pe30020903",
+		"RISM Link": "https://rism.online/people/30020903",
+		"Bibliography (BIB) ID": "BIB:Bent_1981; BIB:Bent_2001; BIB:Bent_2004",
+		"Input data": "FEM",
+		"Date entered": "2025-03-01"
 	}
 ]

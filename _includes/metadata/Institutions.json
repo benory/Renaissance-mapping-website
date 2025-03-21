@@ -224,5 +224,18 @@
 		"Institution Description": "Chapel of Charles the Bold, Duke of Burgundy 1467-1477",
 		"Input data": "LO",
 		"Date entered": "2025-2-9"
+	},
+	{
+		"Institution ID (INS)": "INS:Sainte-Chapelle",
+		"Institution Name": "Sainte-Chapelle",
+		"Institution Description": "Parisian church around the corner from Notre Dame",
+		"Input data": "SMB",
+		"Date entered": "2025-3-15"
+	},
+	{
+		"Institution ID (INS)": "INS:Saint_Martin_Courtrai",
+		"Institution Name": "Church of St. Martin in Courtrai",
+		"Input data": "EZ",
+		"Date entered": "2025-3-17"
 	}
 ]

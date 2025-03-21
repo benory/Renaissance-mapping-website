@@ -2174,6 +2174,15 @@
 		"Date entered": "2024-9-26"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Etienne_Aubry",
+		"Musician Name": "Etienne Aubry",
+		"Description": "singer at Poitiers",
+		"Bibliography ID (BIB)": "BIB:Higgins_1999",
+		"BIB Pages": "162",
+		"Input data": "SMB",
+		"Date entered": "2025-3-14"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Etienne_Chanelle",
 		"Musician Name": "Etienne Chanelle",
 		"Description": "Member of Martin V's chapel",
@@ -5473,6 +5482,15 @@
 		"BIB Pages": "155",
 		"Input data": "LO",
 		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Le_Begue",
+		"Musician Name": "Johannes Le Begue",
+		"Description": "master of choirboys at Poitiers",
+		"Bibliography ID (BIB)": "BIB:Higgins_1999",
+		"BIB Pages": "157",
+		"Input data": "SMB",
+		"Date entered": "2025-3-13"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Lesue",
