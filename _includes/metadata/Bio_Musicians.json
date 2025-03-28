@@ -396,6 +396,15 @@
 		"Date entered": "2024-3-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Andreas_Michot",
+		"Musician Name": "Andreas Michot",
+		"Description": "singer in papal chapel",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "60",
+		"Input data": "SMB",
+		"Date entered": "2025-3-22"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Andreas_Noppe",
 		"Musician Name": "Andreas Noppe",
 		"Description": "singer in Bruges",
@@ -673,22 +682,16 @@
 		"Date entered": "2023-3-28"
 	},
 	{
-		"Biography Musician (BMU) ID": "BMU:Anzelino_pifaro_portonaro",
-		"Musician Name": "Anzelino pifaro portonaro",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "356",
-		"Input data": "RP",
-		"Date entered": "2024-7-25"
-	},
-	{
 		"Biography Musician (BMU) ID": "BMU:Anzelino_piffaro_portonaro",
 		"Musician Name": "Anzelino piffaro portonaro",
+		"Alias": "Anzelino pifaro portonaro",
 		"Description": "musician at Ferrarese Court",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
 		"BIB Pages": "354",
 		"Input data": "RP",
-		"Date entered": "2024-9-20"
+		"Date entered": "2024-9-20",
+		"Update data": "RP",
+		"Date updated": "2025-3-26"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Archangelo_Blasi",
@@ -772,8 +775,8 @@
 		"Date entered": "2023-3-28"
 	},
 	{
-		"Biography Musician (BMU) ID": "BMU:Augustino_trombeta",
-		"Musician Name": "Augustino trombeta",
+		"Biography Musician (BMU) ID": "BMU:Augustino_trombone_II",
+		"Musician Name": "Augustino trombone",
 		"Description": "musician at Ferrarese court",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
 		"BIB Pages": "349-50",
@@ -783,11 +786,14 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Augustino_trombone",
 		"Musician Name": "Augustino trombone",
+		"Alias": "Augustino trombeta",
 		"Description": "musician at Ferrarese court",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
 		"BIB Pages": "361",
 		"Input data": "BSO",
-		"Date entered": "2023-3-9"
+		"Date entered": "2023-3-9",
+		"Update data": "RP",
+		"Date updated": "2025-3-25"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Augustinus_de_Calewe",
@@ -797,15 +803,6 @@
 		"BIB Pages": "153",
 		"Input data": "LO",
 		"Date entered": "2024-8-5"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Azelino_pifaro",
-		"Musician Name": "Azelino pifaro portonaro",
-		"Description": "musician at Ferrarese Court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "355",
-		"Input data": "RP",
-		"Date entered": "2024-9-6"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Baccio_Moschini",
