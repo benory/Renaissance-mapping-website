@@ -1,42 +1,5 @@
 <script>
 
-// Populate dropdowns based on markers
-function populateDropdowns() {
-    const composerList = document.querySelector('#composer-list .dropdown-items');
-    const musicianList = document.querySelector('#musician-list .dropdown-items');
-    const nonMusicianList = document.querySelector('#non-musician-list .dropdown-items');
-
-    composerList.innerHTML = '';
-    musicianList.innerHTML = '';
-    nonMusicianList.innerHTML = '';
-
-    const seenComposers = new Set();
-    const seenMusicians = new Set();
-    const seenNonMusicians = new Set();
-
-    markers.forEach(({ personID, personprocessed }) => {
-        // Skip already-selected names
-        if (selectedNames.has(personprocessed)) return;
-
-        const listItem = document.createElement('div');
-        listItem.className = 'dropdown-item';
-        listItem.textContent = personprocessed;
-
-        listItem.onclick = () => addSelectedPerson(personID, personprocessed);
-
-        if (personID.startsWith('BCO') && !seenComposers.has(personprocessed)) {
-            seenComposers.add(personprocessed);
-            composerList.appendChild(listItem);
-        } else if (personID.startsWith('BMU') && !seenMusicians.has(personprocessed)) {
-            seenMusicians.add(personprocessed);
-            musicianList.appendChild(listItem);
-        } else if (personID.startsWith('BNO') && !seenNonMusicians.has(personprocessed)) {
-            seenNonMusicians.add(personprocessed);
-            nonMusicianList.appendChild(listItem);
-        }
-    });
-}
-
 const selectedNames = new Set(); // Track selected names globally
 
 function addSelectedPerson(personID, personprocessed) {
@@ -62,13 +25,26 @@ function addSelectedPerson(personID, personprocessed) {
         const selectedItem = document.createElement('div');
         selectedItem.className = 'selected-person-item';
 
+        // Set background color (with opacity 0.3) based on person type
+        let bgColor = 'rgba(0, 0, 0, 0.3)'; // fallback
+
+        if (personID.startsWith('BCO')) {
+            bgColor = 'rgba(68, 1, 84, 0.3)';      // purple
+        } else if (personID.startsWith('BMU')) {
+            bgColor = 'rgba(35, 237, 92, 0.3)';    // green
+        } else if (personID.startsWith('BNO')) {
+            bgColor = 'rgba(253, 231, 37, 0.3)';   // yellow
+        }
+
+        selectedItem.style.backgroundColor = bgColor;
+        selectedItem.style.color = 'black'; // Full opacity text
+
         // Create the "x" button
         const removeButton = document.createElement('span');
         removeButton.className = 'remove-btn';
         removeButton.textContent = '×';
         removeButton.onclick = () => {
             removeSelectedPerson(personID, personprocessed, dropdownId);
-            console.warn("filterAndSearch addSelectedPerson");
             filterAndSearchMarkers(); // Reapply filters after removal
         };
 
@@ -77,17 +53,106 @@ function addSelectedPerson(personID, personprocessed) {
 
         activeContainer.appendChild(selectedItem);
 
-        // Remove the name from the dropdown dynamically
-        const dropdown = document.querySelector(`#${dropdownId} .dropdown-items`);
-        [...dropdown.children].forEach(item => {
-            if (item.textContent === personprocessed) {
-                item.remove();
-            }
-        });
-
-        console.warn("filterAndSearch addSelectedPerson");
         filterAndSearchMarkers(); // Reapply filters after adding
     }
+}
+
+function showAutocompleteSuggestions() {
+    const inputValue = document.getElementById("input").value.trim().toLowerCase();
+    const resultsContainer = document.getElementById("autocomplete-results");
+    resultsContainer.innerHTML = "";
+
+    if (!inputValue) {
+        resultsContainer.style.display = "none";
+        return;
+    }
+
+    const matches = [];
+    const seen = new Set();
+
+    markers.forEach(({ personID, personprocessed }) => {
+        if (selectedNames.has(personprocessed)) return;
+        if (!personprocessed.toLowerCase().includes(inputValue)) return;
+        if (seen.has(personprocessed)) return;
+
+        seen.add(personprocessed);
+
+        let type = "Unknown";
+        if (personID.startsWith("BCO")) type = "Composer";
+        else if (personID.startsWith("BMU")) type = "Musician";
+        else if (personID.startsWith("BNO")) type = "Non-Musician";
+
+        // Get markers for this person
+        const personMarkers = markers.filter(m => m.personprocessed === personprocessed);
+        const eventCount = personMarkers.length;
+
+        let earliest = null;
+        let latest = null;
+
+        personMarkers.forEach(({ earliestyear, latestyear }) => {
+            if (earliest === null || earliestyear < earliest) earliest = earliestyear;
+            if (latest === null || latestyear > latest) latest = latestyear;
+        });
+
+        let yearLabel = "";
+        let formattedRange = "";
+        if (earliest === latest) {
+            formattedRange = `${earliest}`;
+        } else if (Math.floor(earliest / 100) === Math.floor(latest / 100)) {
+            // Same century, shorten second year
+            const shortEnd = String(latest).slice(-2);
+            formattedRange = `${earliest}–${shortEnd}`;
+        } else {
+            formattedRange = `${earliest}–${latest}`;
+        }
+
+        if (eventCount === 1) {
+            yearLabel = ` (1 event, ${formattedRange})`;
+        } else {
+            yearLabel = ` (${eventCount} events, ${formattedRange})`;
+        }
+
+        const label = `${type}: ${personprocessed}${yearLabel}`;
+
+        matches.push({ label, personID, personprocessed });
+    });
+
+    if (matches.length === 0) {
+        resultsContainer.style.display = "none";
+        return;
+    }
+
+    resultsContainer.style.display = "block";
+
+    matches.slice(0, 10).forEach(({ label, personID, personprocessed }) => {
+        const item = document.createElement("div");
+        item.className = "autocomplete-item";
+        item.textContent = label;
+
+        item.onclick = () => {
+            addSelectedPerson(personID, personprocessed);
+
+            // Auto-check the corresponding checkbox if not already checked
+            if (personID.startsWith("BCO")) {
+                document.getElementById("composer-select").checked = true;
+            } else if (personID.startsWith("BMU")) {
+                document.getElementById("musician-select").checked = true;
+            } else if (personID.startsWith("BNO")) {
+                document.getElementById("non-musician-select").checked = true;
+            }
+
+            resultsContainer.innerHTML = "";
+            resultsContainer.style.display = "none";
+
+            const input = document.getElementById("input");
+            input.value = "";
+            input.blur();
+
+            filterAndSearchMarkers();
+        };
+
+        resultsContainer.appendChild(item);
+    });
 }
 
 function removeSelectedPerson(personID, personprocessed, dropdownId) {
@@ -107,20 +172,6 @@ function removeSelectedPerson(personID, personprocessed, dropdownId) {
 
     selectedNames.delete(personprocessed);
 
-    const dropdown = document.querySelector(`#${dropdownId} .dropdown-items`);
-    const listItem = document.createElement('div');
-    listItem.className = 'dropdown-item';
-    listItem.textContent = personprocessed;
-
-    listItem.onclick = () => {
-        addSelectedPerson(personID, personprocessed);
-        console.warn("filterAndSearch removeselectedperson");
-        filterAndSearchMarkers();
-    };
-
-    dropdown.appendChild(listItem);
-
-    console.warn("filterAndSearch removeselectedperson");
     filterAndSearchMarkers(); // Reapply filters after re-adding
 }
 

@@ -9,58 +9,39 @@ layout: page
 {% include_relative scripts-local.html %}
 
 <div class="search-bar">
-    <input type="text" id="input" onkeyup="filterAndSearchMarkers()" placeholder="Enter person, place, year, or event">
-    <span id="search-count"></span>
-    <div class="checkbox-container">
-        <div class="checkbox-item">
-            <input type="checkbox" id="composer-select" name="composer-select" value="composer-select">
-            <label for="composer-select">
-                <span class="color-sample" style="background-color: #440154;"></span>
-                View composers
-            </label>
-            <button class="dropdown-btn" onclick="toggleDropdown('composer-list')">▼</button>
-        </div>
-        <div class="active-names" id="composer-active"></div>
-        <div class="checkbox-item">
-            <input type="checkbox" id="musician-select" name="musician-select" value="musician-select">
-            <label for="musician-select">
-                <span class="color-sample" style="background-color: #23ed5c;"></span>
-                View musicians
-            </label>
-            <button class="dropdown-btn" onclick="toggleDropdown('musician-list')">▼</button>    
-        </div>
-        <div class="active-names" id="musician-active"></div>
-        <div class="checkbox-item">
-            <input type="checkbox" id="non-musician-select" name="non-musician-select" value="non-musician-select">
-            <label for="non-musician-select">
-                <span class="color-sample" style="background-color: #fde725;"></span>
-                View non-musicians
-            </label>
-            <button class="dropdown-btn" onclick="toggleDropdown('non-musician-list')">▼</button>
-        </div>
-        <div class="active-names" id="non-musician-active"></div>
-        <div class="dropdown" id="composer-list">
-            <div class="dropdown-description">Select one or more composers <br> (press escape to close)</div>
-            <input type="text" class="dropdown-search" placeholder="Search composers..." onkeyup="filterDropdown('composer-list')">
-            <div class="dropdown-items">
-                <!-- Composer items will be dynamically populated here -->
-            </div>
-        </div>
-        <div class="dropdown" id="musician-list">
-            <div class="dropdown-description">Select one or more musicians <br> (press escape to close)</div>
-            <input type="text" class="dropdown-search" placeholder="Search musicians..." onkeyup="filterDropdown('musician-list')">
-            <div class="dropdown-items">
-                <!-- Musician items will be dynamically populated here -->
-            </div>
-        </div>
-        <div class="dropdown" id="non-musician-list">
-            <div class="dropdown-description">Select one or more non-musicians <br> (press escape to close)</div>
-            <input type="text" class="dropdown-search" placeholder="Search non-musicians..." onkeyup="filterDropdown('non-musician-list')">
-            <div class="dropdown-items">
-                <!-- Non-musician items will be dynamically populated here -->
-            </div>
-        </div>
+    <div style="position: relative; display: inline-block; width: 67%;">
+  <input type="text" id="input" onkeyup="filterAndSearchMarkers(); showAutocompleteSuggestions()" placeholder="Enter person, place, year, or event">
+      <div id="autocomplete-results" class="autocomplete-results"></div>
     </div>
+<span id="search-count"></span>
+<div class="checkbox-container">
+    <div class="checkbox-item">
+        <input type="checkbox" id="composer-select" name="composer-select" value="composer-select">
+        <label for="composer-select">
+            <span class="color-sample" style="background-color: #440154;"></span>
+            View composers
+        </label>
+    </div>
+    <div class="checkbox-item">
+        <input type="checkbox" id="musician-select" name="musician-select" value="musician-select">
+        <label for="musician-select">
+            <span class="color-sample" style="background-color: #23ed5c;"></span>
+            View musicians
+        </label>
+    </div>
+    <div class="checkbox-item">
+        <input type="checkbox" id="non-musician-select" name="non-musician-select" value="non-musician-select">
+        <label for="non-musician-select">
+            <span class="color-sample" style="background-color: #fde725;"></span>
+            View non-musicians
+        </label>
+    </div>
+</div>
+</div>
+<div class="selected-names-bar">
+    <div id="composer-active" class="active-names"></div>
+    <div id="musician-active" class="active-names"></div>
+    <div id="non-musician-active" class="active-names"></div>
 </div>
 <div class="checkbox-item">
     <input type="checkbox" id="certainty-select" name="certainty-select" value="certainty-select">

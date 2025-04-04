@@ -776,14 +776,14 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
         }
     });
 
-    // Properly Remove Hidden Markers From Clusters**
+    // Properly Remove Hidden Markers From Clusters
     markersToRemove.forEach(marker => {
         if (currentMarkers.has(marker)) {
             markerCluster.removeLayer(marker);
         }
     });
 
-    // Only Add Markers That Are Visible**
+    // Only Add Markers That Are Visible
     newVisibleMarkers.forEach(marker => {
         if (!currentMarkers.has(marker)) {
             markerCluster.addLayer(marker);

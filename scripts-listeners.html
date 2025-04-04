@@ -152,6 +152,14 @@ document.addEventListener('DOMContentLoaded', () => {
 	map.on('moveend zoomend', () => {
 	    filterAndSearchMarkers();
 	});
+
+	document.addEventListener("click", (e) => {
+    if (!e.target.closest(".search-bar")) {
+        const results = document.getElementById("autocomplete-results");
+        if (results) results.innerHTML = "";
+    }
+});
+
 });
 
 function handleCheckboxChange() {
@@ -178,7 +186,6 @@ function hideAllDropdowns() {
 window.onload = function() {
     updateDateRange();
     updateSliderBackground();
-    populateDropdowns();
 
     // Call this function on page load to summon the marker if an eventid is in the URL
 	loadMarkerFromURL();

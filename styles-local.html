@@ -57,7 +57,7 @@ main.page-content {
     background-position: 10px 12px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
     box-sizing: border-box; /* Ensure padding and border are included in width and height calculations */
-    width: 67%;
+    width: 100%;
 }
 
 .histogram {
@@ -270,85 +270,40 @@ table.histogram div.count {
     font-weight: bold;
 }
 
-.dropdown-btn {
-    margin-left: 2px;
-    background: none; /* Remove fill */
-    border: none; /* Remove border */
-    cursor: pointer;
-    transform: rotate(-90deg); /* Rotate the arrow to point right */
-    transition: transform 0.2s ease-in-out; /* Smooth transition for toggling */
-
+.selected-names-bar {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0 10px 0;
+    gap: 8px;
 }
 
-.dropdown {
-    display: none;
-    border: 1px solid #ccc;
-    background: #fff;
-    max-height: 250px;
-    overflow-y: auto;
-    position: absolute;
-    z-index: 1;
-    width: 250px;
-    top: 0; /* Align vertically with the button */
-    left: 110%; /* Position to the right of the button */
-    margin-left: 10px; /* Add some space between the button and the dropdown */
-}
-
-.dropdown-item {
-    padding: 2px;
-    cursor: pointer;
-    font-size: 13px; /* Set the desired font size */
-}
-
-.dropdown-item:hover {
-    background: #eee;
-}
-
-.dropdown-search {
-    width: 100%;
-    padding: 2px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    font-size: 10px;
-    margin-bottom: 5px;
-}
-
-.selected-persons {
-    margin-top: 5px;
-    padding-left: 20px;
+.active-names {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 .selected-person-item {
+    background-color: #f0f0f0;
+    border-radius: 16px;
+    padding: 4px 10px;
     display: flex;
     align-items: center;
-    margin-bottom: 0px;
-    margin-left: 25px;
     font-size: 14px;
-    color: #333;
+    border: 1px solid #ccc;
 }
 
 .remove-btn {
-    cursor: pointer;
-    margin-right: 8px;
-    font-size: 12px; /* Keep the font size small to avoid affecting layout */
-    line-height: 1; /* Prevent extra spacing caused by larger line-height */
-    color: #999; /* Default color */
-    font-weight: bold;
-    transform: scale(2); /* Scale up the "x" visually without affecting its box size */
-    display: inline-block; /* Ensures scaling doesn't affect alignment */
+  margin-right: 6px;
+  cursor: pointer;
+  font-weight: normal;
+  color: #333;
 }
 
 .remove-btn:hover {
-    color: #f00; /* Red color on hover for better visibility */
-}
-
-.dropdown-description {
-    text-align: center; /* Center the text horizontally */
-    font-size: 12px; /* Set the font size */
-    font-weight: bold; /* Optional: Make the header text bold */
-    padding: 2px; /* Add some padding for better spacing */
-    background-color: #f4f4f4; /* Optional: Add a light background color */
-    border-bottom: 1px solid #ccc; /* Optional: Add a border under the header */
+  color: red;
+  font-weight: bold;
+  transform: scale(1.2);
 }
 
 .active-names {
@@ -356,4 +311,26 @@ table.histogram div.count {
     overflow-y: auto; /* Enable vertical scrolling */
 }
 
+.autocomplete-results {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+    z-index: 10000;
+    min-width: 400px; /* wider than the input */
+    left: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.autocomplete-item {
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.autocomplete-item:hover {
+  background-color: #f0f0f0;
+}
 </style>
