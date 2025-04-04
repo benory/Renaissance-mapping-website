@@ -671,6 +671,15 @@
 		"Date entered": "2024-7-22"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Antonius_de_Ribera",
+		"Musician Name": "Antonius de Ribera",
+		"Description": "singer in Rome",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "62",
+		"Input data": "SMB",
+		"Date entered": "2025-3-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Antonius_Walthieri",
 		"Musician Name": "Antonius Walthieri",
 		"Alias": "Walthier, Valthieri",
@@ -1210,6 +1219,16 @@
 		"Date entered": "2024-8-23"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Bernardus_Benedicti",
+		"Musician Name": "Bernardus Benedicti",
+		"Alias": "de Paulis",
+		"Description": "singer in Rome",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "62",
+		"Input data": "SMB",
+		"Date entered": "2025-3-29"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Bernardus_Vos",
 		"Musician Name": "Bernardus Vos",
 		"Alias": "son of Arnoldi de Vos",
@@ -1533,6 +1552,15 @@
 		"BIB Pages": "155",
 		"Input data": "LO",
 		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Claudius_Gellandi",
+		"Musician Name": "Claudius Gellandi",
+		"Description": "papal scribe",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "63",
+		"Input data": "SMB",
+		"Date entered": "2025-3-29"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Claudius_Pilosy",
@@ -1900,6 +1928,16 @@
 		"BIB Pages": "158",
 		"Input data": "LO",
 		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Didacus_Bascus",
+		"Musician Name": "Didacus Bascus",
+		"Alias": "Blasius",
+		"Description": "singer in Rome",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "66",
+		"Input data": "SMB",
+		"Date entered": "2025-4-2"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Dioda_buffone",
