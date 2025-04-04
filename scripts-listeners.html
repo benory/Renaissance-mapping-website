@@ -121,20 +121,6 @@ document.addEventListener('DOMContentLoaded', () => {
         checkbox.addEventListener('change', handleCheckboxChange);
     });
 
-    // Add keydown listener for the Escape key
-    document.addEventListener('keydown', (event) => {
-        if (event.key === 'Escape') {
-            hideAllDropdowns();
-        }
-    });
-
-    // Add listener for clicks in the dropdown menus to run filterMarkers
-    document.querySelectorAll('.dropdown').forEach(dropdown => {
-        dropdown.addEventListener('click', (event) => {
-            filterAndSearchMarkers();
-        });
-    });
-
     // Click Event Listener for Clusters to Update Sidebar
 	markerCluster.on('clusterclick', function (event) {
 		const clusterMarkers = event.layer.getAllChildMarkers();
@@ -154,11 +140,26 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 
 	document.addEventListener("click", (e) => {
-    if (!e.target.closest(".search-bar")) {
-        const results = document.getElementById("autocomplete-results");
-        if (results) results.innerHTML = "";
-    }
-});
+	    if (!e.target.closest(".search-bar")) {
+	        const results = document.getElementById("autocomplete-results");
+	        if (results) results.innerHTML = "";
+	    }
+	});
+
+	document.addEventListener("keydown", (event) => {
+	    if (event.key === "Escape") {
+	        const resultsContainer = document.getElementById("autocomplete-results");
+	        if (resultsContainer) {
+	            resultsContainer.innerHTML = "";
+	            resultsContainer.style.display = "none";
+	        }
+
+	        const input = document.getElementById("input");
+	        if (input) {
+	            input.blur(); // Optional: unfocus the input if you want
+	        }
+	    }
+	});
 
 });
 
@@ -167,19 +168,6 @@ function handleCheckboxChange() {
     filterAndSearchMarkers();
 
     updateSidebar();
-}
-
-// Hide all dropdown menus
-function hideAllDropdowns() {
-    document.querySelectorAll('.dropdown').forEach(dropdown => {
-        dropdown.style.display = 'none';
-    });
-
-    // Remove focus from any focused dropdown button
-    const activeButton = document.activeElement;
-    if (activeButton && activeButton.classList.contains('dropdown-btn')) {
-        activeButton.blur();
-    }
 }
 
 // Initial call to position the active label correctly on page load

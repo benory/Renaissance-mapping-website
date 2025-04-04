@@ -175,36 +175,6 @@ function removeSelectedPerson(personID, personprocessed, dropdownId) {
     filterAndSearchMarkers(); // Reapply filters after re-adding
 }
 
-// Toggle dropdown visibility
-function toggleDropdown(dropdownId) {
-    const dropdown = document.getElementById(dropdownId);
-
-    // Close all other dropdowns
-    document.querySelectorAll('.dropdown').forEach(d => {
-        if (d.id !== dropdownId) {
-            d.style.display = 'none';
-        }
-    });
-
-    // Toggle the current dropdown
-    dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
-}
-
-function filterDropdown(dropdownId) {
-    const dropdown = document.getElementById(dropdownId);
-    const searchInput = dropdown.querySelector('.dropdown-search');
-    const filterValue = searchInput.value.toLowerCase();
-    const items = dropdown.querySelectorAll('.dropdown-item');
-
-    items.forEach(item => {
-        if (item.textContent.toLowerCase().includes(filterValue)) {
-            item.style.display = ''; // Show item
-        } else {
-            item.style.display = 'none'; // Hide item
-        }
-    });
-}
-
 function getActiveNamesFromContainer(containerId) {
     const container = document.getElementById(containerId);
     if (!container) return [];
