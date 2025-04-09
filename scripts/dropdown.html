@@ -70,10 +70,24 @@ function showAutocompleteSuggestions() {
     const matches = [];
     const seen = new Set();
 
-    markers.forEach(({ personID, personprocessed }) => {
+    markers.forEach(({ personID, personprocessed, alias }) => {
         if (selectedNames.has(personprocessed)) return;
-        if (!personprocessed.toLowerCase().includes(inputValue)) return;
         if (seen.has(personprocessed)) return;
+
+        // Safely handle aliases from semicolon-separated string
+        let aliasList = [];
+        if (typeof alias === "string") {
+            aliasList = alias.split(";").map(a => a.trim().toLowerCase());
+        } else if (Array.isArray(alias)) {
+            aliasList = alias
+              .filter(a => typeof a === "string")
+              .map(a => a.trim().toLowerCase());
+        }
+        const allNames = [personprocessed.toLowerCase(), ...aliasList];
+
+        // Check if any name matches the search input
+        const matched = allNames.some(name => name.includes(inputValue));
+        if (!matched) return;
 
         seen.add(personprocessed);
 
@@ -82,7 +96,6 @@ function showAutocompleteSuggestions() {
         else if (personID.startsWith("BMU")) type = "Musician";
         else if (personID.startsWith("BNO")) type = "Non-Musician";
 
-        // Get markers for this person
         const personMarkers = markers.filter(m => m.personprocessed === personprocessed);
         const eventCount = personMarkers.length;
 
@@ -94,24 +107,13 @@ function showAutocompleteSuggestions() {
             if (latest === null || latestyear > latest) latest = latestyear;
         });
 
-        let yearLabel = "";
-        let formattedRange = "";
-        if (earliest === latest) {
-            formattedRange = `${earliest}`;
-        } else if (Math.floor(earliest / 100) === Math.floor(latest / 100)) {
-            // Same century, shorten second year
-            const shortEnd = String(latest).slice(-2);
-            formattedRange = `${earliest}–${shortEnd}`;
-        } else {
-            formattedRange = `${earliest}–${latest}`;
-        }
+        let formattedRange = earliest === latest
+            ? `${earliest}`
+            : (Math.floor(earliest / 100) === Math.floor(latest / 100)
+                ? `${earliest}–${String(latest).slice(-2)}`
+                : `${earliest}–${latest}`);
 
-        if (eventCount === 1) {
-            yearLabel = ` (1 event, ${formattedRange})`;
-        } else {
-            yearLabel = ` (${eventCount} events, ${formattedRange})`;
-        }
-
+        const yearLabel = ` (${eventCount} event${eventCount > 1 ? "s" : ""}, ${formattedRange})`;
         const label = `${type}: ${personprocessed}${yearLabel}`;
 
         matches.push({ label, personID, personprocessed });
