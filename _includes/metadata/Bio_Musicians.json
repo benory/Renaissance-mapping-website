@@ -2722,6 +2722,15 @@
 		"Date entered": "2023-3-28"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Georgius_Levasseur",
+		"Musician Name": "Georgius Levasseur",
+		"Description": "singer in papal chapel",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "71",
+		"Input data": "SMB",
+		"Date entered": "2025-4-10"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Georgius_Pulli",
 		"Musician Name": "Georgius Pulli",
 		"Description": "singer in Bruges",
@@ -3603,6 +3612,15 @@
 		"BIB Pages": "243",
 		"Input data": "SMB",
 		"Date entered": "2024-9-8"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guillermus_Amyot",
+		"Musician Name": "Guillermus Amyot",
+		"Description": "singer in the papal chapel",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "71",
+		"Input data": "SMB",
+		"Date entered": "2025-4-10"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Guillermus_Austrini",

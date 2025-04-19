@@ -3546,7 +3546,7 @@
 		"City or Larger Place": "Pas-de-Calais",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/eS1ywpMeD5iguFhq7",
-		"Coordinates": "50.64, 2.26",
+		"Coordinates": "50.63785667533254, 2.257631656551885",
 		"Input data": "SMB",
 		"Date entered": "2025-3-15"
 	},
@@ -3555,15 +3555,116 @@
 		"Name of Location": "Condom",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/Fn4QKjqeWEZmreNC7",
-		"Coordinates": "43.96, 0.37",
+		"Coordinates": "43.95840571693368, 0.36922370857196707",
 		"Input data": "SMB",
 		"Date entered": "2025-3-15"
 	},
 	{
-		"Location ID (LOC)": "LOC:Courtrai",
-		"Name of Location": "Courtrai",
+		"Location ID (LOC)": "LOC:Granada",
+		"Name of Location": "Granada",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/QmsxK9FNu5yGZZMC6",
+		"Coordinates": "37.18258744728823, -3.600713125548881",
+		"Input data": "AN",
+		"Date entered": "2025-4-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Namur",
+		"Name of Location": "Namur",
 		"Modern Country": "Belgium",
-		"Google URL": "Kortrijk",
-		"Aliases": "Kortrijk"
+		"Google URL": "https://maps.app.goo.gl/pzgNQmiA8YbfTaKw5",
+		"Coordinates": "50.463148921963814, 4.8622430686808",
+		"Input data": "AN",
+		"Date entered": "2025-4-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Linz",
+		"Name of Location": "Linz",
+		"Modern Country": "Austria",
+		"Google URL": "https://maps.app.goo.gl/NvPFvTY6NLHHydao9",
+		"Coordinates": "48.30633644536515, 14.282836392859833",
+		"Input data": "AN",
+		"Date entered": "2025-4-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Valladolid",
+		"Name of Location": "Valladolid",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/CwHMqHWUWZPyyHZA9",
+		"Coordinates": "41.654020235892425, -4.7202348312141345",
+		"Input data": "AN",
+		"Date entered": "2025-4-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Middelburg",
+		"Name of Location": "Middelburg",
+		"Modern Country": "Netherlands",
+		"Google URL": "https://maps.app.goo.gl/btyDSq6KYmMnfRCg6",
+		"Coordinates": "51.498905793015844, 3.6125494087915193",
+		"Input data": "AN",
+		"Date entered": "2025-4-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Penryn",
+		"Name of Location": "Penryn",
+		"Modern Country": "UK",
+		"Google URL": "https://maps.app.goo.gl/xqKp6dTQpFv1Wqan8",
+		"Coordinates": "50.17066468442169, -5.112447775645527",
+		"Input data": "AN",
+		"Date entered": "2025-4-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ourense",
+		"Name of Location": "Ourense",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/omxo7fUhoGBH31NH9",
+		"Coordinates": "42.33544409200226, -7.862312309011073",
+		"Input data": "AN",
+		"Date entered": "2025-4-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Burgos",
+		"Name of Location": "Burgos",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/auQmuZSsLaeVTTGF7",
+		"Coordinates": "42.34958147759892, -3.689199886044287",
+		"Input data": "AN",
+		"Date entered": "2025-4-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Zaragoza",
+		"Name of Location": "Zaragoza",
+		"Modern Country": "Spain",
+		"Google URL": "https://maps.app.goo.gl/zNUhgTMGDHxNP96k7",
+		"Coordinates": "41.646432163245706, -0.8870844768136631",
+		"Input data": "AN",
+		"Date entered": "2025-4-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Cologne",
+		"Name of Location": "Cologne",
+		"Modern Country": "Germany",
+		"Google URL": "https://maps.app.goo.gl/VX8yA2ZzPXj6x3ibA",
+		"Coordinates": "50.93693754831827, 6.951529503627326",
+		"Input data": "AN",
+		"Date entered": "2025-4-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Mainz",
+		"Name of Location": "Mainz",
+		"Modern Country": "Germany",
+		"Google URL": "https://maps.app.goo.gl/rCVoC4ge4oWtZrVq9",
+		"Coordinates": "49.990777182204674, 8.249397054944641",
+		"Input data": "AN",
+		"Date entered": "2025-4-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Augsburg",
+		"Name of Location": "Augsburg",
+		"Modern Country": "Germany",
+		"Google URL": "https://maps.app.goo.gl/mETC7dX5jGyruSZx6",
+		"Coordinates": "48.37071658586848, 10.89714576571213",
+		"Input data": "AN",
+		"Date entered": "2025-4-18"
 	}
 ]
