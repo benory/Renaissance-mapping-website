@@ -710,18 +710,10 @@
 	},
 	{
 		"Spreadsheet ID": "BCO",
-		"JavaScript Name": "RISMID",
-		"GID": "576281292",
-		"Spreadsheet Name": "Bio_Composers",
-		"Column": "H",
-		"Column Name": "RISM ID"
-	},
-	{
-		"Spreadsheet ID": "BCO",
 		"JavaScript Name": "RISMURL",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "I",
+		"Column": "H",
 		"Column Name": "RISM Link"
 	},
 	{
@@ -729,7 +721,7 @@
 		"JavaScript Name": "ASSID",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "J",
+		"Column": "I",
 		"Column Name": "Associated Person"
 	},
 	{
@@ -737,7 +729,7 @@
 		"JavaScript Name": "BIBID",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "K",
+		"Column": "J",
 		"Column Name": "Bibliography (BIB) ID"
 	},
 	{
@@ -745,43 +737,99 @@
 		"JavaScript Name": "BIBPAGES",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "L",
+		"Column": "K",
 		"Column Name": "BIB Pages"
 	},
 	{
 		"Spreadsheet ID": "BCO",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "M",
+		"Column": "L",
 		"Column Name": "Internal notes"
 	},
 	{
 		"Spreadsheet ID": "BCO",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "N",
+		"Column": "M",
 		"Column Name": "Input data"
 	},
 	{
 		"Spreadsheet ID": "BCO",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "O",
+		"Column": "N",
 		"Column Name": "Date entered"
 	},
 	{
 		"Spreadsheet ID": "BCO",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "P",
+		"Column": "O",
 		"Column Name": "Update data"
 	},
 	{
 		"Spreadsheet ID": "BCO",
 		"GID": "576281292",
 		"Spreadsheet Name": "Bio_Composers",
-		"Column": "Q",
+		"Column": "P",
 		"Column Name": "Date updated"
+	},
+	{
+		"Spreadsheet ID": "INS",
+		"JavaScript Name": "INSID",
+		"GID": "844808436",
+		"Spreadsheet Name": "Institutions",
+		"Column": "A",
+		"Column Name": "Institution ID (INS)"
+	},
+	{
+		"Spreadsheet ID": "INS",
+		"JavaScript Name": "INSNAME",
+		"GID": "844808436",
+		"Spreadsheet Name": "Institutions",
+		"Column": "B",
+		"Column Name": "Institution Name"
+	},
+	{
+		"Spreadsheet ID": "INS",
+		"JavaScript Name": "ALIAS",
+		"GID": "844808436",
+		"Spreadsheet Name": "Institutions",
+		"Column": "C",
+		"Column Name": "Alias"
+	},
+	{
+		"Spreadsheet ID": "INS",
+		"JavaScript Name": "INSTYPE",
+		"GID": "844808436",
+		"Spreadsheet Name": "Institutions",
+		"Column": "D",
+		"Column Name": "Institution Type"
+	},
+	{
+		"Spreadsheet ID": "INS",
+		"JavaScript Name": "INSINFO",
+		"GID": "844808436",
+		"Spreadsheet Name": "Institutions",
+		"Column": "E",
+		"Column Name": "Institution Description"
+	},
+	{
+		"Spreadsheet ID": "INS",
+		"JavaScript Name": "BIBID",
+		"GID": "844808436",
+		"Spreadsheet Name": "Institutions",
+		"Column": "F",
+		"Column Name": "Bibliography ID (BIB)"
+	},
+	{
+		"Spreadsheet ID": "INS",
+		"JavaScript Name": "BIBPAGES",
+		"GID": "844808436",
+		"Spreadsheet Name": "Institutions",
+		"Column": "G",
+		"Column Name": "BIB Pages"
 	},
 	{
 		"Spreadsheet ID": "BMU",
@@ -841,7 +889,7 @@
 	},
 	{
 		"Spreadsheet ID": "BMU",
-		"JavaScript Name": "BIBPAGESS",
+		"JavaScript Name": "BIBPAGES",
 		"GID": "50716405",
 		"Spreadsheet Name": "Bio_Musicians",
 		"Column": "H",

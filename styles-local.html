@@ -333,4 +333,186 @@ table.histogram div.count {
 .autocomplete-item:hover {
   background-color: #f0f0f0;
 }
+
+.popup-title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.popup-section {
+    margin-bottom: 20px;
+}
+
+.toggle-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.toggle-option {
+    padding: 6px 16px;
+    border: 1px solid #ccc;
+    border-radius: 9999px;
+    cursor: pointer;
+    font-weight: bold;
+    user-select: none;
+}
+
+.toggle-option input[type="radio"] {
+    display: none;
+}
+
+.toggle-option:has(input[type="radio"]:checked) {
+    background-color: #f0f0f0;
+    border-color: #999;
+}
+
+.section-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 14px;
+}
+
+.country-item {
+  border: 1px solid #ccc;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s;
+}
+
+.country-item:hover,
+.country-item.selected {
+  background-color: #f0f0f0; /* Matches hover on institution names */
+  border-color: #999;
+}
+
+.country-item.active {
+  background-color: #ddd; /* Darker background when selected */
+  border-color: #999;
+  font-weight: bold;
+}
+
+.institution-list-container {
+  max-height: 200px;
+  overflow-y: auto;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-width: 350px;
+  z-index: 10000;
+  border-radius: 4px;
+}
+
+.institution-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.institution-list li {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.institution-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.institution-list li input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+#institution-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 4px 10px;
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 30px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 10001; /* stays above map buttons */
+}
+
+#institution-button.with-arrow {
+  padding-right: 20px; /* Extra space for the arrow */
+  width: auto; /* Or set a fixed width if preferred */
+  min-width: 150px; /* Ensures room for both text and arrow */
+  background-position: right 10px center; /* Keep the arrow aligned */
+}
+
+#institution-button.with-arrow::after {
+  content: "";
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Optional hover/focus for better UX */
+#institution-button:hover {
+  border-color: #aaa;
+  background-color: #f9f9f9;
+}
+
+.institution-popup {
+  display: none;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1001;
+  background: #fff;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 350px;
+  font-family: sans-serif;
+}
+
+.institution-popup.visible {
+  display: block;
+}
+
+.custom-dropdown {
+  position: relative;
+  margin-left: 16px; /* Adjust spacing here */
+}
+
+.autocomplete-item {
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.autocomplete-item:hover {
+  background-color: #f0f0f0;
+}
+
 </style>

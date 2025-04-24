@@ -47,6 +47,9 @@ let currentDateRange = [minDate, maxDate];
 // Global variables for markerCluster
 let markerCluster;
 
+// Global variable for select institutions
+let institutionFilter;
+
 //////////////////////////////
 //
 // MAP.cindex -- uses the Spreadsheet ID and JavaScript ID to call the full name of a given header
@@ -140,14 +143,23 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 
 	document.addEventListener("click", (e) => {
-	    if (!e.target.closest(".search-bar")) {
+	    const isClickInsideSearch = e.target.closest(".search-bar");
+	    const isClickInsideInstitution = e.target.closest("#institution-popup") || e.target.closest("#institution-button") || e.target.closest(".country-item");
+
+	    if (!isClickInsideSearch) {
 	        const results = document.getElementById("autocomplete-results");
 	        if (results) results.innerHTML = "";
+	    }
+
+	    if (!isClickInsideInstitution) {
+	        const popup = document.getElementById("institution-popup");
+	        if (popup) popup.remove();
 	    }
 	});
 
 	document.addEventListener("keydown", (event) => {
 	    if (event.key === "Escape") {
+	        // Close autocomplete
 	        const resultsContainer = document.getElementById("autocomplete-results");
 	        if (resultsContainer) {
 	            resultsContainer.innerHTML = "";
@@ -156,17 +168,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	        const input = document.getElementById("input");
 	        if (input) {
-	            input.blur(); // Optional: unfocus the input if you want
+	            input.blur(); // Optional
 	        }
+
+	        // Close institution popup
+	        const popup = document.getElementById("institution-popup");
+	        if (popup) popup.remove();
 	    }
 	});
-
 });
 
 function handleCheckboxChange() {
     // Run filtering logic to determine which markers should be shown
     filterAndSearchMarkers();
-
     updateSidebar();
 }
 
@@ -178,5 +192,50 @@ window.onload = function() {
     // Call this function on page load to summon the marker if an eventid is in the URL
 	loadMarkerFromURL();
 };
+
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("institution-button");
+  const dropdown = document.getElementById("institution-dropdown");
+
+  let isPopupVisible = false;
+
+  btn.addEventListener("click", () => {
+    if (isPopupVisible) {
+      const popup = document.getElementById("institution-popup");
+      if (popup) popup.remove();
+      isPopupVisible = false;
+    } else {
+      const popupHTML = `
+        <div id="institution-popup" class="institution-popup visible">
+          <div class="popup-section">
+            <div class="toggle-group">
+              <label class="toggle-option">
+                <input type="radio" name="institution-type" value="ecclesiastical" checked>
+                Ecclesiastical
+              </label>
+              <label class="toggle-option">
+                <input type="radio" name="institution-type" value="political">
+                Political
+              </label>
+            </div>
+          </div>
+          <div class="popup-section">
+            <div class="country-grid"></div>
+          </div>
+          <div class="institution-list-container">
+            <ul id="institution-list" class="institution-list"></ul>
+          </div>
+        </div>`;
+
+      dropdown.insertAdjacentHTML("beforeend", popupHTML);
+      updateInstitutionList(); // Rebuild list
+      isPopupVisible = true;
+
+      document.querySelectorAll('input[name="institution-type"]').forEach(radio => {
+        radio.addEventListener("change", updateInstitutionList);
+      });
+    }
+  });
+});
 
 </script>

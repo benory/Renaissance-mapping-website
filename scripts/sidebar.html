@@ -23,12 +23,12 @@ function updateSidebar() {
     // Get only markers within map bounds
     const visibleMarkers = getVisibleMarkers().filter(({ marker, personID, locationCertainty, alias, 
         earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, 
-        text, personprocessed, locationprocessed }) => {
+        text, personprocessed, locationprocessed, institution }) => {
         
         const type = personID.substring(0, 3);
         const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
 
-        let show = shouldShowMarker(type, checkboxStates, certainties);
+        let show = shouldShowMarker(type, checkboxStates, certainties, institution);
 
         if (show && activeNames.size > 0 && !activeNames.has(personprocessed)) {
             show = false;

@@ -156,9 +156,11 @@ function doMapSetup(opts) {
     let LYEAR = MAP.cindex("EV","LYEAR");
     let LMONTH = MAP.cindex("EV","LMONTH");
     let LDAY = MAP.cindex("EV","LDAY");
+    let EVINSID = MAP.cindex("EV", "INSID");
     let LOCID = MAP.cindex("LOC", "LOCID");
     let LOCNAME = MAP.cindex("LOC", "LOCNAME");
     let LOCCITY = MAP.cindex("LOC", "CITY");
+    let LOCCOUNTRY = MAP.cindex("LOC", "COUNTRY");
     let COORD = MAP.cindex("LOC", "COORD");
     let BCONAME = MAP.cindex("BCO", "BCONAME");
     let BMUNAME = MAP.cindex("BMU", "BMUNAME");
@@ -172,6 +174,11 @@ function doMapSetup(opts) {
     let CERTEDATE = MAP.cindex("EV", "CERTEDATE");
     let CERTLDATE = MAP.cindex("EV", "CERTLDATE");
     let CERTRANGE = MAP.cindex("EV", "CERTRANGE");
+
+    // Get variable names for institutions
+    let INSID = MAP.cindex("INS", "INSID");
+    let INSNAME = MAP.cindex("INS", "INSNAME");
+    let INSTYPE = MAP.cindex("INS", "INSTYPE");
 
     // Get variable names for document entries
     let DOEID = MAP.cindex("EV", "DOEID");
@@ -203,6 +210,7 @@ function doMapSetup(opts) {
     let personprocessed = "";
     let locationid = "";
     let locationprocessed = "";
+    let locationcountry = "";
     let largerlocation = "";
     let daterange = "";
     let earliestyear = "";
@@ -216,6 +224,9 @@ function doMapSetup(opts) {
     let coordinates = "";
     let coordinatesprocessed = "";
     let description = "";
+    let institution = "";
+    let institutiontype = "";
+    let institutionname = "";
     let docentry = "";
     let bibliography = "";
     let archiveprocessed = "";
@@ -280,8 +291,9 @@ function doMapSetup(opts) {
             let locationInfo = findInfo(locationid, "Locations");
             locationprocessed = locationInfo[LOCNAME];
 
-            // Find larger location, if applicable
+            // Find larger location and country, if applicable
             let largerlocation = locationInfo[LOCCITY];
+            locationcountry = locationInfo[LOCCOUNTRY];
             if (largerlocation) {
                 locationprocessed += `, ${largerlocation}`;
             }
@@ -340,6 +352,16 @@ function doMapSetup(opts) {
             // Get event description
             if (events[i][EINFO]) {
                 description = events[i][EINFO];
+            }
+
+            // Get institution information
+            if (events[i][EVINSID]) {
+                institution = events[i][EVINSID];
+                let instInfo = findInfo(institution, "Institutions");
+                if (instInfo) {
+                    institutionname = instInfo[INSNAME];
+                    institutiontype = instInfo[INSTYPE];
+                }
             }
 
             // Get certainty information
@@ -553,7 +575,11 @@ function doMapSetup(opts) {
                             rangeCertainty: rangeCertainty,
                             earliestyear: earliestyear,
                             latestyear: latestyear,
-                            alias: alias
+                            alias: alias,
+                            institution: institution,
+                            institutiontype: institutiontype,
+                            institutionname: institutionname,
+                            locationcountry: locationcountry
                         }
                     };
 
@@ -599,6 +625,9 @@ function doMapSetup(opts) {
                         marker: marker, 
                         personID: person,
                         alias: alias,
+                        institution: institution,
+                        institutiontype: institutiontype,
+                        institutionname: institutionname,
                         text: `[${daterange}] ${personprocessed}: ${description}`, 
                         locationCertainty: locationCertainty, 
                         earliestDateCertainty: earliestDateCertainty, 
@@ -608,7 +637,8 @@ function doMapSetup(opts) {
                         latestyear: latestyear, 
                         eventid: eventid, 
                         description: description, 
-                        locationprocessed: locationprocessed, 
+                        locationprocessed: locationprocessed,
+                        locationcountry: locationcountry, 
                         daterange: daterange, 
                         personprocessed: personprocessed });
                 } else {
@@ -624,6 +654,7 @@ function doMapSetup(opts) {
             personprocessed = "";
             locationid = "";
             locationprocessed = "";
+            locationcountry = "";
             largerlocation = "";
             daterange = "";
             coordinates = "";
@@ -641,6 +672,9 @@ function doMapSetup(opts) {
             latestday = "";
             latestdate = "";
             alias = "";
+            institution = "";
+            institutiontype = "";
+            institutionname = "";
         }
     }
 
@@ -658,7 +692,7 @@ function getCheckboxStates() {
 }
 
 // Helper function to determine if a marker should be shown based on checkbox states and certainty
-function shouldShowMarker(type, checkboxStates, certainties) {
+function shouldShowMarker(type, checkboxStates, certainties, institution) {
     let { showComposers, showMusicians, showNonMusicians, showCertainty } = checkboxStates;
     let { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty } = certainties;
 
@@ -675,6 +709,10 @@ function shouldShowMarker(type, checkboxStates, certainties) {
         if (earliestDateCertainty && earliestDateCertainty !== "1" && earliestDateCertainty !== "2") show = false;
         if (latestDateCertainty && latestDateCertainty !== "1" && latestDateCertainty !== "2") show = false;
         if (rangeCertainty && rangeCertainty !== "1" && rangeCertainty !== "2") show = false;
+    }
+
+    if (institutionFilter && institution !== institutionFilter) {
+        show = false;
     }
 
     return show;
@@ -732,11 +770,11 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
         document.querySelector('#active-markers-table tbody').innerHTML = '';
     }
 
-    visibleMarkers.forEach(({ marker, personID, alias, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, text, eventid, daterange, locationprocessed, description, personprocessed }) => {
+    visibleMarkers.forEach(({ marker, personID, alias, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, text, eventid, daterange, locationprocessed, description, personprocessed, institution }) => {
         const type = personID.substring(0, 3);
         const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
 
-        let show = shouldShowMarker(type, checkboxStates, certainties);
+        let show = shouldShowMarker(type, checkboxStates, certainties, institution);
 
         // Apply additional filtering based on user search, active names, and date range
         if (show && activeNames.size > 0 && !activeNames.has(personprocessed)) {
@@ -859,6 +897,118 @@ function getClusterColor(markers) {
 
     clusterCache.set(clusterKey, clusterColor);
     return clusterColor;
+}
+
+function updateInstitutionList() {
+    const type = document.querySelector('input[name="institution-type"]:checked').value;
+    const institutionList = document.getElementById('institution-list');
+    const countryGrid = document.querySelector('.country-grid');
+    institutionList.innerHTML = '';
+    
+    // Save current selection before clearing
+    const previouslySelectedCountries = new Set(
+      Array.from(countryGrid.querySelectorAll('.country-item.active')).map(el => el.textContent)
+    );
+
+    countryGrid.innerHTML = ''; // Clear grid
+
+    const visibleMarkers = getVisibleMarkers();
+
+    const countrySet = new Set();
+    const institutionMap = new Map(); // Use a map to avoid duplicates
+
+    visibleMarkers.forEach(marker => {
+        const { institution, institutionname, institutiontype, locationcountry } = marker;
+        if (!institution || !institutionname || !institutiontype || !locationcountry) return;
+        if (institutiontype.toLowerCase() !== type.toLowerCase()) return;
+
+        const key = `${institution}__${locationcountry}`;
+        if (!institutionMap.has(key)) {
+            institutionMap.set(key, {
+                id: institution,
+                name: institutionname,
+                country: locationcountry
+            });
+        }
+    });
+
+    // Only include countries that have at least one institution to show
+    institutionMap.forEach(inst => {
+        countrySet.add(inst.country);
+    });
+
+    // Render clickable country divs
+    const sortedCountries = Array.from(countrySet).sort();
+    for (const country of sortedCountries) {
+        const div = document.createElement('div');
+        div.textContent = country;
+        div.classList.add("country-item");
+
+        // Restore active class if previously selected
+        if (previouslySelectedCountries.has(country)) {
+            div.classList.add("active");
+        }
+
+        div.addEventListener("click", (e) => {
+            e.stopPropagation(); // Prevent popup from closing
+            div.classList.toggle("active");
+            updateInstitutionList(); // Refilter institutions
+        });
+
+        countryGrid.appendChild(div);
+    }
+
+    // Get selected countries
+    const selectedCountries = new Set(
+        Array.from(countryGrid.querySelectorAll('.country-item.active')).map(el => el.textContent)
+    );
+
+    const seenInstitutions = new Set();
+    const sortedInstitutions = Array.from(institutionMap.values())
+        .filter(inst => selectedCountries.size === 0 || selectedCountries.has(inst.country))
+        .sort((a, b) => a.name.localeCompare(b.name));
+
+    for (const inst of sortedInstitutions) {
+        const key = `${inst.name}`;
+        if (seenInstitutions.has(key)) continue; // Skip duplicates
+        seenInstitutions.add(key);
+
+        const li = document.createElement('li');
+        li.textContent = inst.name;
+        li.style.cursor = 'pointer';
+
+        li.addEventListener("click", () => {
+            const popup = document.getElementById("institution-popup");
+            const button = document.getElementById("institution-button");
+
+            if (popup) popup.remove();
+            if (button) {
+                button.classList.remove("with-arrow");
+                button.innerHTML = `
+                    <span class="remove-selected-institution" style="color: red; margin-right: 6px; font-weight: bold; cursor: pointer;">&times;</span>
+                    <span>${inst.name}</span>
+                `;
+
+                button.querySelector(".remove-selected-institution").addEventListener("click", (e) => {
+                    e.stopPropagation();
+                    button.innerHTML = `View Institutions`;
+                    button.classList.add("with-arrow");
+
+                    institutionFilter = null;
+                    filterAndSearchMarkers(); // Re-run filtering
+                });
+            }
+
+            institutionFilter = inst.id;
+            filterAndSearchMarkers();
+        });
+
+        institutionList.appendChild(li);
+    }
+
+    if (institutionList.children.length === 0) {
+        institutionList.innerHTML = '<li><em>No matching institutions found</em></li>';
+    }
 }
 
 </script>

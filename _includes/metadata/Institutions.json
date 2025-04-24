@@ -3,6 +3,7 @@
 		"Institution ID (INS)": "INS:Chapel_Louis_XII",
 		"Institution Name": "Chapel of Louis XII",
 		"Alias": "French royal court",
+		"Institution Type": "political",
 		"Institution Description": "chapel of King Louis XII, who reigned from 1498–1515",
 		"Input data": "BSO",
 		"Date entered": "2024-4-4"
@@ -11,6 +12,7 @@
 		"Institution ID (INS)": "INS:Chapel_Anne_Brittany",
 		"Institution Name": "Chapel of Anne of Brittany",
 		"Alias": "French royal court",
+		"Institution Type": "political",
 		"Institution Description": "chapel of Anne of Brittany, queen from 1491 to 1498 and 1499 to 1514",
 		"Input data": "BSO",
 		"Date entered": "2024-4-4"
@@ -19,6 +21,7 @@
 		"Institution ID (INS)": "INS:Chapel_Francis_I",
 		"Institution Name": "Chapel of Francis I",
 		"Alias": "French royal court",
+		"Institution Type": "political",
 		"Institution Description": "chapel of Francis I, king from 1515 to 1547",
 		"Input data": "BSO",
 		"Date entered": "2024-4-5"
@@ -27,6 +30,7 @@
 		"Institution ID (INS)": "INS:Court_Ferrara",
 		"Institution Name": "Court of Ferrara",
 		"Alias": "Ferrarese Court",
+		"Institution Type": "political",
 		"Input data": "BSO",
 		"Date entered": "2024-4-9"
 	},
@@ -34,24 +38,28 @@
 		"Institution ID (INS)": "INS:Cappella_Sistina",
 		"Institution Name": "Cappella Sistina",
 		"Alias": "Sistine Chapel",
+		"Institution Type": "ecclesiastical",
 		"Input data": "BSO",
 		"Date entered": "2024-4-11"
 	},
 	{
 		"Institution ID (INS)": "INS:Chapel_Rene_Anjou",
 		"Institution Name": "Chapel of René of Anjou",
+		"Institution Type": "political",
 		"Input data": "FEM",
 		"Date entered": "2024-4-12"
 	},
 	{
 		"Institution ID (INS)": "INS:Troyes_Cathedral",
 		"Institution Name": "Troyes Cathedral",
+		"Institution Type": "ecclesiastical",
 		"Input data": "SMB",
 		"Date entered": "2024-6-7"
 	},
 	{
 		"Institution ID (INS)": "INS:Chapel_Charles_I",
 		"Institution Name": "Chapel of Charles I",
+		"Institution Type": "political",
 		"Institution Description": "Chapel of Charles I, Duke of Savoy, and Bianca of Monferrato",
 		"Input data": "SMB",
 		"Date entered": "2024-6-8"
@@ -59,6 +67,7 @@
 	{
 		"Institution ID (INS)": "INS:Chapel_Maximilian_I",
 		"Institution Name": "Chapel of Maximilian I",
+		"Institution Type": "political",
 		"Institution Description": "Chapel of Maximilian I, Holy Roman Emperor",
 		"Input data": "SMB",
 		"Date entered": "2024-6-22"
@@ -67,6 +76,7 @@
 		"Institution ID (INS)": "INS:Chapel_Philip_Fair",
 		"Institution Name": "Chapel of Philip the Fair",
 		"Alias": "Habsburg-Burgundian court chapel",
+		"Institution Type": "political",
 		"Institution Description": "Chapel of Philip the Fair, duke of Burgundy 1482-1506",
 		"Input data": "SMB",
 		"Date entered": "2024-7-25"
@@ -75,6 +85,7 @@
 		"Institution ID (INS)": "INS:Chapel_Marguerite_Austria",
 		"Institution Name": "Chapel of Marguerite of Austria",
 		"Alias": "Habsburg-Burgundian court chapel",
+		"Institution Type": "political",
 		"Institution Description": "Chapel of Marguerite of Austria, Governor of the Habsburg Netherlands",
 		"Input data": "SMB",
 		"Date entered": "2024-8-4"
@@ -83,18 +94,21 @@
 		"Institution ID (INS)": "INS:Chapel_Ferdinand_II",
 		"Institution Name": "Chapel of Ferdinand II",
 		"Alias": "\"the Catholic\"",
+		"Institution Type": "political",
 		"Input data": "SMB",
 		"Date entered": "2024-8-9"
 	},
 	{
 		"Institution ID (INS)": "INS:Chapel_Ferdinand_I",
 		"Institution Name": "Chapel of Ferdinand I",
+		"Institution Type": "political",
 		"Input data": "SMB",
 		"Date entered": "2024-8-11"
 	},
 	{
 		"Institution ID (INS)": "INS:Chapel_Sigismondo",
 		"Institution Name": "Chapel of Sigismondo d'Este",
+		"Institution Type": "political",
 		"Institution Description": "Chapel of Sigismondo d'Este",
 		"Input data": "SMB",
 		"Date entered": "2024-8-16"
@@ -102,6 +116,7 @@
 	{
 		"Institution ID (INS)": "INS:Leo_Secreti",
 		"Institution Name": "Chapel of Leo X",
+		"Institution Type": "ecclesiastical",
 		"Institution Description": "Private chapel of Leo X",
 		"Input data": "SMB",
 		"Date entered": "2024-8-16"
@@ -109,6 +124,7 @@
 	{
 		"Institution ID (INS)": "INS:Saint_Vincent",
 		"Institution Name": "Saint-Vincent church",
+		"Institution Type": "ecclesiastical",
 		"Institution Description": "Church in Soignies",
 		"Input data": "SMB",
 		"Date entered": "2024-8-17"
@@ -116,12 +132,14 @@
 	{
 		"Institution ID (INS)": "INS:Cambrai_Cathedral",
 		"Institution Name": "Cambrai Cathedral",
+		"Institution Type": "ecclesiastical",
 		"Input data": "SMB",
 		"Date entered": "2024-8-17"
 	},
 	{
 		"Institution ID (INS)": "INS:St_Gery",
 		"Institution Name": "St Gery",
+		"Institution Type": "ecclesiastical",
 		"Institution Description": "Church in Cambrai",
 		"Input data": "SMB",
 		"Date entered": "2024-8-18"
@@ -129,6 +147,7 @@
 	{
 		"Institution ID (INS)": "INS:Chapel_Martin_V",
 		"Institution Name": "Chapel of Martin V",
+		"Institution Type": "ecclesiastical",
 		"Institution Description": "Chapel of Pope Martin V",
 		"Input data": "SMB",
 		"Date entered": "2024-8-21"
@@ -136,6 +155,7 @@
 	{
 		"Institution ID (INS)": "INS:Chapel_Alfonso_Carillo",
 		"Institution Name": "Chapel of Alfonso Carillo",
+		"Institution Type": "ecclesiastical",
 		"Institution Description": "Chapel of bologna legate Carillo",
 		"Input data": "SMB",
 		"Date entered": "2024-8-21"
@@ -143,6 +163,7 @@
 	{
 		"Institution ID (INS)": "INS:Chapel_Louis_Alemand",
 		"Institution Name": "Chapel of Louis Alemand",
+		"Institution Type": "ecclesiastical",
 		"Institution Description": "Chapel of Bishop of Arles, later Cardinal",
 		"Input data": "SMB",
 		"Date entered": "2024-8-22"
@@ -150,6 +171,7 @@
 	{
 		"Institution ID (INS)": "INS:Papal_Chapel_Florence",
 		"Institution Name": "Papal chapel of Eugenius IV",
+		"Institution Type": "ecclesiastical",
 		"Institution Description": "Papal chapel in Florence",
 		"Input data": "SMB",
 		"Date entered": "2024-8-22"
@@ -157,6 +179,7 @@
 	{
 		"Institution ID (INS)": "INS:Chapel_Louis_Savoy",
 		"Institution Name": "Chapel of Louis I",
+		"Institution Type": "political",
 		"Institution Description": "Duke of Savoy, 1440-1465",
 		"Input data": "SMB",
 		"Date entered": "2024-9-8"
@@ -164,6 +187,7 @@
 	{
 		"Institution ID (INS)": "INS:St_Gertrude",
 		"Institution Name": "St Gertrude Collegiate church",
+		"Institution Type": "ecclesiastical",
 		"Institution Description": "St Gertrude collegiate church",
 		"Input data": "SMB",
 		"Date entered": "2024-9-14"
@@ -172,6 +196,7 @@
 		"Institution ID (INS)": "INS:Chapel_Corvinius",
 		"Institution Name": "Chapel of Mathias Corvinius",
 		"Alias": "Hungarian royal court",
+		"Institution Type": "political",
 		"Institution Description": "Chapel of Mathias Corvinius, King of Hungary",
 		"Input data": "SMB",
 		"Date entered": "2024-9-14"
@@ -179,6 +204,7 @@
 	{
 		"Institution ID (INS)": "INS:Saint_Martin",
 		"Institution Name": "Saint Martin",
+		"Institution Type": "ecclesiastical",
 		"Institution Description": "Collegiate church in Tours",
 		"Input data": "SMB",
 		"Date entered": "2024-9-20"
@@ -186,6 +212,7 @@
 	{
 		"Institution ID (INS)": "INS:Notre_Dame",
 		"Institution Name": "Notre Dame",
+		"Institution Type": "ecclesiastical",
 		"Institution Description": "Paris church",
 		"Input data": "SMB",
 		"Date entered": "2024-9-22"
@@ -194,6 +221,7 @@
 		"Institution ID (INS)": "INS:Chapel_Charles_V",
 		"Institution Name": "Chapel of Charles V",
 		"Alias": "Habsburg-Burgundian court chapel",
+		"Institution Type": "political",
 		"Institution Description": "Chapel of Charles V (1500–1558), King of Spain, Holy Roman Emperor and Duke of Burgundy",
 		"Input data": "AN",
 		"Date entered": "2024-10-31"
@@ -201,6 +229,7 @@
 	{
 		"Institution ID (INS)": "INS:Our_Lady_Bruges",
 		"Institution Name": "Church of Our Lady",
+		"Institution Type": "ecclesiastical",
 		"Institution Description": "Church in Bruges",
 		"Input data": "SMB",
 		"Date entered": "2024-11-29"
@@ -208,12 +237,14 @@
 	{
 		"Institution ID (INS)": "INS:Chapel_Duke_Arcos",
 		"Institution Name": "Chapel of the Duke of Arcos",
+		"Institution Type": "political",
 		"Input data": "AN",
 		"Date entered": "2025-01-19"
 	},
 	{
 		"Institution ID (INS)": "INS:Chapel_Juana_I",
 		"Institution Name": "Chapel of Juana I",
+		"Institution Type": "political",
 		"Input data": "AN",
 		"Date entered": "2025-01-31"
 	},
@@ -221,6 +252,7 @@
 		"Institution ID (INS)": "INS:Chapel_Charles_the_Bold",
 		"Institution Name": "Chapel of Charles the Bold",
 		"Alias": "Burgundian court chapel",
+		"Institution Type": "political",
 		"Institution Description": "Chapel of Charles the Bold, Duke of Burgundy 1467-1477",
 		"Input data": "LO",
 		"Date entered": "2025-2-9"
@@ -228,6 +260,7 @@
 	{
 		"Institution ID (INS)": "INS:Sainte-Chapelle",
 		"Institution Name": "Sainte-Chapelle",
+		"Institution Type": "ecclesiastical",
 		"Institution Description": "Parisian church around the corner from Notre Dame",
 		"Input data": "SMB",
 		"Date entered": "2025-3-15"
@@ -235,6 +268,7 @@
 	{
 		"Institution ID (INS)": "INS:Saint_Martin_Courtrai",
 		"Institution Name": "Church of St. Martin in Courtrai",
+		"Institution Type": "ecclesiastical",
 		"Input data": "EZ",
 		"Date entered": "2025-3-17"
 	}

@@ -43,9 +43,14 @@ layout: page
     <div id="musician-active" class="active-names"></div>
     <div id="non-musician-active" class="active-names"></div>
 </div>
-<div class="checkbox-item">
-    <input type="checkbox" id="certainty-select" name="certainty-select" value="certainty-select">
-    <label for="certainty-select">View only certain and probable events</label>
+<div class="checkbox-item checkbox-with-button">
+    <div>
+        <input type="checkbox" id="certainty-select" name="certainty-select" value="certainty-select">
+        <label for="certainty-select">View only certain and probable events</label>
+    </div>
+    <div class="custom-dropdown" id="institution-dropdown">
+      <button id="institution-button" class="with-arrow">View Institutions</button>
+    </div>
 </div>
 
 <div class="small-space"></div>

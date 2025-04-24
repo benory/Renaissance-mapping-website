@@ -11665,7 +11665,7 @@
 	{
 		"ID": "EV:00734",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
-		"Biography ID (BCO, BMU, BNO)": "BMU:Hieronimus_Beltrandi",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Hieronimus_Bertrandi",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
 		"Earliest Year": "1492",
 		"Latest Year": "1494",
@@ -11681,7 +11681,7 @@
 	{
 		"ID": "EV:00735",
 		"Location ID (LOC)": "LOC:Vatican-Cappella_Sistina",
-		"Biography ID (BCO, BMU, BNO)": "BMU:Hieronimus_Beltrandi",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Hieronimus_Bertrandi",
 		"Institution ID (INS)": "INS:Cappella_Sistina",
 		"Earliest Year": "1501",
 		"Latest Year": "1501",
@@ -39193,7 +39193,7 @@
 	{
 		"ID": "EV:02329",
 		"Location ID (LOC)": "LOC:Rome",
-		"Biography ID (BCO, BMU, BNO)": "BMU:Hieronimus_Beltrandi",
+		"Biography ID (BCO, BMU, BNO)": "#N/A",
 		"LOC Certainty": "1",
 		"Earliest Year": "1510",
 		"Earliest Month": "1",
