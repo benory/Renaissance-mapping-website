@@ -115,7 +115,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:Leo_Secreti",
-		"Institution Name": "Chapel of Leo X",
+		"Institution Name": "Chapel of Pope Leo X",
 		"Institution Type": "ecclesiastical",
 		"Institution Description": "Private chapel of Leo X",
 		"Input data": "SMB",
@@ -123,7 +123,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:Saint_Vincent",
-		"Institution Name": "Collegiate Church of Saint-Vincent, Soignies",
+		"Institution Name": "Soignies, Collegiate Church of Saint-Vincent",
 		"Institution Type": "ecclesiastical",
 		"Institution Description": "Church in Soignies",
 		"Input data": "SMB",
@@ -138,7 +138,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:St_Gery",
-		"Institution Name": "Saint-Géry, Cambrai",
+		"Institution Name": "Cambrai, Saint-Géry",
 		"Institution Type": "ecclesiastical",
 		"Institution Description": "Church in Cambrai",
 		"Input data": "SMB",
@@ -170,7 +170,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:Papal_Chapel_Florence",
-		"Institution Name": "Papal chapel of Eugenius IV",
+		"Institution Name": "Chapel of Pope Eugenius IV",
 		"Institution Type": "ecclesiastical",
 		"Institution Description": "Papal chapel in Florence",
 		"Input data": "SMB",
@@ -186,7 +186,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:St_Gertrude",
-		"Institution Name": "Collegiate Church of St. Gertrude, Nivelles",
+		"Institution Name": "Nivelles, Collegiate Church of St. Gertrude",
 		"Institution Type": "ecclesiastical",
 		"Institution Description": "St Gertrude collegiate church",
 		"Input data": "SMB",
@@ -203,7 +203,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:Saint_Martin",
-		"Institution Name": "Saint Martin, Tours",
+		"Institution Name": "Tours, Saint Martin",
 		"Institution Type": "ecclesiastical",
 		"Institution Description": "Collegiate church in Tours",
 		"Input data": "SMB",
@@ -211,7 +211,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:Notre_Dame",
-		"Institution Name": "Notre Dame, Paris",
+		"Institution Name": "Paris, Notre Dame",
 		"Institution Type": "ecclesiastical",
 		"Institution Description": "Paris church",
 		"Input data": "SMB",
@@ -259,7 +259,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:Sainte-Chapelle",
-		"Institution Name": "Sainte-Chapelle, Paris",
+		"Institution Name": "Paris, Sainte-Chapelle",
 		"Institution Type": "ecclesiastical",
 		"Institution Description": "Parisian church around the corner from Notre Dame",
 		"Input data": "SMB",
@@ -267,7 +267,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:Saint_Martin_Courtrai",
-		"Institution Name": "Church of St. Marti, Courtrai",
+		"Institution Name": "Courtrai, Church of St. Martin",
 		"Institution Type": "ecclesiastical",
 		"Input data": "EZ",
 		"Date entered": "2025-3-17"
