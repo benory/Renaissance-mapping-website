@@ -123,7 +123,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:Saint_Vincent",
-		"Institution Name": "Saint-Vincent church",
+		"Institution Name": "Collegiate Church of Saint-Vincent, Soignies",
 		"Institution Type": "ecclesiastical",
 		"Institution Description": "Church in Soignies",
 		"Input data": "SMB",
@@ -138,7 +138,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:St_Gery",
-		"Institution Name": "St Gery",
+		"Institution Name": "St Gery, Cambrai",
 		"Institution Type": "ecclesiastical",
 		"Institution Description": "Church in Cambrai",
 		"Input data": "SMB",
@@ -186,7 +186,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:St_Gertrude",
-		"Institution Name": "St Gertrude Collegiate church",
+		"Institution Name": "Collegiate Church of St. Gertrude, Nivelles",
 		"Institution Type": "ecclesiastical",
 		"Institution Description": "St Gertrude collegiate church",
 		"Input data": "SMB",
@@ -203,7 +203,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:Saint_Martin",
-		"Institution Name": "Saint Martin",
+		"Institution Name": "Saint Martin, Tours",
 		"Institution Type": "ecclesiastical",
 		"Institution Description": "Collegiate church in Tours",
 		"Input data": "SMB",
@@ -211,7 +211,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:Notre_Dame",
-		"Institution Name": "Notre Dame",
+		"Institution Name": "Notre Dame, Paris",
 		"Institution Type": "ecclesiastical",
 		"Institution Description": "Paris church",
 		"Input data": "SMB",
@@ -228,7 +228,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:Our_Lady_Bruges",
-		"Institution Name": "Church of Our Lady",
+		"Institution Name": "Church of Our Lady, Bruges",
 		"Institution Type": "ecclesiastical",
 		"Institution Description": "Church in Bruges",
 		"Input data": "SMB",
@@ -259,7 +259,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:Sainte-Chapelle",
-		"Institution Name": "Sainte-Chapelle",
+		"Institution Name": "Sainte-Chapelle, Paris",
 		"Institution Type": "ecclesiastical",
 		"Institution Description": "Parisian church around the corner from Notre Dame",
 		"Input data": "SMB",
@@ -267,7 +267,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:Saint_Martin_Courtrai",
-		"Institution Name": "Church of St. Martin in Courtrai",
+		"Institution Name": "Church of St. Marti, Courtrai",
 		"Institution Type": "ecclesiastical",
 		"Input data": "EZ",
 		"Date entered": "2025-3-17"
