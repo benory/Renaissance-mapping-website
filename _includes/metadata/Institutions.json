@@ -117,7 +117,7 @@
 		"Institution ID (INS)": "INS:Leo_Secreti",
 		"Institution Name": "Chapel of Pope Leo X",
 		"Institution Type": "ecclesiastical",
-		"Institution Description": "Private chapel of Leo X",
+		"Institution Description": "Private chapel of Pope Leo X",
 		"Input data": "SMB",
 		"Date entered": "2024-8-16"
 	},
@@ -146,7 +146,7 @@
 	},
 	{
 		"Institution ID (INS)": "INS:Chapel_Martin_V",
-		"Institution Name": "Chapel of Martin V",
+		"Institution Name": "Chapel of Pope Martin V",
 		"Institution Type": "ecclesiastical",
 		"Institution Description": "Chapel of Pope Martin V",
 		"Input data": "SMB",
