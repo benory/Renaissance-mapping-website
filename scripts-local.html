@@ -1001,6 +1001,13 @@ function updateInstitutionList() {
 
             institutionFilter = inst.id;
             filterAndSearchMarkers();
+
+            // Zoom to filtered institution markers
+            const instMarkers = markers.filter(m => m.institution === inst.id);
+            if (instMarkers.length > 0) {
+                const group = L.featureGroup(instMarkers.map(m => m.marker));
+                map.fitBounds(group.getBounds().pad(0.1), { maxZoom: 6 });
+            }
         });
 
         institutionList.appendChild(li);
