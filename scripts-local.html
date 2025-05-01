@@ -912,7 +912,7 @@ function updateInstitutionList() {
 
     countryGrid.innerHTML = ''; // Clear grid
 
-    const visibleMarkers = getVisibleMarkers();
+    const visibleMarkers = getAllInstitutionMarkers();
 
     const countrySet = new Set();
     const institutionMap = new Map(); // Use a map to avoid duplicates
@@ -1016,6 +1016,12 @@ function updateInstitutionList() {
     if (institutionList.children.length === 0) {
         institutionList.innerHTML = '<li><em>No matching institutions found</em></li>';
     }
+}
+
+function getAllInstitutionMarkers() {
+    return markers.filter(({ institution, institutionname, institutiontype, locationcountry }) =>
+        institution && institutionname && institutiontype && locationcountry
+    );
 }
 
 </script>
