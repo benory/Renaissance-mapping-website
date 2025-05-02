@@ -428,9 +428,9 @@
 		"Date entered": "2023-6-7"
 	},
 	{
-		"Biography Non-Musician (BNO) ID": "BNO:Jehan_Baudewin",
-		"Person Name": "Jehan Baudewin",
-		"Alias": "Bauduwyn, Jehan",
+		"Biography Non-Musician (BNO) ID": "BNO:Jehan_Bauduwin",
+		"Person Name": "Jehan Bauduwin",
+		"Alias": "Bauduwyn, Jehan; Bauduyn; Bauduin; Baudouin, Jean; Baudewin, Jean; Bauduyn; Bauwin; Bauduwin, Jehan; Bauduwino; Bau; Bauduwin; Baud; Baudewyn, Jehan; Baudewin, Jehan; Baudwin, Jehan",
 		"Noted Positions": "porter at the Imperial chapel of Charles V; previously a part of the chapels of Philip the Fair and Juana I",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "201",
@@ -457,9 +457,9 @@
 		"Date entered": "2024-8-21"
 	},
 	{
-		"Biography Non-Musician (BNO) ID": "BNO:Jennin_Mathieu",
-		"Person Name": "Jennin Mathieu",
-		"Alias": "Mathieu, Joannes",
+		"Biography Non-Musician (BNO) ID": "BNO:Jenin_Mathieu",
+		"Person Name": "Jenin Mathieu",
+		"Alias": "Mathieu, Jennin; Matieu, Juanino; Mahieu, Johannes; Mahieu alias Hauret, Johannes; de Haurecke, Johannes; Mathieu, Joes; Mahyeu alias de Hauret, Johannes; Mathieu dit Cappelleman, Johannes; Mathieu, Joannes; Cappelman;   Mathieu, Johannes; Mathieu, Jehan; Cappelman, Joannes",
 		"Noted Positions": "cleric at the Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "201",
@@ -655,7 +655,7 @@
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Petrus_Alamire",
 		"Person Name": "Petrus Alamire",
-		"Alias": "Pierre Alamire",
+		"Alias": "Pierre Alamire, Pierre Alemire, Pedro Alamire",
 		"Death Date": "1536-6-26",
 		"Noted Positions": "scribe",
 		"Description": "One of several scribes actives at the Habsburg courts in Mechelen and Brussels that copied more than sixty music manuscripts",

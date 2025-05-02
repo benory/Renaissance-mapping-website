@@ -1,0 +1,731 @@
+[
+	{
+		"Target Type": "A",
+		"Last": "Agricola",
+		"First": "Alexander",
+		"Status": "5 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Arcadelt",
+		"First": "Jacques",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Basiron",
+		"First": "Philippe",
+		"Status": "Complete"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Binchois",
+		"First": "Gilles",
+		"Status": "1 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Brumel",
+		"First": "Antoine",
+		"Status": "Complete"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Busnoys",
+		"First": "Antoine",
+		"Status": "124 events",
+		"Contributor": "LO"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Caron",
+		"First": "Firmimus",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Carpentras",
+		"Status": "4 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Compere",
+		"First": "Loyset",
+		"Status": "1 event"
+	},
+	{
+		"Target Type": "A",
+		"Last": "de Orto",
+		"First": "Marbrianus",
+		"Status": "23 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "des Prez",
+		"First": "Josquin",
+		"Status": "17 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Du Fay",
+		"First": "Guillaume",
+		"Status": "Complete"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Dunstaple",
+		"First": "John",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Faugues",
+		"First": "Guillaume",
+		"Status": "Complete"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Festa",
+		"First": "Costanzo",
+		"Status": "2 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Festa",
+		"First": "Sebastiano",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Févin",
+		"First": "Antoine de",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Févin",
+		"First": "Robert de",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Finck",
+		"First": "Heinrich",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Frye",
+		"First": "Walter",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Gaffurius",
+		"First": "Franchinus",
+		"Status": "2 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Gascongne",
+		"First": "Mathieu",
+		"Status": "1 event"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Ghiselin",
+		"First": "Johannes",
+		"Status": "Complete"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Ghizeghem",
+		"First": "Hayne van",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Gombert",
+		"First": "Nicolas",
+		"Status": "6 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Hellinck",
+		"First": "Lupus",
+		"Status": "Mostly Complete"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Isaac",
+		"First": "Heinrich",
+		"Status": "Mostly Complete"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Mantua",
+		"First": "Jachet of",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Jan",
+		"First": "Maistre",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "La Rue",
+		"First": "Pierre de",
+		"Status": "Complete"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Morton",
+		"First": "Robert",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Mouton",
+		"First": "Jean",
+		"Status": "7 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Obrecht",
+		"First": "Jacob",
+		"Status": "Mostly Complete"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Okeghem",
+		"First": "Johannes",
+		"Status": "42 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Peñalosa",
+		"First": "Juan de",
+		"Status": "1 event"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Prioris",
+		"First": "Denis",
+		"Status": "Mostly Complete"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Regis",
+		"First": "Johannes",
+		"Status": "Mostly Complete"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Richafort",
+		"First": "Jean",
+		"Status": "1 event"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Senfl",
+		"First": "Ludwig",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Tinctoris",
+		"First": "Johannes",
+		"Status": "Complete"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Verdelot",
+		"First": "Philippe",
+		"Status": "Complete"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Weerbeke",
+		"First": "Gaspar",
+		"Status": "9 events",
+		"Contributor": "SMB"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Willaert",
+		"First": "Adrian",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Anchieta",
+		"First": "Juan de",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Barra",
+		"First": "Hotinet",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Basin",
+		"First": "Adrien",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Bauldeweyn",
+		"First": "Noel",
+		"Status": "Mostly Complete"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Bedyngham",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Benoit",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Brollo",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Bruhier",
+		"First": "Antoine",
+		"Status": "Complete"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Cara",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Champion",
+		"First": "Nicolas",
+		"Status": "1 event"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Clibano",
+		"First": "Jacobus de",
+		"Status": "5 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Clibano",
+		"First": "Jeronimus de",
+		"Status": "7 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Conseil",
+		"First": "Jean",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Cornago",
+		"First": "Juan",
+		"Status": "6 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Craen",
+		"First": "Nicolas",
+		"Status": "1 event"
+	},
+	{
+		"Target Type": "B",
+		"Last": "d'Amerval",
+		"First": "Eloy",
+		"Status": "5 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "d’Assisi",
+		"First": "Ruffino Bartolucci",
+		"Status": "Complete"
+	},
+	{
+		"Target Type": "B",
+		"Last": "De Domarto",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Divitis",
+		"First": "Antoine",
+		"Status": "20 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Fede",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Fontaine",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Forestier",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Fresneau",
+		"First": "Jehan",
+		"Status": "3 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Grenon",
+		"First": "Nicole",
+		"Status": "1 event"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Grossin",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Heyns",
+		"First": "Cornelius",
+		"Status": "4 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Japart",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Lantins",
+		"First": "Arnold de",
+		"Status": "2 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Le Rouge",
+		"Status": "0 events",
+		"Contributor": "SMB - Begun"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Lhéritier",
+		"First": "Jean",
+		"Status": "1 event"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Loqueville",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Le Metayer",
+		"First": "Guillaume",
+		"Status": "2 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Martini",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Misonne",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Molinet",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Moulu",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Mureau",
+		"Status": "0 events",
+		"Contributor": "SMB"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Pipelare",
+		"First": "Matthaeus",
+		"Status": "Complete"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Power",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Puyllois",
+		"First": "Johannes",
+		"Status": "1 event"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Renaldo",
+		"Status": "Mostly Complete"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Rener",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Sermisy",
+		"First": "Claudin de",
+		"Status": "1 event",
+		"Contributor": "SMB"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Silva",
+		"First": "Andreas de",
+		"Status": "Complete"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Stockem",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Stolzer",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Therache",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Tik",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Tourout",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Tromboncino",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Ugolino",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Vaqueras",
+		"First": "Bertrandus",
+		"Status": "4 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Velut",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Venedier",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Vinders",
+		"First": "Jheronimus",
+		"Status": "Complete"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Wreede/Ureede",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Ycart",
+		"First": "Bernardus",
+		"Status": "2 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "da Vinci",
+		"First": "Leonardo",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"First": "Michelangelo",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "d'Este",
+		"First": "Ippolito I",
+		"Status": "39 events, 1507–death"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Ercole",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Luther",
+		"First": "Martin",
+		"Status": "1 event"
+	},
+	{
+		"Target Type": "C",
+		"Last": "van Eyck",
+		"First": "Jan",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "van der Weyden",
+		"First": "Rogier",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Rabelais",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Ficino",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "of Rotterdam",
+		"First": "Erasmus",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Popes",
+		"Status": "--various--"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Donatello",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Brunelleschi",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Boticelli",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Bosch",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Dürer",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Raphael",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Columbus",
+		"First": "Christopher",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Alberti",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Savonarola",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Bruni",
+		"First": "Leonardo",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "della Mirandola",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Breughel (2)",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Copernicus",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "della Francesca",
+		"First": "Piero",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Petrucci",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Antico",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "Charles V",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "de Bretagne",
+		"First": "Anne",
+		"Status": "334 events"
+	}
+]

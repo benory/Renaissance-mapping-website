@@ -10,11 +10,15 @@
 ##              Type "make" in this directory to download the JSON files for the metadata.
 ##
 
+##SID for relational database1
 SID = AKfycbz8qVfP8Gx7Bf7dbQ_6bSbLm1t2clo4EGJWJOBgAQesU65HpfFBH98OPO8aQVw_oqFD
+
+##SID for mapping target list
+SID2 = AKfycbyPyBVCIbrTpDkMVMVZWRgE-c5xG1oAOGTgkmY_ee7yaIjmuiF59WuL0Sqi9LcpaiHA
 
 all: download
 
-download: Headers Events Occasions Institutions Doc_Entries Locations Bio_Composers Bio_Musicians Bio_Nonmusicians Archival_Docs Bibliography
+download: Headers Events Occasions Institutions Doc_Entries Locations Bio_Composers Bio_Musicians Bio_Nonmusicians Archival_Docs Bibliography Targets
 
 Headers:
 	curl -L "https://script.google.com/macros/s/$(SID)/exec?sheet=Headers" > Headers.json
@@ -48,3 +52,6 @@ Archival_Docs:
 
 Bibliography:
 	curl -L "https://script.google.com/macros/s/$(SID)/exec?sheet=Bibliography" > Bibliography.json
+
+Targets:
+	curl -L "https://script.google.com/macros/s/$(SID2)/exec?sheet=Targets" > Targets.json

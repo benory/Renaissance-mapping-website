@@ -204,7 +204,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Cornelius_Canis",
 		"Composer Name": "Cornelius Canis",
-		"Alias": "Cornelis de Hond, Cornelius; De Hondt, Cornelius; Hondt, Cornelius",
+		"Alias": "Cornelis de Hond, Cornelius; De Hondt, Cornelius; Hondt, Cornelius; Cams, Cornille; Corneille",
 		"Description": "composer",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/671/",
 		"RISM Link": "https://rism.online/people/30007460",
@@ -443,6 +443,16 @@
 		"Date updated": "2023-5-9"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Hylarius_Penet",
+		"Composer Name": "Hylarius Penet",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/262/",
+		"RISM Link": "https://rism.online/people/30099787",
+		"Bibliography (BIB) ID": "BIB:Frey_1955",
+		"BIB Pages": "178",
+		"Input data": "SMB",
+		"Date entered": "2025-4-30"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Jacob_Obrecht",
 		"Composer Name": "Jacob Obrecht",
 		"Alias": "Hoberti de Bergis, Jacob; Hobertus, Jacob; Hobrecht, Jacob; Hoebrecht, Jacob; Obert, Jacobus; Oberti de Bergis, Jacob; Obertus, Jacob; Obreht, Jacob; Obret, Jacob; Obreth, Jacob; Opprecht, Jacob; Oprecht, Jacob; Uberto, Jacob; Ubreto, Jacob",
@@ -517,13 +527,24 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Jacques_Champion",
 		"Composer Name": "Jacques Champion",
-		"Alias": "Champion, Jacques (II); Sieur de La Chapelle",
+		"Alias": "Champion, Jacques (II); Sieur de La Chapelle; Liegeois, Jaques; Champion, Jacobus; Champion, Jaques",
 		"Description": "maitre des enffans at Imperial chapel of Charles V",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/626/",
 		"Bibliography (BIB) ID": "BIB:Ferer_2014",
 		"BIB Pages": "194-195, 198",
 		"Input data": "AN",
 		"Date entered": "2024-10-31"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Jean_Conseil",
+		"Composer Name": "Jean Conseil",
+		"Alias": "Johannes",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/232/",
+		"RISM Link": "https://rism.online/people/30025536",
+		"Bibliography (BIB) ID": "BIB:Frey_1955",
+		"BIB Pages": "178",
+		"Input data": "SMB",
+		"Date entered": "2025-4-30"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Jean_Cousin",
@@ -637,6 +658,18 @@
 		"Internal notes": "There is a question as to whether he should be identified as Ninot Le Petit. Ninot is a diminutive of Jean/Giovanni, the most common name of the time, and because ‘le petit’ is unlikely to be a family name.",
 		"Input data": "LO",
 		"Date entered": "2023-5-24"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Johannes_Beauseron",
+		"Composer Name": "Johannes Beauseron",
+		"Alias": "Bonnevin, Benevin, Beausseron, Beausiron, Bonnovi",
+		"Description": "singer for Leo X",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/400/",
+		"RISM Link": "https://rism.online/people/50041909",
+		"Bibliography (BIB) ID": "BIB:Frey_1955",
+		"BIB Pages": "179",
+		"Input data": "SMB",
+		"Date entered": "2025-5-1"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Johannes_Boubert",
@@ -852,7 +885,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Marbrianus_de_Orto",
 		"Composer Name": "Marbrianus de Orto",
-		"Alias": "De Horto, Marbrianus de; De Orto, Marbrianus; Dujardin, Marbrianus; Dujardin, Marbrianus de; Horto, Marbrianus de; Ortho, Marbrianus de; Orto, Marbriano de; Orto, Marbrian de",
+		"Alias": "De Horto, Marbrianus de; De Orto, Marbrianus; Dujardin, Marbrianus; Dujardin, Marbrianus de; Horto, Marbrianus de; Ortho, Marbrianus de; Orto, Marbriano de; Orto, Marbrian de; de Uvto, Marberian; de Ortho, Marbrian; des Orts, Mabairen; des Orto, Mabairen; de Orto, Mabarien",
 		"Death Date": "1529",
 		"Description": "singer in the papal chapel from 1484–94; enters the chapel of Sixtus IV in December 1483; self-inscribed in the Confraternità di Santo Spirito in Sassia on 1484-06-07; had more than twelve benefices; Sherr notes that de Orto \"must have been a valued singer\"",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/301/",
@@ -936,7 +969,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Nicolas_Gombert",
 		"Composer Name": "Nicolas Gombert",
-		"Alias": "Ghonbert, Nicolas; Gumbert, Nicolas; Nicolas",
+		"Alias": "Ghonbert, Nicolas; Gumbert, Nicolas; Gobert, Nicolas; Gumbert, Nicolle; Gumbert, Nicole; Gombert, Nicolaus",
 		"Description": "composer",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/263/",
 		"RISM Link": "https://rism.online/people/30006168",
@@ -950,7 +983,7 @@
 	{
 		"Biography Composer (BCO) ID": "BCO:Nicolas_Payen",
 		"Composer Name": "Nicolas Payen",
-		"Alias": "Colin, Nicolas; Paen, Nicolas; Paien, Nicolas",
+		"Alias": "Colin, Nicolas; Paen, Nicolas; Paien, Nicolas; Payen, Colin; Payen, Nycolas; Payen, Cornelis; Payen, Nicolle",
 		"Birth Date": "~1512",
 		"Death Date": "1559",
 		"Description": "composer, maitre de la chapelle at Imperial chapel of Charles V",
