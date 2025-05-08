@@ -5395,6 +5395,24 @@
 		"Date entered": "2024-3-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Zonatis",
+		"Musician Name": "Johannes Franciscus de Zonatis",
+		"Description": "singer in Rome",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "181",
+		"Input data": "SMB",
+		"Date entered": "2025-5-2"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Felicis",
+		"Musician Name": "Johannes Franciscus Felicis",
+		"Description": "singer in Rome",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "181",
+		"Input data": "SMB",
+		"Date entered": "2025-5-2"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Gallicus",
 		"Musician Name": "Johannes Gallicus",
 		"Alias": "Johannes Gallicus professor ordinis fratrum Minorum",
@@ -5451,7 +5469,16 @@
 		"Bibliography ID (BIB)": "BIB:Nosow_2021",
 		"BIB Pages": "47",
 		"Input data": "SMB",
-		"Date entered": "2024_11_29"
+		"Date entered": "2024-11-29"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Hanguemar",
+		"Musician Name": "Johannes Hanguemar",
+		"Description": "singer in Rome",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "183",
+		"Input data": "SMB",
+		"Date entered": "2025-05-02"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Hengien",
@@ -5979,6 +6006,15 @@
 		"BIB Pages": "202",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Yllanis",
+		"Musician Name": "Johannes de Yllanis",
+		"Description": "singer in Rome",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "184",
+		"Input data": "SMB",
+		"Date entered": "2025-5-7"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Zwinemersch",

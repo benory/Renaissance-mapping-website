@@ -33,7 +33,7 @@
 		"Target Type": "A",
 		"Last": "Busnoys",
 		"First": "Antoine",
-		"Status": "124 events",
+		"Status": "125 events",
 		"Contributor": "LO"
 	},
 	{
@@ -45,7 +45,7 @@
 	{
 		"Target Type": "A",
 		"Last": "Carpentras",
-		"Status": "4 events"
+		"Status": "16 events"
 	},
 	{
 		"Target Type": "A",
@@ -57,7 +57,7 @@
 		"Target Type": "A",
 		"Last": "de Orto",
 		"First": "Marbrianus",
-		"Status": "23 events"
+		"Status": "19 events"
 	},
 	{
 		"Target Type": "A",
@@ -87,7 +87,7 @@
 		"Target Type": "A",
 		"Last": "Festa",
 		"First": "Costanzo",
-		"Status": "2 events"
+		"Status": "2 event"
 	},
 	{
 		"Target Type": "A",
@@ -123,7 +123,7 @@
 		"Target Type": "A",
 		"Last": "Gaffurius",
 		"First": "Franchinus",
-		"Status": "2 events"
+		"Status": "1 event"
 	},
 	{
 		"Target Type": "A",
@@ -147,7 +147,7 @@
 		"Target Type": "A",
 		"Last": "Gombert",
 		"First": "Nicolas",
-		"Status": "6 events"
+		"Status": "1 event"
 	},
 	{
 		"Target Type": "A",
@@ -171,7 +171,7 @@
 		"Target Type": "A",
 		"Last": "Jan",
 		"First": "Maistre",
-		"Status": "0 events"
+		"Status": "1 event"
 	},
 	{
 		"Target Type": "A",
@@ -225,7 +225,7 @@
 		"Target Type": "A",
 		"Last": "Richafort",
 		"First": "Jean",
-		"Status": "1 event"
+		"Status": "0 events"
 	},
 	{
 		"Target Type": "A",
@@ -274,7 +274,7 @@
 		"Target Type": "B",
 		"Last": "Basin",
 		"First": "Adrien",
-		"Status": "0 events"
+		"Status": "15 events"
 	},
 	{
 		"Target Type": "B",
@@ -330,7 +330,7 @@
 		"Target Type": "B",
 		"Last": "Conseil",
 		"First": "Jean",
-		"Status": "0 events"
+		"Status": "10 events"
 	},
 	{
 		"Target Type": "B",
@@ -365,7 +365,7 @@
 		"Target Type": "B",
 		"Last": "Divitis",
 		"First": "Antoine",
-		"Status": "20 events"
+		"Status": "19 events"
 	},
 	{
 		"Target Type": "B",
@@ -426,7 +426,7 @@
 		"Target Type": "B",
 		"Last": "Lhéritier",
 		"First": "Jean",
-		"Status": "1 event"
+		"Status": "6 events"
 	},
 	{
 		"Target Type": "B",

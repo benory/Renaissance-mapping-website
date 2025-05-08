@@ -2,6 +2,7 @@
 layout: page
 title: about
 permalink: /about/
+
 ---
 
 {% include_relative styles-local.html %}
