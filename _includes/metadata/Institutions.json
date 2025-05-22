@@ -271,5 +271,19 @@
 		"Institution Type": "ecclesiastical",
 		"Input data": "EZ",
 		"Date entered": "2025-3-17"
+	},
+	{
+		"Institution ID (INS)": "INS:Court_Cleves",
+		"Institution Name": "Ducal Court of Cleves",
+		"Institution Type": "political",
+		"Input data": "EZ",
+		"Date entered": "2025-5-19"
+	},
+	{
+		"Institution ID (INS)": "INS:St_Hyppolytus_Delft",
+		"Institution Name": "Church of St. Hippolytus",
+		"Institution Type": "ecclesiastical",
+		"Input data": "EZ",
+		"Date entered": "2025-5-19"
 	}
 ]

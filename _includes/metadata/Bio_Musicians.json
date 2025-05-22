@@ -6389,6 +6389,7 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Ludovicus_Forero",
 		"Musician Name": "Ludovicus Forero",
+		"Alias": "Foreyrus",
 		"Description": "singer at papal chapel",
 		"Bibliography ID (BIB)": "BIB:Sherr_1992",
 		"BIB Pages": "601",
@@ -6615,6 +6616,7 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Martinus_Prieto",
 		"Musician Name": "Martinus Prieto",
+		"Alias": "Roderici",
 		"Description": "singer at papal chapel",
 		"Bibliography ID (BIB)": "BIB:Sherr_1992",
 		"BIB Pages": "601",
@@ -6850,6 +6852,15 @@
 		"BIB Pages": "210",
 		"Input data": "BSO",
 		"Date entered": "2024-2-12"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Michael_Clementis_de_Luca",
+		"Musician Name": "Michael Clementis de Luca",
+		"Description": "Singer in Rome",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "189",
+		"Input data": "SMB",
+		"Date entered": "2025-05-08"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Michael_de_Ris",
@@ -7130,6 +7141,15 @@
 		"Date entered": "2024-11-29"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Nicolaus_de_Pictis",
+		"Musician Name": "Nicolaus de Pictis",
+		"Description": "Singer in Rome",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "190",
+		"Input data": "SMB",
+		"Date entered": "2025-5-9"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Nicolaus_Enquerran",
 		"Musician Name": "Nicolaus Enquerran",
 		"Description": "Singer in Rouen",
@@ -7137,6 +7157,15 @@
 		"BIB Pages": "35",
 		"Input data": "SMB",
 		"Date entered": "2024-10-13"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicolaus_Fochier",
+		"Musician Name": "Nicolaus Fochier",
+		"Description": "Singer in Rome",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "190",
+		"Input data": "SMB",
+		"Date entered": "2025-5-9"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Nicolaus_Grape",
@@ -7494,6 +7523,7 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Petrus_Brule",
 		"Musician Name": "Petrus Brule",
+		"Alias": "Petrus Jonauld",
 		"Description": "singer in Bruges",
 		"Bibliography ID (BIB)": "BIB:Nosow_2021",
 		"BIB Pages": "50",
@@ -8377,6 +8407,7 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Remigius_Mastaing",
 		"Musician Name": "Remigius Mastaing",
+		"Alias": "Petrus Paulus Mastang",
 		"Description": "listed by Haberl as \"Remigius massin supran\" in the choir at St. Peter's in 1476 and a singer in the choir at St. Peter's from 1496 to 1498; had been a member in the chapel of Sixtus VI; inscribes self in Confraternità di Santo Spirito in Sassia 1483-05-19; marked absent and not paid from October to December 1488; listed in the Introitus et Exitus as the man who collected chapel salaries for five months in 1495; a papal letter places him in the chapel in September 1495; listed as \"Decanus\" in October 1503; Introitus and Exitus lists him as the man who collected chapel salaries in November 1509; document showing his presence in the chapel in 1513; may be the Petrus-paulus de Remigius who was in the chapel in April 1518",
 		"Bibliography ID (BIB)": "BIB:Sherr_1975",
 		"BIB Pages": "26–42, 60",
@@ -9932,16 +9963,6 @@
 		"Musician Name": "Hubert Hautelot",
 		"Alias": "Ostelet, Hubert; Hautelot, Humbert; Hautelet, Hubert; Hauteletus, Hupertus; Hostelet, Hubert; Hotelot, Hubert",
 		"Description": "singer and clerk at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "252",
-		"Input data": "AN",
-		"Date entered": "2025-04-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Pierre_de_la_Rue",
-		"Musician Name": "Pierre de la Rue",
-		"Alias": "de la Rue, Pierchon; de Rue, Pierchon; de la Rue, Pedro",
-		"Description": "singer at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2012",
 		"BIB Pages": "252",
 		"Input data": "AN",

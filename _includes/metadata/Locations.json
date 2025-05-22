@@ -3666,5 +3666,23 @@
 		"Coordinates": "48.37071658586848, 10.89714576571213",
 		"Input data": "AN",
 		"Date entered": "2025-4-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Cleves",
+		"Name of Location": "Cleves",
+		"Modern Country": "Germany",
+		"Google URL": "https://maps.app.goo.gl/Fd9fYMmowwNLsF8b7",
+		"Coordinates": "51.78683552408424, 6.118883992900067",
+		"Input data": "ECZ",
+		"Date entered": "2025-5-19"
+	},
+	{
+		"Location ID (LOC)": "LOC:Delft",
+		"Name of Location": "Delft",
+		"Modern Country": "Netherlands",
+		"Google URL": "https://maps.app.goo.gl/52qNtZbbGJBitYZs9",
+		"Coordinates": "52.009890967989904, 4.360264522461289",
+		"Input data": "ECZ",
+		"Date entered": "2025-5-20"
 	}
 ]
