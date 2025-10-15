@@ -5807,7 +5807,7 @@
 	{
 		"Document Entry (DOE) ID": "DOE:Paris_BNF_4",
 		"Archival Document (ARD)": "ARD:Paris_BnF_fr_8255",
-		"Folios/Pages": "no.44",
+		"Folios/Pages": "no. 44",
 		"Earliest Year": "1474",
 		"Earliest Month": "8",
 		"Earliest Day": "28",
@@ -5828,7 +5828,7 @@
 	{
 		"Document Entry (DOE) ID": "DOE:Paris_BNF_5",
 		"Archival Document (ARD)": "ARD:Paris_BnF_fr_8255",
-		"Folios/Pages": "no.45",
+		"Folios/Pages": "no. 45",
 		"Earliest Year": "1474",
 		"Earliest Month": "8",
 		"Earliest Day": "30",
@@ -6578,5 +6578,26 @@
 		"Related Institutions": "INS:Chapel_Charles_the_Bold",
 		"Input data": "LO",
 		"Date entered": "2025-2-25"
+	},
+	{
+		"Document Entry (DOE) ID": "DOE:Paris_BNF_28",
+		"Archival Document (ARD)": "ARD:Paris_BnF_fr_8255",
+		"Folios/Pages": "no. 48",
+		"Earliest Year": "1474",
+		"Earliest Month": "9",
+		"Earliest Day": "10",
+		"Latest Year": "1474",
+		"Latest Month": "9",
+		"Latest Day": "10",
+		"Date Range": "10 September 1474",
+		"Description": "Places Busnoys in the chapel of Charles the Bold",
+		"Document Type": "payment register",
+		"Document Subtype": "escrow/état journalier",
+		"Bibliography ID (BIB) (if different)": "BIB:Higgins_1987",
+		"BIB Pages": "88",
+		"Related People": "BCO:Antoine_Busnoys; BNO:Charles_the_Bold",
+		"Related Institutions": "INS:Chapel_Charles_the_Bold",
+		"Input data": "LO",
+		"Date entered": "2025-5-31"
 	}
 ]

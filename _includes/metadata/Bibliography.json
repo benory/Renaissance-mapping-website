@@ -1160,5 +1160,16 @@
 		"Pages": "89-105",
 		"Input data": "SMB",
 		"Date entered": "2025-3-27"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Finscher_1964",
+		"Author": "Ludwig Finscher",
+		"Name of Article": "Loyset Compère (ca. 1450-1518), Life and Works",
+		"Name of Volume/Journal": "Musicological Studies and Documents",
+		"Volume": "12",
+		"Publisher": "American Institute of Musicology",
+		"Publication Year": "1964",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
 	}
 ]

@@ -285,5 +285,60 @@
 		"Institution Type": "ecclesiastical",
 		"Input data": "EZ",
 		"Date entered": "2025-5-19"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Galeazzo_Maria_Sforza",
+		"Institution Name": "Chapel of Galeazzo Maria Sforza",
+		"Institution Type": "political",
+		"Institution Description": "Court Chapel of Galeazzo Maria Sforza",
+		"Input data": "SC",
+		"Date entered": "2025-06-17"
+	},
+	{
+		"Institution ID (INS)": "INS:St_Pierre",
+		"Institution Name": "Collegiate Church of Saint-Pierre (Vieux Lille, Lille), Hauts-de-France",
+		"Institution Type": "ecclesiastical",
+		"Institution Description": "Saint-Pierre Collegiate Catholic Church",
+		"Input data": "SC",
+		"Date entered": "2025-06-17"
+	},
+	{
+		"Institution ID (INS)": "INS:Church_Quentin",
+		"Institution Name": "Collegiate Church of St. Quentin",
+		"Institution Type": "ecclesiastical",
+		"Institution Description": "Collegiate Church of St. Quentin",
+		"Input data": "SC",
+		"Date entered": "2025-06-17"
+	},
+	{
+		"Institution ID (INS)": "INS:Florence_Baptistery",
+		"Institution Name": "Florence Baptistery",
+		"Institution Type": "ecclesiastical",
+		"Input data": "SC",
+		"Date entered": "2025-06-17"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Charles_VIII",
+		"Institution Name": "Chapel of Charles VIII",
+		"Alias": "Chapel Royal of Charles VIII",
+		"Institution Type": "political",
+		"Input data": "SC",
+		"Date entered": "2025-06-20"
+	},
+	{
+		"Institution ID (INS)": "INS:Florence_Cathedral",
+		"Institution Name": "Florence Cathedral",
+		"Alias": "Florence Cathedral",
+		"Institution Type": "ecclesiastical",
+		"Input data": "SC",
+		"Date entered": "2025-06-20"
+	},
+	{
+		"Institution ID (INS)": "INS:Siena_Cathedral",
+		"Institution Name": "Siena Cathedral",
+		"Alias": "Siena Cathedral",
+		"Institution Type": "ecclesiastical",
+		"Input data": "SC",
+		"Date entered": "2025-06-20"
 	}
 ]

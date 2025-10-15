@@ -57,7 +57,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <div class="bio">
             <h3>Lara Oge</h3>
             <p><b>Team Member</b></p>
-            <p>Lara Oge is an undergraduate in her final semester at UC Berkeley, studying Music with minors in Digital Humanities and Medieval Studies. She is broadly interested in the sources of fifteenth- and sixteenth-century polyphony.</p>
+            <p>Lara Oge is pursuing an MPhil in Music at the University of Cambridge. She graduated from the University of California, Berkeley, in 2025 with a B.A. in Music, receiving the Department Citation and completing minors in Digital Humanities and Medieval Studies. Her research interests include polyphonic sources of the Renaissance and the musical institutions of the period.</p>
         </div>
     </div>
     <div class="team-member">
@@ -65,8 +65,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <div class="bio">
             <h3>Rupert Peacock</h3>
             <p><b>Team Member</b></p>
-            <p>Rupert Peacock sings with <a href="https://cutcircle.org/" target="_blank"> Cut Circle</a>. He began his singing career as a treble in King’s College Choir in Cambridge, UK. In 2024 he graduated from Princeton University with a BA in Music, a certificate in vocal consort performance, and as the recipient of the Isidore and Helen Sacks Memorial Prize. For his senior thesis he conducted research in the archives of Ely Cathedral; the thesis presents a previously unknown piece of sixteenth-century English choral music.
-.</p>
+            <p>Rupert Peacock sings with <a href="https://cutcircle.org/" target="_blank"> Cut Circle</a>. He began his singing career as a treble in King’s College Choir in Cambridge, UK. In 2024 he graduated from Princeton University with a BA in Music, a certificate in vocal consort performance, and as the recipient of the Isidore and Helen Sacks Memorial Prize. For his senior thesis he conducted research in the archives of Ely Cathedral; the thesis presents a previously unknown piece of sixteenth-century English choral music.</p>
         </div>
     </div>
     <div class="team-member">
@@ -74,17 +73,33 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <div class="bio">
             <h3>Audrey Nguyen</h3>
             <p><b>Team Member</b></p>
-            <p>Audrey Nguyen is a first-year undergraduate at UC Berkeley, studying English with secondary areas in Music and History. Her interests center on the interactions between musicians and their contemporaries.</p>
+            <p>Audrey Nguyen is a second-year undergraduate at UC Berkeley, studying English with secondary areas in Music and History. Her interests center on the interactions between musicians and their contemporaries.</p>
         </div>
     </div>
     <div class="team-member">
+        <img src="/images/headshots/Cho.jpg" alt="Holden Cho">
+        <div class="bio">
+            <h3>Holden Cho</h3>
+            <p><b>Team Member</b></p>
+            <p>Holden Cho is a first-year undergraduate at UC Berkeley, studying Applied Math and Data Science. He is interested in the origins of tonality.</p>
+        </div>
+    </div>
+    <div class="team-member">
+        <img src="/images/headshots/Feng.jpg" alt="Alyssa Feng">
+        <div class="bio">
+            <h3>Alyssa Feng</h3>
+            <p><b>Team Member</b></p>
+            <p>Alyssa Feng is a second-year undergraduate at UC Berkeley, studying History with a concentration in nineteenth-century US history and modern Chinese foreign policy. She is a violinist with the UC Berkeley Symphony Orchestra.</p>
+        </div>
+    </div>
+    <!--- <div class="team-member">
         <img src="/images/headshots/McIntyre.jpg" alt="Flannery McIntyre">
         <div class="bio">
             <h3>Flannery McIntyre</h3>
             <p><b>Team Member</b></p>
             <p>Flannery McIntyre is a PhD Candidate in the Department of Music and Program in Medieval Studies at the University of California, Berkeley. Prior to starting her PhD, she earned a MPhil in Medieval Archaeology from the University of Cambridge. Her dissertation, entitled “An History of Music and Intellectual Culture, 300 – 900 A.D,” explores how people understood music’s place in the contexts of religion, material culture, quadrivial sciences, politics, and literature during Late Antiquity and the Early Middle Ages.</p>
         </div>
-    </div>
+    </div> -->
 </div>
 
 ### Collaborators

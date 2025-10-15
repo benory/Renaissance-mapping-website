@@ -3684,5 +3684,64 @@
 		"Coordinates": "52.009890967989904, 4.360264522461289",
 		"Input data": "ECZ",
 		"Date entered": "2025-5-20"
+	},
+	{
+		"Location ID (LOC)": "LOC:Douai",
+		"Name of Location": "Douai",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/a2ysyHy9isVTy8Fh8",
+		"Coordinates": "50.38319600963223, 3.0846835029081308",
+		"Wikidata": "Q193826",
+		"Input data": "SC",
+		"Date entered": "2025-07-02"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint-Quentin",
+		"Name of Location": "Saint Quentin",
+		"City or Larger Place": "Aisne",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/BB2XxoJBWSd5bJQL6",
+		"Coordinates": "49.847031036355716, 3.2897987169617497",
+		"Wikidata": "Q182744",
+		"Input data": "SC",
+		"Date entered": "2025-06-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Toulouse",
+		"Name of Location": "Toulouse",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/A5mfEdp2FLFnNgTB8",
+		"Coordinates": "43.60244367719434, 1.4424555873602685",
+		"Wikidata": "Q7880",
+		"Input data": "SC",
+		"Date entered": "2025-06-20"
+	},
+	{
+		"Location ID (LOC)": "LOC:Sarzanello",
+		"Name of Location": "Sarzanello",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/pzFwet15tSbQdYTn6",
+		"Coordinates": "44.10048495552095, 9.977406629662417",
+		"Wikidata": "Q3748735",
+		"Input data": "SC",
+		"Date entered": "2025-06-20"
+	},
+	{
+		"Location ID (LOC)": "LOC:Hungary",
+		"Name of Location": "Hungary",
+		"Modern Country": "Hungary",
+		"Google URL": "https://maps.app.goo.gl/yyAojWsfXtY7kmvz8",
+		"Coordinates": "46.95908173237909, 19.604114155705616",
+		"Input data": "SC",
+		"Date entered": "2025-06-20"
+	},
+	{
+		"Location ID (LOC)": "LOC:Rubiera",
+		"Name of Location": "Rubiera",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/V75xVV3MEbUmszPo6",
+		"Coordinates": "44.65452120027857, 10.781020037590762",
+		"Input data": "LO",
+		"Date entered": "2025-10-10"
 	}
 ]

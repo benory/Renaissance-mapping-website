@@ -21,7 +21,7 @@
 		"Target Type": "A",
 		"Last": "Binchois",
 		"First": "Gilles",
-		"Status": "1 events"
+		"Status": "1 event"
 	},
 	{
 		"Target Type": "A",
@@ -33,7 +33,7 @@
 		"Target Type": "A",
 		"Last": "Busnoys",
 		"First": "Antoine",
-		"Status": "125 events",
+		"Status": "Complete",
 		"Contributor": "LO"
 	},
 	{
@@ -727,5 +727,10 @@
 		"Last": "de Bretagne",
 		"First": "Anne",
 		"Status": "334 events"
+	},
+	{
+		"Target Type": "C",
+		"Last": "of Burgundy",
+		"First": "Philip the good"
 	}
 ]
