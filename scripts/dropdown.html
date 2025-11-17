@@ -53,6 +53,9 @@ function addSelectedPerson(personID, personprocessed) {
 
         activeContainer.appendChild(selectedItem);
 
+        recolorActivePersons();
+        applyHighlightColorsToMarkers();
+
         filterAndSearchMarkers(); // Reapply filters after adding
     }
 }
@@ -174,6 +177,9 @@ function removeSelectedPerson(personID, personprocessed, dropdownId) {
 
     selectedNames.delete(personprocessed);
 
+    recolorActivePersons();
+    applyHighlightColorsToMarkers();
+
     filterAndSearchMarkers(); // Reapply filters after re-adding
 }
 
@@ -185,6 +191,104 @@ function getActiveNamesFromContainer(containerId) {
         // Remove the "×" button text, leaving only the name
         return item.textContent.replace('×', '').trim();
     });
+}
+
+function recolorActivePersons() {
+    const allSelected = Array.from(selectedNames);
+    const colorMap = new Map();
+
+    // Assign distinct colors
+    allSelected.forEach((name, index) => {
+        const color = getColorForIndex(index);
+        colorMap.set(name, color);
+    });
+
+    // Apply to DOM pills
+    const containers = [
+        'composer-active',
+        'musician-active',
+        'non-musician-active'
+    ];
+
+    containers.forEach(cid => {
+        const container = document.getElementById(cid);
+        if (!container) return;
+
+        [...container.querySelectorAll('.selected-person-item')].forEach(item => {
+            const rawName = item.textContent.replace('×', '').trim();
+            if (colorMap.has(rawName)) {
+                const c = colorMap.get(rawName);
+
+                // Higher contrast pill background
+                item.style.backgroundColor = c + "33"; // ~20% opacity
+
+                // Text color high contrast
+                item.style.color = c;
+                item.style.border = `2px solid ${c}`;
+                item.style.borderRadius = "6px";
+                item.style.fontWeight = "600";
+            }
+        });
+    });
+}
+
+function applyHighlightColorsToMarkers() {
+    const allSelected = Array.from(selectedNames);
+    const colorMap = new Map();
+
+    // Assign distinct highlight colors — same logic as pills
+    allSelected.forEach((name, index) => {
+        const color = getColorForIndex(index);
+        colorMap.set(name, color);
+    });
+
+    // Apply color to markers
+    markers.forEach(entry => {
+        const { marker, personprocessed } = entry;
+
+        if (colorMap.has(personprocessed)) {
+            const c = colorMap.get(personprocessed);
+
+            // Update marker color
+            marker.setStyle({
+                fillColor: c,
+                color: c,       // optional: border
+                fillOpacity: 0.9
+            });
+        }
+    });
+}
+
+function getColorForIndex(index) {
+    // If within fixed palette → return it
+    if (index < highlightPalette.length) {
+        return highlightPalette[index];
+    }
+
+    // Beyond palette → generate evenly spaced hues for uniqueness
+    const extraIndex = index - highlightPalette.length;
+
+    // Golden angle for nice spacing (~137.508°)
+    const goldenAngle = 137.508;
+
+    // Compute hue in degrees
+    const hue = (extraIndex * goldenAngle) % 360;
+
+    // Generate HSL color (converted to hex below)
+    return hslToHex(hue, 70, 55); 
+}
+
+function hslToHex(h, s, l) {
+    s /= 100; 
+    l /= 100;
+
+    const a = s * Math.min(l, 1 - l);
+    const f = n => {
+        const k = (n + h / 30) % 12;
+        const color = l - a * Math.max(Math.min(k - 3, 9 - k, 1), -1);
+        return Math.round(255 * color).toString(16).padStart(2, "0");
+    };
+    return `#${f(0)}${f(8)}${f(4)}`;
 }
 
 </script>
