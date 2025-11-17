@@ -970,5 +970,16 @@
 		"Internal notes": "update aliases",
 		"Input data": "AN",
 		"Date entered": "2025-10-03"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Leonardo_da_Vinci",
+		"Person Name": "Leonardo da Vinci",
+		"Birth Date": "1452-04-15",
+		"Death Date": "1519-05-02",
+		"Noted Positions": "artist and musician originally from Florence",
+		"Description": "BIB:Isaacson_2017",
+		"Bibliography ID (BIB)": "BIB:Isaacson_2017",
+		"Input data": "HC",
+		"Date entered": "2025-10-14"
 	}
 ]

@@ -8,6 +8,15 @@ layout: page
 {% include_relative styles-local.html %}
 {% include_relative scripts-local.html %}
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9SL07ZJ25"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E9SL07ZJ25');
+</script>
+
 <div class="search-bar">
     <div style="position: relative; display: inline-block; width: 67%;">
   <input type="text" id="input" onkeyup="filterAndSearchMarkers(); showAutocompleteSuggestions()" placeholder="Enter person, place, year, or event">

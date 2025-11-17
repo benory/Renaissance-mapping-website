@@ -5,6 +5,15 @@ permalink: /about/
 
 ---
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9SL07ZJ25"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E9SL07ZJ25');
+</script>
+
 {% include_relative styles-local.html %}
 
 The Renaissance lies scattered before us. For more than 200 years, scholars in disciplines ranging from art history and literature to political history, geography, and music have collected and catalogued vast amounts of information&mdash;but many of the most crucial documents are buried in undigitized publications not easily accessible to specialists in one field, let alone to their colleagues in another.

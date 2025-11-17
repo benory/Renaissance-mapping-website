@@ -3743,5 +3743,15 @@
 		"Coordinates": "44.65452120027857, 10.781020037590762",
 		"Input data": "LO",
 		"Date entered": "2025-10-10"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bergen_op_Zoom-Onze-Lieve-Vrouw",
+		"Name of Location": "Onze-Lieve-Vrouw-van-Lourdeskerk",
+		"City or Larger Place": "Bergen op Zoom",
+		"Modern Country": "Netherlands",
+		"Google URL": "https://maps.app.goo.gl/HRKSYzPTozDdKzDc9",
+		"Coordinates": "51.486760668889296, 4.288038778069824",
+		"Input data": "LO",
+		"Date entered": "2025-10-27"
 	}
 ]

@@ -1171,5 +1171,29 @@
 		"Publication Year": "1964",
 		"Input data": "SC",
 		"Date entered": "2025-06-19"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Isaacson_2017",
+		"Author": "Walter Isaacson",
+		"Name of Volume/Journal": "Leonardo da Vinci",
+		"Location": "New York",
+		"Publisher": "Simon & Schuster",
+		"Publication Year": "2017",
+		"Pages": "293-512",
+		"Input data": "HC",
+		"Date entered": "2025-10-14"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Wegman_1989",
+		"Author": "Rob C. Wegman",
+		"Name of Article": "Music and Musicians at the Guild of Our Lady in Bergen op Zoom, c. 1470–1510",
+		"Name of Volume/Journal": "Early Music History",
+		"Volume": "9",
+		"Location": "Cambridge",
+		"Publisher": "Cambridge University Press",
+		"Publication Year": "1989",
+		"Pages": "175–249",
+		"Input data": "LO",
+		"Date entered": "2025-10-27"
 	}
 ]
