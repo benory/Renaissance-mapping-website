@@ -240,7 +240,7 @@ function doMapSetup(opts) {
         zoomToBoundsOnClick: false, // Prevents zooming in when clicking a cluster
         iconCreateFunction: function(cluster) {
             let markers = cluster.getAllChildMarkers();
-            let clusterColor = getClusterColor(markers);
+            let clusterColor = getClusterColor(markers);            
             const checkboxStates = getCheckboxStates();
 
             let visibleMarkers = markers.filter(m => {
@@ -886,17 +886,26 @@ function loadMarkerFromURL() {
 const clusterCache = new Map();
 
 function getClusterColor(markers) {
-    let clusterKey = markers.map(m => m.options.fillColor).sort().join(",");
+    // cluster should always use the most common highlight color inside it
+    const colorCounts = new Map();
 
-    if (clusterCache.has(clusterKey)) return clusterCache.get(clusterKey);
+    markers.forEach(m => {
+        const c = m.options.fillColor;
+        colorCounts.set(c, (colorCounts.get(c) || 0) + 1);
+    });
 
-    let clusterColor = "#0c8aff";
-    if (markers.some(m => m.options.fillColor === "#440154")) clusterColor = "#440154";
-    else if (markers.some(m => m.options.fillColor === "#23ed5c")) clusterColor = "#23ed5c";
-    else if (markers.some(m => m.options.fillColor === "#fde725")) clusterColor = "#fde725";
+    // Pick the dominant color
+    let dominantColor = "#0c8aff"; // fallback
+    let max = 0;
 
-    clusterCache.set(clusterKey, clusterColor);
-    return clusterColor;
+    for (const [color, count] of colorCounts.entries()) {
+        if (count > max) {
+            dominantColor = color;
+            max = count;
+        }
+    }
+
+    return dominantColor;
 }
 
 function updateInstitutionList() {

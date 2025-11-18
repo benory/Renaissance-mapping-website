@@ -17,52 +17,66 @@ layout: page
   gtag('config', 'G-E9SL07ZJ25');
 </script>
 
-<div class="search-bar">
-    <div style="position: relative; display: inline-block; width: 67%;">
-  <input type="text" id="input" onkeyup="filterAndSearchMarkers(); showAutocompleteSuggestions()" placeholder="Enter person, place, year, or event">
-      <div id="autocomplete-results" class="autocomplete-results"></div>
+<div class="top-grid">
+    <!-- Column 1: search + certainty -->
+    <div class="left-column">
+        <div class="search-row">
+            <div class="search-wrapper">
+                <input type="text" id="input"
+                       onkeyup="filterAndSearchMarkers(); showAutocompleteSuggestions()"
+                       placeholder="Enter person, place, year, or event">
+                <div id="autocomplete-results" class="autocomplete-results"></div>
+            </div>
+            <!-- Column 2: search count -->
+            <span id="search-count" class="search-count"></span>
+        </div>
+        <div class="ci-row">
+            <div>
+                <input type="checkbox" id="certainty-select">
+                <label for="certainty-select">View only certain and probable events</label>
+            </div>
+            <div class="custom-dropdown" id="institution-dropdown">
+                <button id="institution-button" class="with-arrow">View Institutions</button>
+                    <div class="custom-dropdown" >    
+                    </div>
+            </div>
+        </div>
     </div>
-<span id="search-count"></span>
-<div class="checkbox-container">
-    <div class="checkbox-item">
-        <input type="checkbox" id="composer-select" name="composer-select" value="composer-select">
-        <label for="composer-select">
-            <span class="color-sample" style="background-color: #440154;"></span>
-            View composers
-        </label>
-    </div>
-    <div class="checkbox-item">
-        <input type="checkbox" id="musician-select" name="musician-select" value="musician-select">
-        <label for="musician-select">
-            <span class="color-sample" style="background-color: #23ed5c;"></span>
-            View musicians
-        </label>
-    </div>
-    <div class="checkbox-item">
-        <input type="checkbox" id="non-musician-select" name="non-musician-select" value="non-musician-select">
-        <label for="non-musician-select">
-            <span class="color-sample" style="background-color: #fde725;"></span>
-            View non-musicians
-        </label>
+    <!-- Column 3: EMPTY — grid handles it -->
+    <div></div>
+    <!-- Column 4: right aligned checkboxes -->
+    <div class="right-column">
+        <div class="checkbox-container">
+            <div class="checkbox-item">
+                <input type="checkbox" id="composer-select">
+                <label for="composer-select">
+                    <span class="color-sample" style="background-color: #440154;"></span>
+                    View composers
+                </label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="musician-select">
+                <label for="musician-select">
+                    <span class="color-sample" style="background-color: #23ed5c;"></span>
+                    View musicians
+                </label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="non-musician-select">
+                <label for="non-musician-select">
+                    <span class="color-sample" style="background-color: #fde725;"></span>
+                    View non-musicians
+                </label>
+            </div>
+        </div>
     </div>
 </div>
-</div>
+
 <div class="selected-names-bar">
     <div id="composer-active" class="active-names"></div>
     <div id="musician-active" class="active-names"></div>
     <div id="non-musician-active" class="active-names"></div>
 </div>
-<div class="checkbox-item checkbox-with-button">
-    <div>
-        <input type="checkbox" id="certainty-select" name="certainty-select" value="certainty-select">
-        <label for="certainty-select">View only certain and probable events</label>
-    </div>
-    <div class="custom-dropdown" id="institution-dropdown">
-      <button id="institution-button" class="with-arrow">View Institutions</button>
-    </div>
-</div>
-
-<div class="small-space"></div>
 
 <div class="container">
     <div class="row">

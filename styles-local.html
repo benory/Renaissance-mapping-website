@@ -4,7 +4,58 @@ main.page-content {
     padding: 0px;}
 
 .wrapper {
-    min-width: 1000px;
+    min-width: 80%;
+}
+
+.top-grid {
+    display: grid;
+    grid-template-columns: 1.6fr 1.25fr 0.5fr;
+    align-items: start;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.right-column {
+    max-width: 240px; /* tweak as needed */
+}
+
+/* Left side has two rows stacked */
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.search-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Search bar container grows */
+.search-wrapper {
+    flex: 1;
+    position: relative;
+}
+
+/* Search input fills the wrapper */
+.search-wrapper input[type="text"] {
+    width: 100%;
+}
+
+/* Certainty + institutions row */
+.ci-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+/* Right column = stacked checkboxes */
+.right-column .checkbox-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .container {
@@ -25,19 +76,19 @@ main.page-content {
     flex: 1;
     display: flex;
     flex-direction: column; /* Stack items vertically */
-    width: 75%; /* Adjust the width to balance with the sidebar */
+    width: 80%; /* Adjust the width to balance with the sidebar */
     margin-right: 10px; /* Add some space between the map and sidebar */
 }
 
 #map {
-    flex: 3; /* Map takes up 75% of the row */
-    height: 450px;
+    flex: 4; /* Map takes up 75% of the row */
+    height: 525px;
     border: 1px solid #ccc;
 }
 
 #sidebar {
     flex: 1; /* Sidebar takes up 25% of the row */
-    height: 450px; /* Same height as the map */
+    height: 525px; /* Same height as the map */
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
     background-color: #f9f9f9;
     overflow-y: auto; /* Allow scrolling if content exceeds height */
@@ -45,18 +96,18 @@ main.page-content {
 
 .histogram-container {
     width: 100%; /* Span the full width below the row */
-    margin-top: 20px; /* Add some spacing */
+    margin-top: 10px; /* Add some spacing */
 }
 
-.search-bar input[type="text"] {
-    flex-grow: 1; /* Allow input to take available space */
-    padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 1px solid #ddd; /* Add a grey border */
-    font-size: 16px; /* Increase font-size */
-    background-image: url('../images/searchicon.png'); /* Add a search icon to input */
-    background-position: 10px 12px; /* Position the search icon */
-    background-repeat: no-repeat; /* Do not repeat the icon image */
-    box-sizing: border-box; /* Ensure padding and border are included in width and height calculations */
+.top-grid input[type="text"] {
+    padding: 10px 12px 10px 32px !important;
+    height: 38px !important;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    background-image: url('../images/searchicon.png');
+    background-position: 7px 10px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
     width: 100%;
 }
 
@@ -66,16 +117,20 @@ main.page-content {
     table-layout: fixed; /* Ensure that each <td> is equally wide */
 }
 
-#search-count {
-	font-size: 16px; /* Increase font-size */
-	margin-left: 10px;
-	padding: 12px; /* Add some padding */
-	width: 100%; /* Full-width */
+.search-count {
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.search-row > div {
+    flex: 1;   /* search bar grows */
 }
 
 .search-bar {
     display: flex;
-    align-items: center;
+    align-items: top;
     gap: 10px; /* Adjust the spacing between elements as needed */
 }
 
@@ -97,7 +152,7 @@ main.page-content {
 }
 
 .small-space {
-    height: 20px; /* Adjust the height as needed */
+    height: 5px; /* Adjust the height as needed */
 }
 
 .slider-container {

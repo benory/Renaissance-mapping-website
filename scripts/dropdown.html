@@ -249,10 +249,14 @@ function applyHighlightColorsToMarkers() {
         if (colorMap.has(personprocessed)) {
             const c = colorMap.get(personprocessed);
 
-            // Update marker color
+            // Update the underlying options
+            marker.options.fillColor = c;
+            marker.options.color = c;
+
+            // Update marker appearance
             marker.setStyle({
                 fillColor: c,
-                color: c,       // optional: border
+                color: c,
                 fillOpacity: 0.9
             });
         }
