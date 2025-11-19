@@ -1,5 +1,9 @@
 <style>
 
+html, body {
+    height: 100%;
+}
+
 .wrapper {
     min-width: 80%;
 }
@@ -57,38 +61,36 @@
 
 .container {
     display: flex;
-    flex-direction: column; /* Arrange rows vertically */
+    flex-direction: column;
     width: 100%;
-    height: auto; /* Allow height to adjust based on content */
+    height: calc(100vh - 240px); /* subtract header/footer height */
 }
 
 .row {
     display: flex;
-    flex-direction: row; /* Arrange map and sidebar horizontally */
+    flex-direction: row;
     width: 100%;
-    height: auto; /* Adjust height to fit the content */
+    flex: 1;         /* row fills available height */
+    min-height: 0;   /* allows children (map/sidebar) to flex properly */
 }
 
 #map-container {
     flex: 1;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    width: 80%; /* Adjust the width to balance with the sidebar */
-    margin-right: 10px; /* Add some space between the map and sidebar */
+    flex-direction: column;
+    margin-right: 10px;
+    min-height: 0; /* needed for flex item scrolling */
 }
 
 #map {
-    flex: 4; /* Map takes up 75% of the row */
-    height: 525px;
-    border: 1px solid #ccc;
+    flex: 1;
+    height: 100%;  /* fill the container */
 }
 
 #sidebar {
-    flex: 1; /* Sidebar takes up 25% of the row */
-    height: 525px; /* Same height as the map */
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
-    overflow-y: auto; /* Allow scrolling if content exceeds height */
+    flex: 0 0 300px;    /* or any width you want */
+    height: 100%;       /* match map height */
+    overflow-y: auto;
 }
 
 .histogram-container {
