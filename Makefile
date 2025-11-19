@@ -13,7 +13,8 @@
 ##              metadata into the _includes/metadata directory.
 ##
 
-all: download
+all:
+	(cd _includes/metadata && make all)
 
 download:
 	(cd _includes/metadata && make download)

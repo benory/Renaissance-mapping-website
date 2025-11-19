@@ -1,0 +1,26 @@
+<script>
+
+let MAP = {};
+
+MAP.METADATA = {};
+MAP.METADATA.Archival_Docs = {% include metadata/Archival_Docs.json %};
+MAP.METADATA.Bibliography = {% include metadata/Bibliography.json %};
+MAP.METADATA.Bio_Composers = {% include metadata/Bio_Composers.json %};
+MAP.METADATA.Bio_Musicians = {% include metadata/Bio_Musicians.json %};
+MAP.METADATA.Bio_Nonmusicians = {% include metadata/Bio_Nonmusicians.json %};
+MAP.METADATA.Doc_Entries = {% include metadata/Doc_Entries.json %};
+MAP.METADATA.Events = {% include metadata/Events.json %};
+MAP.METADATA.Headers = {% include metadata/Headers.json %};
+MAP.METADATA.Institutions = {% include metadata/Institutions.json %};
+MAP.METADATA.Locations = {% include metadata/Locations.json %};
+MAP.METADATA.Occasions = {% include metadata/Occasions.json %};
+MAP.METADATA.Targets = {% include metadata/Targets.json %}
+
+// Trigger filling in metadata for documentation
+
+document.addEventListener("DOMContentLoaded", () => {
+    fillInMetadataCensus();
+    populateTargetLists();
+});
+
+</script>

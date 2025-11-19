@@ -3,20 +3,19 @@
 ## Syntax:        GNU Makefile
 ## Filename:      _includes/metadata/Makefile
 ##
-## Description: Download metadata for the Mapping the Musical Renaissance from the Google Spreadsheet
-##              for the project's metadata.  You need to update the SID variable below
-##              when the deployment of the Google Apps Script has changed.
-##
-##              Type "make" in this directory to download the JSON files for the metadata.
-##
 
-##SID for relational database1
+## SID for relational database
 SID = AKfycbz8qVfP8Gx7Bf7dbQ_6bSbLm1t2clo4EGJWJOBgAQesU65HpfFBH98OPO8aQVw_oqFD
 
-##SID for mapping target list
+## SID for mapping target list
 SID2 = AKfycbyPyBVCIbrTpDkMVMVZWRgE-c5xG1oAOGTgkmY_ee7yaIjmuiF59WuL0Sqi9LcpaiHA
 
-all: download
+DATE := $(shell date +%Y-%m-%d)
+
+# Output directory for versioned/latest ZIP files
+OUTDIR = ../../assets/metadata
+
+all: download zip latest
 
 download: Headers Events Occasions Institutions Doc_Entries Locations Bio_Composers Bio_Musicians Bio_Nonmusicians Archival_Docs Bibliography Targets
 
@@ -55,3 +54,15 @@ Bibliography:
 
 Targets:
 	curl -L "https://script.google.com/macros/s/$(SID2)/exec?sheet=Targets" > Targets.json
+
+
+# Remove old ZIPs from the output directory
+clean_zips:
+	rm -f $(OUTDIR)/metadata_*.zip $(OUTDIR)/metadata_latest.zip
+
+zip: clean_zips
+	mkdir -p $(OUTDIR)
+	zip -r $(OUTDIR)/metadata_$(DATE).zip *.json
+
+latest:
+	cp $(OUTDIR)/metadata_$(DATE).zip $(OUTDIR)/metadata_latest.zip

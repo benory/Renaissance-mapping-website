@@ -250,4 +250,33 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const params = new URLSearchParams(window.location.search);
+    const target = params.get("select");
+
+    if (target) {
+        const input = document.getElementById("input");
+        if (input) {
+            input.value = target;
+        }
+
+        // Trigger your normal search logic
+        filterAndSearchMarkers();
+
+        // Trigger your "select person" behavior
+        if (typeof selectPersonByName === "function") {
+            selectPersonByName(target);
+        } else if (typeof addSelectedName === "function") {
+            addSelectedName(target);
+        }
+
+        // Ensure the pills update
+        setTimeout(() => {
+            if (typeof updateActiveNamesDisplay === "function") {
+                updateActiveNamesDisplay();
+            }
+        }, 50);
+    }
+});
+
 </script>

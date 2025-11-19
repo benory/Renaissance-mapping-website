@@ -56,6 +56,15 @@
 		"Date entered": "2024-11-05"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Adrien_le_Latteur",
+		"Musician Name": "Adrien le Latteur",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "45",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Agnolo_chierego_de_Messer_Ugolino",
 		"Musician Name": "Agnolo chierego de Messer Ugolino",
 		"Description": "singer at Ferrarese court",
@@ -239,6 +248,24 @@
 		"BIB Pages": "155",
 		"Input data": "LO",
 		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Alonso_Ximenes",
+		"Musician Name": "Alonso Ximenes",
+		"Description": "chaplain at chapel of Juana I",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "35",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Alonze_le_Gysternier",
+		"Musician Name": "Alonze le Gysternier",
+		"Description": "guitarist at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "34",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Aluisio_cantore",
@@ -478,6 +505,26 @@
 		"Date entered": "2024-10-28"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Anthoine_du_Pont",
+		"Musician Name": "Anthoine du Pont",
+		"Alias": "du Pont, Antonio; Dupont, Anthoine; du Pont; Anthonin; de Ponte, Antonius",
+		"Description": "chaplain at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "259",
+		"Input data": "AN",
+		"Date entered": "2025-04-26"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Anthoine_Francois",
+		"Musician Name": "Anthoine François",
+		"Alias": "François, Hennequin; François, Anthonin; François, Anthonin; Franchois, Anthoine; Francisco, Antonio; Françoys, Anthonin; François, Anthoine",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "251",
+		"Input data": "AN",
+		"Date entered": "2025-04-26"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Anthoine_Lheritier",
 		"Musician Name": "Anthoine Lhéritier",
 		"Alias": "Leritier, Anthoine; l’Héritier, Anthoine; Lheritier, Antonius",
@@ -597,6 +644,15 @@
 		"Date entered": "2023-3-9"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Antonio_di_Guido",
+		"Musician Name": "Antonio di Guido",
+		"Description": "improvisational singer",
+		"Bibliography ID (BIB)": "BIB:Wilson_2006",
+		"BIB Pages": "125",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Antonio_di_Pescia",
 		"Musician Name": "Antonio di Pescia",
 		"Description": "bassus at Florence",
@@ -622,6 +678,15 @@
 		"BIB Pages": "361",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Antonio_Squarcialupi",
+		"Musician Name": "Antonio Squarcialupi",
+		"Description": "virtuoso organist",
+		"Bibliography ID (BIB)": "BIB:Wilson_2006",
+		"BIB Pages": "125",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Antonio_trombeta",
@@ -748,12 +813,31 @@
 		"Date entered": "2024-3-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Arnolfo",
+		"Musician Name": "Arnolfo",
+		"Description": "Singer at florentine Chapel",
+		"Bibliography ID (BIB)": "BIB:Wilson_2006",
+		"BIB Pages": "123",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Arnulphe_Boutin",
 		"Musician Name": "Arnulphe Boutin",
 		"Bibliography ID (BIB)": "BIB:Sherr_1988",
 		"BIB Pages": "64–65",
 		"Input data": "BSO",
 		"Date entered": "2024-4-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Augustin_de_Lascarpier",
+		"Musician Name": "Augustin de Lascarpier",
+		"Alias": "de la Carperie, Augustin; de Carperie, Augustin",
+		"Description": "trumpeter at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "33",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Augustin_Michiel",
@@ -784,15 +868,6 @@
 		"Date entered": "2023-3-28"
 	},
 	{
-		"Biography Musician (BMU) ID": "BMU:Augustino_trombone_II",
-		"Musician Name": "Augustino trombone",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "349-50",
-		"Input data": "RP",
-		"Date entered": "2024-10-25"
-	},
-	{
 		"Biography Musician (BMU) ID": "BMU:Augustino_trombone",
 		"Musician Name": "Augustino trombone",
 		"Alias": "Augustino trombeta",
@@ -803,6 +878,15 @@
 		"Date entered": "2023-3-9",
 		"Update data": "RP",
 		"Date updated": "2025-3-25"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Augustino_trombone_II",
+		"Musician Name": "Augustino trombone",
+		"Description": "musician at Ferrarese court",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "349-50",
+		"Input data": "RP",
+		"Date entered": "2024-10-25"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Augustinus_de_Calewe",
@@ -1108,6 +1192,16 @@
 		"BIB Pages": "115; 121",
 		"Input data": "LO",
 		"Date entered": "2024-3-15"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernard_Broumard",
+		"Musician Name": "Bernard Broumard",
+		"Alias": "Bronart, Bertrand; Broumard, Bertrand; Brouart, Bertrand",
+		"Description": "instrumentalist at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "34",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Bernard_Buc",
@@ -1526,6 +1620,26 @@
 		"Date entered": "2023-3-28"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Christophe_d_Aire",
+		"Musician Name": "Christophe d’Aire",
+		"Alias": "d’Aires, Phelippe; d’Aires, Philippe",
+		"Description": "trumpeter at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "33",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Christophe_d_Austrice",
+		"Musician Name": "Christophe d’Austrice",
+		"Alias": "d’Autriche, Christophe; d’Austrice, Christoffle; d'Autrice, Christoffle; d’Autris, Cristoffle; d'Austrice, Cristoffle",
+		"Description": "trumpeter at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "33",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Cipriano_di_Lancilotto",
 		"Musician Name": "Cipriano di Lancilotto",
 		"Description": "singer in Florence, tenor",
@@ -1803,6 +1917,16 @@
 		"Date entered": "2024-8-6"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Cornille_de_Zeellande",
+		"Musician Name": "Cornille de Zeellande",
+		"Alias": "de Zélande, Cornille; de Zellande, Cornille",
+		"Description": "trumpeter at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "33",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Corrado_dAlemagna",
 		"Musician Name": "Corrado d'Alemagna piffaro",
 		"Description": "musician at Ferrarese Court",
@@ -1837,6 +1961,24 @@
 		"BIB Pages": "31",
 		"Input data": "SMB",
 		"Date entered": "2024-11-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Damien_de_Florbeke",
+		"Musician Name": "Damien de Florbeke",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "45",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Damien_Presteau",
+		"Musician Name": "Damien Presteau",
+		"Description": "singer at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "45",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Dammaert_de_Forcten",
@@ -2567,6 +2709,15 @@
 		"Date entered": "2024-9-20"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Francois_de_Henbergher",
+		"Musician Name": "François de Henbergher",
+		"Description": "instrumentalist at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Francois_Gousserat",
 		"Musician Name": "Francois Gousserat",
 		"Description": "singer at Council of Constance",
@@ -2594,6 +2745,16 @@
 		"Date entered": "2024-11-05"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Fransquin_de_Retis",
+		"Musician Name": "Fransquin de Rétis",
+		"Alias": "de Rétyts, Fransquin; de Retyz, Fransquin; de Retis, Fransquin; de Réte, Fransquin; Rétis, François; de Réthys, Franchois; de Rétys, Franskin; de Retys, Fransquin; de Ritis, Franquino; de Ritis, Fransquin",
+		"Description": "singer at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "259",
+		"Input data": "AN",
+		"Date entered": "2025-04-26"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Frate_Andrea_dellaOrdine_de_San_Francesco",
 		"Musician Name": "Frate Andrea della'Ordine de San Francesco",
 		"Description": "singer at Ferrarese court",
@@ -2601,6 +2762,15 @@
 		"BIB Pages": "349",
 		"Input data": "RP",
 		"Date entered": "2024-10-31"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Frederic_Heydorf",
+		"Musician Name": "Frédéric Heydorf",
+		"Description": "instrumentalist at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Gallici",
@@ -2683,6 +2853,25 @@
 		"BIB Pages": "354",
 		"Input data": "RP",
 		"Date entered": "2024-9-20"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:George_Nepotis",
+		"Musician Name": "George Nepotis",
+		"Alias": "Nepos, Georgius",
+		"Description": "choirboy, clerk, and chaplain at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "257",
+		"Input data": "AN",
+		"Date entered": "2025-04-26"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Georges_Habz",
+		"Musician Name": "Georges Habz",
+		"Description": "instrumentalist at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Georges_Reverdi",
@@ -2878,6 +3067,27 @@
 		"Date entered": "2024-7-15"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Gillequin_du_Sablon",
+		"Musician Name": "Gillequin du Sablon",
+		"Alias": "du Sablon, Guillequin; de Sablon, Gillequin",
+		"Description": "musician at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "32",
+		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gilles_Brugeman",
+		"Musician Name": "Gilles Brugeman",
+		"Alias": "Giliquin; Brugman, Guillequin",
+		"Description": "organist at chapel of Juana I",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "35",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Gilles_Crepin",
 		"Musician Name": "Gilles Crepin",
 		"Description": "singer",
@@ -2897,6 +3107,16 @@
 		"Date entered": "2024-11-05"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Gilles_du_Pont",
+		"Musician Name": "Gilles du Pont",
+		"Alias": "Dupont, Gilles",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "45",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Gilles_Flannel",
 		"Musician Name": "Gilles Flannel",
 		"Alias": "Lenfant",
@@ -2905,6 +3125,37 @@
 		"BIB Pages": "93",
 		"Input data": "SMB",
 		"Date entered": "2024-8-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gilles_le_Seneschal",
+		"Musician Name": "Gilles le Seneschal",
+		"Alias": "le Scéneschal, Gilles",
+		"Description": "musician at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "32",
+		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gilles_Moreau",
+		"Musician Name": "Gilles Moreau",
+		"Alias": "Moreau, Gillet; Moureau, Gilles; Moreau, Guilet; Moreau, Gille",
+		"Description": "altarboy and singer at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "54",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gilles_Reyngot",
+		"Musician Name": "Gilles Reyngot",
+		"Alias": "de Bailleul, Gillequin; de Bailleul, Gillecquin; Reyngoot, Gilles; Reyngoot, Giliquin; Reyngoot, Guillequin; Reyngoot, Gillequin; Reynot, Gilles; Reynot, Giliquin; Reynot, Guillequin; Reynot, Gillequin; Reynote, Gilles; Reynote, Giliquin; Reynote, Guillequin; Reynote, Gillequin; de Bailleul, Gilles; de Bailleul, Giliquin; de Bailleul, Guillequin; de Bailleul, Gillequin; Reyngotz, Gillis; Reingotz, Gilles; Reingots, Gilles",
+		"Description": "singer at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "260",
+		"Input data": "AN",
+		"Date entered": "2025-04-26"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Gillis",
@@ -3544,6 +3795,17 @@
 		"Date entered": "2024-7-16"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Guillaume_Anglois",
+		"Musician Name": "Guillaume Anglois",
+		"Alias": "Lengles, Guillame; Langlez, Guillame; Lenglez, Guillaume; Langlez, Guillaume",
+		"Description": "musician at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "32",
+		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Guillaume_Bouchier",
 		"Musician Name": "Guillaume Bouchier",
 		"Description": "provost and canon",
@@ -3569,6 +3831,24 @@
 		"BIB Pages": "66",
 		"Input data": "BSO",
 		"Date entered": "2024-4-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guillaume_Damiers",
+		"Musician Name": "Guillaume Damiers",
+		"Description": "singer at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "47",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guillaume_de_Vandenesse",
+		"Musician Name": "Guillaume de Vandenesse",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Guillaume_Gigard",
@@ -3604,6 +3884,16 @@
 		"BIB Pages": "243",
 		"Input data": "SMB",
 		"Date entered": "2024-9-8"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guillaume_Turoul",
+		"Musician Name": "Guillaume Turoul",
+		"Alias": "Arroul, Guillaume",
+		"Description": "instrumentalist at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "34",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Guillelmus_Gomont",
@@ -3709,6 +3999,25 @@
 		"Date entered": "2024-10-31"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Hans_Keyser_Feyffer",
+		"Musician Name": "Hans Keyser Feyffer",
+		"Description": "instrumentalist at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Hans_Nayele",
+		"Musician Name": "Hans Nayele",
+		"Alias": "Naglel, Hans; Nagel, Hans",
+		"Description": "instrumentalist at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "33",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Hector_Charlemagne",
 		"Musician Name": "Hector Charlemagne",
 		"Description": "Singer for Rene, Josquin's procurator",
@@ -3725,6 +4034,16 @@
 		"BIB Pages": "347",
 		"Input data": "RP",
 		"Date entered": "2024-10-31"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Henri_Zantman",
+		"Musician Name": "Henri Zantman",
+		"Alias": "Zantman, Hanry; Zautmann, Henry; Zantman, Henry",
+		"Description": "chaplain and singer at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "264",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Henricus_Bolle",
@@ -3830,6 +4149,16 @@
 		"Date entered": "2024-4-4"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Hubert_Hautelot",
+		"Musician Name": "Hubert Hautelot",
+		"Alias": "Ostelet, Hubert; Hautelot, Humbert; Hautelet, Hubert; Hauteletus, Hupertus; Hostelet, Hubert; Hotelot, Hubert",
+		"Description": "singer and clerk at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "252",
+		"Input data": "AN",
+		"Date entered": "2025-04-26"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Hubertus_de_Belle",
 		"Musician Name": "Hubertus de Belle",
 		"Description": "choirboy in Bruges",
@@ -3876,6 +4205,16 @@
 		"Date entered": "2023-3-9",
 		"Update data": "BSO",
 		"Date updated": "2024-2-12"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Innocent_Galiare",
+		"Musician Name": "Innocent Galiare",
+		"Alias": "Galera, Innocent; Gallera, Innochent; Galiare, Innochent",
+		"Description": "trumpeter at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "33",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Innocentius_Cossee",
@@ -3966,6 +4305,15 @@
 		"BIB Pages": "360–4",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jachues_Colmain",
+		"Musician Name": "Jachues Colmain",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Jacobo_a_Turri",
@@ -4347,6 +4695,24 @@
 		"Date entered": "2024-8-21"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Jacques_Favier",
+		"Musician Name": "Jacques Favier",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "45",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacques_le_Roy",
+		"Musician Name": "Jacques le Roy",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Jacques_Liegeois",
 		"Musician Name": "Jacques Liégeois",
 		"Alias": "Liegeois dit Bamelroy, Jacques; le Liegeois, Jaques; Bamelroy, Jacobus; Lieges, Jacques; Liegois, Jacques",
@@ -4364,6 +4730,15 @@
 		"BIB Pages": "113",
 		"Input data": "SMB",
 		"Date entered": "2024-8-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacques_Tolman",
+		"Musician Name": "Jacques Tolman",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Jacques_Villette",
@@ -4544,6 +4919,15 @@
 		"Date entered": "2024-4-5"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Jean_de_Helcleux",
+		"Musician Name": "Jean de Helcleux",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Jean_de_Montul",
 		"Musician Name": "Jean de Montul",
 		"Bibliography ID (BIB)": "BIB:Sherr_1988",
@@ -4569,6 +4953,16 @@
 		"Date entered": "2024-8-6"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Jean_Lomel",
+		"Musician Name": "Jean Lomel",
+		"Alias": "Bonnel, Jehan; Lormel, Jehan; de Bonnel, Jehan; Lommel, Jehan; Lomel, Juan; Lonniel, Jehan; Boniel, Johan; Lomel, Jehan; Lommel, Juan",
+		"Description": "chaplain and singer at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "255",
+		"Input data": "AN",
+		"Date entered": "2025-04-26"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Jean_Nolin",
 		"Musician Name": "Jean Nolin",
 		"Bibliography ID (BIB)": "BIB:Sherr_1988",
@@ -4587,6 +4981,35 @@
 		"Date entered": "2024-10-19"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Jeanlet_du_Breuck",
+		"Musician Name": "Jeanlet du Breuck",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "45",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Angele",
+		"Musician Name": "Jehan Angele",
+		"Alias": "Angels, Jehan",
+		"Description": "trumpeter at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "33",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Anthoine",
+		"Musician Name": "Jehan Anthoine",
+		"Alias": "Antoine, Jehan",
+		"Description": "trumpeter at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "33",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Jehan_Augustin",
 		"Musician Name": "Jehan Augustin",
 		"Alias": "Dupassage",
@@ -4595,6 +5018,15 @@
 		"BIB Pages": "113",
 		"Input data": "SMB",
 		"Date entered": "2024-8-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Baptiste",
+		"Musician Name": "Jehan Baptiste",
+		"Description": "trumpeter at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "33",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Jehan_Bouxhoren",
@@ -4626,6 +5058,16 @@
 		"Date entered": "2024-9-8"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Custodis",
+		"Musician Name": "Jehan Custodis",
+		"Alias": "Custodis, Jean; Custodis, Johanne; Custodis, Gehan",
+		"Description": "singer at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "250",
+		"Input data": "AN",
+		"Date entered": "2025-04-26"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Jehan_de_Carnin",
 		"Musician Name": "Jehan de Carnin",
 		"Description": "Member of Martin V's chapel",
@@ -4633,6 +5075,16 @@
 		"BIB Pages": "58",
 		"Input data": "SMB",
 		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_de_Italye",
+		"Musician Name": "Jehan de Italye",
+		"Alias": "d’Italie, Jehan; Italye, Jehan; de Calys, Jehan; d’Itallie, Jehan",
+		"Description": "trumpeter at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "33",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Jehan_de_la_Tour",
@@ -4662,6 +5114,27 @@
 		"Date entered": "2024-9-28"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_de_Morfalize",
+		"Musician Name": "Jehan de Morfalize",
+		"Alias": "de Morfalise, Jehan; de Morfalys, Jehan; de Merfalys, Jehan; de Morfalis, Jehan",
+		"Description": "trumpeter at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "33",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_de_Revelles",
+		"Musician Name": "Jehan de Revelles",
+		"Alias": "de Renelles, Jehans; de Revelles, Jehans; de Renelles, Jehan",
+		"Description": "musician at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "32",
+		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Jehan_de_Semeries",
 		"Musician Name": "Jehan de Semeries",
 		"Alias": "Ionathas",
@@ -4670,6 +5143,15 @@
 		"BIB Pages": "57",
 		"Input data": "SMB",
 		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_de_Witte",
+		"Musician Name": "Jehan de Witte",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Jehan_Deken",
@@ -4765,6 +5247,15 @@
 		"Date entered": "2024-8-18"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Le_Blanc",
+		"Musician Name": "Jehan Le Blanc",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Jehan_le_Bonure",
 		"Musician Name": "Jehan le Bonure",
 		"Alias": "Hachot",
@@ -4773,6 +5264,16 @@
 		"BIB Pages": "56",
 		"Input data": "SMB",
 		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_le_Phiffre",
+		"Musician Name": "Jehan le Phiffre",
+		"Alias": "de Phliffele, Jehan; de Phiffre, Jehan; de Phiffere, Jehan",
+		"Description": "instrumentalist at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "34",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Jehan_Leclerc",
@@ -4822,6 +5323,24 @@
 		"Date entered": "2024-8-18"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Manghelaere",
+		"Musician Name": "Jehan Manghelaëre",
+		"Description": "singer at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "45",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Paniet",
+		"Musician Name": "Jehan Paniet",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "45",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Jehan_Ranguis",
 		"Musician Name": "Jehan Ranguis",
 		"Description": "singer at court of Savoy",
@@ -4841,6 +5360,15 @@
 		"Date entered": "2024-9-8"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Taisnier",
+		"Musician Name": "Jehan Taisnier",
+		"Description": "chaplain, choirboy instructor, and singer at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "261",
+		"Input data": "AN",
+		"Date entered": "2025-04-26"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Jehan_Tordoir",
 		"Musician Name": "Jehan Tordoir",
 		"Description": "Member of chapel of Alfonso Carillo",
@@ -4848,6 +5376,34 @@
 		"BIB Pages": "83",
 		"Input data": "SMB",
 		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Turreau",
+		"Musician Name": "Jehan Turreau",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_van_Houtre",
+		"Musician Name": "Jehan van Houtre",
+		"Alias": "vander Vincle, Jehan",
+		"Description": "instrumentalist at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "34",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jehan_Van_Vincle",
+		"Musician Name": "Jehan Van Vincle",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Jehan_Villette",
@@ -4877,6 +5433,16 @@
 		"Date entered": "2024-8-17"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Jennin_Loys",
+		"Musician Name": "Jennin Loys",
+		"Description": "musician at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "32",
+		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Jeronimo_de_Bruno",
 		"Musician Name": "Jeronimo de Bruno",
 		"Description": "singer at Ferrarese Court",
@@ -4904,6 +5470,15 @@
 		"Date entered": "2023-4-2"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Joachim_Translayer",
+		"Musician Name": "Joachim Translayer",
+		"Description": "instrumentalist at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Joachin_du_Quesne",
 		"Musician Name": "Joachin du Quesne",
 		"Alias": "du Quesne, Joachim",
@@ -4912,6 +5487,16 @@
 		"BIB Pages": "202",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Joachin_Trooslaghe",
+		"Musician Name": "Joachin Trooslaghe",
+		"Alias": "de Tronslagere, Joannin; Trooslaghe, Joannin",
+		"Description": "instrumentalist at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "34",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Joannes_Courcelle",
@@ -5017,6 +5602,15 @@
 		"Date entered": "2023-3-28"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Biest",
+		"Musician Name": "Johannes Biest",
+		"Description": "singer at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "47",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Binchois",
 		"Musician Name": "Johannes Binchois",
 		"Description": "sginer in Bruges",
@@ -5034,6 +5628,15 @@
 		"BIB Pages": "152",
 		"Input data": "LO",
 		"Date entered": "2024-8-4"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Bosquet",
+		"Musician Name": "Johannes Bosquet",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "45",
+		"Internal notes": "aliases to be updated later; uncertain if this is the same person as de Bovere - leaning towards two distinct people, but their names are similar",
+		"Input data": "AN"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Boubaert",
@@ -5144,6 +5747,15 @@
 		"BIB Pages": "35–36",
 		"Input data": "LO",
 		"Date entered": "2023-3-28"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Bruxelles",
+		"Musician Name": "Johannes de Bruxelles",
+		"Description": "singer at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "47",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_de_Busco",
@@ -5322,6 +5934,15 @@
 		"Date entered": "2024-8-6"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_De_Rover",
+		"Musician Name": "Johannes De Rover",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_de_Vico",
 		"Musician Name": "Johannes de Vico",
 		"Description": "musician in Bruges",
@@ -5340,6 +5961,15 @@
 		"Date entered": "2024-8-7"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Yllanis",
+		"Musician Name": "Johannes de Yllanis",
+		"Description": "singer in Rome",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "184",
+		"Input data": "SMB",
+		"Date entered": "2025-5-7"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_de_Zomerghem",
 		"Musician Name": "Johannes de Zomerghem",
 		"Description": "musician in Bruges",
@@ -5347,6 +5977,15 @@
 		"BIB Pages": "160",
 		"Input data": "LO",
 		"Date entered": "2024-8-7"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Zonatis",
+		"Musician Name": "Johannes Franciscus de Zonatis",
+		"Description": "singer in Rome",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "181",
+		"Input data": "SMB",
+		"Date entered": "2025-5-2"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Dhondt",
@@ -5377,6 +6016,15 @@
 		"Date entered": "2024-10-31"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Felicis",
+		"Musician Name": "Johannes Franciscus Felicis",
+		"Description": "singer in Rome",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "181",
+		"Input data": "SMB",
+		"Date entered": "2025-5-2"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Fernandez",
 		"Musician Name": "Johannes Fernandez",
 		"Description": "musician in Bruges, \"blind musician of international fame\"",
@@ -5396,22 +6044,14 @@
 		"Date entered": "2024-3-15"
 	},
 	{
-		"Biography Musician (BMU) ID": "BMU:Johannes_de_Zonatis",
-		"Musician Name": "Johannes Franciscus de Zonatis",
-		"Description": "singer in Rome",
-		"Bibliography ID (BIB)": "BIB:Frey_1955",
-		"BIB Pages": "181",
-		"Input data": "SMB",
-		"Date entered": "2025-5-2"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Johannes_Felicis",
-		"Musician Name": "Johannes Franciscus Felicis",
-		"Description": "singer in Rome",
-		"Bibliography ID (BIB)": "BIB:Frey_1955",
-		"BIB Pages": "181",
-		"Input data": "SMB",
-		"Date entered": "2025-5-2"
+		"Biography Musician (BMU) ID": "BMU:Johannes_Friart",
+		"Musician Name": "Johannes Friart",
+		"Description": "musician at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "32",
+		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Gallicus",
@@ -5576,6 +6216,16 @@
 		"Date entered": "2025-3-13"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Lestannier",
+		"Musician Name": "Johannes Lestannier",
+		"Alias": "Lestainnier, Johannes; l’Estaniel, Johannes; Lestanier, Jehan; Lestannier, Jehan",
+		"Description": "organist at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "252",
+		"Input data": "AN",
+		"Date entered": "2025-04-26"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Lesue",
 		"Musician Name": "Johannes Lesue",
 		"Description": "singer for Rene d'Anjou",
@@ -5631,6 +6281,17 @@
 		"Date entered": "2024-10-13"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Mathijs",
+		"Musician Name": "Johannes Mathijs",
+		"Alias": "Mathytz, Johannes; Mathitz, Johannes; Mathyz, Johannes; Mathys, Johannes",
+		"Description": "musician at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "31",
+		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Mauroy",
 		"Musician Name": "Johannes Mauroy",
 		"Alias": "Maroy",
@@ -5667,6 +6328,16 @@
 		"BIB Pages": "60",
 		"Input data": "SMB",
 		"Date entered": "2024-12-1"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Moneta",
+		"Musician Name": "Johannes Moneta",
+		"Alias": "Monneta, Johannes; Moneta, Jean; Moneta, Juanes; Moneta, Juan",
+		"Description": "chaplain and singer at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "256",
+		"Input data": "AN",
+		"Date entered": "2025-04-26"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Monstreul",
@@ -6009,15 +6680,6 @@
 		"Date entered": "2024-11-05"
 	},
 	{
-		"Biography Musician (BMU) ID": "BMU:Johannes_de_Yllanis",
-		"Musician Name": "Johannes de Yllanis",
-		"Description": "singer in Rome",
-		"Bibliography ID (BIB)": "BIB:Frey_1955",
-		"BIB Pages": "184",
-		"Input data": "SMB",
-		"Date entered": "2025-5-7"
-	},
-	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Zwinemersch",
 		"Musician Name": "Johannes Zwinemersch",
 		"Description": "musician in Bruges",
@@ -6045,6 +6707,26 @@
 		"BIB Pages": "73",
 		"Input data": "LO",
 		"Date entered": "2023-4-2"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Joos_Steelandt",
+		"Musician Name": "Joos Steelandt",
+		"Alias": "Steelandt, Josse; Steenllant, Josse; Styenland, Josse; Stienlland, Joosse; Stienllant, Joosse; Steelant, Joos; Steelant, Josse; Steelant, Jos; de Stelante, Joos; de Stelante, Josse; de Stelante, Jos; Steinlland, Joos; Steinlland, Josse; Steinlland, Jos; Estalant, Joos; Estalant, Josse; Estalant, Jos; Stiellant, Josse",
+		"Description": "singer at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "261",
+		"Input data": "AN",
+		"Date entered": "2025-04-26"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Joosse_Denys",
+		"Musician Name": "Joosse Denys",
+		"Alias": "d’Ems, Joosse",
+		"Description": "instrumentalist at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "33",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Josse_Vanden_Bruck",
@@ -6233,6 +6915,17 @@
 		"Date entered": "2024-9-20"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Levesque_de_Salubrie",
+		"Musician Name": "L’évesque de Salubrie",
+		"Alias": "de Salubrie, Evesque; de Salubrie, l’évêque; de Salubrye, L’évesque; de Salubrie, Eveque; de Sallubry, Eveque",
+		"Description": "musician at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "31",
+		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Livinus_de_Hond",
 		"Musician Name": "Livinus de Hond",
 		"Description": "singer in Bruges",
@@ -6249,6 +6942,16 @@
 		"BIB Pages": "353",
 		"Input data": "RP",
 		"Date entered": "2024-9-26"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Louis_de_Wenrey",
+		"Musician Name": "Louis de Wenrey",
+		"Description": "musician at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "31",
+		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Louis_Gautier",
@@ -6569,6 +7272,15 @@
 		"Date entered": "2024-7-16"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Martin_Bourgois",
+		"Musician Name": "Martin Bourgois",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Martin_Courtois",
 		"Musician Name": "Martin Courtois",
 		"Description": "singer at French royal court",
@@ -6576,6 +7288,15 @@
 		"BIB Pages": "521",
 		"Input data": "SMB",
 		"Date entered": "2024-9-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Martin_de_Malines",
+		"Musician Name": "Martin de Malines",
+		"Description": "singer at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "255",
+		"Input data": "AN",
+		"Date entered": "2025-04-26"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Martin_Douvrin",
@@ -6756,6 +7477,16 @@
 		"Date entered": "2024-10-23"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Mathitz_de_Veldre",
+		"Musician Name": "Mathitz de Veldre",
+		"Alias": "de Wildre, Mathitz; de Veldre, Mathytz",
+		"Description": "instrumentalist at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "34",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Mathurin_du_Buisson",
 		"Musician Name": "Mathurin du Buisson",
 		"Alias": "Dubuisson, du Buysson, Dubuysson. Forestier??",
@@ -6918,6 +7649,25 @@
 		"Date entered": "2024-4-4"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Michel_de_Panye",
+		"Musician Name": "Michel de Panye",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Michel_du_Chatel",
+		"Musician Name": "Michel du Châtel",
+		"Alias": "du Chastel, Michel; du Chartel, Michel",
+		"Description": "instrumentalist at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "33",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Michelangelo_di_Lorenzo",
 		"Musician Name": "Michelangelo di Lorenza",
 		"Alias": "Gazza",
@@ -6935,6 +7685,15 @@
 		"BIB Pages": "32",
 		"Input data": "SMB",
 		"Date entered": "2024-11-21"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Michelet_le_Tambourin",
+		"Musician Name": "Michelet le Tambourin",
+		"Description": "instrumentalist at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Michiel_de_Wolf",
@@ -7053,6 +7812,15 @@
 		"Date entered": "2024-11-20"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Niccolo_di_Lore",
+		"Musician Name": "Ser Niccolo di Lore",
+		"Description": "Bass singer",
+		"Bibliography ID (BIB)": "BIB:Wilson_2006",
+		"BIB Pages": "116",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Niccolo_Pedoni",
 		"Musician Name": "Niccolo Pedoni",
 		"Description": "bassus in Florence",
@@ -7095,6 +7863,15 @@
 		"BIB Pages": "158",
 		"Input data": "LO",
 		"Date entered": "2024-8-6"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicolas_de_Lyere",
+		"Musician Name": "Nicolas de Lyere",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "45",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Nicolaus",
@@ -7293,6 +8070,15 @@
 		"BIB Pages": "74",
 		"Input data": "BSO",
 		"Date entered": "2024-4-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Noel_Tonnequin",
+		"Musician Name": "Noel Tonnequin",
+		"Description": "singer at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "262",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Nouel_Jhesus",
@@ -8093,6 +8879,15 @@
 		"Date entered": "2024-7-17"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Piero_Martini",
+		"Musician Name": "Piero Martini",
+		"Description": "Singer, Brother of Johannes Martini",
+		"Bibliography ID (BIB)": "BIB:Wilson_2006",
+		"BIB Pages": "135",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Piero_Picardo",
 		"Musician Name": "Piero Picardo cantore",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
@@ -8108,6 +8903,16 @@
 		"BIB Pages": "352",
 		"Input data": "RP",
 		"Date entered": "2024-10-14"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pierquin_de_Comble",
+		"Musician Name": "Pierquin de Comble",
+		"Alias": "de Comble, Pierroquin; de Combel, Pierroquin; de Comble, Purquin; de Combel, Purquin; de Combel, Pierquin",
+		"Description": "trumpeter at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "33",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Pierre_Basin",
@@ -8149,6 +8954,17 @@
 		"Date entered": "2024-10-20"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Pierre_Clite",
+		"Musician Name": "Pierre Clite",
+		"Alias": "Clitre, Pierre; Sclictre, Pierre; Clute, Pierre",
+		"Description": "musician at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "31",
+		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Pierre_de_Monade",
 		"Musician Name": "Pierre de Monade",
 		"Description": "Singer for Rene d'Anjou",
@@ -8186,6 +9002,27 @@
 		"BIB Pages": "547",
 		"Input data": "SMB",
 		"Date entered": "2024-9-26"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pierre_Franchois",
+		"Musician Name": "Pierre Franchois",
+		"Alias": "Françoys, Pière; François, Pière; François, Pierre",
+		"Description": "musician at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "32",
+		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pierre_Houdin",
+		"Musician Name": "Pierre Houdin",
+		"Alias": "Lourdan, Pierre; Houdin, Pierre; Jourdan, Pierre",
+		"Description": "instrumentalist at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "33",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Pierre_Jouault",
@@ -8248,6 +9085,34 @@
 		"BIB Pages": "76–77",
 		"Input data": "BSO",
 		"Date entered": "2024-4-5"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pierre_Nacroix",
+		"Musician Name": "Pierre Nacroix",
+		"Alias": "Nacroix, Piencenot; Nacrois, Pierre",
+		"Description": "trumpeter at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "33",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pierre_Numan",
+		"Musician Name": "Pierre Numan",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pierre_Ruys",
+		"Musician Name": "Pierre Ruys",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Pieter_Nachtegale",
@@ -8553,6 +9418,15 @@
 		"Date entered": "2024-8-17"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Robert_le_Preux",
+		"Musician Name": "Robert le Preux",
+		"Description": "musician at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Roberto_Ferrarese",
 		"Musician Name": "Roberto Ferrarese",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
@@ -8680,6 +9554,16 @@
 		"Date entered": "2024-10-14"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Rogier_Herben",
+		"Musician Name": "Rogier Herben",
+		"Description": "musician at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "31",
+		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Roma_piffaro",
 		"Musician Name": "Roma () piffaro",
 		"Description": "musician at Ferrarese court",
@@ -8714,6 +9598,17 @@
 		"BIB Pages": "361",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Rubert_Vinet",
+		"Musician Name": "Rubert Vinet",
+		"Alias": "Presel, Bynet; Presel, Binet; Presel, Vinet; Prezel, Vynet; Prezel, Bynet",
+		"Description": "musician at chapel of Philip the Fair",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "31",
+		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
+		"Input data": "AN",
+		"Date entered": "2025-08-24"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Rubertinus_de_Bergis",
@@ -8813,6 +9708,15 @@
 		"BIB Pages": "352",
 		"Input data": "RP",
 		"Date entered": "2024-10-14"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Ser_Matteo_di_Paolo",
+		"Musician Name": "Ser Matteo di Paolo",
+		"Description": "set figural music of the Lamentations of Jeremiah",
+		"Bibliography ID (BIB)": "BIB:Wilson_2006",
+		"BIB Pages": "123",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Sigerius_de_Nerin",
@@ -9142,6 +10046,16 @@
 		"Date entered": "2024-8-22"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Tristan_de_Menin",
+		"Musician Name": "Tristan de Menin",
+		"Alias": "de Menin, Tristran; Tristan",
+		"Description": "singer at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "256",
+		"Input data": "AN",
+		"Date entered": "2025-04-26"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Udoricho_garzon",
 		"Musician Name": "Udoricho garzon todescho",
 		"Description": "singer at Ferrarese court",
@@ -9450,17 +10364,6 @@
 		"Date entered": "2024-10-31"
 	},
 	{
-		"Biography Musician (BMU) ID": "BMU:Zanobi_Guidetti",
-		"Musician Name": "Ser Zanobi Ghuidetti",
-		"Description": "organist at cathedral of florence",
-		"Bibliography ID (BIB)": "BIB:Wilson_2006",
-		"BIB Pages": "111",
-		"Input data": "SMB",
-		"Date entered": "2024-11-16",
-		"Update data": "SC",
-		"Date updated": "2025-06-19"
-	},
-	{
 		"Biography Musician (BMU) ID": "BMU:Zanobi_Felice",
 		"Musician Name": "Ser Zanobi di Felice",
 		"Description": "chaplain at the florence cathedral and a tenor",
@@ -9468,6 +10371,17 @@
 		"BIB Pages": "112",
 		"Input data": "SMB",
 		"Date entered": "2024-11-12",
+		"Update data": "SC",
+		"Date updated": "2025-06-19"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Zanobi_Guidetti",
+		"Musician Name": "Ser Zanobi Ghuidetti",
+		"Description": "organist at cathedral of florence",
+		"Bibliography ID (BIB)": "BIB:Wilson_2006",
+		"BIB Pages": "111",
+		"Input data": "SMB",
+		"Date entered": "2024-11-16",
 		"Update data": "SC",
 		"Date updated": "2025-06-19"
 	},
@@ -9942,919 +10856,5 @@
 		"BIB Pages": "348",
 		"Input data": "RP",
 		"Date entered": "2024-10-31"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jehan_Custodis",
-		"Musician Name": "Jehan Custodis",
-		"Alias": "Custodis, Jean; Custodis, Johanne; Custodis, Gehan",
-		"Description": "singer at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "250",
-		"Input data": "AN",
-		"Date entered": "2025-04-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Anthoine_Francois",
-		"Musician Name": "Anthoine François",
-		"Alias": "François, Hennequin; François, Anthonin; François, Anthonin; Franchois, Anthoine; Francisco, Antonio; Françoys, Anthonin; François, Anthoine",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "251",
-		"Input data": "AN",
-		"Date entered": "2025-04-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Hubert_Hautelot",
-		"Musician Name": "Hubert Hautelot",
-		"Alias": "Ostelet, Hubert; Hautelot, Humbert; Hautelet, Hubert; Hauteletus, Hupertus; Hostelet, Hubert; Hotelot, Hubert",
-		"Description": "singer and clerk at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "252",
-		"Input data": "AN",
-		"Date entered": "2025-04-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Johannes_Lestannier",
-		"Musician Name": "Johannes Lestannier",
-		"Alias": "Lestainnier, Johannes; l’Estaniel, Johannes; Lestanier, Jehan; Lestannier, Jehan",
-		"Description": "organist at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "252",
-		"Input data": "AN",
-		"Date entered": "2025-04-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jean_Lomel",
-		"Musician Name": "Jean Lomel",
-		"Alias": "Bonnel, Jehan; Lormel, Jehan; de Bonnel, Jehan; Lommel, Jehan; Lomel, Juan; Lonniel, Jehan; Boniel, Johan; Lomel, Jehan; Lommel, Juan",
-		"Description": "chaplain and singer at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "255",
-		"Input data": "AN",
-		"Date entered": "2025-04-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Martin_de_Malines",
-		"Musician Name": "Martin de Malines",
-		"Description": "singer at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "255",
-		"Input data": "AN",
-		"Date entered": "2025-04-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Tristan_de_Menin",
-		"Musician Name": "Tristan de Menin",
-		"Alias": "de Menin, Tristran; Tristan",
-		"Description": "singer at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "256",
-		"Input data": "AN",
-		"Date entered": "2025-04-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Johannes_Moneta",
-		"Musician Name": "Johannes Moneta",
-		"Alias": "Monneta, Johannes; Moneta, Jean; Moneta, Juanes; Moneta, Juan",
-		"Description": "chaplain and singer at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "256",
-		"Input data": "AN",
-		"Date entered": "2025-04-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:George_Nepotis",
-		"Musician Name": "George Nepotis",
-		"Alias": "Nepos, Georgius",
-		"Description": "choirboy, clerk, and chaplain at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "257",
-		"Input data": "AN",
-		"Date entered": "2025-04-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Anthoine_du_Pont",
-		"Musician Name": "Anthoine du Pont",
-		"Alias": "du Pont, Antonio; Dupont, Anthoine; du Pont; Anthonin; de Ponte, Antonius",
-		"Description": "chaplain at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "259",
-		"Input data": "AN",
-		"Date entered": "2025-04-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Fransquin_de_Retis",
-		"Musician Name": "Fransquin de Rétis",
-		"Alias": "de Rétyts, Fransquin; de Retyz, Fransquin; de Retis, Fransquin; de Réte, Fransquin; Rétis, François; de Réthys, Franchois; de Rétys, Franskin; de Retys, Fransquin; de Ritis, Franquino; de Ritis, Fransquin",
-		"Description": "singer at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "259",
-		"Input data": "AN",
-		"Date entered": "2025-04-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Gilles_Reyngot",
-		"Musician Name": "Gilles Reyngot",
-		"Alias": "de Bailleul, Gillequin; de Bailleul, Gillecquin; Reyngoot, Gilles; Reyngoot, Giliquin; Reyngoot, Guillequin; Reyngoot, Gillequin; Reynot, Gilles; Reynot, Giliquin; Reynot, Guillequin; Reynot, Gillequin; Reynote, Gilles; Reynote, Giliquin; Reynote, Guillequin; Reynote, Gillequin; de Bailleul, Gilles; de Bailleul, Giliquin; de Bailleul, Guillequin; de Bailleul, Gillequin; Reyngotz, Gillis; Reingotz, Gilles; Reingots, Gilles",
-		"Description": "singer at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "260",
-		"Input data": "AN",
-		"Date entered": "2025-04-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Joos_Steelandt",
-		"Musician Name": "Joos Steelandt",
-		"Alias": "Steelandt, Josse; Steenllant, Josse; Styenland, Josse; Stienlland, Joosse; Stienllant, Joosse; Steelant, Joos; Steelant, Josse; Steelant, Jos; de Stelante, Joos; de Stelante, Josse; de Stelante, Jos; Steinlland, Joos; Steinlland, Josse; Steinlland, Jos; Estalant, Joos; Estalant, Josse; Estalant, Jos; Stiellant, Josse",
-		"Description": "singer at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "261",
-		"Input data": "AN",
-		"Date entered": "2025-04-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jehan_Taisnier",
-		"Musician Name": "Jehan Taisnier",
-		"Description": "chaplain, choirboy instructor, and singer at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "261",
-		"Input data": "AN",
-		"Date entered": "2025-04-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Antonio_Squarcialupi",
-		"Musician Name": "Antonio Squarcialupi",
-		"Description": "virtuoso organist",
-		"Bibliography ID (BIB)": "BIB:Wilson_2006",
-		"BIB Pages": "125",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Antonio_di_Guido",
-		"Musician Name": "Antonio di Guido",
-		"Description": "improvisational singer",
-		"Bibliography ID (BIB)": "BIB:Wilson_2006",
-		"BIB Pages": "125",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Arnolfo",
-		"Musician Name": "Arnolfo",
-		"Description": "Singer at florentine Chapel",
-		"Bibliography ID (BIB)": "BIB:Wilson_2006",
-		"BIB Pages": "123",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Niccolo_di_Lore",
-		"Musician Name": "Ser Niccolo di Lore",
-		"Description": "Bass singer",
-		"Bibliography ID (BIB)": "BIB:Wilson_2006",
-		"BIB Pages": "116",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Ser_Matteo_di_Paolo",
-		"Musician Name": "Ser Matteo di Paolo",
-		"Description": "set figural music of the Lamentations of Jeremiah",
-		"Bibliography ID (BIB)": "BIB:Wilson_2006",
-		"BIB Pages": "123",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Piero_Martini",
-		"Musician Name": "Piero Martini",
-		"Description": "Singer, Brother of Johannes Martini",
-		"Bibliography ID (BIB)": "BIB:Wilson_2006",
-		"BIB Pages": "135",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Noel_Tonnequin",
-		"Musician Name": "Noel Tonnequin",
-		"Description": "singer at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "262",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Henri_Zantman",
-		"Musician Name": "Henri Zantman",
-		"Alias": "Zantman, Hanry; Zautmann, Henry; Zantman, Henry",
-		"Description": "chaplain and singer at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "264",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Levesque_de_Salubrie",
-		"Musician Name": "L’évesque de Salubrie",
-		"Alias": "de Salubrie, Evesque; de Salubrie, l’évêque; de Salubrye, L’évesque; de Salubrie, Eveque; de Sallubry, Eveque",
-		"Description": "musician at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "31",
-		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Louis_de_Wenrey",
-		"Musician Name": "Louis de Wenrey",
-		"Description": "musician at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "31",
-		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Rubert_Vinet",
-		"Musician Name": "Rubert Vinet",
-		"Alias": "Presel, Bynet; Presel, Binet; Presel, Vinet; Prezel, Vynet; Prezel, Bynet",
-		"Description": "musician at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "31",
-		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Pierre_Clite",
-		"Musician Name": "Pierre Clite",
-		"Alias": "Clitre, Pierre; Sclictre, Pierre; Clute, Pierre",
-		"Description": "musician at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "31",
-		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Johannes_Mathijs",
-		"Musician Name": "Johannes Mathijs",
-		"Alias": "Mathytz, Johannes; Mathitz, Johannes; Mathyz, Johannes; Mathys, Johannes",
-		"Description": "musician at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "31",
-		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Rogier_Herben",
-		"Musician Name": "Rogier Herben",
-		"Description": "musician at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "31",
-		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Guillaume_Anglois",
-		"Musician Name": "Guillaume Anglois",
-		"Alias": "Lengles, Guillame; Langlez, Guillame; Lenglez, Guillaume; Langlez, Guillaume",
-		"Description": "musician at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "32",
-		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Gillequin_du_Sablon",
-		"Musician Name": "Gillequin du Sablon",
-		"Alias": "du Sablon, Guillequin; de Sablon, Gillequin",
-		"Description": "musician at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "32",
-		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Gilles_le_Seneschal",
-		"Musician Name": "Gilles le Seneschal",
-		"Alias": "le Scéneschal, Gilles",
-		"Description": "musician at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "32",
-		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jehan_de_Revelles",
-		"Musician Name": "Jehan de Revelles",
-		"Alias": "de Renelles, Jehans; de Revelles, Jehans; de Renelles, Jehan",
-		"Description": "musician at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "32",
-		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Pierre_Franchois",
-		"Musician Name": "Pierre Franchois",
-		"Alias": "Françoys, Pière; François, Pière; François, Pierre",
-		"Description": "musician at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "32",
-		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Johannes_Friart",
-		"Musician Name": "Johannes Friart",
-		"Description": "musician at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "32",
-		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jennin_Loys",
-		"Musician Name": "Jennin Loys",
-		"Description": "musician at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "32",
-		"Internal notes": "list includes chaplains and singers; unclear which is which. listing as musician unless clarified elsewhere",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Pierre_Nacroix",
-		"Musician Name": "Pierre Nacroix",
-		"Alias": "Nacroix, Piencenot; Nacrois, Pierre",
-		"Description": "trumpeter at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "33",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Cornille_de_Zeellande",
-		"Musician Name": "Cornille de Zeellande",
-		"Alias": "de Zélande, Cornille; de Zellande, Cornille",
-		"Description": "trumpeter at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "33",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jehan_de_Italye",
-		"Musician Name": "Jehan de Italye",
-		"Alias": "d’Italie, Jehan; Italye, Jehan; de Calys, Jehan; d’Itallie, Jehan",
-		"Description": "trumpeter at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "33",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jehan_de_Morfalize",
-		"Musician Name": "Jehan de Morfalize",
-		"Alias": "de Morfalise, Jehan; de Morfalys, Jehan; de Merfalys, Jehan; de Morfalis, Jehan",
-		"Description": "trumpeter at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "33",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Augustin_de_Lascarpier",
-		"Musician Name": "Augustin de Lascarpier",
-		"Alias": "de la Carperie, Augustin; de Carperie, Augustin",
-		"Description": "trumpeter at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "33",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Innocent_Galiare",
-		"Musician Name": "Innocent Galiare",
-		"Alias": "Galera, Innocent; Gallera, Innochent; Galiare, Innochent",
-		"Description": "trumpeter at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "33",
-		"Input data": "AN",
-		"Date entered": "2025-08-24"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Christophe_d_Aire",
-		"Musician Name": "Christophe d’Aire",
-		"Alias": "d’Aires, Phelippe; d’Aires, Philippe",
-		"Description": "trumpeter at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "33",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Christophe_d_Austrice",
-		"Musician Name": "Christophe d’Austrice",
-		"Alias": "d’Autriche, Christophe; d’Austrice, Christoffle; d'Autrice, Christoffle; d’Autris, Cristoffle; d'Austrice, Cristoffle",
-		"Description": "trumpeter at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "33",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jehan_Angele",
-		"Musician Name": "Jehan Angele",
-		"Alias": "Angels, Jehan",
-		"Description": "trumpeter at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "33",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Pierquin_de_Comble",
-		"Musician Name": "Pierquin de Comble",
-		"Alias": "de Comble, Pierroquin; de Combel, Pierroquin; de Comble, Purquin; de Combel, Purquin; de Combel, Pierquin",
-		"Description": "trumpeter at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "33",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jehan_Baptiste",
-		"Musician Name": "Jehan Baptiste",
-		"Description": "trumpeter at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "33",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jehan_Anthoine",
-		"Musician Name": "Jehan Anthoine",
-		"Alias": "Antoine, Jehan",
-		"Description": "trumpeter at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "33",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Joosse_Denys",
-		"Musician Name": "Joosse Denys",
-		"Alias": "d’Ems, Joosse",
-		"Description": "instrumentalist at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "33",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Pierre_Houdin",
-		"Musician Name": "Pierre Houdin",
-		"Alias": "Lourdan, Pierre; Houdin, Pierre; Jourdan, Pierre",
-		"Description": "instrumentalist at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "33",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Hans_Nayele",
-		"Musician Name": "Hans Nayele",
-		"Alias": "Naglel, Hans; Nagel, Hans",
-		"Description": "instrumentalist at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "33",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Michel_du_Chatel",
-		"Musician Name": "Michel du Châtel",
-		"Alias": "du Chastel, Michel; du Chartel, Michel",
-		"Description": "instrumentalist at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "33",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jehan_van_Houtre",
-		"Musician Name": "Jehan van Houtre",
-		"Alias": "vander Vincle, Jehan",
-		"Description": "instrumentalist at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "34",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Bernard_Broumard",
-		"Musician Name": "Bernard Broumard",
-		"Alias": "Bronart, Bertrand; Broumard, Bertrand; Brouart, Bertrand",
-		"Description": "instrumentalist at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "34",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Guillaume_Turoul",
-		"Musician Name": "Guillaume Turoul",
-		"Alias": "Arroul, Guillaume",
-		"Description": "instrumentalist at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "34",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Mathitz_de_Veldre",
-		"Musician Name": "Mathitz de Veldre",
-		"Alias": "de Wildre, Mathitz; de Veldre, Mathytz",
-		"Description": "instrumentalist at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "34",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Joachin_Trooslaghe",
-		"Musician Name": "Joachin Trooslaghe",
-		"Alias": "de Tronslagere, Joannin; Trooslaghe, Joannin",
-		"Description": "instrumentalist at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "34",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jehan_le_Phiffre",
-		"Musician Name": "Jehan le Phiffre",
-		"Alias": "de Phliffele, Jehan; de Phiffre, Jehan; de Phiffere, Jehan",
-		"Description": "instrumentalist at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "34",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Alonze_le_Gysternier",
-		"Musician Name": "Alonze le Gysternier",
-		"Description": "guitarist at chapel of Philip the Fair",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "34",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Alonso_Ximenes",
-		"Musician Name": "Alonso Ximenes",
-		"Description": "chaplain at chapel of Juana I",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "35",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Gilles_Brugeman",
-		"Musician Name": "Gilles Brugeman",
-		"Alias": "Giliquin; Brugman, Guillequin",
-		"Description": "organist at chapel of Juana I",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "35",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Michel_de_Panye",
-		"Musician Name": "Michel de Panye",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Adrien_le_Latteur",
-		"Musician Name": "Adrien le Latteur",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "45",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Guillaume_de_Vandenesse",
-		"Musician Name": "Guillaume de Vandenesse",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Martin_Bourgois",
-		"Musician Name": "Martin Bourgois",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Damien_de_Florbeke",
-		"Musician Name": "Damien de Florbeke",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "45",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Gilles_du_Pont",
-		"Musician Name": "Gilles du Pont",
-		"Alias": "Dupont, Gilles",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "45",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Hans_Keyser_Feyffer",
-		"Musician Name": "Hans Keyser Feyffer",
-		"Description": "instrumentalist at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Damien_Presteau",
-		"Musician Name": "Damien Presteau",
-		"Description": "singer at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "45",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jacques_Favier",
-		"Musician Name": "Jacques Favier",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "45",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Johannes_Biest",
-		"Musician Name": "Johannes Biest",
-		"Description": "singer at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "47",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Johannes_de_Bruxelles",
-		"Musician Name": "Johannes de Bruxelles",
-		"Description": "singer at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "47",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Guillaume_Damiers",
-		"Musician Name": "Guillaume Damiers",
-		"Description": "singer at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "47",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Francois_de_Henbergher",
-		"Musician Name": "François de Henbergher",
-		"Description": "instrumentalist at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Frederic_Heydorf",
-		"Musician Name": "Frédéric Heydorf",
-		"Description": "instrumentalist at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Pierre_Ruys",
-		"Musician Name": "Pierre Ruys",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Robert_le_Preux",
-		"Musician Name": "Robert le Preux",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jeanlet_du_Breuck",
-		"Musician Name": "Jeanlet du Breuck",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "45",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Johannes_Bosquet",
-		"Musician Name": "Johannes Bosquet",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "45",
-		"Internal notes": "aliases to be updated later; uncertain if this is the same person as de Bovere - leaning towards two distinct people, but their names are similar",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jehan_Manghelaere",
-		"Musician Name": "Jehan Manghelaëre",
-		"Description": "singer at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "45",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jehan_Paniet",
-		"Musician Name": "Jehan Paniet",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "45",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Georges_Habz",
-		"Musician Name": "Georges Habz",
-		"Description": "instrumentalist at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jachues_Colmain",
-		"Musician Name": "Jachues Colmain",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jacques_le_Roy",
-		"Musician Name": "Jacques le Roy",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jacques_Tolman",
-		"Musician Name": "Jacques Tolman",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jean_de_Helcleux",
-		"Musician Name": "Jean de Helcleux",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jehan_de_Witte",
-		"Musician Name": "Jehan de Witte",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jehan_Le_Blanc",
-		"Musician Name": "Jehan Le Blanc",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jehan_Turreau",
-		"Musician Name": "Jehan Turreau",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Jehan_Van_Vincle",
-		"Musician Name": "Jehan Van Vincle",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Joachim_Translayer",
-		"Musician Name": "Joachim Translayer",
-		"Description": "instrumentalist at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Johannes_De_Rover",
-		"Musician Name": "Johannes De Rover",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Michelet_le_Tambourin",
-		"Musician Name": "Michelet le Tambourin",
-		"Description": "instrumentalist at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Pierre_Numan",
-		"Musician Name": "Pierre Numan",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Nicolas_de_Lyere",
-		"Musician Name": "Nicolas de Lyere",
-		"Description": "musician at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "45",
-		"Internal notes": "aliases to be updated later",
-		"Input data": "AN"
-	},
-	{
-		"Biography Musician (BMU) ID": "BMU:Gilles_Moreau",
-		"Musician Name": "Gilles Moreau",
-		"Alias": "Moreau, Gillet; Moureau, Gilles; Moreau, Guilet; Moreau, Gille",
-		"Description": "altarboy and singer at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "54",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
 	}
 ]

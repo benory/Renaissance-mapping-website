@@ -1,0 +1,71 @@
+{% include_relative scripts-listeners.html %}
+
+<script>
+
+/////////////////////////////////////////////
+// fillInMetadataCensus – Census summary for documentation page
+// 
+//
+
+function fillInMetadataCensus() {
+
+    const meta = MAP.METADATA;
+
+    // --- 1. Events ---
+    const eventCount = meta.Events.length;
+
+    // --- 2. Biographies ---
+    const composerCount = meta.Bio_Composers.length;
+    const musicianCount = meta.Bio_Musicians.length;
+    const nonmusicianCount = meta.Bio_Nonmusicians.length;
+
+    // --- 3. Bibliography and Documents ---
+    const bibliographyCount = meta.Bibliography.length;
+    const documentCount = meta.Archival_Docs.length;
+
+    // --- 4. Update the documentation page ---
+    updateCount("#event-count", eventCount);
+    updateCount("#composer-count", composerCount);
+    updateCount("#musician-count", musicianCount);
+    updateCount("#nonmusician-count", nonmusicianCount);
+    updateCount("#bibliography-count", bibliographyCount);
+    updateCount("#document-count", documentCount);
+}
+
+
+// Helper to update DOM targets
+function updateCount(selector, value) {
+    const el = document.querySelector(selector);
+    if (el) el.textContent = value;
+}
+
+/////////////////////////////////////////////
+// Build "Targets" summary section
+//
+
+function populateTargetLists() {
+    const targets = MAP.METADATA.Targets;
+
+    const complete = targets.filter(t => t.Status === "Complete");
+    const nearly   = targets.filter(t => t.Status === "Mostly Complete");
+
+    const completeList = document.getElementById("complete-targets");
+    const nearlyList   = document.getElementById("nearly-targets");
+
+    function createPersonLink(t) {
+        const name = `${t.First ? t.First + " " : ""}${t.Last}`;
+        const li = document.createElement("li");
+
+        const a = document.createElement("a");
+        a.textContent = name;
+        a.href = `/?select=${encodeURIComponent(name)}`;
+
+        li.appendChild(a);
+        return li;
+    }
+
+    complete.forEach(t => completeList.appendChild(createPersonLink(t)));
+    nearly.forEach(t => nearlyList.appendChild(createPersonLink(t)));
+}
+
+</script>

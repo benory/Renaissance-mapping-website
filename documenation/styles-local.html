@@ -1,0 +1,45 @@
+<style type="text/css">
+
+.targets-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 20px 0;
+    margin-left: 20px;
+}
+
+.targets-column h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.targets-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.targets-column li {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+/* Base styling for the two-column targets list */
+.targets-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+/* Make only THESE items turn blue on hover */
+.targets-list li {
+    transition: color 0.15s ease;
+    cursor: pointer;
+}
+
+.targets-list li:hover {
+    color: #0066cc; /* your hover blue */
+    style: bold;
+}
+
+</style>
