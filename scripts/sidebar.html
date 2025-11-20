@@ -106,7 +106,9 @@ function updateMarkerSidebar({ text, personID, personprocessed, locationprocesse
             const truncatedDescription = description
                 ? description.slice(0, 100) + (description.length > 100 ? '...' : '')
                 : '';
-            cell.textContent = `${personprocessed || ''}, ${locationprocessed || ''}, ${daterange || ''}${truncatedDescription ? ', ' + truncatedDescription : ''}`;
+            cell.innerHTML = `
+                <b>${personprocessed}</b>, ${locationprocessed || ''}, ${daterange || ''}${truncatedDescription ? ': ' + truncatedDescription : ''}
+            `.trim();
 
             // Append the cell to the row
             row.appendChild(cell);

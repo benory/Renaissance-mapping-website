@@ -242,6 +242,31 @@ function applyHighlightColorsToMarkers() {
         colorMap.set(name, color);
     });
 
+    // First reset ALL markers to their original default colors
+    markers.forEach(entry => {
+        const { marker, personID } = entry;
+
+        // Determine default color by prefix
+        let defaultColor;
+        if (personID.startsWith("BCO")) {
+            defaultColor = "#440154";   // composer purple
+        } else if (personID.startsWith("BMU")) {
+            defaultColor = "#23ed5c";   // musician green
+        } else if (personID.startsWith("BNO")) {
+            defaultColor = "#fde725";   // non-musician yellow
+        } else {
+            defaultColor = "#888888";   // fallback gray
+        }
+
+        marker.options.fillColor = defaultColor;
+        marker.options.color = defaultColor;
+        marker.setStyle({
+            fillColor: defaultColor,
+            color: defaultColor,
+            fillOpacity: 0.8
+        });
+    });
+
     // Apply color to markers
     markers.forEach(entry => {
         const { marker, personprocessed } = entry;
