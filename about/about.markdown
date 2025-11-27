@@ -101,7 +101,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
             <p>Alyssa Feng is a second-year undergraduate at UC Berkeley, studying History with a concentration in nineteenth-century US history and modern Chinese foreign policy. She is a violinist with the UC Berkeley Symphony Orchestra.</p>
         </div>
     </div>
-    <!--- <div class="team-member">
+    <!-- <div class="team-member">
         <img src="/images/headshots/McIntyre.jpg" alt="Flannery McIntyre">
         <div class="bio">
             <h3>Flannery McIntyre</h3>
