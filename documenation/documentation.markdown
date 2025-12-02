@@ -10,7 +10,7 @@ permalink: /documentation/
 
 ## Data overview
 
-Mapping the Musical Renaissance draws on <span id="document-count"></span> primary documents and <span id="bibliography-count"></span> secondary sources to present information about the movements of <span id="event-count"></span> <span id="composer-count"></span> composers, <span id="musician-count"></span> performing musicians, and <span id="nonmusician-count"></span> other prominent figures, including visual artists and political leaders. The following list of composers gives a sense of coverage to date:
+Mapping the Musical Renaissance draws on <span id="document-count"></span> primary documents and <span id="bibliography-count"></span> secondary sources to present information about the movements of </span> composers, <span id="musician-count"></span> performing musicians, and <span id="nonmusician-count"></span> other prominent figures, including visual artists and political leaders--a total of <span id="event-count"></span> <span id="composer-count"> events. The following list of composers gives a sense of coverage to date:
 
 <div class="targets-grid">
     <div class="targets-column">
