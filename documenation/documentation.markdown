@@ -10,7 +10,7 @@ permalink: /documentation/
 
 ## Data overview
 
-The website draws on <span id="document-count"></span> primary documents and <span id="bibliography-count"></span> secondary sources to present information about <span id="event-count"></span> <span id="composer-count"></span> composers, <span id="musician-count"></span> performing musicians, and <span id="nonmusician-count"></span> other prominent figures, including visual artists and political leaders. The following list of composers gives a sense of coverage to date:
+Mapping the Musical Renaissance draws on <span id="document-count"></span> primary documents and <span id="bibliography-count"></span> secondary sources to present information about the movements of <span id="event-count"></span> <span id="composer-count"></span> composers, <span id="musician-count"></span> performing musicians, and <span id="nonmusician-count"></span> other prominent figures, including visual artists and political leaders. The following list of composers gives a sense of coverage to date:
 
 <div class="targets-grid">
     <div class="targets-column">
@@ -33,13 +33,13 @@ The website draws on <span id="document-count"></span> primary documents and <sp
 
 ### Events
 
-The project is built on a relational database centered on **Events**. Each event records a person (or group) at a location at a specific time, backed by primary documents and secondary bibliography. Individual events may be linked to an institution and/or occasion.
+The project is built on a relational database of what we call **Events**. Each event records a person (or group) in a specific location at a specific time. Individual events are sometimes linked to an institution or occasion.
 
-Each event has an unique ID, called an **Event ID**. This ID enables each event to be cited through the creation of an unique and stable web address (e.g., [Event 3 places Josquin des Prez as a singer at the papal chapel](https://renaissancemapping.org/?eventid=00003).) The format of the ID citation is:
+Each event has an unique **Event ID** that makes it possible to cite the event via a stable web address (e.g., [Event 3 places Josquin des Prez as a singer at the papal chapel](https://renaissancemapping.org/?eventid=00003).) The format of the ID citation is:
 
 `https://renaissancemapping.org/` + `?eventid=` + the ID number (for Josquin, 00003)
 
-or, in other words:
+thus
 
 `https://renaissancemapping.org/?eventid=00003`
 
