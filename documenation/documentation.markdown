@@ -10,7 +10,7 @@ permalink: /documentation/
 
 ## Data overview
 
-The website draws on both <span id="document-count"></span> primary documents and <span id="bibliography-count"></span> secondary sources to present information about <span id="event-count"></span> <span id="composer-count"></span> composers, <span id="musician-count"></span> performing musicians, and <span id="nonmusician-count"></span> non-musicians. This list of composers gives a sense of coverage to date:
+The website draws on <span id="document-count"></span> primary documents and <span id="bibliography-count"></span> secondary sources to present information about <span id="event-count"></span> <span id="composer-count"></span> composers, <span id="musician-count"></span> performing musicians, and <span id="nonmusician-count"></span> other prominent figures, including visual artists and political leaders. The following list of composers gives a sense of coverage to date:
 
 <div class="targets-grid">
     <div class="targets-column">
