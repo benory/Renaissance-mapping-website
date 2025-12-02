@@ -10,7 +10,7 @@ permalink: /documentation/
 
 ## Data overview
 
-Mapping the Musical Renaissance draws on <span id="document-count"></span> primary documents and <span id="bibliography-count"></span> secondary sources to present information about the movements of <span id="composer-count"></span> composers, <span id="musician-count"></span> performing musicians, and <span id="nonmusician-count"></span> other prominent figures, including visual artists and political leaders&mdash;a total of <span id="event-count"></span> events. The following list of composers gives a sense of coverage to date:
+_Mapping the Musical Renaissance_ draws on <span id="document-count"></span> primary documents and <span id="bibliography-count"></span> secondary sources to present information about the movements of <span id="composer-count"></span> composers, <span id="musician-count"></span> performing musicians, and <span id="nonmusician-count"></span> other prominent figures, including visual artists and political leaders&mdash;a total of <span id="event-count"></span> events. The following list of composers gives a sense of coverage to date:
 
 <div class="targets-grid">
     <div class="targets-column">
@@ -100,7 +100,7 @@ This project uses [**Leaflet**](https://leafletjs.com) with the open-source base
 
 #### GitHub
 
-Files for Mapping the Musical Renaissance are hosted on **GitHub** at [`https://github.com/benory/Renaissance-mapping-website`](https://github.com/benory/Renaissance-mapping-website)
+Files for _Mapping the Musical Renaissance_ are hosted on **GitHub** at [`https://github.com/benory/Renaissance-mapping-website`](https://github.com/benory/Renaissance-mapping-website)
 
 Translations and transcriptions of document entries are stored in a separate repository: [`https://github.com/benory/Renaissance-mapping-data`](https://github.com/benory/Renaissance-mapping-data)
 
