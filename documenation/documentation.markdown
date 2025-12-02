@@ -10,7 +10,7 @@ permalink: /documentation/
 
 ## Data overview
 
-At present, the website features <span id="event-count"></span> events, involving <span id="composer-count"></span> composers, <span id="musician-count"></span> musicians, and <span id="nonmusician-count"></span> non-musicians, drawn from <span id="bibliography-count"></span> secondary sources and <span id="document-count"></span> documents. To give a sense of our coverage, here are lists of composers with fully (or nearly fully) documented movements:
+The website draws on both <span id="document-count"></span> primary documents and <span id="bibliography-count"></span> secondary sources to present information about <span id="event-count"></span> <span id="composer-count"></span> composers, <span id="musician-count"></span> performing musicians, and <span id="nonmusician-count"></span> non-musicians. This list of composers gives a sense of coverage to date:
 
 <div class="targets-grid">
     <div class="targets-column">
