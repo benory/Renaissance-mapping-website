@@ -17,8 +17,9 @@ function updateSidebar() {
         : null;
 
     // Clear the sidebar
-    const tableBody = document.querySelector('#active-markers-table tbody');
-    tableBody.innerHTML = '';
+    document.getElementById('sidebar-composers').innerHTML = '';
+    document.getElementById('sidebar-musicians').innerHTML = '';
+    document.getElementById('sidebar-nonmusicians').innerHTML = '';
 
     // Get only markers within map bounds
     const visibleMarkers = getVisibleMarkers().filter(({ marker, personID, locationCertainty, alias, 
@@ -66,7 +67,15 @@ function updateMarkerSidebar({ text, personID, personprocessed, locationprocesse
     const sanitizedEventId = sanitizeEventId(eventid);
 
     // Get the table body
-    const tableBody = document.querySelector('#active-markers-table tbody');
+    let tableBody;
+
+    if (personID.startsWith("BCO")) {
+        tableBody = document.getElementById("sidebar-composers");
+    } else if (personID.startsWith("BMU")) {
+        tableBody = document.getElementById("sidebar-musicians");
+    } else {
+        tableBody = document.getElementById("sidebar-nonmusicians");
+    }
 
     if (show) {
         // Add the marker to the table if not already present
@@ -147,8 +156,9 @@ function updateMarkerSidebar({ text, personID, personprocessed, locationprocesse
 // Update Sidebar with Cluster Points
 function updateSidebarWithClusterMarkers(clusterMarkers) {
     // Clear existing sidebar entries
-    const tableBody = document.querySelector('#active-markers-table tbody');
-    tableBody.innerHTML = '';
+    document.getElementById('sidebar-composers').innerHTML = '';
+    document.getElementById('sidebar-musicians').innerHTML = '';
+    document.getElementById('sidebar-nonmusicians').innerHTML = '';
 
     clusterMarkers.forEach(marker => {
         // Find the corresponding data entry

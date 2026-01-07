@@ -88,7 +88,9 @@ layout: page
                                 <th>Events Shown on Map<br>(click to select event)</th>
                             </tr>
                         </thead>
-                    <tbody></tbody>
+                      <tbody id="sidebar-composers"></tbody>
+                      <tbody id="sidebar-musicians"></tbody>
+                      <tbody id="sidebar-nonmusicians"></tbody>
                 </table>
             </div>
         </div>
