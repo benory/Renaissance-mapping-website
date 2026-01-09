@@ -51,21 +51,21 @@ layout: page
                 <input type="checkbox" id="composer-select">
                 <label for="composer-select">
                     <span class="color-sample" style="background-color: #440154;"></span>
-                    View composers
+                    Composers
                 </label>
             </div>
             <div class="checkbox-item">
                 <input type="checkbox" id="musician-select">
                 <label for="musician-select">
                     <span class="color-sample" style="background-color: #23ed5c;"></span>
-                    View musicians
+                    Other musicians
                 </label>
             </div>
             <div class="checkbox-item">
                 <input type="checkbox" id="non-musician-select">
                 <label for="non-musician-select">
                     <span class="color-sample" style="background-color: #fde725;"></span>
-                    View non-musicians
+                    Non-musicians
                 </label>
             </div>
         </div>

@@ -280,6 +280,16 @@ function doMapSetup(opts) {
         }
     });
 
+    markerCluster.on("clusterclick", function (e) {
+        const bounds = e.layer.getBounds();
+        const targetZoom = Math.min(map.getZoom() + 1, 8);
+
+        map.fitBounds(bounds, {
+            padding: [40, 40],
+            maxZoom: targetZoom
+        });
+    });
+
     markers = []; // Clear the markers array
 
     for (let i = 0; i < events.length; i++) {
@@ -606,16 +616,48 @@ function doMapSetup(opts) {
 
                     // Inside L.geoJson creation:
                     let marker;
+
                     L.geoJson(geoJsonFeature, {
-                        pointToLayer: function (feature, latlng) {
-                            // Create the marker
-                            marker = L.circleMarker(latlng, geojsonMarkerOptions);
-                            // Bind popup
-                            marker.bindPopup(feature.properties.popupContent);
-                            // Add marker to the cluster group
-                            markerCluster.addLayer(marker); 
-                            return marker;
-                        },
+                      pointToLayer: function (feature, latlng) {
+
+                        // Create the marker
+                        marker = L.circleMarker(latlng, geojsonMarkerOptions);
+
+                        // Bind popup (turn off autoPan so Leaflet doesn't do its own second movement)
+                        marker.bindPopup(feature.properties.popupContent, {
+                          autoPan: false
+                        });
+
+                        marker.on("click", function () {
+                          const targetZoom = Math.min(map.getZoom() + 1, 8);
+
+                          // --- KEY IDEA: offset the map center downward in pixels ---
+                          // Increase this number if the popup is still too high.
+                          const yOffsetPx = -80;
+
+                          // Project marker latlng to pixel space at the target zoom
+                          const p = map.project(marker.getLatLng(), targetZoom);
+
+                          // Move the "center point" DOWN (positive y) so the popup appears more centered
+                          const p2 = L.point(p.x, p.y + yOffsetPx);
+
+                          // Convert back to latlng, and do ONE animated move
+                          const offsetCenter = map.unproject(p2, targetZoom);
+
+                          map.setView(offsetCenter, targetZoom, {
+                            animate: true,
+                            duration: 0.4
+                          });
+
+                          // Open popup (no auto-pan)
+                          marker.openPopup();
+                        });
+
+                        // Add marker to the cluster group
+                        markerCluster.addLayer(marker);
+
+                        return marker;
+                      }
                     });
 
                     // Count the total number of markers created
