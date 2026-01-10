@@ -85,7 +85,7 @@ layout: page
                 <table id="active-markers-table">
                         <thead>
                             <tr>
-                                <th>Events Shown on Map<br>(click to select event)</th>
+                                <th>Events Shown on Map</th>
                             </tr>
                         </thead>
                       <tbody id="sidebar-composers"></tbody>

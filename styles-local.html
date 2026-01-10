@@ -93,6 +93,65 @@ html, body {
     overflow-y: auto;
 }
 
+.sidebar-person {
+    cursor: pointer;
+    font-weight: 600;
+    padding: 6px 8px 6px 0;
+    background: rgba(0,0,0,0.04);
+    user-select: none;
+}
+
+.sidebar-person:hover {
+    box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.12);
+}
+
+.sidebar-caret{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 1em;
+  height: 1em;          /* forces a square box */
+  line-height: 1;       /* removes font baseline weirdness */
+  vertical-align: middle;
+
+  transform: rotate(0deg);
+  transform-origin: 50% 50%;
+  transition: transform 0.15s ease;
+}
+
+.sidebar-caret.open{
+  transform: rotate(90deg);
+}
+
+.sidebar-events {
+    display: none;
+}
+
+.sidebar-events.open {
+    display: block;
+}
+
+.sidebar-event-row {
+    cursor: pointer;
+}
+
+.sidebar-event-row:hover {
+    background: rgba(0,0,0,0.05);
+}
+
+.sidebar-count {
+    font-size: 12px;
+    font-weight: normal;
+    color: #666;
+    margin-left: 6px;
+    opacity: 0.75;
+}
+
+.sidebar-person:hover .sidebar-count {
+    opacity: 1;
+}
+
 .histogram-container {
     width: 100%; /* Span the full width below the row */
     margin-top: 10px; /* Add some spacing */
