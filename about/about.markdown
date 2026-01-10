@@ -77,6 +77,14 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
             <p>Rupert Peacock sings with <a href="https://cutcircle.org/" target="_blank"> Cut Circle</a>. He began his singing career as a treble in King’s College Choir in Cambridge, UK. In 2024 he graduated from Princeton University with a BA in Music, a certificate in vocal consort performance, and as the recipient of the Isidore and Helen Sacks Memorial Prize. For his senior thesis he conducted research in the archives of Ely Cathedral; the thesis presents a previously unknown piece of sixteenth-century English choral music.</p>
         </div>
     </div>
+        <div class="team-member">
+        <img src="/images/headshots/McIntyre.jpg" alt="Flannery McIntyre">
+        <div class="bio">
+            <h3>Flannery McIntyre</h3>
+            <p><b>Team Member</b></p>
+            <p>Flannery McIntyre is a PhD Candidate in the Department of Music and Program in Medieval Studies at the University of California, Berkeley. Prior to starting her PhD, she earned a MPhil in Medieval Archaeology from the University of Cambridge. Her dissertation, entitled “An History of Music and Intellectual Culture, 300 – 900 A.D,” explores how people understood music’s place in the contexts of religion, material culture, quadrivial sciences, politics, and literature during Late Antiquity and the Early Middle Ages.</p>
+        </div>
+    </div>
     <div class="team-member">
         <img src="/images/headshots/Nguyen.jpg" alt="Audrey Nguyen">
         <div class="bio">
@@ -99,14 +107,6 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
             <h3>Alyssa Feng</h3>
             <p><b>Team Member</b></p>
             <p>Alyssa Feng is a second-year undergraduate at UC Berkeley, studying History with a concentration in nineteenth-century US history and modern Chinese foreign policy. She is a violinist with the UC Berkeley Symphony Orchestra.</p>
-        </div>
-    </div>
-    <div class="team-member">
-        <img src="/images/headshots/McIntyre.jpg" alt="Flannery McIntyre">
-        <div class="bio">
-            <h3>Flannery McIntyre</h3>
-            <p><b>Team Member</b></p>
-            <p>Flannery McIntyre is a PhD Candidate in the Department of Music and Program in Medieval Studies at the University of California, Berkeley. Prior to starting her PhD, she earned a MPhil in Medieval Archaeology from the University of Cambridge. Her dissertation, entitled “An History of Music and Intellectual Culture, 300 – 900 A.D,” explores how people understood music’s place in the contexts of religion, material culture, quadrivial sciences, politics, and literature during Late Antiquity and the Early Middle Ages.</p>
         </div>
     </div>
 </div>
