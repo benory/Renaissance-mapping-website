@@ -1833,7 +1833,7 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Cornelio_da_Firenze",
 		"Musician Name": "Cornelio da Firenze",
-		"Description": "singer in florence",
+		"Description": "singer in Florence",
 		"Bibliography ID (BIB)": "BIB:DAccone_1971",
 		"BIB Pages": "13",
 		"Input data": "SMB",
@@ -1843,7 +1843,7 @@
 		"Biography Musician (BMU) ID": "BMU:Cornelio_de_Benis",
 		"Musician Name": "Cornelio de Benis",
 		"Alias": "Brugni",
-		"Description": "singer in florence",
+		"Description": "singer in Florence",
 		"Bibliography ID (BIB)": "BIB:DAccone_1971",
 		"BIB Pages": "31",
 		"Input data": "SMB",
@@ -1852,10 +1852,11 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Cornelio_de_Fiandra",
 		"Musician Name": "Cornelio de Fiandra",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009; BIB:Lockwood_1979",
-		"BIB Pages": "360–2; 210",
-		"Internal notes": "Also appears as Cornelio cantore\"",
+		"Alias": "Svagher; Zwaghersl de Hulst, Cornelis",
+		"Description": "musician at Ferrarese court, chapel of Sforza, and the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009; BIB:Lockwood_1979; BIB:Wegman_1989",
+		"BIB Pages": "360–2; 210; 239",
+		"Internal notes": "Also appears as Cornelio cantore",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
 		"Update data": "BSO",
@@ -8417,6 +8418,15 @@
 		"Date entered": "2024-7-22"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_de_Vian",
+		"Musician Name": "Petrus de Vian",
+		"Description": "singer in Rome",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "194",
+		"Input data": "SMB",
+		"Date entered": "2026-1-7"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Petrus_de_Zomere",
 		"Musician Name": "Petrus de Zomere",
 		"Description": "musician in Bruges",
@@ -8531,6 +8541,15 @@
 		"BIB Pages": "235",
 		"Input data": "SMB",
 		"Date entered": "2024-1-12"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_Pirrinus",
+		"Musician Name": "Petrus Pirrinus",
+		"Description": "singer in Rome",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "194",
+		"Input data": "SMB",
+		"Date entered": "2026-1-7"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Petrus_Plonchet",
@@ -9479,6 +9498,15 @@
 		"Date entered": "2024-8-6"
 	},
 	{
+		"Biography Musician (BMU) ID": "BMU:Robertus_Thinille",
+		"Musician Name": "Robertus Thinille",
+		"Description": "singer in Rome",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "194",
+		"Input data": "SMB",
+		"Date entered": "2026-1-7"
+	},
+	{
 		"Biography Musician (BMU) ID": "BMU:Robijn",
 		"Musician Name": "Robijn",
 		"Description": "musician in Bruges",
@@ -9923,13 +9951,23 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Thomas_Fazanis",
 		"Musician Name": "Thomas Fazanis",
-		"Alias": "Thome de Fazanis",
+		"Alias": "Thome de Fazanis, Jazanis, Zazanis",
 		"Description": "had been a member in the chapel of Leo X in June 1513, September 1516, and June and November 1517; still a member in December 1526 and in 1529",
 		"Bibliography ID (BIB)": "BIB:Sherr_1975",
 		"BIB Pages": "40–42",
 		"Internal notes": "listed as Thome de Fazanis in pay records",
 		"Input data": "LO",
 		"Date entered": "2023-3-28"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Thomas_de_Macchia",
+		"Musician Name": "Thomas de Macchia",
+		"Alias": "Nuntii de Licio",
+		"Description": "singer in Rome",
+		"Bibliography ID (BIB)": "BIB:Frey_1955",
+		"BIB Pages": "195",
+		"Input data": "SMB",
+		"Date entered": "2026-1-7"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Thomas_Jacobi",
@@ -10856,5 +10894,500 @@
 		"BIB Pages": "348",
 		"Input data": "RP",
 		"Date entered": "2024-10-31"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Michiele_Cramer",
+		"Musician Name": "Michiele Cramer",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "239",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Willeme_van_Hondswijck",
+		"Musician Name": "Willeme van Hondswijck",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "240",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Symon_van_Amerode",
+		"Musician Name": "Symon van Amerode",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "240",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Henrick_Malecourt",
+		"Musician Name": "Henrick Malecourt",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "240",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Michiel_van_Bastoengnen",
+		"Musician Name": "Michiel van Bastoengnen",
+		"Alias": "Michelet",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "240",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Peter_de_Coster",
+		"Musician Name": "Peter de Coster",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "240",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Cornelise_Both",
+		"Musician Name": "Cornelise Both",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "240",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Janna_Mol",
+		"Musician Name": "Janna Mol",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "240",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Greefken",
+		"Musician Name": "Johannes Greefken",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "240",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Janne_de_Greve",
+		"Musician Name": "Janne de Greve",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "240",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Aubertijne",
+		"Musician Name": "Aubertijne",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "240–41",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gielise",
+		"Musician Name": "Gielise",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "241",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Quintijne",
+		"Musician Name": "Guintijne",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "241",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Reijnier",
+		"Musician Name": "Reijnier",
+		"Alias": "metten bulten, Reijnier",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "241",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Cornelise_uuten_Haghe",
+		"Musician Name": "Cornelise uuten Haghe",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "241",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Paulus_de_Roda",
+		"Musician Name": "Paulus de Roda",
+		"Alias": "Paulus de Roda",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "241",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Alairde_Hendricxsone",
+		"Musician Name": "Alairde Hendricxsone",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "241",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Janne",
+		"Musician Name": "Janne",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "241",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Thomase",
+		"Musician Name": "Thomase",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "241",
+		"Input data": "LO",
+		"Date entered": "2026-01-01"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Janne_van_Gheele",
+		"Musician Name": "Janne van Gheele",
+		"Alias": "Holtken",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "242",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Woutere",
+		"Musician Name": "Woutere",
+		"Alias": "de tenoriste, Woutere; Wouter",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "242",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Kaerle",
+		"Musician Name": "Kaerle",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "242",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Adriane_Bouckeel",
+		"Musician Name": "Adriane Bouckeel",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "242",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Janne_Stevens",
+		"Musician Name": "Janne Stevens",
+		"Alias": "van den Nieuwenhuizen, Janne Stevens",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "242",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Janne_Blockeel",
+		"Musician Name": "Janne Blockeel",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "242",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobe_van_Alckemair",
+		"Musician Name": "Jacobe van Alckemair",
+		"Alias": "of Alkmaar, Jacobe",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "242",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Lucas_van_Bruessele",
+		"Musician Name": "Lucas van Bruessele",
+		"Alias": "of Brussels, Lucas; de Thimo, Lucas",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "242",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Peter_Vineloo",
+		"Musician Name": "Peter Vineloo",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "242",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Willeme_van_Hondswijck_II",
+		"Musician Name": "Willeme van Hondswijck",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom; son of Mestre Willeme van Hondswijck",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "242–43",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Willeme_Jacobss",
+		"Musician Name": "Willeme Jacobss",
+		"Alias": "Jacobs uuten Haghe, Willeme; Jacobssone; van Sinte Mertens dijcke, Willeme; of St Maartensdijk, Willeme",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "243",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Ghysbrechte_Pieterss",
+		"Musician Name": "Ghysbrechte Pieteress",
+		"Alias": "Pieterssone, Ghysbrechte",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "243",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Govaerde",
+		"Musician Name": "Govaerde",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "243",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Dominicus_Janssoen_van_Grafft",
+		"Musician Name": "Dominicus Janssoen van Grafft",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "243",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Janne_Slijper",
+		"Musician Name": "Janne Slijper",
+		"Alias": "of Oirschot, Jannen",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "243",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gommare_van_Morteltere",
+		"Musician Name": "Gommare van Morteltere",
+		"Alias": "van Lyere, Gommare; of Lier, Gommare",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "243–44",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gielise_van_Morteltere",
+		"Musician Name": "Gielise van Morteltere",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom; brother of Gommare van Morteltere",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "244",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Clause_van_Lyere",
+		"Musician Name": "Clause van Lyere",
+		"Alias": "of Lier, Clause; van Liere, Claes",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "244",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johanne_basconter",
+		"Musician Name": "Johanne basconter",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "244",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petere_van_Breeda",
+		"Musician Name": "Petere van Breeda",
+		"Alias": "of Breda, Peter",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "244",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Leeuwe",
+		"Musician Name": "Leeuwe",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "244",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Aernde_Thuenissone",
+		"Musician Name": "Aernde Thuenissone",
+		"Alias": "Thuenissone from The Hague, Aernde;",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "244",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Franchoyse",
+		"Musician Name": "Franchoyse",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "245",
+		"Internal notes": "possibly identical with Franchoyse Bertrant",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Berthelmeeuse",
+		"Musician Name": "Berthelmeeuse",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "245",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Daniele_II",
+		"Musician Name": "Daniele",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "245",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jaspare",
+		"Musician Name": "Jaspare",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "245",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Constantijnen",
+		"Musician Name": "Constantijnen",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "245",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Adriane_Peterss_van_Dort",
+		"Musician Name": "Adriane Peterss van Dort",
+		"Alias": "Peterssone, Adriane; of Dordrecht, Adriane",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "245",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Mertene_Moelenbergh",
+		"Musician Name": "Mertene Moelenbergh",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "245",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Henricke_van_Diest",
+		"Musician Name": "Henricke van Diest",
+		"Alias": "Haujdin, Henricke; Haujdin of Diest, Henricke",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "245",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Willeme",
+		"Musician Name": "Willeme",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "245",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petere_Bonte",
+		"Musician Name": "Petere Bonte",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "245",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bouwene",
+		"Musician Name": "Bouwene",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "245",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Diericke",
+		"Musician Name": "Diericke",
+		"Description": "singer at the Guild of Our Lady in Bergen op Zoom",
+		"Bibliography ID (BIB)": "BIB:Wegman_1989",
+		"BIB Pages": "246",
+		"Input data": "LO",
+		"Date entered": "2026-01-02"
 	}
 ]
