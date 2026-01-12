@@ -1,5 +1,10 @@
 <style>
 
+:root {
+    --histogram-height: 100px;
+    --map-row-height: calc(100vh - 260px);
+}
+
 html, body {
     height: 100%;
 }
@@ -63,15 +68,13 @@ html, body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - 240px); /* subtract header/footer height */
 }
 
 .row {
     display: flex;
-    flex-direction: row;
     width: 100%;
-    flex: 1;         /* row fills available height */
-    min-height: 0;   /* allows children (map/sidebar) to flex properly */
+    height: var(--map-row-height);
+    transition: height 0.25s ease;     
 }
 
 #map-container {
@@ -84,13 +87,18 @@ html, body {
 
 #map {
     flex: 1;
-    height: 100%;  /* fill the container */
+    min-height: 0;
 }
 
 #sidebar {
-    flex: 0 0 250px;    /* or any width you want */
-    height: 100%;       /* match map height */
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-table-wrapper {
     overflow-y: auto;
+    max-height: 85%;
 }
 
 .sidebar-person {
@@ -354,7 +362,6 @@ table.histogram div.count {
 
 #active-markers-table {
     width: 100%;
-    table-layout: fixed; /* Ensures consistent column widths */
     border-collapse: collapse;
 }
 
@@ -626,6 +633,54 @@ table.histogram div.count {
 
 .autocomplete-item:hover {
   background-color: #f0f0f0;
+}
+
+.histogram-toggle {
+    position: sticky;
+    bottom: 10px;              /* REQUIRED */
+
+    display: block;
+    margin: 10px auto;
+    padding: 8px 18px;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    color: #0b3c4a;
+    background: rgba(120, 200, 210, 0.55);
+
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 9999px;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.15s ease;
+
+    z-index: 5;
+}
+
+.histogram-toggle:hover {
+    background: rgba(120, 200, 210, 0.75);
+    transform: translateY(-1px);
+}
+
+.histogram-toggle:active {
+    transform: translateY(0);
+}
+
+#histogram-panel {
+    display: none;
+    height: var(--histogram-height);
+}
+
+.histogram-visible .row {
+    height: calc(var(--map-row-height) - var(--histogram-height));
+}
+
+.histogram-visible #histogram-panel {
+    display: block;
 }
 
 </style>

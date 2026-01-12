@@ -283,4 +283,30 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleBtn = document.getElementById("toggle-histogram-btn");
+  const histogram = document.getElementById("histogram-panel");
+
+  let visible = false;
+
+  toggleBtn.addEventListener("click", () => {
+    visible = !visible;
+
+    if (visible) {
+      document.body.classList.add("histogram-visible");
+      histogram.style.display = "block";
+      toggleBtn.textContent = "Hide histogram and timeline";
+      toggleBtn.setAttribute("aria-expanded", "true");
+    } else {
+      document.body.classList.remove("histogram-visible");
+      histogram.style.display = "none";
+      toggleBtn.textContent = "Show histogram and timeline";
+      toggleBtn.setAttribute("aria-expanded", "false");
+    }
+
+    // tell Leaflet immediately to re-measure its container
+    map.invalidateSize();
+  });
+});
+
 </script>

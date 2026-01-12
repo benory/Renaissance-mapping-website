@@ -152,27 +152,4 @@ function getSidebarColor(personID, personName) {
     return "#999";
 }
 
-// Deterministic highlight color assignment
-function getHighlightColorForPerson(name) {
-    if (!name) return null;
-
-    if (!getHighlightColorForPerson.cache) {
-        getHighlightColorForPerson.cache = new Map();
-        getHighlightColorForPerson.index = 0;
-    }
-
-    const key = name.toLowerCase();
-    if (getHighlightColorForPerson.cache.has(key)) {
-        return getHighlightColorForPerson.cache.get(key);
-    }
-
-    const color = highlightPalette[
-        getHighlightColorForPerson.index % highlightPalette.length
-    ];
-
-    getHighlightColorForPerson.cache.set(key, color);
-    getHighlightColorForPerson.index++;
-    return color;
-}
-
 </script>

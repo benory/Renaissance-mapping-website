@@ -33,7 +33,7 @@ layout: page
         <div class="ci-row">
             <div>
                 <input type="checkbox" id="certainty-select">
-                <label for="certainty-select">View only certain and probable events</label>
+                <label for="certainty-select">Only certain and probable events</label>
             </div>
             <div class="custom-dropdown" id="institution-dropdown">
                 <button id="institution-button" class="with-arrow">View Institutions</button>
@@ -81,23 +81,28 @@ layout: page
 <div class="container">
     <div class="row">
         <div id="sidebar">
-            <div id="sidebar">
+            <div class="sidebar-table-wrapper">
                 <table id="active-markers-table">
-                        <thead>
-                            <tr>
-                                <th>Events Shown on Map</th>
-                            </tr>
-                        </thead>
-                      <tbody id="sidebar-composers"></tbody>
-                      <tbody id="sidebar-musicians"></tbody>
-                      <tbody id="sidebar-nonmusicians"></tbody>
+                    <thead>
+                        <tr>
+                            <th>Events Shown on Map</th>
+                        </tr>
+                    </thead>
+                    <tbody id="sidebar-composers"></tbody>
+                    <tbody id="sidebar-musicians"></tbody>
+                    <tbody id="sidebar-nonmusicians"></tbody>
                 </table>
             </div>
+            <button
+                id="toggle-histogram-btn"
+                class="histogram-toggle"
+                aria-expanded="false">
+                Show histogram and timeline
+            </button>
         </div>
         <div id="map"></div>
     </div>
-    <div class="small-space"></div>
-    <div class="histogram-container">
+    <div class="histogram-container" id="histogram-panel">
         <table class="histogram">
             <tr id="histogramRow"></tr>
         </table>
