@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	let Opts = {
 		name: "map",
-		view: [47, 9],
+		view: [47, 5],
 		zoom: 5,
 		zoomMin: 4,
 		zoomMax: 19
@@ -297,6 +297,10 @@ document.addEventListener("DOMContentLoaded", () => {
       histogram.style.display = "block";
       toggleBtn.textContent = "Hide histogram and timeline";
       toggleBtn.setAttribute("aria-expanded", "true");
+
+      updateDateRange();
+      updateSliderBackground();
+
     } else {
       document.body.classList.remove("histogram-visible");
       histogram.style.display = "none";

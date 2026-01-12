@@ -134,8 +134,12 @@ function doMapSetup(opts) {
         map.remove();
     }
 
-    map = L.map(opts.name, { preferCanvas: true }).setView(opts.view, opts.zoom);
+    map = L.map(opts.name, { preferCanvas: true, zoomControl: false}).setView(opts.view, opts.zoom);
     map.options.minZoom = opts.zoomMin;
+
+    L.control.zoom({
+      position: 'topright'   // or 'bottomright'
+    }).addTo(map);
 
     let mapImage = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
     let attribution = "&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>";
