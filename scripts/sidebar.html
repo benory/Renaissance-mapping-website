@@ -106,7 +106,7 @@ function updateMarkerSidebar(markerData, show, eventid) {
         headerCell.className = "sidebar-person";
 
         // Match bucket color to marker color
-        const highlightColor = getHighlightColorForPerson(personprocessed);
+        const highlightColor = getSidebarHighlightColor(personprocessed);
 
         let bgColor;
         let borderColor;
@@ -172,8 +172,7 @@ function updateMarkerSidebarRow(
     const row = document.createElement('tr');
     row.id = `marker-${sanitizedEventId}`;
 
-    // EVERYTHING BELOW IS EXACTLY AS BEFORE
-    const highlightColor = getHighlightColorForPerson(personprocessed);
+    const highlightColor = getSidebarHighlightColor(personprocessed);
 
     let backgroundColor;
     if (highlightColor) {
@@ -241,6 +240,17 @@ function updateSidebarWithClusterMarkers(clusterMarkers) {
             }, true, markerData.eventid);
         }
     });
+}
+
+function getSidebarHighlightColor(personName) {
+    const activeNames = new Set([
+        ...getActiveNamesFromContainer('composer-active'),
+        ...getActiveNamesFromContainer('musician-active'),
+        ...getActiveNamesFromContainer('non-musician-active')
+    ]);
+
+    if (!activeNames.has(personName)) return null;
+    return getHighlightColorForPerson(personName);
 }
 
 </script>

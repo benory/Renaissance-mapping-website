@@ -843,8 +843,18 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
             const clampedEarliest = Math.max(1400, earliestyear);
             const clampedLatest = Math.min(1600, latestyear);
             getDecades(clampedEarliest, clampedLatest).forEach(decade => {
-                if (histogramCounts[decade] !== undefined) {
-                    histogramCounts[decade]++;
+                const bin = histogramCounts[decade];
+                if (!bin) return;
+
+                bin.total++;
+
+                if (activeNames.size > 0) {
+                    bin.highlights[personprocessed] =
+                        (bin.highlights[personprocessed] || 0) + 1;
+                } else {
+                    if (type === "BCO") bin.BCO++;
+                    else if (type === "BMU") bin.BMU++;
+                    else if (type === "BNO") bin.BNO++;
                 }
             });
 
