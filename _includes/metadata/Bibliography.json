@@ -655,6 +655,16 @@
 		"Date entered": "2024-6-1"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Pirro_1940",
+		"Author": "Andre Pirro",
+		"Name of Volume/Journal": "Histoire de la Musique de la fin du XIVe siecle a la fin du XVIe",
+		"Location": "Paris",
+		"Publisher": "Renouard",
+		"Publication Year": "1940",
+		"Input data": "SMB",
+		"Date entered": "2025-1-10"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Planchart_2001",
 		"Author": "Alejandro Planchart",
 		"Name of Article": "Du Fay, Guillaume",
@@ -1083,7 +1093,7 @@
 		"Name of Article": "Dunstaple [Dunstable, Dunstapell, Dumstable, Donstaple, etc.], John",
 		"Name of Volume/Journal": "Grove Music Online",
 		"Publication Year": "2001",
-		"URL": "https://www-oxfordmusiconline-com.libproxy.berkeley.edu/grovemusic/view/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-0000008331",
+		"URL": "https://www.oxfordmusiconline.com/",
 		"Input data": "FEM",
 		"Date entered": "2025-03-01"
 	},
@@ -1119,7 +1129,7 @@
 	{
 		"Bibliography (BIB) ID": "BIB:Callewier_2009",
 		"Author": "Hendrik Callewier",
-		"Name of Article": "\"What you do on the Sly...Will be Deemed Forgiven in the Sight of the Most High\": Gilles Goye and the Changing Status of Singers in Fifteenth-Century Bruges",
+		"Name of Article": "What you do on the Sly...Will be Deemed Forgiven in the Sight of the Most High': Gilles Goye and the Changing Status of Singers in Fifteenth-Century Bruges",
 		"Name of Volume/Journal": "Journal of the Alamire Foundation",
 		"Volume": "1",
 		"Publication Year": "2009",
@@ -1199,7 +1209,7 @@
 	{
 		"Bibliography (BIB) ID": "BIB:Nedonchel_1867",
 		"Author": "Georges de Nédonchel",
-		"Name of Article": "Des anciennes lois criminelles en usage dans la ville de Tournai . . . 1313[–]1553,”",
+		"Name of Article": "Des anciennes lois criminelles en usage dans la ville de Tournai . . . 1313[–]1553",
 		"Name of Volume/Journal": "Mémoires de la société historique et littéraire de Tournai",
 		"Volume": "9",
 		"Location": "Tournai",
@@ -1208,5 +1218,16 @@
 		"URL": "https://ia600509.us.archive.org/13/items/lesancienneslois00nd/lesancienneslois00nd.pdf",
 		"Input data": "RP",
 		"Date entered": "2025-12-27"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Wegman_1997",
+		"Author": "Rob C. Wegman",
+		"Name of Article": "Agricola, Bordon and Obrecht at Ghent: Discoveries and Revisions",
+		"Name of Volume/Journal": "Revue Belge de Musicologie",
+		"Volume": "51",
+		"Publication Year": "1997",
+		"Pages": "23-62",
+		"Input data": "SMB",
+		"Date entered": "2026-1-10"
 	}
 ]

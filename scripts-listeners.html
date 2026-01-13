@@ -333,14 +333,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (value === "certain") {
         checkbox.checked = true;
-        button.textContent = "Certain & probable only";
+        button.textContent = "All events";
       } else {
         checkbox.checked = false;
-        button.textContent = "All events";
+        button.textContent = "Certain & probable only";
       }
 
       popup.classList.remove("visible");
-      button.setAttribute("aria-expanded", "false");
+      button.setAttribute("aria-expanded", "true");
 
       filterAndSearchMarkers();
     });
