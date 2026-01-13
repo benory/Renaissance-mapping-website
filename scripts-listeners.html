@@ -313,4 +313,45 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  const button = document.getElementById("certainty-button");
+  const popup = document.querySelector("#certainty-dropdown .certainty-popup");
+  const items = popup.querySelectorAll("li");
+  const checkbox = document.getElementById("certainty-select");
+
+  button.addEventListener("click", () => {
+    const open = popup.classList.toggle("visible");
+    button.setAttribute("aria-expanded", open);
+  });
+
+  items.forEach(item => {
+    item.addEventListener("click", () => {
+      items.forEach(i => i.classList.remove("active"));
+      item.classList.add("active");
+
+      const value = item.dataset.value;
+
+      if (value === "certain") {
+        checkbox.checked = true;
+        button.textContent = "Certain & probable only";
+      } else {
+        checkbox.checked = false;
+        button.textContent = "All events";
+      }
+
+      popup.classList.remove("visible");
+      button.setAttribute("aria-expanded", "false");
+
+      filterAndSearchMarkers();
+    });
+  });
+
+  document.addEventListener("click", e => {
+    if (!document.getElementById("certainty-dropdown").contains(e.target)) {
+      popup.classList.remove("visible");
+      button.setAttribute("aria-expanded", "false");
+    }
+  });
+});
+
 </script>

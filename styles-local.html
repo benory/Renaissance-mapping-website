@@ -2,7 +2,7 @@
 
 :root {
     --histogram-height: 125px;
-    --map-row-height: calc(100vh - 220px);
+    --map-row-height: calc(100vh - 60px);
 }
 
 html, body {
@@ -14,13 +14,19 @@ html, body {
 }
 
 .top-grid {
-    display: grid;
-    grid-template-columns: 1.6fr 1.25fr 0.5fr;
-    align-items: start;
-    gap: 20px;
-    width: 100%;
-    margin-bottom: 10px;
-    margin-top: 10px;
+  pointer-events: auto; /* buttons still clickable */
+  display: grid;
+  grid-template-columns: 1.6fr 1.25fr 0.5fr;
+}
+
+.top-overlay {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  z-index: 1000;
+
+  pointer-events: none; /* important */
 }
 
 .right-column {
@@ -35,20 +41,30 @@ html, body {
 }
 
 .search-row {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.search-stack {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 /* Search bar container grows */
 .search-wrapper {
     flex: 1;
     position: relative;
+    width: 100%;
 }
 
 /* Search input fills the wrapper */
 .search-wrapper input[type="text"] {
-    width: 100%;
+    max-width: 100%;
     height: 40px;
 
     padding: 10px 14px 10px 36px; /* room for icon */
@@ -96,11 +112,125 @@ html, body {
     font-weight: 400;
 }
 
-/* Certainty + institutions row */
-.ci-row {
+.search-controls {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+#certainty-button {
+  display: inline-flex;
+  align-items: center;
+  height: 38px;
+
+  padding: 6px 16px 6px 16px;
+
+  font-size: 13px;
+  font-weight: 500;
+  color: #1f1f1f;
+
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 9999px;
+
+  cursor: pointer;
+  white-space: nowrap;
+
+  box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.08);
+
+  transition:
+    background-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.15s ease;
+}
+
+/* Arrow */
+#certainty-button::after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  margin-left: 10px;
+
+  background-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23333'>\
+<path d='M5.23 7.21a.75.75 0 0 1 1.06.02L10 10.94l3.71-3.71a.75.75 0 1 1 1.06 1.06l-4.24 4.24a.75.75 0 0 1-1.06 0L5.21 8.29a.75.75 0 0 1 .02-1.08z'/>\
+</svg>");
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.75;
+}
+
+/* Hover */
+#certainty-button:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow:
+    0 6px 14px rgba(0, 0, 0, 0.16),
+    0 2px 4px rgba(0, 0, 0, 0.12);
+  transform: translateY(-1px);
+}
+
+/* Active */
+#certainty-button:active {
+  transform: translateY(0);
+  box-shadow:
+    0 3px 6px rgba(0, 0, 0, 0.16) inset,
+    0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Dropdown popup */
+.certainty-popup {
+    display: none;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1001;
+
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+
+    border: 1px solid rgba(0,0,0,0.12);
+    border-radius: 10px;
+
+    box-shadow:
+        0 10px 24px rgba(0,0,0,0.18),
+        0 2px 6px rgba(0,0,0,0.12);
+
+    width: 220px;
+}
+
+.certainty-popup.visible {
+    display: block;
+}
+
+.certainty-list {
+    list-style: none;
+    margin: 0;
+    padding: 6px 0;
+}
+
+.certainty-list li {
+    padding: 8px 14px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+.certainty-list li:hover {
+    background: rgba(0,0,0,0.05);
+}
+
+.certainty-list li.active {
+    font-weight: 600;
+    background: rgba(120, 200, 210, 0.25);
 }
 
 /* Right column = stacked checkboxes */
@@ -113,8 +243,7 @@ html, body {
 .container {
     position: relative;
     width: 100vw;
-    height: calc(100vh - 240px); /* header + top-grid */
-    margin-left: calc(50% - 50vw); /* escape any residual centering */
+    margin-left: calc(50% - 50vw);
 }
 
 .row {
@@ -123,6 +252,12 @@ html, body {
     width: 100%;
     height: var(--map-row-height);
     transition: height 0.25s ease;     
+}
+
+.map-stage {
+  position: relative;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 #map-container {
@@ -141,7 +276,7 @@ html, body {
 
 #sidebar {
     width: 260px;
-    margin-top: 10px;
+    margin-top: 100px;
     margin-left: 30px;
     display: flex;
     flex-direction: column;
@@ -240,17 +375,6 @@ html, body {
     margin-bottom: 20px;
 }
 
-.search-count {
-    white-space: nowrap;
-    flex-shrink: 0;
-    font-size: 14px;
-    margin-left: 10px;
-}
-
-.search-row > div {
-    flex: 1;   /* search bar grows */
-}
-
 .search-bar {
     display: flex;
     align-items: top;
@@ -259,19 +383,35 @@ html, body {
 
 .checkbox-container {
     display: flex;
-    flex-direction: column; /* Make checkboxes stack vertically */
-    gap: 1px; /* Adjust the spacing between checkboxes */
-    position: relative;
+    flex-direction: column;
+    gap: 6px;
+    transform: translate(-40px, -2px);
+
+    padding: 10px 12px;
+
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    
+    box-shadow:
+        0 6px 14px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.08);
 }
 
 .checkbox-item {
     display: flex;
     align-items: center;
+    padding: 4px 2px;
 }
 
 .checkbox-item label {
-    margin-left: 5px; /* Adjust the space between checkbox and label */
-    white-space: nowrap; /* Prevent label text from breaking onto two lines */
+    margin-left: 6px;
+    font-size: 14px;
+}
+
+.checkbox-item:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+    border-radius: 6px;
 }
 
 .small-space {
@@ -450,10 +590,8 @@ table.histogram div.count {
 }
 
 .selected-names-bar {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px 0 10px 0;
-    gap: 8px;
+  margin-top: -70px;
+  pointer-events: auto;
 }
 
 .active-names {
@@ -643,11 +781,12 @@ table.histogram div.count {
 
 #institution-button {
   display: inline-flex;
+  height: 38px;
+
   align-items: center;
   gap: 8px;
 
   padding: 6px 14px;
-  height: 34px;
 
   font-size: 13px;
   font-weight: 500;
@@ -743,7 +882,7 @@ table.histogram div.count {
   z-index: 10000;
 
   overflow: hidden;
-  
+
   opacity: 0;
   pointer-events: none;
 
@@ -785,8 +924,13 @@ table.histogram div.count {
 }
 
 .custom-dropdown {
-  position: relative;
-  margin-left: 16px; /* Adjust spacing here */
+    position: relative;
+    margin-left: 16px;
+}
+
+#institution-button,
+#certainty-button {
+  flex-shrink: 0;
 }
 
 .autocomplete-item {
@@ -801,45 +945,61 @@ table.histogram div.count {
 
 .histogram-toggle {
     position: sticky;
-    bottom: 10px;              /* REQUIRED */
+    bottom: 12px;
 
-    display: block;
-    margin: 15px auto;
-    padding: 8px 18px;
+    display: inline-flex;
+    align-items: center;
 
-    font-size: 12px;
+    margin: 16px auto;
+
+    /* Apple-style padding */
+    padding: 8px 28px 8px 44px;
+
+    font-size: 13px;
     font-weight: 500;
+    line-height: 1;
 
-    color: #0b3c4a;
-    background: rgba(120, 200, 210, 0.55);
+    color: #1f2933;
+
+    background-color: rgba(255, 255, 255, 0.75);
+    background-image: url("../images/graph.svg");
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 16px center;
 
     border: 1px solid rgba(0, 0, 0, 0.12);
     border-radius: 9999px;
 
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
 
     cursor: pointer;
-    transition: background 0.2s ease, transform 0.15s ease;
+
+    transition:
+        background-color 0.2s ease,
+        box-shadow 0.2s ease,
+        transform 0.15s ease;
 
     z-index: 5;
 
     box-shadow:
-        0 6px 14px rgba(0, 0, 0, 0.18),
-        0 1px 2px rgba(0, 0, 0, 0.12);
-
+        0 4px 10px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.08);
 }
 
 .histogram-toggle:hover {
-    background: rgba(120, 200, 210, 0.75);
+    background-color: rgba(255, 255, 255, 0.9);
     transform: translateY(-1px);
     box-shadow:
-        0 8px 18px rgba(0, 0, 0, 0.22),
-        0 2px 4px rgba(0, 0, 0, 0.15);
+        0 8px 18px rgba(0, 0, 0, 0.18),
+        0 2px 4px rgba(0, 0, 0, 0.12);
 }
 
 .histogram-toggle:active {
     transform: translateY(0);
+    box-shadow:
+        0 3px 6px rgba(0, 0, 0, 0.16) inset,
+        0 1px 2px rgba(0, 0, 0, 0.08);
 }
 
 #histogram-panel {
