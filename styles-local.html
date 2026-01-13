@@ -594,13 +594,16 @@ table.histogram div.count {
 }
 
 .institution-list-container {
-  max-height: 200px;
+  max-height: 240px;
   overflow-y: auto;
-  background: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  min-width: 350px;
-  z-index: 9500;
-  border-radius: 4px;
+  overflow-x: hidden;
+
+  padding: 4px;
+
+  border-radius: 12px;
+  background: rgba(245, 245, 247, 0.75);
+
+  box-sizing: border-box;
 }
 
 .institution-list {
@@ -610,86 +613,175 @@ table.histogram div.count {
 }
 
 .institution-list li {
-  padding: 5px 10px;
-  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 4px 5px;
+
+  font-size: 12px;
+  font-weight: 500;
+  color: #1f1f1f;
+
+  border-radius: 10px;
   cursor: pointer;
+
+  transition:
+    background-color 0.15s ease,
+    transform 0.12s ease;
 }
 
 .institution-list li:hover {
-  background-color: #f0f0f0;
+  background-color: rgba(0, 0, 0, 0.06);
+  transform: translateY(-0.5px);
 }
 
 .institution-list li input[type="checkbox"] {
-  margin-right: 8px;
+  accent-color: #007aff; /* Apple blue */
+  transform: scale(1.05);
 }
 
 #institution-button {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
   gap: 8px;
-  padding: 4px 10px;
-  font-size: 14px;
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+
+  padding: 6px 14px;
+  height: 34px;
+
+  font-size: 13px;
+  font-weight: 500;
+  color: #1f1f1f;
+
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 9999px;
+
   cursor: pointer;
-  box-sizing: border-box;
-  height: 30px;
-  max-width: 100%;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  position: relative;
-  z-index: 9500; /* stays above map buttons */
+
+  box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.08);
+
+  transition:
+    background 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.15s ease;
 }
 
 #institution-button.with-arrow {
-  padding-right: 20px; /* Extra space for the arrow */
+  padding-left: 40px;
   width: auto; /* Or set a fixed width if preferred */
   min-width: 150px; /* Ensures room for both text and arrow */
   background-position: right 10px center; /* Keep the arrow aligned */
+  background-image: url("../images/church.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: 14px center;
 }
 
 #institution-button.with-arrow::after {
   content: "";
-  background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  width: 14px;
+  height: 14px;
+  background-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23333'>\
+<path d='M5.23 7.21a.75.75 0 0 1 1.06.02L10 10.94l3.71-3.71a.75.75 0 1 1 1.06 1.06l-4.24 4.24a.75.75 0 0 1-1.06 0L5.21 8.29a.75.75 0 0 1 .02-1.08z'/>\
+</svg>");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 16px;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  pointer-events: none;
+  background-size: contain;
+  opacity: 0.75;
 }
 
 /* Optional hover/focus for better UX */
 #institution-button:hover {
   border-color: #aaa;
-  background-color: #f9f9f9;
+  box-shadow:
+    0 6px 14px rgba(0, 0, 0, 0.16),
+    0 2px 4px rgba(0, 0, 0, 0.12);
+  transform: translateY(-1px);
+}
+
+#institution-button:active {
+  transform: translateY(0);
+  box-shadow:
+    0 3px 8px rgba(0, 0, 0, 0.14),
+    0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#institution-button.open {
+  background: rgba(240, 240, 240, 0.95);
+  border-color: rgba(0, 0, 0, 0.2);
 }
 
 .institution-popup {
-  display: none;
   position: absolute;
-  top: calc(100% + 10px);
+  top: calc(100% + 12px);
   left: 50%;
-  transform: translateX(-50%);
-  z-index: 1001;
-  background: #fff;
-  border: 1px solid #aaa;
-  border-radius: 6px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  padding: 20px;
-  width: 350px;
-  font-family: sans-serif;
+  transform: translateX(-50%) translateY(-4px);
+
+  width: 360px;
+  max-height: 320px;
+
+  padding: 14px;
+
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.18),
+    0 6px 12px rgba(0, 0, 0, 0.12);
+
+  z-index: 10000;
+
+  overflow: hidden;
+  
+  opacity: 0;
+  pointer-events: none;
+
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
 }
 
 .institution-popup.visible {
-  display: block;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.institution-popup .section-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.institution-popup::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 13px;
+  height: 13px;
+
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+
+  border-left: 1px solid rgba(0,0,0,0.08);
+  border-top: 1px solid rgba(0,0,0,0.08);
+
+  transform: translateX(-50%) rotate(45deg);
 }
 
 .custom-dropdown {

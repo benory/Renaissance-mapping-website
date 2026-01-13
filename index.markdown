@@ -33,7 +33,7 @@ layout: map
                 <label for="certainty-select">Only certain and probable events</label>
             </div>
             <div class="custom-dropdown" id="institution-dropdown">
-                <button id="institution-button" class="with-arrow">View Institutions</button>
+                <button id="institution-button" class="with-arrow">Institutions</button>
                     <div class="custom-dropdown" >    
                     </div>
             </div>
