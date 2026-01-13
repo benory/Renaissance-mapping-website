@@ -889,7 +889,7 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
     }
 
     document.querySelector("#search-count").innerHTML = `${searchCount} ${searchCount === 1 ? "Event" : "Events"} `;
-
+    
     updateHistogram(histogramCounts);
     map.addLayer(markerCluster);
     map.invalidateSize();
