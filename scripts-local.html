@@ -888,7 +888,7 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
         updateSidebar();
     }
 
-    document.querySelector("#search-count").innerHTML = `${searchCount} ${totalMarkers === 1 ? "Event" : "Events"} `;
+    document.querySelector("#search-count").innerHTML = `${searchCount} ${searchCount === 1 ? "Event" : "Events"} `;
 
     updateHistogram(histogramCounts);
     map.addLayer(markerCluster);
