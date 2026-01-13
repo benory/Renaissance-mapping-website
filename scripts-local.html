@@ -138,7 +138,7 @@ function doMapSetup(opts) {
     map.options.minZoom = opts.zoomMin;
 
     L.control.zoom({
-      position: 'topright'   // or 'bottomright'
+      position: 'bottomright'   // or 'bottomright'
     }).addTo(map);
 
     let mapImage = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
