@@ -286,7 +286,7 @@ function doMapSetup(opts) {
 
     markerCluster.on("clusterclick", function (e) {
         const bounds = e.layer.getBounds();
-        const targetZoom = Math.min(map.getZoom() + 1, 8);
+        const targetZoom = Math.min(map.getZoom() + 1, 15);
 
         map.fitBounds(bounds, {
             padding: [40, 40],
@@ -633,7 +633,7 @@ function doMapSetup(opts) {
                         });
 
                         marker.on("click", function () {
-                          const targetZoom = Math.min(map.getZoom() + 1, 8);
+                          const targetZoom = Math.min(map.getZoom() + 1, 15);
 
                           // --- KEY IDEA: offset the map center downward in pixels ---
                           // Increase this number if the popup is still too high.
