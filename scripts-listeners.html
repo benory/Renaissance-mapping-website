@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector("#composer-select").checked = true;
     document.querySelector("#musician-select").checked = true;
     document.querySelector("#non-musician-select").checked = false;
-    document.querySelector("#certainty-select").checked = true;
+    document.querySelector("#certainty-select").checked = false;
 
     document.querySelectorAll('.checkbox-item input[type="checkbox"]').forEach(checkbox => {
         checkbox.addEventListener('change', handleCheckboxChange);
@@ -333,10 +333,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (value === "certain") {
         checkbox.checked = true;
-        button.textContent = "All events";
+        button.textContent = "Certain & probable only";
       } else {
         checkbox.checked = false;
-        button.textContent = "Certain & probable only";
+        button.textContent = "All events";
       }
 
       popup.classList.remove("visible");
