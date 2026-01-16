@@ -353,4 +353,78 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("date-button");
+  const popup = document.querySelector("#date-dropdown .date-popup");
+
+  const minInput = document.getElementById("date-input-min");
+  const maxInput = document.getElementById("date-input-max");
+
+  const sliderMin = document.getElementById("date-slider-min");
+  const sliderMax = document.getElementById("date-slider-max");
+
+  const HARD_MIN = 1400;
+  const HARD_MAX = 1600;
+
+  btn.addEventListener("click", () => {
+    const open = popup.classList.toggle("visible");
+    btn.setAttribute("aria-expanded", open);
+  });
+
+  popup.querySelector(".date-apply").addEventListener("click", () => {
+    let min = parseInt(minInput.value, 10);
+    let max = parseInt(maxInput.value, 10);
+
+    // Fallbacks
+    if (isNaN(min)) min = HARD_MIN;
+    if (isNaN(max)) max = HARD_MAX;
+
+    // Clamp to bounds
+    min = Math.max(HARD_MIN, Math.min(HARD_MAX, min));
+    max = Math.max(HARD_MIN, Math.min(HARD_MAX, max));
+
+    // Ensure proper ordering
+    if (min > max) {
+      [min, max] = [max, min];
+    }
+
+    // Sync inputs + sliders
+    minInput.value = min;
+    maxInput.value = max;
+    sliderMin.value = min;
+    sliderMax.value = max;
+
+    updateDateRange();
+    updateSliderBackground();
+    filterAndSearchMarkers();
+
+    btn.textContent = `${sliderMin.value}–${sliderMax.value}`;
+    popup.classList.remove("visible");
+    btn.setAttribute("aria-expanded", "false");
+  });
+
+  popup.querySelector(".date-reset").addEventListener("click", () => {
+    sliderMin.value = HARD_MIN;
+    sliderMax.value = HARD_MAX;
+
+    minInput.value = "";
+    maxInput.value = "";
+
+    updateDateRange();
+    updateSliderBackground();
+    filterAndSearchMarkers();
+
+    btn.textContent = "All dates";
+    popup.classList.remove("visible");
+    btn.setAttribute("aria-expanded", "false");
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!document.getElementById("date-dropdown").contains(e.target)) {
+      popup.classList.remove("visible");
+      btn.setAttribute("aria-expanded", "false");
+    }
+  });
+});
+
 </script>

@@ -47,6 +47,30 @@ layout: map
                             </ul>
                           </div>
                       </div>
+                      <div class="custom-dropdown" id="date-dropdown">
+                      <button
+                        id="date-button"
+                        class="with-arrow apple-pill-button"
+                        aria-expanded="false">
+                        All dates
+                      </button>
+                      <div class="date-popup">
+                        <div class="date-input-row">
+                          <label>
+                            From
+                            <input type="number" id="date-input-min" min="1400" max="1600" placeholder="1400">
+                          </label>
+                          <label>
+                            To
+                            <input type="number" id="date-input-max" min="1400" max="1600" placeholder="1600">
+                          </label>
+                        </div>
+                        <div class="date-actions">
+                          <button class="date-reset">Reset</button>
+                          <button class="date-apply">Apply</button>
+                        </div>
+                      </div>
+                    </div>
                       <input type="checkbox" id="certainty-select" hidden>
                     </div>
                 </div>

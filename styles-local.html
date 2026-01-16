@@ -16,7 +16,7 @@ html, body {
 .top-grid {
   pointer-events: auto; /* buttons still clickable */
   display: grid;
-  grid-template-columns: 1.6fr 1.25fr 0.5fr;
+  grid-template-columns: 2fr 1fr 0.5fr;
 }
 
 .top-overlay {
@@ -1014,6 +1014,151 @@ table.histogram div.count {
 
 .histogram-visible #histogram-panel {
     display: block;
+}
+
+#date-button {
+  display: inline-flex;
+  align-items: center;
+  height: 38px;
+
+  padding: 6px 16px;
+
+  font-size: 13px;
+  font-weight: 500;
+  color: #1f1f1f;
+
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 9999px;
+
+  cursor: pointer;
+  white-space: nowrap;
+
+  box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.08);
+
+  transition:
+    background-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.15s ease;
+}
+
+/* Arrow caret (identical to certainty button) */
+#date-button::after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  margin-left: 10px;
+
+  background-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23333'>\
+<path d='M5.23 7.21a.75.75 0 0 1 1.06.02L10 10.94l3.71-3.71a.75.75 0 1 1 1.06 1.06l-4.24 4.24a.75.75 0 0 1-1.06 0L5.21 8.29a.75.75 0 0 1 .02-1.08z'/>\
+</svg>");
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.75;
+}
+
+#date-button:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow:
+    0 6px 14px rgba(0, 0, 0, 0.16),
+    0 2px 4px rgba(0, 0, 0, 0.12);
+  transform: translateY(-1px);
+}
+
+#date-button:active {
+  transform: translateY(0);
+  box-shadow:
+    0 3px 6px rgba(0, 0, 0, 0.16) inset,
+    0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.date-popup {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  border-radius: 14px;
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.18),
+    0 1px 3px rgba(0,0,0,0.12);
+
+  padding: 14px;
+  min-width: 220px;
+  display: none;
+  z-index: 200;
+}
+
+.date-popup.visible {
+  display: block;
+}
+
+.date-input-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.date-input-row label {
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  color: #555;
+}
+
+.date-input-row input {
+  margin-top: 4px;
+  padding: 6px 8px;
+  font-size: 13px;
+  border-radius: 8px;
+  border: 1px solid rgba(0,0,0,0.2);
+  width: 80px;
+}
+
+.date-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-actions button {
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+}
+
+.date-apply {
+  background: #0b3c4a;
+  color: white;
+}
+
+.date-reset {
+  background: rgba(0,0,0,0.08);
+}
+
+/* Remove number input spinners (Chrome, Safari, Edge) */
+.date-input-row input[type="number"]::-webkit-inner-spin-button,
+.date-input-row input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove number input spinners (Firefox) */
+.date-input-row input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#date-dropdown {
+  pointer-events: auto;
 }
 
 </style>
