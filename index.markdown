@@ -1,5 +1,7 @@
 ---
 layout: map
+hide_footer: true
+
 ---
 
 {% include_relative styles-local.html %}
