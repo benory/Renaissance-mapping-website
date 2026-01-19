@@ -33,6 +33,24 @@ MAP.METADATA.Institutions = {% include metadata/Institutions.json %};
 MAP.METADATA.Locations = {% include metadata/Locations.json %};
 MAP.METADATA.Occasions = {% include metadata/Occasions.json %};
 
+
+// Create map for targets
+const targets = {% include metadata/Targets.json %};
+
+const targetTypeByNormalizedName = new Map();
+
+targets.forEach(t => {
+  const full =
+    t.First
+      ? `${t.First} ${t.Last}`
+      : t.Last;
+
+  targetTypeByNormalizedName.set(
+    normalizeName(full),
+    t["Target Type"]
+  );
+});
+
 // Global variables for certainty
 let locationCertainty = "";
 let earliestDateCertainty = "";
@@ -426,5 +444,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+function normalizeName(str) {
+  return str
+    .toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // strip accents
+    .replace(/[^a-z\s]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
 
 </script>

@@ -120,7 +120,9 @@ hide_footer: true
                                 <th><span id="search-count" class="search-count"></span>Shown on Map</th>
                             </tr>
                         </thead>
-                        <tbody id="sidebar-composers"></tbody>
+                        <tbody id="sidebar-composers-a"></tbody>
+                        <tbody id="sidebar-composers-b"></tbody>
+                        <tbody id="sidebar-composers-other"></tbody>
                         <tbody id="sidebar-musicians"></tbody>
                         <tbody id="sidebar-nonmusicians"></tbody>
                     </table>

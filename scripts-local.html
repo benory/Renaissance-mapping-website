@@ -556,6 +556,13 @@ function doMapSetup(opts) {
             // Create EventID for sharing
             let shareID = eventid.slice(3); // Remove the first three characters
 
+            // Get Target Type for Composers
+            // Get Target Type (A / B / C) via normalized displayed name
+            const normalizedPersonName = normalizeName(personprocessed);
+
+            const targetType =
+              targetTypeByNormalizedName.get(normalizedPersonName) || null;
+
             // Map points if there are coordinates and the earliest and latest years are defined
             if (coordinates !== undefined && earliestyear !== undefined && latestyear !== undefined && latestyear > 1399 && earliestyear < 1601) {
                 // Convert the comma-separated string into an array
@@ -670,6 +677,7 @@ function doMapSetup(opts) {
                     markers.push({ 
                         marker: marker, 
                         personID: person,
+                        targetType,
                         alias: alias,
                         institution: institution,
                         institutiontype: institutiontype,

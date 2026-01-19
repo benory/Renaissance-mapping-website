@@ -3,7 +3,9 @@
 function updateSidebar() {
     sidebarGroups.clear();
 
-    document.getElementById('sidebar-composers').innerHTML = '';
+    document.getElementById('sidebar-composers-a').innerHTML = '';
+    document.getElementById('sidebar-composers-b').innerHTML = '';
+    document.getElementById('sidebar-composers-other').innerHTML = '';
     document.getElementById('sidebar-musicians').innerHTML = '';
     document.getElementById('sidebar-nonmusicians').innerHTML = '';
 
@@ -85,13 +87,24 @@ function getHighlightColorForPerson(name) {
 function updateMarkerSidebar(markerData, show, eventid) {
     if (!show) return;
 
-    const { personID, personprocessed } = markerData;
+    const { personID, personprocessed, targetType } = markerData;
     const type = personID.substring(0, 3);
 
-    const container =
-        type === "BCO" ? document.getElementById("sidebar-composers") :
-        type === "BMU" ? document.getElementById("sidebar-musicians") :
-                         document.getElementById("sidebar-nonmusicians");
+    let container;
+
+    if (type === "BCO") {
+        if (targetType === "A") {
+            container = document.getElementById("sidebar-composers-a");
+        } else if (targetType === "B") {
+            container = document.getElementById("sidebar-composers-b");
+        } else {
+            container = document.getElementById("sidebar-composers-other");
+        }
+    } else if (type === "BMU") {
+        container = document.getElementById("sidebar-musicians");
+    } else {
+        container = document.getElementById("sidebar-nonmusicians");
+    }
 
     // If only one person, skip buckets entirely
     if (!useBuckets) {
@@ -99,7 +112,7 @@ function updateMarkerSidebar(markerData, show, eventid) {
         return;
     }
 
-    // Otherwise: grouped (current behavior)
+    // --- CREATE PERSON BUCKET IF NEEDED ---
     if (!sidebarGroups.has(personprocessed)) {
         const headerRow = document.createElement("tr");
         const headerCell = document.createElement("td");
@@ -112,7 +125,7 @@ function updateMarkerSidebar(markerData, show, eventid) {
         let borderColor;
 
         if (highlightColor) {
-            bgColor = highlightColor + "22";   // light tint
+            bgColor = highlightColor + "22";
             borderColor = highlightColor;
         } else {
             if (type === "BCO") bgColor = "rgba(68, 1, 84, 0.12)";
@@ -128,7 +141,6 @@ function updateMarkerSidebar(markerData, show, eventid) {
         caret.className = "sidebar-caret";
         caret.textContent = "▸";
 
-        headerCell.appendChild(caret);
         const nameSpan = document.createElement("span");
         nameSpan.textContent = ` ${personprocessed}`;
 
@@ -136,28 +148,64 @@ function updateMarkerSidebar(markerData, show, eventid) {
         countSpan.className = "sidebar-count";
         countSpan.textContent = " (0 events)";
 
+        headerCell.appendChild(caret);
         headerCell.appendChild(nameSpan);
         headerCell.appendChild(countSpan);
         headerRow.appendChild(headerCell);
-        container.appendChild(headerRow);
 
         const body = document.createElement("tbody");
         body.className = "sidebar-events";
-        container.appendChild(body);
 
         headerCell.addEventListener("click", () => {
             caret.classList.toggle("open");
             body.classList.toggle("open");
         });
 
+        // LOGIC FOR COMPOSERS
+        if (type === "BCO") {
+            const priority = { "A": 0, "B": 1 };
+            const myRank = priority[targetType] ?? 2;
+
+            let inserted = false;
+            const rows = Array.from(container.children);
+
+            for (let i = 0; i < rows.length; i++) {
+                const row = rows[i];
+                const existingName = row.querySelector(".sidebar-person span")?.textContent?.trim();
+                if (!existingName) continue;
+
+                const existingGroup = sidebarGroups.get(existingName);
+                if (!existingGroup) continue;
+
+                const existingRank =
+                    priority[existingGroup.targetType] ?? 2;
+
+                if (existingRank > myRank) {
+                    container.insertBefore(headerRow, row);
+                    container.insertBefore(body, row);
+                    inserted = true;
+                    break;
+                }
+            }
+
+            if (!inserted) {
+                container.appendChild(headerRow);
+                container.appendChild(body);
+            }
+        } else {
+            // musicians / non-musicians: keep current behavior
+            container.appendChild(headerRow);
+            container.appendChild(body);
+        }
+
         sidebarGroups.set(personprocessed, {
             body,
-            countSpan
+            countSpan,
+            targetType
         });
     }
 
     const groupBody = sidebarGroups.get(personprocessed).body;
-
     updateMarkerSidebarRow(markerData, groupBody, eventid);
 }
 
