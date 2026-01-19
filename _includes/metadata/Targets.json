@@ -3,7 +3,8 @@
 		"Target Type": "A",
 		"Last": "Agricola",
 		"First": "Alexander",
-		"Status": "Complete"
+		"Status": "Complete",
+		"Contributor": "SMB"
 	},
 	{
 		"Target Type": "A",
@@ -49,8 +50,20 @@
 	},
 	{
 		"Target Type": "A",
+		"Last": "Clemens non Papa",
+		"First": "Jacobus",
+		"Status": "2 events"
+	},
+	{
+		"Target Type": "A",
 		"Last": "Compere",
 		"First": "Loyset",
+		"Status": "1 event"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Cornysh",
+		"First": "William",
 		"Status": "1 event"
 	},
 	{
@@ -181,6 +194,12 @@
 	},
 	{
 		"Target Type": "A",
+		"Last": "Morales",
+		"First": "Cristòbal de",
+		"Status": "10 events"
+	},
+	{
+		"Target Type": "A",
 		"Last": "Morton",
 		"First": "Robert",
 		"Status": "0 events"
@@ -211,12 +230,6 @@
 	},
 	{
 		"Target Type": "A",
-		"Last": "Prioris",
-		"First": "Denis",
-		"Status": "Mostly Complete"
-	},
-	{
-		"Target Type": "A",
 		"Last": "Regis",
 		"First": "Johannes",
 		"Status": "Mostly Complete"
@@ -235,6 +248,18 @@
 	},
 	{
 		"Target Type": "A",
+		"Last": "Sheppard",
+		"First": "John",
+		"Status": "1 event"
+	},
+	{
+		"Target Type": "A",
+		"Last": "Tallis",
+		"First": "Thomas",
+		"Status": "1 event"
+	},
+	{
+		"Target Type": "A",
 		"Last": "Tinctoris",
 		"First": "Johannes",
 		"Status": "Complete"
@@ -248,7 +273,7 @@
 	{
 		"Target Type": "A",
 		"Last": "Weerbeke",
-		"First": "Gaspar",
+		"First": "Gaspar van",
 		"Status": "9 events",
 		"Contributor": "SMB"
 	},
@@ -306,6 +331,7 @@
 	{
 		"Target Type": "B",
 		"Last": "Cara",
+		"First": "Marchetto",
 		"Status": "0 events"
 	},
 	{
@@ -359,6 +385,7 @@
 	{
 		"Target Type": "B",
 		"Last": "De Domarto",
+		"First": "Petrus",
 		"Status": "0 events"
 	},
 	{
@@ -380,6 +407,7 @@
 	{
 		"Target Type": "B",
 		"Last": "Forestier",
+		"First": "Mathurin",
 		"Status": "0 events"
 	},
 	{
@@ -418,6 +446,11 @@
 	},
 	{
 		"Target Type": "B",
+		"Last": "Layolle",
+		"First": "Francesco de"
+	},
+	{
+		"Target Type": "B",
 		"Last": "Le Rouge",
 		"Status": "0 events",
 		"Contributor": "SMB - Begun"
@@ -442,6 +475,7 @@
 	{
 		"Target Type": "B",
 		"Last": "Martini",
+		"First": "Johannes",
 		"Status": "0 events"
 	},
 	{
@@ -457,6 +491,7 @@
 	{
 		"Target Type": "B",
 		"Last": "Moulu",
+		"First": "Pierre",
 		"Status": "0 events"
 	},
 	{
@@ -475,6 +510,12 @@
 		"Target Type": "B",
 		"Last": "Power",
 		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Prioris",
+		"First": "Dionysius",
+		"Status": "Mostly Complete"
 	},
 	{
 		"Target Type": "B",
@@ -513,6 +554,7 @@
 	{
 		"Target Type": "B",
 		"Last": "Stolzer",
+		"First": "Thomas",
 		"Status": "0 events"
 	},
 	{
@@ -731,6 +773,7 @@
 	{
 		"Target Type": "C",
 		"Last": "of Burgundy",
-		"First": "Philip the good"
+		"First": "Philip the good",
+		"Status": "0 events"
 	}
 ]

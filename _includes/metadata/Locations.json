@@ -2734,6 +2734,15 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Location ID (LOC)": "LOC:Samer",
+		"Name of Location": "Samer",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/ptXZ9CVVWrMyWuES9",
+		"Coordinates": "50.64, 1.75",
+		"Input data": "SMB",
+		"Date entered": "2026-1-16"
+	},
+	{
 		"Location ID (LOC)": "LOC:San_Vito",
 		"Name of Location": "San Vito",
 		"Input data": "BSO",
