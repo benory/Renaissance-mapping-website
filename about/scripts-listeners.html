@@ -1,0 +1,14 @@
+<script>
+
+let MAP = {};
+
+MAP.METADATA = {};
+MAP.METADATA.Events = {% include metadata/Events.json %};
+
+// Trigger filling in metadata for documentation
+
+document.addEventListener("DOMContentLoaded", () => {
+    fillInMetadataCensus();
+});
+
+</script>

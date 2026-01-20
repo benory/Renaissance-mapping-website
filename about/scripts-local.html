@@ -1,0 +1,18 @@
+{% include_relative scripts-listeners.html %}
+
+<script>
+
+function fillInMetadataCensus() {
+    const meta = MAP.METADATA;
+    const eventCount = meta.Events.length;
+    const roundedCount = Math.floor(eventCount / 100) * 100;
+    updateCount("#event-count", roundedCount);
+}
+
+// Helper to update DOM targets
+function updateCount(selector, value) {
+    const el = document.querySelector(selector);
+    if (el) el.textContent = value;
+}
+
+</script>
