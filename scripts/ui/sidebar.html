@@ -19,6 +19,8 @@ function updateSidebar() {
         ...getActiveNamesFromContainer('non-musician-active')
     ]);
 
+    forceExpand = activeNames.size > 0;
+
     const searchInput = document.querySelector("#input");
     const searchRegex = searchInput && searchInput.value.trim() !== ""
         ? new RegExp(searchInput.value, 'i')
@@ -160,6 +162,12 @@ function updateMarkerSidebar(markerData, show, eventid) {
             caret.classList.toggle("open");
             body.classList.toggle("open");
         });
+
+        // AUTO-EXPAND if names are selected
+        if (forceExpand) {
+            caret.classList.add("open");
+            body.classList.add("open");
+        }
 
         // LOGIC FOR COMPOSERS
         if (type === "BCO") {
