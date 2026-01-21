@@ -1,0 +1,82 @@
+<script>
+
+//////////////////////////////
+//
+// MAP.cindex -- uses the Spreadsheet ID and JavaScript ID to call the full name of a given header
+// 
+
+MAP.cindex = function (sheetid, javaid) {
+	return this.index.Headers[`${sheetid}:${javaid}`];
+}
+
+//////////////////////////////
+//
+// buildLookupTables –- 
+//
+
+function buildLookupTables() {
+	let metadata = MAP.METADATA;
+	if (!metadata){
+		console.warn("No METADATA!");
+		return;
+	}
+	for (sheet in metadata) {
+		if (sheet === "Events"){
+			continue;
+		}
+		buildLookupTable(sheet);
+	}
+}
+
+
+//////////////////////////////
+//
+// buildLookupTable –-
+//
+
+function buildLookupTable(sheet) {
+    let sheetArray = MAP.METADATA[sheet];
+    if (!sheetArray || !Array.isArray(sheetArray)){
+        console.warn("No METADATA FOR", sheet);
+        return;
+    }
+    MAP.lookup[sheet] = {};
+    const lookup = MAP.lookup[sheet];
+
+    // Dynamically determine the ID key
+    let idKey = null;
+    if (sheetArray.length > 0) {
+        const firstEntry = sheetArray[0];
+        for (let key in firstEntry) {
+            if (key.toLowerCase().includes("id")) {
+                idKey = key;
+                break;
+            }
+        }
+    }
+
+    if (!idKey) {
+        console.warn(`No ID key found for sheet ${sheet}`);
+        return;
+    }
+
+    for (let entry of sheetArray) {
+        let id = entry[idKey];
+        if (!id){
+            console.warn("NO ID FOR ENTRY", entry);
+            continue;
+        }
+        lookup[id] = entry;
+    }
+}
+
+//////////////////////////////
+//
+// findInfo –- find info on other sheets
+//
+
+function findInfo(id, sheet) {
+    return MAP.lookup[sheet] ? MAP.lookup[sheet][id] : null;
+}
+
+</script>

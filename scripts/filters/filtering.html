@@ -1,0 +1,109 @@
+<script>
+
+// Filter markers + user search
+function filterAndSearchMarkers(skipSidebarUpdate = false) {
+    const input = document.querySelector("#input");
+    const searchRegex = input && input.value.trim() !== "" ? new RegExp(input.value, 'i') : null;
+
+    const checkboxStates = getCheckboxStates();
+    const histogramCounts = initializeDecades(1400, 1590);
+    const minYear = parseInt(document.getElementById('date-slider-min').value, 10);
+    const maxYear = parseInt(document.getElementById('date-slider-max').value, 10);
+    
+    const activeNames = new Set([
+        ...getActiveNamesFromContainer('composer-active'),
+        ...getActiveNamesFromContainer('musician-active'),
+        ...getActiveNamesFromContainer('non-musician-active')
+    ]);
+
+    const visibleMarkers = getVisibleMarkers();
+    const currentMarkers = new Set(markerCluster.getLayers());
+    const newVisibleMarkers = new Set();
+    const markersToRemove = new Set();
+
+    let searchCount = 0;
+
+    if (!skipSidebarUpdate) {
+        document.querySelector('#active-markers-table tbody').innerHTML = '';
+    }
+
+    visibleMarkers.forEach(({ marker, personID, alias, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, text, eventid, daterange, locationprocessed, description, personprocessed, institution }) => {
+        const type = personID.substring(0, 3);
+        const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
+
+        let show = shouldShowMarker(type, checkboxStates, certainties, institution);
+
+        // Apply additional filtering based on user search, active names, and date range
+        if (show && activeNames.size > 0 && !activeNames.has(personprocessed)) {
+            show = false;
+        }
+
+        if (show && searchRegex && !(text.match(searchRegex) || locationprocessed.match(searchRegex) || alias.join(" ").match(searchRegex) ||
+            String(earliestyear).match(searchRegex) || String(latestyear).match(searchRegex))) {
+            show = false;
+        }
+
+        if (show && (earliestyear > maxYear || latestyear < minYear)) {
+            show = false;
+        }
+
+        // Update marker display
+        updateMarkerOnMap(marker, show);
+
+        if (show) {
+            searchCount++;
+            newVisibleMarkers.add(marker);
+            
+            // Update histogram counts
+            const clampedEarliest = Math.max(1400, earliestyear);
+            const clampedLatest = Math.min(1600, latestyear);
+            getDecades(clampedEarliest, clampedLatest).forEach(decade => {
+                const bin = histogramCounts[decade];
+                if (!bin) return;
+
+                bin.total++;
+
+                if (activeNames.size > 0) {
+                    bin.highlights[personprocessed] =
+                        (bin.highlights[personprocessed] || 0) + 1;
+                } else {
+                    if (type === "BCO") bin.BCO++;
+                    else if (type === "BMU") bin.BMU++;
+                    else if (type === "BNO") bin.BNO++;
+                }
+            });
+
+            if (!skipSidebarUpdate) {
+                updateMarkerSidebar({ text, personID, personprocessed, locationprocessed, daterange, description }, true, eventid);
+            }
+        } else {
+            markersToRemove.add(marker);
+        }
+    });
+
+    // Properly Remove Hidden Markers From Clusters
+    markersToRemove.forEach(marker => {
+        if (currentMarkers.has(marker)) {
+            markerCluster.removeLayer(marker);
+        }
+    });
+
+    // Only Add Markers That Are Visible
+    newVisibleMarkers.forEach(marker => {
+        if (!currentMarkers.has(marker)) {
+            markerCluster.addLayer(marker);
+        }
+    });
+
+    if (!skipSidebarUpdate) {
+        updateSidebar();
+    }
+
+    document.querySelector("#search-count").innerHTML = `${searchCount} ${searchCount === 1 ? "Event" : "Events"} `;
+    
+    updateHistogram(histogramCounts);
+    map.addLayer(markerCluster);
+    map.invalidateSize();
+}
+
+</script>

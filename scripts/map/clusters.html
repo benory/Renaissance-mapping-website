@@ -1,0 +1,26 @@
+<script>
+
+function getClusterColor(markers) {
+    // cluster should always use the most common highlight color inside it
+    const colorCounts = new Map();
+
+    markers.forEach(m => {
+        const c = m.options.fillColor;
+        colorCounts.set(c, (colorCounts.get(c) || 0) + 1);
+    });
+
+    // Pick the dominant color
+    let dominantColor = "#0c8aff"; // fallback
+    let max = 0;
+
+    for (const [color, count] of colorCounts.entries()) {
+        if (count > max) {
+            dominantColor = color;
+            max = count;
+        }
+    }
+
+    return dominantColor;
+}
+
+</script>

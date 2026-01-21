@@ -1,0 +1,673 @@
+<script>
+
+//////////////////////////////
+//
+// doMapSetup –- Function to setup the map and add markers
+//
+
+let totalMarkers = 0;
+
+function doMapSetup(opts) {
+    if (typeof opts === "undefined") {
+        console.error("doMapSetup input parameter is undefined");
+        return;
+    }
+    if (typeof opts.name === "undefined") {
+        console.error("doMapSetup name parameter is undefined");
+        return;
+    }
+    if (typeof opts.view === "undefined") {
+        console.error("view option is not specified");
+        return;
+    }
+    if (typeof opts.zoom === "undefined") {
+        console.warn("zoom option is not specified, setting to 4");
+        opts.zoom = 5;
+    }
+    if (typeof opts.zoomMin === "undefined") {
+        console.warn("zoomMin option is not specified, setting to zoom");
+        opts.zoomMin = opts.zoom;
+    }
+    if (typeof opts.zoomMax === "undefined") {
+        console.warn("zoomMax option is not specified, setting to 19");
+        opts.zoomMax = 19;
+    }
+
+    // Ensure `map` exists before trying to remove layers
+    if (typeof map !== "undefined" && map.eachLayer) {
+        map.eachLayer(function(layer) {
+            map.removeLayer(layer);
+        });
+        map.remove();
+    }
+
+    map = L.map(opts.name, { preferCanvas: true, zoomControl: false}).setView(opts.view, opts.zoom);
+    map.options.minZoom = opts.zoomMin;
+
+    L.control.zoom({
+      position: 'bottomright'   // or 'bottomright'
+    }).addTo(map);
+
+    let mapImage = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
+    let attribution = "&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>";
+    L.tileLayer(mapImage, {
+        maxZoom: opts.zoomMax,
+        attribution: attribution
+    }).addTo(map);
+
+    // Get names of variables
+    let ID = MAP.cindex("EV", "EVID");
+    let LOC = MAP.cindex("EV", "LOCID");
+    let BIOID = MAP.cindex("EV", "BIOID");
+    let EINFO = MAP.cindex("EV", "EINFO");
+    let DATERANGE = MAP.cindex("EV", "DATERANGE");
+    let EYEAR = MAP.cindex("EV","EYEAR");
+    let EMONTH = MAP.cindex("EV","EMONTH");
+    let EDAY = MAP.cindex("EV","EDAY");
+    let LYEAR = MAP.cindex("EV","LYEAR");
+    let LMONTH = MAP.cindex("EV","LMONTH");
+    let LDAY = MAP.cindex("EV","LDAY");
+    let EVINSID = MAP.cindex("EV", "INSID");
+    let LOCID = MAP.cindex("LOC", "LOCID");
+    let LOCNAME = MAP.cindex("LOC", "LOCNAME");
+    let LOCCITY = MAP.cindex("LOC", "CITY");
+    let LOCCOUNTRY = MAP.cindex("LOC", "COUNTRY");
+    let COORD = MAP.cindex("LOC", "COORD");
+    let BCONAME = MAP.cindex("BCO", "BCONAME");
+    let BMUNAME = MAP.cindex("BMU", "BMUNAME");
+    let BNONAME = MAP.cindex("BNO", "BNONAME");
+    let BCOALIAS = MAP.cindex("BCO", "ALIAS");
+    let BMUALIAS = MAP.cindex("BMU", "ALIAS");
+    let BNOALIAS = MAP.cindex("BNO", "ALIAS");
+
+    // Get variable names for certainty markers
+    let CERTLOC = MAP.cindex("EV", "CERTLOC");
+    let CERTEDATE = MAP.cindex("EV", "CERTEDATE");
+    let CERTLDATE = MAP.cindex("EV", "CERTLDATE");
+    let CERTRANGE = MAP.cindex("EV", "CERTRANGE");
+
+    // Get variable names for institutions
+    let INSID = MAP.cindex("INS", "INSID");
+    let INSNAME = MAP.cindex("INS", "INSNAME");
+    let INSTYPE = MAP.cindex("INS", "INSTYPE");
+
+    // Get variable names for document entries
+    let DOEID = MAP.cindex("EV", "DOEID");
+    let ARDID = MAP.cindex("DOE", "ARDID");
+    let ARDARC = MAP.cindex("ARD", "ARC");
+    let ARDARCFOND = MAP.cindex("ARD", "ARCFOND");
+    let ARDSIG = MAP.cindex("ARD", "SIG");
+
+    // Get variable names for bibliography entries
+    let BIBID = MAP.cindex("EV", "BIBID");
+    let BIBPAGES = MAP.cindex("EV", "BIBPAGES");
+    let AUTHOR = MAP.cindex("BIB", "AUTHOR");
+    let ARTNAME = MAP.cindex("BIB", "ARTNAME");
+    let VOLNAME = MAP.cindex("BIB", "VOLNAME");
+    let EDIT = MAP.cindex("BIB", "EDIT");
+    let VOLNO = MAP.cindex("BIB", "VOLNO");
+    let EDITION = MAP.cindex("BIB", "EDITION");
+    let SER = MAP.cindex("BIB", "SER");
+    let BIBLOC = MAP.cindex("BIB", "LOC");
+    let PUB = MAP.cindex("BIB", "PUB");
+    let YEAR = MAP.cindex("BIB", "YEAR");
+    let PAGES = MAP.cindex("BIB", "PAGES");
+    let URL = MAP.cindex("BIB", "URL");
+
+    // Establish variables
+    let eventid = "";
+    let person = "";
+    let alias = "";
+    let personprocessed = "";
+    let locationid = "";
+    let locationprocessed = "";
+    let locationcountry = "";
+    let largerlocation = "";
+    let daterange = "";
+    let earliestyear = "";
+    let earliestmonth = "";
+    let earliestday = "";
+    let earliestdate = "";
+    let latestyear = "";
+    let latestmonth = "";
+    let latestday = "";
+    let latestdate = "";
+    let coordinates = "";
+    let coordinatesprocessed = "";
+    let description = "";
+    let institution = "";
+    let institutiontype = "";
+    let institutionname = "";
+    let docentry = "";
+    let bibliography = "";
+    let archiveprocessed = "";
+    let nameshort = "";
+
+    // Initialize MarkerClusterGroup
+    markerCluster = L.markerClusterGroup({
+        maxClusterRadius: 50,  
+        spiderfyOnMaxZoom: false, 
+        showCoverageOnHover: false,
+        zoomToBoundsOnClick: false, // Prevents zooming in when clicking a cluster
+        iconCreateFunction: function(cluster) {
+            let markers = cluster.getAllChildMarkers();
+            let clusterColor = getClusterColor(markers);            
+            const checkboxStates = getCheckboxStates();
+
+            let visibleMarkers = markers.filter(m => {
+                if (!m.options || !m.options.personID) return false;
+                const type = m.options.personID.substring(0, 3);
+                return shouldShowMarker(type, checkboxStates, m.options);
+            });
+
+            // Only cluster if there are more than 20 markers
+            if (markers.length <= 1) {
+                return L.divIcon({ html: '', className: 'hidden-cluster', iconSize: L.point(0, 0) });
+            }
+
+            return L.divIcon({
+                html: `
+                    <div style="
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: white;
+                        font-size: 14px;
+                        font-weight: bold;
+                        background: radial-gradient(circle, 
+                            ${clusterColor} 20%, 
+                            rgba(255, 255, 255, 0.1) 80%);
+                        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+                    ">
+                        ${cluster.getChildCount()}
+                    </div>
+                `,
+                className: 'custom-cluster',
+                iconSize: L.point(40, 40)
+            });
+        }
+    });
+
+    markerCluster.on("clusterclick", function (e) {
+        const bounds = e.layer.getBounds();
+        const targetZoom = Math.min(map.getZoom() + 2, 15);
+
+        map.fitBounds(bounds, {
+            padding: [40, 40],
+            maxZoom: targetZoom
+        });
+    });
+
+    markers = []; // Clear the markers array
+
+    for (let i = 0; i < events.length; i++) {
+        
+        // Only process events for map if there's a location and a date
+        if (events[i][LOC] && events[i][DATERANGE]) {
+            eventid = events[i][ID];
+            locationid = events[i][LOC];
+            let locationInfo = findInfo(locationid, "Locations");
+            locationprocessed = locationInfo[LOCNAME];
+
+            // Find larger location and country, if applicable
+            let largerlocation = locationInfo[LOCCITY];
+            locationcountry = locationInfo[LOCCOUNTRY];
+            if (largerlocation) {
+                locationprocessed += `, ${largerlocation}`;
+            }
+
+            // Get name of person
+            if (events[i][BIOID]) {
+                person = events[i][BIOID];
+                let composerInfo = findInfo(person, "Bio_Composers");
+                let musicianInfo = findInfo(person, "Bio_Musicians");
+                let nonmusicianInfo = findInfo(person, "Bio_Nonmusicians");
+
+                // Get first three letters to determine type of ID
+                nameshort = person.substring(0, 3);
+
+                // Get name from composer, musician, or non-musician biography sheets
+                if (nameshort === "BCO" && composerInfo) {
+                    personprocessed = composerInfo[BCONAME];
+                    alias = composerInfo[BCOALIAS];
+                } else if (nameshort === "BMU" && musicianInfo) {
+                    personprocessed = musicianInfo[BMUNAME];
+                    alias = musicianInfo[BMUALIAS];
+                } else if (nameshort === "BNO" && nonmusicianInfo) {
+                    personprocessed = nonmusicianInfo[BNONAME];
+                    alias = nonmusicianInfo[BNOALIAS];
+                } else {
+                    continue;
+                }
+                // Split aliases if multiple documents separated by a semicolon
+                if (alias && alias.match(";")){
+                    alias = alias.trim().split(/\s*;\s*/);
+                } else {
+                    alias = [ alias ];
+                }
+            }
+
+            // Get dates
+            if (events[i][DATERANGE]) {
+                daterange = events[i][DATERANGE];
+
+                // Remove extra spaces in date range
+                daterange = daterange.replace(/\s+/g, ' ').trim();
+                
+                // Get earliest/latest years, months, dates
+                earliestyear = events[i][EYEAR];
+                earliestmonth = events[i][EMONTH];
+                earliestday = events[i][EDAY];
+                latestyear = events[i][LYEAR];
+                latestmonth = events[i][LMONTH];
+                latestday = events[i][LDAY];
+
+                // Put together earliest and latest dates in YEAR-MONTH-DAY format
+                earliestdate = `${earliestyear}-${earliestmonth}-${earliestday}`;
+                latestdate = `${latestyear}-${latestmonth}-${latestday}`;
+            }
+
+            // Get event description
+            if (events[i][EINFO]) {
+                description = events[i][EINFO];
+            }
+
+            // Get institution information
+            if (events[i][EVINSID]) {
+                institution = events[i][EVINSID];
+                let instInfo = findInfo(institution, "Institutions");
+                if (instInfo) {
+                    institutionname = instInfo[INSNAME];
+                    institutiontype = instInfo[INSTYPE];
+                }
+            }
+
+            // Get certainty information
+            let locationCertainty = events[i][CERTLOC];
+            let earliestDateCertainty = events[i][CERTEDATE];
+            let latestDateCertainty = events[i][CERTLDATE];
+            let rangeCertainty = events[i][CERTRANGE];
+
+            // Add information about location uncertainty to location
+            // Only consider location certainty if not certain
+            // Return a console message if the location certainty is not 1, 2, 3, or 4
+            if (locationCertainty && locationCertainty !== "1"){
+                if (locationCertainty === "2"){
+                    locationprocessed += `?`;
+                } else if (locationCertainty === "3"){
+                    locationprocessed += `??`;
+                } else if (locationCertainty === "4"){
+                    locationprocessed += `???`;
+                } else {
+                    console.warn("Forbidden location certainty for", eventid, locationCertainty);
+                    continue;
+                }
+            }
+
+            // Add information about date uncertainty to date range
+            // Only consider date certainty if not certain
+            // Return a console message if the date certainty is not 1, 2, 3, or 4
+
+            if (earliestDateCertainty && earliestDateCertainty !== "1"){
+                if (earliestDateCertainty === "2"){
+                    daterange += `?`;
+                } else if (earliestDateCertainty === "3"){
+                    daterange += `??`;
+                } else if (earliestDateCertainty === "4"){
+                    daterange += `???`;
+                } else {
+                    console.warn("Forbidden earliestDateCertainty certainty for", eventid, earliestDateCertainty);
+                    continue;
+                }
+            }
+
+            if (latestDateCertainty && latestDateCertainty !== "1"){
+                if (latestDateCertainty === "2"){
+                    daterange += `?`;
+                } else if (latestDateCertainty === "3"){
+                    daterange += `??`;
+                } else if (latestDateCertainty === "4"){
+                    daterange += `???`;
+                } else {
+                    console.warn("Forbidden latestDateCertainty certainty for", eventid, latestDateCertainty);
+                    continue;
+                }
+            }
+
+            // Add information about event uncertainty to description
+            // Only consider event certainty if not certain
+            // Return a console message if the event certainty is not 1, 2, 3, or 4
+
+            if (rangeCertainty && rangeCertainty !== "1"){
+                if (rangeCertainty === "2"){
+                    description += `?`;
+                } else if (rangeCertainty === "3"){
+                    description += `??`;
+                } else if (rangeCertainty === "4"){
+                    description += `???`;
+                } else {
+                    console.warn("Forbidden rangeCertainty certainty for", eventid, rangeCertainty);
+                    continue;
+                }
+            }
+
+
+            // Get archival signature for linked document entry, if applicable
+            if (events[i][DOEID]) {
+                docentry = events[i][DOEID];
+                let archivalid = "";
+
+                // Split docentries if multiple documents separated by a semicolon
+                if (docentry.match(";")){
+                    docentry = docentry.trim().split(/\s*;\s*/);
+                } else {
+                    docentry = [ docentry ];
+                }
+                
+                for (let j=0; j<docentry.length; j++){
+                    // Get archival document from document entries data
+                    let documentInfo = findInfo(docentry[j], "Doc_Entries");
+                    
+                    // Only process if there's an archive linked to the document
+                    if (documentInfo) {
+                        archivalid = documentInfo[ARDID];
+                    }
+                    // Get archival signature from archival documents data
+                    if (archivalid) {
+                        let archivalInfo = findInfo(archivalid, "Archival_Docs");
+                        let archive = archivalInfo[ARDARC];
+                        let fond = archivalInfo[ARDARCFOND];
+                        let signature = archivalInfo[ARDSIG];
+
+                        if (archive && j == 0){
+                            archiveprocessed += `<br><b>Archival Document:</b> ${archive}`;
+                        } else if (archive) {
+                            archiveprocessed += `; ${archive}`;
+                        }
+
+                        if (archive && fond){
+                            archiveprocessed += `, ${fond}`;
+                        }
+
+                        if (archive && fond && signature){
+                            archiveprocessed += ` ${signature}`;
+                        }
+                    }
+                }
+            }
+            
+            // Get bibliography, if applicable
+            if (events[i][BIBID]) {
+                let bibliographyid = events[i][BIBID].trim();
+                let bibliographypages = events[i][BIBPAGES] ? events[i][BIBPAGES].trim() : "";
+
+                // Split bibliography entries if multiple entries are separated by a semicolon
+                let bibliographyIDs = bibliographyid.includes(";") ? bibliographyid.split(/\s*;\s*/) : [bibliographyid];
+                let bibliographyPages = bibliographypages.includes(";") ? bibliographypages.split(/\s*;\s*/) : [bibliographypages];
+
+                // Ensure the bibliography string starts fresh for each event
+                bibliography = "";
+
+                for (let j = 0; j < bibliographyIDs.length; j++) {
+                    let bibID = bibliographyIDs[j];
+                    let bibPage = bibliographyPages[j] || ""; // Avoid 'undefined'
+
+                    let bibliographyInfo = findInfo(bibID, "Bibliography");
+
+                    if (!bibliographyInfo) {
+                        console.warn("Missing bibliography info for", bibID);
+                        continue; // Skip if no data is found
+                    }
+
+                    let author = bibliographyInfo[AUTHOR] || "";
+                    let articlename = bibliographyInfo[ARTNAME] || "";
+                    let volumename = bibliographyInfo[VOLNAME] || "";
+                    let editor = bibliographyInfo[EDIT] || "";
+                    let volumenumber = bibliographyInfo[VOLNO] || "";
+                    let edition = bibliographyInfo[EDITION] || "";
+                    let series = bibliographyInfo[SER] || "";
+                    let bibliographylocation = bibliographyInfo[BIBLOC] || "";
+                    let publisher = bibliographyInfo[PUB] || "";
+                    let year = bibliographyInfo[YEAR] || "";
+                    let pages = bibliographyInfo[PAGES] || "";
+                    let bibliographyurl = bibliographyInfo[URL] || "";
+
+                    let entry = "";
+
+                    if (author) entry += `${author}, `;
+                    if (articlename) entry += `"${articlename},"`;
+                    if (articlename && volumename) entry += ` <i>${volumename}</i>`;
+                    else if (volumename) entry += `<i>${volumename}</i>`;
+
+                    if (editor) entry += `, ed. ${editor}`;
+                    if (volumenumber) entry += ` ${volumenumber}`;
+                    if (bibliographylocation && publisher && year) entry += ` (${bibliographylocation}: ${publisher}, ${year})`;
+                    else if (bibliographylocation && year) entry += ` (${bibliographylocation}: ${year})`;
+                    else if (year) entry += ` (${year})`;
+
+                    if (pages) entry += `: ${pages}`;
+                    if (bibPage) entry += `, at ${bibPage}`;
+
+                    // Append to bibliography string with proper formatting
+                    if (bibliography) bibliography += "; and ";
+                    bibliography += entry + "."; // Ensure each entry ends with a period
+                }
+            }
+
+            // Get coordinates
+            coordinates = locationInfo[COORD];
+
+            // Create EventID for sharing
+            let shareID = eventid.slice(3); // Remove the first three characters
+
+            // Get Target Type for Composers
+            // Get Target Type (A / B / C) via normalized displayed name
+            const normalizedPersonName = normalizeName(personprocessed);
+
+            const targetType =
+              targetTypeByNormalizedName.get(normalizedPersonName) || null;
+
+            // Map points if there are coordinates and the earliest and latest years are defined
+            if (coordinates !== undefined && earliestyear !== undefined && latestyear !== undefined && latestyear > 1399 && earliestyear < 1601) {
+                // Convert the comma-separated string into an array
+                let coordsArray = coordinates.split(',').map(Number);
+
+                // Ensure coordinates are in the format [longitude, latitude]
+                if (coordsArray.length === 2 && !isNaN(coordsArray[0]) && !isNaN(coordsArray[1])) {
+                    // Swap latitude and longitude
+                    coordinatesprocessed = [coordsArray[1], coordsArray[0]];
+
+                    const geoJsonFeature = {
+                        type: "Feature",
+                        geometry: {
+                            type: "Point",
+                            coordinates: coordinatesprocessed // Ensure this is [longitude, latitude]
+                        },
+                        properties: {
+                            popupContent: description ? 
+                            `<b>Person:</b> ${personprocessed}<br>
+                            <b>Date:</b> ${daterange}<br>
+                            <b>Place:</b> ${locationprocessed} <br>
+                            <b>Description:</b> ${description} ${archiveprocessed} 
+                            ${bibliography ? `<b><br>Bibliography:</b> ${bibliography}` : ''}<br> <a href="#" onclick="sharePoint('${shareID}')" style="display: flex; align-items: center;"><img src="/images/share_24.svg" alt="Share" style="height: 24px; width: 24px; margin-right: 5px;"><span>Copy link</span></a>` : 
+                            `<b>Person:</b> ${personprocessed}<br>
+                            <b>Date:</b> ${daterange}<br>
+                            <b>Place:</b> ${locationprocessed} ${archiveprocessed} 
+                            ${bibliography ? `<br><b>Bibliography:</b> ${bibliography}` : ''} <br> <a href="#" onclick="sharePoint('${shareID}')" style="display: flex; align-items: center;"><img src="/images/share_24.svg" alt="Share" style="height: 24px; width: 24px; margin-right: 5px;"><span>Copy link</span></a>`,
+                            locationCertainty: locationCertainty,
+                            earliestDateCertainty: earliestDateCertainty,
+                            latestDateCertainty: latestDateCertainty,
+                            rangeCertainty: rangeCertainty,
+                            earliestyear: earliestyear,
+                            latestyear: latestyear,
+                            alias: alias,
+                            institution: institution,
+                            institutiontype: institutiontype,
+                            institutionname: institutionname,
+                            locationcountry: locationcountry
+                        }
+                    };
+
+                    // Determine color based on nameshort
+                    let fillColor;
+                    if (nameshort === "BCO") {
+                        fillColor = "#440154"; // Color for composers (BCO)
+                    } else if (nameshort === "BMU") {
+                        fillColor = "#23ed5c"; // Color for musicians (BMU)
+                    } else if (nameshort === "BNO") {
+                        fillColor = "#fde725"; // Color for non-musicians (BNO)
+                    } else {
+                        fillColor = "#0c8aff"; // Default color if no match
+                    }
+
+                    const geojsonMarkerOptions = {
+                        radius: 5,
+                        fillColor: fillColor, //black fill color
+                        color: "#000000", //Black border color
+                        weight: 1,
+                        opacity: 1,
+                        fillOpacity: 0.8
+                    };
+
+                    // Inside L.geoJson creation:
+                    let marker;
+
+                    L.geoJson(geoJsonFeature, {
+                      pointToLayer: function (feature, latlng) {
+
+                        // Create the marker
+                        marker = L.circleMarker(latlng, geojsonMarkerOptions);
+
+                        // Bind popup (turn off autoPan so Leaflet doesn't do its own second movement)
+                        marker.bindPopup(feature.properties.popupContent, {
+                          autoPan: false
+                        });
+
+                        marker.on("click", function () {
+                          const targetZoom = Math.min(map.getZoom() + 1, 15);
+
+                          // --- KEY IDEA: offset the map center downward in pixels ---
+                          // Increase this number if the popup is still too high.
+                          const yOffsetPx = -80;
+
+                          // Project marker latlng to pixel space at the target zoom
+                          const p = map.project(marker.getLatLng(), targetZoom);
+
+                          // Move the "center point" DOWN (positive y) so the popup appears more centered
+                          const p2 = L.point(p.x, p.y + yOffsetPx);
+
+                          // Convert back to latlng, and do ONE animated move
+                          const offsetCenter = map.unproject(p2, targetZoom);
+
+                          map.setView(offsetCenter, targetZoom, {
+                            animate: true,
+                            duration: 0.4
+                          });
+
+                          // Open popup (no auto-pan)
+                          marker.openPopup();
+                        });
+
+                        // Add marker to the cluster group
+                        markerCluster.addLayer(marker);
+
+                        return marker;
+                      }
+                    });
+
+                    // Count the total number of markers created
+                    totalMarkers++;
+
+                    markers.push({ 
+                        marker: marker, 
+                        personID: person,
+                        targetType,
+                        alias: alias,
+                        institution: institution,
+                        institutiontype: institutiontype,
+                        institutionname: institutionname,
+                        text: `[${daterange}] ${personprocessed}: ${description}`, 
+                        locationCertainty: locationCertainty, 
+                        earliestDateCertainty: earliestDateCertainty, 
+                        latestDateCertainty: latestDateCertainty, 
+                        rangeCertainty: rangeCertainty, 
+                        earliestyear: earliestyear, 
+                        latestyear: latestyear, 
+                        eventid: eventid, 
+                        description: description, 
+                        locationprocessed: locationprocessed,
+                        locationcountry: locationcountry, 
+                        daterange: daterange, 
+                        personprocessed: personprocessed });
+                } else {
+                    console.warn('Invalid coordinates:', coordsArray, events[i]);
+                    continue;
+                }
+            } else {
+                continue;
+            }
+            // Reset variables
+            eventid = "";
+            person = "";
+            personprocessed = "";
+            locationid = "";
+            locationprocessed = "";
+            locationcountry = "";
+            largerlocation = "";
+            daterange = "";
+            coordinates = "";
+            coordinatesprocessed = "";
+            description = "";
+            docentry = "";
+            bibliography = "";
+            archiveprocessed = "";
+            earliestyear = "";
+            earliestmonth = "";
+            earliestday = "";
+            earliestdate = "";
+            latestyear = "";
+            latestmonth = "";
+            latestday = "";
+            latestdate = "";
+            alias = "";
+            institution = "";
+            institutiontype = "";
+            institutionname = "";
+        }
+    }
+
+    map.addLayer(markerCluster);
+}
+
+function loadMarkerFromURL() {
+    const urlParams = new URLSearchParams(window.location.search);
+    let eventid = urlParams.get('eventid');
+
+    if (eventid) {    
+        // Add the "EV:" prefix if required to match the markers array
+        eventid = `EV:${eventid}`;
+
+        // Find the marker with the matching eventid
+        const markerEntry = markers.find(entry => entry.eventid === eventid);
+
+        if (markerEntry) {
+            const marker = markerEntry.marker; // Access the actual Leaflet marker
+
+            // Get the marker's coordinates
+            const latlng = marker.getLatLng(); // Use getLatLng() for circleMarker
+
+            // Center the map on the marker and open its popup
+            map.setView(latlng, 6); // Adjust zoom level as needed
+            marker.openPopup();
+        } else {
+            console.warn(`No marker found for eventid: ${eventid}`);
+        }
+    } else {
+        console.warn('No eventid found in URL');
+    }
+}
+
+</script>

@@ -301,4 +301,16 @@ function getSidebarHighlightColor(personName) {
     return getHighlightColorForPerson(personName);
 }
 
+// Function to handle sharing the point
+function sharePoint(eventid) {
+    const shareURL = `${window.location.origin}/?eventid=${eventid}`;
+    
+    // Remove the "EV:" prefix if it exists
+    if (eventid.startsWith('EV:')) {
+        eventid = eventid.slice(3); // Remove the first three characters
+    }
+
+    navigator.clipboard.writeText(shareURL);
+}
+
 </script>

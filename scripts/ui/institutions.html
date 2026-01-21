@@ -1,0 +1,128 @@
+<script>
+
+function updateInstitutionList() {
+    const type = document.querySelector('input[name="institution-type"]:checked').value;
+    const institutionList = document.getElementById('institution-list');
+    const countryGrid = document.querySelector('.country-grid');
+    institutionList.innerHTML = '';
+    
+    // Save current selection before clearing
+    const previouslySelectedCountries = new Set(
+      Array.from(countryGrid.querySelectorAll('.country-item.active')).map(el => el.textContent)
+    );
+
+    countryGrid.innerHTML = ''; // Clear grid
+
+    const visibleMarkers = getAllInstitutionMarkers();
+
+    const countrySet = new Set();
+    const institutionMap = new Map(); // Use a map to avoid duplicates
+
+    visibleMarkers.forEach(marker => {
+        const { institution, institutionname, institutiontype, locationcountry } = marker;
+        if (!institution || !institutionname || !institutiontype || !locationcountry) return;
+        if (institutiontype.toLowerCase() !== type.toLowerCase()) return;
+
+        const key = `${institution}__${locationcountry}`;
+        if (!institutionMap.has(key)) {
+            institutionMap.set(key, {
+                id: institution,
+                name: institutionname,
+                country: locationcountry
+            });
+        }
+    });
+
+    // Only include countries that have at least one institution to show
+    institutionMap.forEach(inst => {
+        countrySet.add(inst.country);
+    });
+
+    // Render clickable country divs
+    const sortedCountries = Array.from(countrySet).sort();
+    for (const country of sortedCountries) {
+        const div = document.createElement('div');
+        div.textContent = country;
+        div.classList.add("country-item");
+
+        // Restore active class if previously selected
+        if (previouslySelectedCountries.has(country)) {
+            div.classList.add("active");
+        }
+
+        div.addEventListener("click", (e) => {
+            e.stopPropagation(); // Prevent popup from closing
+            div.classList.toggle("active");
+            updateInstitutionList(); // Refilter institutions
+        });
+
+        countryGrid.appendChild(div);
+    }
+
+    // Get selected countries
+    const selectedCountries = new Set(
+        Array.from(countryGrid.querySelectorAll('.country-item.active')).map(el => el.textContent)
+    );
+
+    const seenInstitutions = new Set();
+    const sortedInstitutions = Array.from(institutionMap.values())
+        .filter(inst => selectedCountries.size === 0 || selectedCountries.has(inst.country))
+        .sort((a, b) => a.name.localeCompare(b.name));
+
+    for (const inst of sortedInstitutions) {
+        const key = `${inst.name}`;
+        if (seenInstitutions.has(key)) continue; // Skip duplicates
+        seenInstitutions.add(key);
+
+        const li = document.createElement('li');
+        li.textContent = inst.name;
+        li.style.cursor = 'pointer';
+
+        li.addEventListener("click", () => {
+            const popup = document.getElementById("institution-popup");
+            const button = document.getElementById("institution-button");
+
+            if (popup) popup.remove();
+            if (button) {
+                button.classList.remove("with-arrow");
+                button.innerHTML = `
+                    <span class="remove-selected-institution" style="color: red; margin-right: 6px; font-weight: bold; cursor: pointer;">&times;</span>
+                    <span>${inst.name}</span>
+                `;
+
+                button.querySelector(".remove-selected-institution").addEventListener("click", (e) => {
+                    e.stopPropagation();
+                    button.innerHTML = `View Institutions`;
+                    button.classList.add("with-arrow");
+
+                    institutionFilter = null;
+                    filterAndSearchMarkers(); // Re-run filtering
+                });
+            }
+
+            institutionFilter = inst.id;
+            filterAndSearchMarkers();
+
+            // Zoom to filtered institution markers
+            const instMarkers = markers.filter(m => m.institution === inst.id);
+            if (instMarkers.length > 0) {
+                const group = L.featureGroup(instMarkers.map(m => m.marker));
+                map.fitBounds(group.getBounds().pad(0.1), { maxZoom: 6 });
+            }
+        });
+
+        institutionList.appendChild(li);
+    }
+
+    if (institutionList.children.length === 0) {
+        institutionList.innerHTML = '<li><em>No matching institutions found</em></li>';
+    }
+}
+
+function getAllInstitutionMarkers() {
+    return markers.filter(({ institution, institutionname, institutiontype, locationcountry }) =>
+        institution && institutionname && institutiontype && locationcountry
+    );
+}
+
+</script>
