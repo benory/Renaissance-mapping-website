@@ -351,13 +351,4 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-function normalizeName(str) {
-  return str
-    .toLowerCase()
-    .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // strip accents
-    .replace(/[^a-z\s]/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
 </script>
