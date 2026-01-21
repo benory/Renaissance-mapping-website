@@ -32,15 +32,15 @@ hide_footer: true
                       </div>
                       <!-- institutions button moves to the RIGHT of the search bar -->
                       <div class="custom-dropdown" id="institution-dropdown">
-                        <button id="institution-button" class="with-arrow">Institutions
+                        <button id="institution-button" class="apple-pill with-arrow">Institutions
                         </button>
                       </div>
                       <div class="custom-dropdown" id="certainty-dropdown">
                           <button
-                            id="certainty-button"
-                            class="with-arrow apple-pill-button"
-                            aria-expanded="false">
-                            All events
+                              id="certainty-button"
+                              class="with-arrow apple-pill"
+                              aria-expanded="false">
+                              Event certainty
                           </button>
                           <div class="certainty-popup">
                             <ul class="certainty-list">

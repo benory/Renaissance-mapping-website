@@ -59,9 +59,10 @@ html, body {
 
 /* Search bar container grows */
 .search-wrapper {
-    flex: 1;
+    flex: 1 1 auto;
     position: relative;
-    width: 100%;
+    min-width: 280px;
+    max-width: 350px;
     margin-left: 8px;
 }
 
@@ -123,34 +124,7 @@ html, body {
 }
 
 #certainty-button {
-  display: inline-flex;
-  align-items: center;
-  height: 38px;
-
-  padding: 6px 16px 6px 16px;
-
-  font-size: 13px;
-  font-weight: 500;
-  color: #1f1f1f;
-
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  border-radius: 9999px;
-
-  cursor: pointer;
-  white-space: nowrap;
-
-  box-shadow:
-    0 4px 10px rgba(0, 0, 0, 0.12),
-    0 1px 2px rgba(0, 0, 0, 0.08);
-
-  transition:
-    background-color 0.2s ease,
-    box-shadow 0.2s ease,
-    transform 0.15s ease;
+    padding: 6px 16px;
 }
 
 /* Arrow */
@@ -189,42 +163,42 @@ html, body {
 
 /* Dropdown popup */
 .certainty-popup {
-    display: none;
-    position: absolute;
-    top: calc(100% + 10px);
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1001;
+  display: none;
+  position: absolute;
 
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
 
-    border: 1px solid rgba(0,0,0,0.12);
-    border-radius: 10px;
+  width: 220px;
+  z-index: 1001;
 
-    box-shadow:
-        0 10px 24px rgba(0,0,0,0.18),
-        0 2px 6px rgba(0,0,0,0.12);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
 
-    width: 220px;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,0.12);
+
+  box-shadow:
+    0 10px 24px rgba(0,0,0,0.18),
+    0 2px 6px rgba(0,0,0,0.12);
 }
 
 .certainty-popup.visible {
-    display: block;
+  display: block;
 }
 
 .certainty-list {
-    list-style: none;
-    margin: 0;
-    padding: 6px 0;
+  list-style: none;
+  margin: 0;
+  padding: 6px 0;
 }
 
 .certainty-list li {
-    padding: 8px 14px;
-    font-size: 13px;
-    cursor: pointer;
-    transition: background 0.15s ease;
+  padding: 8px 14px;
+  font-size: 13px;
+  cursor: pointer;
 }
 
 .certainty-list li:hover {
@@ -232,8 +206,8 @@ html, body {
 }
 
 .certainty-list li.active {
-    font-weight: 600;
-    background: rgba(120, 200, 210, 0.25);
+  font-weight: 600;
+  background: rgba(120, 200, 210, 0.25);
 }
 
 /* Right column = stacked checkboxes */
@@ -386,6 +360,7 @@ html, body {
 
 .checkbox-container {
     display: flex;
+    min-width: 150px;
     flex-direction: column;
     gap: 6px;
 
@@ -603,26 +578,69 @@ table.histogram div.count {
 }
 
 .selected-person-item {
-    background-color: #f0f0f0;
-    border-radius: 16px;
-    padding: 4px 10px;
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    border: 1px solid #ccc;
+  background-color: #ffffff !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 6px 10px;
+
+  font-size: 13px;
+  font-weight: 400;
+  color: #111;
+
+  border-radius: 9999px;
+
+  border: 1px solid rgba(0, 0, 0, 0.12);
+
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.12);
+
+  transition:
+    box-shadow 0.15s ease,
+    transform 0.12s ease;
+}
+
+.search-controls,
+.selected-names-bar {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
 }
 
 .remove-btn {
-  margin-right: 6px;
-  cursor: pointer;
-  font-weight: normal;
-  color: #333;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 16px;
+  height: 16px;
+
+  font-size: 13px;
+  line-height: 1;
+
+  border-radius: 50%;
+  color: #6e6e73;
+
+  transition:
+    color 0.15s ease,
+    background-color 0.15s ease,
+    transform 0.15s ease;
 }
 
 .remove-btn:hover {
-  color: red;
-  font-weight: bold;
-  transform: scale(1.2);
+  background-color: rgba(0, 0, 0, 0.08);
+  color: #1f1f1f;
+  transform: scale(1.05);
+}
+
+.selected-person-item:hover {
+  background-color: #ffffff; /* stay solid */
+
+  box-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.12);
 }
 
 .active-names {
@@ -733,59 +751,10 @@ table.histogram div.count {
   font-weight: bold;
 }
 
-.institution-list-container {
-  max-height: 240px;
-  overflow-y: auto;
-  overflow-x: hidden;
-
-  padding: 4px;
-
-  border-radius: 12px;
-  background: rgba(245, 245, 247, 0.75);
-
-  box-sizing: border-box;
-}
-
-.institution-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.institution-list li {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-
-  padding: 4px 5px;
-
-  font-size: 12px;
-  font-weight: 500;
-  color: #1f1f1f;
-
-  border-radius: 10px;
-  cursor: pointer;
-
-  transition:
-    background-color 0.15s ease,
-    transform 0.12s ease;
-}
-
-.institution-list li:hover {
-  background-color: rgba(0, 0, 0, 0.06);
-  transform: translateY(-0.5px);
-}
-
-.institution-list li input[type="checkbox"] {
-  accent-color: #007aff; /* Apple blue */
-  transform: scale(1.05);
-}
-
-#institution-button {
+.apple-pill {
   display: inline-flex;
-  height: 38px;
-
   align-items: center;
+  height: 38px;
   gap: 8px;
 
   padding: 6px 14px;
@@ -809,20 +778,105 @@ table.histogram div.count {
     0 1px 2px rgba(0, 0, 0, 0.08);
 
   transition:
-    background 0.2s ease,
-    box-shadow 0.2s ease,
-    transform 0.15s ease;
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.apple-pill:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow:
+    0 6px 14px rgba(0, 0, 0, 0.16),
+    0 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+.apple-pill:active {
+  transform: translateY(0);
+  box-shadow:
+    0 3px 8px rgba(0, 0, 0, 0.14) inset,
+    0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.apple-popup {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.18),
+    0 6px 12px rgba(0, 0, 0, 0.12);
+
+  opacity: 0;
+  pointer-events: none;
+
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+.apple-popup.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 4px 5px;
+
+  font-size: 12px;
+  font-weight: 500;
+  color: #1f1f1f;
+
+  border-radius: 10px;
+  cursor: pointer;
+
+  transition:
+    background-color 0.15s ease,
+    transform 0.12s ease;
+}
+
+.list-row:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+  transform: translateY(-0.5px);
+}
+
+.institution-list-container {
+  max-height: 240px;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  padding: 4px;
+
+  border-radius: 12px;
+  background: rgba(245, 245, 247, 0.75);
+
+  box-sizing: border-box;
+}
+
+.institution-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 #institution-button.with-arrow {
   padding-left: 40px;
-  width: auto; /* Or set a fixed width if preferred */
-  min-width: 150px; /* Ensures room for both text and arrow */
-  background-position: right 10px center; /* Keep the arrow aligned */
+  min-width: 150px;
   background-image: url("../images/church.svg");
   background-repeat: no-repeat;
   background-size: 20px 20px;
   background-position: 14px center;
+}
+
+#institution-button.open {
+  background: rgba(240, 240, 240, 0.95);
+  border-color: rgba(0, 0, 0, 0.2);
 }
 
 #institution-button.with-arrow::after {
@@ -854,11 +908,6 @@ table.histogram div.count {
     0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-#institution-button.open {
-  background: rgba(240, 240, 240, 0.95);
-  border-color: rgba(0, 0, 0, 0.2);
-}
-
 .institution-popup {
   position: absolute;
   top: calc(100% + 12px);
@@ -869,6 +918,10 @@ table.histogram div.count {
   max-height: 320px;
 
   padding: 14px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(16px);
@@ -884,18 +937,9 @@ table.histogram div.count {
   z-index: 10000;
 
   overflow: hidden;
-
-  opacity: 0;
-  pointer-events: none;
-
-  transition:
-    opacity 0.2s ease,
-    transform 0.2s ease;
 }
 
 .institution-popup.visible {
-  opacity: 1;
-  pointer-events: auto;
   transform: translateX(-50%) translateY(0);
 }
 

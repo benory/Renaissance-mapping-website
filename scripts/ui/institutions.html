@@ -75,8 +75,8 @@ function updateInstitutionList() {
         seenInstitutions.add(key);
 
         const li = document.createElement('li');
+        li.classList.add("list-row");
         li.textContent = inst.name;
-        li.style.cursor = 'pointer';
 
         li.addEventListener("click", () => {
             const popup = document.getElementById("institution-popup");
@@ -85,12 +85,9 @@ function updateInstitutionList() {
             if (popup) popup.remove();
             if (button) {
                 button.classList.remove("with-arrow");
-                button.innerHTML = `
-                    <span class="remove-selected-institution" style="color: red; margin-right: 6px; font-weight: bold; cursor: pointer;">&times;</span>
-                    <span>${inst.name}</span>
-                `;
+                button.innerHTML = `<span class="remove-btn" aria-label="Remove institution">&times;</span><span class="button-label">${inst.name}</span>`;
 
-                button.querySelector(".remove-selected-institution").addEventListener("click", (e) => {
+                button.querySelector(".remove-btn").addEventListener("click", (e) => {
                     e.stopPropagation();
                     button.innerHTML = `View Institutions`;
                     button.classList.add("with-arrow");

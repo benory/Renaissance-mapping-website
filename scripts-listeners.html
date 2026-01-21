@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", () => {
       isPopupVisible = false;
     } else {
       const popupHTML = `
-        <div id="institution-popup" class="institution-popup visible">
+        <div id="institution-popup" class="institution-popup apple-popup visible">
           <div class="popup-section">
             <div class="toggle-group">
               <label class="toggle-option">
@@ -255,16 +255,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const value = item.dataset.value;
 
-      if (value === "certain") {
-        checkbox.checked = true;
-        button.textContent = "Certain & probable only";
-      } else {
-        checkbox.checked = false;
-        button.textContent = "All events";
-      }
+      checkbox.checked = (value === "certain");
+
+      // visual state only
+      button.classList.toggle("certainty-active", value === "certain");
 
       popup.classList.remove("visible");
-      button.setAttribute("aria-expanded", "true");
+      button.setAttribute("aria-expanded", "false");
+
       filterAndSearchMarkers();
     });
   });
