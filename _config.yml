@@ -20,8 +20,6 @@
 
 title: Mapping the Musical Renaissance
 email: renmusicmap@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Project visualizing connections and intersections between Renaissance figures through a novel mapping tool
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  benory/Renaissance-mapping-website
