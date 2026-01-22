@@ -2,6 +2,7 @@
 layout: page
 title: about
 permalink: /about/
+nav: true
 
 ---
 
@@ -17,17 +18,20 @@ permalink: /about/
 {% include_relative scripts-local.html %}
 {% include_relative styles-local.html %}
 
-The Renaissance lies scattered before us. For more than 200 years, scholars in disciplines ranging from art history and literature to political history, geography, and music have collected and catalogued vast amounts of information&mdash;but many of the most crucial documents are buried in undigitized publications not easily accessible to specialists in one field, let alone to their colleagues in another.
+<h2>About</h2>
 
-**Mapping the Musical Renaissance** moves outward from fundamental histories in order to uncover connections among seemingly unrelated people and events. For now our work focuses on musicians from the fifteenth and early sixteenth centuries. As the project develops, the map will expand to include artists, writers, political rulers, and other central figures. The project allows users to explore intersections between heterogeneous types of information while giving access to primary documents that underpin that information. <br><br>
+<div class="about-container">
+<p>The Renaissance lies scattered before us. For more than 200 years, scholars in disciplines ranging from art history and literature to political history, geography, and music have collected and catalogued vast amounts of information&mdash;but many of the most crucial documents are buried in undigitized publications not easily accessible to specialists in one field, let alone to their colleagues in another.</p>
 
-### Project History
+<p><strong>Mapping the Musical Renaissance</strong> moves outward from fundamental histories in order to uncover connections among seemingly unrelated people and events. For now our work focuses on musicians from the fifteenth and early sixteenth centuries. As the project develops, the map will expand to include artists, writers, political rulers, and other central figures. The project allows users to explore intersections between heterogeneous types of information while giving access to primary documents that underpin that information.</p>
 
-This is a new project. A 2022 grant from the [France–UC Berkeley fund](https://fbf.berkeley.edu/){:target="_blank"} allowed us to form an international team of students and scholars and develop these ideas. We identified a core data set centered on musicians active in the years around 1500, above all the towering figure Josquin des Prez (1450–1521). Using Josquin’s world as our center of gravity, we developed an organizational scheme and workflow for data entry. 
+<h3>Project History</h3>
 
-A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/research-grants/humanities-seed-grants){:target="_blank"} has enabled us to build our mapping tool and expand our database. At present we have more than <span id="event-count"></span> events, ranging from letters by Ferrarese scribes to French royal chapel paylists to secondary literature that describes [how one particular singer in Bruges was fired owing to his laziness, disobediance, and downright incompetence](../?eventid=03296).<br><br>
+<p>This is a new project. A 2022 grant from the <a href="https://fbf.berkeley.edu/" target="_blank">France–UC Berkeley Fund</a> allowed us to form an international team of students and scholars and develop these ideas. We identified a core data set centered on musicians active in the years around 1500, above all the towering figure Josquin des Prez (1450–1521). Using Josquin’s world as our center of gravity, we developed an organizational scheme and workflow for data entry.</p>
 
-### The Team
+<p>A 2024 <a href="https://publichumanities.stanford.edu/research-grants/humanities-seed-grants" target="_blank">Stanford Humanities Seed Grant</a> has enabled us to build our mapping tool and expand our database. At present we have more than <span id="event-count"></span> events, ranging from letters by Ferrarese scribes to French royal chapel paylists to secondary literature that describes <a href="https://renaissancemapping.org/?eventid=03295" target="_blank">how one particular singer in Bruges was fired owing to his laziness, disobediance, and downright incompetence</a>.</p>
+
+<h3><strong>The Team</strong></h3>
 
 <div class="team-container">
     <div class="team-member">
@@ -42,7 +46,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <img src="/images/headshots/Rodin.jpg" alt="Jesse Rodin">
         <div class="bio">
             <h3>Jesse Rodin</h3>
-            <p><b>Co-Director</b></p>
+            <p><strong>Co-Director</strong></p>
             <p>Jesse Rodin is the Osgood Hooker Professor of Fine Arts (Department of Music) at Stanford University. He has published many books and articles on Renaissance music, including, most recently, the monograph <a href="https://www.cambridge.org/us/universitypress/subjects/music/medieval-and-renaissance-music/art-counterpoint-du-fay-josquin" target="_blank">The Art of Counterpoint from Du Fay to Josquin</a> (Cambridge University Press, 2024). Rodin directs the vocal ensemble <a href="https://cutcircle.org/" target="_blank">Cut Circle</a> as well as the <a href="https://josquin.stanford.edu/" target="_blank">Josquin Research Project</a>, a tool for exploring a large musical corpus. He is the recipient of awards and fellowships from organizations such as the American Council of Learned Societies, the American Musicological Society, and the Guggenheim Foundation.</p>
         </div>
     </div>
@@ -50,7 +54,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <img src="/images/headshots/Ory.jpg" alt="Benjamin Ory">
         <div class="bio">
             <h3>Benjamin Ory</h3>
-            <p><b>Co-Director</b></p>
+            <p><strong>Co-Director</strong></p>
             <p>Benjamin Ory is an FWO Junior Postdoctoral Fellow at KU Leuven. He received his PhD in musicology from Stanford University in 2022, and has since served as a Harvard University Villa I Tatti Digital Humanities Fellow, as visiting assistant professor of musicology at Williams College, and as a postdoctoral fellow at Stanford. He is the founder of <a href="https://1520s-project.org" target="_blank">The 1520s Project</a>, an open-source repository of sixteenth-century music. Ory’s research focuses on sixteenth-century polyphony as well as the early history of Renaissance musicology.</p>
         </div>
     </div>
@@ -58,7 +62,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <img src="/images/headshots/Bradley.jpg" alt="Sam Bradley">
         <div class="bio">
             <h3>Sam Bradley</h3>
-            <p><b>Team Member</b></p>
+            <p><strong>Team Member</strong></p>
             <p>Sam Bradley received his PhD in Musicology from Boston University in 2024. He works on sources, style, compositional process, and performance practice in late fifteenth- and early sixteenth-century music.</p>
         </div>
     </div>
@@ -66,7 +70,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <img src="/images/headshots/Oge.jpg" alt="Full Name">
         <div class="bio">
             <h3>Lara Oge</h3>
-            <p><b>Team Member</b></p>
+            <p><strong>Team Member</strong></p>
             <p>Lara Oge is pursuing an MPhil in Music at the University of Cambridge. She graduated from the University of California, Berkeley, in 2025 with a B.A. in Music, receiving the Department Citation and completing minors in Digital Humanities and Medieval Studies. Her research interests include polyphonic sources of the Renaissance and the musical institutions of the period.</p>
         </div>
     </div>
@@ -74,7 +78,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <img src="/images/headshots/Peacock.jpg" alt="Rupert Peacock">
         <div class="bio">
             <h3>Rupert Peacock</h3>
-            <p><b>Team Member</b></p>
+            <p><strong>Team Member</strong></p>
             <p>Rupert Peacock sings with <a href="https://cutcircle.org/" target="_blank"> Cut Circle</a>. He began his singing career as a treble in King’s College Choir in Cambridge, UK. In 2024 he graduated from Princeton University with a BA in Music, a certificate in vocal consort performance, and as the recipient of the Isidore and Helen Sacks Memorial Prize. For his senior thesis he conducted research in the archives of Ely Cathedral; the thesis presents a previously unknown piece of sixteenth-century English choral music.</p>
         </div>
     </div>
@@ -82,7 +86,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <img src="/images/headshots/McIntyre.jpg" alt="Flannery McIntyre">
         <div class="bio">
             <h3>Flannery McIntyre</h3>
-            <p><b>Team Member</b></p>
+            <p><strong>Team Member</strong></p>
             <p>Flannery McIntyre is a PhD Candidate in the Department of Music and Program in Medieval Studies at the University of California, Berkeley. Prior to starting her PhD, she earned a MPhil in Medieval Archaeology from the University of Cambridge. Her dissertation, entitled “An History of Music and Intellectual Culture, 300 – 900 A.D,” explores how people understood music’s place in the contexts of religion, material culture, quadrivial sciences, politics, and literature during Late Antiquity and the Early Middle Ages.</p>
         </div>
     </div>
@@ -90,7 +94,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <img src="/images/headshots/Nguyen.jpg" alt="Audrey Nguyen">
         <div class="bio">
             <h3>Audrey Nguyen</h3>
-            <p><b>Team Member</b></p>
+            <p><strong>Team Member</strong></p>
             <p>Audrey Nguyen is a second-year undergraduate at UC Berkeley, studying English with secondary areas in Music and History. Her interests center on the interactions between musicians and their contemporaries.</p>
         </div>
     </div>
@@ -98,7 +102,7 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <img src="/images/headshots/Cho.jpg" alt="Holden Cho">
         <div class="bio">
             <h3>Holden Cho</h3>
-            <p><b>Team Member</b></p>
+            <p><strong>Team Member</strong></p>
             <p>Holden Cho is a first-year undergraduate at UC Berkeley, studying Applied Math and Data Science. He is interested in the origins of tonality.</p>
         </div>
     </div>
@@ -106,13 +110,13 @@ A 2024 [Stanford Humanities Seed Grant](https://publichumanities.stanford.edu/re
         <img src="/images/headshots/Feng.jpg" alt="Alyssa Feng">
         <div class="bio">
             <h3>Alyssa Feng</h3>
-            <p><b>Team Member</b></p>
+            <p><strong>Team Member</strong></p>
             <p>Alyssa Feng is a second-year undergraduate at UC Berkeley, studying History with a concentration in nineteenth-century US history and modern Chinese foreign policy. She is a violinist with the UC Berkeley Symphony Orchestra.</p>
         </div>
     </div>
 </div>
 
-### Collaborators
-
-<div id="person">Philippe Vendrix (Université de Tours)</div>
-<div id="person">Camilla Cavicchi (Université de Tours)</div>
+<h3>Collaborators</h3>
+    <div class="collaborator">Philippe Vendrix (Université de Tours)</div>
+    <div class="collaborator">Camilla Cavicchi (Université de Tours)</div>
+</div>

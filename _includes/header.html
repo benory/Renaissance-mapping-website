@@ -1,0 +1,99 @@
+<style>
+  .site-header {
+  background: linear-gradient(
+    180deg,
+    #e7eef8,
+    #dde7f4
+  );
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.site-header .wrapper {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0px;  /* adjust to taste */
+  padding-right: 16px;
+}
+
+.header-inner {
+  margin-left: 40px;
+  padding: 14px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Title as typographic logo */
+.site-title {
+  font-family:
+    "Iowan Old Style",
+    "Palatino Linotype",
+    Palatino,
+    "Book Antiqua",
+    Georgia,
+    serif;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* Navigation */
+.site-nav {
+  display: flex;
+  gap: 18px;
+  margin-right: 20px;
+}
+
+.nav-link {
+  font-size: 14px;
+  color: #2f3a4a; /* blue-gray */
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.nav-link {
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.nav-link:hover {
+  background: rgba(47, 58, 74, 0.08);
+  color: #1f2a38;
+}
+
+.site-header .site-nav a:hover,
+.site-title:hover {
+  text-decoration: none;
+}
+
+</style>
+
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a class="site-title" href="{{ "/" | relative_url }}">
+      Mapping the Musical Renaissance
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      {%- if page.url != "/" and page.url != "/index.html" -%}
+        <a class="nav-link nav-home" href="{{ "/" | relative_url }}">Home</a>
+      {%- endif -%}
+
+      {% assign pages = site.pages | where_exp:"p","p.nav == true" | sort:"order" %}
+      {% for p in pages %}
+        <a class="nav-link" href="{{ p.url | relative_url }}">
+          {{ p.title }}
+        </a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

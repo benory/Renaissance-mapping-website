@@ -1,45 +1,190 @@
-<style type="text/css">
+<style>
+
+h1,
+h1.post-title {
+  display: none;
+}
+
+/* =========================
+   Documentation Container
+   ========================= */
+
+.doc-container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding-top: 12px;
+  padding-bottom: 48px;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #1c1c1e;
+}
+
+/* =========================
+   Headings
+   ========================= */
+
+h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 15px;
+    letter-spacing: 0.01em;
+}
+
+h2,
+.doc-container h2,
+h3,
+h4,
+strong {
+  font-family:
+    "Iowan Old Style",
+    "Palatino Linotype",
+    Palatino,
+    "Book Antiqua",
+    Georgia,
+    serif;
+}
+
+.doc-container h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0px 0 18px;
+  letter-spacing: 0.01em;
+}
+
+.doc-container h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 18px 0 14px;
+  letter-spacing: 0.01em;
+}
+
+.doc-container h4 {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 12px 0 6px;
+  letter-spacing: 0.01em;
+}
+
+/* =========================
+   Body Text
+   ========================= */
+
+.doc-container p {
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  margin: 0 0 18px;
+  color: #2c2c2e;
+}
+
+/* =========================
+   Lists
+   ========================= */
+
+.doc-container ul {
+  margin: 14px 0 26px 18px;
+  padding: 0;
+}
+
+.doc-container li {
+  margin-bottom: 14px;
+  margin-left: 5px;
+}
+
+/* Special relational database list */
+.doc-container ul > li > h4 {
+  margin-top: 18px;
+}
+
+/* =========================
+   Targets Grid
+   ========================= */
 
 .targets-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    margin: 20px 0;
-    margin-left: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-left: 20px;
 }
 
 .targets-column h3 {
-    margin-bottom: 10px;
-    font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 18px;
 }
 
-.targets-column ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.targets-column ul:last-of-type {
+  margin-bottom: 0px;
 }
 
-.targets-column li {
-    font-size: 15px;
-    margin-left: 15px;
-}
-
-/* Base styling for the two-column targets list */
 .targets-list {
-    list-style-type: disc;
-    padding-left: 20px;
-    margin: 0;
+  list-style-type: disc;
+  padding-left: 18px;
+  margin: 0;
 }
 
-/* Make only THESE items turn blue on hover */
 .targets-list li {
-    transition: color 0.15s ease;
-    cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: color 0.15s ease;
+  line-height: 1.3;
 }
 
 .targets-list li:hover {
-    color: #0066cc; /* your hover blue */
-    style: bold;
+  color: #0066cc;
+}
+
+/* =========================
+   Code Styling
+   ========================= */
+
+.doc-container code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+               "Liberation Mono", "Courier New", monospace;
+  font-size: 13px;
+  background: rgba(0, 0, 0, 0.04);
+  padding: 2px 5px;
+  border-radius: 6px;
+}
+
+.doc-container pre {
+  background: rgba(0, 0, 0, 0.04);
+  padding: 14px 16px;
+  border-radius: 12px;
+  overflow-x: auto;
+  margin: 18px 0 26px;
+}
+
+.doc-container pre code {
+  background: none;
+  padding: 0;
+  font-size: 13px;
+}
+
+/* =========================
+   Divider
+   ========================= */
+
+.doc-divider {
+  border: none;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.08);
+  margin: 18px 0;
+}
+
+/* =========================
+   Links
+   ========================= */
+
+.doc-container a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.doc-container a:hover {
+  text-decoration: underline;
 }
 
 </style>
