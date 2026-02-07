@@ -434,6 +434,18 @@
 		"Date entered": "2024-8-21"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Heinrich_Finck",
+		"Composer Name": "Heinrich Finck",
+		"Alias": "Henricus",
+		"Birth Date": "1445",
+		"Death Date": "1526",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/549/",
+		"RISM Link": "https://rism.online/people/30016306",
+		"Bibliography (BIB) ID": "BIB:Hoffman-Erbrecht_1982",
+		"Input data": "SMB",
+		"Date entered": "2026-2-6"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Heinrich_Isaac",
 		"Composer Name": "Heinrich Isaac",
 		"Alias": "Arrhigus, Heinrich; Arrigo Tedesco; Arrigo Ugonis; Arrigo d'Ugo; Arrigo de Alemania; Arrigo di Fiandra; Arrigo il Tedesco; Isaac, Henricus; Isaak, Heinrich; Isac, Heinrich; Izac, Heinrich; Ysaac, Heinrich; Ysac, Heinrich; Ysach, Heinrich; Ysak, Heinrich; Yzaac, Heinrich; Yzac, Heinrich",
@@ -1333,5 +1345,14 @@
 		"BIB Pages": "35–36",
 		"Input data": "AN",
 		"Date entered": "2025-08-27"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Petrus_Vinderhout",
+		"Composer Name": "Petrus Vinderhout",
+		"Description": "composer at St Donatian's",
+		"Bibliography (BIB) ID": "BIB:Strohm_1985",
+		"BIB Pages": "16",
+		"Input data": "LO",
+		"Date entered": "2026-01-22"
 	}
 ]

@@ -257,6 +257,16 @@
 		"Date entered": "2023-4-13"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Finscher_2016",
+		"Author": "Ludwig Finscher",
+		"Name of Article": "Jean Mouton",
+		"Name of Volume/Journal": "MGG Online",
+		"Publication Year": "2016",
+		"Notes": "Online article updated Nov 2016",
+		"Input data": "SMB",
+		"Date entered": "2026-1-29"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Frey_1955",
 		"Author": "Herman-Walther Frey",
 		"Name of Article": "Regesten zur päpstlichen Kapelle unter Leo X und zu seiner Privatkapelle",
@@ -287,6 +297,18 @@
 		"Publication Year": "1937",
 		"Input data": "SMB",
 		"Date entered": "2024-9-1"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Gomart_1850",
+		"Author": "Charles Gomart",
+		"Name of Article": "Notes historiques sur la maitrise de Saint-Quentin et sur les celebrites musicales de cette ville",
+		"Name of Volume/Journal": "Bulletin de la Societe academique de Saint-Quentin: Memoires",
+		"Volume": "8",
+		"Series": "2",
+		"Publication Year": "1850",
+		"Pages": "212-81",
+		"Input data": "SMB",
+		"Date entered": "2026-1-22"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Gottwald_1961",
@@ -358,6 +380,16 @@
 		"Publication Year": "2009",
 		"Input data": "ECZ",
 		"Date entered": "2024-2-22"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Hoffman-Erbrecht_1982",
+		"Author": "Lothar Hoffman-Erbrecht",
+		"Name of Volume/Journal": "Henricus Finck--Musicus Excellentissimus (1445-1527)",
+		"Location": "Cologne",
+		"Publisher": "Gitarre und Laute Verlagsgesellschaft",
+		"Publication Year": "1982",
+		"Input data": "SMB",
+		"Date entered": "2026-2-6"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Jas_1994",
@@ -743,6 +775,17 @@
 		"URL": "https://doi.org/10.2307/928600",
 		"Input data": "FEM",
 		"Date entered": "2024-8-18"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Royer_1937",
+		"Author": "Louis Royer",
+		"Name of Article": "Les Musiciens et la Musicle a l'ancienne collegiale Saint-Andre de Grenoble du XVe au XVIIIe siecle",
+		"Name of Volume/Journal": "Humanisme et Renaissance",
+		"Volume": "T. 4 no. 3",
+		"Publication Year": "1937",
+		"Pages": "237-273",
+		"Input data": "SMB",
+		"Date entered": "2026-1-24"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Sartori_1957",

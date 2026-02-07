@@ -124,7 +124,8 @@
 		"Target Type": "A",
 		"Last": "Finck",
 		"First": "Heinrich",
-		"Status": "0 events"
+		"Status": "0 events",
+		"Contributor": "SMB"
 	},
 	{
 		"Target Type": "A",
@@ -208,7 +209,8 @@
 		"Target Type": "A",
 		"Last": "Mouton",
 		"First": "Jean",
-		"Status": "7 events"
+		"Status": "Mostly Complete",
+		"Contributor": "SMB"
 	},
 	{
 		"Target Type": "A",

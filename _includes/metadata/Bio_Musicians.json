@@ -6364,7 +6364,7 @@
 		"Biography Musician (BMU) ID": "BMU:Johannes_Ondanch",
 		"Musician Name": "Johannes Ondanch",
 		"Death Date": "1425",
-		"Description": "musician in Bruges; ducal organist; death year is the date of his will",
+		"Description": "musician in Bruges; ducal organist for Philip the Bold from 1384; death year is the date of his will",
 		"Bibliography ID (BIB)": "BIB:Strohm_1985",
 		"BIB Pages": "156",
 		"Input data": "LO",
@@ -11389,5 +11389,32 @@
 		"BIB Pages": "246",
 		"Input data": "LO",
 		"Date entered": "2026-01-02"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jean_Visee",
+		"Musician Name": "Jean Visée",
+		"Description": "organist",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "18",
+		"Input data": "LO",
+		"Date entered": "2026-01-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Henri_Potage",
+		"Musician Name": "Henri Potage",
+		"Description": "singer from the chapel of Louis de Male; formerly sung in the papal chapel in Avignon; later employed by Philip the Bold",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "19",
+		"Input data": "LO",
+		"Date entered": "2026-01-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Symon_le_Corier",
+		"Musician Name": "Symon le Corier",
+		"Description": "Sung in the papal chapel in Avignon; later employed by Philip the Bold",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "19",
+		"Input data": "LO",
+		"Date entered": "2026-01-22"
 	}
 ]

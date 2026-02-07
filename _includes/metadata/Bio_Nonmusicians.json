@@ -977,9 +977,39 @@
 		"Birth Date": "1452-04-15",
 		"Death Date": "1519-05-02",
 		"Noted Positions": "artist and musician originally from Florence",
-		"Description": "BIB:Isaacson_2017",
 		"Bibliography ID (BIB)": "BIB:Isaacson_2017",
 		"Input data": "HC",
 		"Date entered": "2025-10-14"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Petrus_van_Oostkerke",
+		"Person Name": "Petrus van Oostkerke",
+		"Noted Positions": "citizen of Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "16",
+		"Input data": "LO",
+		"Date entered": "2026-01-26"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Philip_the_Bold",
+		"Person Name": "Philip the Bold",
+		"Birth Date": "1342-01-17",
+		"Death Date": "1404-04-27",
+		"Noted Positions": "Duke of Burgundy (r. 1363–1404)",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "18",
+		"Input data": "LO",
+		"Date entered": "2026-01-26"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Rogerus_de_Noorthende",
+		"Person Name": "Rogerus de Noorthende",
+		"Alias": "de Noorthende, Roegaert",
+		"Noted Positions": "Organ builder",
+		"Description": "from Delft",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "19",
+		"Input data": "LO",
+		"Date entered": "2026-01-26"
 	}
 ]

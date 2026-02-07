@@ -248,6 +248,16 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Location ID (LOC)": "LOC:Bamberg",
+		"Name of Location": "Bamberg",
+		"City or Larger Place": "Bavaria",
+		"Modern Country": "Germany",
+		"Google URL": "https://maps.app.goo.gl/nppkzKw3ZcXiAH7n7",
+		"Coordinates": "49.9, 10.9",
+		"Input data": "SMB",
+		"Date entered": "2026-2-6"
+	},
+	{
 		"Location ID (LOC)": "LOC:Bar-le-Duc",
 		"Name of Location": "Bar-le-Duc",
 		"Modern Country": "France",
@@ -1495,6 +1505,16 @@
 		"Modern Country": "France",
 		"Input data": "BSO",
 		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Leipzig",
+		"Name of Location": "Leipzig",
+		"City or Larger Place": "Saxony",
+		"Modern Country": "Germany",
+		"Google URL": "https://maps.app.goo.gl/jTUcjhfdefei9akE8",
+		"Coordinates": "51.3, 12.4",
+		"Input data": "SMB",
+		"Date entered": "2026-2-6"
 	},
 	{
 		"Location ID (LOC)": "LOC:Les_Montils-sous-Blois",
@@ -3763,5 +3783,14 @@
 		"Coordinates": "51.486760668889296, 4.288038778069824",
 		"Input data": "LO",
 		"Date entered": "2025-10-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Gistel",
+		"Name of Location": "Gistel",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/zoVcA1dQzJg4Mb8x9",
+		"Coordinates": "51.14994720809821, 2.9538318918286315",
+		"Input data": "LO",
+		"Date entered": "2026-01-22"
 	}
 ]
