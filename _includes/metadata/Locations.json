@@ -3792,5 +3792,26 @@
 		"Coordinates": "51.14994720809821, 2.9538318918286315",
 		"Input data": "LO",
 		"Date entered": "2026-01-22"
+	},
+	{
+		"Location ID (LOC)": "LOC:Paris-Eglise_Saint-Sepulcre",
+		"Name of Location": "Eglise du Saint-Sepulcre",
+		"City or Larger Place": "Paris",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/RVArQwrMAmPnuMFL9",
+		"Coordinates": "49.64644614542188, 2.568258063086903",
+		"Aliases": "Church of the Holy Sepulchre",
+		"Input data": "LQ",
+		"Date entered": "2026-02-11"
+	},
+	{
+		"Location ID (LOC)": "LOC:Laon-Notre-Dame",
+		"Name of Location": "Cathédrale Notre-Dame de Laon",
+		"City or Larger Place": "Laon",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/Mu19vtHngNvziSJY9",
+		"Coordinates": "49.56446622707838, 3.625304305412745",
+		"Input data": "LQ",
+		"Date entered": "2026-02-11"
 	}
 ]

@@ -250,6 +250,13 @@
 	},
 	{
 		"Target Type": "A",
+		"Last": "Sermisy",
+		"First": "Claudin de",
+		"Status": "1 event",
+		"Contributor": "SMB"
+	},
+	{
+		"Target Type": "A",
 		"Last": "Sheppard",
 		"First": "John",
 		"Status": "1 event"
@@ -534,13 +541,6 @@
 		"Target Type": "B",
 		"Last": "Rener",
 		"Status": "0 events"
-	},
-	{
-		"Target Type": "B",
-		"Last": "Sermisy",
-		"First": "Claudin de",
-		"Status": "1 event",
-		"Contributor": "SMB"
 	},
 	{
 		"Target Type": "B",

@@ -1282,5 +1282,17 @@
 		"Pages": "23-62",
 		"Input data": "SMB",
 		"Date entered": "2026-1-10"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Wright_1979",
+		"Author": "Craig Wright",
+		"Name of Volume/Journal": "Music at the Court of Burgundy, 1364-1419: A Documentary History",
+		"Volume": "28",
+		"Location": "Ottawa",
+		"Publisher": "Institute of Mediaeval Music",
+		"Publication Year": "1979",
+		"URL": "https://www.examenapium.it/cs/biblio/Wright1979.pdf",
+		"Input data": "LQ",
+		"Date entered": "2026-2-11"
 	}
 ]
