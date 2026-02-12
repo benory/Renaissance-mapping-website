@@ -253,7 +253,7 @@
 		"City or Larger Place": "Bavaria",
 		"Modern Country": "Germany",
 		"Google URL": "https://maps.app.goo.gl/nppkzKw3ZcXiAH7n7",
-		"Coordinates": "49.9, 10.9",
+		"Coordinates": "49.89917560439126, 10.884967478561949",
 		"Input data": "SMB",
 		"Date entered": "2026-2-6"
 	},
@@ -574,6 +574,16 @@
 		"Date entered": "2024-1-29"
 	},
 	{
+		"Location ID (LOC)": "LOC:Brzesc",
+		"Name of Location": "Brześć",
+		"Modern Country": "Poland",
+		"Google URL": "https://maps.app.goo.gl/RfNXg8ViJHAqcy5DA",
+		"Coordinates": "52.60627590520982, 18.901260732160186",
+		"Aliases": "Brześć Kujawski",
+		"Input data": "SMB",
+		"Date entered": "2026-2-11"
+	},
+	{
 		"Location ID (LOC)": "LOC:Budapest",
 		"Name of Location": "Budapest",
 		"Modern Country": "Hungary",
@@ -694,7 +704,7 @@
 		"Name of Location": "Charolles",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/QAt6iSY1Uh1uxDwK6",
-		"Coordinates": "46.43, 4.28",
+		"Coordinates": "46.43282814607988, 4.280064017001699",
 		"Input data": "SMB",
 		"Date entered": "2025-3-14"
 	},
@@ -1224,6 +1234,16 @@
 		"Date entered": "2023-5-17"
 	},
 	{
+		"Location ID (LOC)": "LOC:Grodno",
+		"Name of Location": "Grodno",
+		"Modern Country": "Belarus",
+		"Google URL": "https://maps.app.goo.gl/XnaTaCndrY2w4VUR8",
+		"Coordinates": "53.61835084581174, 24.31063415041218",
+		"Aliases": "Hrodna",
+		"Input data": "SMB",
+		"Date entered": "2026-2-11"
+	},
+	{
 		"Location ID (LOC)": "LOC:Gubbio",
 		"Name of Location": "Gubbio",
 		"Modern Country": "Italy",
@@ -1512,7 +1532,7 @@
 		"City or Larger Place": "Saxony",
 		"Modern Country": "Germany",
 		"Google URL": "https://maps.app.goo.gl/jTUcjhfdefei9akE8",
-		"Coordinates": "51.3, 12.4",
+		"Coordinates": "51.339844758243856, 12.363816143370732",
 		"Input data": "SMB",
 		"Date entered": "2026-2-6"
 	},
@@ -1832,6 +1852,15 @@
 		"Coordinates": "47.95000951952568, -0.5521125685006583",
 		"Input data": "BSO",
 		"Date entered": "2023-5-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Mielnik",
+		"Name of Location": "Mielnik",
+		"Modern Country": "Poland",
+		"Google URL": "https://maps.app.goo.gl/pibP7QN4pC1Z1tVZ9",
+		"Coordinates": "52.33117498085763, 23.045406053039564",
+		"Input data": "SMB",
+		"Date entered": "2026-2-11"
 	},
 	{
 		"Location ID (LOC)": "LOC:Migliarino",
@@ -2758,7 +2787,7 @@
 		"Name of Location": "Samer",
 		"Modern Country": "France",
 		"Google URL": "https://maps.app.goo.gl/ptXZ9CVVWrMyWuES9",
-		"Coordinates": "50.64, 1.75",
+		"Coordinates": "50.64021021402237, 1.7429393758050329",
 		"Input data": "SMB",
 		"Date entered": "2026-1-16"
 	},
@@ -2960,6 +2989,16 @@
 		"Date entered": "2025-01-19"
 	},
 	{
+		"Location ID (LOC)": "LOC:Torgau",
+		"Name of Location": "Torgau",
+		"City or Larger Place": "Saxony",
+		"Modern Country": "Germany",
+		"Google URL": "https://maps.app.goo.gl/ScmVq3xaXjwXx7Em9",
+		"Coordinates": "51.55668895140778, 12.991392461730406",
+		"Input data": "SMB",
+		"Date entered": "2026-2-11"
+	},
+	{
 		"Location ID (LOC)": "LOC:Torhout",
 		"Name of Location": "Torhout",
 		"Modern Country": "Belgium",
@@ -3004,6 +3043,15 @@
 		"Coordinates": "47.39362987127876, 0.6826726232838641",
 		"Input data": "ECZ",
 		"Date entered": "2024-2-22"
+	},
+	{
+		"Location ID (LOC)": "LOC:Trakai",
+		"Name of Location": "Trakai",
+		"Modern Country": "Lithuania",
+		"Google URL": "https://maps.app.goo.gl/9WoNbEgk6k7B6jPKA",
+		"Coordinates": "54.6375838518632, 24.936176954666323",
+		"Input data": "SMB",
+		"Date entered": "2026-2-11"
 	},
 	{
 		"Location ID (LOC)": "LOC:Treguier",
@@ -3245,6 +3293,15 @@
 		"Coordinates": "50.61762498149518, 3.742035102585504",
 		"Input data": "LO",
 		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Vilnius",
+		"Name of Location": "Vilnius",
+		"Modern Country": "Lithanua",
+		"Google URL": "https://maps.app.goo.gl/BcjPTqcK9Q5CCfQq8",
+		"Coordinates": "54.68691647029409, 25.286331157240518",
+		"Input data": "SMB",
+		"Date entered": "2026-2-11"
 	},
 	{
 		"Location ID (LOC)": "LOC:Vincennes-Chateau_de_Vincennes",
@@ -3798,8 +3855,8 @@
 		"Name of Location": "Eglise du Saint-Sepulcre",
 		"City or Larger Place": "Paris",
 		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/RVArQwrMAmPnuMFL9",
-		"Coordinates": "49.64644614542188, 2.568258063086903",
+		"Google URL": "https://maps.app.goo.gl/CL8LitcD2N7G8kV36",
+		"Coordinates": "48.86156280791593, 2.349150892825235",
 		"Aliases": "Church of the Holy Sepulchre",
 		"Input data": "LQ",
 		"Date entered": "2026-02-11"
@@ -3809,9 +3866,18 @@
 		"Name of Location": "Cathédrale Notre-Dame de Laon",
 		"City or Larger Place": "Laon",
 		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/Mu19vtHngNvziSJY9",
-		"Coordinates": "49.56446622707838, 3.625304305412745",
+		"Google URL": "https://maps.app.goo.gl/hzrqBHTPnuX78vKE6",
+		"Coordinates": "49.56440710718425, 3.6257173676003527",
 		"Input data": "LQ",
 		"Date entered": "2026-02-11"
+	},
+	{
+		"Location ID (LOC)": "LOC:Flanders",
+		"Name of Location": "Flanders",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/hDFYdHocLkrNMfR66",
+		"Coordinates": "51.169081960736875, 4.53295898368415",
+		"Input data": "LQ",
+		"Date entered": "2026-02-12"
 	}
 ]
