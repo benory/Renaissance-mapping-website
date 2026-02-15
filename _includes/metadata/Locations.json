@@ -485,6 +485,16 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Location ID (LOC)": "LOC:Brest-Litovsk",
+		"Name of Location": "Brest-Litovsk",
+		"Modern Country": "Belarus",
+		"Google URL": "https://maps.app.goo.gl/au3dJ8S5WcZbB2zN9",
+		"Coordinates": "52.101498516097934, 23.76331275255439",
+		"Aliases": "Brest",
+		"Input data": "SMB",
+		"Date entered": "2026-2-14"
+	},
+	{
 		"Location ID (LOC)": "LOC:Bruges",
 		"Name of Location": "Bruges",
 		"Modern Country": "Belgium",
@@ -745,6 +755,15 @@
 		"Coordinates": "47.86608518376506, 2.196232679067816",
 		"Input data": "BSO",
 		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Chernivtsi",
+		"Name of Location": "Chernivtsi",
+		"Modern Country": "Ukraine",
+		"Google URL": "https://maps.app.goo.gl/jjxQ4vnVj2eRZ7u77",
+		"Coordinates": "48.297035390159465, 25.933553741559496",
+		"Input data": "SMB",
+		"Date entered": "2026-2-14"
 	},
 	{
 		"Location ID (LOC)": "LOC:Chinon",
@@ -1140,6 +1159,16 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Location ID (LOC)": "LOC:Gdansk",
+		"Name of Location": "Gdansk",
+		"Modern Country": "Poland",
+		"Google URL": "https://maps.app.goo.gl/yEdJLQszkd6r5bkEA",
+		"Coordinates": "54.352165566242974, 18.65684226462198",
+		"Aliases": "Danzig",
+		"Input data": "SMB",
+		"Date entered": "2026-2-13"
+	},
+	{
 		"Location ID (LOC)": "LOC:Geneva",
 		"Name of Location": "Geneva",
 		"Modern Country": "Switzerland",
@@ -1336,6 +1365,15 @@
 		"Coordinates": "50.826044558279015, 3.2493637279581287",
 		"Input data": "SMB",
 		"Date entered": "2024-7-28"
+	},
+	{
+		"Location ID (LOC)": "LOC:Krakow",
+		"Name of Location": "Krakow",
+		"Modern Country": "Poland",
+		"Google URL": "https://maps.app.goo.gl/ZdbY7P4KG3Fn52xY7",
+		"Coordinates": "50.0627710893729, 19.944367447445607",
+		"Input data": "SMB",
+		"Date entered": "2026-2-13"
 	},
 	{
 		"Location ID (LOC)": "LOC:La_Bassee",
@@ -1614,6 +1652,15 @@
 		"Date entered": "2024-7-11"
 	},
 	{
+		"Location ID (LOC)": "LOC:Ljubliana",
+		"Name of Location": "Ljubliana",
+		"Modern Country": "Slovenia",
+		"Google URL": "https://maps.app.goo.gl/g1dWtAetfjuf9xoJ8",
+		"Coordinates": "46.05575777589922, 14.504975253398882",
+		"Input data": "SMB",
+		"Date entered": "2026-2-13"
+	},
+	{
 		"Location ID (LOC)": "LOC:Loches",
 		"Name of Location": "Loches",
 		"Modern Country": "France",
@@ -1657,6 +1704,15 @@
 		"Coordinates": "51.50642296495793, -0.13387098563972913",
 		"Input data": "SMB",
 		"Date entered": "2024-8-9"
+	},
+	{
+		"Location ID (LOC)": "LOC:Lublin",
+		"Name of Location": "Lublin",
+		"Modern Country": "Poland",
+		"Google URL": "https://maps.app.goo.gl/68jHE6ttJ17KHGVy7",
+		"Coordinates": "51.25021472000648, 22.577053886929665",
+		"Input data": "SMB",
+		"Date entered": "2026-2-13"
 	},
 	{
 		"Location ID (LOC)": "LOC:Lyon",
@@ -2514,6 +2570,15 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Location ID (LOC)": "LOC:Radom",
+		"Name of Location": "Radom",
+		"Modern Country": "Poland",
+		"Google URL": "https://maps.app.goo.gl/gPQLE6vCsb3sJKL59",
+		"Coordinates": "51.404273328542196, 21.14650199866016",
+		"Input data": "SMB",
+		"Date entered": "2026-2-14"
+	},
+	{
 		"Location ID (LOC)": "LOC:Reggio",
 		"Name of Location": "Reggio",
 		"Modern Country": "Italy",
@@ -2634,6 +2699,15 @@
 		"Coordinates": "42.29432084461648, 12.220563193548568",
 		"Input data": "BSO",
 		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Rozkopaczew",
+		"Name of Location": "Rozkopaczew",
+		"Modern Country": "Poland",
+		"Google URL": "https://maps.app.goo.gl/pVWftMn8f1dYCBuKA",
+		"Coordinates": "51.41248776672771, 22.85682470337901",
+		"Input data": "SMB",
+		"Date entered": "2026-2-13"
 	},
 	{
 		"Location ID (LOC)": "LOC:Rouen",
@@ -2807,6 +2881,15 @@
 		"Date entered": "2024-2-13"
 	},
 	{
+		"Location ID (LOC)": "LOC:Sandomierz",
+		"Name of Location": "Sandomierz",
+		"Modern Country": "Poland",
+		"Google URL": "https://maps.app.goo.gl/E9yXat7iPzWotTj67",
+		"Coordinates": "50.68285830249574, 21.75222679723971",
+		"Input data": "SMB",
+		"Date entered": "2026-2-13"
+	},
+	{
 		"Location ID (LOC)": "LOC:Savignano_sul_Rubicone",
 		"Name of Location": "Savignano sul Rubicone",
 		"Modern Country": "Italy",
@@ -2908,6 +2991,15 @@
 		"Date entered": "2024-3-8"
 	},
 	{
+		"Location ID (LOC)": "LOC:Stuttgart",
+		"Name of Location": "Stuttgart",
+		"Modern Country": "Germany",
+		"Google URL": "https://maps.app.goo.gl/nJbGCqr5jpg4i3QF6",
+		"Coordinates": "48.775136722468666, 9.183395009352152",
+		"Input data": "SMB",
+		"Date entered": "2026-2-14"
+	},
+	{
 		"Location ID (LOC)": "LOC:Suscinio",
 		"Name of Location": "Suscinio",
 		"Modern Country": "France",
@@ -3006,6 +3098,15 @@
 		"Coordinates": "51.06221536065341, 3.1048463989321293",
 		"Input data": "SMB",
 		"Date entered": "2025-1-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:Torun",
+		"Name of Location": "Toruń",
+		"Modern Country": "Poland",
+		"Google URL": "https://maps.app.goo.gl/hxTAvGEefWFrtdoq9",
+		"Coordinates": "53.01383777821793, 18.59492213237716",
+		"Input data": "SMB",
+		"Date entered": "2026-2-13"
 	},
 	{
 		"Location ID (LOC)": "LOC:Tournai",

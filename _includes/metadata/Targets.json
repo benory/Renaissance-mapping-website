@@ -14,12 +14,6 @@
 	},
 	{
 		"Target Type": "A",
-		"Last": "Basiron",
-		"First": "Philippe",
-		"Status": "Complete"
-	},
-	{
-		"Target Type": "A",
 		"Last": "Binchois",
 		"First": "Gilles",
 		"Status": "1 event"
@@ -104,12 +98,6 @@
 	},
 	{
 		"Target Type": "A",
-		"Last": "Festa",
-		"First": "Sebastiano",
-		"Status": "0 events"
-	},
-	{
-		"Target Type": "A",
 		"Last": "Févin",
 		"First": "Antoine de",
 		"Status": "0 events"
@@ -137,12 +125,6 @@
 		"Target Type": "A",
 		"Last": "Gaffurius",
 		"First": "Franchinus",
-		"Status": "1 event"
-	},
-	{
-		"Target Type": "A",
-		"Last": "Gascongne",
-		"First": "Mathieu",
 		"Status": "1 event"
 	},
 	{
@@ -312,6 +294,12 @@
 	},
 	{
 		"Target Type": "B",
+		"Last": "Basiron",
+		"First": "Philippe",
+		"Status": "Complete"
+	},
+	{
+		"Target Type": "B",
 		"Last": "Bauldeweyn",
 		"First": "Noel",
 		"Status": "Mostly Complete"
@@ -410,6 +398,12 @@
 	},
 	{
 		"Target Type": "B",
+		"Last": "Festa",
+		"First": "Sebastiano",
+		"Status": "0 events"
+	},
+	{
+		"Target Type": "B",
 		"Last": "Fontaine",
 		"Status": "0 events"
 	},
@@ -424,6 +418,12 @@
 		"Last": "Fresneau",
 		"First": "Jehan",
 		"Status": "3 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Gascongne",
+		"First": "Mathieu",
+		"Status": "1 event"
 	},
 	{
 		"Target Type": "B",
@@ -555,7 +555,7 @@
 	},
 	{
 		"Target Type": "B",
-		"Last": "Stolzer",
+		"Last": "Stoltzer",
 		"First": "Thomas",
 		"Status": "0 events"
 	},
