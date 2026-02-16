@@ -136,6 +136,20 @@
 		"Date updated": "2025-2-10"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Bartolomeo",
+		"Composer Name": "Bartolomeo",
+		"Alias": "Bartolomeo degli Organi",
+		"Birth Date": "12-24-1474",
+		"Death Date": "12-12-1539",
+		"Description": "singer, composer, organist",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/337/",
+		"RISM Link": "https://rism.online/people/30005328",
+		"Bibliography (BIB) ID": "BIB:Wilson_2006",
+		"BIB Pages": "114",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Bernardus_Ycart",
 		"Composer Name": "Bernardus Ycart",
 		"Alias": "Hicart, Bernar; Hicart, Bernhard; Hycaert, Bernhard; Hycart, Bernhard; Hyckaert, Bernhard; Icart, Bernhard; Ycaert, Bernhard; Ycart, Ber.; Ycart, Bernar; Ycart, Bernard; Ycart, Bernardus",
@@ -519,6 +533,20 @@
 		"Date entered": "2024-8-24"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Jacobus_Vaet",
+		"Composer Name": "Jacobus Vaet",
+		"Alias": "Vasius, Jacobus",
+		"Birth Date": "1529",
+		"Death Date": "1567-08-01",
+		"Description": "singer at Imperial chapel of Charles V",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/707/",
+		"RISM Link": "https://rism.online/people/30012872",
+		"Bibliography (BIB) ID": "BIB:Ferer_2012",
+		"BIB Pages": "262",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Jacotin_Frontin",
 		"Composer Name": "Jacotin Frontin",
 		"Alias": "Frontin, Jacotin; Godebrie, Jacob; Godebrye, Jacob; Jacostin; Le Beel, Jacques; Le Bel, Jacotin; Level, Giacomo; Level, Jacobus; Level, Jacotinus; Level, Jacques",
@@ -747,6 +775,19 @@
 		"Date updated": "2023-5-8"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Johannes_Martini",
+		"Composer Name": "Johannes Martini",
+		"Birth Date": "1440",
+		"Death Date": "~1497-8",
+		"Description": "composer, Brother of Piero Martini",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/181/",
+		"RISM Link": "https://rism.online/people/30033934",
+		"Bibliography (BIB) ID": "BIB:Wilson_2006",
+		"BIB Pages": "135",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Johannes_Okeghem",
 		"Composer Name": "Johannes Okeghem",
 		"Alias": "Ockeghem, Johannes; Hocquegam, Johannes; Hocqueham, Johannes; Hoquegan, Johannes; Ogkeguam, Johannes; Okchem, Johannes; Okeghem, Johannes; Okegus, Johannes; Okenghem, Johannes; Okenheim, Johannes",
@@ -807,6 +848,18 @@
 		"Date updated": "2023-5-9"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:John_Dunstaple",
+		"Composer Name": "John Dunstaple",
+		"Alias": "Dunstable, John; Dunstapell, John; Dumstable, John; Donstaple, John",
+		"Birth Date": "~1390",
+		"Death Date": "1453-12-24",
+		"Description": "composer",
+		"RISM Link": "https://rism.online/people/30020903",
+		"Bibliography (BIB) ID": "BIB:Bent_1981; BIB:Bent_2001; BIB:Bent_2004",
+		"Input data": "FEM",
+		"Date entered": "2025-03-01"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:John_Forest",
 		"Composer Name": "John Forest",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/137/",
@@ -864,6 +917,19 @@
 		"Biography Composer (BCO) ID": "BCO:Juan_Cornago",
 		"Composer Name": "Juan Cornago",
 		"Description": "composer at Neapolitan court"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Juan_de_Anchieta",
+		"Composer Name": "Juan de Anchieta",
+		"Birth Date": "~1462",
+		"Death Date": "1523",
+		"Description": "composer and singer at chapel of Juana I",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/569/",
+		"RISM Link": "https://rism.online/people/30074713",
+		"Bibliography (BIB) ID": "BIB:Ferer_2012",
+		"BIB Pages": "35–36",
+		"Input data": "AN",
+		"Date entered": "2025-08-27"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Loyset_Compere",
@@ -964,6 +1030,15 @@
 		"Date entered": "2023-3-28",
 		"Update data": "BSO",
 		"Date updated": "2024-3-19"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Niccolo_di_Lore",
+		"Composer Name": "Niccolo di Lore",
+		"Description": "singer, composer",
+		"Bibliography (BIB) ID": "BIB:Wilson_2006",
+		"BIB Pages": "116",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Nicolas_Champion",
@@ -1087,6 +1162,15 @@
 		"Date entered": "2024-3-18"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Petrus_Vinderhout",
+		"Composer Name": "Petrus Vinderhout",
+		"Description": "composer at St Donatian's",
+		"Bibliography (BIB) ID": "BIB:Strohm_1985",
+		"BIB Pages": "16",
+		"Input data": "LO",
+		"Date entered": "2026-01-22"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Philippe_Basiron",
 		"Composer Name": "Philippe Basiron",
 		"Alias": "Barizon, Philippe; Basseron, Philippe; Bassiron, Philippe; Bassiron, Philippus; Baziron, Philippe; Bazyron, Philippe; Phelippon de Bourges, Philippe; Phelippon, Philippe; Philippon, Philippe",
@@ -1132,6 +1216,19 @@
 		"Date entered": "2024-1-19",
 		"Update data": "BSO",
 		"Date updated": "2024-1-19"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Pietro_Aaron",
+		"Composer Name": "Pietro Aaron",
+		"Birth Date": "1480",
+		"Death Date": "~1545",
+		"Description": "composer, music theorest",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/3175/",
+		"RISM Link": "https://rism.online/people/30068881",
+		"Bibliography (BIB) ID": "BIB:Wilson_2006",
+		"BIB Pages": "133",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Robert_Fayrfax",
@@ -1257,102 +1354,5 @@
 		"Date entered": "2024-8-9",
 		"Update data": "BSO",
 		"Date updated": "2025-2-12"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:John_Dunstaple",
-		"Composer Name": "John Dunstaple",
-		"Alias": "Dunstable, John; Dunstapell, John; Dumstable, John; Donstaple, John",
-		"Birth Date": "~1390",
-		"Death Date": "1453-12-24",
-		"Description": "composer",
-		"RISM Link": "https://rism.online/people/30020903",
-		"Bibliography (BIB) ID": "BIB:Bent_1981; BIB:Bent_2001; BIB:Bent_2004",
-		"Input data": "FEM",
-		"Date entered": "2025-03-01"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Johannes_Martini",
-		"Composer Name": "Johannes Martini",
-		"Birth Date": "1440",
-		"Death Date": "~1497-8",
-		"Description": "composer, Brother of Piero Martini",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/181/",
-		"RISM Link": "https://rism.online/people/30033934",
-		"Bibliography (BIB) ID": "BIB:Wilson_2006",
-		"BIB Pages": "135",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Pietro_Aaron",
-		"Composer Name": "Pietro Aaron",
-		"Birth Date": "1480",
-		"Death Date": "~1545",
-		"Description": "composer, music theorest",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/3175/",
-		"RISM Link": "https://rism.online/people/30068881",
-		"Bibliography (BIB) ID": "BIB:Wilson_2006",
-		"BIB Pages": "133",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Niccolo_di_Lore",
-		"Composer Name": "Niccolo di Lore",
-		"Description": "singer, composer",
-		"Bibliography (BIB) ID": "BIB:Wilson_2006",
-		"BIB Pages": "116",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Bartolomeo",
-		"Composer Name": "Bartolomeo",
-		"Alias": "Bartolomeo degli Organi",
-		"Birth Date": "12-24-1474",
-		"Death Date": "12-12-1539",
-		"Description": "singer, composer, organist",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/337/",
-		"RISM Link": "https://rism.online/people/30005328",
-		"Bibliography (BIB) ID": "BIB:Wilson_2006",
-		"BIB Pages": "114",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Jacobus_Vaet",
-		"Composer Name": "Jacobus Vaet",
-		"Alias": "Vasius, Jacobus",
-		"Birth Date": "1529",
-		"Death Date": "1567-08-01",
-		"Description": "singer at Imperial chapel of Charles V",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/707/",
-		"RISM Link": "https://rism.online/people/30012872",
-		"Bibliography (BIB) ID": "BIB:Ferer_2012",
-		"BIB Pages": "262",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Juan_de_Anchieta",
-		"Composer Name": "Juan de Anchieta",
-		"Birth Date": "~1462",
-		"Death Date": "1523",
-		"Description": "composer and singer at chapel of Juana I",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/569/",
-		"RISM Link": "https://rism.online/people/30074713",
-		"Bibliography (BIB) ID": "BIB:Ferer_2012",
-		"BIB Pages": "35–36",
-		"Input data": "AN",
-		"Date entered": "2025-08-27"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Petrus_Vinderhout",
-		"Composer Name": "Petrus Vinderhout",
-		"Description": "composer at St Donatian's",
-		"Bibliography (BIB) ID": "BIB:Strohm_1985",
-		"BIB Pages": "16",
-		"Input data": "LO",
-		"Date entered": "2026-01-22"
 	}
 ]

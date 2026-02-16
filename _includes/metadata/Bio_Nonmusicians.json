@@ -1,5 +1,15 @@
 [
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Adolf_de_la_Verderue",
+		"Person Name": "Adolf de la Verderue",
+		"Alias": "de Hietveld, Adolf; de Liestvelde, Adolf; de Verderue, Adolf; de la Verderue, Adorlf; de la Verde, Adolphe; de la Verderue, Adolphe",
+		"Noted Positions": "clerk at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "262",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Adrian_VI",
 		"Person Name": "Pope Adrian VI",
 		"Alias": "Adriaan Florensz Boeyens",
@@ -34,6 +44,19 @@
 		"Date entered": "2024-2-12"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Alessandro_da_Filicaia",
+		"Person Name": "Alessandro da Filicaia",
+		"Alias": "Alexander",
+		"Birth Date": "1429",
+		"Death Date": "1512",
+		"Noted Positions": "Wealthy merchant and prominent citizen",
+		"Description": "married a medici",
+		"Bibliography ID (BIB)": "BIB:Wilson_2006",
+		"BIB Pages": "148",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Alexander_VI",
 		"Person Name": "Pope Alexander VI",
 		"Alias": "Rodrigo de Borja",
@@ -64,6 +87,30 @@
 		"Date entered": "2024-1-19",
 		"Update data": "BSO",
 		"Date updated": "2024-1-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Ambrogio_Angeni",
+		"Person Name": "Ambrogio Angeni",
+		"Birth Date": "1459",
+		"Noted Positions": "From a family of stonemakers",
+		"Description": "liked to buy and copy music",
+		"Bibliography ID (BIB)": "BIB:Wilson_2006",
+		"BIB Pages": "147",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Angelo_Poliziano",
+		"Person Name": "Angelo Poliziano",
+		"Alias": "Ambrogini",
+		"Birth Date": "1454-07-14",
+		"Death Date": "1494-09-24",
+		"Noted Positions": "Poet and scholar",
+		"Description": "Medici tutor",
+		"Bibliography ID (BIB)": "BIB:Wilson_2006",
+		"BIB Pages": "113",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Anne_de_Bretagne",
@@ -215,6 +262,16 @@
 		"Date updated": "2023-5-8"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Colin_Bredemers",
+		"Person Name": "Colin Bredemers",
+		"Noted Positions": "bellows operator at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "45",
+		"Internal notes": "update aliases",
+		"Input data": "AN",
+		"Date entered": "2025-10-03"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Cornelis_Swaen",
 		"Person Name": "Cornelis Swaen",
 		"Noted Positions": "calcant/souffleur d’orghes (responsible for adding air into the organ bellows) at the Imperial chapel of Charles V",
@@ -222,6 +279,28 @@
 		"BIB Pages": "202",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Cornille_de_Grave",
+		"Person Name": "Cornille de Grave",
+		"Noted Positions": "clerk at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "update aliases",
+		"Input data": "AN",
+		"Date entered": "2025-10-03"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Cosimo_de_Medici",
+		"Person Name": "Cosimo de Medici",
+		"Birth Date": "1389-9-27",
+		"Death Date": "1461-8-1",
+		"Noted Positions": "Medici Family",
+		"Description": "Banker and ruler during renaissance",
+		"Bibliography ID (BIB)": "BIB:Wilson_2006",
+		"BIB Pages": "109",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Enea_Pio",
@@ -471,12 +550,31 @@
 		"Date entered": "2024-11-05"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Johannes_de_Bovere",
+		"Person Name": "Johannes de Bovere",
+		"Noted Positions": "clerk at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "45",
+		"Internal notes": "update aliases",
+		"Input data": "AN",
+		"Date entered": "2025-10-03"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Johannes_Orceau",
 		"Person Name": "Johannes Orceau",
 		"Death Date": "1512",
 		"Noted Positions": "scribe of the Sistine chapel, 1501–12; died fall 1512",
 		"Input data": "BSO",
 		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Johannes_Willebroot_le_jeusne",
+		"Person Name": "Johannes Willebroot le jeusne",
+		"Noted Positions": "altarboy at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "263",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:John_of_Burgundy",
@@ -514,6 +612,16 @@
 		"Date updated": "2023-5-8"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Leonardo_da_Vinci",
+		"Person Name": "Leonardo da Vinci",
+		"Birth Date": "1452-04-15",
+		"Death Date": "1519-05-02",
+		"Noted Positions": "artist and musician originally from Florence",
+		"Bibliography ID (BIB)": "BIB:Isaacson_2017",
+		"Input data": "HC",
+		"Date entered": "2025-10-14"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Lodovico_Guicciardini",
 		"Person Name": "Lodovico Guicciardini",
 		"Birth Date": "1521-8-19",
@@ -529,6 +637,18 @@
 		"Person Name": "Lodovicus Podocatharus",
 		"Input data": "BSO",
 		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Lorenzo_de_Medici",
+		"Person Name": "Lorenzo de Medici",
+		"Birth Date": "1449-1-1",
+		"Death Date": "1491-4-8",
+		"Noted Positions": "Medici Family",
+		"Description": "He was the ruler of Florence and most powerful patron of the reinaissance",
+		"Bibliography ID (BIB)": "BIB:Wilson_2006",
+		"BIB Pages": "99",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Louis_Allemand",
@@ -594,6 +714,16 @@
 		"Date entered": "2024-8-18"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Martin_de_Hombourg",
+		"Person Name": "Martin de Hombourg",
+		"Alias": "Hoombourg, Martin; de Hoombourg, Martin; de Hambourg, Martin; de Hombeque, Martin; de Honbeque, Martin; Hombourg, Martin",
+		"Noted Positions": "perhaps printer or distributor?",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "252",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Martin_Luther",
 		"Person Name": "Martin Luther",
 		"Birth Date": "1483-11-10",
@@ -607,6 +737,17 @@
 		"Person Name": "Matteo Ghai",
 		"Input data": "BSO",
 		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Matthias_Corvinus",
+		"Person Name": "Matthias Corvnius",
+		"Birth Date": "1443-02-23",
+		"Death Date": "1490-04-06",
+		"Noted Positions": "King of hungary and croatia",
+		"Bibliography ID (BIB)": "BIB:Wilson_2006",
+		"BIB Pages": "116",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Michel_Gaillard",
@@ -684,6 +825,15 @@
 		"Noted Positions": "Bishop of Tarazona, chief Referendarius to Paul II"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Petrus_van_Oostkerke",
+		"Person Name": "Petrus van Oostkerke",
+		"Noted Positions": "citizen of Bruges",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "16",
+		"Input data": "LO",
+		"Date entered": "2026-01-26"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Philip_I",
 		"Person Name": "Philip I of Castile",
 		"Birth Date": "1478-7-22",
@@ -695,11 +845,51 @@
 		"Date updated": "2024-1-19"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Philip_the_Bold",
+		"Person Name": "Philip the Bold",
+		"Birth Date": "1342-01-17",
+		"Death Date": "1404-04-27",
+		"Noted Positions": "Duke of Burgundy (r. 1363–1404)",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "18",
+		"Input data": "LO",
+		"Date entered": "2026-01-26"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Pier_Ronner",
+		"Person Name": "Pier Ronner",
+		"Noted Positions": "bellows operator at chapel of Juana I",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "35",
+		"Input data": "AN",
+		"Date entered": "2025-08-27"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Pierre_de_Ronsard",
 		"Person Name": "Pierre de Ronsard",
 		"Birth Date": "1524-9-11",
 		"Death Date": "1585-12-27",
 		"Noted Positions": "French poet"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Pierre_Duret",
+		"Person Name": "Pierre Duret",
+		"Noted Positions": "quartermaster at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "update aliases",
+		"Input data": "AN",
+		"Date entered": "2025-10-03"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Pierre_Duret",
+		"Person Name": "Pierre Duret",
+		"Noted Positions": "quartermaster at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "update aliases",
+		"Input data": "AN",
+		"Date entered": "2025-10-03"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Pius_II",
@@ -722,6 +912,18 @@
 		"Date entered": "2023-4-16",
 		"Update data": "BSO",
 		"Date updated": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Pope_Leo_X",
+		"Person Name": "Pope Leo X",
+		"Alias": "Giovanni di Lorenzo de' Medici",
+		"Birth Date": "1475-12-11",
+		"Death Date": "1521-12-1",
+		"Noted Positions": "Pope. (1513-21), Lorenzo de' Medici's second son",
+		"Bibliography ID (BIB)": "BIB:Wilson_2006",
+		"BIB Pages": "104",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Raimund_Fugger",
@@ -758,6 +960,28 @@
 		"Date entered": "2024-4-2"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Robert_Robins",
+		"Person Name": "Robert Robins",
+		"Alias": "Robin, Robart; Robens, Robert; Robbins, Robert; Robins, Roberto; Robins, Robbert",
+		"Noted Positions": "almoner at the Imperial chapel of Charles V",
+		"Description": "noted as chaplain for Charles V as archduke in 1507",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "257",
+		"Input data": "AN",
+		"Date entered": "2025-08-26"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Rogerus_de_Noorthende",
+		"Person Name": "Rogerus de Noorthende",
+		"Alias": "de Noorthende, Roegaert",
+		"Noted Positions": "Organ builder",
+		"Description": "from Delft",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985",
+		"BIB Pages": "19",
+		"Input data": "LO",
+		"Date entered": "2026-01-26"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Sigismondo_I_dEste",
 		"Person Name": "Sigismondo I d'Este",
 		"Birth Date": "1480-9",
@@ -787,229 +1011,5 @@
 		"Date entered": "2023-4-16",
 		"Update data": "BSO",
 		"Date updated": "2023-5-8"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Lorenzo_de_Medici",
-		"Person Name": "Lorenzo de Medici",
-		"Birth Date": "1449-1-1",
-		"Death Date": "1491-4-8",
-		"Noted Positions": "Medici Family",
-		"Description": "He was the ruler of Florence and most powerful patron of the reinaissance",
-		"Bibliography ID (BIB)": "BIB:Wilson_2006",
-		"BIB Pages": "99",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Cosimo_de_Medici",
-		"Person Name": "Cosimo de Medici",
-		"Birth Date": "1389-9-27",
-		"Death Date": "1461-8-1",
-		"Noted Positions": "Medici Family",
-		"Description": "Banker and ruler during renaissance",
-		"Bibliography ID (BIB)": "BIB:Wilson_2006",
-		"BIB Pages": "109",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Pope_Leo_X",
-		"Person Name": "Pope Leo X",
-		"Alias": "Giovanni di Lorenzo de' Medici",
-		"Birth Date": "1475-12-11",
-		"Death Date": "1521-12-1",
-		"Noted Positions": "Pope. (1513-21), Lorenzo de' Medici's second son",
-		"Bibliography ID (BIB)": "BIB:Wilson_2006",
-		"BIB Pages": "104",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Angelo_Poliziano",
-		"Person Name": "Angelo Poliziano",
-		"Alias": "Ambrogini",
-		"Birth Date": "1454-07-14",
-		"Death Date": "1494-09-24",
-		"Noted Positions": "Poet and scholar",
-		"Description": "Medici tutor",
-		"Bibliography ID (BIB)": "BIB:Wilson_2006",
-		"BIB Pages": "113",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Matthias_Corvinus",
-		"Person Name": "Matthias Corvnius",
-		"Birth Date": "1443-02-23",
-		"Death Date": "1490-04-06",
-		"Noted Positions": "King of hungary and croatia",
-		"Bibliography ID (BIB)": "BIB:Wilson_2006",
-		"BIB Pages": "116",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Alessandro_da_Filicaia",
-		"Person Name": "Alessandro da Filicaia",
-		"Alias": "Alexander",
-		"Birth Date": "1429",
-		"Death Date": "1512",
-		"Noted Positions": "Wealthy merchant and prominent citizen",
-		"Description": "married a medici",
-		"Bibliography ID (BIB)": "BIB:Wilson_2006",
-		"BIB Pages": "148",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Ambrogio_Angeni",
-		"Person Name": "Ambrogio Angeni",
-		"Birth Date": "1459",
-		"Noted Positions": "From a family of stonemakers",
-		"Description": "liked to buy and copy music",
-		"Bibliography ID (BIB)": "BIB:Wilson_2006",
-		"BIB Pages": "147",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Martin_de_Hombourg",
-		"Person Name": "Martin de Hombourg",
-		"Alias": "Hoombourg, Martin; de Hoombourg, Martin; de Hambourg, Martin; de Hombeque, Martin; de Honbeque, Martin; Hombourg, Martin",
-		"Noted Positions": "perhaps printer or distributor?",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "252",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Robert_Robins",
-		"Person Name": "Robert Robins",
-		"Alias": "Robin, Robart; Robens, Robert; Robbins, Robert; Robins, Roberto; Robins, Robbert",
-		"Noted Positions": "almoner at the Imperial chapel of Charles V",
-		"Description": "noted as chaplain for Charles V as archduke in 1507",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "257",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Adolf_de_la_Verderue",
-		"Person Name": "Adolf de la Verderue",
-		"Alias": "de Hietveld, Adolf; de Liestvelde, Adolf; de Verderue, Adolf; de la Verderue, Adorlf; de la Verde, Adolphe; de la Verderue, Adolphe",
-		"Noted Positions": "clerk at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "262",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Johannes_Willebroot_le_jeusne",
-		"Person Name": "Johannes Willebroot le jeusne",
-		"Noted Positions": "altarboy at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "263",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Pier_Ronner",
-		"Person Name": "Pier Ronner",
-		"Noted Positions": "bellows operator at chapel of Juana I",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "35",
-		"Input data": "AN",
-		"Date entered": "2025-08-27"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Pierre_Duret",
-		"Person Name": "Pierre Duret",
-		"Noted Positions": "quartermaster at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "update aliases",
-		"Input data": "AN",
-		"Date entered": "2025-10-03"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Colin_Bredemers",
-		"Person Name": "Colin Bredemers",
-		"Noted Positions": "bellows operator at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "45",
-		"Internal notes": "update aliases",
-		"Input data": "AN",
-		"Date entered": "2025-10-03"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Pierre_Duret",
-		"Person Name": "Pierre Duret",
-		"Noted Positions": "quartermaster at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "update aliases",
-		"Input data": "AN",
-		"Date entered": "2025-10-03"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Cornille_de_Grave",
-		"Person Name": "Cornille de Grave",
-		"Noted Positions": "clerk at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "46",
-		"Internal notes": "update aliases",
-		"Input data": "AN",
-		"Date entered": "2025-10-03"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Johannes_de_Bovere",
-		"Person Name": "Johannes de Bovere",
-		"Noted Positions": "clerk at Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "45",
-		"Internal notes": "update aliases",
-		"Input data": "AN",
-		"Date entered": "2025-10-03"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Leonardo_da_Vinci",
-		"Person Name": "Leonardo da Vinci",
-		"Birth Date": "1452-04-15",
-		"Death Date": "1519-05-02",
-		"Noted Positions": "artist and musician originally from Florence",
-		"Bibliography ID (BIB)": "BIB:Isaacson_2017",
-		"Input data": "HC",
-		"Date entered": "2025-10-14"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Petrus_van_Oostkerke",
-		"Person Name": "Petrus van Oostkerke",
-		"Noted Positions": "citizen of Bruges",
-		"Bibliography ID (BIB)": "BIB:Strohm_1985",
-		"BIB Pages": "16",
-		"Input data": "LO",
-		"Date entered": "2026-01-26"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Philip_the_Bold",
-		"Person Name": "Philip the Bold",
-		"Birth Date": "1342-01-17",
-		"Death Date": "1404-04-27",
-		"Noted Positions": "Duke of Burgundy (r. 1363–1404)",
-		"Bibliography ID (BIB)": "BIB:Strohm_1985",
-		"BIB Pages": "18",
-		"Input data": "LO",
-		"Date entered": "2026-01-26"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Rogerus_de_Noorthende",
-		"Person Name": "Rogerus de Noorthende",
-		"Alias": "de Noorthende, Roegaert",
-		"Noted Positions": "Organ builder",
-		"Description": "from Delft",
-		"Bibliography ID (BIB)": "BIB:Strohm_1985",
-		"BIB Pages": "19",
-		"Input data": "LO",
-		"Date entered": "2026-01-26"
 	}
 ]
