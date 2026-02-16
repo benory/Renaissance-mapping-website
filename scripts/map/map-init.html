@@ -210,6 +210,12 @@ function doMapSetup(opts) {
             eventid = events[i][ID];
             locationid = events[i][LOC];
             let locationInfo = findInfo(locationid, "Locations");
+            
+            if (!locationInfo) {
+                console.warn("Missing location info for", locationid, "in event", eventid);
+                continue;
+            }
+
             locationprocessed = locationInfo[LOCNAME];
 
             // Find larger location and country, if applicable
