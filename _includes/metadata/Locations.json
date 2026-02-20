@@ -2350,6 +2350,17 @@
 		"Date entered": "2023-1-23"
 	},
 	{
+		"Location ID (LOC)": "LOC:Muhldorf",
+		"Name of Location": "Mühldorf",
+		"City or Larger Place": "Bavaria",
+		"Modern Country": "Germany",
+		"Google URL": "https://maps.app.goo.gl/4gVki1kU8TVqGzsC8",
+		"Coordinates": "48.24591184243722, 12.525242264678742",
+		"Description": "As opposed to the one in Austria",
+		"Input data": "SMB",
+		"Date entered": "2026-2-19"
+	},
+	{
 		"Location ID (LOC)": "LOC:Musee-Rodin",
 		"Name of Location": "Musée Rodin",
 		"City or Larger Place": "Paris",
@@ -2897,6 +2908,13 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Location ID (LOC)": "LOC:Prague",
+		"Name of Location": "Prague",
+		"Modern Country": "Czechia",
+		"Google URL": "https://maps.app.goo.gl/erCdks2unyL6Gr7S7",
+		"Coordinates": "50.07340347842393, 14.458130499531993"
+	},
+	{
 		"Location ID (LOC)": "LOC:Provence",
 		"Name of Location": "Provence",
 		"Modern Country": "France",
@@ -3239,6 +3257,15 @@
 		"Coordinates": "50.71585037822556, 3.6031307675430146",
 		"Input data": "LO",
 		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Salzburg",
+		"Name of Location": "Salzburg",
+		"Modern Country": "Austria",
+		"Google URL": "https://maps.app.goo.gl/ZNyon1Mai3UT4s4o7",
+		"Coordinates": "47.8, 13.05",
+		"Input data": "SMB",
+		"Date entered": "2026-2-26"
 	},
 	{
 		"Location ID (LOC)": "LOC:Samer",

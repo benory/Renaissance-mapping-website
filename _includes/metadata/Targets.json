@@ -429,7 +429,8 @@
 		"Target Type": "B",
 		"Last": "Grenon",
 		"First": "Nicole",
-		"Status": "1 event"
+		"Status": "Complete",
+		"Contributor": "LQ"
 	},
 	{
 		"Target Type": "B",
@@ -441,6 +442,12 @@
 		"Last": "Heyns",
 		"First": "Cornelius",
 		"Status": "4 events"
+	},
+	{
+		"Target Type": "B",
+		"Last": "Hofhaimer",
+		"First": "Paul",
+		"Status": "0 events"
 	},
 	{
 		"Target Type": "B",

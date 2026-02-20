@@ -80195,7 +80195,7 @@
 		"Date entered": "2026-2-11"
 	},
 	{
-		"ID": "EV:04507",
+		"ID": "EV:04508",
 		"Location ID (LOC)": "LOC:Brzesc",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80216,7 +80216,7 @@
 		"Date entered": "2026-2-11"
 	},
 	{
-		"ID": "EV:04508",
+		"ID": "EV:04509",
 		"Location ID (LOC)": "LOC:Vilnius",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80237,7 +80237,7 @@
 		"Date entered": "2026-2-11"
 	},
 	{
-		"ID": "EV:04509",
+		"ID": "EV:04510",
 		"Location ID (LOC)": "LOC:Vilnius",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80258,7 +80258,7 @@
 		"Date entered": "2026-2-11"
 	},
 	{
-		"ID": "EV:04510",
+		"ID": "EV:04511",
 		"Location ID (LOC)": "LOC:Trakai",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80279,7 +80279,7 @@
 		"Date entered": "2026-2-11"
 	},
 	{
-		"ID": "EV:04511",
+		"ID": "EV:04512",
 		"Location ID (LOC)": "LOC:Vilnius",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80300,7 +80300,7 @@
 		"Date entered": "2026-2-11"
 	},
 	{
-		"ID": "EV:04512",
+		"ID": "EV:04513",
 		"Location ID (LOC)": "LOC:Trakai",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80321,7 +80321,7 @@
 		"Date entered": "2026-2-11"
 	},
 	{
-		"ID": "EV:04513",
+		"ID": "EV:04514",
 		"Location ID (LOC)": "LOC:Mielnik",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80342,7 +80342,7 @@
 		"Date entered": "2026-2-11"
 	},
 	{
-		"ID": "EV:04514",
+		"ID": "EV:04515",
 		"Location ID (LOC)": "LOC:Vilnius",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80363,7 +80363,7 @@
 		"Date entered": "2026-2-11"
 	},
 	{
-		"ID": "EV:04515",
+		"ID": "EV:04516",
 		"Location ID (LOC)": "LOC:Grodno",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80384,7 +80384,7 @@
 		"Date entered": "2026-2-11"
 	},
 	{
-		"ID": "EV:04516",
+		"ID": "EV:04517",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"LOC Certainty": "2",
@@ -80404,7 +80404,7 @@
 		"Date entered": "2026-2-12"
 	},
 	{
-		"ID": "EV:04517",
+		"ID": "EV:04518",
 		"Location ID (LOC)": "LOC:Ghent",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"LOC Certainty": "1",
@@ -80425,7 +80425,7 @@
 		"Date entered": "2026-2-12"
 	},
 	{
-		"ID": "EV:04518",
+		"ID": "EV:04519",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"LOC Certainty": "2",
 		"Earliest Year": "1414",
@@ -80443,7 +80443,7 @@
 		"Date entered": "2026-2-12"
 	},
 	{
-		"ID": "EV:04519",
+		"ID": "EV:04520",
 		"Location ID (LOC)": "LOC:Paris-Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"Institution ID (INS)": "INS:Notre_Dame",
@@ -80465,7 +80465,7 @@
 		"Date entered": "2026-2-12"
 	},
 	{
-		"ID": "EV:04520",
+		"ID": "EV:04521",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"Earliest Year": "1416",
 		"Earliest Date Certainty": "1",
@@ -80480,7 +80480,7 @@
 		"Date entered": "2026-2-12"
 	},
 	{
-		"ID": "EV:04521",
+		"ID": "EV:04522",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"Earliest Year": "1417",
 		"Earliest Month": "10",
@@ -80499,7 +80499,7 @@
 		"Date entered": "2026-2-12"
 	},
 	{
-		"ID": "EV:04522",
+		"ID": "EV:04523",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"Earliest Year": "1418",
 		"Earliest Month": "2",
@@ -80518,7 +80518,7 @@
 		"Date entered": "2026-2-12"
 	},
 	{
-		"ID": "EV:04523",
+		"ID": "EV:04524",
 		"Location ID (LOC)": "LOC:Cambrai-Cathedrale_Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"Institution ID (INS)": "INS:Cambrai_Cathedral",
@@ -80534,7 +80534,7 @@
 		"Date entered": "2026-2-12"
 	},
 	{
-		"ID": "EV:04524",
+		"ID": "EV:04525",
 		"Location ID (LOC)": "LOC:Cambrai-Cathedrale_Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"Institution ID (INS)": "INS:Cambrai_Cathedral",
@@ -80550,7 +80550,7 @@
 		"Date entered": "2026-2-12"
 	},
 	{
-		"ID": "EV:04525",
+		"ID": "EV:04526",
 		"Location ID (LOC)": "LOC:Torun",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80571,7 +80571,7 @@
 		"Date entered": "2026-2-13"
 	},
 	{
-		"ID": "EV:04526",
+		"ID": "EV:04527",
 		"Location ID (LOC)": "LOC:Krakow",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80592,7 +80592,7 @@
 		"Date entered": "2026-2-13"
 	},
 	{
-		"ID": "EV:04527",
+		"ID": "EV:04528",
 		"Location ID (LOC)": "LOC:Krakow",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80613,7 +80613,7 @@
 		"Date entered": "2026-2-13"
 	},
 	{
-		"ID": "EV:04528",
+		"ID": "EV:04529",
 		"Location ID (LOC)": "LOC:Sandomierz",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80634,7 +80634,7 @@
 		"Date entered": "2026-2-13"
 	},
 	{
-		"ID": "EV:04529",
+		"ID": "EV:04530",
 		"Location ID (LOC)": "LOC:Rozkopaczew",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80655,7 +80655,7 @@
 		"Date entered": "2026-2-13"
 	},
 	{
-		"ID": "EV:04530",
+		"ID": "EV:04531",
 		"Location ID (LOC)": "LOC:Lublin",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80676,7 +80676,7 @@
 		"Date entered": "2026-2-13"
 	},
 	{
-		"ID": "EV:04531",
+		"ID": "EV:04532",
 		"Location ID (LOC)": "LOC:Krakow",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80697,7 +80697,7 @@
 		"Date entered": "2026-2-13"
 	},
 	{
-		"ID": "EV:04532",
+		"ID": "EV:04533",
 		"Location ID (LOC)": "LOC:Krakow",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80718,7 +80718,7 @@
 		"Date entered": "2026-2-13"
 	},
 	{
-		"ID": "EV:04533",
+		"ID": "EV:04534",
 		"Location ID (LOC)": "LOC:Gdansk",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80739,7 +80739,7 @@
 		"Date entered": "2026-2-13"
 	},
 	{
-		"ID": "EV:04534",
+		"ID": "EV:04535",
 		"Location ID (LOC)": "LOC:Krakow",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80760,7 +80760,7 @@
 		"Date entered": "2026-2-13"
 	},
 	{
-		"ID": "EV:04535",
+		"ID": "EV:04536",
 		"Location ID (LOC)": "LOC:Brest-Litovsk",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "2",
@@ -80781,7 +80781,7 @@
 		"Date entered": "2026-2-14"
 	},
 	{
-		"ID": "EV:04536",
+		"ID": "EV:04537",
 		"Location ID (LOC)": "LOC:Radom",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80802,7 +80802,7 @@
 		"Date entered": "2026-2-14"
 	},
 	{
-		"ID": "EV:04537",
+		"ID": "EV:04538",
 		"Location ID (LOC)": "LOC:Krakow",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80823,7 +80823,7 @@
 		"Date entered": "2026-2-14"
 	},
 	{
-		"ID": "EV:04538",
+		"ID": "EV:04539",
 		"Location ID (LOC)": "LOC:Chernivtsi",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80844,7 +80844,7 @@
 		"Date entered": "2026-2-14"
 	},
 	{
-		"ID": "EV:04539",
+		"ID": "EV:04540",
 		"Location ID (LOC)": "LOC:Stuttgart",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80858,14 +80858,14 @@
 		"Latest Date Certainty": "1",
 		"Date Range": "1 May 1510 to 2 June 8",
 		"Certainty of Event (within Range)": "1",
-		"Description": "Arrives in Stuttgart in \"summer or late summer,\" according to LHE",
+		"Description": "Arrives in Stuttgart in \"summer or late summer,\" according to Hoffman-Erbrecht",
 		"Bibliography ID (BIB)": "BIB:Hoffman-Erbrecht_1982",
 		"BIB Pages": "38",
 		"Input data": "SMB",
 		"Date entered": "2026-2-14"
 	},
 	{
-		"ID": "EV:04540",
+		"ID": "EV:04541",
 		"Location ID (LOC)": "LOC:Stuttgart",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80886,7 +80886,7 @@
 		"Date entered": "2026-2-14"
 	},
 	{
-		"ID": "EV:04541",
+		"ID": "EV:04542",
 		"Location ID (LOC)": "LOC:Stuttgart",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80907,7 +80907,7 @@
 		"Date entered": "2026-2-14"
 	},
 	{
-		"ID": "EV:04542",
+		"ID": "EV:04543",
 		"Location ID (LOC)": "LOC:Stuttgart",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80928,7 +80928,7 @@
 		"Date entered": "2026-2-14"
 	},
 	{
-		"ID": "EV:04543",
+		"ID": "EV:04544",
 		"Location ID (LOC)": "LOC:Stuttgart",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
 		"LOC Certainty": "1",
@@ -80949,7 +80949,7 @@
 		"Date entered": "2026-2-14"
 	},
 	{
-		"ID": "EV:04544",
+		"ID": "EV:04545",
 		"Location ID (LOC)": "LOC:Tournai-Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"LOC Certainty": "1",
@@ -80966,7 +80966,7 @@
 		"Date entered": "2026-2-15"
 	},
 	{
-		"ID": "EV:04545",
+		"ID": "EV:04546",
 		"Location ID (LOC)": "LOC:Lille-Collegiale_Saint-Pierre",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"LOC Certainty": "1",
@@ -80983,24 +80983,27 @@
 		"Date entered": "2026-2-15"
 	},
 	{
-		"ID": "EV:04546",
+		"ID": "EV:04547",
+		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"Institution ID (INS)": "INS:Chapel_Martin_V",
 		"LOC Certainty": "1",
 		"Earliest Year": "1425",
+		"Earliest Month": "7",
 		"Earliest Date Certainty": "1",
 		"Latest Year": "1427",
+		"Latest Month": "11",
 		"Latest Date Certainty": "1",
-		"Date Range": "1425 to   1427",
+		"Date Range": "July 1425 to  November 1427",
 		"Certainty of Event (within Range)": "1",
 		"Description": "Grenon employed as master of the choirboys in the chapel of Pope Martin V",
-		"Bibliography ID (BIB)": "BIB:Wright_1979",
-		"BIB Pages": "175",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "114",
 		"Input data": "LQ",
 		"Date entered": "2026-2-15"
 	},
 	{
-		"ID": "EV:04547",
+		"ID": "EV:04548",
 		"Location ID (LOC)": "LOC:Cambrai-Cathedrale_Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"Institution ID (INS)": "INS:Cambrai_Cathedral",
@@ -81022,7 +81025,7 @@
 		"Date entered": "2026-2-15"
 	},
 	{
-		"ID": "EV:04548",
+		"ID": "EV:04549",
 		"Location ID (LOC)": "LOC:Lens",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"LOC Certainty": "1",
@@ -81039,7 +81042,7 @@
 		"Date entered": "2026-2-15"
 	},
 	{
-		"ID": "EV:04549",
+		"ID": "EV:04550",
 		"Location ID (LOC)": "LOC:Cambrai-Cathedrale_Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"Institution ID (INS)": "INS:Cambrai_Cathedral",
@@ -81057,7 +81060,7 @@
 		"Date entered": "2026-2-15"
 	},
 	{
-		"ID": "EV:04550",
+		"ID": "EV:04551",
 		"Location ID (LOC)": "LOC:Cambrai-Cathedrale_Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"Institution ID (INS)": "INS:Cambrai_Cathedral",
@@ -81079,7 +81082,7 @@
 		"Date entered": "2026-2-15"
 	},
 	{
-		"ID": "EV:04551",
+		"ID": "EV:04552",
 		"Location ID (LOC)": "LOC:Bruges",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"LOC Certainty": "1",
@@ -81096,7 +81099,7 @@
 		"Date entered": "2026-2-15"
 	},
 	{
-		"ID": "EV:04552",
+		"ID": "EV:04553",
 		"Location ID (LOC)": "LOC:Cambrai-Cathedrale_Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"Institution ID (INS)": "INS:Cambrai_Cathedral",
@@ -81114,7 +81117,7 @@
 		"Date entered": "2026-2-15"
 	},
 	{
-		"ID": "EV:04553",
+		"ID": "EV:04554",
 		"Location ID (LOC)": "LOC:Cambrai-Cathedrale_Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"LOC Certainty": "1",
@@ -81131,24 +81134,28 @@
 		"Date entered": "2026-2-15"
 	},
 	{
-		"ID": "EV:04554",
+		"ID": "EV:04555",
 		"Location ID (LOC)": "LOC:Cambrai-Cathedrale_Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"LOC Certainty": "1",
-		"Earliest Year": "1447",
+		"Earliest Year": "1445",
+		"Earliest Month": "1",
+		"Earliest Day": "14",
 		"Earliest Date Certainty": "1",
-		"Latest Year": "1447",
+		"Latest Year": "1445",
+		"Latest Month": "1",
+		"Latest Day": "14",
 		"Latest Date Certainty": "1",
-		"Date Range": "1447",
+		"Date Range": "14 January 1445",
 		"Certainty of Event (within Range)": "1",
-		"Description": "Obtained a canonical house for Symon le Breton",
-		"Bibliography ID (BIB)": "BIB:Wright_1979",
-		"BIB Pages": "175",
+		"Description": "Served as procurator of a canonical house for Symon le Breton",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "210",
 		"Input data": "LQ",
 		"Date entered": "2026-2-16"
 	},
 	{
-		"ID": "EV:04555",
+		"ID": "EV:04556",
 		"Location ID (LOC)": "LOC:Cambrai-Cathedrale_Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"LOC Certainty": "1",
@@ -81169,7 +81176,7 @@
 		"Date entered": "2026-2-16"
 	},
 	{
-		"ID": "EV:04556",
+		"ID": "EV:04557",
 		"Location ID (LOC)": "LOC:Cambrai-Cathedrale_Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"Institution ID (INS)": "INS:Cambrai_Cathedral",
@@ -81187,7 +81194,7 @@
 		"Date entered": "2026-2-16"
 	},
 	{
-		"ID": "EV:04557",
+		"ID": "EV:04558",
 		"Location ID (LOC)": "LOC:Cambrai-Cathedrale_Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"Institution ID (INS)": "INS:Cambrai_Cathedral",
@@ -81205,7 +81212,7 @@
 		"Date entered": "2026-2-16"
 	},
 	{
-		"ID": "EV:04557",
+		"ID": "EV:04559",
 		"Location ID (LOC)": "LOC:Cambrai-Cathedrale_Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
 		"Institution ID (INS)": "INS:Cambrai_Cathedral",
@@ -81221,5 +81228,150 @@
 		"BIB Pages": "270",
 		"Input data": "LQ",
 		"Date entered": "2026-2-16"
+	},
+	{
+		"ID": "EV:04560",
+		"Location ID (LOC)": "LOC:Cambrai-Cathedrale_Notre-Dame",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Nicole_Grenon",
+		"LOC Certainty": "1",
+		"Earliest Year": "1446",
+		"Earliest Month": "7",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1446",
+		"Latest Month": "7",
+		"Latest Date Certainty": "1",
+		"Date Range": "July 1446",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Testified as Symon's procurator that the house for Symon le Breton was properly repaired",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "210",
+		"Input data": "LQ",
+		"Date entered": "2026-2-18"
+	},
+	{
+		"ID": "EV:04561",
+		"Location ID (LOC)": "LOC:Vienna",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
+		"LOC Certainty": "1",
+		"Earliest Year": "1514",
+		"Earliest Month": "3",
+		"Earliest Day": "12",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1516",
+		"Latest Month": "10",
+		"Latest Day": "13",
+		"Latest Date Certainty": "1",
+		"Date Range": "12 March 1514 to 13 October 1516",
+		"Certainty of Event (within Range)": "2",
+		"Description": "A letter written by Finck during this date range to Joachim Vadian indicates that he was likely resident at the imperial court of Maximilian",
+		"Bibliography ID (BIB)": "BIB:Hoffman-Erbrecht_1982",
+		"BIB Pages": "47",
+		"Input data": "SMB",
+		"Date entered": "2026-2-19"
+	},
+	{
+		"ID": "EV:04562",
+		"Location ID (LOC)": "LOC:Muhldorf",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
+		"LOC Certainty": "1",
+		"Earliest Year": "1517",
+		"Earliest Month": "3",
+		"Earliest Day": "10",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1517",
+		"Latest Month": "3",
+		"Latest Day": "10",
+		"Latest Date Certainty": "1",
+		"Date Range": "10 March 1517",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Another letter to Vadian written by Caspar Ursinus Velius, sends greetings from Finck from Muehldorf. LHE says it's still unclear if he was there in the employ of Cardinal Lang",
+		"Bibliography ID (BIB)": "BIB:Hoffman-Erbrecht_1982",
+		"BIB Pages": "50",
+		"Input data": "SMB",
+		"Date entered": "2026-2-19"
+	},
+	{
+		"ID": "EV:04563",
+		"Location ID (LOC)": "LOC:Salzburg",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
+		"LOC Certainty": "1",
+		"Earliest Year": "1524",
+		"Earliest Month": "3",
+		"Earliest Day": "10",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1524",
+		"Latest Month": "3",
+		"Latest Day": "10",
+		"Latest Date Certainty": "1",
+		"Date Range": "10 March 1524",
+		"Certainty of Event (within Range)": "1",
+		"Description": "A letter from Finck to Vadian describes his position as a night-composer; he bewails his contract and sends Vadian a small Marian antiphon",
+		"Bibliography ID (BIB)": "BIB:Hoffman-Erbrecht_1982",
+		"BIB Pages": "53",
+		"Input data": "SMB",
+		"Date entered": "2026-2-19"
+	},
+	{
+		"ID": "EV:04564",
+		"Location ID (LOC)": "LOC:Vienna",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
+		"LOC Certainty": "1",
+		"Earliest Year": "1517",
+		"Earliest Month": "1",
+		"Earliest Day": "1",
+		"Earliest Date Certainty": "2",
+		"Latest Year": "1517",
+		"Latest Month": "12",
+		"Latest Day": "31",
+		"Latest Date Certainty": "2",
+		"Date Range": "1 January 1517 to 31 December 1517",
+		"Certainty of Event (within Range)": "1",
+		"Description": "A chronicle from 1517 names Finck as building up a choir in the city",
+		"Bibliography ID (BIB)": "BIB:Hoffman-Erbrecht_1982",
+		"BIB Pages": "56",
+		"Input data": "SMB",
+		"Date entered": "2026-2-19"
+	},
+	{
+		"ID": "EV:04565",
+		"Location ID (LOC)": "LOC:Vienna",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
+		"LOC Certainty": "2",
+		"Earliest Year": "1527",
+		"Earliest Month": "1",
+		"Earliest Day": "1",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1527",
+		"Latest Month": "1",
+		"Latest Day": "1",
+		"Latest Date Certainty": "1",
+		"Date Range": "1 January 1527",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Document from Jan 1 names Finck as choirmaster",
+		"Bibliography ID (BIB)": "BIB:Hoffman-Erbrecht_1982",
+		"BIB Pages": "56",
+		"Input data": "SMB",
+		"Date entered": "2026-2-19"
+	},
+	{
+		"ID": "EV:04566",
+		"Location ID (LOC)": "LOC:Vienna",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Heinrich_Finck",
+		"LOC Certainty": "1",
+		"Earliest Year": "1527",
+		"Earliest Month": "6",
+		"Earliest Day": "9",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1527",
+		"Latest Month": "6",
+		"Latest Day": "9",
+		"Latest Date Certainty": "1",
+		"Date Range": "9 June 1527",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Finck dies",
+		"Bibliography ID (BIB)": "BIB:Hoffman-Erbrecht_1982",
+		"BIB Pages": "59",
+		"Input data": "SMB",
+		"Date entered": "2026-2-19"
 	}
 ]

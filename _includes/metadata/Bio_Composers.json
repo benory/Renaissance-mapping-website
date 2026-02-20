@@ -1354,5 +1354,17 @@
 		"Date entered": "2024-8-9",
 		"Update data": "BSO",
 		"Date updated": "2025-2-12"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Clément Janequin",
+		"Composer Name": "Clément Janequin",
+		"Birth Date": "~1485",
+		"Death Date": "~1558",
+		"Description": "French composer and cleric",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/126/",
+		"RISM Link": "https://rism.online/people/30004014",
+		"Bibliography (BIB) ID": "BIB:Norsen_2024",
+		"Input data": "HC",
+		"Date entered": "2026-2-17"
 	}
 ]
