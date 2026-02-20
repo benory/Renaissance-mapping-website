@@ -91,6 +91,14 @@ nav: true
         </div>
     </div>
     <div class="team-member">
+        <img src="/images/headshots/Qing.jpg" alt="Lee Qing">
+        <div class="bio">
+            <h3>Lee Qing</h3>
+            <p><strong>Team Member</strong></p>
+            <p>Lee Qing graduated with a BM in Music Composition in 2025 from Boston University. Her research interests include 15th-century secular vocal music and text-setting, as well as digital humanities.</p>
+        </div>
+    </div>
+    <div class="team-member">
         <img src="/images/headshots/Nguyen.jpg" alt="Audrey Nguyen">
         <div class="bio">
             <h3>Audrey Nguyen</h3>
