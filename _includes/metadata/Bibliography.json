@@ -221,6 +221,16 @@
 		"Date entered": "2024-10-21"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Eitner_1876",
+		"Author": "Robert Eitner",
+		"Name of Article": "Briefe von Thomas Stoltzer, Adrian Rauch, und Silvester Raid",
+		"Name of Volume/Journal": "Monatshefte fuer Musikgeschichte",
+		"Publication Year": "1876",
+		"Pages": "65-70",
+		"Input data": "SMB",
+		"Date entered": "2026-2-27"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Fallows_2009",
 		"Author": "David Fallows",
 		"Name of Volume/Journal": "Josquin",
@@ -390,6 +400,17 @@
 		"Publication Year": "1982",
 		"Input data": "SMB",
 		"Date entered": "2026-2-6"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Hoffman-Erbrecht_1974",
+		"Author": "Lothar Hoffman-Erbrecht",
+		"Name of Article": "Stoltzeriana",
+		"Name of Volume/Journal": "Die Musikforschung",
+		"Volume": "27 H. 1",
+		"Publication Year": "1974",
+		"Pages": "18-36",
+		"Input data": "SMB",
+		"Date entered": "2026-2-27"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Jas_1994",
@@ -1303,7 +1324,38 @@
 		"Series": "Eastman Studies in Music",
 		"Publisher": "University of Rochester Press / Boydell & Brewe",
 		"Publication Year": "2024",
+		"Pages": "259–275",
 		"Input data": "HC",
 		"Date entered": "2026-2-17"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Fiala_2008",
+		"Author": "David Fiala",
+		"Name of Article": "Guillaume Le Métayer (Modiatoris) alias de Malebecque",
+		"Name of Volume/Journal": "Prosopogaphy of Renaissance Singers",
+		"Publication Year": "2008",
+		"URL": "https://ricercardatalab.cesr.univ-tours.fr/en/people/776/",
+		"Input data": "LQ",
+		"Date entered": "2026-2-21"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Planchart_1988",
+		"Author": "Alejandro Planchart",
+		"Name of Article": "Guillaume Du Fay's Benefices and His Relationship to the Court of Burgundy",
+		"Name of Volume/Journal": "Early Music History",
+		"Volume": "8",
+		"Publication Year": "1988",
+		"Input data": "LQ",
+		"Date entered": "2026-2-23"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Haller_1896",
+		"Name of Volume/Journal": "Concilium Basiliense, Studien und Quellen zur Geschichte des Concils von Basel",
+		"Volume": "6",
+		"Location": "Basel",
+		"Publisher": "R. Reich",
+		"Publication Year": "1896",
+		"Input data": "LQ",
+		"Date entered": "2026-2-26"
 	}
 ]

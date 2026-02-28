@@ -151,6 +151,16 @@
 		"Date entered": "2024-12-15"
 	},
 	{
+		"Location ID (LOC)": "LOC:Antwerp-Notre-Dame",
+		"Name of Location": "Onze-Lieve-Vrouwekathedraal",
+		"City or Larger Place": "Antwerp",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/mZTHs4nZZVV2ML53A",
+		"Coordinates": "51.22121452875013, 4.400856407403371",
+		"Input data": "LQ",
+		"Date entered": "2026-2-27"
+	},
+	{
 		"Location ID (LOC)": "LOC:Anvaing",
 		"Name of Location": "Anvaing",
 		"Modern Country": "Belgium",
@@ -193,6 +203,15 @@
 		"Aliases": "Ath, Hainault",
 		"Input data": "LO",
 		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Auch",
+		"Name of Location": "Auch",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/kMEuJ6azDWhfBtvN8",
+		"Coordinates": "43.64638474242766, 0.5902376963097381",
+		"Input data": "HC",
+		"Date entered": "2026-2-26"
 	},
 	{
 		"Location ID (LOC)": "LOC:Augsburg",
@@ -293,6 +312,16 @@
 		"Wikidata": "Q1492",
 		"Input data": "LO",
 		"Date entered": "2023-5-15"
+	},
+	{
+		"Location ID (LOC)": "LOC:Basel",
+		"Name of Location": "Basel",
+		"Modern Country": "Switzerland",
+		"Google URL": "https://maps.app.goo.gl/zxgj3LaZWHMoFbzs6",
+		"Coordinates": "47.558313283144855, 7.59158596824013",
+		"Aliases": "Basle",
+		"Input data": "LQ",
+		"Date entered": "2026-2-26"
 	},
 	{
 		"Location ID (LOC)": "LOC:Bastogne",
@@ -478,6 +507,15 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Location ID (LOC)": "LOC:Bordeaux",
+		"Name of Location": "Bordeaux",
+		"Modern Country": "France",
+		"Google URL": "https://www.google.com/maps/place/Bordeaux,+France/@44.8638099,-0.6684139,12z/data=!3m1!4b1!4m6!3m5!1s0xd5527e8f751ca81:0x796386037b397a89!8m2!3d44.8416106!4d-0.5810938!16zL20vMDFiODU?entry=ttu&g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D",
+		"Coordinates": "44.8416, 0.5811",
+		"Input data": "HC",
+		"Date entered": "2026-2-25"
+	},
+	{
 		"Location ID (LOC)": "LOC:Borgio_S_Donnino",
 		"Name of Location": "Borgo S. Donnino",
 		"Modern Country": "Italy",
@@ -539,6 +577,15 @@
 		"Aliases": "Brest",
 		"Input data": "SMB",
 		"Date entered": "2026-2-14"
+	},
+	{
+		"Location ID (LOC)": "LOC:Brossay",
+		"Name of Location": "Brossay",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/Mn5GwfGB6xMpz1n59",
+		"Coordinates": "47.1642158756226, -0.21208691250952866",
+		"Input data": "HC",
+		"Date entered": "2026-2-26"
 	},
 	{
 		"Location ID (LOC)": "LOC:Bruges",
@@ -874,6 +921,15 @@
 		"Coordinates": "50.448104567089395, 3.5948772967029776",
 		"Input data": "FEM",
 		"Date entered": "2024-4-2"
+	},
+	{
+		"Location ID (LOC)": "LOC:Conde-sur-lEscaut-Notre-Dame",
+		"Name of Location": "Notre Dame de Condé-sur-l'Escaut",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/PPUJnDVu4bjPx3Xy5",
+		"Coordinates": "50.449357287141055, 3.5916841860716673",
+		"Input data": "LQ",
+		"Date entered": "2026-2-21"
 	},
 	{
 		"Location ID (LOC)": "LOC:Condom",
@@ -1295,6 +1351,16 @@
 		"Aliases": "Frasnes-lez-Anvaing",
 		"Input data": "LO",
 		"Date entered": "2024-1-23"
+	},
+	{
+		"Location ID (LOC)": "LOC:Garrosse",
+		"Name of Location": "Garrosse",
+		"City or Larger Place": "Region of Nouvelle-Aquitaine",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/cYQfo9AgwbmiB5Kj8",
+		"Coordinates": "44.0137593853478, -0.9249876219581741",
+		"Input data": "HC",
+		"Date entered": "2026-2-26"
 	},
 	{
 		"Location ID (LOC)": "LOC:Gdansk",
@@ -1918,6 +1984,16 @@
 		"Coordinates": "51.25021472000648, 22.577053886929665",
 		"Input data": "SMB",
 		"Date entered": "2026-2-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Lucon-Cathedrale_Notre-Dame-de-lAssomption",
+		"Name of Location": "Luçon",
+		"City or Larger Place": "Cathédrale Notre-Dame-de-l'Assomption",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/U6z7wkScXd6eRcv3A",
+		"Coordinates": "46.454614122172465, -1.1668116003148343",
+		"Input data": "HC",
+		"Date entered": "2026-2-24"
 	},
 	{
 		"Location ID (LOC)": "LOC:Luxembourg",
@@ -3185,6 +3261,15 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Location ID (LOC)": "LOC:Saint-Emilion",
+		"Name of Location": "Saint-Émilion",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/9D98FUrLFGcC3Mgu5",
+		"Coordinates": "44.89374114854327, -0.15867349757007604",
+		"Input data": "HC",
+		"Date entered": "2026-2-24"
+	},
+	{
 		"Location ID (LOC)": "LOC:Saint-Germain-en-Laye",
 		"Name of Location": "Saint-Germain-en-Laye",
 		"Modern Country": "France",
@@ -3263,7 +3348,7 @@
 		"Name of Location": "Salzburg",
 		"Modern Country": "Austria",
 		"Google URL": "https://maps.app.goo.gl/ZNyon1Mai3UT4s4o7",
-		"Coordinates": "47.8, 13.05",
+		"Coordinates": "47.801306899106855, 13.047825169550368",
 		"Input data": "SMB",
 		"Date entered": "2026-2-26"
 	},
@@ -3419,6 +3504,15 @@
 		"Coordinates": "44.53368827222971, 11.020976771863324",
 		"Input data": "BSO",
 		"Date entered": "2024-3-8"
+	},
+	{
+		"Location ID (LOC)": "LOC:St_Michel_de_Rieufret",
+		"Name of Location": "St. Michel de Rieufret",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/EZh3FfMWRihhrijL7",
+		"Coordinates": "44.62263082013986, -0.4313172974187241",
+		"Input data": "HC",
+		"Date entered": "2026-2-24"
 	},
 	{
 		"Location ID (LOC)": "LOC:Stuttgart",
@@ -3690,6 +3784,15 @@
 		"Coordinates": "43.72586079227329, 12.636939725179847",
 		"Input data": "BSO",
 		"Date entered": "2024-3-13"
+	},
+	{
+		"Location ID (LOC)": "LOC:Utrecht",
+		"Name of Location": "Utrecht",
+		"Modern Country": "Netherlands",
+		"Google URL": "https://maps.app.goo.gl/X5zdBeYJnVadb8Uj9",
+		"Coordinates": "52.095578929609, 5.122010322746711",
+		"Input data": "LQ",
+		"Date entered": "2026-2-27"
 	},
 	{
 		"Location ID (LOC)": "LOC:Utrecht-Domkerk",
@@ -3986,6 +4089,16 @@
 		"Date entered": "2024-1-29"
 	},
 	{
+		"Location ID (LOC)": "LOC:Wroclaw",
+		"Name of Location": "Wroclaw",
+		"Modern Country": "Poland",
+		"Google URL": "https://maps.app.goo.gl/Pqs2dzyQ4VXEgbgQ6",
+		"Coordinates": "51.10718354680426, 17.043620937544862",
+		"Aliases": "Breslau",
+		"Input data": "SMB",
+		"Date entered": "2026-2-27"
+	},
+	{
 		"Location ID (LOC)": "LOC:Zaragoza",
 		"Name of Location": "Zaragoza",
 		"Modern Country": "Spain",
@@ -4002,6 +4115,16 @@
 		"Coordinates": "51.65001030612766, 3.918196832175901",
 		"Input data": "LO",
 		"Date entered": "2025-2-15"
+	},
+	{
+		"Location ID (LOC)": "LOC:Znojmo",
+		"Name of Location": "Znojmo",
+		"City or Larger Place": "Moravia",
+		"Modern Country": "Czechia",
+		"Google URL": "https://maps.app.goo.gl/L2rExaMYtrw4Bbb59",
+		"Coordinates": "48.85459597617377, 16.055597037783052",
+		"Input data": "SMB",
+		"Date entered": "2026-2-27"
 	},
 	{
 		"Location ID (LOC)": "LOC:Zocca",

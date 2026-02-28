@@ -1292,6 +1292,14 @@
 		"Date entered": "2024-8-24"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Thomas_Stoltzer",
+		"Composer Name": "Thomas Stoltzer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/597/",
+		"RISM Link": "https://rism.online/people/20000363",
+		"Input data": "SMB",
+		"Date entered": "2026-2-27"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Thomas_Tallis",
 		"Composer Name": "Thomas Tallis",
 		"Alias": "Talis, Thomas; Talles, Thomas; Tallys, Thomas; Talys, Thomas",
@@ -1356,7 +1364,7 @@
 		"Date updated": "2025-2-12"
 	},
 	{
-		"Biography Composer (BCO) ID": "BCO:Clément Janequin",
+		"Biography Composer (BCO) ID": "BCO:Clement_Janequin",
 		"Composer Name": "Clément Janequin",
 		"Birth Date": "~1485",
 		"Death Date": "~1558",

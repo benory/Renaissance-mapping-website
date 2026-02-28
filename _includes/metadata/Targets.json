@@ -112,7 +112,7 @@
 		"Target Type": "A",
 		"Last": "Finck",
 		"First": "Heinrich",
-		"Status": "0 events",
+		"Status": "Mostly Complete",
 		"Contributor": "SMB"
 	},
 	{
@@ -486,7 +486,8 @@
 		"Target Type": "B",
 		"Last": "Le Metayer",
 		"First": "Guillaume",
-		"Status": "2 events"
+		"Status": "Complete",
+		"Contributor": "LQ"
 	},
 	{
 		"Target Type": "B",
@@ -537,7 +538,8 @@
 		"Target Type": "B",
 		"Last": "Puyllois",
 		"First": "Johannes",
-		"Status": "1 event"
+		"Status": "12 events",
+		"Contributor": "LQ- in progress"
 	},
 	{
 		"Target Type": "B",
@@ -564,7 +566,8 @@
 		"Target Type": "B",
 		"Last": "Stoltzer",
 		"First": "Thomas",
-		"Status": "0 events"
+		"Status": "0 events",
+		"Contributor": "SMB"
 	},
 	{
 		"Target Type": "B",
