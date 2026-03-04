@@ -209,6 +209,15 @@ function doMapSetup(opts) {
         if (events[i][LOC] && events[i][DATERANGE]) {
             eventid = events[i][ID];
             locationid = events[i][LOC];
+
+            // Skip events that incorrectly include multiple locations in one LOC field.
+            const locationIds = locationid.split(";").map(id => id.trim()).filter(Boolean);
+            if (locationIds.length > 1) {
+                console.warn("Skipping multi-location event", eventid, locationid);
+                continue;
+            }
+            locationid = locationIds[0];
+
             let locationInfo = findInfo(locationid, "Locations");
             
             if (!locationInfo) {

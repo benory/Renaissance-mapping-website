@@ -66,13 +66,15 @@
 		"Date entered": "2025-06-20"
 	},
 	{
-		"Institution ID (INS)": "INS:Chapel_Corvinius",
-		"Institution Name": "Chapel of Mathias Corvinius",
+		"Institution ID (INS)": "INS:Chapel_Corvinus",
+		"Institution Name": "Chapel of Mathias Corvinus",
 		"Alias": "Hungarian royal court",
 		"Institution Type": "political",
-		"Institution Description": "Chapel of Mathias Corvinius, King of Hungary",
+		"Institution Description": "Chapel of Mathias Corvinus, King of Hungary",
 		"Input data": "SMB",
-		"Date entered": "2024-9-14"
+		"Date entered": "2024-9-14",
+		"Update data": "RP",
+		"Date updated": "2026-2-28"
 	},
 	{
 		"Institution ID (INS)": "INS:Chapel_Duke_Arcos",
@@ -340,5 +342,22 @@
 		"Institution Type": "ecclesiastical",
 		"Input data": "SMB",
 		"Date entered": "2024-6-7"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Louis_XI",
+		"Institution Name": "Chapel of Louis XI",
+		"Alias": "French royal court",
+		"Institution Type": "political",
+		"Institution Description": "chapel of King Louis XII, who reigned from 1461–483",
+		"Input data": "RP",
+		"Date entered": "2026-2-28"
+	},
+	{
+		"Institution ID (INS)": "INS:Papal_Curia",
+		"Institution Name": "Papal Curia",
+		"Alias": "The Vatican",
+		"Institution Type": "ecclesiastical",
+		"Input data": "RP",
+		"Date entered": "2026-2-28"
 	}
 ]

@@ -43,6 +43,29 @@ nav: true
 
 <hr class="doc-divider">
 
+<h4>Certainty</h4>
+
+<p>Event certainty is recorded on a 4-point scale:</p>
+<p style="margin-left: 1.5em;">
+  <code>1</code> = certain<br>
+  <code>2</code> = probable<br>
+  <code>3</code> = possible<br>
+  <code>4</code> = doubtful
+</p>
+
+<p>We track four types of event uncertainty:</p>
+
+<ul>
+  <li><strong>Location certainty</strong> (<code>LOC Certainty</code>): confidence that the person was in the stated location.</li>
+  <li><strong>Earliest date certainty</strong> (<code>Earliest Date Certainty</code>): confidence in the start of the event’s date range.</li>
+  <li><strong>Latest date certainty</strong> (<code>Latest Date Certainty</code>): confidence in the end of the event’s date range.</li>
+  <li><strong>Event-within-range certainty</strong> (<code>Certainty of Event (within Range)</code>): confidence that the event occurred within the stated range.</li>
+</ul>
+
+<p>In the map interface, non-certain values are marked with question marks (<code>?</code>, <code>??</code>, <code>???</code>) on place, date, or description text to indicate increasing uncertainty.</p>
+
+<hr class="doc-divider">
+
 <h3>Relational Database</h3>
 
 <p>The relational database is created through linked data on a series of Google Sheets that track locations, biographical and bibliographical information, institutions, and occasions.</p>

@@ -40,6 +40,35 @@
 		"Date entered": "2023-3-21"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Bent_1981",
+		"Author": "Margaret Bent",
+		"Name of Article": "Dunstaple",
+		"Publisher": "Oxford University Press",
+		"Publication Year": "1981",
+		"Input data": "FEM",
+		"Date entered": "2025-03-01"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Bent_2001",
+		"Author": "Margaret Bent",
+		"Name of Article": "Dunstaple [Dunstable, Dunstapell, Dumstable, Donstaple, etc.], John",
+		"Name of Volume/Journal": "Grove Music Online",
+		"Publication Year": "2001",
+		"URL": "https://www.oxfordmusiconline.com/",
+		"Input data": "FEM",
+		"Date entered": "2025-03-01"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Bent_2004",
+		"Author": "Margaret Bent",
+		"Name of Article": "Dunstaple [Dunstable], John",
+		"Name of Volume/Journal": "Oxford Dictionary of National Biography",
+		"Publication Year": "2004",
+		"URL": "https://www-oxforddnb-com.libproxy.berkeley.edu/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-8286.",
+		"Input data": "FEM",
+		"Date entered": "2025-03-01"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Blackburn_2016",
 		"Author": "Lupus Hellinck",
 		"Name of Volume/Journal": "Three Four-Part Masses",
@@ -114,6 +143,30 @@
 		"Date entered": "2024-9-1"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Callewier_2009",
+		"Author": "Hendrik Callewier",
+		"Name of Article": "What you do on the Sly...Will be Deemed Forgiven in the Sight of the Most High': Gilles Goye and the Changing Status of Singers in Fifteenth-Century Bruges",
+		"Name of Volume/Journal": "Journal of the Alamire Foundation",
+		"Volume": "1",
+		"Publication Year": "2009",
+		"Pages": "89–109",
+		"Input data": "ECZ",
+		"Date entered": "2025-03-17"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Camperi_2001",
+		"Author": "Alexandra Amati-Camperi",
+		"Name of Article": "A Fresh Look at the Life of Verdelot, Maestro di Cappella at the Duomo of Florence",
+		"Name of Volume/Journal": "Atti del VII centenario del Duomo di Firenze",
+		"Editor": "Timothy Verdon & Annalisa Innocenti",
+		"Location": "Florence",
+		"Publisher": "Edifir",
+		"Publication Year": "2001",
+		"Pages": "89-105",
+		"Input data": "SMB",
+		"Date entered": "2025-3-27"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Catalano_1931",
 		"Author": "Michele Catalano",
 		"Name of Volume/Journal": "Vita di Ludovico Ariosto: Ricostruita su novi documenti",
@@ -133,6 +186,17 @@
 		"Publication Year": "199",
 		"Input data": "SMB",
 		"Date entered": "2024-10-23"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Cross_1963",
+		"Author": "Ronald Cross",
+		"Name of Article": "The Life and Works of Matthaeus Pipelare",
+		"Name of Volume/Journal": "Musica Disciplina",
+		"Volume": "17",
+		"Publication Year": "1963",
+		"Pages": "97-114",
+		"Input data": "SMB",
+		"Date entered": "2025-3-19"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:DAccone_1961",
@@ -241,6 +305,16 @@
 		"Date entered": "2023-3-21"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Ferer_2012",
+		"Author": "Mary Tiffany Ferer",
+		"Name of Volume/Journal": "Music and Ceremony at the Court of Charles V",
+		"Location": "Woodbridge",
+		"Publisher": "Boydell",
+		"Publication Year": "2012",
+		"Input data": "AN",
+		"Date entered": "2025-02-01"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Ferer_2014",
 		"Author": "Mary Ferer",
 		"Name of Article": "Gombert, Thiebault, Crecquillon, Canis, Payen and the chapel of Charles V",
@@ -255,6 +329,16 @@
 		"Date entered": "2024-10-28"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Fiala_2008",
+		"Author": "David Fiala",
+		"Name of Article": "Guillaume Le Métayer (Modiatoris) alias de Malebecque",
+		"Name of Volume/Journal": "Prosopogaphy of Renaissance Singers",
+		"Publication Year": "2008",
+		"URL": "https://ricercardatalab.cesr.univ-tours.fr/en/people/776/",
+		"Input data": "LQ",
+		"Date entered": "2026-2-21"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Filocamo_2010",
 		"Name of Volume/Journal": "Florence, BNC, Panciatichi 27: Text and Context",
 		"Editor": "Gioia Filocamo",
@@ -265,6 +349,16 @@
 		"Publication Year": "2010",
 		"Input data": "BSO",
 		"Date entered": "2023-4-13"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Finscher_1964",
+		"Author": "Ludwig Finscher",
+		"Name of Volume/Journal": "Loyset Compère (ca. 1450-1518), Life and Works",
+		"Volume": "12",
+		"Publisher": "American Institute of Musicology",
+		"Publication Year": "1964",
+		"Input data": "SC",
+		"Date entered": "2025-06-19"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Finscher_2016",
@@ -342,6 +436,16 @@
 		"Date entered": "2024-7-19"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Haller_1896",
+		"Name of Volume/Journal": "Concilium Basiliense, Studien und Quellen zur Geschichte des Concils von Basel",
+		"Volume": "6",
+		"Location": "Basel",
+		"Publisher": "R. Reich",
+		"Publication Year": "1896",
+		"Input data": "LQ",
+		"Date entered": "2026-2-26"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Heidrich_1992",
 		"Author": "Jürgen Heidrich",
 		"Name of Article": "Heinrich Isaac in Torgau?",
@@ -373,6 +477,15 @@
 		"Date entered": "2024-7-16"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Higgins_1987",
+		"Author": "Paula Higgins",
+		"Name of Volume/Journal": "Antoine Busnois and Musical Culture in Late Fifteenth-Century France and Burgundy",
+		"Publisher": "Ph.D. diss., Princeton University",
+		"Publication Year": "1987",
+		"Input data": "LO",
+		"Date entered": "2025-02-09"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Higgins_1990",
 		"Author": "Paula Higgins",
 		"Name of Article": "Tracing the Careers of Late Medieval Composers: The Case of Philippe Basiron of Bourges",
@@ -383,6 +496,16 @@
 		"Date entered": "2024-8-10"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Higgins_1999",
+		"Name of Volume/Journal": "Antoine Busnoys: Method, Meaning, and Context in Late Medieval Music",
+		"Editor": "Paula Higgins",
+		"Location": "Oxford",
+		"Publisher": "Clarendon Press",
+		"Publication Year": "1999",
+		"Input data": "SMB",
+		"Date entered": "2024-03-13"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Higgins_2009",
 		"Author": "Paula Higgins",
 		"Name of Article": "Speaking of the Devil and Discipuli: Eloy d'Amerval, Saint-Martin of Tours, and Music in the Loire Valley, ca. 1465–1505",
@@ -390,16 +513,6 @@
 		"Publication Year": "2009",
 		"Input data": "ECZ",
 		"Date entered": "2024-2-22"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Hoffman-Erbrecht_1982",
-		"Author": "Lothar Hoffman-Erbrecht",
-		"Name of Volume/Journal": "Henricus Finck--Musicus Excellentissimus (1445-1527)",
-		"Location": "Cologne",
-		"Publisher": "Gitarre und Laute Verlagsgesellschaft",
-		"Publication Year": "1982",
-		"Input data": "SMB",
-		"Date entered": "2026-2-6"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Hoffman-Erbrecht_1974",
@@ -413,6 +526,27 @@
 		"Date entered": "2026-2-27"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Hoffman-Erbrecht_1982",
+		"Author": "Lothar Hoffman-Erbrecht",
+		"Name of Volume/Journal": "Henricus Finck--Musicus Excellentissimus (1445-1527)",
+		"Location": "Cologne",
+		"Publisher": "Gitarre und Laute Verlagsgesellschaft",
+		"Publication Year": "1982",
+		"Input data": "SMB",
+		"Date entered": "2026-2-6"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Isaacson_2017",
+		"Author": "Walter Isaacson",
+		"Name of Volume/Journal": "Leonardo da Vinci",
+		"Location": "New York",
+		"Publisher": "Simon & Schuster",
+		"Publication Year": "2017",
+		"Pages": "293-512",
+		"Input data": "HC",
+		"Date entered": "2025-10-14"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Jas_1994",
 		"Author": "Eric Jas",
 		"Name of Article": "A Rediscovered Mass of Jheronimus Vinders?",
@@ -424,6 +558,17 @@
 		"Pages": "221–43",
 		"Input data": "BSO",
 		"Date entered": "2024-3-16"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Kekewich_2008",
+		"Author": "Margaret L. Kekewich",
+		"Name of Volume/Journal": "The Good King: René of Anjou and Fifteenth Century Europe",
+		"Location": "Basingstoke, UK",
+		"Publisher": "Palgrave Macmillan",
+		"Publication Year": "2008",
+		"Pages": "228",
+		"Input data": "RP",
+		"Date entered": "2026-2-28"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Kellman_2009",
@@ -593,6 +738,19 @@
 		"Date entered": "2023-5-2"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Nedonchel_1867",
+		"Author": "Georges de Nédonchel",
+		"Name of Article": "Des anciennes lois criminelles en usage dans la ville de Tournai . . . 1313[–]1553",
+		"Name of Volume/Journal": "Mémoires de la société historique et littéraire de Tournai",
+		"Volume": "9",
+		"Location": "Tournai",
+		"Publisher": "Malo and Levasseur",
+		"Publication Year": "1867",
+		"URL": "https://ia600509.us.archive.org/13/items/lesancienneslois00nd/lesancienneslois00nd.pdf",
+		"Input data": "RP",
+		"Date entered": "2025-12-27"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Newcomb_2001",
 		"Author": "Anthony Newcomb",
 		"Name of Article": "Milleville",
@@ -614,6 +772,18 @@
 		"Pages": "76–102",
 		"Input data": "BSO",
 		"Date entered": "2023-3-21"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Norsen_2024",
+		"Author": "Rolf Norsen",
+		"Name of Volume/Journal": "Clément Janequin: French Composer at the Dawn of Music Publishing",
+		"Volume": "196",
+		"Series": "Eastman Studies in Music",
+		"Publisher": "University of Rochester Press / Boydell & Brewe",
+		"Publication Year": "2024",
+		"Pages": "259–275",
+		"Input data": "HC",
+		"Date entered": "2026-2-17"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Nosow_1991",
@@ -729,6 +899,16 @@
 		"Date entered": "2025-1-10"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Planchart_1988",
+		"Author": "Alejandro Planchart",
+		"Name of Article": "Guillaume Du Fay's Benefices and His Relationship to the Court of Burgundy",
+		"Name of Volume/Journal": "Early Music History",
+		"Volume": "8",
+		"Publication Year": "1988",
+		"Input data": "LQ",
+		"Date entered": "2026-2-23"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Planchart_2001",
 		"Author": "Alejandro Planchart",
 		"Name of Article": "Du Fay, Guillaume",
@@ -771,6 +951,29 @@
 		"Pages": "9–57",
 		"Input data": "BSO",
 		"Date entered": "2023-3-21"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Rees_2007",
+		"Author": "Owen Rees",
+		"Name of Article": "Cristobal de Morales: Sources, Influences, Reception - Introduction",
+		"Editor": "Owen Rees, Bernadette Nelson",
+		"Location": "Woodbridge",
+		"Publisher": "Boydell",
+		"Publication Year": "2007",
+		"Pages": "xxiii-xxxvii",
+		"Input data": "AN",
+		"Date entered": "2025-01-19"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Rifkin_2009",
+		"Author": "Joshua Rifkin",
+		"Name of Article": "Compere, ‘Des Pres,’ and the Choirmasters of Cambrai: Omnium bonorum plena Reconsidered",
+		"Name of Volume/Journal": "Acta Musicologica",
+		"Volume": "81",
+		"Publication Year": "2009",
+		"Pages": "55–73",
+		"Input data": "RP",
+		"Date entered": "2026-2-28"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Rifkin_2012",
@@ -906,6 +1109,16 @@
 		"Date entered": "2023-3-21"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Smijers_1931",
+		"Name of Article": "De Illustre Lieve Vrouwe Broederschap te 's-Hertogenbosch. V. Rekeningen van Sint Jan 1475 tot Sint Jan 1500",
+		"Name of Volume/Journal": "Tijdschrift van de Vereniging voor Nederlandse Muziekgeschiedenis",
+		"Volume": "XIII",
+		"Publication Year": "1932",
+		"Pages": "181-237",
+		"Input data": "SMB",
+		"Date entered": "2025-3-19"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Staehelin_1977",
 		"Author": "Martin Staehelin",
 		"Name of Volume/Journal": "Die Messen Heinrich Isaacs",
@@ -1010,6 +1223,30 @@
 		"Date entered": "2024-12-04"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Wegman_1989",
+		"Author": "Rob C. Wegman",
+		"Name of Article": "Music and Musicians at the Guild of Our Lady in Bergen op Zoom, c. 1470–1510",
+		"Name of Volume/Journal": "Early Music History",
+		"Volume": "9",
+		"Location": "Cambridge",
+		"Publisher": "Cambridge University Press",
+		"Publication Year": "1989",
+		"Pages": "175–249",
+		"Input data": "LO",
+		"Date entered": "2025-10-27"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Wegman_1997",
+		"Author": "Rob C. Wegman",
+		"Name of Article": "Agricola, Bordon and Obrecht at Ghent: Discoveries and Revisions",
+		"Name of Volume/Journal": "Revue Belge de Musicologie",
+		"Volume": "51",
+		"Publication Year": "1997",
+		"Pages": "23-62",
+		"Input data": "SMB",
+		"Date entered": "2026-1-10"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Wegman_2001",
 		"Author": "Rob C. Wegman",
 		"Name of Article": "Obrecht, Jacob",
@@ -1110,6 +1347,18 @@
 		"Date entered": "2024-10-18"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Wright_1979",
+		"Author": "Craig Wright",
+		"Name of Volume/Journal": "Music at the Court of Burgundy, 1364-1419: A Documentary History",
+		"Volume": "28",
+		"Location": "Ottawa",
+		"Publisher": "Institute of Mediaeval Music",
+		"Publication Year": "1979",
+		"URL": "https://www.examenapium.it/cs/biblio/Wright1979.pdf",
+		"Input data": "LQ",
+		"Date entered": "2026-2-11"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Wright_1981",
 		"Author": "Craig Wright",
 		"Name of Article": "Antoine Brumel and Patronage at Paris",
@@ -1130,232 +1379,5 @@
 		"Publication Year": "2005",
 		"Input data": "SMB",
 		"Date entered": "2024-6-21"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Rees_2007",
-		"Author": "Owen Rees",
-		"Name of Article": "Cristobal de Morales: Sources, Influences, Reception - Introduction",
-		"Editor": "Owen Rees, Bernadette Nelson",
-		"Location": "Woodbridge",
-		"Publisher": "Boydell",
-		"Publication Year": "2007",
-		"Pages": "xxiii-xxxvii",
-		"Input data": "AN",
-		"Date entered": "2025-01-19"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Ferer_2012",
-		"Author": "Mary Tiffany Ferer",
-		"Name of Volume/Journal": "Music and Ceremony at the Court of Charles V",
-		"Location": "Woodbridge",
-		"Publisher": "Boydell",
-		"Publication Year": "2012",
-		"Input data": "AN",
-		"Date entered": "2025-02-01"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Higgins_1987",
-		"Author": "Paula Higgins",
-		"Name of Volume/Journal": "Antoine Busnois and Musical Culture in Late Fifteenth-Century France and Burgundy",
-		"Publisher": "Ph.D. diss., Princeton University",
-		"Publication Year": "1987",
-		"Input data": "LO",
-		"Date entered": "2025-02-09"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Bent_2001",
-		"Author": "Margaret Bent",
-		"Name of Article": "Dunstaple [Dunstable, Dunstapell, Dumstable, Donstaple, etc.], John",
-		"Name of Volume/Journal": "Grove Music Online",
-		"Publication Year": "2001",
-		"URL": "https://www.oxfordmusiconline.com/",
-		"Input data": "FEM",
-		"Date entered": "2025-03-01"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Bent_1981",
-		"Author": "Margaret Bent",
-		"Name of Article": "Dunstaple",
-		"Publisher": "Oxford University Press",
-		"Publication Year": "1981",
-		"Input data": "FEM",
-		"Date entered": "2025-03-01"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Bent_2004",
-		"Author": "Margaret Bent",
-		"Name of Article": "Dunstaple [Dunstable], John",
-		"Name of Volume/Journal": "Oxford Dictionary of National Biography",
-		"Publication Year": "2004",
-		"URL": "https://www-oxforddnb-com.libproxy.berkeley.edu/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-8286.",
-		"Input data": "FEM",
-		"Date entered": "2025-03-01"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Higgins_1999",
-		"Name of Volume/Journal": "Antoine Busnoys: Method, Meaning, and Context in Late Medieval Music",
-		"Editor": "Paula Higgins",
-		"Location": "Oxford",
-		"Publisher": "Clarendon Press",
-		"Publication Year": "1999",
-		"Input data": "SMB",
-		"Date entered": "2024-03-13"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Callewier_2009",
-		"Author": "Hendrik Callewier",
-		"Name of Article": "What you do on the Sly...Will be Deemed Forgiven in the Sight of the Most High': Gilles Goye and the Changing Status of Singers in Fifteenth-Century Bruges",
-		"Name of Volume/Journal": "Journal of the Alamire Foundation",
-		"Volume": "1",
-		"Publication Year": "2009",
-		"Pages": "89–109",
-		"Input data": "ECZ",
-		"Date entered": "2025-03-17"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Smijers_1931",
-		"Name of Article": "De Illustre Lieve Vrouwe Broederschap te 's-Hertogenbosch. V. Rekeningen van Sint Jan 1475 tot Sint Jan 1500",
-		"Name of Volume/Journal": "Tijdschrift van de Vereniging voor Nederlandse Muziekgeschiedenis",
-		"Volume": "XIII",
-		"Publication Year": "1932",
-		"Pages": "181-237",
-		"Input data": "SMB",
-		"Date entered": "2025-3-19"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Cross_1963",
-		"Author": "Ronald Cross",
-		"Name of Article": "The Life and Works of Matthaeus Pipelare",
-		"Name of Volume/Journal": "Musica Disciplina",
-		"Volume": "17",
-		"Publication Year": "1963",
-		"Pages": "97-114",
-		"Input data": "SMB",
-		"Date entered": "2025-3-19"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Camperi_2001",
-		"Author": "Alexandra Amati-Camperi",
-		"Name of Article": "A Fresh Look at the Life of Verdelot, Maestro di Cappella at the Duomo of Florence",
-		"Name of Volume/Journal": "Atti del VII centenario del Duomo di Firenze",
-		"Editor": "Timothy Verdon & Annalisa Innocenti",
-		"Location": "Florence",
-		"Publisher": "Edifir",
-		"Publication Year": "2001",
-		"Pages": "89-105",
-		"Input data": "SMB",
-		"Date entered": "2025-3-27"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Finscher_1964",
-		"Author": "Ludwig Finscher",
-		"Name of Volume/Journal": "Loyset Compère (ca. 1450-1518), Life and Works",
-		"Volume": "12",
-		"Publisher": "American Institute of Musicology",
-		"Publication Year": "1964",
-		"Input data": "SC",
-		"Date entered": "2025-06-19"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Isaacson_2017",
-		"Author": "Walter Isaacson",
-		"Name of Volume/Journal": "Leonardo da Vinci",
-		"Location": "New York",
-		"Publisher": "Simon & Schuster",
-		"Publication Year": "2017",
-		"Pages": "293-512",
-		"Input data": "HC",
-		"Date entered": "2025-10-14"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Wegman_1989",
-		"Author": "Rob C. Wegman",
-		"Name of Article": "Music and Musicians at the Guild of Our Lady in Bergen op Zoom, c. 1470–1510",
-		"Name of Volume/Journal": "Early Music History",
-		"Volume": "9",
-		"Location": "Cambridge",
-		"Publisher": "Cambridge University Press",
-		"Publication Year": "1989",
-		"Pages": "175–249",
-		"Input data": "LO",
-		"Date entered": "2025-10-27"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Nedonchel_1867",
-		"Author": "Georges de Nédonchel",
-		"Name of Article": "Des anciennes lois criminelles en usage dans la ville de Tournai . . . 1313[–]1553",
-		"Name of Volume/Journal": "Mémoires de la société historique et littéraire de Tournai",
-		"Volume": "9",
-		"Location": "Tournai",
-		"Publisher": "Malo and Levasseur",
-		"Publication Year": "1867",
-		"URL": "https://ia600509.us.archive.org/13/items/lesancienneslois00nd/lesancienneslois00nd.pdf",
-		"Input data": "RP",
-		"Date entered": "2025-12-27"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Wegman_1997",
-		"Author": "Rob C. Wegman",
-		"Name of Article": "Agricola, Bordon and Obrecht at Ghent: Discoveries and Revisions",
-		"Name of Volume/Journal": "Revue Belge de Musicologie",
-		"Volume": "51",
-		"Publication Year": "1997",
-		"Pages": "23-62",
-		"Input data": "SMB",
-		"Date entered": "2026-1-10"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Wright_1979",
-		"Author": "Craig Wright",
-		"Name of Volume/Journal": "Music at the Court of Burgundy, 1364-1419: A Documentary History",
-		"Volume": "28",
-		"Location": "Ottawa",
-		"Publisher": "Institute of Mediaeval Music",
-		"Publication Year": "1979",
-		"URL": "https://www.examenapium.it/cs/biblio/Wright1979.pdf",
-		"Input data": "LQ",
-		"Date entered": "2026-2-11"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Norsen_2024",
-		"Author": "Rolf Norsen",
-		"Name of Volume/Journal": "Clément Janequin: French Composer at the Dawn of Music Publishing",
-		"Volume": "196",
-		"Series": "Eastman Studies in Music",
-		"Publisher": "University of Rochester Press / Boydell & Brewe",
-		"Publication Year": "2024",
-		"Pages": "259–275",
-		"Input data": "HC",
-		"Date entered": "2026-2-17"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Fiala_2008",
-		"Author": "David Fiala",
-		"Name of Article": "Guillaume Le Métayer (Modiatoris) alias de Malebecque",
-		"Name of Volume/Journal": "Prosopogaphy of Renaissance Singers",
-		"Publication Year": "2008",
-		"URL": "https://ricercardatalab.cesr.univ-tours.fr/en/people/776/",
-		"Input data": "LQ",
-		"Date entered": "2026-2-21"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Planchart_1988",
-		"Author": "Alejandro Planchart",
-		"Name of Article": "Guillaume Du Fay's Benefices and His Relationship to the Court of Burgundy",
-		"Name of Volume/Journal": "Early Music History",
-		"Volume": "8",
-		"Publication Year": "1988",
-		"Input data": "LQ",
-		"Date entered": "2026-2-23"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Haller_1896",
-		"Name of Volume/Journal": "Concilium Basiliense, Studien und Quellen zur Geschichte des Concils von Basel",
-		"Volume": "6",
-		"Location": "Basel",
-		"Publisher": "R. Reich",
-		"Publication Year": "1896",
-		"Input data": "LQ",
-		"Date entered": "2026-2-26"
 	}
 ]

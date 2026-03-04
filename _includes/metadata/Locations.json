@@ -4143,5 +4143,42 @@
 		"Coordinates": "52.139647585105244, 6.196457023579652",
 		"Input data": "LO",
 		"Date entered": "2025-2-15"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint_Aubin",
+		"Name of Location": "Saint-Aubin",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/HVcM4sTY7sov96ML8",
+		"Coordinates": "46.9505108812993, 4.7089282951085485",
+		"Input data": "RP",
+		"Date entered": "2026-2-28"
+	},
+	{
+		"Location ID (LOC)": "LOC:Lamotte",
+		"Name of Location": "Lamotte",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/cYeBVhr4jonLc6w6A",
+		"Coordinates": "48.21139908623184, 5.683619542327402",
+		"Input data": "RP",
+		"Date entered": "2026-2-28"
+	},
+	{
+		"Location ID (LOC)": "LOC:Puy-Sainte-Reparade",
+		"Name of Location": "Le Puy-Sainte-Réparade",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/3Kw6QfWt26PrKR4M7",
+		"Coordinates": "43.66233833346756, 5.434365654797668",
+		"Input data": "RP",
+		"Date entered": "2026-2-28"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint-Maximin-la-Sainte-Baume-Basilique_Sainte_Marie_Madeleine",
+		"Name of Location": "Basilique Sainte Marie Madeleine",
+		"City or Larger Place": "Saint-Maximin-la-Sainte-Baume",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/XdUtBaGd9hQaZ1kq7",
+		"Coordinates": "43.4527163507748, 5.864104158313887",
+		"Input data": "RP",
+		"Date entered": "2026-2-28"
 	}
 ]

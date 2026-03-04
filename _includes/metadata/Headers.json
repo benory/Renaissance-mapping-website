@@ -25,26 +25,10 @@
 	},
 	{
 		"Spreadsheet ID": "EV",
-		"JavaScript Name": "OCCID",
-		"GID": "2002075686",
-		"Spreadsheet Name": "Events",
-		"Column": "D",
-		"Column Name": "Occasion ID (OCC)"
-	},
-	{
-		"Spreadsheet ID": "EV",
-		"JavaScript Name": "INSID",
-		"GID": "2002075686",
-		"Spreadsheet Name": "Events",
-		"Column": "E",
-		"Column Name": "Institution ID (INS)"
-	},
-	{
-		"Spreadsheet ID": "EV",
 		"JavaScript Name": "CERTLOC",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "F",
+		"Column": "D",
 		"Column Name": "LOC Certainty"
 	},
 	{
@@ -52,7 +36,7 @@
 		"JavaScript Name": "EYEAR",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "G",
+		"Column": "E",
 		"Column Name": "Earliest Year"
 	},
 	{
@@ -60,7 +44,7 @@
 		"JavaScript Name": "EMONTH",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "H",
+		"Column": "F",
 		"Column Name": "Earliest Month"
 	},
 	{
@@ -68,7 +52,7 @@
 		"JavaScript Name": "EDAY",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "I",
+		"Column": "G",
 		"Column Name": "Earliest Day"
 	},
 	{
@@ -76,7 +60,7 @@
 		"JavaScript Name": "CERTEDATE",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "J",
+		"Column": "H",
 		"Column Name": "Earliest Date Certainty"
 	},
 	{
@@ -84,7 +68,7 @@
 		"JavaScript Name": "LYEAR",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "K",
+		"Column": "I",
 		"Column Name": "Latest Year"
 	},
 	{
@@ -92,7 +76,7 @@
 		"JavaScript Name": "LMONTH",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "L",
+		"Column": "J",
 		"Column Name": "Latest Month"
 	},
 	{
@@ -100,7 +84,7 @@
 		"JavaScript Name": "LDAY",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "M",
+		"Column": "K",
 		"Column Name": "Latest Day"
 	},
 	{
@@ -108,7 +92,7 @@
 		"JavaScript Name": "CERTLDATE",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "N",
+		"Column": "L",
 		"Column Name": "Latest Date Certainty"
 	},
 	{
@@ -116,7 +100,7 @@
 		"JavaScript Name": "DATERANGE",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "O",
+		"Column": "M",
 		"Column Name": "Date Range"
 	},
 	{
@@ -124,7 +108,7 @@
 		"JavaScript Name": "CERTRANGE",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "P",
+		"Column": "N",
 		"Column Name": "Certainty of Event (within Range)"
 	},
 	{
@@ -132,15 +116,47 @@
 		"JavaScript Name": "EINFO",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "Q",
+		"Column": "O",
 		"Column Name": "Description"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JavaScript Name": "RELID",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "P",
+		"Column Name": "Related Person IDs"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JavaScript Name": "BEID",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "Q",
+		"Column Name": "Benefice ID (BE)"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JavaScript Name": "OCCID",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "R",
+		"Column Name": "Occasion ID (OCC)"
+	},
+	{
+		"Spreadsheet ID": "EV",
+		"JavaScript Name": "INSID",
+		"GID": "2002075686",
+		"Spreadsheet Name": "Events",
+		"Column": "S",
+		"Column Name": "Institution ID (INS)"
 	},
 	{
 		"Spreadsheet ID": "EV",
 		"JavaScript Name": "DOEID",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "R",
+		"Column": "T",
 		"Column Name": "Document Entry ID (DOE)"
 	},
 	{
@@ -148,7 +164,7 @@
 		"JavaScript Name": "BIBID",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "S",
+		"Column": "U",
 		"Column Name": "Bibliography ID (BIB)"
 	},
 	{
@@ -156,42 +172,42 @@
 		"JavaScript Name": "BIBPAGES",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "T",
+		"Column": "V",
 		"Column Name": "BIB Pages"
 	},
 	{
 		"Spreadsheet ID": "EV",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "U",
+		"Column": "W",
 		"Column Name": "Notes"
 	},
 	{
 		"Spreadsheet ID": "EV",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "V",
+		"Column": "X",
 		"Column Name": "Input data"
 	},
 	{
 		"Spreadsheet ID": "EV",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "W",
+		"Column": "Y",
 		"Column Name": "Date entered"
 	},
 	{
 		"Spreadsheet ID": "EV",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "X",
+		"Column": "Z",
 		"Column Name": "Update data"
 	},
 	{
 		"Spreadsheet ID": "EV",
 		"GID": "2002075686",
 		"Spreadsheet Name": "Events",
-		"Column": "Y",
+		"Column": "AA",
 		"Column Name": "Date updated"
 	},
 	{
