@@ -1115,6 +1115,15 @@
 		"Date entered": "2024-7-28"
 	},
 	{
+		"Location ID (LOC)": "LOC:Dresden",
+		"Name of Location": "Dresden",
+		"Modern Country": "Germany",
+		"Google URL": "https://maps.app.goo.gl/osAS7n1iHkWNzFQD9",
+		"Coordinates": "51.05041912504972, 13.73253858851596",
+		"Input data": "SMB",
+		"Date entered": "2026-03-05"
+	},
+	{
 		"Location ID (LOC)": "LOC:Dunstable",
 		"Name of Location": "Dunstable, Bedfordshire",
 		"Modern Country": "UK",
@@ -2437,6 +2446,16 @@
 		"Date entered": "2026-2-19"
 	},
 	{
+		"Location ID (LOC)": "LOC:Munich",
+		"Name of Location": "Munich",
+		"City or Larger Place": "Bavaria",
+		"Modern Country": "Germany",
+		"Google URL": "https://maps.app.goo.gl/792Hh8AWsFg7k7hV6",
+		"Coordinates": "48.1365845101845, 11.567533106166046",
+		"Input data": "SMB",
+		"Date entered": "2026-3-5-"
+	},
+	{
 		"Location ID (LOC)": "LOC:Musee-Rodin",
 		"Name of Location": "Musée Rodin",
 		"City or Larger Place": "Paris",
@@ -2444,7 +2463,7 @@
 		"Google URL": "https://maps.app.goo.gl/WSGkJVTgadMqpKRy8",
 		"Coordinates": "48.85551188700113, 2.315771024649868",
 		"Aliases": "The Museum of Jesse",
-		"Description": "A place where they keep all artifacts relating to Professor Rodin",
+		"Description": "A place where they keep all artifacts relating to Professor Rodin [the man who dresses like a colorblind high school golf instructor ~SMB 3/5/26]",
 		"URL": "https://www.musee-rodin.fr/en",
 		"Input data": "RP",
 		"Date entered": "2025-2-4"
@@ -2596,6 +2615,15 @@
 		"Coordinates": "49.57980588402727, 2.9999740613441555",
 		"Input data": "SMB",
 		"Date entered": "2024-8-16"
+	},
+	{
+		"Location ID (LOC)": "LOC:Nuremberg",
+		"Name of Location": "Nuremberg",
+		"Modern Country": "Germany",
+		"Google URL": "https://maps.app.goo.gl/3WDe7aPsKjwy5kDK7",
+		"Coordinates": "49.45398834120851, 11.068716114193263",
+		"Input data": "SMB",
+		"Date entered": "2026-3-5"
 	},
 	{
 		"Location ID (LOC)": "LOC:Oeudeghien",
@@ -3421,6 +3449,15 @@
 		"Coordinates": "45.57253221455803, 6.396867595608568",
 		"Input data": "SMB",
 		"Date entered": "2024-8-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Schellenberg",
+		"Name of Location": "Schellenberg",
+		"Modern Country": "Germany",
+		"Google URL": "https://maps.app.goo.gl/FAAdBzd2BaPT5CaW7",
+		"Coordinates": "50.85001192859135, 13.11771049096306",
+		"Input data": "SMB",
+		"Date entered": "2026-3-5"
 	},
 	{
 		"Location ID (LOC)": "LOC:Sees",
