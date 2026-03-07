@@ -753,6 +753,17 @@
 		"Date entered": "2024-9-27"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Moser_1966",
+		"Author": "Hans Joachim Moser",
+		"Name of Volume/Journal": "Paul Hofhaimer: Ein Lied- und Orgelmeister des Deutschen Humanismus",
+		"Edition": "rev. 1966",
+		"Location": "Hildesheim",
+		"Publisher": "Georg Olms Verlagsbuchhandlung",
+		"Publication Year": "1966",
+		"Input data": "SMB",
+		"Date entered": "2026-3-6"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Nassiet_2022",
 		"Author": "Michel Nassiet",
 		"Name of Volume/Journal": "Anne de Bretagne: Correspondance et itinéraire",
@@ -1230,7 +1241,9 @@
 		"Location": "Brussels",
 		"Publisher": "G.-A. Van Trigt",
 		"Publication Year": "1885",
-		"URL": "https://books.google.com.sg/books?id=h64QZ9GLUoQC"
+		"URL": "https://books.google.com.sg/books?id=h64QZ9GLUoQC",
+		"Input data": "LQ",
+		"Date entered": "2026-3-6"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Strohm_1985",

@@ -511,7 +511,7 @@
 		"Name of Location": "Bordeaux",
 		"Modern Country": "France",
 		"Google URL": "https://www.google.com/maps/place/Bordeaux,+France/@44.8638099,-0.6684139,12z/data=!3m1!4b1!4m6!3m5!1s0xd5527e8f751ca81:0x796386037b397a89!8m2!3d44.8416106!4d-0.5810938!16zL20vMDFiODU?entry=ttu&g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D",
-		"Coordinates": "44.8416, 0.5811",
+		"Coordinates": "44.84083910130875, -0.5806906498925826",
 		"Input data": "HC",
 		"Date entered": "2026-2-25"
 	},
@@ -3053,6 +3053,15 @@
 		"Coordinates": "51.404273328542196, 21.14650199866016",
 		"Input data": "SMB",
 		"Date entered": "2026-2-14"
+	},
+	{
+		"Location ID (LOC)": "LOC:Radstadt",
+		"Name of Location": "Rastadt",
+		"Modern Country": "Austria",
+		"Google URL": "https://maps.app.goo.gl/mR9orHb2do7zMVu29",
+		"Coordinates": "47.40196821107008, 13.516556771933423",
+		"Input data": "SMB",
+		"Date entered": "2026-3-6"
 	},
 	{
 		"Location ID (LOC)": "LOC:Reggio",
