@@ -82177,9 +82177,11 @@
 		"Certainty of Event (within Range)": "1",
 		"Description": "Supplication for a rectorate at the parish church of Ijsselstejn, held within 1456",
 		"Bibliography ID (BIB)": "BIB:Starr_1987",
-		"BIB Pages": "172; 287",
+		"BIB Pages": "172, 287",
 		"Input data": "LQ",
-		"Date entered": "2026-3-2"
+		"Date entered": "2026-3-2",
+		"Update data": "RP",
+		"Date updated": "2026-3-8"
 	},
 	{
 		"ID": "EV:04611",
@@ -82194,7 +82196,8 @@
 		"Latest Day": "19",
 		"Latest Date Certainty": "3",
 		"Date Range": "1 June 1483 to 19 June 1484",
-		"Description": "See the entries for Feb/March 1483 and 23 July 1485. This entry reflects the possibility that Josquin traveled to Milan soon after receiving wine in Condé.",
+		"Certainty of Event (within Range)": "3",
+		"Description": "Josquin in Milan. See the entries for Feb/March 1483 and 23 July 1485. This entry reflects the possibility that Josquin traveled to Milan soon after receiving wine in Condé.",
 		"Related Person IDs": "BNO:Ascanio_Sforza",
 		"Bibliography ID (BIB)": "BIB:Fallows_2009",
 		"BIB Pages": "359",
@@ -82209,12 +82212,13 @@
 		"Earliest Month": "6",
 		"Earliest Day": "20",
 		"Earliest Date Certainty": "1",
-		"Latest Year": "1485",
-		"Latest Month": "7",
-		"Latest Day": "23",
+		"Latest Year": "1484",
+		"Latest Month": "8",
+		"Latest Day": "18",
 		"Latest Date Certainty": "1",
-		"Date Range": "20 June 1484 to 23 July 1485",
-		"Description": "“Jacobus despres rector parochialis ecclesie Sancti Albini Bituricensis diocesis Ascanii Marie ... capellanus et familiaris continuus commensalis”, requests and is granted dispensation to hold the benefice for three years without being ordained priest. Surrounding documents make it clear that “Jacobus” is a slip of the pen.",
+		"Date Range": "20 June 1484 to 18 August 1484",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Document of 20 June 1484: “Jacobus despres rector parochialis ecclesie Sancti Albini Bituricensis diocesis Ascanii Marie ... capellanus et familiaris continuus commensalis”, requests and is granted dispensation to hold the benefice for three years without being ordained priest. Surrounding documents make it clear that “Jacobus” is a slip of the pen. On 18 August 1484 Ascanio leaves for Rome, probably alone but conceivably with Josquin",
 		"Related Person IDs": "BNO:Ascanio_Sforza",
 		"Bibliography ID (BIB)": "BIB:Fallows_2009",
 		"BIB Pages": "359",
@@ -82225,6 +82229,44 @@
 		"ID": "EV:04613",
 		"Location ID (LOC)": "LOC:Milan",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
+		"Earliest Year": "1484",
+		"Earliest Month": "8",
+		"Earliest Day": "19",
+		"Latest Year": "1484",
+		"Latest Month": "8",
+		"Latest Day": "25",
+		"Date Range": "19 August 1484 to 25 August 1484",
+		"Certainty of Event (within Range)": "2",
+		"Description": "After Ascanio's departure (see entry for 18 August 1484), Josquin and other members of Ascanio's household probably remain in Milan briefly before following him to Rome—probably because Ascanio traveled quickly, arriving in Rome on 22 August",
+		"Related Person IDs": "BNO:Ascanio_Sforza",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "359-60",
+		"Input data": "RP",
+		"Date entered": "2026-3-8"
+	},
+	{
+		"ID": "EV:04614",
+		"Location ID (LOC)": "LOC:Rome",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
+		"Earliest Year": "1484",
+		"Earliest Month": "9",
+		"Earliest Day": "1",
+		"Latest Year": "1485",
+		"Latest Month": "7",
+		"Latest Day": "23",
+		"Date Range": "1 September 1484 to 23 July 1485",
+		"Certainty of Event (within Range)": "2",
+		"Description": "Josquin in Rome, still in Ascanio's service. See documents of 20 June 1484 and 23 July 1485",
+		"Related Person IDs": "BNO:Ascanio_Sforza",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "359-60",
+		"Input data": "RP",
+		"Date entered": "2026-3-8"
+	},
+	{
+		"ID": "EV:04615",
+		"Location ID (LOC)": "LOC:Rome",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
 		"Earliest Year": "1485",
 		"Earliest Month": "7",
 		"Earliest Day": "23",
@@ -82234,6 +82276,7 @@
 		"Latest Day": "23",
 		"Latest Date Certainty": "1",
 		"Date Range": "23 July 1485",
+		"Certainty of Event (within Range)": "1",
 		"Description": "“Judocus des Pres” declares that he is leaving Ascanio Sforza’s service to pursue his own affairs elsewhere [ad alia loca] and requests that the dispensations granted to him should remain in force even though he was no longer a familiar of the cardinal [ac si de familiaritate prefati cardinalis in ipsis litteris mentio facta non fuisset].",
 		"Related Person IDs": "BNO:Ascanio_Sforza",
 		"Bibliography ID (BIB)": "BIB:Fallows_2009",
@@ -82242,7 +82285,136 @@
 		"Date entered": "2026-3-2"
 	},
 	{
-		"ID": "EV:04614",
+		"ID": "EV:04616",
+		"Location ID (LOC)": "LOC:Milan",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
+		"Earliest Year": "1485",
+		"Earliest Month": "8",
+		"Earliest Day": "16",
+		"Latest Year": "1489",
+		"Latest Month": "1",
+		"Latest Day": "6",
+		"Date Range": "16 August 1485 to 6 January 1489",
+		"Certainty of Event (within Range)": "3",
+		"Description": "Josquin possibly in Milan, having returned there from Rome after leaving Ascanio's service (travel estimated at 24 days to cover 600km)",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2026-3-8"
+	},
+	{
+		"ID": "EV:04617",
+		"Location ID (LOC)": "LOC:Vienna",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
+		"Earliest Year": "1485",
+		"Earliest Month": "9",
+		"Earliest Day": "1",
+		"Latest Year": "1489",
+		"Latest Month": "9",
+		"Latest Day": "30",
+		"Date Range": "1 September 1485 to 30 September 1489",
+		"Certainty of Event (within Range)": "3",
+		"Description": "Josquin possibly in Vienna, having traveled to the court of Matthias Corvinus of Hungary after leaving Ascanio's service (travel from Rome estimated at 40 days to cover 1,000km); return to Milan probably no later than August 1489 (790km est. at 32 days). The transmission of pieces like the masses L'ami Baudichon and L'homme armé sexti toni in eastern sources increases the likelihood that Josquin spent time in Vienna.",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009; BIB:Gancarczyk_Hlávková_2017; BIB:Rifkin_2019",
+		"BIB Pages": "112-15, 360; 141-48; 284-85",
+		"Input data": "RP",
+		"Date entered": "2026-3-8"
+	},
+	{
+		"ID": "EV:04618",
+		"Location ID (LOC)": "LOC:Milan",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
+		"Earliest Year": "1489",
+		"Earliest Month": "1",
+		"Earliest Day": "7",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1489",
+		"Latest Month": "1",
+		"Latest Day": "7",
+		"Latest Date Certainty": "1",
+		"Date Range": "7 January 1489",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Josquin is in Milan, at the house of the notary Giovanni Gallerati, “d. Jusquinus de Prattis clericus Cameracensis diocesis, rector sive beneficalis parrochialis ecclesie Sancti Albani Bitturicensis”, appoints two lawyers (Claudius de Nybro, Antonius de Poldo) and an accountant (Petrus Perrini, canon of Lausanne) as procurators in Rome to resign the St-Aubin benefice to Thomas de Furno; witnesses are Egidius Cosse and Johannes Lomont.28 (See also document of 25 Feb 1489.)",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2026-3-8"
+	},
+	{
+		"ID": "EV:04619",
+		"Location ID (LOC)": "LOC:Milan",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
+		"Earliest Year": "1489",
+		"Earliest Month": "2",
+		"Earliest Day": "11",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1489",
+		"Latest Month": "2",
+		"Latest Day": "11",
+		"Latest Date Certainty": "1",
+		"Date Range": "11 February 1489",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Milan, in archbishop’s aula: Josquin, described (for the only time) as a ducal singer in Milan [d. Jusquinum de prattis cantorem duchalem], revokes the procurators he had appointed a month earlier. Three different witnesses named.",
+		"Related Person IDs": "BNO:Guidantonio_Arcimboldi",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "360",
+		"Input data": "RP",
+		"Date entered": "2026-3-8"
+	},
+	{
+		"ID": "EV:04620",
+		"Location ID (LOC)": "LOC:Milan",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Josquin_des_Prez",
+		"Earliest Year": "1489",
+		"Earliest Month": "2",
+		"Earliest Day": "12",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1489",
+		"Latest Month": "2",
+		"Latest Day": "12",
+		"Latest Date Certainty": "1",
+		"Date Range": "12 February 1489",
+		"Certainty of Event (within Range)": "1",
+		"Description": "“d. Jusquinus de Prattis” appoints new procurators in Rome to resign the benefice: Antonius Galeston (presumably Baneston), Marbrianus de Orto and Innocentius Cossee.31 If my identification of Galeston is right, all three were at the time papal singers and all three were long known to Josquin.",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "361",
+		"Input data": "RP",
+		"Date entered": "2026-3-8"
+	},
+	{
+		"ID": "EV:04621",
+		"Earliest Year": "1489",
+		"Earliest Month": "1",
+		"Earliest Day": "7",
+		"Latest Year": "1489",
+		"Latest Month": "2",
+		"Latest Day": "12",
+		"Date Range": "7 January 1489 to 12 February 1489",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Josquin in Milan. See the entries for 7 January, 12 February, and 13 February 1489.",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "360-61",
+		"Input data": "RP",
+		"Date entered": "2026-3-8"
+	},
+	{
+		"ID": "EV:04622",
+		"Earliest Year": "1489",
+		"Earliest Month": "2",
+		"Earliest Day": "13",
+		"Latest Year": "1489",
+		"Latest Month": "5",
+		"Latest Day": "15",
+		"Date Range": "13 February 1489 to 15 May 1489",
+		"Certainty of Event (within Range)": "3",
+		"Description": "Josquin possibly in Milan. He is in Rome on 25 June 1489 when he is paid a month's salary retrospectively. We cannot be certain he was in Rome already by 1 June, but this seems fairly likely. End date given here based on this and presumed travel time from Milan (24 days to cover 600km)",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "361",
+		"Input data": "RP",
+		"Date entered": "2026-3-8"
+	},
+	{
+		"ID": "EV:04623",
 		"Location ID (LOC)": "LOC:Milan",
 		"Biography ID (BCO, BMU, BNO)": "BNO:Galeazzo_Maria_Sforza",
 		"Earliest Year": "1476",
@@ -82259,7 +82431,7 @@
 		"Date entered": "2026-3-3"
 	},
 	{
-		"ID": "EV:04615",
+		"ID": "EV:04624",
 		"Location ID (LOC)": "LOC:Salzburg",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -82280,7 +82452,7 @@
 		"Date entered": "2026-3-3"
 	},
 	{
-		"ID": "EV:04616",
+		"ID": "EV:04625",
 		"Location ID (LOC)": "LOC:Salzburg",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -82301,7 +82473,7 @@
 		"Date entered": "2026-3-3"
 	},
 	{
-		"ID": "EV:04617",
+		"ID": "EV:04626",
 		"Location ID (LOC)": "LOC:Salzburg",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -82322,7 +82494,7 @@
 		"Date entered": "2026-3-3"
 	},
 	{
-		"ID": "EV:04618",
+		"ID": "EV:04627",
 		"Location ID (LOC)": "LOC:Salzburg",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -82343,7 +82515,7 @@
 		"Date entered": "2026-3-3"
 	},
 	{
-		"ID": "EV:04619",
+		"ID": "EV:04628",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Pullois",
 		"LOC Certainty": "1",
@@ -82364,7 +82536,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04620",
+		"ID": "EV:04629",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Pullois",
 		"LOC Certainty": "1",
@@ -82385,7 +82557,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04621",
+		"ID": "EV:04630",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Pullois",
 		"LOC Certainty": "1",
@@ -82406,7 +82578,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04622",
+		"ID": "EV:04631",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Pullois",
 		"LOC Certainty": "1",
@@ -82427,7 +82599,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04623",
+		"ID": "EV:04632",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Pullois",
 		"LOC Certainty": "1",
@@ -82448,7 +82620,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04624",
+		"ID": "EV:04633",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Pullois",
 		"LOC Certainty": "2",
@@ -82469,7 +82641,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04625",
+		"ID": "EV:04634",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Pullois",
 		"LOC Certainty": "1",
@@ -82490,7 +82662,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04626",
+		"ID": "EV:04635",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Pullois",
 		"LOC Certainty": "1",
@@ -82511,7 +82683,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04627",
+		"ID": "EV:04636",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Pullois",
 		"LOC Certainty": "1",
@@ -82532,7 +82704,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04628",
+		"ID": "EV:04637",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Pullois",
 		"LOC Certainty": "1",
@@ -82553,7 +82725,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04629",
+		"ID": "EV:04638",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Pullois",
 		"LOC Certainty": "1",
@@ -82574,7 +82746,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04630",
+		"ID": "EV:04639",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Pullois",
 		"LOC Certainty": "1",
@@ -82595,7 +82767,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04631",
+		"ID": "EV:04640",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Pullois",
 		"LOC Certainty": "1",
@@ -82616,7 +82788,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04632",
+		"ID": "EV:04641",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Pullois",
 		"LOC Certainty": "2",
@@ -82629,7 +82801,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04633",
+		"ID": "EV:04642",
 		"Location ID (LOC)": "LOC:Antwerp",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Pullois",
 		"LOC Certainty": "1",
@@ -82647,7 +82819,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04634",
+		"ID": "EV:04643",
 		"Location ID (LOC)": "LOC:Munich",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -82668,7 +82840,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04635",
+		"ID": "EV:04644",
 		"Location ID (LOC)": "LOC:Nuremberg",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -82689,7 +82861,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04636",
+		"ID": "EV:04645",
 		"Location ID (LOC)": "LOC:Nuremberg",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -82710,7 +82882,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04637",
+		"ID": "EV:04646",
 		"Location ID (LOC)": "LOC:Nuremberg",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -82731,7 +82903,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04638",
+		"ID": "EV:04647",
 		"Location ID (LOC)": "LOC:Nuremberg",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -82752,7 +82924,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04639",
+		"ID": "EV:04648",
 		"Location ID (LOC)": "LOC:Dresden",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "2",
@@ -82772,7 +82944,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04640",
+		"ID": "EV:04649",
 		"Location ID (LOC)": "LOC:Dresden",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "2",
@@ -82792,7 +82964,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04641",
+		"ID": "EV:04650",
 		"Location ID (LOC)": "LOC:Schellenberg",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -82813,7 +82985,7 @@
 		"Date entered": "2026-3-5"
 	},
 	{
-		"ID": "EV:04642",
+		"ID": "EV:04651",
 		"Location ID (LOC)": "LOC:Rome",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Pullois",
 		"LOC Certainty": "1",
@@ -82835,7 +83007,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04643",
+		"ID": "EV:04652",
 		"Location ID (LOC)": "LOC:Antwerp-Notre-Dame",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Pullois",
 		"LOC Certainty": "1",
@@ -82857,7 +83029,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04644",
+		"ID": "EV:04653",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Ondanch",
 		"LOC Certainty": "1",
@@ -82878,7 +83050,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04645",
+		"ID": "EV:04654",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Ondanch",
 		"LOC Certainty": "2",
@@ -82900,7 +83072,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04646",
+		"ID": "EV:04655",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Ondanch",
 		"LOC Certainty": "1",
@@ -82919,7 +83091,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04647",
+		"ID": "EV:04656",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Ondanch",
 		"LOC Certainty": "1",
@@ -82938,7 +83110,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04648",
+		"ID": "EV:04657",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Ondanch",
 		"LOC Certainty": "1",
@@ -82959,7 +83131,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04649",
+		"ID": "EV:04658",
 		"Location ID (LOC)": "LOC:Dijon",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Ondanch",
 		"LOC Certainty": "1",
@@ -82978,7 +83150,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04650",
+		"ID": "EV:04659",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Ondanch",
 		"LOC Certainty": "1",
@@ -82999,7 +83171,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04651",
+		"ID": "EV:04660",
 		"Location ID (LOC)": "LOC:Bruges",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Ondanch",
 		"LOC Certainty": "2",
@@ -83018,7 +83190,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04652",
+		"ID": "EV:04661",
 		"Location ID (LOC)": "LOC:Bruges",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Ondanch",
 		"LOC Certainty": "2",
@@ -83035,7 +83207,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04653",
+		"ID": "EV:04662",
 		"Location ID (LOC)": "LOC:Ghent",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Ondanch",
 		"LOC Certainty": "1",
@@ -83052,7 +83224,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04654",
+		"ID": "EV:04663",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Ondanch",
 		"LOC Certainty": "2",
@@ -83069,7 +83241,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04655",
+		"ID": "EV:04664",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Ondanch",
 		"LOC Certainty": "1",
@@ -83090,7 +83262,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04656",
+		"ID": "EV:04665",
 		"Location ID (LOC)": "LOC:Bruges-Sint-Donaas",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Ondanch",
 		"LOC Certainty": "1",
@@ -83107,12 +83279,11 @@
 		"Description": "Listed as active in the chapter of St. Donatian",
 		"Bibliography ID (BIB)": "BIB:Wright_1979",
 		"BIB Pages": "85",
-		"Notes": "It is unknown when he died, but he is buried in St. Donatian as well",
 		"Input data": "LQ",
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04657",
+		"ID": "EV:04666",
 		"Location ID (LOC)": "LOC:Paris",
 		"Biography ID (BCO, BMU, BNO)": "BMU:Johannes_Ondanch",
 		"LOC Certainty": "1",
@@ -83129,7 +83300,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04658",
+		"ID": "EV:04667",
 		"Location ID (LOC)": "LOC:Radstadt",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -83150,7 +83321,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04659",
+		"ID": "EV:04668",
 		"Location ID (LOC)": "LOC:Innsbruck",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -83171,7 +83342,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04660",
+		"ID": "EV:04669",
 		"Location ID (LOC)": "LOC:Innsbruck",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -83192,7 +83363,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04661",
+		"ID": "EV:04670",
 		"Location ID (LOC)": "LOC:Innsbruck",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -83213,7 +83384,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04662",
+		"ID": "EV:04671",
 		"Location ID (LOC)": "LOC:Innsbruck",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -83234,7 +83405,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04663",
+		"ID": "EV:04672",
 		"Location ID (LOC)": "LOC:Innsbruck",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -83255,7 +83426,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04664",
+		"ID": "EV:04673",
 		"Location ID (LOC)": "LOC:Innsbruck",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -83276,7 +83447,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04665",
+		"ID": "EV:04674",
 		"Location ID (LOC)": "LOC:Innsbruck",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -83297,7 +83468,7 @@
 		"Date entered": "2026-3-6"
 	},
 	{
-		"ID": "EV:04666",
+		"ID": "EV:04675",
 		"Location ID (LOC)": "LOC:Innsbruck",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Paul_Hofhaimer",
 		"LOC Certainty": "1",
@@ -83316,5 +83487,283 @@
 		"BIB Pages": "17",
 		"Input data": "SMB",
 		"Date entered": "2026-3-6"
+	},
+	{
+		"ID": "EV:04676",
+		"Location ID (LOC)": "LOC:London-Westminster_Abbey",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Bedyngham",
+		"LOC Certainty": "1",
+		"Earliest Year": "1453",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1454",
+		"Latest Date Certainty": "1",
+		"Date Range": "1453 to   1454",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Paid for robes",
+		"Bibliography ID (BIB)": "BIB:Bowers_2001b",
+		"Input data": "LQ",
+		"Date entered": "2026-3-10"
+	},
+	{
+		"ID": "EV:04677",
+		"Location ID (LOC)": "LOC:London",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Bedyngham",
+		"LOC Certainty": "1",
+		"Earliest Year": "1456",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1456",
+		"Latest Date Certainty": "1",
+		"Date Range": "1456",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Wrote to King Edward IV to request that his brother Thomas Bedyngham be freed from wrongful imprisonment",
+		"Bibliography ID (BIB)": "BIB:Fallows_2001",
+		"Notes": "After GB-Lpro C 81/1478/25",
+		"Input data": "LQ",
+		"Date entered": "2026-3-10"
+	},
+	{
+		"ID": "EV:04678",
+		"Location ID (LOC)": "LOC:London",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Bedyngham",
+		"LOC Certainty": "1",
+		"Earliest Year": "1456",
+		"Earliest Month": "1",
+		"Earliest Day": "5",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1456",
+		"Latest Month": "1",
+		"Latest Day": "5",
+		"Latest Date Certainty": "1",
+		"Date Range": "5 January 1456",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Transferred his property to four other people: David Selly, John Rudolf, John Bristowe and Henry Stoneham",
+		"Bibliography ID (BIB)": "BIB:Fallows_2001",
+		"Notes": "Took place in either 1456 or 1457",
+		"Input data": "LQ",
+		"Date entered": "2026-3-10"
+	},
+	{
+		"ID": "EV:04679",
+		"Location ID (LOC)": "LOC:London-Westminster_Abbey",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Bedyngham",
+		"LOC Certainty": "1",
+		"Earliest Year": "1457",
+		"Earliest Month": "3",
+		"Earliest Day": "30",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1457",
+		"Latest Month": "3",
+		"Latest Day": "30",
+		"Latest Date Certainty": "1",
+		"Date Range": "30 March 1457",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Confirmed the previous transfer of property to Selly, Rudolf, Bristowe and Stoneham in person at the Westminster Royal Chancery",
+		"Bibliography ID (BIB)": "BIB:Fallows_2001",
+		"Notes": "After GB-Lpro C 54 308, m.21d. Took place in either 1457 or 1458",
+		"Input data": "LQ",
+		"Date entered": "2026-3-10"
+	},
+	{
+		"ID": "EV:04680",
+		"Location ID (LOC)": "LOC:London",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Bedyngham",
+		"LOC Certainty": "1",
+		"Earliest Year": "1448",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1448",
+		"Latest Date Certainty": "1",
+		"Date Range": "1448",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Listed as member of the London Gild of Parish Clerks",
+		"Bibliography ID (BIB)": "BIB:Fallows_2001",
+		"Notes": "After GB-Lgc 4889. The first membership list was compiled in either 1448 or 1449",
+		"Input data": "LQ",
+		"Date entered": "2026-3-10"
+	},
+	{
+		"ID": "EV:04681",
+		"Location ID (LOC)": "LOC:London",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Bedyngham",
+		"LOC Certainty": "1",
+		"Earliest Year": "1458",
+		"Earliest Month": "5",
+		"Earliest Day": "11",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1459",
+		"Latest Month": "5",
+		"Latest Day": "2",
+		"Latest Date Certainty": "1",
+		"Date Range": "11 May 1458 to 2 May 1459",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Likely died during this timespan",
+		"Bibliography ID (BIB)": "BIB:Fallows_2001",
+		"Notes": "After GB-Lgc 4889, which registered his death between 1458-1459",
+		"Input data": "LQ",
+		"Date entered": "2026-3-10"
+	},
+	{
+		"ID": "EV:04682",
+		"Location ID (LOC)": "LOC:Wroclaw",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Thomas_Stoltzer",
+		"LOC Certainty": "1",
+		"Earliest Year": "1520",
+		"Earliest Month": "1",
+		"Earliest Day": "1",
+		"Earliest Date Certainty": "2",
+		"Latest Year": "1521",
+		"Latest Month": "12",
+		"Latest Day": "31",
+		"Latest Date Certainty": "2",
+		"Date Range": "1 January 1520 to 31 December 1521",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Pay records indicate he had a non-resident benefice but was physically present for nine months",
+		"Bibliography ID (BIB)": "BIB:Hoffman-Erbrecht_1964",
+		"BIB Pages": "20",
+		"Input data": "SMB",
+		"Date entered": "2026-3-11"
+	},
+	{
+		"ID": "EV:04683",
+		"Location ID (LOC)": "LOC:Wroclaw",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Thomas_Stoltzer",
+		"LOC Certainty": "1",
+		"Earliest Year": "1521",
+		"Earliest Month": "4",
+		"Earliest Day": "3",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1521",
+		"Latest Month": "4",
+		"Latest Day": "3",
+		"Latest Date Certainty": "1",
+		"Date Range": "3 April 1521",
+		"Certainty of Event (within Range)": "1",
+		"Description": "A special pay record gives Stoltzer money for duties performed on Easter; the date given here is that of Easter itself",
+		"Bibliography ID (BIB)": "BIB:Hoffman-Erbrecht_1964",
+		"BIB Pages": "20",
+		"Input data": "SMB",
+		"Date entered": "2026-3-11"
+	},
+	{
+		"ID": "EV:04684",
+		"Location ID (LOC)": "LOC:Wroclaw",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Thomas_Stoltzer",
+		"LOC Certainty": "1",
+		"Earliest Year": "1521",
+		"Earliest Month": "1",
+		"Earliest Day": "1",
+		"Earliest Date Certainty": "2",
+		"Latest Year": "1522",
+		"Latest Month": "12",
+		"Latest Day": "31",
+		"Latest Date Certainty": "2",
+		"Date Range": "1 January 1521 to 31 December 1522",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Stoltzer pays back part of his income to the chapter because he had been absent for a portion of the time he had already been compensated for",
+		"Bibliography ID (BIB)": "BIB:Hoffman-Erbrecht_1964",
+		"BIB Pages": "21",
+		"Input data": "SMB",
+		"Date entered": "2026-3-11"
+	},
+	{
+		"ID": "EV:04685",
+		"Location ID (LOC)": "LOC:Wroclaw",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Thomas_Stoltzer",
+		"LOC Certainty": "1",
+		"Earliest Year": "1522",
+		"Earliest Month": "6",
+		"Earliest Day": "23",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1522",
+		"Latest Month": "6",
+		"Latest Day": "23",
+		"Latest Date Certainty": "1",
+		"Date Range": "23 June 1522",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Chapter records record Stoltzer absent on this date",
+		"Bibliography ID (BIB)": "BIB:Hoffman-Erbrecht_1964",
+		"BIB Pages": "21",
+		"Input data": "SMB",
+		"Date entered": "2026-3-11"
+	},
+	{
+		"ID": "EV:04686",
+		"Location ID (LOC)": "LOC:Wroclaw",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Thomas_Stoltzer",
+		"LOC Certainty": "1",
+		"Earliest Year": "1522",
+		"Earliest Month": "9",
+		"Earliest Day": "16",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1522",
+		"Latest Month": "9",
+		"Latest Day": "16",
+		"Latest Date Certainty": "1",
+		"Date Range": "16 September 1522",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Stoltzer present at the general convocation of Wroclaw vicars, an annual event",
+		"Bibliography ID (BIB)": "BIB:Hoffman-Erbrecht_1964",
+		"BIB Pages": "22",
+		"Input data": "SMB",
+		"Date entered": "2026-3-11"
+	},
+	{
+		"ID": "EV:04687",
+		"Location ID (LOC)": "LOC:Prague",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Thomas_Stoltzer",
+		"LOC Certainty": "1",
+		"Earliest Year": "1522",
+		"Earliest Month": "5",
+		"Earliest Day": "8",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1522",
+		"Latest Month": "5",
+		"Latest Day": "8",
+		"Latest Date Certainty": "1",
+		"Date Range": "8 May 1522",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Queen Maria appoints Stoltzer as her choirmaster",
+		"Bibliography ID (BIB)": "BIB:Hoffman-Erbrecht_1964",
+		"BIB Pages": "26",
+		"Input data": "SMB",
+		"Date entered": "2026-3-11"
+	},
+	{
+		"ID": "EV:04688",
+		"Location ID (LOC)": "LOC:Wroclaw",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Thomas_Stoltzer",
+		"LOC Certainty": "1",
+		"Earliest Year": "1526",
+		"Earliest Month": "2",
+		"Earliest Day": "5",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1526",
+		"Latest Month": "2",
+		"Latest Day": "5",
+		"Latest Date Certainty": "1",
+		"Date Range": "5 February 1526",
+		"Certainty of Event (within Range)": "1",
+		"Description": "The Wroclaw city council leaves Stoltzer's benefices intact, even as he works for Queen Maria",
+		"Bibliography ID (BIB)": "BIB:Hoffman-Erbrecht_1964",
+		"BIB Pages": "27",
+		"Notes": "stopped after 32",
+		"Input data": "SMB",
+		"Date entered": "2026-3-11"
+	},
+	{
+		"ID": "EV:04689",
+		"Location ID (LOC)": "LOC:London",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Johannes_Bedyngham",
+		"LOC Certainty": "1",
+		"Earliest Year": "1457",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1457",
+		"Latest Date Certainty": "1",
+		"Date Range": "1457",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Listed as a verger for the collegiate chapel of St. Stephen, Westminster",
+		"Bibliography ID (BIB)": "BIB:Fallows_2001",
+		"Notes": "After GB-Lpro C 54 308, m.21d.",
+		"Input data": "LQ",
+		"Date entered": "2026-3-12"
 	}
 ]

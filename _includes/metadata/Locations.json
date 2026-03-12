@@ -1986,6 +1986,16 @@
 		"Date entered": "2024-8-9"
 	},
 	{
+		"Location ID (LOC)": "LOC:London-Westminster_Abbey",
+		"Name of Location": "Westminster Abbey",
+		"City or Larger Place": "London",
+		"Modern Country": "United Kingdom",
+		"Google URL": "https://maps.app.goo.gl/LEZbWLAg8EGnnLVk7",
+		"Coordinates": "51.49988480783107, -0.1275",
+		"Input data": "LQ",
+		"Date entered": "2026-3-10"
+	},
+	{
 		"Location ID (LOC)": "LOC:Lublin",
 		"Name of Location": "Lublin",
 		"Modern Country": "Poland",

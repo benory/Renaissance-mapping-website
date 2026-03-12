@@ -1030,5 +1030,16 @@
 		"BIB Pages": "354",
 		"Input data": "RP",
 		"Date entered": "2026-3-3"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Guidantonio_Arcimboldi",
+		"Person Name": "Guidantonio Arcimboldi",
+		"Alias": "Guido Antonio Arcimboldi",
+		"Birth Date": "1428",
+		"Death Date": "1497-10-18",
+		"Noted Positions": "Archbishop of Milan",
+		"Bibliography ID (BIB)": "BIB:Raponi_1961",
+		"Input data": "RP",
+		"Date entered": "2026-3-8"
 	}
 ]
