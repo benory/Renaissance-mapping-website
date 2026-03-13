@@ -2713,6 +2713,15 @@
 		"Date entered": "2025-4-18"
 	},
 	{
+		"Location ID (LOC)": "LOC:Oxford",
+		"Name of Location": "Oxford",
+		"Modern Country": "United Kingdom",
+		"Google URL": "https://maps.app.goo.gl/PbcBSvuCt7kp31df6",
+		"Coordinates": "51.75630085753313, -1.2591512909868396",
+		"Input data": "LQ",
+		"Date entered": "2026-3-13"
+	},
+	{
 		"Location ID (LOC)": "LOC:Padua",
 		"Name of Location": "Padua",
 		"Modern Country": "Italy",
