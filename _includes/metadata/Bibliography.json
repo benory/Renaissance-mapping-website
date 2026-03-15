@@ -416,6 +416,17 @@
 		"Date entered": "2024-8-17"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Gancarczyk_Hlavkova_2017",
+		"Author": "Paweł Gancarczyk and Lenka Hlávková",
+		"Name of Article": "The Lviv Fragments and Missa L’homme armé sexti toni: Questions on Early Josquin Reception in Central Europe",
+		"Name of Volume/Journal": "Tijdschrift van de Koninklijke Vereniging voor Nederlandse Muziekgeschiedenis",
+		"Volume": "67",
+		"Publication Year": "2017",
+		"Pages": "139-61",
+		"Input data": "RP",
+		"Date entered": "2026-3-8"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Ghisi_1937",
 		"Author": "Federico Ghisi",
 		"Name of Article": "I Canti carnascialeschi nelle fonti musicali del XV e XVI secolo",
@@ -1022,6 +1033,18 @@
 		"Date entered": "2023-3-21"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Raponi_1961",
+		"Author": "Nicola Raponi",
+		"Name of Volume/Journal": "Dizionario Biografico degli Italiani",
+		"Volume": "3",
+		"Location": "Rome",
+		"Publisher": "Istituto della Enciclopedia Italiana fondata da Giovanni Treccani",
+		"Publication Year": "1961",
+		"URL": "https://www.treccani.it/enciclopedia/guidantonio-arcimboldi_(Dizionario-Biografico)/",
+		"Input data": "RP",
+		"Date entered": "2026-3-8"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Rees_2007",
 		"Author": "Owen Rees",
 		"Name of Article": "Cristobal de Morales: Sources, Influences, Reception - Introduction",
@@ -1056,6 +1079,19 @@
 		"Pages": "21–82",
 		"Input data": "BSO",
 		"Date entered": "2023-5-18"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Rifkin_2019",
+		"Author": "Joshua Rifkin",
+		"Name of Article": "Milan, Motet Cycles, Josquin: Further Thoughts on a Familiar Topic",
+		"Name of Volume/Journal": "Motet Cycles between Devotion and Liturgy",
+		"Editor": "Daniele V. Filippi, Agnese Pavanello",
+		"Location": "Basel",
+		"Publisher": "Schwabe",
+		"Publication Year": "2019",
+		"Pages": "221-335",
+		"Input data": "RP",
+		"Date entered": "2026-3-8"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Robin_1985",
@@ -1244,6 +1280,17 @@
 		"Pages": "27–38",
 		"Input data": "SMB",
 		"Date entered": "2024-8-17"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Starr_1997",
+		"Author": "Pamela F. Starr",
+		"Name of Article": "Josquin, Rome, and a Case of Mistaken Identity",
+		"Name of Volume/Journal": "Journal of Musicology",
+		"Volume": "15",
+		"Publication Year": "1997",
+		"Pages": "43–65",
+		"Input data": "RP",
+		"Date entered": "2026-3-14"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Straeten_1878",
@@ -1459,41 +1506,5 @@
 		"Publication Year": "2005",
 		"Input data": "SMB",
 		"Date entered": "2024-6-21"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Gancarczyk_Hlavkova_2017",
-		"Author": "Paweł Gancarczyk and Lenka Hlávková",
-		"Name of Article": "The Lviv Fragments and Missa L’homme armé sexti toni: Questions on Early Josquin Reception in Central Europe",
-		"Name of Volume/Journal": "Tijdschrift van de Koninklijke Vereniging voor Nederlandse Muziekgeschiedenis",
-		"Volume": "67",
-		"Publication Year": "2017",
-		"Pages": "139-61",
-		"Input data": "RP",
-		"Date entered": "2026-3-8"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Rifkin_2019",
-		"Author": "Joshua Rifkin",
-		"Name of Article": "Milan, Motet Cycles, Josquin: Further Thoughts on a Familiar Topic",
-		"Name of Volume/Journal": "Motet Cycles between Devotion and Liturgy",
-		"Editor": "Daniele V. Filippi, Agnese Pavanello",
-		"Location": "Basel",
-		"Publisher": "Schwabe",
-		"Publication Year": "2019",
-		"Pages": "221-335",
-		"Input data": "RP",
-		"Date entered": "2026-3-8"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Raponi_1961",
-		"Author": "Nicola Raponi",
-		"Name of Volume/Journal": "Dizionario Biografico degli Italiani",
-		"Volume": "3",
-		"Location": "Rome",
-		"Publisher": "Istituto della Enciclopedia Italiana fondata da Giovanni Treccani",
-		"Publication Year": "1961",
-		"URL": "https://www.treccani.it/enciclopedia/guidantonio-arcimboldi_(Dizionario-Biografico)/",
-		"Input data": "RP",
-		"Date entered": "2026-3-8"
 	}
 ]

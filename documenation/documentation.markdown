@@ -35,11 +35,11 @@ nav: true
 <p>The project is built on a relational database of what we call <strong>Events</strong>. Each event records a person (or group) in a specific location at a specific time. Individual events are sometimes linked to an institution or occasion.</p>
 
 <p>Each event has an unique <strong>Event ID</strong> that makes it possible to cite the event via a stable web address (e.g., 
-<a href="https://renaissancemapping.org/?eventid=00003" target="_blank">Event 3 places Josquin des Prez as a singer at the papal chapel</a>). The format of the ID citation is:</p>
+<a href="https://renaissancemapping.org/?eventid=04688" target="_blank">event 4688 places Josquin des Prez probably in Rome</a>, in advance of his first payment, for a month's salary, on 25 June 1489). The format of the ID citation is:</p>
 
-<p><a href="https://renaissancemapping.org/?eventid=00003" target="_blank"><code>https://renaissancemapping.org/?eventid=00003</code></a></p>
+<p><a href="https://renaissancemapping.org/?eventid=04688" target="_blank"><code>https://renaissancemapping.org/?eventid=04688</code></a></p>
 
-<p>where <code>00003</code> is the numeric Event ID.</p>
+<p>where <code>04688</code> is the numeric Event ID.</p>
 
 <hr class="doc-divider">
 

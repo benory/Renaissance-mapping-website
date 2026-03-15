@@ -1041,5 +1041,26 @@
 		"Bibliography ID (BIB)": "BIB:Raponi_1961",
 		"Input data": "RP",
 		"Date entered": "2026-3-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jean_Montissart",
+		"Person Name": "Jean Montissart",
+		"Noted Positions": "Bishop of Tournai in 1489",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "362",
+		"Input data": "RP",
+		"Date entered": "2026-3-14"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Nicolaus_Rombert",
+		"Person Name": "Nicolaus Rombert",
+		"Alias": "Rembert or Rambert",
+		"Death Date": "1504-1-11",
+		"Noted Positions": "Canon of Cambrai",
+		"Description": "Contratenorista in the choir of St. Peter's, Rome in 1475-76; Atlas finds him in St. Peter's until 1478. He then became a curial lawyer and administrator; he is mentioned as a familiaris of Pope Innocent VIII. In 1488 he is a procurator for one 'Johannes Trutoris'—probably Tinctoris—in the matter of paying annates for a canonry in the church of St. Gertrude at Nivelles. By 1493 he is notary of the Sacred Rota and an abbreviator litterarum apostolicarum. Various documents associate him with benefices at Notre-Dame, Antwerp, and at St. Gery, Cambrai, but the culmination of his beneficial career evidently came with his appointment as Dean of St. Omer in 1494, in succession to Simon Godefroy. On his death he was an apostolic protonotary, dean and canon of St. Omer, and prior in commendam of the priory of  Rumilly-le-Comte, 26 kilometres south-west of St. Omer and quite close to his native village. He was buried near the tomb of St. Omer, having presented a bronze screen for the choir and left provision in his will for the construction of a chapel on the south side of the nave,",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009; BIB:Noble_1976; BIB:Atlas_1985",
+		"BIB Pages": "362;80-84;71",
+		"Input data": "RP",
+		"Date entered": "2026-3-14"
 	}
 ]
