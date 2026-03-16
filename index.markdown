@@ -54,7 +54,8 @@ hide_footer: true
                         id="date-button"
                         class="with-arrow apple-pill-button"
                         aria-expanded="false">
-                        All dates
+                        <img src="/images/calendar.svg" alt="" class="date-button-icon" aria-hidden="true">
+                        <span class="date-button-label">All dates</span>
                       </button>
                       <div class="date-popup">
                         <div class="date-input-row">

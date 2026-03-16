@@ -277,6 +277,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
   const btn = document.getElementById("date-button");
+  const btnLabel = btn.querySelector(".date-button-label");
   const popup = document.querySelector("#date-dropdown .date-popup");
 
   const minInput = document.getElementById("date-input-min");
@@ -320,7 +321,7 @@ document.addEventListener("DOMContentLoaded", () => {
     updateSliderBackground();
     filterAndSearchMarkers();
 
-    btn.textContent = `${sliderMin.value}–${sliderMax.value}`;
+    btnLabel.textContent = `${sliderMin.value}–${sliderMax.value}`;
     popup.classList.remove("visible");
     btn.setAttribute("aria-expanded", "false");
   });
@@ -336,7 +337,7 @@ document.addEventListener("DOMContentLoaded", () => {
     updateSliderBackground();
     filterAndSearchMarkers();
 
-    btn.textContent = "All dates";
+    btnLabel.textContent = "All dates";
     popup.classList.remove("visible");
     btn.setAttribute("aria-expanded", "false");
   });

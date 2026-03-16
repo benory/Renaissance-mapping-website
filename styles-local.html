@@ -1065,6 +1065,7 @@ table.histogram div.count {
 #date-button {
   display: inline-flex;
   align-items: center;
+  gap: 8px;
   height: 38px;
 
   padding: 6px 16px;
@@ -1093,12 +1094,22 @@ table.histogram div.count {
     transform 0.15s ease;
 }
 
+.date-button-icon {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 auto;
+}
+
+.date-button-label {
+  display: inline-block;
+}
+
 /* Arrow caret (identical to certainty button) */
 #date-button::after {
   content: "";
   width: 14px;
   height: 14px;
-  margin-left: 10px;
+  margin-left: 2px;
 
   background-image: url("data:image/svg+xml;utf8,\
 <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23333'>\
