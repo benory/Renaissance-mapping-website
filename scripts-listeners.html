@@ -188,14 +188,16 @@ document.addEventListener("DOMContentLoaded", function () {
             input.value = target;
         }
 
-        // Trigger your normal search logic
-        filterAndSearchMarkers();
-
         // Trigger your "select person" behavior
         if (typeof selectPersonByName === "function") {
             selectPersonByName(target);
         } else if (typeof addSelectedName === "function") {
             addSelectedName(target);
+        }
+
+        if (input) {
+            input.value = "";
+            input.blur();
         }
 
         // Ensure the pills update

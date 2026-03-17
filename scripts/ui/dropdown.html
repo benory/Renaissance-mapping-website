@@ -60,6 +60,52 @@ function addSelectedPerson(personID, personprocessed) {
     }
 }
 
+function selectPersonByName(name) {
+    if (!name) return false;
+
+    const normalizedTarget = name.trim().toLowerCase();
+    const match = markers.find(({ personprocessed, alias }) => {
+        if (typeof personprocessed === "string" &&
+            personprocessed.trim().toLowerCase() === normalizedTarget) {
+            return true;
+        }
+
+        if (typeof alias === "string") {
+            return alias
+                .split(";")
+                .map(a => a.trim().toLowerCase())
+                .includes(normalizedTarget);
+        }
+
+        if (Array.isArray(alias)) {
+            return alias
+                .filter(a => typeof a === "string")
+                .map(a => a.trim().toLowerCase())
+                .includes(normalizedTarget);
+        }
+
+        return false;
+    });
+
+    if (!match) {
+        console.warn(`No person found for selection: ${name}`);
+        return false;
+    }
+
+    addSelectedPerson(match.personID, match.personprocessed);
+
+    if (match.personID.startsWith("BCO")) {
+        document.getElementById("composer-select").checked = true;
+    } else if (match.personID.startsWith("BMU")) {
+        document.getElementById("musician-select").checked = true;
+    } else if (match.personID.startsWith("BNO")) {
+        document.getElementById("non-musician-select").checked = true;
+    }
+
+    filterAndSearchMarkers();
+    return true;
+}
+
 function showAutocompleteSuggestions() {
     const inputValue = document.getElementById("input").value.trim().toLowerCase();
     const resultsContainer = document.getElementById("autocomplete-results");
