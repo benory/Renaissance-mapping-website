@@ -359,5 +359,14 @@
 		"Institution Type": "ecclesiastical",
 		"Input data": "RP",
 		"Date entered": "2026-2-28"
+	},
+	{
+		"Institution ID (INS)": "INS:Chapel_Philip_Good",
+		"Institution Name": "Chapel of Philip the Good",
+		"Alias": "Burgundian court chapel",
+		"Institution Type": "political",
+		"Institution Description": "chapel of Philip the Good, who reigned from 1419-1467",
+		"Input data": "AN",
+		"Date entered": "2026-3-15"
 	}
 ]

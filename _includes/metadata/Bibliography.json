@@ -1506,5 +1506,49 @@
 		"Publication Year": "2005",
 		"Input data": "SMB",
 		"Date entered": "2024-6-21"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Wegman_2011",
+		"Author": "Rob C. Wegman",
+		"Name of Article": "Fremin le Caron at Amiens: New Documents",
+		"Name of Volume/Journal": "Essays on Renaissance Music in Honour of David Fallows: Bon Jour, Bon Mois Et Bonne Estrenne",
+		"Editor": "Fabrice Fitch & Jacobijn Kiel",
+		"Volume": "11",
+		"Location": "Woodbridge",
+		"Publisher": "Boydell Press",
+		"Publication Year": "2011",
+		"Pages": "10-32",
+		"Input data": "AN",
+		"Date entered": "2026-3-15"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Litterick_2001",
+		"Author": "Louise Litterick",
+		"Name of Article": "Hayne [Ayne, Haine, Heyne, Scoen Hayne] van Ghizeghem [Ghiseghem]",
+		"Name of Volume/Journal": "Grove Music Online",
+		"Editor": "David Fallows (revised)",
+		"Publication Year": "2001",
+		"URL": "https://doi.org/10.1093/gmo/9781561592630.article.12631",
+		"Input data": "AN",
+		"Date entered": "2026-3-15"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Fallows_2001",
+		"Author": "David Fallows",
+		"Name of Article": "Constans [Costinus] Breuwe [Breeu, Brawe] [Constans de Languebroek, Constans de Trecht]",
+		"Name of Volume/Journal": "Grove Music Online",
+		"Publication Year": "2001",
+		"URL": "https://doi.org/10.1093/gmo/9781561592630.article.06328",
+		"Input data": "AN",
+		"Date entered": "2026-3-15"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Marix_1937",
+		"Author": "J. Marix",
+		"Name of Volume/Journal": "Les musiciens de la cour de Bourgogne au XVe siecle",
+		"Location": "Paris",
+		"Publication Year": "1937",
+		"Input data": "LQ",
+		"Date entered": "2026-3-18"
 	}
 ]

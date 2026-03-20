@@ -4245,5 +4245,14 @@
 		"Coordinates": "43.4527163507748, 5.864104158313887",
 		"Input data": "RP",
 		"Date entered": "2026-2-28"
+	},
+	{
+		"Location ID (LOC)": "LOC:Beauvais",
+		"Name of Location": "Beauvais",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/PN4CwyncL8KdqxhJ7",
+		"Coordinates": "49.42942536728422, 2.0823762975429294",
+		"Input data": "AN",
+		"Date entered": "2026-03-15"
 	}
 ]
