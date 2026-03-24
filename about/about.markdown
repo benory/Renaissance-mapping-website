@@ -71,7 +71,7 @@ nav: true
         <div class="bio">
             <h3>Lara Oge</h3>
             <p><strong>Team Member</strong></p>
-            <p>Lara Oge is pursuing an MPhil in Music at the University of Cambridge. She graduated from the University of California, Berkeley, in 2025 with a B.A. in Music, receiving the Department Citation and completing minors in Digital Humanities and Medieval Studies. Her research interests include polyphonic sources of the Renaissance and the musical institutions of the period.</p>
+            <p>Lara Oge is pursuing an MPhil in Music at the University of Cambridge. She graduated from the University of California, Berkeley, in 2025 with a B.A. in Music, receiving the Department Citation and completing minors in Digital Humanities and Medieval Studies. Her thesis project examines the mobility of fifteenth-century singers across musical institutions in Bruges.</p>
         </div>
     </div>
     <div class="team-member">
