@@ -1033,6 +1033,15 @@
 		"Date entered": "2023-3-21"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Prizer_1989",
+		"Author": "William F. Prizer",
+		"Name of Article": "Music at the Court of the Sforza: The Birth and Death of a Musical Center",
+		"Name of Volume/Journal": "Musica Disciplina",
+		"Volume": "43",
+		"Publication Year": "1989",
+		"Pages": "141–93"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Raponi_1961",
 		"Author": "Nicola Raponi",
 		"Name of Volume/Journal": "Dizionario Biografico degli Italiani",
@@ -1550,5 +1559,47 @@
 		"Publication Year": "1937",
 		"Input data": "LQ",
 		"Date entered": "2026-3-18"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Wright_1975",
+		"Author": "Craig Wright",
+		"Name of Article": "Dufay at Cambrai: Discoveries and Revisions",
+		"Name of Volume/Journal": "Journal of the American Musicological Society",
+		"Volume": "28",
+		"Publication Year": "1975",
+		"Pages": "175-229",
+		"URL": "https://www.jstor.org/stable/830766",
+		"Input data": "LQ",
+		"Date entered": "2026-3-20"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Fallows_2001b",
+		"Author": "David Fallows",
+		"Name of Article": "Binchois [Binchoys], Gilles de Bins [Binch, Binche] dit",
+		"Name of Volume/Journal": "Grove Music Online",
+		"Publication Year": "2001",
+		"URL": "https://doi.org/10.1093/gmo/9781561592630.article.03094",
+		"Input data": "LQ",
+		"Date entered": "2026-3-23"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Sherr_1983",
+		"Author": "Richard Sherr",
+		"Name of Article": "Notes on Some Papal Documents in Paris",
+		"Name of Volume/Journal": "Studi Musicali",
+		"Volume": "12",
+		"Publication Year": "1983",
+		"Pages": "5-16",
+		"Input data": "RP",
+		"Date entered": "2026-4-10"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Eubel_1914",
+		"Name of Volume/Journal": "Hierarchia catholica medii aevi",
+		"Editor": "Conrad Eubel",
+		"Volume": "2",
+		"Publication Year": "1914",
+		"Input data": "RP",
+		"Date entered": "2026-4-10"
 	}
 ]

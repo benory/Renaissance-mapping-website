@@ -15,8 +15,10 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
         ...getActiveNamesFromContainer('musician-active'),
         ...getActiveNamesFromContainer('non-musician-active')
     ]);
+    const activeLocationIds = getActiveLocationIds();
+    const useMapBounds = activeLocationIds.length === 0;
 
-    const visibleMarkers = getVisibleMarkers();
+    const visibleMarkers = getVisibleMarkers(useMapBounds);
     const currentMarkers = new Set(markerCluster.getLayers());
     const newVisibleMarkers = new Set();
     const markersToRemove = new Set();
@@ -27,7 +29,7 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
         document.querySelector('#active-markers-table tbody').innerHTML = '';
     }
 
-    visibleMarkers.forEach(({ marker, personID, alias, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, text, eventid, daterange, locationprocessed, description, personprocessed, institution }) => {
+    visibleMarkers.forEach(({ marker, personID, alias, locationid, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, text, eventid, daterange, locationprocessed, description, personprocessed, institution }) => {
         const type = personID.substring(0, 3);
         const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
 
@@ -35,6 +37,10 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
 
         // Apply additional filtering based on user search, active names, and date range
         if (show && activeNames.size > 0 && !activeNames.has(personprocessed)) {
+            show = false;
+        }
+
+        if (show && activeLocationIds.length > 0 && !activeLocationIds.includes(locationid)) {
             show = false;
         }
 
@@ -103,7 +109,6 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
     
     updateHistogram(histogramCounts);
     map.addLayer(markerCluster);
-    map.invalidateSize();
 }
 
 </script>

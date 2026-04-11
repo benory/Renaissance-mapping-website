@@ -1,6 +1,10 @@
 <script>
 
-function getVisibleMarkers() {
+function getVisibleMarkers(useMapBounds = true) {
+    if (!useMapBounds) {
+        return markers;
+    }
+
     const bounds = map.getBounds().pad(0.1); // Slightly expand bounds
 
     return markers.filter(({ marker }) => {

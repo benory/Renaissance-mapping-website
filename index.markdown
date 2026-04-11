@@ -107,6 +107,7 @@ hide_footer: true
                 </div>
             </div>
             <div class="selected-names-bar">
+                <div id="location-active" class="active-names inline-active-location"></div>
                 <div id="composer-active" class="active-names"></div>
                 <div id="musician-active" class="active-names"></div>
                 <div id="non-musician-active" class="active-names"></div>

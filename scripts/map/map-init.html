@@ -120,6 +120,7 @@ function doMapSetup(opts) {
     let alias = "";
     let personprocessed = "";
     let locationid = "";
+    let locationlabel = "";
     let locationprocessed = "";
     let locationcountry = "";
     let largerlocation = "";
@@ -134,6 +135,7 @@ function doMapSetup(opts) {
     let latestdate = "";
     let coordinates = "";
     let coordinatesprocessed = "";
+    let locationcoords = "";
     let description = "";
     let institution = "";
     let institutiontype = "";
@@ -233,6 +235,7 @@ function doMapSetup(opts) {
             if (largerlocation) {
                 locationprocessed += `, ${largerlocation}`;
             }
+            locationlabel = locationprocessed;
 
             // Get name of person
             if (events[i][BIOID]) {
@@ -495,6 +498,29 @@ function doMapSetup(opts) {
                     // Swap latitude and longitude
                     coordinatesprocessed = [coordsArray[1], coordsArray[0]];
 
+                    const popupBody = `
+                        <div><b>Person:</b> ${personprocessed}</div>
+                        <div><b>Date:</b> ${daterange}</div>
+                        <div><b>Place:</b> ${locationprocessed}</div>
+                        ${description ? `<div><b>Description:</b> ${description}</div>` : ""}
+                        ${archiveprocessed ? `<div><b>Archival Document:</b>${archiveprocessed.replace(/^<br><b>Archival Document:<\/b>\s*/, " ")}</div>` : ""}
+                        ${bibliography ? `<div><b>Bibliography:</b> ${bibliography}</div>` : ""}
+                    `;
+
+                    const popupFooter = `
+                        <a href="#" onclick="sharePoint('${shareID}')" class="event-popup-share">
+                            <img src="/images/share_24.svg" alt="Share" class="event-popup-share-icon">
+                            <span>Copy link</span>
+                        </a>
+                    `;
+
+                    const popupContent = `
+                        <div class="event-popup">
+                            <div class="event-popup-body">${popupBody}</div>
+                            <div class="event-popup-footer">${popupFooter}</div>
+                        </div>
+                    `;
+
                     const geoJsonFeature = {
                         type: "Feature",
                         geometry: {
@@ -502,16 +528,7 @@ function doMapSetup(opts) {
                             coordinates: coordinatesprocessed // Ensure this is [longitude, latitude]
                         },
                         properties: {
-                            popupContent: description ? 
-                            `<b>Person:</b> ${personprocessed}<br>
-                            <b>Date:</b> ${daterange}<br>
-                            <b>Place:</b> ${locationprocessed} <br>
-                            <b>Description:</b> ${description} ${archiveprocessed} 
-                            ${bibliography ? `<b><br>Bibliography:</b> ${bibliography}` : ''}<br> <a href="#" onclick="sharePoint('${shareID}')" style="display: flex; align-items: center;"><img src="/images/share_24.svg" alt="Share" style="height: 24px; width: 24px; margin-right: 5px;"><span>Copy link</span></a>` : 
-                            `<b>Person:</b> ${personprocessed}<br>
-                            <b>Date:</b> ${daterange}<br>
-                            <b>Place:</b> ${locationprocessed} ${archiveprocessed} 
-                            ${bibliography ? `<br><b>Bibliography:</b> ${bibliography}` : ''} <br> <a href="#" onclick="sharePoint('${shareID}')" style="display: flex; align-items: center;"><img src="/images/share_24.svg" alt="Share" style="height: 24px; width: 24px; margin-right: 5px;"><span>Copy link</span></a>`,
+                            popupContent: popupContent,
                             locationCertainty: locationCertainty,
                             earliestDateCertainty: earliestDateCertainty,
                             latestDateCertainty: latestDateCertainty,
@@ -558,31 +575,16 @@ function doMapSetup(opts) {
 
                         // Bind popup (turn off autoPan so Leaflet doesn't do its own second movement)
                         marker.bindPopup(feature.properties.popupContent, {
-                          autoPan: false
+                          autoPan: true,
+                          autoPanPaddingTopLeft: [24, 140],
+                          autoPanPaddingBottomRight: [24, 32],
+                          maxWidth: 420,
+                          minWidth: 280,
+                          className: "event-popup-shell"
                         });
 
                         marker.on("click", function () {
-                          const targetZoom = Math.min(map.getZoom() + 1, 15);
-
-                          // --- KEY IDEA: offset the map center downward in pixels ---
-                          // Increase this number if the popup is still too high.
-                          const yOffsetPx = -80;
-
-                          // Project marker latlng to pixel space at the target zoom
-                          const p = map.project(marker.getLatLng(), targetZoom);
-
-                          // Move the "center point" DOWN (positive y) so the popup appears more centered
-                          const p2 = L.point(p.x, p.y + yOffsetPx);
-
-                          // Convert back to latlng, and do ONE animated move
-                          const offsetCenter = map.unproject(p2, targetZoom);
-
-                          map.setView(offsetCenter, targetZoom, {
-                            animate: true,
-                            duration: 0.4
-                          });
-
-                          // Open popup (no auto-pan)
+                          // Open popup and let Leaflet keep it onscreen
                           marker.openPopup();
                         });
 
@@ -613,7 +615,11 @@ function doMapSetup(opts) {
                         latestyear: latestyear, 
                         eventid: eventid, 
                         description: description, 
+                        locationid: locationid,
+                        locationname: locationInfo[LOCNAME],
+                        locationlabel: locationlabel,
                         locationprocessed: locationprocessed,
+                        locationcoords: coordsArray,
                         locationcountry: locationcountry, 
                         daterange: daterange, 
                         personprocessed: personprocessed });
@@ -629,12 +635,14 @@ function doMapSetup(opts) {
             person = "";
             personprocessed = "";
             locationid = "";
+            locationlabel = "";
             locationprocessed = "";
             locationcountry = "";
             largerlocation = "";
             daterange = "";
             coordinates = "";
             coordinatesprocessed = "";
+            locationcoords = "";
             description = "";
             docentry = "";
             bibliography = "";

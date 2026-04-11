@@ -577,6 +577,18 @@
 		"Date entered": "2025-08-26"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Johannes_de_Porta",
+		"Person Name": "Johannes de Porta",
+		"Alias": "Jehan de la Porte",
+		"Death Date": "1515-6-13",
+		"Noted Positions": "Canon of Cambrai, 27 May 1462 - 26 May 1474",
+		"Description": "Biography in Planchart pp. 729-30",
+		"Bibliography ID (BIB)": "BIB:Planchart_2018",
+		"BIB Pages": "729-30",
+		"Input data": "RP",
+		"Date entered": "2026-04-10"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:John_of_Burgundy",
 		"Person Name": "John of Burgundy",
 		"Birth Date": "1404",
@@ -1062,5 +1074,12 @@
 		"BIB Pages": "362;80-84;71",
 		"Input data": "RP",
 		"Date entered": "2026-3-14"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Ludovico_Gonzaga",
+		"Person Name": "Ludovico Gonzaga",
+		"Birth Date": "c.1460",
+		"Death Date": "1511-1-19",
+		"Noted Positions": "Bishop of Mantua"
 	}
 ]

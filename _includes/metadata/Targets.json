@@ -16,8 +16,8 @@
 		"Target Type": "A",
 		"Last": "Binchois",
 		"First": "Gilles",
-		"Status": "5 events",
-		"Contributor": "SMB, LQ"
+		"Status": "11 events",
+		"Contributor": "SMB; LQ"
 	},
 	{
 		"Target Type": "A",
@@ -120,7 +120,8 @@
 		"Target Type": "A",
 		"Last": "Frye",
 		"First": "Walter",
-		"Status": "0 events"
+		"Status": "0 events",
+		"Contributor": "LQ- started"
 	},
 	{
 		"Target Type": "A",
@@ -524,7 +525,8 @@
 	{
 		"Target Type": "B",
 		"Last": "Power",
-		"Status": "0 events"
+		"Status": "0 events",
+		"Contributor": "LQ- started"
 	},
 	{
 		"Target Type": "B",

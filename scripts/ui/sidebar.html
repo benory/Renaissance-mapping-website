@@ -18,15 +18,17 @@ function updateSidebar() {
         ...getActiveNamesFromContainer('musician-active'),
         ...getActiveNamesFromContainer('non-musician-active')
     ]);
+    const activeLocationIds = getActiveLocationIds();
+    const useMapBounds = activeLocationIds.length === 0;
 
-    forceExpand = activeNames.size > 0;
+    forceExpand = activeNames.size > 0 || activeLocationIds.length > 0;
 
     const searchInput = document.querySelector("#input");
     const searchRegex = searchInput && searchInput.value.trim() !== ""
         ? new RegExp(searchInput.value, 'i')
         : null;
 
-    const visibleMarkers = getVisibleMarkers().filter(({ personID, locationCertainty, alias,
+    const visibleMarkers = getVisibleMarkers(useMapBounds).filter(({ personID, locationid, locationCertainty, alias,
         earliestDateCertainty, latestDateCertainty, rangeCertainty,
         earliestyear, latestyear, text, personprocessed, locationprocessed, institution }) => {
 
@@ -36,6 +38,8 @@ function updateSidebar() {
         let show = shouldShowMarker(type, checkboxStates, certainties, institution);
 
         if (show && activeNames.size > 0 && !activeNames.has(personprocessed)) show = false;
+
+        if (show && activeLocationIds.length > 0 && !activeLocationIds.includes(locationid)) show = false;
 
         if (show && searchRegex && !(text.match(searchRegex) ||
             locationprocessed.match(searchRegex) ||
@@ -258,8 +262,6 @@ function updateMarkerSidebarRow(
     row.addEventListener('click', () => {
         const marker = markers.find(m => m.eventid === eventid)?.marker;
         if (!marker) return;
-        const targetZoom = Math.min(map.getZoom() + 1, 8);
-        map.setView(marker.getLatLng(), targetZoom, { animate: true });
         marker.openPopup();
     });
 

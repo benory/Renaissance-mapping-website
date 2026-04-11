@@ -2,6 +2,95 @@
 
 const selectedNames = new Set(); // Track selected names globally
 
+function getLocationMatchesByName(name) {
+    if (!name) return [];
+
+    const normalizedTarget = normalizeName(name);
+    const matches = new Map();
+
+    markers.forEach(entry => {
+        const rawNames = [
+            entry.locationname,
+            entry.locationlabel,
+            entry.locationprocessed
+        ].filter(value => typeof value === "string" && value.trim() !== "");
+
+        const matched = rawNames.some(value => normalizeName(value) === normalizedTarget);
+        if (!matched || matches.has(entry.locationid)) return;
+
+        matches.set(entry.locationid, {
+            locationid: entry.locationid,
+            locationname: entry.locationname,
+            locationlabel: entry.locationlabel,
+            locationprocessed: entry.locationprocessed
+        });
+    });
+
+    return Array.from(matches.values());
+}
+
+function getActiveLocationIds() {
+    const container = document.getElementById("location-active");
+    if (!container) return [];
+
+    return [...container.querySelectorAll(".selected-location-item")]
+        .map(item => item.dataset.locationId)
+        .filter(Boolean);
+}
+
+function removeSelectedLocation() {
+    const activeContainer = document.getElementById("location-active");
+    if (activeContainer) {
+        activeContainer.innerHTML = "";
+    }
+
+    selectedLocation = null;
+    filterAndSearchMarkers();
+}
+
+function zoomToSelectedLocation(locationId) {
+    const matchingMarkers = markers.filter(entry => entry.locationid === locationId);
+    if (matchingMarkers.length === 0) return;
+
+    const group = L.featureGroup(matchingMarkers.map(entry => entry.marker));
+    const bounds = group.getBounds();
+
+    if (!bounds.isValid()) return;
+
+    map.fitBounds(bounds, {
+        padding: [50, 50],
+        maxZoom: 10
+    });
+}
+
+function addSelectedLocation(locationid, locationlabel) {
+    if (!locationid || !locationlabel) return;
+
+    const activeContainer = document.getElementById("location-active");
+    if (!activeContainer) return;
+
+    activeContainer.innerHTML = "";
+    selectedLocation = { locationid, locationlabel };
+
+    const selectedItem = document.createElement("div");
+    selectedItem.className = "selected-person-item selected-location-item";
+    selectedItem.dataset.locationId = locationid;
+
+    const removeButton = document.createElement("span");
+    removeButton.className = "remove-btn";
+    removeButton.textContent = "×";
+    removeButton.onclick = () => {
+        removeSelectedLocation();
+    };
+
+    selectedItem.appendChild(removeButton);
+    selectedItem.appendChild(document.createTextNode(`Location: ${locationlabel}`));
+    activeContainer.appendChild(selectedItem);
+
+    filterAndSearchMarkers();
+    zoomToSelectedLocation(locationid);
+}
+
 function addSelectedPerson(personID, personprocessed) {
     const activeId = personID.startsWith('BCO')
         ? 'composer-active'
@@ -106,6 +195,21 @@ function selectPersonByName(name) {
     return true;
 }
 
+function selectLocationByName(name) {
+    const matches = getLocationMatchesByName(name);
+    if (matches.length === 0) {
+        console.warn(`No location found for selection: ${name}`);
+        return false;
+    }
+
+    addSelectedLocation(matches[0].locationid, matches[0].locationlabel || matches[0].locationprocessed);
+    return true;
+}
+
+function selectSearchTarget(name) {
+    return selectPersonByName(name) || selectLocationByName(name);
+}
+
 function showAutocompleteSuggestions() {
     const inputValue = document.getElementById("input").value.trim().toLowerCase();
     const resultsContainer = document.getElementById("autocomplete-results");
@@ -168,6 +272,41 @@ function showAutocompleteSuggestions() {
         matches.push({ label, personID, personprocessed });
     });
 
+    const seenLocations = new Set();
+
+    markers.forEach(({ locationid, locationname, locationlabel, locationprocessed }) => {
+        if (!locationid || !locationprocessed) return;
+        if (selectedLocation && selectedLocation.locationid === locationid) return;
+        if (seenLocations.has(locationid)) return;
+
+        const locationNames = [locationname, locationlabel, locationprocessed]
+            .filter(value => typeof value === "string")
+            .map(value => value.toLowerCase());
+
+        const matched = locationNames.some(name => name.includes(inputValue));
+        if (!matched) return;
+
+        seenLocations.add(locationid);
+
+        const locationMarkers = markers.filter(m => m.locationid === locationid);
+        const eventCount = locationMarkers.length;
+        const yearValues = locationMarkers.flatMap(({ earliestyear, latestyear }) => [earliestyear, latestyear]);
+        const earliest = Math.min(...yearValues);
+        const latest = Math.max(...yearValues);
+
+        const formattedRange = earliest === latest
+            ? `${earliest}`
+            : (Math.floor(earliest / 100) === Math.floor(latest / 100)
+                ? `${earliest}–${String(latest).slice(-2)}`
+                : `${earliest}–${latest}`);
+
+        const yearLabel = ` (${eventCount} event${eventCount > 1 ? "s" : ""}, ${formattedRange})`;
+        const displayName = locationlabel || locationprocessed;
+        const label = `Location: ${displayName}${yearLabel}`;
+
+        matches.push({ label, locationid, locationlabel: displayName, resultType: "location" });
+    });
+
     if (matches.length === 0) {
         resultsContainer.style.display = "none";
         return;
@@ -175,21 +314,28 @@ function showAutocompleteSuggestions() {
 
     resultsContainer.style.display = "block";
 
-    matches.slice(0, 10).forEach(({ label, personID, personprocessed }) => {
+    matches
+        .sort((a, b) => a.label.localeCompare(b.label))
+        .slice(0, 10)
+        .forEach(({ label, personID, personprocessed, locationid, locationlabel, resultType }) => {
         const item = document.createElement("div");
         item.className = "autocomplete-item";
         item.textContent = label;
 
         item.onclick = () => {
-            addSelectedPerson(personID, personprocessed);
+            if (resultType === "location") {
+                addSelectedLocation(locationid, locationlabel);
+            } else {
+                addSelectedPerson(personID, personprocessed);
 
-            // Auto-check the corresponding checkbox if not already checked
-            if (personID.startsWith("BCO")) {
-                document.getElementById("composer-select").checked = true;
-            } else if (personID.startsWith("BMU")) {
-                document.getElementById("musician-select").checked = true;
-            } else if (personID.startsWith("BNO")) {
-                document.getElementById("non-musician-select").checked = true;
+                // Auto-check the corresponding checkbox if not already checked
+                if (personID.startsWith("BCO")) {
+                    document.getElementById("composer-select").checked = true;
+                } else if (personID.startsWith("BMU")) {
+                    document.getElementById("musician-select").checked = true;
+                } else if (personID.startsWith("BNO")) {
+                    document.getElementById("non-musician-select").checked = true;
+                }
             }
 
             resultsContainer.innerHTML = "";
