@@ -87,6 +87,10 @@ function removeSelectedLocation() {
 
     selectedLocation = null;
     filterAndSearchMarkers();
+
+    if (selectedNames.size > 0) {
+        zoomToSelectedPersons();
+    }
 }
 
 function zoomToSelectedLocation() {
@@ -99,12 +103,15 @@ function zoomToSelectedLocation() {
     if (!bounds.isValid()) return;
 
     map.fitBounds(bounds, {
-        padding: [50, 50],
-        maxZoom: 10
+        paddingTopLeft: [320, 50],
+        paddingBottomRight: [50, 50],
+        maxZoom: 12
     });
 }
 
 function zoomToSelectedPersons() {
+    if (selectedLocation) return;
+
     const selectedPeople = new Set(selectedNames);
     const matchingMarkers = markers.filter(entry => selectedPeople.has(entry.personprocessed));
     if (matchingMarkers.length === 0) return;
