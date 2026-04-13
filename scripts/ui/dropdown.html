@@ -2,6 +2,41 @@
 
 const selectedNames = new Set(); // Track selected names globally
 
+function getLocationSearchRank(entry, normalizedQuery) {
+    const normalizedName = normalizeName(entry.locationname || "");
+    const normalizedLabel = normalizeName(entry.locationlabel || "");
+    const normalizedParent = normalizeName(entry.locationparent || "");
+
+    if (normalizedName === normalizedQuery) return 0;
+    if (normalizedLabel === normalizedQuery) return 1;
+    if (normalizedParent === normalizedQuery) return 2;
+    if (normalizedName.startsWith(normalizedQuery)) return 3;
+    if (normalizedLabel.startsWith(normalizedQuery)) return 4;
+    return 5;
+}
+
+function markerMatchesSelectedLocation(entry) {
+    if (!selectedLocation) return true;
+
+    const selectedNormalized = selectedLocation.normalizedKey || normalizeName(selectedLocation.locationlabel || "");
+    const entryParent = normalizeName(entry.locationparent || "");
+    const entryName = normalizeName(entry.locationname || "");
+
+    return entry.locationid === selectedLocation.locationid ||
+        entryParent === selectedNormalized ||
+        entryName === selectedNormalized;
+}
+
+function markerMatchesLocationEntry(markerEntry, locationEntry) {
+    const selectedNormalized = normalizeName(
+        locationEntry.locationname || locationEntry.locationlabel || locationEntry.locationprocessed || ""
+    );
+
+    return markerEntry.locationid === locationEntry.locationid ||
+        normalizeName(markerEntry.locationparent || "") === selectedNormalized ||
+        normalizeName(markerEntry.locationname || "") === selectedNormalized;
+}
+
 function getLocationMatchesByName(name) {
     if (!name) return [];
 
@@ -12,6 +47,7 @@ function getLocationMatchesByName(name) {
         const rawNames = [
             entry.locationname,
             entry.locationlabel,
+            entry.locationparent,
             entry.locationprocessed
         ].filter(value => typeof value === "string" && value.trim() !== "");
 
@@ -22,11 +58,16 @@ function getLocationMatchesByName(name) {
             locationid: entry.locationid,
             locationname: entry.locationname,
             locationlabel: entry.locationlabel,
+            locationparent: entry.locationparent,
             locationprocessed: entry.locationprocessed
         });
     });
 
-    return Array.from(matches.values());
+    return Array.from(matches.values()).sort((a, b) => {
+        const rankDiff = getLocationSearchRank(a, normalizedTarget) - getLocationSearchRank(b, normalizedTarget);
+        if (rankDiff !== 0) return rankDiff;
+        return (a.locationlabel || a.locationprocessed || "").localeCompare(b.locationlabel || b.locationprocessed || "");
+    });
 }
 
 function getActiveLocationIds() {
@@ -48,8 +89,8 @@ function removeSelectedLocation() {
     filterAndSearchMarkers();
 }
 
-function zoomToSelectedLocation(locationId) {
-    const matchingMarkers = markers.filter(entry => entry.locationid === locationId);
+function zoomToSelectedLocation() {
+    const matchingMarkers = markers.filter(entry => markerMatchesSelectedLocation(entry));
     if (matchingMarkers.length === 0) return;
 
     const group = L.featureGroup(matchingMarkers.map(entry => entry.marker));
@@ -63,14 +104,34 @@ function zoomToSelectedLocation(locationId) {
     });
 }
 
-function addSelectedLocation(locationid, locationlabel) {
+function zoomToSelectedPersons() {
+    const selectedPeople = new Set(selectedNames);
+    const matchingMarkers = markers.filter(entry => selectedPeople.has(entry.personprocessed));
+    if (matchingMarkers.length === 0) return;
+
+    const group = L.featureGroup(matchingMarkers.map(entry => entry.marker));
+    const bounds = group.getBounds();
+
+    if (!bounds.isValid()) return;
+
+    map.fitBounds(bounds, {
+        padding: [50, 50],
+        maxZoom: 6
+    });
+}
+
+function addSelectedLocation(locationid, locationlabel, locationKey = locationlabel) {
     if (!locationid || !locationlabel) return;
 
     const activeContainer = document.getElementById("location-active");
     if (!activeContainer) return;
 
     activeContainer.innerHTML = "";
-    selectedLocation = { locationid, locationlabel };
+    selectedLocation = {
+        locationid,
+        locationlabel,
+        normalizedKey: normalizeName(locationKey || locationlabel)
+    };
 
     const selectedItem = document.createElement("div");
     selectedItem.className = "selected-person-item selected-location-item";
@@ -88,7 +149,7 @@ function addSelectedLocation(locationid, locationlabel) {
     activeContainer.appendChild(selectedItem);
 
     filterAndSearchMarkers();
-    zoomToSelectedLocation(locationid);
+    zoomToSelectedLocation();
 }
 
 function addSelectedPerson(personID, personprocessed) {
@@ -146,6 +207,7 @@ function addSelectedPerson(personID, personprocessed) {
         applyHighlightColorsToMarkers();
 
         filterAndSearchMarkers(); // Reapply filters after adding
+        zoomToSelectedPersons();
     }
 }
 
@@ -202,7 +264,11 @@ function selectLocationByName(name) {
         return false;
     }
 
-    addSelectedLocation(matches[0].locationid, matches[0].locationlabel || matches[0].locationprocessed);
+    addSelectedLocation(
+        matches[0].locationid,
+        matches[0].locationlabel || matches[0].locationprocessed,
+        matches[0].locationname || matches[0].locationlabel || matches[0].locationprocessed
+    );
     return true;
 }
 
@@ -274,12 +340,14 @@ function showAutocompleteSuggestions() {
 
     const seenLocations = new Set();
 
-    markers.forEach(({ locationid, locationname, locationlabel, locationprocessed }) => {
+    const normalizedQuery = normalizeName(inputValue);
+
+    markers.forEach(({ locationid, locationname, locationlabel, locationparent, locationprocessed }) => {
         if (!locationid || !locationprocessed) return;
         if (selectedLocation && selectedLocation.locationid === locationid) return;
         if (seenLocations.has(locationid)) return;
 
-        const locationNames = [locationname, locationlabel, locationprocessed]
+        const locationNames = [locationname, locationlabel, locationparent, locationprocessed]
             .filter(value => typeof value === "string")
             .map(value => value.toLowerCase());
 
@@ -288,7 +356,8 @@ function showAutocompleteSuggestions() {
 
         seenLocations.add(locationid);
 
-        const locationMarkers = markers.filter(m => m.locationid === locationid);
+        const locationEntry = { locationid, locationname, locationlabel: locationlabel || locationprocessed, locationprocessed };
+        const locationMarkers = markers.filter(m => markerMatchesLocationEntry(m, locationEntry));
         const eventCount = locationMarkers.length;
         const yearValues = locationMarkers.flatMap(({ earliestyear, latestyear }) => [earliestyear, latestyear]);
         const earliest = Math.min(...yearValues);
@@ -304,7 +373,18 @@ function showAutocompleteSuggestions() {
         const displayName = locationlabel || locationprocessed;
         const label = `Location: ${displayName}${yearLabel}`;
 
-        matches.push({ label, locationid, locationlabel: displayName, resultType: "location" });
+        matches.push({
+            label,
+            locationid,
+            locationname,
+            locationlabel: displayName,
+            locationparent,
+            locationRank: getLocationSearchRank(
+                { locationname, locationlabel: displayName, locationparent },
+                normalizedQuery
+            ),
+            resultType: "location"
+        });
     });
 
     if (matches.length === 0) {
@@ -315,16 +395,23 @@ function showAutocompleteSuggestions() {
     resultsContainer.style.display = "block";
 
     matches
-        .sort((a, b) => a.label.localeCompare(b.label))
+        .sort((a, b) => {
+            if ((a.resultType === "location") && (b.resultType === "location")) {
+                if (a.locationRank !== b.locationRank) {
+                    return a.locationRank - b.locationRank;
+                }
+            }
+            return a.label.localeCompare(b.label);
+        })
         .slice(0, 10)
-        .forEach(({ label, personID, personprocessed, locationid, locationlabel, resultType }) => {
+        .forEach(({ label, personID, personprocessed, locationid, locationname, locationlabel, resultType }) => {
         const item = document.createElement("div");
         item.className = "autocomplete-item";
         item.textContent = label;
 
         item.onclick = () => {
             if (resultType === "location") {
-                addSelectedLocation(locationid, locationlabel);
+                addSelectedLocation(locationid, locationlabel, locationname || locationlabel);
             } else {
                 addSelectedPerson(personID, personprocessed);
 
@@ -478,6 +565,10 @@ function applyHighlightColorsToMarkers() {
             });
         }
     });
+
+    if (markerCluster && typeof markerCluster.refreshClusters === "function") {
+        markerCluster.refreshClusters();
+    }
 }
 
 function getColorForIndex(index) {

@@ -28,7 +28,7 @@ function updateSidebar() {
         ? new RegExp(searchInput.value, 'i')
         : null;
 
-    const visibleMarkers = getVisibleMarkers(useMapBounds).filter(({ personID, locationid, locationCertainty, alias,
+    const visibleMarkers = getVisibleMarkers(useMapBounds).filter(({ personID, locationid, locationname, locationparent, locationCertainty, alias,
         earliestDateCertainty, latestDateCertainty, rangeCertainty,
         earliestyear, latestyear, text, personprocessed, locationprocessed, institution }) => {
 
@@ -39,7 +39,7 @@ function updateSidebar() {
 
         if (show && activeNames.size > 0 && !activeNames.has(personprocessed)) show = false;
 
-        if (show && activeLocationIds.length > 0 && !activeLocationIds.includes(locationid)) show = false;
+        if (show && activeLocationIds.length > 0 && !markerMatchesSelectedLocation({ locationid, locationname, locationparent })) show = false;
 
         if (show && searchRegex && !(text.match(searchRegex) ||
             locationprocessed.match(searchRegex) ||

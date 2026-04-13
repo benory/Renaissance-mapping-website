@@ -2435,16 +2435,13 @@
 		"Date entered": "2023-5-17"
 	},
 	{
-		"Location ID (LOC)": "LOC:Moustiers",
-		"Name of Location": "Moustiers-Sainte-Marie",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/fjMkYR1VbXyJS4Wj9",
-		"Coordinates": "43.84503264103763, 6.224227903183533",
-		"Aliases": "Moustiers-Sainte-Marie",
-		"Input data": "LO",
-		"Date entered": "2023-1-23",
-		"Update data": "RP",
-		"Date updated": "2026-4-10"
+		"Location ID (LOC)": "LOC:Moustier",
+		"Name of Location": "Moustier",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/4YafQs3DiCAYkGedA",
+		"Coordinates": "50.65509822254408, 3.619784622827088",
+		"Input data": "RP",
+		"Date entered": "2026-4-10"
 	},
 	{
 		"Location ID (LOC)": "LOC:Muhldorf",
@@ -4256,15 +4253,6 @@
 		"Coordinates": "49.42942536728422, 2.0823762975429294",
 		"Input data": "AN",
 		"Date entered": "2026-03-15"
-	},
-	{
-		"Location ID (LOC)": "LOC:Moustier",
-		"Name of Location": "Moustier",
-		"Modern Country": "Belgium",
-		"Google URL": "https://maps.app.goo.gl/4YafQs3DiCAYkGedA",
-		"Coordinates": "50.65509822254408, 3.619784622827088",
-		"Input data": "RP",
-		"Date entered": "2026-4-10"
 	},
 	{
 		"Location ID (LOC)": "LOC:Bas-Ittre",
