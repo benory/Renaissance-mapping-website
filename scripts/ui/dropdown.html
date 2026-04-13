@@ -127,6 +127,27 @@ function zoomToSelectedPersons() {
     });
 }
 
+function ensureLocationTypesVisible() {
+    if (!selectedLocation || selectedNames.size > 0) return;
+
+    const matchingMarkers = markers.filter(entry => markerMatchesSelectedLocation(entry));
+    if (matchingMarkers.length === 0) return;
+
+    const hasComposers = matchingMarkers.some(entry => entry.personID.startsWith("BCO"));
+    const hasMusicians = matchingMarkers.some(entry => entry.personID.startsWith("BMU"));
+    const hasNonMusicians = matchingMarkers.some(entry => entry.personID.startsWith("BNO"));
+
+    if (hasComposers) {
+        document.getElementById("composer-select").checked = true;
+    }
+    if (hasMusicians) {
+        document.getElementById("musician-select").checked = true;
+    }
+    if (hasNonMusicians) {
+        document.getElementById("non-musician-select").checked = true;
+    }
+}
+
 function addSelectedLocation(locationid, locationlabel, locationKey = locationlabel) {
     if (!locationid || !locationlabel) return;
 
@@ -139,6 +160,8 @@ function addSelectedLocation(locationid, locationlabel, locationKey = locationla
         locationlabel,
         normalizedKey: normalizeName(locationKey || locationlabel)
     };
+
+    ensureLocationTypesVisible();
 
     const selectedItem = document.createElement("div");
     selectedItem.className = "selected-person-item selected-location-item";
