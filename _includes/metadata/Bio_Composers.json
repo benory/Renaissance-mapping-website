@@ -1431,5 +1431,17 @@
 		"Bibliography (BIB) ID": "BIB:Fallows_2001",
 		"Input data": "AN",
 		"Date entered": "2026-3-15"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Leonel_Power",
+		"Composer Name": "Leonel Power",
+		"Alias": "Lionel; Lyonel; Leonellus; Leonelle Polbero",
+		"Death Date": "1445",
+		"Description": "composer, theorist",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/111/",
+		"RISM Link": "https://rism.online/people/30102578",
+		"Bibliography (BIB) ID": "BIB:Bent_2001b",
+		"Input data": "LQ",
+		"Date entered": "2026-4-14"
 	}
 ]

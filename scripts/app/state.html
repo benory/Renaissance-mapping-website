@@ -57,9 +57,67 @@ let latestDateCertainty = "";
 let rangeCertainty = "";
 
 // Global variables for chronological slider
-let minDate = new Date("1400-01-01");
-let maxDate = new Date("1600-01-01");
-let currentDateRange = [minDate, maxDate];
+const HISTOGRAM_START_YEAR = 1400;
+const TIMELINE_END_YEAR = 1600;
+const MAP_MAX_YEAR = 1600;
+let availableDateRange = { min: HISTOGRAM_START_YEAR, max: MAP_MAX_YEAR };
+let currentDateRange = [availableDateRange.min, availableDateRange.max];
+
+function getNumericYear(value) {
+    const year = parseInt(value, 10);
+    return Number.isFinite(year) ? year : null;
+}
+
+function getNormalizedYearRange(earliestYear, latestYear) {
+    const earliest = getNumericYear(earliestYear);
+    const latest = getNumericYear(latestYear);
+
+    if (earliest === null && latest === null) return null;
+    if (earliest === null) return { start: latest, end: latest };
+    if (latest === null) return { start: earliest, end: earliest };
+
+    return {
+        start: Math.min(earliest, latest),
+        end: Math.max(earliest, latest)
+    };
+}
+
+function formatTimelineBoundaryLabel(year) {
+    return year <= HISTOGRAM_START_YEAR ? "<1400" : String(year);
+}
+
+function formatDateControlBoundaryLabel(year) {
+    return String(year);
+}
+
+function applyAvailableDateRangeToControls() {
+    const minInput = document.getElementById("date-input-min");
+    const maxInput = document.getElementById("date-input-max");
+    const sliderMin = document.getElementById("date-slider-min");
+    const sliderMax = document.getElementById("date-slider-max");
+
+    if (!minInput || !maxInput || !sliderMin || !sliderMax) return;
+
+    const { min, max } = availableDateRange;
+
+    minInput.min = min;
+    minInput.max = max;
+    minInput.placeholder = formatDateControlBoundaryLabel(min);
+
+    maxInput.min = min;
+    maxInput.max = max;
+    maxInput.placeholder = String(max);
+
+    sliderMin.min = HISTOGRAM_START_YEAR;
+    sliderMin.max = TIMELINE_END_YEAR;
+    sliderMin.value = HISTOGRAM_START_YEAR;
+
+    sliderMax.min = HISTOGRAM_START_YEAR;
+    sliderMax.max = TIMELINE_END_YEAR;
+    sliderMax.value = Math.min(TIMELINE_END_YEAR, max);
+
+    currentDateRange = [min, max];
+}
 
 // Global variables for markerCluster
 let markerCluster;

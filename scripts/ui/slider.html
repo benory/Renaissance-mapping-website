@@ -1,11 +1,29 @@
 <script>
 
+function renderTimelineSlider(minValue, maxValue) {
+    const sliderMin = document.getElementById('date-slider-min');
+    const startActiveLabel = document.getElementById('slider-start-active-label');
+    const endActiveLabel = document.getElementById('slider-end-active-label');
+
+    startActiveLabel.textContent = formatTimelineBoundaryLabel(minValue);
+    endActiveLabel.textContent = maxValue;
+
+    const sliderWidth = sliderMin.offsetWidth;
+    const minPercent = (minValue - sliderMin.min) / (sliderMin.max - sliderMin.min);
+    const maxPercent = (maxValue - sliderMin.min) / (sliderMin.max - sliderMin.min);
+
+    const adjustmentFactor = 0.975;
+    const adjustedMinPercent = minPercent * adjustmentFactor;
+    const adjustedMaxPercent = maxPercent * adjustmentFactor;
+
+    startActiveLabel.style.left = `${adjustedMinPercent * sliderWidth}px`;
+    endActiveLabel.style.left = `${adjustedMaxPercent * sliderWidth}px`;
+}
+
 // Function to update the active value labels and reapply filters
 function updateDateRange() {
     const sliderMin = document.getElementById('date-slider-min');
     const sliderMax = document.getElementById('date-slider-max');
-    const startActiveLabel = document.getElementById('slider-start-active-label');
-    const endActiveLabel = document.getElementById('slider-end-active-label');
 
     let minValue = parseInt(sliderMin.value, 10);
     let maxValue = parseInt(sliderMax.value, 10);
@@ -23,30 +41,23 @@ function updateDateRange() {
     }
 
     // Update the global date range with year values
-    currentDateRange[0] = minValue;
+    currentDateRange[0] = minValue <= HISTOGRAM_START_YEAR ? availableDateRange.min : minValue;
     currentDateRange[1] = maxValue;
 
-    // Update the labels
-    startActiveLabel.textContent = currentDateRange[0];
-    endActiveLabel.textContent = currentDateRange[1];
-
-    // Position the labels dynamically
-    const sliderWidth = sliderMin.offsetWidth;
-    const minPercent = (minValue - sliderMin.min) / (sliderMin.max - sliderMin.min);
-    const maxPercent = (maxValue - sliderMin.min) / (sliderMin.max - sliderMin.min);
-
-    // Adjust the rate of movement by scaling down the percentage
-    const adjustmentFactor = 0.975; // Adjust this value to control the rate of movement
-    const adjustedMinPercent = minPercent * adjustmentFactor;
-    const adjustedMaxPercent = maxPercent * adjustmentFactor;
-
-    startActiveLabel.style.left = `${adjustedMinPercent * sliderWidth}px`;
-    endActiveLabel.style.left = `${adjustedMaxPercent * sliderWidth}px`;
-
-    // Call a function to reapply filters based on the selected range, or go to UserSearch depending on whether there is text.
-    const input = document.querySelector("#input");
-
+    renderTimelineSlider(minValue, maxValue);
     filterAndSearchMarkers();
+}
+
+function syncTimelineSliderToCurrentDateRange() {
+    const sliderMin = document.getElementById('date-slider-min');
+    const sliderMax = document.getElementById('date-slider-max');
+    const minValue = Math.max(HISTOGRAM_START_YEAR, Math.min(TIMELINE_END_YEAR, currentDateRange[0]));
+    const maxValue = Math.max(HISTOGRAM_START_YEAR, Math.min(TIMELINE_END_YEAR, currentDateRange[1]));
+
+    sliderMin.value = Math.min(minValue, maxValue);
+    sliderMax.value = Math.max(maxValue, sliderMin.value);
+
+    renderTimelineSlider(parseInt(sliderMin.value, 10), parseInt(sliderMax.value, 10));
 }
 
 function updateSliderBackground() {

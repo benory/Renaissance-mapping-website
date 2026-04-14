@@ -6,9 +6,10 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
     const searchRegex = input && input.value.trim() !== "" ? new RegExp(input.value, 'i') : null;
 
     const checkboxStates = getCheckboxStates();
-    const histogramCounts = initializeDecades(1400, 1590);
-    const minYear = parseInt(document.getElementById('date-slider-min').value, 10);
-    const maxYear = parseInt(document.getElementById('date-slider-max').value, 10);
+    const histogramEndYear = Math.floor(availableDateRange.max / 10) * 10;
+    const histogramCounts = initializeDecades(HISTOGRAM_START_YEAR, histogramEndYear);
+    const minYear = currentDateRange[0];
+    const maxYear = currentDateRange[1];
     
     const activeNames = new Set([
         ...getActiveNamesFromContainer('composer-active'),
@@ -49,7 +50,13 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
             show = false;
         }
 
-        if (show && (earliestyear > maxYear || latestyear < minYear)) {
+        const range = getNormalizedYearRange(earliestyear, latestyear);
+
+        if (show && !range) {
+            show = false;
+        }
+
+        if (show && (range.start > maxYear || range.end < minYear)) {
             show = false;
         }
 
@@ -61,8 +68,11 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
             newVisibleMarkers.add(marker);
             
             // Update histogram counts
-            const clampedEarliest = Math.max(1400, earliestyear);
-            const clampedLatest = Math.min(1600, latestyear);
+            const clampedEarliest = Math.max(HISTOGRAM_START_YEAR, range.start);
+            const clampedLatest = Math.max(
+                HISTOGRAM_START_YEAR,
+                Math.min(availableDateRange.max, range.end)
+            );
             getDecades(clampedEarliest, clampedLatest).forEach(decade => {
                 const bin = histogramCounts[decade];
                 if (!bin) return;

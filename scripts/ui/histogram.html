@@ -57,7 +57,9 @@ function updateHistogram(histogramCounts) {
     const histogramRow = document.getElementById("histogramRow");
     histogramRow.innerHTML = '';
 
-    const decades = Object.keys(histogramCounts).sort((a, b) => a - b);
+    const decades = Object.keys(histogramCounts)
+        .map(Number)
+        .sort((a, b) => a - b);
 
     const maxTotal = Math.max(
         ...decades.map(d => histogramCounts[d].total)
@@ -84,6 +86,7 @@ function updateHistogram(histogramCounts) {
     decades.forEach(decade => {
         const bin = histogramCounts[decade];
         const cell = document.createElement("td");
+        const label = decade === HISTOGRAM_START_YEAR ? "<1400" : `${decade}s`;
 
         const bar = document.createElement("div");
         bar.style.display = "flex";
@@ -125,7 +128,7 @@ function updateHistogram(histogramCounts) {
             });
         }
 
-        bar.title = `${bin.total} events in the ${decade}s`;
+        bar.title = `${bin.total} events in ${label}`;
         cell.appendChild(bar);
         histogramRow.appendChild(cell);
     });

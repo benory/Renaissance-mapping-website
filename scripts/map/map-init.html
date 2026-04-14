@@ -204,6 +204,8 @@ function doMapSetup(opts) {
     });
 
     markers = []; // Clear the markers array
+    let earliestMarkerYear = Infinity;
+    let latestMarkerYear = -Infinity;
 
     for (let i = 0; i < events.length; i++) {
         
@@ -488,8 +490,10 @@ function doMapSetup(opts) {
             const targetType =
               targetTypeByNormalizedName.get(normalizedPersonName) || null;
 
-            // Map points if there are coordinates and the earliest and latest years are defined
-            if (coordinates !== undefined && earliestyear !== undefined && latestyear !== undefined && latestyear > 1399 && earliestyear < 1601) {
+            const range = getNormalizedYearRange(earliestyear, latestyear);
+
+            // Map points if there are coordinates and the earliest/latest years are defined
+            if (coordinates !== undefined && range && range.start < MAP_MAX_YEAR + 1) {
                 // Convert the comma-separated string into an array
                 let coordsArray = coordinates.split(',').map(Number);
 
@@ -597,6 +601,16 @@ function doMapSetup(opts) {
 
                     // Count the total number of markers created
                     totalMarkers++;
+                    const markerEarliestYear = getNumericYear(earliestyear);
+                    const markerLatestYear = getNumericYear(latestyear);
+
+                    if (markerEarliestYear !== null) {
+                        earliestMarkerYear = Math.min(earliestMarkerYear, markerEarliestYear);
+                    }
+
+                    if (markerLatestYear !== null) {
+                        latestMarkerYear = Math.max(latestMarkerYear, markerLatestYear);
+                    }
 
                     markers.push({ 
                         marker: marker, 
@@ -661,6 +675,14 @@ function doMapSetup(opts) {
             institutiontype = "";
             institutionname = "";
         }
+    }
+
+    if (Number.isFinite(earliestMarkerYear) && Number.isFinite(latestMarkerYear)) {
+        availableDateRange = {
+            min: earliestMarkerYear,
+            max: latestMarkerYear
+        };
+        applyAvailableDateRangeToControls();
     }
 
     map.addLayer(markerCluster);

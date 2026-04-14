@@ -129,8 +129,9 @@ function handleCheckboxChange() {
 
 // Initial call to position the active label correctly on page load
 window.onload = function() {
-    updateDateRange();
+    syncTimelineSliderToCurrentDateRange();
     updateSliderBackground();
+    filterAndSearchMarkers();
 
     // Call this function on page load to summon the marker if an eventid is in the URL
 	loadMarkerFromURL();
@@ -293,15 +294,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const sliderMin = document.getElementById("date-slider-min");
   const sliderMax = document.getElementById("date-slider-max");
 
-  const HARD_MIN = 1400;
-  const HARD_MAX = 1600;
-
   btn.addEventListener("click", () => {
     const open = popup.classList.toggle("visible");
     btn.setAttribute("aria-expanded", open);
   });
 
   popup.querySelector(".date-apply").addEventListener("click", () => {
+    const HARD_MIN = availableDateRange.min;
+    const HARD_MAX = availableDateRange.max;
     let min = parseInt(minInput.value, 10);
     let max = parseInt(maxInput.value, 10);
 
@@ -318,29 +318,28 @@ document.addEventListener("DOMContentLoaded", () => {
       [min, max] = [max, min];
     }
 
-    // Sync inputs + sliders
+    // Sync inputs and actual filter range
     minInput.value = min;
     maxInput.value = max;
-    sliderMin.value = min;
-    sliderMax.value = max;
-
-    updateDateRange();
+    currentDateRange = [min, max];
+    syncTimelineSliderToCurrentDateRange();
     updateSliderBackground();
     filterAndSearchMarkers();
 
-    btnLabel.textContent = `${sliderMin.value}–${sliderMax.value}`;
+    btnLabel.textContent = `${min}–${max}`;
     popup.classList.remove("visible");
     btn.setAttribute("aria-expanded", "false");
   });
 
   popup.querySelector(".date-reset").addEventListener("click", () => {
-    sliderMin.value = HARD_MIN;
-    sliderMax.value = HARD_MAX;
+    const HARD_MIN = availableDateRange.min;
+    const HARD_MAX = availableDateRange.max;
+    currentDateRange = [HARD_MIN, HARD_MAX];
+    syncTimelineSliderToCurrentDateRange();
 
     minInput.value = "";
     maxInput.value = "";
 
-    updateDateRange();
     updateSliderBackground();
     filterAndSearchMarkers();
 

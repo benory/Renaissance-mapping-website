@@ -61,7 +61,7 @@ hide_footer: true
                         <div class="date-input-row">
                           <label>
                             From
-                            <input type="number" id="date-input-min" min="1400" max="1600" placeholder="1400">
+                            <input type="number" id="date-input-min" min="1400" max="1600" placeholder="<1400">
                           </label>
                           <label>
                             To
@@ -152,7 +152,7 @@ hide_footer: true
                         <input type="range" id="date-slider-max" min="1400" max="1600" value="1600" step="1" oninput="updateDateRange(); updateSliderBackground()">
                     </div>
                     <div class="slider-active-label-container">
-                        <span id="slider-start-active-label" class="slider-active-label-start">1400</span>
+                        <span id="slider-start-active-label" class="slider-active-label-start">&lt;1400</span>
                         <span id="slider-end-active-label" class="slider-active-label-end">1600</span>
                     </div>
                 </div>

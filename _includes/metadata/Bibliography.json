@@ -1601,5 +1601,40 @@
 		"Publication Year": "1914",
 		"Input data": "RP",
 		"Date entered": "2026-4-10"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:MacCarthy_2018",
+		"Author": "Evan A. MacCarthy",
+		"Name of Article": "The English Voyage of Pietrobono Burzelli",
+		"Name of Volume/Journal": "The Journal of Musicology",
+		"Volume": "35",
+		"Edition": "4",
+		"Publisher": "University of California Press",
+		"Publication Year": "2018",
+		"Pages": "431-459",
+		"URL": "https://www.jstor.org/stable/26508587",
+		"Input data": "AN",
+		"Date entered": "2026-4-13"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Bent_2001b",
+		"Author": "Margaret Bent",
+		"Name of Article": "Power, Leonel [Lionel, Lyonel, Leonellus, Leonelle; Polbero]",
+		"Name of Volume/Journal": "Grove Music Online",
+		"URL": "https://www.oxfordmusiconline.com/grovemusic/view/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-0000022217",
+		"Input data": "LQ",
+		"Date entered": "2026-4-14"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Bowers_1976",
+		"Author": "Roger Bowers",
+		"Name of Article": "Some Observations on the Life and Career of Lionel Power",
+		"Name of Volume/Journal": "Proceedings of the Royal Musical Association",
+		"Volume": "102",
+		"Publication Year": "1975-1976",
+		"Pages": "103-127",
+		"URL": "https://www.jstor.org/stable/766097",
+		"Input data": "LQ",
+		"Date entered": "2026-4-14"
 	}
 ]
