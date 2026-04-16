@@ -129,6 +129,7 @@ function handleCheckboxChange() {
 
 // Initial call to position the active label correctly on page load
 window.onload = function() {
+    initTimelineSlider();
     syncTimelineSliderToCurrentDateRange();
     updateSliderBackground();
     filterAndSearchMarkers();
@@ -230,8 +231,7 @@ document.addEventListener("DOMContentLoaded", () => {
       toggleBtn.textContent = "Hide histogram and timeline";
       toggleBtn.setAttribute("aria-expanded", "true");
 
-      updateDateRange();
-      updateSliderBackground();
+      syncTimelineSliderToCurrentDateRange();
 
     } else {
       document.body.classList.remove("histogram-visible");
@@ -291,9 +291,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const minInput = document.getElementById("date-input-min");
   const maxInput = document.getElementById("date-input-max");
 
-  const sliderMin = document.getElementById("date-slider-min");
-  const sliderMax = document.getElementById("date-slider-max");
-
   btn.addEventListener("click", () => {
     const open = popup.classList.toggle("visible");
     btn.setAttribute("aria-expanded", open);
@@ -323,7 +320,6 @@ document.addEventListener("DOMContentLoaded", () => {
     maxInput.value = max;
     currentDateRange = [min, max];
     syncTimelineSliderToCurrentDateRange();
-    updateSliderBackground();
     filterAndSearchMarkers();
 
     btnLabel.textContent = `${min}–${max}`;
@@ -340,7 +336,6 @@ document.addEventListener("DOMContentLoaded", () => {
     minInput.value = "";
     maxInput.value = "";
 
-    updateSliderBackground();
     filterAndSearchMarkers();
 
     btnLabel.textContent = "All dates";

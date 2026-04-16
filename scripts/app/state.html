@@ -83,7 +83,11 @@ function getNormalizedYearRange(earliestYear, latestYear) {
 }
 
 function formatTimelineBoundaryLabel(year) {
-    return year <= HISTOGRAM_START_YEAR ? "<1400" : String(year);
+    if (year <= HISTOGRAM_START_YEAR) {
+        return '<span class="timeline-less-than">&lt;</span>1400';
+    }
+
+    return String(year);
 }
 
 function formatDateControlBoundaryLabel(year) {
@@ -93,10 +97,8 @@ function formatDateControlBoundaryLabel(year) {
 function applyAvailableDateRangeToControls() {
     const minInput = document.getElementById("date-input-min");
     const maxInput = document.getElementById("date-input-max");
-    const sliderMin = document.getElementById("date-slider-min");
-    const sliderMax = document.getElementById("date-slider-max");
 
-    if (!minInput || !maxInput || !sliderMin || !sliderMax) return;
+    if (!minInput || !maxInput) return;
 
     const { min, max } = availableDateRange;
 
@@ -107,14 +109,6 @@ function applyAvailableDateRangeToControls() {
     maxInput.min = min;
     maxInput.max = max;
     maxInput.placeholder = String(max);
-
-    sliderMin.min = HISTOGRAM_START_YEAR;
-    sliderMin.max = TIMELINE_END_YEAR;
-    sliderMin.value = HISTOGRAM_START_YEAR;
-
-    sliderMax.min = HISTOGRAM_START_YEAR;
-    sliderMax.max = TIMELINE_END_YEAR;
-    sliderMax.value = Math.min(TIMELINE_END_YEAR, max);
 
     currentDateRange = [min, max];
 }

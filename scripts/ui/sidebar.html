@@ -10,8 +10,8 @@ function updateSidebar() {
     document.getElementById('sidebar-nonmusicians').innerHTML = '';
 
     const checkboxStates = getCheckboxStates();
-    const minYear = parseInt(document.getElementById('date-slider-min').value, 10);
-    const maxYear = parseInt(document.getElementById('date-slider-max').value, 10);
+    const minYear = currentDateRange[0];
+    const maxYear = currentDateRange[1];
 
     const activeNames = new Set([
         ...getActiveNamesFromContainer('composer-active'),

@@ -55,6 +55,7 @@ function withOpacity(color, alpha = 0.65) {
 // Function to update the histogram DOM
 function updateHistogram(histogramCounts) {
     const histogramRow = document.getElementById("histogramRow");
+    const histogramPanel = document.getElementById("histogram-panel");
     histogramRow.innerHTML = '';
 
     const decades = Object.keys(histogramCounts)
@@ -67,26 +68,20 @@ function updateHistogram(histogramCounts) {
 
     const maxHeight = 50;
 
-    // --- Left label cell ---
-    const labelCell = document.createElement("td");
-    labelCell.style.verticalAlign = "top";
-    labelCell.style.width = "50px";
+    let maxLabel = histogramPanel.querySelector(".histogram-max-label");
+    if (!maxLabel) {
+        maxLabel = document.createElement("div");
+        maxLabel.className = "histogram-max-label";
+        histogramPanel.prepend(maxLabel);
+    }
 
-    const maxLabel = document.createElement("div");
     maxLabel.textContent = maxTotal;
-    maxLabel.style.fontSize = "12px";
-    maxLabel.style.position = "relative";
-    maxLabel.style.left = "-25px";
-    maxLabel.style.top = "-10px";
-
-    labelCell.appendChild(maxLabel);
-    histogramRow.appendChild(labelCell);
 
     // --- Histogram bars ---
     decades.forEach(decade => {
         const bin = histogramCounts[decade];
         const cell = document.createElement("td");
-        const label = decade === HISTOGRAM_START_YEAR ? "<1400" : `${decade}s`;
+        const label = `${decade}s`;
 
         const bar = document.createElement("div");
         bar.style.display = "flex";

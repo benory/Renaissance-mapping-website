@@ -1,94 +1,184 @@
 <script>
 
+const timelineSliderState = {
+    activeThumb: null,
+    initialized: false
+};
+
+function clampTimelineYear(year) {
+    return Math.max(HISTOGRAM_START_YEAR, Math.min(TIMELINE_END_YEAR, year));
+}
+
+function getTimelineSliderPercent(year) {
+    return (year - HISTOGRAM_START_YEAR) / (TIMELINE_END_YEAR - HISTOGRAM_START_YEAR);
+}
+
+function getVisibleTimelineRange() {
+    return {
+        min: clampTimelineYear(currentDateRange[0]),
+        max: clampTimelineYear(currentDateRange[1])
+    };
+}
+
+function positionTimelineLabel(label, percent, sliderWidth) {
+    const rawLeft = percent * sliderWidth;
+    const halfLabelWidth = label.offsetWidth / 2;
+    const clampedLeft = Math.max(halfLabelWidth, Math.min(sliderWidth - halfLabelWidth, rawLeft));
+    label.style.left = `${clampedLeft}px`;
+}
+
 function renderTimelineSlider(minValue, maxValue) {
-    const sliderMin = document.getElementById('date-slider-min');
+    const slider = document.getElementById('timeline-slider');
+    const selectedTrack = document.getElementById('timeline-slider-selected-range');
+    const minThumb = document.getElementById('timeline-slider-thumb-min');
+    const maxThumb = document.getElementById('timeline-slider-thumb-max');
     const startActiveLabel = document.getElementById('slider-start-active-label');
     const endActiveLabel = document.getElementById('slider-end-active-label');
 
-    startActiveLabel.textContent = formatTimelineBoundaryLabel(minValue);
-    endActiveLabel.textContent = maxValue;
+    if (!slider || !selectedTrack || !minThumb || !maxThumb || !startActiveLabel || !endActiveLabel) return;
 
-    const sliderWidth = sliderMin.offsetWidth;
-    const minPercent = (minValue - sliderMin.min) / (sliderMin.max - sliderMin.min);
-    const maxPercent = (maxValue - sliderMin.min) / (sliderMin.max - sliderMin.min);
+    startActiveLabel.innerHTML = formatTimelineBoundaryLabel(minValue);
+    endActiveLabel.textContent = String(maxValue);
 
-    const adjustmentFactor = 0.975;
-    const adjustedMinPercent = minPercent * adjustmentFactor;
-    const adjustedMaxPercent = maxPercent * adjustmentFactor;
+    const minPercent = getTimelineSliderPercent(minValue);
+    const maxPercent = getTimelineSliderPercent(maxValue);
+    const sliderWidth = slider.clientWidth;
 
-    startActiveLabel.style.left = `${adjustedMinPercent * sliderWidth}px`;
-    endActiveLabel.style.left = `${adjustedMaxPercent * sliderWidth}px`;
+    minThumb.style.left = `${minPercent * 100}%`;
+    maxThumb.style.left = `${maxPercent * 100}%`;
+    minThumb.setAttribute("aria-valuemin", HISTOGRAM_START_YEAR);
+    minThumb.setAttribute("aria-valuemax", TIMELINE_END_YEAR);
+    minThumb.setAttribute("aria-valuenow", minValue);
+    maxThumb.setAttribute("aria-valuemin", HISTOGRAM_START_YEAR);
+    maxThumb.setAttribute("aria-valuemax", TIMELINE_END_YEAR);
+    maxThumb.setAttribute("aria-valuenow", maxValue);
+
+    selectedTrack.style.left = `${minPercent * 100}%`;
+    selectedTrack.style.width = `${Math.max(0, (maxPercent - minPercent) * 100)}%`;
+
+    positionTimelineLabel(startActiveLabel, minPercent, sliderWidth);
+    positionTimelineLabel(endActiveLabel, maxPercent, sliderWidth);
 }
 
-// Function to update the active value labels and reapply filters
+function applyTimelineRange(minValue, maxValue, { applyFilters = true } = {}) {
+    const nextMin = clampTimelineYear(Math.min(minValue, maxValue));
+    const nextMax = clampTimelineYear(Math.max(minValue, maxValue));
+
+    currentDateRange[0] = nextMin <= HISTOGRAM_START_YEAR ? availableDateRange.min : nextMin;
+    currentDateRange[1] = nextMax;
+
+    renderTimelineSlider(nextMin, nextMax);
+
+    if (applyFilters) {
+        filterAndSearchMarkers();
+    }
+}
+
 function updateDateRange() {
-    const sliderMin = document.getElementById('date-slider-min');
-    const sliderMax = document.getElementById('date-slider-max');
-
-    let minValue = parseInt(sliderMin.value, 10);
-    let maxValue = parseInt(sliderMax.value, 10);
-
-    // Ensure the min handle doesn't exceed the max handle
-    if (minValue > maxValue) {
-        minValue = maxValue;
-        sliderMin.value = minValue;
-    }
-
-    // Ensure the max handle doesn't fall below the min handle
-    if (maxValue < minValue) {
-        maxValue = minValue;
-        sliderMax.value = maxValue;
-    }
-
-    // Update the global date range with year values
-    currentDateRange[0] = minValue <= HISTOGRAM_START_YEAR ? availableDateRange.min : minValue;
-    currentDateRange[1] = maxValue;
-
-    renderTimelineSlider(minValue, maxValue);
-    filterAndSearchMarkers();
+    const { min, max } = getVisibleTimelineRange();
+    applyTimelineRange(min, max);
 }
 
 function syncTimelineSliderToCurrentDateRange() {
-    const sliderMin = document.getElementById('date-slider-min');
-    const sliderMax = document.getElementById('date-slider-max');
-    const minValue = Math.max(HISTOGRAM_START_YEAR, Math.min(TIMELINE_END_YEAR, currentDateRange[0]));
-    const maxValue = Math.max(HISTOGRAM_START_YEAR, Math.min(TIMELINE_END_YEAR, currentDateRange[1]));
-
-    sliderMin.value = Math.min(minValue, maxValue);
-    sliderMax.value = Math.max(maxValue, sliderMin.value);
-
-    renderTimelineSlider(parseInt(sliderMin.value, 10), parseInt(sliderMax.value, 10));
+    const { min, max } = getVisibleTimelineRange();
+    renderTimelineSlider(min, max);
 }
 
 function updateSliderBackground() {
-    const sliderMin = document.getElementById("date-slider-min");
-    const sliderMax = document.getElementById("date-slider-max");
+    syncTimelineSliderToCurrentDateRange();
+}
 
-    const minValue = parseInt(sliderMin.value);
-    const maxValue = parseInt(sliderMax.value);
+function getTimelineYearFromPointer(clientX) {
+    const slider = document.getElementById("timeline-slider");
+    if (!slider) return HISTOGRAM_START_YEAR;
 
-    const totalRange = sliderMin.max - sliderMin.min;
-    const minPercent = ((minValue - sliderMin.min) / totalRange) * 100;
-    const maxPercent = ((maxValue - sliderMax.min) / totalRange) * 100;
+    const rect = slider.getBoundingClientRect();
+    const percent = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+    return clampTimelineYear(Math.round(HISTOGRAM_START_YEAR + percent * (TIMELINE_END_YEAR - HISTOGRAM_START_YEAR)));
+}
 
-    // Define a constant width for the black portion (in percentage)
-    const blackWidth = 2;  // For example, 1% width in front of the thumb
+function handleTimelineThumbKeydown(event) {
+    const { min, max } = getVisibleTimelineRange();
+    const step = event.shiftKey ? 10 : 1;
+    let nextMin = min;
+    let nextMax = max;
 
-    // The black portion should be directly in front of the min thumb, but never extend beyond maxPercent
-    const blackEnd = Math.min(minPercent + blackWidth, maxPercent);
+    if (event.key === "ArrowLeft" || event.key === "ArrowDown") {
+        if (event.currentTarget.id === "timeline-slider-thumb-min") nextMin = min - step;
+        else nextMax = max - step;
+    } else if (event.key === "ArrowRight" || event.key === "ArrowUp") {
+        if (event.currentTarget.id === "timeline-slider-thumb-min") nextMin = min + step;
+        else nextMax = max + step;
+    } else {
+        return;
+    }
 
-    // Apply gradient as background
-    sliderMin.style.background = `linear-gradient(to right, 
-        #ddd 0%, 
-        #ddd ${minPercent}%, 
-        black ${minPercent}%, 
-        black ${blackEnd}%, 
-        #1E90FF ${blackEnd}%, 
-        #1E90FF ${maxPercent}%, 
-        #ddd ${maxPercent}%, 
-        #ddd 100%)`;
+    event.preventDefault();
 
-    sliderMax.style.background = sliderMin.style.background;
+    if (event.currentTarget.id === "timeline-slider-thumb-min") {
+        applyTimelineRange(Math.min(nextMin, max), max);
+    } else {
+        applyTimelineRange(min, Math.max(nextMax, min));
+    }
+}
+
+function handleTimelinePointerMove(event) {
+    if (!timelineSliderState.activeThumb) return;
+
+    const draggedYear = getTimelineYearFromPointer(event.clientX);
+    const { min, max } = getVisibleTimelineRange();
+
+    if (timelineSliderState.activeThumb === "min") {
+        applyTimelineRange(Math.min(draggedYear, max), max);
+    } else {
+        applyTimelineRange(min, Math.max(draggedYear, min));
+    }
+}
+
+function stopTimelineDrag() {
+    timelineSliderState.activeThumb = null;
+    document.body.classList.remove("timeline-slider-dragging");
+}
+
+function initTimelineSlider() {
+    if (timelineSliderState.initialized) return;
+
+    const slider = document.getElementById("timeline-slider");
+    const minThumb = document.getElementById("timeline-slider-thumb-min");
+    const maxThumb = document.getElementById("timeline-slider-thumb-max");
+
+    if (!slider || !minThumb || !maxThumb) return;
+
+    const startDrag = (thumb) => (event) => {
+        event.preventDefault();
+        timelineSliderState.activeThumb = thumb;
+        document.body.classList.add("timeline-slider-dragging");
+    };
+
+    minThumb.addEventListener("pointerdown", startDrag("min"));
+    maxThumb.addEventListener("pointerdown", startDrag("max"));
+    minThumb.addEventListener("keydown", handleTimelineThumbKeydown);
+    maxThumb.addEventListener("keydown", handleTimelineThumbKeydown);
+
+    slider.addEventListener("pointerdown", (event) => {
+        if (event.target === minThumb || event.target === maxThumb) return;
+
+        const clickedYear = getTimelineYearFromPointer(event.clientX);
+        const { min, max } = getVisibleTimelineRange();
+        const moveMin = Math.abs(clickedYear - min) <= Math.abs(clickedYear - max);
+
+        if (moveMin) {
+            applyTimelineRange(Math.min(clickedYear, max), max);
+        } else {
+            applyTimelineRange(min, Math.max(clickedYear, min));
+        }
+    });
+
+    window.addEventListener("pointermove", handleTimelinePointerMove);
+    window.addEventListener("pointerup", stopTimelineDrag);
+    window.addEventListener("resize", syncTimelineSliderToCurrentDateRange);
+
+    timelineSliderState.initialized = true;
 }
 
 </script>

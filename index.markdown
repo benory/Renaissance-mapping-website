@@ -143,16 +143,13 @@ hide_footer: true
                 <tr id="histogramRow"></tr>
             </table>
             <div class="slider-container">
-                <div class="slider-wrapper">
-                    <div class="slider-highlighted-track"></div> <!-- The blue track -->
-                    <div class="slider-min-container">
-                        <input type="range" id="date-slider-min" min="1400" max="1600" value="1400" step="1" oninput="updateDateRange(); updateSliderBackground()">
-                    </div>
-                    <div class="slider-max-container">
-                        <input type="range" id="date-slider-max" min="1400" max="1600" value="1600" step="1" oninput="updateDateRange(); updateSliderBackground()">
-                    </div>
+                <div class="slider-wrapper" id="timeline-slider">
+                    <div class="timeline-slider-track"></div>
+                    <div class="timeline-slider-selected-track" id="timeline-slider-selected-range"></div>
+                    <button type="button" id="timeline-slider-thumb-min" class="timeline-slider-thumb" aria-label="Start year"></button>
+                    <button type="button" id="timeline-slider-thumb-max" class="timeline-slider-thumb" aria-label="End year"></button>
                     <div class="slider-active-label-container">
-                        <span id="slider-start-active-label" class="slider-active-label-start">&lt;1400</span>
+                        <span id="slider-start-active-label" class="slider-active-label-start">1400</span>
                         <span id="slider-end-active-label" class="slider-active-label-end">1600</span>
                     </div>
                 </div>

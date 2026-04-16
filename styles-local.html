@@ -11,6 +11,14 @@ html, body {
     overflow-y: hidden;
 }
 
+.page-content {
+    background: linear-gradient(
+        180deg,
+        #e7eef8,
+        #dde7f4
+    );
+}
+
 .wrapper {
     min-width: 95%;
 }
@@ -331,6 +339,12 @@ html, body {
     width: 95%; /* Span the full width below the row */
     align-items: center;
     margin: 10px auto 0 auto;
+    position: relative;
+    background: linear-gradient(
+        180deg,
+        #e7eef8,
+        #dde7f4
+    );
 }
 
 .top-grid input[type="text"] {
@@ -398,89 +412,68 @@ html, body {
 .slider-container {
     position: relative;
     width: 100%;
-    padding: 20px 0;
-    margin-top: -42px;
+    padding: 8px 0 0 0;
+    margin-top: -28px;
 }
 
 .slider-wrapper {
     position: relative;
     width: 100%;
+    height: 52px;
+    cursor: pointer;
+    touch-action: none;
 }
 
-input[type="range"] {
+.timeline-slider-track,
+.timeline-slider-selected-track {
     position: absolute;
-    pointer-events: none;
-    width: 100%;
-    -webkit-appearance: none;
-    background: transparent; /* Track background is transparent */
-    z-index: 1; /* Below thumbs */
-}
-
-/* Thumb Styling */
-input[type="range"]::-webkit-slider-thumb {
-    pointer-events: auto;
-    position: relative;
-    -webkit-appearance: none;
-    height: 20px;
-    width: 20px;
-    top: -6px;
-    background: #333;
-    border-radius: 50%;
-    z-index: 2000; /* Ensure thumbs are above tracks */
-}
-
-input[type="range"]::-moz-range-thumb {
-    pointer-events: auto;
-    position: relative;
-    height: 20px;
-    width: 20px;
-    background: #333;
-    border-radius: 50%;
-    z-index: 2; /* Ensure thumbs are above tracks */
-}
-
-input[type="range"]::-ms-thumb {
-    pointer-events: auto;
-    position: relative;
-    height: 20px;
-    width: 20px;
-    background: #333;
-    border-radius: 50%;
-    z-index: 2; /* Ensure thumbs are above tracks */
-}
-
-/* Track Styling */
-input[type="range"]::-webkit-slider-runnable-track {
+    top: 12px;
+    left: 0;
     width: 100%;
     height: 8px;
-    background: transparent; /* Track itself is transparent */
-    border-radius: 5px;
-    z-index: 1; /* Below thumbs */
+    border-radius: 999px;
 }
 
-input[type="range"]::-moz-range-track {
-    width: 100%;
-    height: 8px;
-    background: transparent;
-    border-radius: 5px;
+.timeline-slider-track {
+    background: #ddd;
     z-index: 1;
 }
 
-input[type="range"]::-ms-track {
-    width: 100%;
-    height: 8px;
-    background: transparent;
-    border-color: transparent;
-    color: transparent;
-    z-index: 1;
+.timeline-slider-selected-track {
+    background: #1E90FF;
+    z-index: 2;
+}
+
+.timeline-slider-thumb {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: #333;
+    border-radius: 50%;
+    border: 0;
+    padding: 0;
+    transform: translate(-50%, -50%);
+    cursor: grab;
+    z-index: 3;
+}
+
+.timeline-slider-thumb:focus-visible {
+    outline: 2px solid #1E90FF;
+    outline-offset: 2px;
+}
+
+.timeline-slider-dragging .timeline-slider-thumb {
+    cursor: grabbing;
 }
 
 .slider-active-label-container {
-    position: relative;
+    position: absolute;
+    top: 34px;
+    left: 0;
     width: 100%;
     height: 30px;
-    display: flex;
-    justify-content: space-between;
     pointer-events: none;
     z-index: 1;
 }
@@ -490,7 +483,9 @@ input[type="range"]::-ms-track {
     font-size: 14px;
     font-weight: bold;
     background-color: rgba(220, 235, 255, 0.2);
-    top: 25px;
+    top: 0;
+    transform: translateX(-50%);
+    white-space: nowrap;
     z-index: 1; /* Labels are above everything */
 }
 
@@ -499,8 +494,18 @@ input[type="range"]::-ms-track {
     font-size: 14px;
     font-weight: bold;
     background-color: rgba(220, 235, 255, 0.2);
-    top: 25px;
+    top: 0;
+    transform: translateX(-50%);
+    white-space: nowrap;
     z-index: 1; /* Labels are above everything */
+}
+
+.timeline-less-than {
+    display: inline-block;
+    line-height: 0.9;
+    border-bottom: 2px solid currentColor;
+    padding-bottom: 1px;
+    margin-right: 1px;
 }
 
 .color-sample {
@@ -518,10 +523,21 @@ table.histogram {
   table-layout: fixed; /* Ensure that each <td> is equally wide */
 }
 
+.histogram-max-label {
+    position: absolute;
+    left: -24px;
+    top: -2px;
+    font-size: 12px;
+    z-index: 2;
+    overflow: visible;
+    white-space: nowrap;
+}
+
 table.histogram td {
     width: auto; /* Let the <td> auto-adjust to fill the space */
     padding: 0; /* Remove any padding */
     vertical-align: bottom; /* Align bars to the bottom */
+    background-color: rgba(255, 255, 255, 0.42);
 }
 
 table.histogram div.count {
@@ -1125,7 +1141,6 @@ table.histogram div.count {
 #histogram-panel {
     display: none;
     height: var(--histogram-height);
-    background-color: rgba(220, 235, 255, 0.2);
 }
 
 .histogram-visible .row {

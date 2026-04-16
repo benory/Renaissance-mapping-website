@@ -6,7 +6,7 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
     const searchRegex = input && input.value.trim() !== "" ? new RegExp(input.value, 'i') : null;
 
     const checkboxStates = getCheckboxStates();
-    const histogramEndYear = Math.floor(availableDateRange.max / 10) * 10;
+    const histogramEndYear = TIMELINE_END_YEAR - 10;
     const histogramCounts = initializeDecades(HISTOGRAM_START_YEAR, histogramEndYear);
     const minYear = currentDateRange[0];
     const maxYear = currentDateRange[1];
