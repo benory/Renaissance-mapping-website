@@ -303,6 +303,12 @@ function selectLocationByName(name) {
 }
 
 function selectSearchTarget(name) {
+    const searchContext = getSearchContext(name);
+
+    if (searchContext.prioritizeLocationMatches) {
+        return selectLocationByName(name) || selectPersonByName(name);
+    }
+
     return selectPersonByName(name) || selectLocationByName(name);
 }
 
@@ -318,6 +324,7 @@ function showAutocompleteSuggestions() {
 
     const matches = [];
     const seen = new Set();
+    const searchContext = getSearchContext(inputValue);
 
     markers.forEach(({ personID, personprocessed, alias }) => {
         if (selectedNames.has(personprocessed)) return;
@@ -332,11 +339,12 @@ function showAutocompleteSuggestions() {
               .filter(a => typeof a === "string")
               .map(a => a.trim().toLowerCase());
         }
-        const allNames = [personprocessed.toLowerCase(), ...aliasList];
+        const normalizedPersonName = personprocessed.toLowerCase();
+        const matchesPersonName = normalizedPersonName.includes(inputValue);
+        const matchesAlias = aliasList.some(name => name.includes(inputValue));
 
-        // Check if any name matches the search input
-        const matched = allNames.some(name => name.includes(inputValue));
-        if (!matched) return;
+        if (!matchesPersonName && !matchesAlias) return;
+        if (searchContext.prioritizeLocationMatches && !matchesPersonName) return;
 
         seen.add(personprocessed);
 

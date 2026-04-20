@@ -24,9 +24,7 @@ function updateSidebar() {
     forceExpand = activeNames.size > 0 || activeLocationIds.length > 0;
 
     const searchInput = document.querySelector("#input");
-    const searchRegex = searchInput && searchInput.value.trim() !== ""
-        ? new RegExp(searchInput.value, 'i')
-        : null;
+    const searchContext = getSearchContext(searchInput ? searchInput.value : "");
 
     const visibleMarkers = getVisibleMarkers(useMapBounds).filter(({ personID, locationid, locationname, locationparent, locationCertainty, alias,
         earliestDateCertainty, latestDateCertainty, rangeCertainty,
@@ -41,11 +39,7 @@ function updateSidebar() {
 
         if (show && activeLocationIds.length > 0 && !markerMatchesSelectedLocation({ locationid, locationname, locationparent })) show = false;
 
-        if (show && searchRegex && !(text.match(searchRegex) ||
-            locationprocessed.match(searchRegex) ||
-            alias.join(" ").match(searchRegex) ||
-            String(earliestyear).match(searchRegex) ||
-            String(latestyear).match(searchRegex))) {
+        if (show && !markerMatchesSearch({ text, locationprocessed, alias, earliestyear, latestyear }, searchContext)) {
             show = false;
         }
 

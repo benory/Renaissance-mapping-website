@@ -3,7 +3,7 @@
 // Filter markers + user search
 function filterAndSearchMarkers(skipSidebarUpdate = false) {
     const input = document.querySelector("#input");
-    const searchRegex = input && input.value.trim() !== "" ? new RegExp(input.value, 'i') : null;
+    const searchContext = getSearchContext(input ? input.value : "");
 
     const checkboxStates = getCheckboxStates();
     const histogramEndYear = TIMELINE_END_YEAR - 10;
@@ -45,8 +45,7 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
             show = false;
         }
 
-        if (show && searchRegex && !(text.match(searchRegex) || locationprocessed.match(searchRegex) || alias.join(" ").match(searchRegex) ||
-            String(earliestyear).match(searchRegex) || String(latestyear).match(searchRegex))) {
+        if (show && !markerMatchesSearch({ text, locationprocessed, alias, earliestyear, latestyear }, searchContext)) {
             show = false;
         }
 

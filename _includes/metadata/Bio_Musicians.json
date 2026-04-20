@@ -4329,7 +4329,7 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Hieronimus_Bertrandi",
 		"Musician Name": "Hieronimus Bertrandi",
-		"Alias": "Hieronimus de Verona, Beltrandi, de Verona",
+		"Alias": "de Verona, Beltrandi; de Verona, Hieronimus; de Verona, Hieronymus Beltrandus",
 		"Description": "singer in the papal chapel; a contrabasso in the choir at St. Peter's; in the Gerrarese chapel from 1502 to 1510; may also be the Hieronimus Beltrandi who was in the chapel of Leo X; was dead by 1516",
 		"Bibliography ID (BIB)": "BIB:Sherr_1975",
 		"BIB Pages": "34–37",
@@ -4513,7 +4513,7 @@
 		"Date entered": "2024-10-14"
 	},
 	{
-		"Biography Musician (BMU) ID": "BMU:Jachetto_de_Marvilla",
+		"Biography Musician (BMU) ID": "di Marvilla, Jachettus",
 		"Musician Name": "Jachetto de Marvilla",
 		"Description": "musician at Ferrarese court",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
@@ -6669,10 +6669,10 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Johannes_Monstreul",
 		"Musician Name": "Johannes Monstruel",
-		"Alias": "Monstroeul, Montreul, Monsterol, Monstroel, Monstroria",
-		"Description": "singer in the papal chapel; had been member of chapel of Sixtus IV; inscribes self in Confraternità di Santo Spirito in Sassia 1483-05-19; name is crossed out although he is counted in payment in August, 1493; permenantely leaves chapel in December, 1493",
-		"Bibliography ID (BIB)": "BIB:Sherr_1975",
-		"BIB Pages": "26, 29–35",
+		"Alias": "Monstroeul; Montreul; Monsterol; Monstroel; Monstroria; Piccardus; de Castiglione",
+		"Description": "singer in the papal chapel; had been member of chapel of Sixtus IV; inscribes self in Confraternità di Santo Spirito in Sassia 1483-05-19; name is crossed out although he is counted in payment in August, 1493; permenantely leaves chapel in December, 1493; singer at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Sherr_1975; BIB:Reynolds_1995",
+		"BIB Pages": "26, 29–35; 333",
 		"Input data": "LO",
 		"Date entered": "2023-3-28"
 	},
@@ -7743,8 +7743,10 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Matheao_Bras",
 		"Musician Name": "Matheao Bras",
-		"Bibliography ID (BIB)": "BIB:Sherr_1975",
-		"BIB Pages": "35",
+		"Alias": "Bras, Matheus",
+		"Description": "musician at St. Peters",
+		"Bibliography ID (BIB)": "BIB:Sherr_1975; BIB:Reynolds_1995",
+		"BIB Pages": "35; 334",
 		"Input data": "LO",
 		"Date entered": "2023-3-28"
 	},
@@ -8242,8 +8244,8 @@
 		"Biography Musician (BMU) ID": "BMU:Nicolaous_Rembert",
 		"Musician Name": "Nicolaous Rembert",
 		"Description": "musician in Bruges; singer at St Peter's in Rome",
-		"Bibliography ID (BIB)": "BIB:Strohm_1985",
-		"BIB Pages": "158",
+		"Bibliography ID (BIB)": "BIB:Strohm_1985; BIB:Reynolds_1995",
+		"BIB Pages": "158; 335",
 		"Input data": "LO",
 		"Date entered": "2024-8-6"
 	},
@@ -8956,11 +8958,14 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Petrus_Paulus_Mastaing",
 		"Musician Name": "Petrus Paulus Mastaing",
-		"Alias": "Pietro Paolo, Remigius, de Remigius",
-		"Bibliography ID (BIB)": "BIB:Sherr_1975",
-		"BIB Pages": "60",
+		"Alias": "Pietro Paolo; Remigius; de Remigius; de Mastaing, Petrus Paulus",
+		"Description": "musician in Rome and in St Peter's",
+		"Bibliography ID (BIB)": "BIB:Sherr_1975; BIB:Reynolds_1995",
+		"BIB Pages": "60; 335",
 		"Input data": "LO",
-		"Date entered": "2024-2-11"
+		"Date entered": "2024-2-11",
+		"Update data": "LO",
+		"Date updated": "2026-4-18"
 	},
 	{
 		"Biography Musician (BMU) ID": "BMU:Petrus_Pipelare",
@@ -9741,7 +9746,7 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Remigius_Mastaing",
 		"Musician Name": "Remigius Mastaing",
-		"Alias": "Petrus Paulus Mastang",
+		"Alias": "Mastang, Petrus Paulus; Massin, Remigius",
 		"Description": "listed by Haberl as \"Remigius massin supran\" in the choir at St. Peter's in 1476 and a singer in the choir at St. Peter's from 1496 to 1498; had been a member in the chapel of Sixtus VI; inscribes self in Confraternità di Santo Spirito in Sassia 1483-05-19; marked absent and not paid from October to December 1488; listed in the Introitus et Exitus as the man who collected chapel salaries for five months in 1495; a papal letter places him in the chapel in September 1495; listed as \"Decanus\" in October 1503; Introitus and Exitus lists him as the man who collected chapel salaries in November 1509; document showing his presence in the chapel in 1513; may be the Petrus-paulus de Remigius who was in the chapel in April 1518",
 		"Bibliography ID (BIB)": "BIB:Sherr_1975",
 		"BIB Pages": "26–42, 60",
@@ -11417,5 +11422,1741 @@
 		"BIB Pages": "348",
 		"Input data": "RP",
 		"Date entered": "2024-10-31"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Alanus_Regnosto",
+		"Musician Name": "Alanus Regnosto",
+		"Alias": "Britoni; Regnosto, Dominus Alanus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "329",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Alberto_Sipontino",
+		"Musician Name": "Alberto Sipontino",
+		"Alias": "Sipontino, Frater Alberto",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "329",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Alexo_Puero_de_Primis",
+		"Musician Name": "Alexo Puero de Primis",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "329",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Alfonso_de_Neapoli",
+		"Musician Name": "Alfonso de Neapoli",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "329",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Alfonso_Hyspano",
+		"Musician Name": "Alfonso Hyspano",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "329",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Aloviso_de_Spiritu",
+		"Musician Name": "Aloviso de Spiritu",
+		"Alias": "Aloysio; Ludovicus",
+		"Description": "organist at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Aluiso",
+		"Musician Name": "Aluiso",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Amaneo",
+		"Musician Name": "Amaneo",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Andreas_de_Bray",
+		"Musician Name": "Andreas de Bray",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Andreas_de_Palermo",
+		"Musician Name": "Andreas de Palermo",
+		"Description": "musician and beneficiary at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Andreas_Tardiff_de_Britania",
+		"Musician Name": "Andreas Tardiff de Britania",
+		"Alias": "Tardis",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Angelus_de_Narnia",
+		"Musician Name": "Angelus de Narnia",
+		"Alias": "Agniolo",
+		"Description": "organist at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Angelus_Ghisleri",
+		"Musician Name": "Angelus Ghisleri",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Frater_Anthonius",
+		"Musician Name": "Frater Anthonius",
+		"Description": "organist and sacristan at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Anthonius_Camarescho",
+		"Musician Name": "Anthonius Camarescho",
+		"Alias": "Piccardo",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Anthonius_de_Mota",
+		"Musician Name": "Anthonius de Mota",
+		"Alias": "de la Mota, Anthonius",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Anthonius_Fabri_de_Verulis",
+		"Musician Name": "Anthonius Fabri de Verulis",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Anthonius_Martinus",
+		"Musician Name": "Anthonius Martinus",
+		"Alias": "Martinus, Dominus Anthonius",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Anthonius_Waltheri",
+		"Musician Name": "Anthonius Waltheri",
+		"Alias": "Waltheri, Frater Anthonius",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Blasio_de_Malleano",
+		"Musician Name": "Blasio de Malleano",
+		"Alias": "Frater Archangelo; \"Ordinis Sancti Spiritus\"",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Assalon",
+		"Musician Name": "Assalon",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Agustinus_Romanus",
+		"Musician Name": "Agustinus Romanus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bartholomeus_de_Ferrara",
+		"Musician Name": "Bartholomeus de Ferrara",
+		"Description": "organist and cleric at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bartholomeus_Rochanus",
+		"Musician Name": "Bartholomeus Rochanus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Dominus_Benedictus",
+		"Musician Name": "Dominus Benedictus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernardinus",
+		"Musician Name": "Bernardinus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernardinus_II",
+		"Musician Name": "Bernardinus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernardinus_de_Flandria",
+		"Musician Name": "Bernardinus de Flandria",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernardinus_de_Neapoli",
+		"Musician Name": "Bernardinus de Neapoli",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernardinus_Ladei_de_Narnia",
+		"Musician Name": "Bernerdinus Ladei de Narnia",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernardinus_Mutinensis",
+		"Musician Name": "Bernardinus Mutinensis",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernardinus_Parvus_Romanus",
+		"Musician Name": "Bernardinus Parvus Romanus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernardus",
+		"Musician Name": "Bernardus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bernardus_Besson",
+		"Musician Name": "Bernardus Besson",
+		"Alias": "Besson, Dominus Bernardus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bertoni",
+		"Musician Name": "Bertoni",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "330",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bertrandus_de_Bassea",
+		"Musician Name": "Bertrandus de Bassea",
+		"Alias": "Vaqueras, Bertrandus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Dominus_Bonomo",
+		"Musician Name": "Dominus Bonomo",
+		"Alias": "Bonushomo",
+		"Description": "musician and beneficiary at St. Peter's; might be the same person as Bononinus Bononius",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Bononinus_Bononius",
+		"Musician Name": "Bononinus Bononius",
+		"Description": "beneficiary at St. Peter's; might be the same person as Bonomo",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Britoni",
+		"Musician Name": "Britoni",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Cambio",
+		"Musician Name": "Cambio",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Carulo_Britonio",
+		"Musician Name": "Carulo Britonio",
+		"Alias": "Sancti Briotii, Karulo",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Cherubino_Nibio",
+		"Musician Name": "Cherubino Nibio",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Christiano",
+		"Musician Name": "Christiano",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Christoforo_Mansionario",
+		"Musician Name": "Christoforo Mansionario",
+		"Description": "organist at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Christoforo_Sancti",
+		"Musician Name": "Christoforo Sancti",
+		"Description": "musician and beneficiary at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:David_Fornant",
+		"Musician Name": "Davis Fornant",
+		"Description": "musician and scribe at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Decano",
+		"Musician Name": "Decano",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Diecho",
+		"Musician Name": "Diecho",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Dominus_Stephani",
+		"Musician Name": "Dominus Stephani",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Egidius",
+		"Musician Name": "Egidius",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Egidius_Crispini",
+		"Musician Name": "Egidius Crispini",
+		"Alias": "Crepin, Gilles; Dominus Egidius",
+		"Description": "musician and scribe at St. Peter's; might be the same person as Lupo",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Egidius_de_Nemuis",
+		"Musician Name": "Egidius de Nemuis",
+		"Alias": "Vulpuis",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Ferrando",
+		"Musician Name": "Ferrando",
+		"Description": "singer and organist at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Frater_Francisco",
+		"Musician Name": "Frater Francisco",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Francisco_Radulphi",
+		"Musician Name": "Francisco Radulphi",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Francisco_Scarafanfara",
+		"Musician Name": "Francisco Scarafanfara",
+		"Alias": "Alfonzi",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Franciscus_de_Malo_Passu",
+		"Musician Name": "Franciscus de Malo Passu",
+		"Alias": "Frater Franciscus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gabriele",
+		"Musician Name": "Gabriele",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gabriele_Cappellano",
+		"Musician Name": "Gabriele Cappellano",
+		"Description": "musician and cleric at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gabriele_de_Gabrielis",
+		"Musician Name": "Gabriele de Gabrielis",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gabriele_Juliarius",
+		"Musician Name": "Gabriele Juliarius",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gaspare",
+		"Musician Name": "Gaspare",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Georgio_Asculano",
+		"Musician Name": "Georgio Asculano",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Georgius_de_Dunis",
+		"Musician Name": "Georgius de Dunuis",
+		"Alias": "de Duno, Georgius",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gerundinus_de_Fabriano",
+		"Musician Name": "Gerundinus de Fabriano",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Georgius_Gerardus",
+		"Musician Name": "Georgius Gerardus",
+		"Description": "organist at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Giletto",
+		"Musician Name": "Giletto",
+		"Alias": "di Barcalno (?)",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gofredo",
+		"Musician Name": "Gofredo",
+		"Alias": "Ghottifredo",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "331",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gomaro",
+		"Musician Name": "Gomaro",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gregorio",
+		"Musician Name": "Gregorio",
+		"Description": "musician at St. Peter's; perhaps Barbingant",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Gregorius_Antonius_Petruccius",
+		"Musician Name": "Gregorius Antonius Petruccius",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guglielmo_Amerino",
+		"Musician Name": "Guglielmo Amerino",
+		"Alias": "de Amelia, Guglielmo; de Fraticellis, Guglielmo",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guglielmo_Johanini",
+		"Musician Name": "Guglielmo Johanini",
+		"Alias": "Jhoanini, Guglielmo",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guillaume_Bras",
+		"Musician Name": "Guillaume Bras",
+		"Alias": "Gallo",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guillaume_des_Mares",
+		"Musician Name": "Guillaume des Mares",
+		"Alias": "des Maris, Guillaume",
+		"Description": "musician at St. Peter's; possibly Guillelmus da Francia and Guillaume Faugues",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guillaume_Leultier",
+		"Musician Name": "Guillaume Leultier",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guillaume_Rose",
+		"Musician Name": "Guillaume Rose",
+		"Alias": "Rosa, Guillaume",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guillelmino",
+		"Musician Name": "Guillelmino",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guillelmus",
+		"Musician Name": "Guillelmus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guillelmus_da_Francia",
+		"Musician Name": "Guiellelmus da Francia",
+		"Description": "musician at St. Peter's; possibly Guilllaume des Mares and Guillaume Faugues",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guillelmus_Parvo",
+		"Musician Name": "Guillelmus Parvo",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Guy",
+		"Musician Name": "Guy",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Herve",
+		"Musician Name": "Hervé",
+		"Alias": "Aruc",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Hieronymus_Florentinus",
+		"Musician Name": "Hieronymus Florentinus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Hieronymus_Johannes_de_Pazillis",
+		"Musician Name": "Hieronymus Johannes de Pazillis",
+		"Description": "musician and beneficiary at St. Peter's; perhaps Gerardo di Toul, magnus cantor at S. Spirito",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Hieronymus_Sanctus_Spiritus",
+		"Musician Name": "Hieronymus_Sanctus_Spiritus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Hieronymus_Venetus",
+		"Musician Name": "Hieronymus_Venetus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Hugoni",
+		"Musician Name": "Hugoni",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Hugoni_II",
+		"Musician Name": "Hugoni",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jachettus",
+		"Musician Name": "Jachettus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus",
+		"Musician Name": "Jacobus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Antonius",
+		"Musician Name": "Jacobus Antonius",
+		"Alias": "Antonius, Dominus Jacobus",
+		"Description": "musician and cleric at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Bassei",
+		"Musician Name": "Jacobus Bassei",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacobus_Piccardus",
+		"Musician Name": "Jacobus Piccardus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Jacotino",
+		"Musician Name": "Jacotino",
+		"Alias": "di Borgogne (?)",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_II",
+		"Musician Name": "Johannes",
+		"Description": "organist at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_III",
+		"Musician Name": "Johannes",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_IV",
+		"Musician Name": "Johannes",
+		"Alias": "Theotonico, Johannes (?)",
+		"Description": "organist at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_V",
+		"Musician Name": "Johannes",
+		"Alias": "de Barnesston, Johannes (?)",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_VI",
+		"Musician Name": "Johannes",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_VII",
+		"Musician Name": "Johannes",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Alfonsus_Salamantinus",
+		"Musician Name": "Johannes Alfonsus Salamantinus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Baptiste",
+		"Musician Name": "Johannes Baptiste",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Brunet",
+		"Musician Name": "Johannes Brunet",
+		"Alias": "Brunet, Prior Johannes",
+		"Description": "organist at St Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Camaracensis",
+		"Musician Name": "Johannes Camaracensis",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Cornuel",
+		"Musician Name": "Johannes Cornuel",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Barneston",
+		"Musician Name": "Johannes de Barneston",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Colonia",
+		"Musician Name": "Johannes de Colonia",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Montibus",
+		"Musician Name": "Johannes de Montibus",
+		"Description": "organist at St Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Rouen",
+		"Musician Name": "Johannes de Rouen",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_de_Tornaco",
+		"Musician Name": "Johannes de Tornaco",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Fede",
+		"Musician Name": "Johannes Fede",
+		"Alias": "Sohier, Johannes",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Grone",
+		"Musician Name": "Johannes Grone",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Guillant",
+		"Musician Name": "Johannes Guillant",
+		"Alias": "Giglior; Guillault; Quilant; Glant; Olant",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Jacobus",
+		"Musician Name": "Johannes Jacobus",
+		"Description": "organist, beneficiary, and chamberlain of the treasury at St Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Juvenis",
+		"Musician Name": "Johannes Juvenis",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Lezelier",
+		"Musician Name": "Johannes Lezelier",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Maas",
+		"Musician Name": "Johannes Maas",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Marescalli",
+		"Musician Name": "Johannes Marescalli",
+		"Alias": "Mareschalle, Johannes",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "333",
+		"Input data": "LO",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Musice",
+		"Musician Name": "Johannes Musice",
+		"Description": "organist at St Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Parvo",
+		"Musician Name": "Johannes Parvo",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Piccardus",
+		"Musician Name": "Johannes Piccardus",
+		"Description": "musician at St. Peter's; not the same person as Johannes Monstroeul",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Pipelare",
+		"Musician Name": "Johannes Pipelare",
+		"Alias": "PIlart, Johannes; Pippalarte, Johannes",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Plovite",
+		"Musician Name": "Johannes Plovite",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Purro_Parvo",
+		"Musician Name": "Johannes_Purro_Parvo",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Raat",
+		"Musician Name": "Johannes Raat",
+		"Alias": "Raet, Johannes",
+		"Description": "musician and scribe at St Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Robelier",
+		"Musician Name": "Johannes Robelier",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Sclavolini",
+		"Musician Name": "Johannes Sclavolini",
+		"Alias": "Laulini, Johannes",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Tarentinus",
+		"Musician Name": "Johannes Tarentinus",
+		"Alias": "Burgus Tarentinus, Johannes",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Teutonicus",
+		"Musician Name": "Johannes Teutonicus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Johannes_Teutonicus_Petit",
+		"Musician Name": "Johannes Teutonicus Petit",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Lamberto",
+		"Musician Name": "Lamberto",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Laurentio_de_Gaeta",
+		"Musician Name": "Laurentio de Gaeta",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Loysetto",
+		"Musician Name": "Loysetto",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Loysio_de_Diano",
+		"Musician Name": "Loysio de Diano",
+		"Alias": "Luciari, Loysio",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Ludovicus",
+		"Musician Name": "Ludovicus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Ludovicus_Coysi",
+		"Musician Name": "Ludovicus_Coysi",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Ludovicus_dArmelli",
+		"Musician Name": "Ludovicus d'Armelli",
+		"Alias": "Aloysio",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Ludovicus_Gregori",
+		"Musician Name": "Ludovicus Gregori",
+		"Description": "musician at St. Peters; possibly Loyset Compère",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Lupo",
+		"Musician Name": "Lupo",
+		"Description": "Egidius de Nemius?",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Marcho_de_Setia",
+		"Musician Name": "Marcho de Setia",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Matheus_Gay",
+		"Musician Name": "Matheus Gay",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Michael",
+		"Musician Name": "Michael",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Michelet",
+		"Musician Name": "Michelet",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Milvo",
+		"Musician Name": "Milvo",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Minico",
+		"Musician Name": "Minico",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicholas",
+		"Musician Name": "Nicholas",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "334",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicholas_Cotel",
+		"Musician Name": "Nicholas Cotel",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicholas_de_Gras",
+		"Musician Name": "Nicholas de Gras",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicholas_de_Setia",
+		"Musician Name": "Nicholas de Setia",
+		"Alias": "de Setia, Dominus Nicholas",
+		"Description": "musician, cleric, and sacristan at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicholas_Petri",
+		"Musician Name": "Nicholas Petri",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicholas_Sardigo",
+		"Musician Name": "Nicholas Sardigo",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicholas_Volfardo",
+		"Musician Name": "Nicholas Volfardo",
+		"Description": "musician and cleric at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicholaus_Ausquier",
+		"Musician Name": "Nicholaus Ausquier",
+		"Description": "musician and principal scribe of SPB80",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Nicholaus_de_Furnis",
+		"Musician Name": "Nicholaus de Furnis",
+		"Description": "musician and scribe at St Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Dominus_Orfeo",
+		"Musician Name": "Dominus Orfeo",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Paulus_de_Primis",
+		"Musician Name": "Paulus de Primis",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_Friso",
+		"Musician Name": "Petrus Friso",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_Guida_Guillelmus",
+		"Musician Name": "Petrus Guida Guillelmus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_Hieronymus",
+		"Musician Name": "Petrus Hieronymus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_Johannes",
+		"Musician Name": "Petrus Johannes",
+		"Alias": "Pierino; Pierret",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_Teutonicus",
+		"Musician Name": "Petrus Teutonicus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Petrus_Torelli",
+		"Musician Name": "Petrus Torelli",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Philippo_Dionysio",
+		"Musician Name": "Philippo Dionysio",
+		"Alias": "Dionysio, Dominus Philippo",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Philippus_de_Holland",
+		"Musician Name": "Philippus de Holland",
+		"Description": "musician, scribe, and rector altar St. John Chrysostom in St Peter's; named just as \"Philippus\" in the records of St Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Pitigan",
+		"Musician Name": "Pitigan",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Placentino",
+		"Musician Name": "Placentino",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Rainaldus_de_Meis",
+		"Musician Name": "Rainaldus de Meis",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Richardus_Herbare",
+		"Musician Name": "Richardus Herbare",
+		"Description": "named just as \"Herbare\" in the records of St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Roberto_Anglico",
+		"Musician Name": "Roberto Anglico",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Robinetto",
+		"Musician Name": "Robinetto",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Rodorico",
+		"Musician Name": "Rodorico",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Rubino",
+		"Musician Name": "Rubino",
+		"Description": "perhaps \"Guillaume Le Rouge\"",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Salmone",
+		"Musician Name": "Salmone",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Sebastiano_de_Ravenna",
+		"Musician Name": "Sebastiano de Ravenna",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Serafinus",
+		"Musician Name": "Serafinus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Simon",
+		"Musician Name": "Simon",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Simon_Poitau",
+		"Musician Name": "Simon Poitau",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "335",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Theodericus",
+		"Musician Name": "Theodericus",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "336",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Theodericus_de_Beaunes",
+		"Musician Name": "Theodericus de Beaunes",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "336",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Thomas_de_Licio",
+		"Musician Name": "Thomas de Licio",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "336",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Thomasio",
+		"Musician Name": "Thomasio",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "336",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Thomaso",
+		"Musician Name": "Thomaso",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "336",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Thomaso_II",
+		"Musician Name": "Thomaso",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "336",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Thomassino",
+		"Musician Name": "Thomassino",
+		"Description": "musician and cleric at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "336",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Valentinus_de_Peynetis",
+		"Musician Name": "Valentinus de Peynetis",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "336",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Vincentio_Adolescenti",
+		"Musician Name": "Vincentio Adolescenti",
+		"Description": "musician at St. Peter's",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "336",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Winocus_de_Oudenorde",
+		"Musician Name": "Winocus de Oudenorde",
+		"Description": "musician at St. Peter's; possible scribe of Magnificat octavi toni by Busnois in SPB80",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "336",
+		"Input data": "LO",
+		"Date entered": "2026-4-18"
 	}
 ]

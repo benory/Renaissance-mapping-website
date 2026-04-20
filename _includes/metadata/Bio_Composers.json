@@ -766,10 +766,11 @@
 		"Death Date": "1507",
 		"DIAMM Link": "https://www.diamm.ac.uk/people/102/",
 		"RISM Link": "https://rism.online/people/30012342",
+		"Bibliography (BIB) ID": "BIB:Gottwald_2001",
 		"Input data": "SMB",
 		"Date entered": "2024-6-29",
-		"Update data": "BSO",
-		"Date updated": "2025-2-12"
+		"Update data": "RP",
+		"Date updated": "2026-4-18"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Johannes_Hillanis",
@@ -1443,5 +1444,17 @@
 		"Bibliography (BIB) ID": "BIB:Bent_2001b",
 		"Input data": "LQ",
 		"Date entered": "2026-4-14"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Walter_Frye",
+		"Composer Name": "Walter Frye",
+		"Alias": "Ffrye; Frew; Frey; Frie",
+		"Death Date": "~1475",
+		"Description": "composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/338/",
+		"RISM Link": "https://rism.online/people/30016321",
+		"Bibliography (BIB) ID": "BIB:Trowell_2010",
+		"Input data": "LQ",
+		"Date entered": "2026-4-16"
 	}
 ]

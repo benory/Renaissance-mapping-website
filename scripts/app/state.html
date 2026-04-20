@@ -155,13 +155,75 @@ function sanitizeEventId(eventid) {
     return eventid.replace(/[^a-zA-Z0-9-_]/g, '_'); // Replace invalid characters with underscores
 }
 
-function normalizeName(str) {
-  return str
-    .toLowerCase()
-    .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // strip accents
-    .replace(/[^a-z\s]/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
+function escapeRegExp(str) {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function getSearchContext(rawValue) {
+    const query = typeof rawValue === "string" ? rawValue.trim() : "";
+    if (!query) {
+        return {
+            query: "",
+            normalizedQuery: "",
+            searchRegex: null,
+            prioritizeLocationMatches: false
+        };
+    }
+
+    const normalizedQuery = normalizeName(query);
+    const searchRegex = new RegExp(escapeRegExp(query), "i");
+
+    const locationEntries = Array.isArray(MAP?.METADATA?.Locations) ? MAP.METADATA.Locations : [];
+    const prioritizeLocationMatches = normalizedQuery !== "" && locationEntries.some(entry => {
+        const locationNames = [
+            entry["Name of Location"],
+            entry["City or Larger Place"],
+            entry["Aliases"]
+        ]
+            .filter(value => typeof value === "string" && value.trim() !== "")
+            .flatMap(value => value.split(";"))
+            .map(value => value.trim())
+            .filter(Boolean);
+
+        return locationNames.some(value => normalizeName(value) === normalizedQuery);
+    });
+
+    return {
+        query,
+        normalizedQuery,
+        searchRegex,
+        prioritizeLocationMatches
+    };
+}
+
+function markerMatchesSearch({
+    text,
+    locationprocessed,
+    alias,
+    earliestyear,
+    latestyear
+}, searchContext) {
+    if (!searchContext || !searchContext.searchRegex) return true;
+
+    const { searchRegex, prioritizeLocationMatches } = searchContext;
+    const matchesText = typeof text === "string" && text.match(searchRegex);
+    const matchesLocation = typeof locationprocessed === "string" && locationprocessed.match(searchRegex);
+    const matchesEarliestYear = String(earliestyear).match(searchRegex);
+    const matchesLatestYear = String(latestyear).match(searchRegex);
+
+    if (matchesText || matchesLocation || matchesEarliestYear || matchesLatestYear) {
+        return true;
+    }
+
+    if (prioritizeLocationMatches) {
+        return false;
+    }
+
+    const aliasText = Array.isArray(alias)
+        ? alias.join(" ")
+        : (typeof alias === "string" ? alias : "");
+
+    return aliasText !== "" && aliasText.match(searchRegex);
 }
 
 </script>

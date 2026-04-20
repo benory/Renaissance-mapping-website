@@ -135,8 +135,12 @@
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Bartolomeo_de_Cavalieri",
 		"Person Name": "Bartolomeo de' Cavalieri",
+		"Bibliography ID (BIB)": "BIB:Ostoff_1962",
+		"BIB Pages": "51",
 		"Input data": "BSO",
-		"Date entered": "2023-5-8"
+		"Date entered": "2023-5-8",
+		"Update data": "RP",
+		"Date updated": "2024-4-18"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Baudechon_le_Jeusne",
@@ -847,7 +851,7 @@
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Philip_I",
-		"Person Name": "Philip I of Castile",
+		"Person Name": "Philip I of Castile (Philip the Fair)",
 		"Birth Date": "1478-7-22",
 		"Death Date": "1506-9-25",
 		"Noted Positions": "Duke of Burgundy (r. 1482–1506); first Habsburg King of Castile",
@@ -1081,5 +1085,63 @@
 		"Birth Date": "c.1460",
 		"Death Date": "1511-1-19",
 		"Noted Positions": "Bishop of Mantua"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Isabella_dEste",
+		"Person Name": "Isabella d'Este",
+		"Birth Date": "1474-5-19",
+		"Death Date": "1539-2-13",
+		"Noted Positions": "Marchioness of Mantua",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Francesco_II_Gonzaga",
+		"Person Name": "Francesco II Gonzaga",
+		"Birth Date": "1466-8-10",
+		"Death Date": "1519-3-29",
+		"Noted Positions": "Marquis of Mantua",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jean_Molinet",
+		"Person Name": "Jean Molinet",
+		"Birth Date": "1435",
+		"Death Date": "1507-8-23",
+		"Description": "Burgundian poet, chronicler and composer",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Antoine_I_de_Lalaing",
+		"Person Name": "Antoine I de Lalaing",
+		"Birth Date": "c.1480",
+		"Death Date": "1540",
+		"Noted Positions": "First count of Hoogstraten and of Culemborg",
+		"Description": "Nobleman of Hainaut",
+		"Bibliography ID (BIB)": "BIB:Wouters_1890",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jean_dAuton",
+		"Person Name": "Jean d'Auton",
+		"Alias": "Jehan d'Authon, dit l’abbé d’Angles",
+		"Birth Date": "c.1466",
+		"Death Date": "1528-1",
+		"Description": "French monk, chronicler and historian",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:George_dAmboise",
+		"Person Name": "George d'Amboise",
+		"Alias": "Cardinal d'Amboise",
+		"Birth Date": "1460",
+		"Death Date": "1510-5-25",
+		"Noted Positions": "Cardinal",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
 	}
 ]

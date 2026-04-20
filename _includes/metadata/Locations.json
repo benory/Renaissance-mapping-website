@@ -4263,5 +4263,34 @@
 		"Description": "Modern-day Ittre",
 		"Input data": "RP",
 		"Date entered": "2026-4-10"
+	},
+	{
+		"Location ID (LOC)": "LOC:Woking-Woking_Palace",
+		"Name of Location": "Woking Palace",
+		"City or Larger Place": "Surrey",
+		"Modern Country": "England",
+		"Google URL": "https://maps.app.goo.gl/eSkyY3pNmt4twUAw9",
+		"Coordinates": "51.30385002347613, -0.5245429153442394",
+		"Input data": "LQ",
+		"Date entered": "2026-4-14"
+	},
+	{
+		"Location ID (LOC)": "LOC:Canterbury-Canterbury_Cathedral",
+		"Name of Location": "Canterbury Cathedral",
+		"City or Larger Place": "Canterbury",
+		"Modern Country": "England",
+		"Google URL": "https://maps.app.goo.gl/hzzuUccsezKaeHkVA",
+		"Coordinates": "51.2803308383176, 1.0833145767211971",
+		"Input data": "LQ",
+		"Date entered": "2026-4-14"
+	},
+	{
+		"Location ID (LOC)": "LOC:Canterbury",
+		"Name of Location": "Canterbury",
+		"Modern Country": "England",
+		"Google URL": "https://maps.app.goo.gl/rrb8NX3FpRHJzghRA",
+		"Coordinates": "51.285690616337014, 1.0803433227539154",
+		"Input data": "LQ",
+		"Date entered": "2026-4-14"
 	}
 ]

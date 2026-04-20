@@ -1636,5 +1636,61 @@
 		"URL": "https://www.jstor.org/stable/766097",
 		"Input data": "LQ",
 		"Date entered": "2026-4-14"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Reynolds_1995",
+		"Author": "Christopher A. Reynolds",
+		"Name of Article": "Papal Patronage and The Music of St. Peter's, 1380–1513",
+		"Edition": "2022 paperback reprint",
+		"Publisher": "University of California Press",
+		"Publication Year": "1995",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Trowell_2010",
+		"Author": "Brian Trowell",
+		"Name of Article": "Frye [ffry, ffrye, Frey, Frie], Walter",
+		"Name of Volume/Journal": "Grove Music Online",
+		"Publication Year": "2010",
+		"URL": "https://doi.org/10.1093/gmo/9781561592630.article.10327",
+		"Notes": "Original article from 2001, updated in 2010",
+		"Input data": "LQ",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Ostoff_1962",
+		"Author": "Helmuth Ostoff",
+		"Name of Volume/Journal": "Josquin Desprez",
+		"Volume": "1",
+		"Location": "Tutzing",
+		"Publisher": "H. Schneider",
+		"Publication Year": "1962",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Gottwald_2001",
+		"Author": "Clytus Gottwald",
+		"Name of Article": "Ghiselin [Verbonnet], Johannes",
+		"Name of Volume/Journal": "Grove Music Online",
+		"Publication Year": "2001",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Wouters_1890",
+		"Author": "Alphonse Wouters",
+		"Name of Article": "Antoine de Lalaing",
+		"Name of Volume/Journal": "Biographie nationale de Belgique",
+		"Volume": "11",
+		"Publisher": "L'Academie Royale des Sciences, des Lettres et des Beaux-Arts de Belgique",
+		"Publication Year": "1890",
+		"Pages": "86–91",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Author": "Alphonse Wouters, « Antoine de Lalaing », dans Biographie nationale de Belgique, t. 11, col. 80-85, 1890 (lire en ligne [archive])"
 	}
 ]
