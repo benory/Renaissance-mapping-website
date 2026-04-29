@@ -120,8 +120,8 @@
 		"Target Type": "A",
 		"Last": "Frye",
 		"First": "Walter",
-		"Status": "0 events",
-		"Contributor": "LQ- started"
+		"Status": "7 events",
+		"Contributor": "LQ"
 	},
 	{
 		"Target Type": "A",
@@ -525,6 +525,7 @@
 	{
 		"Target Type": "B",
 		"Last": "Power",
+		"First": "Leonel",
 		"Status": "Complete",
 		"Contributor": "LQ"
 	},

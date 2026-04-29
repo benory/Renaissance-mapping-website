@@ -263,8 +263,8 @@
 		"BIB Pages": "361–2",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "LO",
-		"Date updated": "2024-4-11"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00017",
@@ -279,8 +279,8 @@
 		"BIB Pages": "359-62; 210",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "LO",
-		"Date updated": "2024-4-11"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00018",
@@ -311,8 +311,8 @@
 		"BIB Pages": "358-61",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "LO",
-		"Date updated": "2024-4-11"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00020",
@@ -391,8 +391,8 @@
 		"BIB Pages": "358-62",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "LO",
-		"Date updated": "2024-4-11"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00025",
@@ -423,8 +423,8 @@
 		"BIB Pages": "358-62",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "LO",
-		"Date updated": "2024-4-11"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00027",
@@ -455,8 +455,8 @@
 		"BIB Pages": "360–1",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "BSO",
-		"Date updated": "2024-4-11"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00029",
@@ -567,8 +567,8 @@
 		"BIB Pages": "360–2",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "LO",
-		"Date updated": "2024-4-11"
+		"Update data": "RP",
+		"Date updated": "2024-7-22"
 	},
 	{
 		"ID": "EV:00036",
@@ -663,8 +663,8 @@
 		"BIB Pages": "360–3",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "LO",
-		"Date updated": "2024-4-11"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00042",
@@ -685,7 +685,7 @@
 	{
 		"ID": "EV:00043",
 		"Location ID (LOC)": "LOC:Ferrara",
-		"Biography ID (BCO, BMU, BNO)": "#N/A",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Jachetto_de_Marvilla",
 		"Earliest Year": "1501",
 		"Latest Year": "1501",
 		"Date Range": "1501",
@@ -727,8 +727,8 @@
 		"BIB Pages": "358-62",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "LO",
-		"Date updated": "2024-4-13"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00046",
@@ -743,8 +743,8 @@
 		"BIB Pages": "359-65",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "LO",
-		"Date updated": "2024-4-13"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00047",
@@ -791,8 +791,8 @@
 		"BIB Pages": "360–6",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "BSO",
-		"Date updated": "2024-6-22"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00050",
@@ -839,8 +839,8 @@
 		"BIB Pages": "360–7",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "BSO",
-		"Date updated": "2024-6-22"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00053",
@@ -887,8 +887,8 @@
 		"BIB Pages": "360–2",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "BSO",
-		"Date updated": "2024-6-23"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00056",
@@ -983,8 +983,8 @@
 		"BIB Pages": "360–61",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "BSO",
-		"Date updated": "2024-6-24"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00062",
@@ -1063,8 +1063,8 @@
 		"BIB Pages": "360–61",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "BSO",
-		"Date updated": "2024-6-24"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00067",
@@ -1095,8 +1095,8 @@
 		"BIB Pages": "360-61",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "BSO",
-		"Date updated": "2024-6-24"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00069",
@@ -1143,8 +1143,8 @@
 		"BIB Pages": "359–61",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "BSO",
-		"Date updated": "2024-6-24"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00072",
@@ -1175,8 +1175,8 @@
 		"BIB Pages": "358–62; 210",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "BSO",
-		"Date updated": "2024-6-24"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00074",
@@ -1191,8 +1191,8 @@
 		"BIB Pages": "360–62; 210",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "BSO",
-		"Date updated": "2024-6-24"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00075",
@@ -1271,8 +1271,8 @@
 		"BIB Pages": "359–62",
 		"Input data": "BSO",
 		"Date entered": "2023-3-9",
-		"Update data": "BSO",
-		"Date updated": "2024-6-24"
+		"Update data": "RP",
+		"Date updated": "2024-7-15"
 	},
 	{
 		"ID": "EV:00080",
@@ -17889,7 +17889,7 @@
 	{
 		"ID": "EV:01118",
 		"Location ID (LOC)": "LOC:Ferrara",
-		"Biography ID (BCO, BMU, BNO)": "#N/A",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Jachetto_de_Marvilla",
 		"Earliest Year": "1497",
 		"Latest Year": "1497",
 		"Date Range": "1497",
@@ -18519,7 +18519,7 @@
 	{
 		"ID": "EV:01163",
 		"Location ID (LOC)": "LOC:Ferrara",
-		"Biography ID (BCO, BMU, BNO)": "#N/A",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Jachetto_de_Marvilla",
 		"Earliest Year": "1493",
 		"Latest Year": "1494",
 		"Date Range": "1493 to   1494",
@@ -20480,7 +20480,7 @@
 	{
 		"ID": "EV:01301",
 		"Location ID (LOC)": "LOC:Ferrara",
-		"Biography ID (BCO, BMU, BNO)": "#N/A",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Jachetto_de_Marvilla",
 		"Earliest Year": "1484",
 		"Latest Year": "1484",
 		"Date Range": "1484",
@@ -20494,7 +20494,7 @@
 	{
 		"ID": "EV:01302",
 		"Location ID (LOC)": "LOC:Ferrara",
-		"Biography ID (BCO, BMU, BNO)": "#N/A",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Jachetto_de_Marvilla",
 		"Earliest Year": "1486",
 		"Latest Year": "1486",
 		"Date Range": "1486",
@@ -30647,7 +30647,7 @@
 	{
 		"ID": "EV:01869",
 		"Location ID (LOC)": "LOC:Ferrara",
-		"Biography ID (BCO, BMU, BNO)": "#N/A",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Jachetto_de_Marvilla",
 		"Earliest Year": "1484",
 		"Latest Year": "1484",
 		"Date Range": "1484",
@@ -35029,7 +35029,7 @@
 	{
 		"ID": "EV:02117",
 		"Location ID (LOC)": "LOC:Ferrara",
-		"Biography ID (BCO, BMU, BNO)": "#N/A",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Jachetto_de_Marvilla",
 		"Earliest Year": "1476",
 		"Latest Year": "1480",
 		"Date Range": "1476 to   1480",
@@ -84740,6 +84740,7 @@
 		"Latest Month": "9",
 		"Date Range": "July 1481 to  September 1481",
 		"Description": "Contratenor; replaced by Dominicus Stephani",
+		"Related Person IDs": "BMU:Dominicus_Stephani",
 		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
 		"BIB Pages": "332",
 		"Input data": "LO",
@@ -84761,103 +84762,534 @@
 		"Date entered": "2026-4-19"
 	},
 	{
-		"ID": "EV:04740"
+		"ID": "EV:04740",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Guillaume_Bras",
+		"Earliest Year": "1491",
+		"Earliest Month": "6",
+		"Latest Year": "1492",
+		"Latest Month": "5",
+		"Date Range": "June 1491 to  May 1492",
+		"Description": "Soprano; worked for one week of 5/1492; replaced Nicholas Sardigo",
+		"Related Person IDs": "BMU:Nicholas_Sardigo",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04741"
+		"ID": "EV:04741",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Guillaume_des_Mares",
+		"Earliest Year": "1471",
+		"Earliest Month": "7",
+		"Latest Year": "1472",
+		"Latest Month": "6",
+		"Date Range": "July 1471 to  June 1472",
+		"Description": "Tenor; worked for half of 7/1471; replaced Johannes Guillant",
+		"Related Person IDs": "BMU:Johannes_Guillant",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04742"
+		"ID": "EV:04742",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Guillaume_Du_Fay",
+		"Earliest Year": "1506",
+		"Earliest Month": "3",
+		"Latest Year": "1511",
+		"Latest Month": "7",
+		"Date Range": "March 1506 to  July 1511",
+		"Description": "Singer; gap in records before and after this date",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04743"
+		"ID": "EV:04743",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Guillaume_Leultier",
+		"Earliest Year": "1506",
+		"Earliest Month": "6",
+		"Latest Year": "1507",
+		"Latest Month": "11",
+		"Date Range": "June 1506 to  November 1507",
+		"Description": "Singer; replaced Johannes Lezelier; gap in records after this date",
+		"Related Person IDs": "BMU:Johannes_Lezelier",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04744"
+		"ID": "EV:04744",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Guillaume_Rose",
+		"Earliest Year": "1462",
+		"Earliest Month": "12",
+		"Latest Year": "1464",
+		"Latest Month": "2",
+		"Date Range": "December 1462 to  February 1464",
+		"Description": "Soprano; worked for half of 12/1462",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04745"
+		"ID": "EV:04745",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Guillaume_Rose",
+		"Earliest Year": "1464",
+		"Earliest Month": "5",
+		"Latest Year": "1464",
+		"Latest Month": "5",
+		"Date Range": "May 1464",
+		"Description": "Soprano; worked for half of 5/1464",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04746"
+		"ID": "EV:04746",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Guillaume_Rose",
+		"Earliest Year": "1464",
+		"Earliest Month": "10",
+		"Latest Year": "1465",
+		"Latest Month": "6",
+		"Date Range": "October 1464 to  June 1465",
+		"Description": "Soprano; worked for part of 6/1465 but exact duration unspecified",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04747"
+		"ID": "EV:04747",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Guillelmino",
+		"Earliest Year": "1461",
+		"Earliest Month": "3",
+		"Latest Year": "1461",
+		"Latest Month": "10",
+		"Date Range": "March 1461 to  October 1461",
+		"Description": "Singer; gap in records before this date",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04748"
+		"ID": "EV:04748",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Guillelmus",
+		"Earliest Year": "1478",
+		"Earliest Month": "3",
+		"Latest Year": "1478",
+		"Latest Month": "3",
+		"Date Range": "March 1478",
+		"Description": "Contratenor; gap in records before this date",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04749"
+		"ID": "EV:04749",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Guillelmus_da_Francia",
+		"Earliest Year": "1455",
+		"Earliest Month": "10",
+		"Latest Year": "1456",
+		"Latest Month": "2",
+		"Date Range": "October 1455 to  February 1456",
+		"Description": "Tenor, composer, scribe",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04750"
+		"ID": "EV:04750",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Guillelmus_da_Francia",
+		"Earliest Year": "1461",
+		"Earliest Month": "3",
+		"Latest Year": "1461",
+		"Latest Month": "10",
+		"Date Range": "March 1461 to  October 1461",
+		"Description": "Tenor, composer, scribe; gap in records before this date",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04751"
+		"ID": "EV:04751",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Guillelmus_da_Francia",
+		"Earliest Year": "1461",
+		"Earliest Month": "12",
+		"Latest Year": "1461",
+		"Latest Month": "12",
+		"Date Range": "December 1461",
+		"Description": "Tenor, composer, scribe; worked for part of this month",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04752"
+		"ID": "EV:04752",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Guillelmus_Parvo",
+		"Earliest Year": "1464",
+		"Earliest Month": "11",
+		"Latest Year": "1465",
+		"Latest Month": "2",
+		"Date Range": "November 1464 to  February 1465",
+		"Description": "Singer",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04753"
+		"ID": "EV:04753",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Guy",
+		"Earliest Year": "1496",
+		"Earliest Month": "6",
+		"Latest Year": "1496",
+		"Latest Month": "9",
+		"Date Range": "June 1496 to  September 1496",
+		"Description": "Sopranol replaced Alfonso de Neapoli",
+		"Related Person IDs": "BMU:Alfonso_de_Neapoli",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04754"
+		"ID": "EV:04754",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Herve",
+		"Earliest Year": "1447",
+		"Earliest Month": "6",
+		"Latest Year": "1448",
+		"Latest Month": "2",
+		"Date Range": "June 1447 to  February 1448",
+		"Description": "Tenor",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04755"
+		"ID": "EV:04755",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Hieronimus_Bertrandi",
+		"Earliest Year": "1490",
+		"Earliest Month": "3",
+		"Latest Year": "1492",
+		"Latest Month": "8",
+		"Date Range": "March 1490 to  August 1492",
+		"Description": "Contratenor; gap in records before this date",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04756"
+		"ID": "EV:04756",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Hieronymus_Florentinus",
+		"Earliest Year": "1506",
+		"Earliest Month": "3",
+		"Latest Year": "1506",
+		"Latest Month": "4",
+		"Date Range": "March 1506 to  April 1506",
+		"Description": "Singer; probably a boy; worked for part of this period",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04757"
+		"ID": "EV:04757",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Hieronymus_Johannes_de_Pazillis",
+		"Earliest Year": "1474",
+		"Earliest Month": "3",
+		"Latest Year": "1492",
+		"Latest Month": "5",
+		"Date Range": "March 1474 to  May 1492",
+		"Description": "Contratenor; beneficiary; gap in records before this date",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04758"
+		"ID": "EV:04758",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Hieronymus_Sanctus_Spiritus",
+		"Earliest Year": "1488",
+		"Earliest Month": "9",
+		"Latest Year": "1488",
+		"Latest Month": "10",
+		"Date Range": "September 1488 to  October 1488",
+		"Description": "Replaced Johannes de Tornaco (probably a tenor); replaced by Francisco de Malo Passu, tenor; possibly Gerar di Toul, magnus cantor at Sancto Spirito",
+		"Related Person IDs": "BMU:Johannes_de_Tornaco; BMU:Franciscus_de_Malo_Passu",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04759"
+		"ID": "EV:04759",
+		"Location ID (LOC)": "LOC:Vatican-Basilica_Papale",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Hieronymus_Venetus",
+		"Earliest Year": "1499",
+		"Earliest Month": "12",
+		"Latest Year": "1499",
+		"Latest Month": "12",
+		"Date Range": "December 1499",
+		"Description": "Singer",
+		"Bibliography ID (BIB)": "BIB:Reynolds_1995",
+		"BIB Pages": "332",
+		"Input data": "LO",
+		"Date entered": "2026-4-20"
 	},
 	{
-		"ID": "EV:04760"
+		"ID": "EV:04760",
+		"Location ID (LOC)": "LOC:Brussels",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Robert_Morton",
+		"Earliest Year": "1457",
+		"Earliest Month": "10",
+		"Latest Year": "1475",
+		"Latest Month": "6",
+		"Latest Day": "14",
+		"Latest Date Certainty": "1",
+		"Date Range": "October 1457 to 14 June 1475",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Clerc and Chappelain: Singer in the chapel choir of Philip the Good and Charles the Bold; titled \"Messire\" (priest).",
+		"Bibliography ID (BIB)": "BIB:Fallows_2001",
+		"Input data": "HC",
+		"Date entered": "2026-4-26"
 	},
 	{
-		"ID": "EV:04761"
+		"ID": "EV:04761",
+		"Location ID (LOC)": "LOC:Cambrai",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Robert_Morton",
+		"Earliest Year": "1460",
+		"Earliest Month": "1",
+		"Latest Year": "1475",
+		"Latest Month": "12",
+		"Date Range": "January 1460 to  December 1475",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Performed with Hayne van Ghizeghem; noted for \"astonishing\" singing and playing.",
+		"Bibliography ID (BIB)": "BIB:Fallows_2001",
+		"Input data": "HC",
+		"Date entered": "2026-4-26"
 	},
 	{
-		"ID": "EV:04762"
+		"ID": "EV:04762",
+		"Location ID (LOC)": "LOC:s-Hertogenbosch",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Robert_Morton",
+		"Earliest Year": "1472",
+		"Earliest Month": "9",
+		"Earliest Day": "5",
+		"Latest Year": "1483",
+		"Latest Month": "9",
+		"Latest Day": "16",
+		"Latest Date Certainty": "1",
+		"Date Range": "5 September 1472 to 16 September 1483",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Received as a canon of the church; remained until his death and burial there.",
+		"Bibliography ID (BIB)": "BIB:Fallows_2001",
+		"Input data": "HC",
+		"Date entered": "2026-4-26"
 	},
 	{
-		"ID": "EV:04763"
+		"ID": "EV:04763",
+		"Location ID (LOC)": "LOC:Le_Quesnoy",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Robert_Morton",
+		"Earliest Year": "1464",
+		"Earliest Month": "6",
+		"Latest Year": "1465",
+		"Latest Month": "3",
+		"Latest Day": "12",
+		"Latest Date Certainty": "1",
+		"Date Range": "June 1464 to 12 March 1465",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Worked as seconded chaplain. Assigned specifically to the household of the Count of Charolais (future Charles the Bold).",
+		"Bibliography ID (BIB)": "BIB:Fallows_2001",
+		"Input data": "HC",
+		"Date entered": "2026-4-26"
 	},
 	{
-		"ID": "EV:04764"
+		"ID": "EV:04764",
+		"Location ID (LOC)": "LOC:Goudswaard",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Robert_Morton",
+		"Earliest Year": "1479",
+		"Earliest Month": "1",
+		"Latest Year": "1479",
+		"Latest Month": "3",
+		"Latest Day": "13",
+		"Latest Date Certainty": "1",
+		"Date Range": "January 1479 to 13 March 1479",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Worked as parish priest. Held the parish residency until his formal resignation in 1479.",
+		"Bibliography ID (BIB)": "BIB:Fallows_2001",
+		"Input data": "HC",
+		"Date entered": "2026-4-26"
 	},
 	{
-		"ID": "EV:04765"
+		"ID": "EV:04765",
+		"Location ID (LOC)": "LOC:Liege",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Robert_Morton",
+		"Earliest Year": "1477",
+		"Earliest Month": "1",
+		"Latest Year": "1477",
+		"Latest Month": "1",
+		"Latest Day": "31",
+		"Latest Date Certainty": "1",
+		"Date Range": "January 1477 to 31 January 1477",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Beneficiary: Recorded paying annates (first year's revenue) for a church benefice.",
+		"Bibliography ID (BIB)": "BIB:Fallows_2001",
+		"Input data": "HC",
+		"Date entered": "2026-4-26"
 	},
 	{
-		"ID": "EV:04766"
+		"ID": "EV:04766",
+		"Location ID (LOC)": "LOC:Ely-Ely_Cathedral",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Walter_Frye",
+		"LOC Certainty": "1",
+		"Earliest Year": "1443",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1452",
+		"Latest Date Certainty": "1",
+		"Date Range": "1443 to   1452",
+		"Certainty of Event (within Range)": "2",
+		"Description": "Paid 13 shillings and 4 pence annually in 1443-4 and 1452-3 as a cantor for Ely Cathedral",
+		"Bibliography ID (BIB)": "BIB:Kenney_1964",
+		"BIB Pages": "19",
+		"Notes": "The documents only refer to \"Walter cantor\", so it is inconclusive whether this is actually Frye or not.",
+		"Input data": "LQ",
+		"Date entered": "2026-4-27"
 	},
 	{
-		"ID": "EV:04767"
+		"ID": "EV:04767",
+		"Location ID (LOC)": "LOC:London",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Walter_Frye",
+		"LOC Certainty": "1",
+		"Earliest Year": "1456",
+		"Earliest Date Certainty": "2",
+		"Latest Year": "1456",
+		"Latest Date Certainty": "2",
+		"Date Range": "1456",
+		"Certainty of Event (within Range)": "2",
+		"Description": "Joined the London Guild of Parish Clerks",
+		"Bibliography ID (BIB)": "BIB:Trowell_2010",
+		"Input data": "LQ",
+		"Date entered": "2026-4-27"
 	},
 	{
-		"ID": "EV:04768"
+		"ID": "EV:04768",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Walter_Frye",
+		"Earliest Year": "1464",
+		"Earliest Date Certainty": "2",
+		"Latest Year": "1472",
+		"Latest Date Certainty": "2",
+		"Date Range": "1464 to   1472",
+		"Certainty of Event (within Range)": "1",
+		"Description": "In the service of Anne of Exeter, with an annuity of 10 pounds from 1464-1472",
+		"Bibliography ID (BIB)": "BIB:Trowell_2010",
+		"Notes": "After unpublished research by A. Wathey",
+		"Input data": "LQ",
+		"Date entered": "2026-4-27"
 	},
 	{
-		"ID": "EV:04769"
+		"ID": "EV:04769",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Walter_Frye",
+		"LOC Certainty": "1",
+		"Earliest Year": "1474",
+		"Earliest Month": "8",
+		"Earliest Day": "12",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1474",
+		"Latest Month": "8",
+		"Latest Day": "12",
+		"Latest Date Certainty": "1",
+		"Date Range": "12 August 1474",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Drew up his will",
+		"Bibliography ID (BIB)": "BIB:Kenney_1964",
+		"BIB Pages": "19",
+		"Input data": "LQ",
+		"Date entered": "2026-4-27"
 	},
 	{
-		"ID": "EV:04770"
+		"ID": "EV:04770",
+		"Location ID (LOC)": "LOC:Canterbury",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Walter_Frye",
+		"LOC Certainty": "1",
+		"Earliest Year": "1475",
+		"Earliest Month": "6",
+		"Earliest Day": "5",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1475",
+		"Latest Month": "6",
+		"Latest Day": "5",
+		"Latest Date Certainty": "1",
+		"Date Range": "5 June 1475",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Frye's will proved at Canterbury",
+		"Bibliography ID (BIB)": "BIB:Kenney_1964",
+		"BIB Pages": "19",
+		"Input data": "LQ",
+		"Date entered": "2026-4-27"
 	},
 	{
-		"ID": "EV:04771"
+		"ID": "EV:04771",
+		"Location ID (LOC)": "LOC:London",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Walter_Frye",
+		"LOC Certainty": "1",
+		"Earliest Year": "1457",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1457",
+		"Latest Date Certainty": "1",
+		"Date Range": "1457",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Listed alongside clerks in a London guild of musicians",
+		"Bibliography ID (BIB)": "BIB:Kenney_1964",
+		"BIB Pages": "19",
+		"Input data": "LQ",
+		"Date entered": "2026-4-27"
 	},
 	{
-		"ID": "EV:04772"
+		"ID": "EV:04772",
+		"Location ID (LOC)": "LOC:Ely-Ely_Cathedral",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Walter_Frye",
+		"LOC Certainty": "1",
+		"Earliest Year": "1466",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1466",
+		"Latest Date Certainty": "1",
+		"Date Range": "1466",
+		"Certainty of Event (within Range)": "2",
+		"Description": "Left Ely Cathedral",
+		"Bibliography ID (BIB)": "BIB:Trowell_2010",
+		"Notes": "The documents only refer to \"Walter cantor\", so it is inconclusive whether this is actually Frye or not. Kenney (p.21) suggests that the possible range of years when \"Walter cantor\" left was 1453-7.",
+		"Input data": "LQ",
+		"Date entered": "2026-4-27"
 	},
 	{
 		"ID": "EV:04773"

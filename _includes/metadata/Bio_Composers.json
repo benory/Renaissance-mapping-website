@@ -1456,5 +1456,15 @@
 		"Bibliography (BIB) ID": "BIB:Trowell_2010",
 		"Input data": "LQ",
 		"Date entered": "2026-4-16"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Robert_Morton",
+		"Composer Name": "Rober Morton",
+		"Birth Date": "~1430",
+		"Death Date": "~1483",
+		"Description": "composer, chaplain",
+		"RISM Link": "https://rism.online/people/30005487",
+		"Input data": "HC",
+		"Date entered": "2026-4-26"
 	}
 ]

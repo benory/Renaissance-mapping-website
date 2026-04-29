@@ -4292,5 +4292,42 @@
 		"Coordinates": "51.285690616337014, 1.0803433227539154",
 		"Input data": "LQ",
 		"Date entered": "2026-4-14"
+	},
+	{
+		"Location ID (LOC)": "LOC:Goudswaard",
+		"Name of Location": "Goudswaard",
+		"Modern Country": "Netherlands",
+		"Google URL": "https://maps.app.goo.gl/3NyiyyZsrUgUZtoa7",
+		"Coordinates": "51.79414206063275, 4.277359849118192",
+		"Input data": "HC",
+		"Date entered": "2026-4-26"
+	},
+	{
+		"Location ID (LOC)": "LOC:Liege",
+		"Name of Location": "Liège",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/DLy4AWp1fZBR1ywb6",
+		"Coordinates": "50.64003393669211, 5.568718599500346",
+		"Input data": "HC",
+		"Date entered": "2026-4-26"
+	},
+	{
+		"Location ID (LOC)": "LOC:Le_Quesnoy",
+		"Name of Location": "Le Quesnoy",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/bjGbpncRHKZwgZ9UA",
+		"Coordinates": "50.24760436287704, 3.634838713686063",
+		"Input data": "HC",
+		"Date entered": "2026-4-26"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ely-Ely_Cathedral",
+		"Name of Location": "Ely Cathedral",
+		"City or Larger Place": "Ely",
+		"Modern Country": "England",
+		"Google URL": "https://maps.app.goo.gl/XyocCYgRTjNPf5iM9",
+		"Coordinates": "52.39920016787068, 0.26393191534423943",
+		"Input data": "LQ",
+		"Date entered": "2026-4-27"
 	}
 ]
