@@ -71,7 +71,7 @@ nav: true
         <div class="bio">
             <h3>Lara Oge</h3>
             <p><strong>Team Member</strong></p>
-            <p>Lara Oge is pursuing an MPhil in Music at the University of Cambridge. She graduated from the University of California, Berkeley, in 2025 with a B.A. in Music, receiving the Department Citation and completing minors in Digital Humanities and Medieval Studies. Her thesis project examines the mobility of fifteenth-century singers across musical institutions in Bruges.</p>
+            <p>Lara Oge is an incoming PhD student in Musicology at UC Berkeley, where she also received her B.A. in Music with minors in Digital Humanities and Medieval Studies. She is completing an MPhil in Music at the University of Cambridge as a Benefactors' Scholar of St John's College. Her thesis project examines the mobility of fifteenth-century singers across musical institutions in Bruges.</p>
         </div>
     </div>
     <div class="team-member">
@@ -82,20 +82,20 @@ nav: true
             <p>Rupert Peacock sings with <a href="https://cutcircle.org/" target="_blank"> Cut Circle</a>. He began his singing career as a treble in King’s College Choir in Cambridge, UK. In 2024 he graduated from Princeton University with a BA in Music, a certificate in vocal consort performance, and as the recipient of the Isidore and Helen Sacks Memorial Prize. For his senior thesis he conducted research in the archives of Ely Cathedral; the thesis presents a previously unknown piece of sixteenth-century English choral music.</p>
         </div>
     </div>
+    <div class="team-member">
+        <img src="/images/headshots/Qing.jpg" alt="Lee Qing">
+        <div class="bio">
+            <h3>Lee Qing</h3>
+            <p><strong>Team Member</strong></p>
+            <p>Lee Qing is an incoming PhD student in Music at Stanford University. She graduated with a BM in Music Composition in 2025 from Boston University. Her research interests include fifteenth-century secular vocal music and text-setting, as well as digital humanities.</p>
+        </div>
+    </div>
         <div class="team-member">
         <img src="/images/headshots/McIntyre.jpg" alt="Flannery McIntyre">
         <div class="bio">
             <h3>Flannery McIntyre</h3>
             <p><strong>Team Member</strong></p>
             <p>Flannery McIntyre is a PhD Candidate in the Department of Music and Program in Medieval Studies at the University of California, Berkeley. Prior to starting her PhD, she earned a MPhil in Medieval Archaeology from the University of Cambridge. Her dissertation, entitled “An History of Music and Intellectual Culture, 300 – 900 A.D,” explores how people understood music’s place in the contexts of religion, material culture, quadrivial sciences, politics, and literature during Late Antiquity and the Early Middle Ages.</p>
-        </div>
-    </div>
-    <div class="team-member">
-        <img src="/images/headshots/Qing.jpg" alt="Lee Qing">
-        <div class="bio">
-            <h3>Lee Qing</h3>
-            <p><strong>Team Member</strong></p>
-            <p>Lee Qing graduated with a BM in Music Composition in 2025 from Boston University. Her research interests include 15th-century secular vocal music and text-setting, as well as digital humanities.</p>
         </div>
     </div>
     <div class="team-member">

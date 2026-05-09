@@ -1466,5 +1466,18 @@
 		"RISM Link": "https://rism.online/people/30005487",
 		"Input data": "HC",
 		"Date entered": "2026-4-26"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Pierre_Fontaine",
+		"Composer Name": "Pierre Fontaine",
+		"Alias": "Perenet; Perrinet; Petrus; Fontaines; Fontainne; Fonte",
+		"Birth Date": "~1390",
+		"Death Date": "~1450",
+		"Description": "composer, priest",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/95/",
+		"RISM Link": "https://rism.online/people/30109681",
+		"Bibliography (BIB) ID": "BIB:Wright_1979",
+		"Input data": "LQ",
+		"Date entered": "2026-05-08"
 	}
 ]

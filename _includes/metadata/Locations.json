@@ -4329,5 +4329,14 @@
 		"Coordinates": "52.39920016787068, 0.26393191534423943",
 		"Input data": "LQ",
 		"Date entered": "2026-4-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Provins",
+		"Name of Location": "Provins",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/TwvrLPVvyPMoowjP9",
+		"Coordinates": "48.5668753937906, 3.2972833862304225",
+		"Input data": "LQ",
+		"Date entered": "2026-05-08"
 	}
 ]

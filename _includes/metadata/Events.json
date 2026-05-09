@@ -85219,7 +85219,6 @@
 	{
 		"ID": "EV:04769",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Walter_Frye",
-		"LOC Certainty": "1",
 		"Earliest Year": "1474",
 		"Earliest Month": "8",
 		"Earliest Day": "12",
@@ -85292,19 +85291,88 @@
 		"Date entered": "2026-4-27"
 	},
 	{
-		"ID": "EV:04773"
+		"ID": "EV:04773",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Pierre_Fontaine",
+		"Earliest Year": "1403",
+		"Earliest Month": "5",
+		"Earliest Day": "25",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1403",
+		"Latest Month": "5",
+		"Latest Day": "25",
+		"Latest Date Certainty": "1",
+		"Date Range": "25 May 1403",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Paid 20 francs for clothing and other necessities",
+		"Bibliography ID (BIB)": "BIB:Wright_1979",
+		"BIB Pages": "73",
+		"Input data": "LQ",
+		"Date entered": "2026-5-8"
 	},
 	{
-		"ID": "EV:04774"
+		"ID": "EV:04774",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Pierre_Fontaine",
+		"Earliest Year": "1415",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1415",
+		"Latest Date Certainty": "1",
+		"Date Range": "1415",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Hired by John the Fearless as a chaplain for the Burgundian chapel choir",
+		"Bibliography ID (BIB)": "BIB:Wright_1979",
+		"BIB Pages": "99",
+		"Input data": "LQ",
+		"Date entered": "2026-5-8"
 	},
 	{
-		"ID": "EV:04775"
+		"ID": "EV:04775",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Pierre_Fontaine",
+		"Earliest Year": "1418",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1418",
+		"Latest Date Certainty": "1",
+		"Date Range": "1418",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Had property in Rouen confiscated by the English",
+		"Bibliography ID (BIB)": "BIB:Wright_1979",
+		"BIB Pages": "100",
+		"Input data": "LQ",
+		"Date entered": "2026-5-8"
 	},
 	{
-		"ID": "EV:04776"
+		"ID": "EV:04776",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Pierre_Fontaine",
+		"Earliest Year": "1420",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1420",
+		"Latest Date Certainty": "1",
+		"Date Range": "1420",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Mentioned in a papal document as being from the diocese of Rouen",
+		"Bibliography ID (BIB)": "BIB:Wright_1979",
+		"BIB Pages": "100",
+		"Input data": "LQ",
+		"Date entered": "2026-5-8"
 	},
 	{
-		"ID": "EV:04777"
+		"ID": "EV:04777",
+		"Location ID (LOC)": "LOC:Provins",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Pierre_Fontaine",
+		"Earliest Year": "1419",
+		"Earliest Month": "4",
+		"Earliest Day": "16",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1419",
+		"Latest Month": "4",
+		"Latest Day": "16",
+		"Latest Date Certainty": "1",
+		"Date Range": "16 April 1419",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Escaped Paris to rejoin the duke at Provins",
+		"Bibliography ID (BIB)": "BIB:Wright_1979",
+		"BIB Pages": "104",
+		"Input data": "LQ",
+		"Date entered": "2026-5-8"
 	},
 	{
 		"ID": "EV:04778"
