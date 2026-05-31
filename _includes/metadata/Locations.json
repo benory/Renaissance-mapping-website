@@ -4338,5 +4338,43 @@
 		"Coordinates": "48.5668753937906, 3.2972833862304225",
 		"Input data": "LQ",
 		"Date entered": "2026-05-08"
+	},
+	{
+		"Location ID (LOC)": "LOC:Montbeliard",
+		"Name of Location": "Montbéliard",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/scLCiyCb7VR3sVZLA",
+		"Coordinates": "47.51405811591935, 6.800686645507831",
+		"Input data": "LQ",
+		"Date entered": "2026-05-18"
+	},
+	{
+		"Location ID (LOC)": "LOC:Arras",
+		"Name of Location": "Arras",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/2Z7ZQmu3NG5tAmjGA",
+		"Coordinates": "50.29167, 2.77861",
+		"Wikidata": "Q11884",
+		"Input data": "ECZ",
+		"Date entered": "2026-05-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Lille",
+		"Name of Location": "Lille",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/8AASttJQBtaTGxZdA",
+		"Coordinates": "50.62925, 3.05726",
+		"Wikidata": "Q23197",
+		"Input data": "ECZ",
+		"Date entered": "2026-05-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ursel",
+		"Name of Location": "Ursel",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/Cv46UmcigXj8nTFi6",
+		"Coordinates": "51.08333, 3.41667",
+		"Input data": "ECZ",
+		"Date entered": "2026-05-27"
 	}
 ]

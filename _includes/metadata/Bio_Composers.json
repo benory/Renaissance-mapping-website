@@ -1479,5 +1479,18 @@
 		"Bibliography (BIB) ID": "BIB:Wright_1979",
 		"Input data": "LQ",
 		"Date entered": "2026-05-08"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Adrian_Willaert",
+		"Composer Name": "Adrian Willaert",
+		"Alias": "Adriano Fiammengo; Adrien, Adrian; Hadrian, Adrian; M. Adriano; Villaert, Adriano; Villahart, Adrian; Villahert, Adrian; Villard, Adrian; Villart; Vuigliard, Adrian; Vuigliart, Adrian; Vuillaert, Adrian; Vuillahert, Adrian; Wigliaret, Adrian; Willaert, Adriano; Willahert, Adrian; Willart, Adrianus",
+		"Birth Date": "~1490",
+		"Death Date": "1562",
+		"Description": "composer, maestro di cappella, music teacher, singer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/217/",
+		"RISM Link": "https://rism.online/people/30005312",
+		"Bibliography (BIB) ID": "BIB:Bossuyt_1985",
+		"Input data": "LQ",
+		"Date entered": "2026-05-21"
 	}
 ]

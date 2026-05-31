@@ -1719,5 +1719,52 @@
 		"URL": "https://doi-org/10.1093/gmo/9781561592630.article.11829",
 		"Input data": "LQ",
 		"Date entered": "2026-05-08"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Lockwood_1985",
+		"Author": "Lewis Lockwood",
+		"Name of Article": "Adrian Willaert and Cardinal Ippolito I d'Este: New Light on Willaert's Early Career in Italy, 1515-21",
+		"Name of Volume/Journal": "Early Music History",
+		"Volume": "5",
+		"Publisher": "Cambridge University Press",
+		"Publication Year": "1985",
+		"Pages": "85-112",
+		"URL": "http://www.jstor.org/stable/853920",
+		"Input data": "LQ",
+		"Date entered": "2026-05-21"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Bossuyt_1998",
+		"Author": "Ignace Bossuyt",
+		"Name of Article": "O socii durate: A Musical Correspondence from the Time of Philip II",
+		"Name of Volume/Journal": "Early Music",
+		"Volume": "26",
+		"Publisher": "Oxford University Press",
+		"Publication Year": "1998",
+		"Pages": "432-444",
+		"URL": "https://www.jstor.org/stable/3128701",
+		"Input data": "LQ",
+		"Date entered": "2026-05-21"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Bossuyt_1985",
+		"Author": "Ignace Bossuyt",
+		"Name of Article": "Adriaan Williaert (ca. 1490-1562)",
+		"Volume": "3",
+		"Series": "Symbolae Facultatis litterarum et philosophiae Lovaniensis",
+		"Location": "Leuven",
+		"Publisher": "Universitaire Pers Leuven",
+		"Publication Year": "1985",
+		"Input data": "LQ",
+		"Date entered": "2026-05-21"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:VanderLinden_1940",
+		"Author": "Herman Vander Linden",
+		"Name of Article": "Itinéraires de Philippe le Bon, Duc de Bourgogne et de Charles, Comte de Charolais",
+		"Location": "Brussels",
+		"Publisher": "Palais des Académies",
+		"Publication Year": "1940",
+		"Input data": "ECZ"
 	}
 ]

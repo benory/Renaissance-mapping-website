@@ -64,8 +64,35 @@ function populateTargetLists() {
         return li;
     }
 
-    complete.forEach(t => completeList.appendChild(createPersonLink(t)));
+    const completeMidpoint = Math.ceil(complete.length / 2);
+    const completeColumns = [complete.slice(0, completeMidpoint), complete.slice(completeMidpoint)];
+
+    completeColumns.forEach(columnTargets => {
+        const column = document.createElement("ul");
+        column.className = "targets-list complete-targets-column";
+
+        columnTargets.forEach(t => column.appendChild(createPersonLink(t)));
+        completeList.appendChild(column);
+    });
+
     nearly.forEach(t => nearlyList.appendChild(createPersonLink(t)));
+
+    setupTargetListFade("complete-targets-wrapper", completeList);
+    setupTargetListFade("nearly-targets-wrapper", nearlyList);
+}
+
+function setupTargetListFade(wrapperId, list) {
+    const wrapper = document.getElementById(wrapperId);
+    if (!wrapper || !list) return;
+
+    function updateFade() {
+        const scrollRemaining = list.scrollHeight - list.scrollTop - list.clientHeight;
+        wrapper.classList.toggle("has-more", scrollRemaining > 1);
+    }
+
+    list.addEventListener("scroll", updateFade);
+    window.addEventListener("resize", updateFade);
+    updateFade();
 }
 
 </script>

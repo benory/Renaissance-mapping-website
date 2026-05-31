@@ -124,6 +124,55 @@ strong {
   margin: 0;
 }
 
+#complete-targets-wrapper,
+#nearly-targets-wrapper {
+  padding-left: 18px;
+  position: relative;
+}
+
+#complete-targets-wrapper.has-more::after,
+#nearly-targets-wrapper.has-more::after {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.95)
+  );
+  bottom: 0;
+  content: "";
+  height: 24px;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}
+
+#complete-targets,
+#nearly-targets {
+  max-height: 204px;
+  margin-left: 0;
+  overflow-y: auto;
+  padding-right: 8px;
+  scrollbar-gutter: stable;
+}
+
+#complete-targets {
+  column-gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#complete-targets .complete-targets-column,
+#nearly-targets {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#complete-targets .complete-targets-column {
+  margin: 0;
+}
+
 .targets-list li {
   font-size: 15px;
   margin-bottom: 6px;

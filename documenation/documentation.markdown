@@ -18,11 +18,15 @@ nav: true
 <div class="targets-grid">
     <div class="targets-column">
         <h3>Complete</h3>
-        <ul id="complete-targets" class="targets-list"></ul>
+        <div id="complete-targets-wrapper">
+            <div id="complete-targets" class="targets-list"></div>
+        </div>
     </div>
     <div class="targets-column">
         <h3>Nearly Complete</h3>
-        <ul id="nearly-targets" class="targets-list"></ul>
+        <div id="nearly-targets-wrapper">
+            <ul id="nearly-targets" class="targets-list"></ul>
+        </div>
     </div>
 </div>
 
