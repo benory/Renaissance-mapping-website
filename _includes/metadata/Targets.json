@@ -274,7 +274,7 @@
 		"Target Type": "A",
 		"Last": "Willaert",
 		"First": "Adrian",
-		"Status": "30 events",
+		"Status": "36 events",
 		"Contributor": "LQ"
 	},
 	{
@@ -517,6 +517,12 @@
 		"Last": "Mureau",
 		"Status": "0 events",
 		"Contributor": "SMB"
+	},
+	{
+		"Target Type": "B",
+		"Last": "de Opitiis",
+		"First": "Benedictus",
+		"Status": "0 events"
 	},
 	{
 		"Target Type": "B",

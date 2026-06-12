@@ -10754,15 +10754,6 @@
 		"Date entered": "2023-3-9"
 	},
 	{
-		"Biography Musician (BMU) ID": "BMU:Piedrobon_de_Chitarino",
-		"Musician Name": "Piedrobon de Chitarino",
-		"Description": "musician at Ferrarese court",
-		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
-		"BIB Pages": "350",
-		"Input data": "RP",
-		"Date entered": "2024-10-25"
-	},
-	{
 		"Biography Musician (BMU) ID": "BMU:Pierino_di_Antonio",
 		"Musician Name": "Pierino di Antonio",
 		"Description": "singer in Florence, soprano",
@@ -11135,7 +11126,7 @@
 	{
 		"Biography Musician (BMU) ID": "BMU:Pietrobono_dal_Chitarino",
 		"Musician Name": "Pietrobono dal Chitarino",
-		"Alias": "Burzelli, Pietrobono",
+		"Alias": "Burzelli, Pietrobono; de Chitarino, Piedrobon",
 		"Description": "musician at Ferrarese court",
 		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
 		"BIB Pages": "358-59",

@@ -1,5 +1,18 @@
 [
 	{
+		"Biography Composer (BCO) ID": "BCO:Adrian_Willaert",
+		"Composer Name": "Adrian Willaert",
+		"Alias": "Adriano Fiammengo; Adrien, Adrian; Hadrian, Adrian; M. Adriano; Villaert, Adriano; Villahart, Adrian; Villahert, Adrian; Villard, Adrian; Villart; Vuigliard, Adrian; Vuigliart, Adrian; Vuillaert, Adrian; Vuillahert, Adrian; Wigliaret, Adrian; Willaert, Adriano; Willahert, Adrian; Willart, Adrianus",
+		"Birth Date": "~1490",
+		"Death Date": "1562",
+		"Description": "composer, maestro di cappella, music teacher, singer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/217/",
+		"RISM Link": "https://rism.online/people/30005312",
+		"Bibliography (BIB) ID": "BIB:Bossuyt_1985",
+		"Input data": "LQ",
+		"Date entered": "2026-05-21"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Adrien_Thiebault_dit_Pickart",
 		"Composer Name": "Adrien Thiebault dit Pickart",
 		"Alias": "Pickart, Adrien",
@@ -150,6 +163,19 @@
 		"Date entered": "2025-06-19"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Benedictus_Opitiis",
+		"Composer Name": "Benedictus Opitiis",
+		"Alias": "Benedictus de Opitiis; Benet de Opicijs; Deopitijs; Meester Benedictus,",
+		"Birth Date": "~1476",
+		"Death Date": "1524",
+		"Description": "composer, organist",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/621/",
+		"RISM Link": "https://rism.online/people/30009778",
+		"Bibliography (BIB) ID": "BIB:Squire_1912",
+		"Input data": "LQ",
+		"Date entered": "2026-06-10"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Bernardus_Ycart",
 		"Composer Name": "Bernardus Ycart",
 		"Alias": "Hicart, Bernar; Hicart, Bernhard; Hycaert, Bernhard; Hycart, Bernhard; Hyckaert, Bernhard; Icart, Bernhard; Ycaert, Bernhard; Ycart, Ber.; Ycart, Bernar; Ycart, Bernard; Ycart, Bernardus",
@@ -217,6 +243,29 @@
 		"Date entered": "2024-4-5",
 		"Update data": "BSO",
 		"Date updated": "2025-2-12"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Clement_Janequin",
+		"Composer Name": "Clément Janequin",
+		"Birth Date": "~1485",
+		"Death Date": "~1558",
+		"Description": "French composer and cleric",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/126/",
+		"RISM Link": "https://rism.online/people/30004014",
+		"Bibliography (BIB) ID": "BIB:Norsen_2024",
+		"Input data": "HC",
+		"Date entered": "2026-2-17"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Constans_Breuwe",
+		"Composer Name": "Constans Breuwe",
+		"Alias": "Breeu, Costinus; Brawe, Constans de Languebroek; de Trecht, Constans",
+		"Death Date": "1481",
+		"Description": "composer, singer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/474/",
+		"Bibliography (BIB) ID": "BIB:Fallows_2001",
+		"Input data": "AN",
+		"Date entered": "2026-3-15"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Cornelius_Canis",
@@ -304,6 +353,20 @@
 		"Date entered": "2024-2-22",
 		"Update data": "BSO",
 		"Date updated": "2025-2-12"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Firminus_Caron",
+		"Composer Name": "Firminus Caron",
+		"Alias": "le Caron, Fremin; Caron, Firmin; Caron, Philippe; Firmin, Caron; Firminus, Caron; Philippe, Caron",
+		"Birth Date": "~1430s",
+		"Death Date": "~1470s",
+		"Description": "composer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/82/",
+		"RISM Link": "https://rism.online/people/30005348",
+		"Bibliography (BIB) ID": "BIB:Wegman_2011",
+		"BIB Pages": "10-32",
+		"Input data": "AN",
+		"Date entered": "2026-3-15"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Francesco_de_Layolle",
@@ -446,6 +509,19 @@
 		"RISM Link": "https://rism.online/people/41009503",
 		"Input data": "SMB",
 		"Date entered": "2024-8-21"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Hayne_van_Ghizeghem",
+		"Composer Name": "Hayne van Ghizeghem",
+		"Alias": "Ayne; Ghizeghem, Hayne van; Groen Heyne; Haine; Hame; Hayne, Henri; Heine; Heyne; Scoen Hayne; Ghiseghem",
+		"Birth Date": "~1445",
+		"Death Date": "~1493-7",
+		"Description": "composer, performer, singer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/186/",
+		"RISM Link": "https://rism.online/people/30005404",
+		"Bibliography (BIB) ID": "BIB:Litterick_2001",
+		"Input data": "AN",
+		"Date entered": "2026-3-15"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Heinrich_Finck",
@@ -944,6 +1020,18 @@
 		"Date entered": "2025-08-27"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Leonel_Power",
+		"Composer Name": "Leonel Power",
+		"Alias": "Lionel; Lyonel; Leonellus; Leonelle Polbero",
+		"Death Date": "1445",
+		"Description": "composer, theorist",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/111/",
+		"RISM Link": "https://rism.online/people/30102578",
+		"Bibliography (BIB) ID": "BIB:Bent_2001b",
+		"Input data": "LQ",
+		"Date entered": "2026-4-14"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Loyset_Compere",
 		"Composer Name": "Loyset Compere",
 		"Death Date": "1518-8-16",
@@ -1238,6 +1326,19 @@
 		"Date updated": "2024-1-19"
 	},
 	{
+		"Biography Composer (BCO) ID": "BCO:Pierre_Fontaine",
+		"Composer Name": "Pierre Fontaine",
+		"Alias": "Perenet; Perrinet; Petrus; Fontaines; Fontainne; Fonte",
+		"Birth Date": "~1390",
+		"Death Date": "~1450",
+		"Description": "composer, priest",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/95/",
+		"RISM Link": "https://rism.online/people/30109681",
+		"Bibliography (BIB) ID": "BIB:Wright_1979",
+		"Input data": "LQ",
+		"Date entered": "2026-05-08"
+	},
+	{
 		"Biography Composer (BCO) ID": "BCO:Pietro_Aaron",
 		"Composer Name": "Pietro Aaron",
 		"Birth Date": "1480",
@@ -1264,6 +1365,16 @@
 		"Date entered": "2024-8-9",
 		"Update data": "BSO",
 		"Date updated": "2025-2-12"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Robert_Morton",
+		"Composer Name": "Robert Morton",
+		"Birth Date": "~1430",
+		"Death Date": "~1483",
+		"Description": "composer, chaplain",
+		"RISM Link": "https://rism.online/people/30005487",
+		"Input data": "HC",
+		"Date entered": "2026-4-26"
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Ruffino_Bartolucci",
@@ -1370,82 +1481,6 @@
 		"Date entered": "2026-1-7"
 	},
 	{
-		"Biography Composer (BCO) ID": "BCO:William_Cornysh",
-		"Composer Name": "William Cornysh",
-		"Alias": "Cornenysch, William; Cornish, William; Cornishe, William; Cornissh, William; Cornys, William; Cornysche, William; Cornyshe, William; Cornyssh, William; Cornysshe, William; Kornyche, William; William [Cornish]; William [Cornishe]; William [Cornysh]; William [Cornyshe]",
-		"Death Date": "1523-8",
-		"Description": "composer at Chapel Royal (British)",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/536/",
-		"RISM Link": "https://rism.online/people/30101129",
-		"Bibliography (BIB) ID": "BIB:Bowers_2001",
-		"Input data": "SMB",
-		"Date entered": "2024-8-9",
-		"Update data": "BSO",
-		"Date updated": "2025-2-12"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Clement_Janequin",
-		"Composer Name": "Clément Janequin",
-		"Birth Date": "~1485",
-		"Death Date": "~1558",
-		"Description": "French composer and cleric",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/126/",
-		"RISM Link": "https://rism.online/people/30004014",
-		"Bibliography (BIB) ID": "BIB:Norsen_2024",
-		"Input data": "HC",
-		"Date entered": "2026-2-17"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Firminus_Caron",
-		"Composer Name": "Firminus Caron",
-		"Alias": "le Caron, Fremin; Caron, Firmin; Caron, Philippe; Firmin, Caron; Firminus, Caron; Philippe, Caron",
-		"Birth Date": "~1430s",
-		"Death Date": "~1470s",
-		"Description": "composer",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/82/",
-		"RISM Link": "https://rism.online/people/30005348",
-		"Bibliography (BIB) ID": "BIB:Wegman_2011",
-		"BIB Pages": "10-32",
-		"Input data": "AN",
-		"Date entered": "2026-3-15"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Hayne_van_Ghizeghem",
-		"Composer Name": "Hayne van Ghizeghem",
-		"Alias": "Ayne; Ghizeghem, Hayne van; Groen Heyne; Haine; Hame; Hayne, Henri; Heine; Heyne; Scoen Hayne; Ghiseghem",
-		"Birth Date": "~1445",
-		"Death Date": "~1493-7",
-		"Description": "composer, performer, singer",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/186/",
-		"RISM Link": "https://rism.online/people/30005404",
-		"Bibliography (BIB) ID": "BIB:Litterick_2001",
-		"Input data": "AN",
-		"Date entered": "2026-3-15"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Constans_Breuwe",
-		"Composer Name": "Constans Breuwe",
-		"Alias": "Breeu, Costinus; Brawe, Constans de Languebroek; de Trecht, Constans",
-		"Death Date": "1481",
-		"Description": "composer, singer",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/474/",
-		"Bibliography (BIB) ID": "BIB:Fallows_2001",
-		"Input data": "AN",
-		"Date entered": "2026-3-15"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Leonel_Power",
-		"Composer Name": "Leonel Power",
-		"Alias": "Lionel; Lyonel; Leonellus; Leonelle Polbero",
-		"Death Date": "1445",
-		"Description": "composer, theorist",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/111/",
-		"RISM Link": "https://rism.online/people/30102578",
-		"Bibliography (BIB) ID": "BIB:Bent_2001b",
-		"Input data": "LQ",
-		"Date entered": "2026-4-14"
-	},
-	{
 		"Biography Composer (BCO) ID": "BCO:Walter_Frye",
 		"Composer Name": "Walter Frye",
 		"Alias": "Ffrye; Frew; Frey; Frie",
@@ -1458,39 +1493,17 @@
 		"Date entered": "2026-4-16"
 	},
 	{
-		"Biography Composer (BCO) ID": "BCO:Robert_Morton",
-		"Composer Name": "Rober Morton",
-		"Birth Date": "~1430",
-		"Death Date": "~1483",
-		"Description": "composer, chaplain",
-		"RISM Link": "https://rism.online/people/30005487",
-		"Input data": "HC",
-		"Date entered": "2026-4-26"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Pierre_Fontaine",
-		"Composer Name": "Pierre Fontaine",
-		"Alias": "Perenet; Perrinet; Petrus; Fontaines; Fontainne; Fonte",
-		"Birth Date": "~1390",
-		"Death Date": "~1450",
-		"Description": "composer, priest",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/95/",
-		"RISM Link": "https://rism.online/people/30109681",
-		"Bibliography (BIB) ID": "BIB:Wright_1979",
-		"Input data": "LQ",
-		"Date entered": "2026-05-08"
-	},
-	{
-		"Biography Composer (BCO) ID": "BCO:Adrian_Willaert",
-		"Composer Name": "Adrian Willaert",
-		"Alias": "Adriano Fiammengo; Adrien, Adrian; Hadrian, Adrian; M. Adriano; Villaert, Adriano; Villahart, Adrian; Villahert, Adrian; Villard, Adrian; Villart; Vuigliard, Adrian; Vuigliart, Adrian; Vuillaert, Adrian; Vuillahert, Adrian; Wigliaret, Adrian; Willaert, Adriano; Willahert, Adrian; Willart, Adrianus",
-		"Birth Date": "~1490",
-		"Death Date": "1562",
-		"Description": "composer, maestro di cappella, music teacher, singer",
-		"DIAMM Link": "https://www.diamm.ac.uk/people/217/",
-		"RISM Link": "https://rism.online/people/30005312",
-		"Bibliography (BIB) ID": "BIB:Bossuyt_1985",
-		"Input data": "LQ",
-		"Date entered": "2026-05-21"
+		"Biography Composer (BCO) ID": "BCO:William_Cornysh",
+		"Composer Name": "William Cornysh",
+		"Alias": "Cornenysch, William; Cornish, William; Cornishe, William; Cornissh, William; Cornys, William; Cornysche, William; Cornyshe, William; Cornyssh, William; Cornysshe, William; Kornyche, William; William [Cornish]; William [Cornishe]; William [Cornysh]; William [Cornyshe]",
+		"Death Date": "1523-8",
+		"Description": "composer at Chapel Royal (British)",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/536/",
+		"RISM Link": "https://rism.online/people/30101129",
+		"Bibliography (BIB) ID": "BIB:Bowers_2001",
+		"Input data": "SMB",
+		"Date entered": "2024-8-9",
+		"Update data": "BSO",
+		"Date updated": "2025-2-12"
 	}
 ]

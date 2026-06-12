@@ -1766,5 +1766,27 @@
 		"Publisher": "Palais des Académies",
 		"Publication Year": "1940",
 		"Input data": "ECZ"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Squire_1912",
+		"Author": "W. Barclay Squire",
+		"Name of Article": "Who was \"Benedictus\"?",
+		"Name of Volume/Journal": "Sammelbände der Internationalen Musikgesellschaft",
+		"Volume": "13",
+		"Publication Year": "1912",
+		"Pages": "264-271",
+		"URL": "https://www.jstor.org/stable/929464",
+		"Input data": "LQ",
+		"Date entered": "2026-06-10"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Forney_2001",
+		"Author": "Kristine Forney",
+		"Name of Article": "Opitiis, Benedictus de",
+		"Name of Volume/Journal": "Grove Music Online",
+		"Publication Year": "2001",
+		"URL": "https://doi.org/10.1093/gmo/9781561592630.article.20391",
+		"Input data": "LQ",
+		"Date entered": "2026-06-11"
 	}
 ]
