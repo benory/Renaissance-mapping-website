@@ -177,6 +177,16 @@
 		"Date entered": "2024-1-24"
 	},
 	{
+		"Location ID (LOC)": "LOC:Arras",
+		"Name of Location": "Arras",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/2Z7ZQmu3NG5tAmjGA",
+		"Coordinates": "50.291842220277395, 2.776820419526591",
+		"Wikidata": "Q11884",
+		"Input data": "ECZ",
+		"Date entered": "2026-05-27"
+	},
+	{
 		"Location ID (LOC)": "LOC:Assisi",
 		"Name of Location": "Assisi",
 		"Modern Country": "Italy",
@@ -314,6 +324,16 @@
 		"Date entered": "2023-5-15"
 	},
 	{
+		"Location ID (LOC)": "LOC:Bas-Ittre",
+		"Name of Location": "Bas-Ittre",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/fsUbBhMNrkdwxtuX7",
+		"Coordinates": "50.650323235488074, 4.264717017349738",
+		"Description": "Modern-day Ittre",
+		"Input data": "RP",
+		"Date entered": "2026-4-10"
+	},
+	{
 		"Location ID (LOC)": "LOC:Basel",
 		"Name of Location": "Basel",
 		"Modern Country": "Switzerland",
@@ -349,6 +369,15 @@
 		"Coordinates": "48.477293091364785, 6.31423006618551",
 		"Input data": "LO",
 		"Date entered": "2025-2-16"
+	},
+	{
+		"Location ID (LOC)": "LOC:Beauvais",
+		"Name of Location": "Beauvais",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/PN4CwyncL8KdqxhJ7",
+		"Coordinates": "49.42942536728422, 2.0823762975429294",
+		"Input data": "AN",
+		"Date entered": "2026-03-15"
 	},
 	{
 		"Location ID (LOC)": "LOC:Beauvais-Saint-Lucien",
@@ -757,6 +786,25 @@
 		"Date updated": "2024-3-20"
 	},
 	{
+		"Location ID (LOC)": "LOC:Canterbury",
+		"Name of Location": "Canterbury",
+		"Modern Country": "England",
+		"Google URL": "https://maps.app.goo.gl/rrb8NX3FpRHJzghRA",
+		"Coordinates": "51.285690616337014, 1.0803433227539154",
+		"Input data": "LQ",
+		"Date entered": "2026-4-14"
+	},
+	{
+		"Location ID (LOC)": "LOC:Canterbury-Canterbury_Cathedral",
+		"Name of Location": "Canterbury Cathedral",
+		"City or Larger Place": "Canterbury",
+		"Modern Country": "England",
+		"Google URL": "https://maps.app.goo.gl/hzzuUccsezKaeHkVA",
+		"Coordinates": "51.2803308383176, 1.0833145767211971",
+		"Input data": "LQ",
+		"Date entered": "2026-4-14"
+	},
+	{
 		"Location ID (LOC)": "LOC:Carpentras",
 		"Name of Location": "Carpentras",
 		"Modern Country": "France",
@@ -1152,6 +1200,16 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Location ID (LOC)": "LOC:Ely-Ely_Cathedral",
+		"Name of Location": "Ely Cathedral",
+		"City or Larger Place": "Ely",
+		"Modern Country": "England",
+		"Google URL": "https://maps.app.goo.gl/XyocCYgRTjNPf5iM9",
+		"Coordinates": "52.39920016787068, 0.26393191534423943",
+		"Input data": "LQ",
+		"Date entered": "2026-4-27"
+	},
+	{
 		"Location ID (LOC)": "LOC:Enghien",
 		"Name of Location": "Enghien",
 		"Modern Country": "Belgium",
@@ -1456,6 +1514,15 @@
 		"Date entered": "2026-01-22"
 	},
 	{
+		"Location ID (LOC)": "LOC:Goudswaard",
+		"Name of Location": "Goudswaard",
+		"Modern Country": "Netherlands",
+		"Google URL": "https://maps.app.goo.gl/3NyiyyZsrUgUZtoa7",
+		"Coordinates": "51.79414206063275, 4.277359849118192",
+		"Input data": "HC",
+		"Date entered": "2026-4-26"
+	},
+	{
 		"Location ID (LOC)": "LOC:Grammont",
 		"Name of Location": "Grammont",
 		"Modern Country": "Belgium",
@@ -1680,6 +1747,15 @@
 		"Date entered": "2024-1-25"
 	},
 	{
+		"Location ID (LOC)": "LOC:Lamotte",
+		"Name of Location": "Lamotte",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/cYeBVhr4jonLc6w6A",
+		"Coordinates": "48.21139908623184, 5.683619542327402",
+		"Input data": "RP",
+		"Date entered": "2026-2-28"
+	},
+	{
 		"Location ID (LOC)": "LOC:Langres",
 		"Name of Location": "Langres",
 		"Modern Country": "France",
@@ -1790,6 +1866,15 @@
 		"Date entered": "2024-7-11"
 	},
 	{
+		"Location ID (LOC)": "LOC:Le_Quesnoy",
+		"Name of Location": "Le Quesnoy",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/bjGbpncRHKZwgZ9UA",
+		"Coordinates": "50.24760436287704, 3.634838713686063",
+		"Input data": "HC",
+		"Date entered": "2026-4-26"
+	},
+	{
 		"Location ID (LOC)": "LOC:Le-Cateau-Cambresis",
 		"Name of Location": "Le Cateau-Cambrésis",
 		"Modern Country": "France",
@@ -1873,6 +1958,15 @@
 		"Date entered": "2024-1-23"
 	},
 	{
+		"Location ID (LOC)": "LOC:Liege",
+		"Name of Location": "Liège",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/DLy4AWp1fZBR1ywb6",
+		"Coordinates": "50.64003393669211, 5.568718599500346",
+		"Input data": "HC",
+		"Date entered": "2026-4-26"
+	},
+	{
 		"Location ID (LOC)": "LOC:Liege-Notre_Dame_et_Saint_Lambert",
 		"Name of Location": "Notre Dame et Saint Lambert de Liège",
 		"City or Larger Place": "Liège",
@@ -1891,6 +1985,16 @@
 		"Coordinates": "47.12054696183189, 0.42299109743722096",
 		"Input data": "BSO",
 		"Date entered": "2023-5-17"
+	},
+	{
+		"Location ID (LOC)": "LOC:Lille",
+		"Name of Location": "Lille",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/8AASttJQBtaTGxZdA",
+		"Coordinates": "50.62498099997016, 3.067951881666397",
+		"Wikidata": "Q23197",
+		"Input data": "ECZ",
+		"Date entered": "2026-05-27"
 	},
 	{
 		"Location ID (LOC)": "LOC:Lille-Archives_Departmentales",
@@ -2360,6 +2464,15 @@
 		"Coordinates": "46.40941315080728, 3.0570018654817965",
 		"Input data": "RP",
 		"Date entered": "2024-7-11"
+	},
+	{
+		"Location ID (LOC)": "LOC:Montbeliard",
+		"Name of Location": "Montbéliard",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/scLCiyCb7VR3sVZLA",
+		"Coordinates": "47.51405811591935, 6.800686645507831",
+		"Input data": "LQ",
+		"Date entered": "2026-05-18"
 	},
 	{
 		"Location ID (LOC)": "LOC:Montbonnot",
@@ -3046,6 +3159,24 @@
 		"Date entered": "2024-9-28"
 	},
 	{
+		"Location ID (LOC)": "LOC:Provins",
+		"Name of Location": "Provins",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/TwvrLPVvyPMoowjP9",
+		"Coordinates": "48.5668753937906, 3.2972833862304225",
+		"Input data": "LQ",
+		"Date entered": "2026-05-08"
+	},
+	{
+		"Location ID (LOC)": "LOC:Puy-Sainte-Reparade",
+		"Name of Location": "Le Puy-Sainte-Réparade",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/3Kw6QfWt26PrKR4M7",
+		"Coordinates": "43.66233833346756, 5.434365654797668",
+		"Input data": "RP",
+		"Date entered": "2026-2-28"
+	},
+	{
 		"Location ID (LOC)": "LOC:Quartes",
 		"Name of Location": "Quartes",
 		"Modern Country": "Belgium",
@@ -3269,6 +3400,15 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Location ID (LOC)": "LOC:Saint_Aubin",
+		"Name of Location": "Saint-Aubin",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/HVcM4sTY7sov96ML8",
+		"Coordinates": "46.9505108812993, 4.7089282951085485",
+		"Input data": "RP",
+		"Date entered": "2026-2-28"
+	},
+	{
 		"Location ID (LOC)": "LOC:Saint_Omer-Cathedrale_Notre-Dame",
 		"Name of Location": "Cathédrale Notre-Dame de Saint-Omer",
 		"City or Larger Place": "Saint-Omer",
@@ -3350,6 +3490,16 @@
 		"Coordinates": "48.64935410614159, -2.0262047000978463",
 		"Input data": "BSO",
 		"Date entered": "2024-1-25"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint-Maximin-la-Sainte-Baume-Basilique_Sainte_Marie_Madeleine",
+		"Name of Location": "Basilique Sainte Marie Madeleine",
+		"City or Larger Place": "Saint-Maximin-la-Sainte-Baume",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/XdUtBaGd9hQaZ1kq7",
+		"Coordinates": "43.4527163507748, 5.864104158313887",
+		"Input data": "RP",
+		"Date entered": "2026-2-28"
 	},
 	{
 		"Location ID (LOC)": "LOC:Saint-Omer",
@@ -3850,6 +4000,15 @@
 		"Date entered": "2024-3-13"
 	},
 	{
+		"Location ID (LOC)": "LOC:Ursel",
+		"Name of Location": "Ursel",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/Cv46UmcigXj8nTFi6",
+		"Coordinates": "51.129658953568644, 3.485392130332233",
+		"Input data": "ECZ",
+		"Date entered": "2026-05-27"
+	},
+	{
 		"Location ID (LOC)": "LOC:Utrecht",
 		"Name of Location": "Utrecht",
 		"Modern Country": "Netherlands",
@@ -4144,6 +4303,16 @@
 		"Date entered": "2024-7-28"
 	},
 	{
+		"Location ID (LOC)": "LOC:Woking-Woking_Palace",
+		"Name of Location": "Woking Palace",
+		"City or Larger Place": "Surrey",
+		"Modern Country": "England",
+		"Google URL": "https://maps.app.goo.gl/eSkyY3pNmt4twUAw9",
+		"Coordinates": "51.30385002347613, -0.5245429153442394",
+		"Input data": "LQ",
+		"Date entered": "2026-4-14"
+	},
+	{
 		"Location ID (LOC)": "LOC:Worms",
 		"Name of Location": "Worms",
 		"Modern Country": "Germany",
@@ -4207,174 +4376,5 @@
 		"Coordinates": "52.139647585105244, 6.196457023579652",
 		"Input data": "LO",
 		"Date entered": "2025-2-15"
-	},
-	{
-		"Location ID (LOC)": "LOC:Saint_Aubin",
-		"Name of Location": "Saint-Aubin",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/HVcM4sTY7sov96ML8",
-		"Coordinates": "46.9505108812993, 4.7089282951085485",
-		"Input data": "RP",
-		"Date entered": "2026-2-28"
-	},
-	{
-		"Location ID (LOC)": "LOC:Lamotte",
-		"Name of Location": "Lamotte",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/cYeBVhr4jonLc6w6A",
-		"Coordinates": "48.21139908623184, 5.683619542327402",
-		"Input data": "RP",
-		"Date entered": "2026-2-28"
-	},
-	{
-		"Location ID (LOC)": "LOC:Puy-Sainte-Reparade",
-		"Name of Location": "Le Puy-Sainte-Réparade",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/3Kw6QfWt26PrKR4M7",
-		"Coordinates": "43.66233833346756, 5.434365654797668",
-		"Input data": "RP",
-		"Date entered": "2026-2-28"
-	},
-	{
-		"Location ID (LOC)": "LOC:Saint-Maximin-la-Sainte-Baume-Basilique_Sainte_Marie_Madeleine",
-		"Name of Location": "Basilique Sainte Marie Madeleine",
-		"City or Larger Place": "Saint-Maximin-la-Sainte-Baume",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/XdUtBaGd9hQaZ1kq7",
-		"Coordinates": "43.4527163507748, 5.864104158313887",
-		"Input data": "RP",
-		"Date entered": "2026-2-28"
-	},
-	{
-		"Location ID (LOC)": "LOC:Beauvais",
-		"Name of Location": "Beauvais",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/PN4CwyncL8KdqxhJ7",
-		"Coordinates": "49.42942536728422, 2.0823762975429294",
-		"Input data": "AN",
-		"Date entered": "2026-03-15"
-	},
-	{
-		"Location ID (LOC)": "LOC:Bas-Ittre",
-		"Name of Location": "Bas-Ittre",
-		"Modern Country": "Belgium",
-		"Google URL": "https://maps.app.goo.gl/fsUbBhMNrkdwxtuX7",
-		"Coordinates": "50.650323235488074, 4.264717017349738",
-		"Description": "Modern-day Ittre",
-		"Input data": "RP",
-		"Date entered": "2026-4-10"
-	},
-	{
-		"Location ID (LOC)": "LOC:Woking-Woking_Palace",
-		"Name of Location": "Woking Palace",
-		"City or Larger Place": "Surrey",
-		"Modern Country": "England",
-		"Google URL": "https://maps.app.goo.gl/eSkyY3pNmt4twUAw9",
-		"Coordinates": "51.30385002347613, -0.5245429153442394",
-		"Input data": "LQ",
-		"Date entered": "2026-4-14"
-	},
-	{
-		"Location ID (LOC)": "LOC:Canterbury-Canterbury_Cathedral",
-		"Name of Location": "Canterbury Cathedral",
-		"City or Larger Place": "Canterbury",
-		"Modern Country": "England",
-		"Google URL": "https://maps.app.goo.gl/hzzuUccsezKaeHkVA",
-		"Coordinates": "51.2803308383176, 1.0833145767211971",
-		"Input data": "LQ",
-		"Date entered": "2026-4-14"
-	},
-	{
-		"Location ID (LOC)": "LOC:Canterbury",
-		"Name of Location": "Canterbury",
-		"Modern Country": "England",
-		"Google URL": "https://maps.app.goo.gl/rrb8NX3FpRHJzghRA",
-		"Coordinates": "51.285690616337014, 1.0803433227539154",
-		"Input data": "LQ",
-		"Date entered": "2026-4-14"
-	},
-	{
-		"Location ID (LOC)": "LOC:Goudswaard",
-		"Name of Location": "Goudswaard",
-		"Modern Country": "Netherlands",
-		"Google URL": "https://maps.app.goo.gl/3NyiyyZsrUgUZtoa7",
-		"Coordinates": "51.79414206063275, 4.277359849118192",
-		"Input data": "HC",
-		"Date entered": "2026-4-26"
-	},
-	{
-		"Location ID (LOC)": "LOC:Liege",
-		"Name of Location": "Liège",
-		"Modern Country": "Belgium",
-		"Google URL": "https://maps.app.goo.gl/DLy4AWp1fZBR1ywb6",
-		"Coordinates": "50.64003393669211, 5.568718599500346",
-		"Input data": "HC",
-		"Date entered": "2026-4-26"
-	},
-	{
-		"Location ID (LOC)": "LOC:Le_Quesnoy",
-		"Name of Location": "Le Quesnoy",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/bjGbpncRHKZwgZ9UA",
-		"Coordinates": "50.24760436287704, 3.634838713686063",
-		"Input data": "HC",
-		"Date entered": "2026-4-26"
-	},
-	{
-		"Location ID (LOC)": "LOC:Ely-Ely_Cathedral",
-		"Name of Location": "Ely Cathedral",
-		"City or Larger Place": "Ely",
-		"Modern Country": "England",
-		"Google URL": "https://maps.app.goo.gl/XyocCYgRTjNPf5iM9",
-		"Coordinates": "52.39920016787068, 0.26393191534423943",
-		"Input data": "LQ",
-		"Date entered": "2026-4-27"
-	},
-	{
-		"Location ID (LOC)": "LOC:Provins",
-		"Name of Location": "Provins",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/TwvrLPVvyPMoowjP9",
-		"Coordinates": "48.5668753937906, 3.2972833862304225",
-		"Input data": "LQ",
-		"Date entered": "2026-05-08"
-	},
-	{
-		"Location ID (LOC)": "LOC:Montbeliard",
-		"Name of Location": "Montbéliard",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/scLCiyCb7VR3sVZLA",
-		"Coordinates": "47.51405811591935, 6.800686645507831",
-		"Input data": "LQ",
-		"Date entered": "2026-05-18"
-	},
-	{
-		"Location ID (LOC)": "LOC:Arras",
-		"Name of Location": "Arras",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/2Z7ZQmu3NG5tAmjGA",
-		"Coordinates": "50.29167, 2.77861",
-		"Wikidata": "Q11884",
-		"Input data": "ECZ",
-		"Date entered": "2026-05-27"
-	},
-	{
-		"Location ID (LOC)": "LOC:Lille",
-		"Name of Location": "Lille",
-		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/8AASttJQBtaTGxZdA",
-		"Coordinates": "50.62925, 3.05726",
-		"Wikidata": "Q23197",
-		"Input data": "ECZ",
-		"Date entered": "2026-05-27"
-	},
-	{
-		"Location ID (LOC)": "LOC:Ursel",
-		"Name of Location": "Ursel",
-		"Modern Country": "Belgium",
-		"Google URL": "https://maps.app.goo.gl/Cv46UmcigXj8nTFi6",
-		"Coordinates": "51.08333, 3.41667",
-		"Input data": "ECZ",
-		"Date entered": "2026-05-27"
 	}
 ]

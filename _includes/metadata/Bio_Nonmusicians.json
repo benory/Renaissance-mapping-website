@@ -1,15 +1,5 @@
 [
 	{
-		"Biography Non-Musician (BNO) ID": "BNO:Adolf_de_la_Verderue",
-		"Person Name": "Adolf de la Verderue",
-		"Alias": "de Hietveld, Adolf; de Liestvelde, Adolf; de Verderue, Adolf; de la Verderue, Adorlf; de la Verde, Adolphe; de la Verderue, Adolphe",
-		"Noted Positions": "clerk at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "262",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
-	},
-	{
 		"Biography Non-Musician (BNO) ID": "BNO:Adrian_VI",
 		"Person Name": "Pope Adrian VI",
 		"Alias": "Adriaan Florensz Boeyens",
@@ -33,6 +23,15 @@
 		"Date entered": "2024-1-19",
 		"Update data": "BSO",
 		"Date updated": "2024-1-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Agostino_Bonfranceschi_da_Rimini",
+		"Person Name": "Agostino Bonfranceschi da Rimini",
+		"Noted Positions": "lawyer; Este court advisor",
+		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
+		"BIB Pages": "438",
+		"Input data": "AN",
+		"Date entered": "2026-6-3"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Aldrovandini_Sacrati",
@@ -89,6 +88,15 @@
 		"Date updated": "2024-1-19"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Alphonse_Carlier",
+		"Person Name": "Alphonse Carlier",
+		"Noted Positions": "son of Nicole Carlier, who was choirmaster at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "90",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Ambrogio_Angeni",
 		"Person Name": "Ambrogio Angeni",
 		"Birth Date": "1459",
@@ -120,6 +128,27 @@
 		"Noted Positions": "Dutchess of Brittany (r. 1488–1514); Queen of France (r. 1491–1514)",
 		"Input data": "BSO",
 		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Antoine_I_de_Lalaing",
+		"Person Name": "Antoine I de Lalaing",
+		"Birth Date": "c.1480",
+		"Death Date": "1540",
+		"Noted Positions": "First count of Hoogstraten and of Culemborg",
+		"Description": "Nobleman of Hainaut",
+		"Bibliography ID (BIB)": "BIB:Wouters_1890",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Arnoult_de_Lieuwere",
+		"Person Name": "Arnoult de Lieuwere",
+		"Alias": "de Leeuwere, Ernoul",
+		"Noted Positions": "quartermaster at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "80",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Ascanio_Sforza",
@@ -157,6 +186,26 @@
 		"Person Name": "Bernadino Salvetti",
 		"Input data": "BSO",
 		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Biagio_da_Birago",
+		"Person Name": "Biagio da Birago",
+		"Noted Positions": "noble at Este court; master of the stables",
+		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
+		"BIB Pages": "438",
+		"Input data": "AN",
+		"Date entered": "2026-6-3"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Borso_d_Este",
+		"Person Name": "Borso d'Este",
+		"Birth Date": "1413",
+		"Death Date": "1471-08-20",
+		"Noted Positions": "first Duke of Ferrara and Modena",
+		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
+		"BIB Pages": "432",
+		"Input data": "AN",
+		"Date entered": "2026-6-3"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Carlo_da_Correggio",
@@ -287,7 +336,7 @@
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Cornille_de_Grave",
 		"Person Name": "Cornille de Grave",
-		"Noted Positions": "clerk at Imperial chapel of Charles V",
+		"Noted Positions": "chaplain and cleric at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2012",
 		"BIB Pages": "46",
 		"Internal notes": "update aliases",
@@ -305,6 +354,15 @@
 		"BIB Pages": "109",
 		"Input data": "SC",
 		"Date entered": "2025-06-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Domenico_di_Paris",
+		"Person Name": "Domenico di Paris",
+		"Noted Positions": "Ferrarese sculptor",
+		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
+		"BIB Pages": "442",
+		"Input data": "AN",
+		"Date entered": "2026-6-3"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Enea_Pio",
@@ -360,6 +418,24 @@
 		"Date entered": "2024-3-31"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Francequin",
+		"Person Name": "Francequin",
+		"Noted Positions": "calcant/souffleur d’orghes (responsible for adding air into the organ bellows) at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "80",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Francesco_II_Gonzaga",
+		"Person Name": "Francesco II Gonzaga",
+		"Birth Date": "1466-8-10",
+		"Death Date": "1519-3-29",
+		"Noted Positions": "Marquis of Mantua",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Francis_I",
 		"Person Name": "Francis I, King of France",
 		"Birth Date": "1494-9-12",
@@ -380,7 +456,7 @@
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Fransquin_du_Breuck",
 		"Person Name": "Fransquin du Breuck",
-		"Noted Positions": "cleric at the Imperial chapel of Charles V",
+		"Noted Positions": "clerk at the Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "201",
 		"Input data": "AN",
@@ -391,6 +467,44 @@
 		"Person Name": "G. da Sestola dicto Coglia",
 		"Input data": "BSO",
 		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Galeazzo_Maria_Sforza",
+		"Person Name": "Galeazzo Maria Sforza",
+		"Birth Date": "1444-1-24",
+		"Death Date": "1476-12-26",
+		"Noted Positions": "Fifth Duke of Milan from 1466 until 1476",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "354",
+		"Input data": "RP",
+		"Date entered": "2026-3-3"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:George_Cely",
+		"Person Name": "George Cely",
+		"Noted Positions": "wool merchant",
+		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
+		"BIB Pages": "451",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:George_dAmboise",
+		"Person Name": "George d'Amboise",
+		"Alias": "Cardinal d'Amboise",
+		"Birth Date": "1460",
+		"Death Date": "1510-5-25",
+		"Noted Positions": "Cardinal",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Georges_Olivier_de_Pannard",
+		"Person Name": "Georges-Olivier de Pannard",
+		"Death Date": "1481-1-28",
+		"Noted Positions": "Archbishop of Aix-en-Provence",
+		"Input data": "RP",
+		"Date entered": "2026-2-28"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Gian_de_Artiganova",
@@ -420,6 +534,15 @@
 		"Date entered": "2023-5-8"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Giovanni_Tommaso_da_Reggio",
+		"Person Name": "Giovanni Tommaso da Reggio",
+		"Noted Positions": "adopted by Pietrobono; possible apprentice",
+		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
+		"BIB Pages": "438",
+		"Input data": "AN",
+		"Date entered": "2026-6-3"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Giovanni_Tommaso_Manfredi",
 		"Person Name": "Giovanni Tommaso Manfredi",
 		"Description": "Ferrarese courtier",
@@ -432,6 +555,15 @@
 		"Alias": "Hieronymus Beltramus",
 		"Input data": "BSO",
 		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Girolamo_Bonfranceschi",
+		"Person Name": "Girolamo Bonfranceschi",
+		"Noted Positions": "banker; brother of Agostino Bonfranceschi",
+		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
+		"BIB Pages": "438",
+		"Input data": "AN",
+		"Date entered": "2026-6-3"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Giulio_de_Medici",
@@ -470,6 +602,17 @@
 		"Date updated": "2024-1-19"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Guidantonio_Arcimboldi",
+		"Person Name": "Guidantonio Arcimboldi",
+		"Alias": "Guido Antonio Arcimboldi",
+		"Birth Date": "1428",
+		"Death Date": "1497-10-18",
+		"Noted Positions": "Archbishop of Milan",
+		"Bibliography ID (BIB)": "BIB:Raponi_1961",
+		"Input data": "RP",
+		"Date entered": "2026-3-8"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Guillaume_Cretin",
 		"Person Name": "Guillaume Cretin",
 		"Death Date": "1525",
@@ -478,9 +621,19 @@
 		"Date entered": "2024-9-22"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Guillaume_de_Vandenesse",
+		"Person Name": "Guillaume de Vandenesse",
+		"Noted Positions": "curtain sommelier at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "64",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Henry_Smetz",
 		"Person Name": "Henry Smetz",
-		"Alias": "Smets, Henry; Smetz, Henriz",
+		"Alias": "Smets, Henry; Smetz, Henriz; Semette, Henry; Sermette, Henry",
 		"Noted Positions": "calcant/souffleur d’orghes (responsible for adding air into the organ bellows) at the Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "202",
@@ -509,10 +662,67 @@
 		"Date entered": "2023-5-8"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Isabella_dEste",
+		"Person Name": "Isabella d'Este",
+		"Birth Date": "1474-5-19",
+		"Death Date": "1539-2-13",
+		"Noted Positions": "Marchioness of Mantua",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jacopo_Lorenzo_de_Vancio",
+		"Person Name": "Jacopo Lorenzo de Vancio",
+		"Noted Positions": "notary; head of the Este court’s property survey",
+		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
+		"BIB Pages": "438",
+		"Input data": "AN",
+		"Date entered": "2026-6-3"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Jacque_Banestonne",
 		"Person Name": "Jacque Banestonne",
 		"Input data": "FEM",
 		"Date entered": "2023-6-7"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jean_dAuton",
+		"Person Name": "Jean d'Auton",
+		"Alias": "Jehan d'Authon, dit l’abbé d’Angles",
+		"Birth Date": "c.1466",
+		"Death Date": "1528-1",
+		"Description": "French monk, chronicler and historian",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jean_de_Helcleux",
+		"Person Name": "Jean de Helcleux",
+		"Alias": "de Helcuez, Jehan; de Helviez, Juan",
+		"Noted Positions": "curtain sommelier at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "64",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jean_Molinet",
+		"Person Name": "Jean Molinet",
+		"Birth Date": "1435",
+		"Death Date": "1507-8-23",
+		"Description": "Burgundian poet, chronicler and composer",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jean_Montissart",
+		"Person Name": "Jean Montissart",
+		"Noted Positions": "Bishop of Tournai in 1489",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "362",
+		"Input data": "RP",
+		"Date entered": "2026-3-14"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Jehan_Bauduwin",
@@ -527,7 +737,7 @@
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Jehan_Champepin",
 		"Person Name": "Jehan Champepin",
-		"Noted Positions": "cleric at the Imperial chapel of Charles V",
+		"Noted Positions": "clerk at the Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "201",
 		"Input data": "AN",
@@ -544,14 +754,43 @@
 		"Date entered": "2024-8-21"
 	},
 	{
-		"Biography Non-Musician (BNO) ID": "BNO:Jenin_Mathieu",
-		"Person Name": "Jenin Mathieu",
-		"Alias": "Mathieu, Jennin; Matieu, Juanino; Mahieu, Johannes; Mahieu alias Hauret, Johannes; de Haurecke, Johannes; Mathieu, Joes; Mahyeu alias de Hauret, Johannes; Mathieu dit Cappelleman, Johannes; Mathieu, Joannes; Cappelman;   Mathieu, Johannes; Mathieu, Jehan; Cappelman, Joannes",
-		"Noted Positions": "cleric at the Imperial chapel of Charles V",
+		"Biography Non-Musician (BNO) ID": "BNO:Jehan_Le_Blanc",
+		"Person Name": "Jehan Le Blanc",
+		"Noted Positions": "curtain sommelier at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "64",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jehan_Prevost",
+		"Person Name": "Jehan Prévost",
+		"Noted Positions": "oratory sommelier at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "78",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jenin_Mathieu_dit_Cappelleman",
+		"Person Name": "Jenin Mathieu dit Cappelleman",
+		"Alias": "Mathieu, Jennin; Matieu, Juanino; Mahieu, Johannes; Mahieu alias Hauret, Johannes; de Haurecke, Johannes; Mathieu, Joes; Mahyeu alias de Hauret, Johannes; Mathieu dit Cappelleman, Johannes; Mathieu, Joannes; Cappelman;   Mathieu, Johannes; Mathieu, Jehan; Cappelman, Joannes; Mathieu, Jenin",
+		"Noted Positions": "clerk at the Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2014",
 		"BIB Pages": "201",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Johannes_Boucault",
+		"Person Name": "Johannes Boucault",
+		"Noted Positions": "employed at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "68",
+		"Internal notes": "listed in the part of the paylist that I've found usually houses non-musician employees, but there's little information on him",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Johannes_de_Bovere",
@@ -562,23 +801,6 @@
 		"Internal notes": "update aliases",
 		"Input data": "AN",
 		"Date entered": "2025-10-03"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Johannes_Orceau",
-		"Person Name": "Johannes Orceau",
-		"Death Date": "1512",
-		"Noted Positions": "scribe of the Sistine chapel, 1501–12; died fall 1512",
-		"Input data": "BSO",
-		"Date entered": "2023-5-8"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Johannes_Willebroot_le_jeusne",
-		"Person Name": "Johannes Willebroot le jeusne",
-		"Noted Positions": "altarboy at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "263",
-		"Input data": "AN",
-		"Date entered": "2025-08-26"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Johannes_de_Porta",
@@ -593,6 +815,23 @@
 		"Date entered": "2026-04-10"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Johannes_Orceau",
+		"Person Name": "Johannes Orceau",
+		"Death Date": "1512",
+		"Noted Positions": "scribe of the Sistine chapel, 1501–12; died fall 1512",
+		"Input data": "BSO",
+		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Johannes_Panin",
+		"Person Name": "Johannes Panin",
+		"Noted Positions": "clerk at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "91",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:John_of_Burgundy",
 		"Person Name": "John of Burgundy",
 		"Birth Date": "1404",
@@ -602,6 +841,15 @@
 		"BIB Pages": "23",
 		"Input data": "SMB",
 		"Date entered": "2024-8-17"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Juan_de_Honte",
+		"Person Name": "Juan de Honte",
+		"Noted Positions": "curtain sommelier at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "64",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Julius_II",
@@ -636,6 +884,15 @@
 		"Bibliography ID (BIB)": "BIB:Isaacson_2017",
 		"Input data": "HC",
 		"Date entered": "2025-10-14"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Leonello_del_Bruno",
+		"Person Name": "Leonello del Bruno",
+		"Noted Positions": "official at Este court; oversaw tax collection",
+		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
+		"BIB Pages": "438",
+		"Input data": "AN",
+		"Date entered": "2026-6-3"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Lodovico_Guicciardini",
@@ -696,6 +953,13 @@
 		"Date entered": "2023-5-8"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Ludovico_Gonzaga",
+		"Person Name": "Ludovico Gonzaga",
+		"Birth Date": "c.1460",
+		"Death Date": "1511-1-19",
+		"Noted Positions": "Bishop of Mantua"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Ludovico_I",
 		"Person Name": "Ludovico",
 		"Alias": "Louis I, Lodovico I",
@@ -749,6 +1013,24 @@
 		"Date entered": "2024-1-29"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Mathieu_Hujoel",
+		"Person Name": "Mathieu Hujoel",
+		"Noted Positions": "clerk at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "78",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Mathieu_Ogienel",
+		"Person Name": "Mathieu Ogienel",
+		"Noted Positions": "clerk at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "91",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Matteo_Ghai",
 		"Person Name": "Matteo Ghai",
 		"Input data": "BSO",
@@ -766,6 +1048,15 @@
 		"Date entered": "2025-06-19"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Mengo_dall_Armi",
+		"Person Name": "Mengo dall’Armi",
+		"Noted Positions": "notary",
+		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
+		"BIB Pages": "438",
+		"Input data": "AN",
+		"Date entered": "2026-6-3"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Michel_Gaillard",
 		"Person Name": "Michel Gaillard",
 		"Noted Positions": "advisor and treasurer to Marie of Cleves",
@@ -773,6 +1064,25 @@
 		"BIB Pages": "180",
 		"Input data": "ECZ",
 		"Date entered": "2024-2-22"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Michele_Antonioli",
+		"Person Name": "Michele Antonioli",
+		"Noted Positions": "tailor",
+		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
+		"BIB Pages": "438",
+		"Input data": "AN",
+		"Date entered": "2026-6-3"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Michiel_de_Panye",
+		"Person Name": "Michiel de Panye",
+		"Noted Positions": "confessor at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "46",
+		"Internal notes": "aliases to be updated later",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Nicholas_V",
@@ -787,10 +1097,32 @@
 		"Date entered": "2024-3-22"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Nicolas_Loys",
+		"Person Name": "Nicolas Loys",
+		"Noted Positions": "member of the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "89",
+		"Internal notes": "no information on whether he's a musician or not, but I categorized him here due to the petite chapelle taking care of the low masses",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Nicolaus_Menent",
 		"Person Name": "Nicolaus Menent",
 		"Input data": "BSO",
 		"Date entered": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Nicolaus_Rombert",
+		"Person Name": "Nicolaus Rombert",
+		"Alias": "Rembert or Rambert",
+		"Death Date": "1504-1-11",
+		"Noted Positions": "Canon of Cambrai",
+		"Description": "Contratenorista in the choir of St. Peter's, Rome in 1475-76; Atlas finds him in St. Peter's until 1478. He then became a curial lawyer and administrator; he is mentioned as a familiaris of Pope Innocent VIII. In 1488 he is a procurator for one 'Johannes Trutoris'—probably Tinctoris—in the matter of paying annates for a canonry in the church of St. Gertrude at Nivelles. By 1493 he is notary of the Sacred Rota and an abbreviator litterarum apostolicarum. Various documents associate him with benefices at Notre-Dame, Antwerp, and at St. Gery, Cambrai, but the culmination of his beneficial career evidently came with his appointment as Dean of St. Omer in 1494, in succession to Simon Godefroy. On his death he was an apostolic protonotary, dean and canon of St. Omer, and prior in commendam of the priory of  Rumilly-le-Comte, 26 kilometres south-west of St. Omer and quite close to his native village. He was buried near the tomb of St. Omer, having presented a bronze screen for the choir and left provision in his will for the construction of a chapel on the south side of the nave,",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009; BIB:Noble_1976; BIB:Atlas_1985",
+		"BIB Pages": "362;80-84;71",
+		"Input data": "RP",
+		"Date entered": "2026-3-14"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Ottaviano_Petrucci",
@@ -879,6 +1211,15 @@
 		"Noted Positions": "Duke of Burgundy (1419–1467)"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Philippe_de_Formanoir",
+		"Person Name": "Philippe de Formanoir",
+		"Noted Positions": "son of Gilles Fourmanoir, who was a singer at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "90",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Pier_Ronner",
 		"Person Name": "Pier Ronner",
 		"Noted Positions": "bellows operator at chapel of Juana I",
@@ -905,14 +1246,14 @@
 		"Date entered": "2025-10-03"
 	},
 	{
-		"Biography Non-Musician (BNO) ID": "BNO:Pierre_Duret",
-		"Person Name": "Pierre Duret",
-		"Noted Positions": "quartermaster at Imperial chapel of Charles V",
+		"Biography Non-Musician (BNO) ID": "BNO:Pierre_Numan",
+		"Person Name": "Pierre Numan",
+		"Noted Positions": "almoner at Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2012",
 		"BIB Pages": "46",
-		"Internal notes": "update aliases",
+		"Internal notes": "aliases to be updated later",
 		"Input data": "AN",
-		"Date entered": "2025-10-03"
+		"Date entered": "2026-6-12"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Pius_II",
@@ -1005,6 +1346,15 @@
 		"Date entered": "2026-01-26"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Rogier_van_den_Berghe",
+		"Person Name": "Rogier van den Berghe",
+		"Noted Positions": "clerk at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "69",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Sigismondo_I_dEste",
 		"Person Name": "Sigismondo I d'Este",
 		"Birth Date": "1480-9",
@@ -1024,6 +1374,15 @@
 		"Date entered": "2024-8-21"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Simon_de_Weury",
+		"Person Name": "Simon de Weury",
+		"Noted Positions": "curtain sommelier at Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "64",
+		"Input data": "AN",
+		"Date entered": "2026-6-12"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Sixtus_IV",
 		"Person Name": "Pope Sixtus IV",
 		"Alias": "Francesco della Rovere",
@@ -1036,211 +1395,13 @@
 		"Date updated": "2023-5-8"
 	},
 	{
-		"Biography Non-Musician (BNO) ID": "BNO:Georges_Olivier_de_Pannard",
-		"Person Name": "Georges-Olivier de Pannard",
-		"Death Date": "1481-1-28",
-		"Noted Positions": "Archbishop of Aix-en-Provence",
-		"Input data": "RP",
-		"Date entered": "2026-2-28"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Galeazzo_Maria_Sforza",
-		"Person Name": "Galeazzo Maria Sforza",
-		"Birth Date": "1444-1-24",
-		"Death Date": "1476-12-26",
-		"Noted Positions": "Fifth Duke of Milan from 1466 until 1476",
-		"Bibliography ID (BIB)": "BIB:Fallows_2009",
-		"BIB Pages": "354",
-		"Input data": "RP",
-		"Date entered": "2026-3-3"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Guidantonio_Arcimboldi",
-		"Person Name": "Guidantonio Arcimboldi",
-		"Alias": "Guido Antonio Arcimboldi",
-		"Birth Date": "1428",
-		"Death Date": "1497-10-18",
-		"Noted Positions": "Archbishop of Milan",
-		"Bibliography ID (BIB)": "BIB:Raponi_1961",
-		"Input data": "RP",
-		"Date entered": "2026-3-8"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Jean_Montissart",
-		"Person Name": "Jean Montissart",
-		"Noted Positions": "Bishop of Tournai in 1489",
-		"Bibliography ID (BIB)": "BIB:Fallows_2009",
-		"BIB Pages": "362",
-		"Input data": "RP",
-		"Date entered": "2026-3-14"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Nicolaus_Rombert",
-		"Person Name": "Nicolaus Rombert",
-		"Alias": "Rembert or Rambert",
-		"Death Date": "1504-1-11",
-		"Noted Positions": "Canon of Cambrai",
-		"Description": "Contratenorista in the choir of St. Peter's, Rome in 1475-76; Atlas finds him in St. Peter's until 1478. He then became a curial lawyer and administrator; he is mentioned as a familiaris of Pope Innocent VIII. In 1488 he is a procurator for one 'Johannes Trutoris'—probably Tinctoris—in the matter of paying annates for a canonry in the church of St. Gertrude at Nivelles. By 1493 he is notary of the Sacred Rota and an abbreviator litterarum apostolicarum. Various documents associate him with benefices at Notre-Dame, Antwerp, and at St. Gery, Cambrai, but the culmination of his beneficial career evidently came with his appointment as Dean of St. Omer in 1494, in succession to Simon Godefroy. On his death he was an apostolic protonotary, dean and canon of St. Omer, and prior in commendam of the priory of  Rumilly-le-Comte, 26 kilometres south-west of St. Omer and quite close to his native village. He was buried near the tomb of St. Omer, having presented a bronze screen for the choir and left provision in his will for the construction of a chapel on the south side of the nave,",
-		"Bibliography ID (BIB)": "BIB:Fallows_2009; BIB:Noble_1976; BIB:Atlas_1985",
-		"BIB Pages": "362;80-84;71",
-		"Input data": "RP",
-		"Date entered": "2026-3-14"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Ludovico_Gonzaga",
-		"Person Name": "Ludovico Gonzaga",
-		"Birth Date": "c.1460",
-		"Death Date": "1511-1-19",
-		"Noted Positions": "Bishop of Mantua"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Isabella_dEste",
-		"Person Name": "Isabella d'Este",
-		"Birth Date": "1474-5-19",
-		"Death Date": "1539-2-13",
-		"Noted Positions": "Marchioness of Mantua",
-		"Input data": "RP",
-		"Date entered": "2026-4-18"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Francesco_II_Gonzaga",
-		"Person Name": "Francesco II Gonzaga",
-		"Birth Date": "1466-8-10",
-		"Death Date": "1519-3-29",
-		"Noted Positions": "Marquis of Mantua",
-		"Input data": "RP",
-		"Date entered": "2026-4-18"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Jean_Molinet",
-		"Person Name": "Jean Molinet",
-		"Birth Date": "1435",
-		"Death Date": "1507-8-23",
-		"Description": "Burgundian poet, chronicler and composer",
-		"Input data": "RP",
-		"Date entered": "2026-4-18"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Antoine_I_de_Lalaing",
-		"Person Name": "Antoine I de Lalaing",
-		"Birth Date": "c.1480",
-		"Death Date": "1540",
-		"Noted Positions": "First count of Hoogstraten and of Culemborg",
-		"Description": "Nobleman of Hainaut",
-		"Bibliography ID (BIB)": "BIB:Wouters_1890",
-		"Input data": "RP",
-		"Date entered": "2026-4-18"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Jean_dAuton",
-		"Person Name": "Jean d'Auton",
-		"Alias": "Jehan d'Authon, dit l’abbé d’Angles",
-		"Birth Date": "c.1466",
-		"Death Date": "1528-1",
-		"Description": "French monk, chronicler and historian",
-		"Input data": "RP",
-		"Date entered": "2026-4-18"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:George_dAmboise",
-		"Person Name": "George d'Amboise",
-		"Alias": "Cardinal d'Amboise",
-		"Birth Date": "1460",
-		"Death Date": "1510-5-25",
-		"Noted Positions": "Cardinal",
-		"Input data": "RP",
-		"Date entered": "2026-4-18"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Biagio_da_Birago",
-		"Person Name": "Biagio da Birago",
-		"Noted Positions": "noble at Este court; master of the stables",
-		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
-		"BIB Pages": "438",
+		"Biography Non-Musician (BNO) ID": "BNO:Willekin_Scoutet",
+		"Person Name": "Willekin Scoutet",
+		"Noted Positions": "employed at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "68",
+		"Internal notes": "listed in the part of the paylist that I've found usually houses non-musician employees, but there's little information on him",
 		"Input data": "AN",
-		"Date entered": "2026-6-3"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Leonello_del_Bruno",
-		"Person Name": "Leonello del Bruno",
-		"Noted Positions": "official at Este court; oversaw tax collection",
-		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
-		"BIB Pages": "438",
-		"Input data": "AN",
-		"Date entered": "2026-6-3"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Jacopo_Lorenzo_de_Vancio",
-		"Person Name": "Jacopo Lorenzo de Vancio",
-		"Noted Positions": "notary; head of the Este court’s property survey",
-		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
-		"BIB Pages": "438",
-		"Input data": "AN",
-		"Date entered": "2026-6-3"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Giovanni_Tommaso_da_Reggio",
-		"Person Name": "Giovanni Tommaso da Reggio",
-		"Noted Positions": "adopted by Pietrobono; possible apprentice",
-		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
-		"BIB Pages": "438",
-		"Input data": "AN",
-		"Date entered": "2026-6-3"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Agostino_Bonfranceschi_da_Rimini",
-		"Person Name": "Agostino Bonfranceschi da Rimini",
-		"Noted Positions": "lawyer; Este court advisor",
-		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
-		"BIB Pages": "438",
-		"Input data": "AN",
-		"Date entered": "2026-6-3"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Mengo_dall_Armi",
-		"Person Name": "Mengo dall’Armi",
-		"Noted Positions": "notary",
-		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
-		"BIB Pages": "438",
-		"Input data": "AN",
-		"Date entered": "2026-6-3"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Girolamo_Bonfranceschi",
-		"Person Name": "Girolamo Bonfranceschi",
-		"Noted Positions": "banker; brother of Agostino Bonfranceschi",
-		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
-		"BIB Pages": "438",
-		"Input data": "AN",
-		"Date entered": "2026-6-3"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Michele_Antonioli",
-		"Person Name": "Michele Antonioli",
-		"Noted Positions": "tailor",
-		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
-		"BIB Pages": "438",
-		"Input data": "AN",
-		"Date entered": "2026-6-3"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Domenico_di_Paris",
-		"Person Name": "Domenico di Paris",
-		"Noted Positions": "Ferrarese sculptor",
-		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
-		"BIB Pages": "442",
-		"Input data": "AN",
-		"Date entered": "2026-6-3"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Borso_d_Este",
-		"Person Name": "Borso d'Este",
-		"Birth Date": "1413",
-		"Death Date": "1471-08-20",
-		"Noted Positions": "first Duke of Ferrara and Modena",
-		"Bibliography ID (BIB)": "BIB:MacCarthy_2018",
-		"BIB Pages": "432",
-		"Input data": "AN",
-		"Date entered": "2026-6-3"
+		"Date entered": "2026-6-12"
 	}
 ]
