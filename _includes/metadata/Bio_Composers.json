@@ -1505,5 +1505,16 @@
 		"Date entered": "2024-8-9",
 		"Update data": "BSO",
 		"Date updated": "2025-2-12"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Isaac_Lheritier",
+		"Composer Name": "Isaac_Lhéritier",
+		"Alias": "Lerethier, Isaac",
+		"Description": "choirboy at the Imperial chapel of Charles V; became a composer",
+		"RISM Link": "https://rism.online/people/30102642",
+		"Bibliography (BIB) ID": "BIB:Ferer_2012",
+		"BIB Pages": "95",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
 	}
 ]

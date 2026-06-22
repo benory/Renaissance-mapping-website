@@ -4376,5 +4376,14 @@
 		"Coordinates": "52.139647585105244, 6.196457023579652",
 		"Input data": "LO",
 		"Date entered": "2025-2-15"
+	},
+	{
+		"Location ID (LOC)": "LOC:Dendermonde",
+		"Name of Location": "Dendermonde",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/4CYhevtgNFWz8q4h8",
+		"Coordinates": "51.02869, 4.10106",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
 	}
 ]
