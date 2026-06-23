@@ -102071,27 +102071,6 @@
 		"Location ID (LOC)": "LOC:Venice",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Adrian_Willaert",
 		"LOC Certainty": "1",
-		"Earliest Year": "1558",
-		"Earliest Month": "3",
-		"Earliest Day": "26",
-		"Earliest Date Certainty": "1",
-		"Latest Year": "1558",
-		"Latest Month": "3",
-		"Latest Day": "26",
-		"Latest Date Certainty": "1",
-		"Date Range": "26 March 1558",
-		"Certainty of Event (within Range)": "1",
-		"Description": "Drew up his fifth will",
-		"Bibliography ID (BIB)": "BIB:Bossuyt_1985",
-		"BIB Pages": "68",
-		"Input data": "LQ",
-		"Date entered": "2026-6-23"
-	},
-	{
-		"ID": "EV:05707",
-		"Location ID (LOC)": "LOC:Venice",
-		"Biography ID (BCO, BMU, BNO)": "BCO:Adrian_Willaert",
-		"LOC Certainty": "1",
 		"Earliest Year": "1562",
 		"Earliest Month": "12",
 		"Earliest Day": "7",
@@ -102104,12 +102083,12 @@
 		"Certainty of Event (within Range)": "1",
 		"Description": "Died",
 		"Bibliography ID (BIB)": "BIB:Bossuyt_1985",
-		"BIB Pages": "68",
+		"BIB Pages": "86",
 		"Input data": "LQ",
 		"Date entered": "2026-6-23"
 	},
 	{
-		"ID": "EV:05708",
+		"ID": "EV:05707",
 		"Location ID (LOC)": "LOC:Venice",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Adrian_Willaert",
 		"LOC Certainty": "1",
@@ -102121,12 +102100,12 @@
 		"Certainty of Event (within Range)": "1",
 		"Description": "Drew up his second will",
 		"Bibliography ID (BIB)": "BIB:Bossuyt_1985",
-		"BIB Pages": "86",
+		"BIB Pages": "67",
 		"Input data": "LQ",
 		"Date entered": "2026-6-23"
 	},
 	{
-		"ID": "EV:05709",
+		"ID": "EV:05708",
 		"Location ID (LOC)": "LOC:Venice",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Adrian_Willaert",
 		"LOC Certainty": "1",
@@ -102143,7 +102122,7 @@
 		"Date entered": "2026-6-23"
 	},
 	{
-		"ID": "EV:05710",
+		"ID": "EV:05709",
 		"Location ID (LOC)": "LOC:Venice",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Adrian_Willaert",
 		"LOC Certainty": "1",
@@ -102159,12 +102138,12 @@
 		"Certainty of Event (within Range)": "1",
 		"Description": "Drew up his fourth will",
 		"Bibliography ID (BIB)": "BIB:Bossuyt_1985",
-		"BIB Pages": "67",
+		"BIB Pages": "67;83",
 		"Input data": "LQ",
 		"Date entered": "2026-6-23"
 	},
 	{
-		"ID": "EV:05711",
+		"ID": "EV:05710",
 		"Location ID (LOC)": "LOC:Venice",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Adrian_Willaert",
 		"LOC Certainty": "1",
@@ -102180,12 +102159,12 @@
 		"Certainty of Event (within Range)": "1",
 		"Description": "Drew up his fifth will",
 		"Bibliography ID (BIB)": "BIB:Bossuyt_1985",
-		"BIB Pages": "67;83",
+		"BIB Pages": "68",
 		"Input data": "LQ",
 		"Date entered": "2026-6-23"
 	},
 	{
-		"ID": "EV:05712",
+		"ID": "EV:05711",
 		"Location ID (LOC)": "LOC:Venice",
 		"Biography ID (BCO, BMU, BNO)": "BCO:Adrian_Willaert",
 		"LOC Certainty": "1",
@@ -102197,16 +102176,15 @@
 		"Certainty of Event (within Range)": "1",
 		"Description": "Drew up 5 more wills between 1559 and 1562",
 		"Bibliography ID (BIB)": "BIB:Bossuyt_1985",
-		"BIB Pages": "68",
+		"BIB Pages": "80",
 		"Input data": "LQ",
 		"Date entered": "2026-6-23"
 	},
 	{
-		"ID": "EV:05713",
-		"Bibliography ID (BIB)": "BIB:Bossuyt_1985",
-		"BIB Pages": "80",
-		"Input data": "LQ",
-		"Date entered": "2026-6-23"
+		"ID": "EV:05712"
+	},
+	{
+		"ID": "EV:05713"
 	},
 	{
 		"ID": "EV:05714"
@@ -102375,5 +102353,248 @@
 	},
 	{
 		"ID": "EV:05769"
+	},
+	{
+		"ID": "EV:05770"
+	},
+	{
+		"ID": "EV:05771"
+	},
+	{
+		"ID": "EV:05772"
+	},
+	{
+		"ID": "EV:05773"
+	},
+	{
+		"ID": "EV:05774"
+	},
+	{
+		"ID": "EV:05775"
+	},
+	{
+		"ID": "EV:05776"
+	},
+	{
+		"ID": "EV:05777"
+	},
+	{
+		"ID": "EV:05778"
+	},
+	{
+		"ID": "EV:05779"
+	},
+	{
+		"ID": "EV:05780"
+	},
+	{
+		"ID": "EV:05781"
+	},
+	{
+		"ID": "EV:05782"
+	},
+	{
+		"ID": "EV:05783"
+	},
+	{
+		"ID": "EV:05784"
+	},
+	{
+		"ID": "EV:05785"
+	},
+	{
+		"ID": "EV:05786"
+	},
+	{
+		"ID": "EV:05787"
+	},
+	{
+		"ID": "EV:05788"
+	},
+	{
+		"ID": "EV:05789"
+	},
+	{
+		"ID": "EV:05790"
+	},
+	{
+		"ID": "EV:05791"
+	},
+	{
+		"ID": "EV:05792"
+	},
+	{
+		"ID": "EV:05793"
+	},
+	{
+		"ID": "EV:05794"
+	},
+	{
+		"ID": "EV:05795"
+	},
+	{
+		"ID": "EV:05796"
+	},
+	{
+		"ID": "EV:05797"
+	},
+	{
+		"ID": "EV:05798"
+	},
+	{
+		"ID": "EV:05799"
+	},
+	{
+		"ID": "EV:05800"
+	},
+	{
+		"ID": "EV:05801"
+	},
+	{
+		"ID": "EV:05802"
+	},
+	{
+		"ID": "EV:05803"
+	},
+	{
+		"ID": "EV:05804"
+	},
+	{
+		"ID": "EV:05805"
+	},
+	{
+		"ID": "EV:05806"
+	},
+	{
+		"ID": "EV:05807"
+	},
+	{
+		"ID": "EV:05808"
+	},
+	{
+		"ID": "EV:05809"
+	},
+	{
+		"ID": "EV:05810"
+	},
+	{
+		"ID": "EV:05811"
+	},
+	{
+		"ID": "EV:05812"
+	},
+	{
+		"ID": "EV:05813"
+	},
+	{
+		"ID": "EV:05814"
+	},
+	{
+		"ID": "EV:05815"
+	},
+	{
+		"ID": "EV:05816"
+	},
+	{
+		"ID": "EV:05817"
+	},
+	{
+		"ID": "EV:05818"
+	},
+	{
+		"ID": "EV:05819"
+	},
+	{
+		"ID": "EV:05820"
+	},
+	{
+		"ID": "EV:05821"
+	},
+	{
+		"ID": "EV:05822"
+	},
+	{
+		"ID": "EV:05823"
+	},
+	{
+		"ID": "EV:05824"
+	},
+	{
+		"ID": "EV:05825"
+	},
+	{
+		"ID": "EV:05826"
+	},
+	{
+		"ID": "EV:05827"
+	},
+	{
+		"ID": "EV:05828"
+	},
+	{
+		"ID": "EV:05829"
+	},
+	{
+		"ID": "EV:05830"
+	},
+	{
+		"ID": "EV:05831"
+	},
+	{
+		"ID": "EV:05832"
+	},
+	{
+		"ID": "EV:05833"
+	},
+	{
+		"ID": "EV:05834"
+	},
+	{
+		"ID": "EV:05835"
+	},
+	{
+		"ID": "EV:05836"
+	},
+	{
+		"ID": "EV:05837"
+	},
+	{
+		"ID": "EV:05838"
+	},
+	{
+		"ID": "EV:05839"
+	},
+	{
+		"ID": "EV:05840"
+	},
+	{
+		"ID": "EV:05841"
+	},
+	{
+		"ID": "EV:05842"
+	},
+	{
+		"ID": "EV:05843"
+	},
+	{
+		"ID": "EV:05844"
+	},
+	{
+		"ID": "EV:05845"
+	},
+	{
+		"ID": "EV:05846"
+	},
+	{
+		"ID": "EV:05847"
+	},
+	{
+		"ID": "EV:05848"
+	},
+	{
+		"ID": "EV:05849"
+	},
+	{
+		"ID": "EV:05850"
 	}
 ]
