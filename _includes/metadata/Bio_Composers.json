@@ -1508,7 +1508,7 @@
 	},
 	{
 		"Biography Composer (BCO) ID": "BCO:Isaac_Lheritier",
-		"Composer Name": "Isaac_Lhéritier",
+		"Composer Name": "Isaac Lhéritier",
 		"Alias": "Lerethier, Isaac",
 		"Description": "choirboy at the Imperial chapel of Charles V; became a composer",
 		"RISM Link": "https://rism.online/people/30102642",
@@ -1516,5 +1516,18 @@
 		"BIB Pages": "95",
 		"Input data": "AN",
 		"Date entered": "2026-06-22"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Johannes_Stokem",
+		"Composer Name": "Johannes Stokem",
+		"Alias": "Stockem; Stoccken; Stokem; Sthokem; Sthoken; Stoecken; Stoeckem; Stokhem; Stochem; de Prato; de Pratis",
+		"Birth Date": "~1445",
+		"Death Date": "1487",
+		"Description": "composer; singer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/141/",
+		"RISM Link": "https://rism.online/people/30101016",
+		"Bibliography (BIB) ID": "BIB:Starr_1997",
+		"Input data": "LQ",
+		"Date entered": "2026-06-26"
 	}
 ]
