@@ -14619,5 +14619,23 @@
 		"BIB Pages": "114",
 		"Input data": "AN",
 		"Date entered": "2026-06-22"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Massimo_Troiano",
+		"Musician Name": "Massimo Troiano",
+		"Description": "singer at the Bavarian court chapel",
+		"Bibliography ID (BIB)": "BIB:Luttin_2026"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Giulio_Bonagiunta",
+		"Musician Name": "Giulio Bonagiunta",
+		"Description": "singer at San Marco in Venice",
+		"Bibliography ID (BIB)": "BIB:Luttin_2026"
+	},
+	{
+		"Biography Musician (BMU) ID": "BMU:Cosimo_Bottegari",
+		"Musician Name": "Cosimo Bottegari",
+		"Description": "courtier and lutenist at the Bavarian court",
+		"Bibliography ID (BIB)": "BIB:Kirkendale_1993"
 	}
 ]

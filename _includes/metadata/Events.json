@@ -102468,22 +102468,92 @@
 		"Date entered": "2026-6-30"
 	},
 	{
-		"ID": "EV:05727"
+		"ID": "EV:05727",
+		"Location ID (LOC)": "LOC:Munich",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Massimo_Troiano",
+		"LOC Certainty": "1",
+		"Earliest Year": "1568",
+		"Earliest Month": "6",
+		"Earliest Date Certainty": "3",
+		"Latest Year": "1568",
+		"Latest Month": "6",
+		"Latest Date Certainty": "3",
+		"Date Range": "June 1568",
+		"Description": "Departs Munich",
+		"Bibliography ID (BIB)": "BIB:Luttin_2026",
+		"Input data": "BO",
+		"Date entered": "2026-6-30"
 	},
 	{
-		"ID": "EV:05728"
+		"ID": "EV:05728",
+		"Location ID (LOC)": "LOC:Vienna",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Massimo_Troiano",
+		"Earliest Year": "1568",
+		"Earliest Month": "11",
+		"Latest Year": "1568",
+		"Latest Month": "11",
+		"Latest Date Certainty": "3",
+		"Date Range": "November 1568",
+		"Description": "Arrives in Venice",
+		"Bibliography ID (BIB)": "BIB:Luttin_2026",
+		"Input data": "BO",
+		"Date entered": "2026-6-30"
 	},
 	{
-		"ID": "EV:05729"
+		"ID": "EV:05729",
+		"Location ID (LOC)": "LOC:Venice",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Massimo_Troiano",
+		"Earliest Year": "1569",
+		"Earliest Month": "4",
+		"Earliest Day": "14",
+		"Latest Year": "1569",
+		"Latest Month": "4",
+		"Latest Day": "14",
+		"Date Range": "14 April 1569",
+		"Description": "Departs Venice, used post horses and post stations",
+		"Bibliography ID (BIB)": "BIB:Luttin_2026",
+		"Input data": "BO",
+		"Date entered": "2026-6-30"
 	},
 	{
-		"ID": "EV:05730"
+		"ID": "EV:05730",
+		"Location ID (LOC)": "LOC:Augsburg",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Massimo_Troiano",
+		"Earliest Year": "1569",
+		"Earliest Month": "4",
+		"Earliest Day": "25",
+		"Latest Year": "1569",
+		"Latest Month": "4",
+		"Latest Day": "25",
+		"Date Range": "25 April 1569",
+		"Description": "Arrives in Augsburg",
+		"Bibliography ID (BIB)": "BIB:Luttin_2026",
+		"Input data": "BO",
+		"Date entered": "2026-6-30"
 	},
 	{
-		"ID": "EV:05731"
+		"ID": "EV:05731",
+		"Location ID (LOC)": "LOC:Venice",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Giulio_Bonagiunta",
+		"Earliest Year": "1567",
+		"Latest Year": "1567",
+		"Date Range": "1567",
+		"Description": "Departs Venice for Munich in Spring 1567",
+		"Bibliography ID (BIB)": "BIB:Luttin_2026",
+		"Input data": "BO",
+		"Date entered": "2026-6-30"
 	},
 	{
-		"ID": "EV:05732"
+		"ID": "EV:05732",
+		"Location ID (LOC)": "LOC:Munich",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Giulio_Bonagiunta",
+		"Earliest Year": "1567",
+		"Latest Year": "1567",
+		"Date Range": "1567",
+		"Description": "Departs Munich for Venice in Spring 1567",
+		"Bibliography ID (BIB)": "BIB:Luttin_2026",
+		"Input data": "BO",
+		"Date entered": "2026-6-30"
 	},
 	{
 		"ID": "EV:05733"
