@@ -772,7 +772,9 @@
 		"Name of Volume/Journal": "The Court Musicians in Florence During the Principate of the Medici",
 		"Location": "Florence",
 		"Publisher": "Leo S. Olschki",
-		"Publication Year": "1993"
+		"Publication Year": "1993",
+		"Input data": "BSO",
+		"Date entered": "2023-6-30"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Kostrzewski_2021",
@@ -894,7 +896,8 @@
 		"Bibliography (BIB) ID": "BIB:Luttin_2026",
 		"Author": "Roman Lüttin",
 		"Name of Volume/Journal": "Kollaboratives Komponieren. Künstlerische Zusammenarbeit in italienischen Musikanthologien des 16. Jahrhunderts",
-		"Publisher": "forthcoming, Universität Heidelberg",
+		"Location": "Forthcoming",
+		"Publisher": "Universität Heidelberg",
 		"Publication Year": "2026"
 	},
 	{
