@@ -102397,16 +102397,75 @@
 		"Date entered": "2026-6-26"
 	},
 	{
-		"ID": "EV:05723"
+		"ID": "EV:05723",
+		"Location ID (LOC)": "LOC:Ferrara",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Jacob_Obrecht",
+		"LOC Certainty": "1",
+		"Earliest Year": "1504",
+		"Earliest Month": "9",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1505",
+		"Latest Month": "2",
+		"Latest Day": "12",
+		"Latest Date Certainty": "3",
+		"Date Range": "September 1504 to 12 February 1505",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Maestro di cappella in Ferrara, listed as \"meser Ubreto compositore\"",
+		"Institution ID (INS)": "INS:Court_Ferrara",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "231–32, 362",
+		"Input data": "BO",
+		"Date entered": "2026-6-30"
 	},
 	{
-		"ID": "EV:05724"
+		"ID": "EV:05724",
+		"Location ID (LOC)": "LOC:Ferrara",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Jacob_Obrecht",
+		"LOC Certainty": "1",
+		"Earliest Year": "1505",
+		"Earliest Date Certainty": "1",
+		"Latest Year": "1505",
+		"Date Range": "1505",
+		"Certainty of Event (within Range)": "1",
+		"Description": "Obrecht dies in Ferrara",
+		"Bibliography ID (BIB)": "BIB:Lockwood_2009",
+		"BIB Pages": "232",
+		"Input data": "BO",
+		"Date entered": "2026-6-30"
 	},
 	{
-		"ID": "EV:05725"
+		"ID": "EV:05725",
+		"Location ID (LOC)": "LOC:Antwerp-Notre-Dame",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Jacob_Obrecht",
+		"Earliest Year": "1501",
+		"Earliest Month": "6",
+		"Earliest Day": "24",
+		"Latest Year": "1503",
+		"Latest Month": "6",
+		"Latest Day": "24",
+		"Date Range": "24 June 1501 to 24 June 1503",
+		"Description": "Serves as vicar-singer in the church of Antwerp",
+		"Bibliography ID (BIB)": "BIB:Wegman_1994",
+		"BIB Pages": "308",
+		"Input data": "BO",
+		"Date entered": "2026-6-30"
 	},
 	{
-		"ID": "EV:05726"
+		"ID": "EV:05726",
+		"Location ID (LOC)": "LOC:Innsbruck",
+		"Biography ID (BCO, BMU, BNO)": "BCO:Jacob_Obrecht",
+		"Earliest Year": "1503",
+		"Earliest Month": "10",
+		"Earliest Day": "6",
+		"Latest Year": "1503",
+		"Latest Month": "10",
+		"Latest Day": "6",
+		"Date Range": "6 October 1503",
+		"Description": "Obrecht in Innsbruck",
+		"Bibliography ID (BIB)": "BIB:Wegman_1994",
+		"BIB Pages": "342",
+		"Input data": "BO",
+		"Date entered": "2026-6-30"
 	},
 	{
 		"ID": "EV:05727"

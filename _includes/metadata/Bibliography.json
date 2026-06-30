@@ -59,6 +59,15 @@
 		"Date entered": "2025-03-01"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Bent_2001b",
+		"Author": "Margaret Bent",
+		"Name of Article": "Power, Leonel [Lionel, Lyonel, Leonellus, Leonelle; Polbero]",
+		"Name of Volume/Journal": "Grove Music Online",
+		"URL": "https://www.oxfordmusiconline.com/grovemusic/view/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-0000022217",
+		"Input data": "LQ",
+		"Date entered": "2026-4-14"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Bent_2004",
 		"Author": "Margaret Bent",
 		"Name of Article": "Dunstaple [Dunstable], John",
@@ -90,6 +99,31 @@
 		"Date entered": "2023-3-21"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Bossuyt_1985",
+		"Author": "Ignace Bossuyt",
+		"Name of Article": "Adriaan Williaert (ca. 1490-1562)",
+		"Volume": "3",
+		"Series": "Symbolae Facultatis litterarum et philosophiae Lovaniensis",
+		"Location": "Leuven",
+		"Publisher": "Universitaire Pers Leuven",
+		"Publication Year": "1985",
+		"Input data": "LQ",
+		"Date entered": "2026-05-21"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Bossuyt_1998",
+		"Author": "Ignace Bossuyt",
+		"Name of Article": "O socii durate: A Musical Correspondence from the Time of Philip II",
+		"Name of Volume/Journal": "Early Music",
+		"Volume": "26",
+		"Publisher": "Oxford University Press",
+		"Publication Year": "1998",
+		"Pages": "432-444",
+		"URL": "https://www.jstor.org/stable/3128701",
+		"Input data": "LQ",
+		"Date entered": "2026-05-21"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Bouquet_1968",
 		"Author": "Marie-Therese Bouquet",
 		"Name of Article": "La Capella Musicale dei Duchi di Savoia dal 1450 al 1500",
@@ -99,6 +133,18 @@
 		"Pages": "233–85",
 		"Input data": "SMB",
 		"Date entered": "2024-6-8"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Bowers_1976",
+		"Author": "Roger Bowers",
+		"Name of Article": "Some Observations on the Life and Career of Lionel Power",
+		"Name of Volume/Journal": "Proceedings of the Royal Musical Association",
+		"Volume": "102",
+		"Publication Year": "1975-1976",
+		"Pages": "103–27",
+		"URL": "https://www.jstor.org/stable/766097",
+		"Input data": "LQ",
+		"Date entered": "2026-4-14"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Bowers_2001",
@@ -309,6 +355,15 @@
 		"Date entered": "2026-2-27"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Eubel_1914",
+		"Name of Volume/Journal": "Hierarchia catholica medii aevi",
+		"Editor": "Conrad Eubel",
+		"Volume": "2",
+		"Publication Year": "1914",
+		"Input data": "RP",
+		"Date entered": "2026-4-10"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Fallows_2001",
 		"Author": "David Fallows",
 		"Name of Article": "Bedyngham",
@@ -316,6 +371,36 @@
 		"Publication Year": "2001",
 		"Input data": "LQ",
 		"Date entered": "2026-3-10"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Fallows_2001",
+		"Author": "David Fallows",
+		"Name of Article": "Constans [Costinus] Breuwe [Breeu, Brawe] [Constans de Languebroek, Constans de Trecht]",
+		"Name of Volume/Journal": "Grove Music Online",
+		"Publication Year": "2001",
+		"URL": "https://doi.org/10.1093/gmo/9781561592630.article.06328",
+		"Input data": "AN",
+		"Date entered": "2026-3-15"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Fallows_2001",
+		"Author": "David Fallows",
+		"Name of Article": "Morton [Mourton, Moriton], Robert",
+		"Name of Volume/Journal": "Grove Music Online",
+		"Publication Year": "2001",
+		"URL": "https://doi.org/10.1093/gmo/9781561592630.article.19180",
+		"Input data": "HC",
+		"Date entered": "2026-4-26"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Fallows_2001b",
+		"Author": "David Fallows",
+		"Name of Article": "Binchois [Binchoys], Gilles de Bins [Binch, Binche] dit",
+		"Name of Volume/Journal": "Grove Music Online",
+		"Publication Year": "2001",
+		"URL": "https://doi.org/10.1093/gmo/9781561592630.article.03094",
+		"Input data": "LQ",
+		"Date entered": "2026-3-23"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Fallows_2009",
@@ -394,6 +479,16 @@
 		"Date entered": "2026-1-29"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Forney_2001",
+		"Author": "Kristine Forney",
+		"Name of Article": "Opitiis, Benedictus de",
+		"Name of Volume/Journal": "Grove Music Online",
+		"Publication Year": "2001",
+		"URL": "https://doi.org/10.1093/gmo/9781561592630.article.20391",
+		"Input data": "LQ",
+		"Date entered": "2026-06-11"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Frey_1955",
 		"Author": "Herman-Walther Frey",
 		"Name of Article": "Regesten zur päpstlichen Kapelle unter Leo X und zu seiner Privatkapelle",
@@ -468,6 +563,15 @@
 		"Publication Year": "1962",
 		"Input data": "SMB",
 		"Date entered": "2024-7-19"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Gottwald_2001",
+		"Author": "Clytus Gottwald",
+		"Name of Article": "Ghiselin [Verbonnet], Johannes",
+		"Name of Volume/Journal": "Grove Music Online",
+		"Publication Year": "2001",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Haller_1896",
@@ -653,6 +757,16 @@
 		"Date entered": "2024-2-11"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Kenney_1964",
+		"Author": "Sylvia W. Kenney",
+		"Name of Article": "Walter Frye and the Contenance Angloise",
+		"Location": "New Haven",
+		"Publisher": "Yale University Press",
+		"Publication Year": "1964",
+		"Input data": "LQ",
+		"Date entered": "2026-4-27"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Kostrzewski_2021",
 		"Author": "Brett Kostrzewski",
 		"Name of Article": "Rome after Josquin: The Missa La sol fa re mi reconsidered",
@@ -686,6 +800,17 @@
 		"Date entered": "2025-3-15"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Litterick_2001",
+		"Author": "Louise Litterick",
+		"Name of Article": "Hayne [Ayne, Haine, Heyne, Scoen Hayne] van Ghizeghem [Ghiseghem]",
+		"Name of Volume/Journal": "Grove Music Online",
+		"Editor": "David Fallows (revised)",
+		"Publication Year": "2001",
+		"URL": "https://doi.org/10.1093/gmo/9781561592630.article.12631",
+		"Input data": "AN",
+		"Date entered": "2026-3-15"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Lockwood_1976",
 		"Author": "Lewis Lockwood",
 		"Name of Article": "Josquin at Ferrara: New Documents and Letters",
@@ -708,6 +833,19 @@
 		"Pages": "191–246",
 		"Input data": "BSO",
 		"Date entered": "2024-2-11"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Lockwood_1985",
+		"Author": "Lewis Lockwood",
+		"Name of Article": "Adrian Willaert and Cardinal Ippolito I d'Este: New Light on Willaert's Early Career in Italy, 1515-21",
+		"Name of Volume/Journal": "Early Music History",
+		"Volume": "5",
+		"Publisher": "Cambridge University Press",
+		"Publication Year": "1985",
+		"Pages": "85-112",
+		"URL": "http://www.jstor.org/stable/853920",
+		"Input data": "LQ",
+		"Date entered": "2026-05-21"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Lockwood_1998",
@@ -745,6 +883,20 @@
 		"Date entered": "2024-6-16"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:MacCarthy_2018",
+		"Author": "Evan A. MacCarthy",
+		"Name of Article": "The English Voyage of Pietrobono Burzelli",
+		"Name of Volume/Journal": "Journal of Musicology",
+		"Volume": "35",
+		"Edition": "4",
+		"Publisher": "University of California Press",
+		"Publication Year": "2018",
+		"Pages": "431–59",
+		"URL": "https://www.jstor.org/stable/26508587",
+		"Input data": "AN",
+		"Date entered": "2026-4-13"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Magro_1999",
 		"Author": "Agostino Magro",
 		"Name of Article": "Premierement ma baronnie de chasteauneuf': Jean De Ockeghem, Treasurer of St Martin's in Tours",
@@ -754,6 +906,15 @@
 		"Pages": "165–258",
 		"Input data": "SMB",
 		"Date entered": "2024-9-20"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Marix_1937",
+		"Author": "J. Marix",
+		"Name of Volume/Journal": "Les musiciens de la cour de Bourgogne au XVe siecle",
+		"Location": "Paris",
+		"Publication Year": "1937",
+		"Input data": "LQ",
+		"Date entered": "2026-3-18"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Meconi_2003",
@@ -885,6 +1046,26 @@
 		"Publication Year": "2021",
 		"Input data": "SMB",
 		"Date entered": "2024-11-21"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Ongaro_1986",
+		"Author": "Giulio Maria Ongaro",
+		"Name of Article": "The Chapel of St. Mark's at the Time of Adrian Willaert (1527-1562): A Documentary Study",
+		"Publisher": "PhD diss., University of North Carolina at Chapel Hill",
+		"Publication Year": "1986",
+		"Input data": "LQ",
+		"Date entered": "2026-06-24"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Ostoff_1962",
+		"Author": "Helmuth Ostoff",
+		"Name of Volume/Journal": "Josquin Desprez",
+		"Volume": "1",
+		"Location": "Tutzing",
+		"Publisher": "H. Schneider",
+		"Publication Year": "1962",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Pellegrini_2002",
@@ -1022,6 +1203,15 @@
 		"Date entered": "2024-6-19"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Prizer_1989",
+		"Author": "William F. Prizer",
+		"Name of Article": "Music at the Court of the Sforza: The Birth and Death of a Musical Center",
+		"Name of Volume/Journal": "Musica Disciplina",
+		"Volume": "43",
+		"Publication Year": "1989",
+		"Pages": "141–93"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Prizer_1996",
 		"Author": "William F. Prizer",
 		"Name of Article": "Secular Music at Milan during the Early Cinquecento: Florence, Biblioteca del Conservatorio, MS Basevi 2441",
@@ -1031,15 +1221,6 @@
 		"Pages": "9–57",
 		"Input data": "BSO",
 		"Date entered": "2023-3-21"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Prizer_1989",
-		"Author": "William F. Prizer",
-		"Name of Article": "Music at the Court of the Sforza: The Birth and Death of a Musical Center",
-		"Name of Volume/Journal": "Musica Disciplina",
-		"Volume": "43",
-		"Publication Year": "1989",
-		"Pages": "141–93"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Raponi_1961",
@@ -1064,6 +1245,16 @@
 		"Pages": "xxiii–xxxvii",
 		"Input data": "AN",
 		"Date entered": "2025-01-19"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Reynolds_1995",
+		"Author": "Christopher A. Reynolds",
+		"Name of Article": "Papal Patronage and The Music of St. Peter's, 1380–1513",
+		"Edition": "2022 paperback reprint",
+		"Publisher": "University of California Press",
+		"Publication Year": "1995",
+		"Input data": "LO",
+		"Date entered": "2026-4-16"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Rifkin_2009",
@@ -1167,6 +1358,17 @@
 		"Date entered": "2023-5-8"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Sherr_1983",
+		"Author": "Richard Sherr",
+		"Name of Article": "Notes on Some Papal Documents in Paris",
+		"Name of Volume/Journal": "Studi Musicali",
+		"Volume": "12",
+		"Publication Year": "1983",
+		"Pages": "5–16",
+		"Input data": "RP",
+		"Date entered": "2026-4-10"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Sherr_1984",
 		"Author": "Richard Sherr",
 		"Name of Article": "Verdelot in Florence, Coppini in Rome, and the Singer 'La Fiore'",
@@ -1231,6 +1433,18 @@
 		"Pages": "181–237",
 		"Input data": "SMB",
 		"Date entered": "2025-3-19"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Squire_1912",
+		"Author": "W. Barclay Squire",
+		"Name of Article": "Who was \"Benedictus\"?",
+		"Name of Volume/Journal": "Sammelbände der Internationalen Musikgesellschaft",
+		"Volume": "13",
+		"Publication Year": "1912",
+		"Pages": "264-271",
+		"URL": "https://www.jstor.org/stable/929464",
+		"Input data": "LQ",
+		"Date entered": "2026-06-10"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Staehelin_1977",
@@ -1345,6 +1559,26 @@
 		"Date entered": "2024-8-4"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Trowell_2010",
+		"Author": "Brian Trowell",
+		"Name of Article": "Frye [ffry, ffrye, Frey, Frie], Walter",
+		"Name of Volume/Journal": "Grove Music Online",
+		"Publication Year": "2010",
+		"URL": "https://doi.org/10.1093/gmo/9781561592630.article.10327",
+		"Notes": "Original article from 2001, updated in 2010",
+		"Input data": "LQ",
+		"Date entered": "2026-4-17"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:VanderLinden_1940",
+		"Author": "Herman Vander Linden",
+		"Name of Article": "Itinéraires de Philippe le Bon, Duc de Bourgogne et de Charles, Comte de Charolais",
+		"Location": "Brussels",
+		"Publisher": "Palais des Académies",
+		"Publication Year": "1940",
+		"Input data": "ECZ"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Vanhulst_2005",
 		"Author": "Henri Vanhulst",
 		"Name of Article": "Clemens non Papa 'grant yvroigne et mal vivant'",
@@ -1370,6 +1604,16 @@
 		"Pages": "175–249",
 		"Input data": "LO",
 		"Date entered": "2025-10-27"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Wegman_1994",
+		"Author": "Rob C. Wegman",
+		"Name of Article": "Born for the Muses: The Life and Masses of Jacob Obrecht",
+		"Location": "Oxford",
+		"Publisher": "Clarendon Press",
+		"Publication Year": "1994",
+		"Input data": "BO",
+		"Date entered": "2026-6-30"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Wegman_1997",
@@ -1414,6 +1658,20 @@
 		"Pages": "7–36",
 		"Input data": "SMB",
 		"Date entered": "2024-10-13"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Wegman_2011",
+		"Author": "Rob C. Wegman",
+		"Name of Article": "Fremin le Caron at Amiens: New Documents",
+		"Name of Volume/Journal": "Essays on Renaissance Music in Honour of David Fallows: Bon Jour, Bon Mois Et Bonne Estrenne",
+		"Editor": "Fabrice Fitch & Jacobijn Kiel",
+		"Volume": "11",
+		"Location": "Woodbridge",
+		"Publisher": "Boydell Press",
+		"Publication Year": "2011",
+		"Pages": "10–32",
+		"Input data": "AN",
+		"Date entered": "2026-3-15"
 	},
 	{
 		"Bibliography (BIB) ID": "BIB:Wexler_2014",
@@ -1472,6 +1730,30 @@
 		"Date entered": "2024-9-14"
 	},
 	{
+		"Bibliography (BIB) ID": "BIB:Wouters_1890",
+		"Author": "Alphonse Wouters",
+		"Name of Article": "Antoine de Lalaing",
+		"Name of Volume/Journal": "Biographie nationale de Belgique",
+		"Volume": "11",
+		"Publisher": "L'Academie Royale des Sciences, des Lettres et des Beaux-Arts de Belgique",
+		"Publication Year": "1890",
+		"Pages": "86–91",
+		"Input data": "RP",
+		"Date entered": "2026-4-18"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Wright_1975",
+		"Author": "Craig Wright",
+		"Name of Article": "Dufay at Cambrai: Discoveries and Revisions",
+		"Name of Volume/Journal": "Journal of the American Musicological Society",
+		"Volume": "28",
+		"Publication Year": "1975",
+		"Pages": "175–229",
+		"URL": "https://www.jstor.org/stable/830766",
+		"Input data": "LQ",
+		"Date entered": "2026-3-20"
+	},
+	{
 		"Bibliography (BIB) ID": "BIB:Wright_1978",
 		"Author": "Craig Wright",
 		"Name of Article": "Performance Practices at the Cathedral of Cambrai 1475-1550",
@@ -1508,209 +1790,6 @@
 		"Date entered": "2024-5-29"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Zanovello_2005",
-		"Author": "Giovanni Zanovello",
-		"Name of Article": "Heinrich Isaac, The Mass Misericordias Domini, and Music in Late Fifteenth-Century Florence",
-		"Publisher": "Ph.D. diss., Princeton University",
-		"Publication Year": "2005",
-		"Input data": "SMB",
-		"Date entered": "2024-6-21"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Wegman_2011",
-		"Author": "Rob C. Wegman",
-		"Name of Article": "Fremin le Caron at Amiens: New Documents",
-		"Name of Volume/Journal": "Essays on Renaissance Music in Honour of David Fallows: Bon Jour, Bon Mois Et Bonne Estrenne",
-		"Editor": "Fabrice Fitch & Jacobijn Kiel",
-		"Volume": "11",
-		"Location": "Woodbridge",
-		"Publisher": "Boydell Press",
-		"Publication Year": "2011",
-		"Pages": "10–32",
-		"Input data": "AN",
-		"Date entered": "2026-3-15"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Litterick_2001",
-		"Author": "Louise Litterick",
-		"Name of Article": "Hayne [Ayne, Haine, Heyne, Scoen Hayne] van Ghizeghem [Ghiseghem]",
-		"Name of Volume/Journal": "Grove Music Online",
-		"Editor": "David Fallows (revised)",
-		"Publication Year": "2001",
-		"URL": "https://doi.org/10.1093/gmo/9781561592630.article.12631",
-		"Input data": "AN",
-		"Date entered": "2026-3-15"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Fallows_2001",
-		"Author": "David Fallows",
-		"Name of Article": "Constans [Costinus] Breuwe [Breeu, Brawe] [Constans de Languebroek, Constans de Trecht]",
-		"Name of Volume/Journal": "Grove Music Online",
-		"Publication Year": "2001",
-		"URL": "https://doi.org/10.1093/gmo/9781561592630.article.06328",
-		"Input data": "AN",
-		"Date entered": "2026-3-15"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Marix_1937",
-		"Author": "J. Marix",
-		"Name of Volume/Journal": "Les musiciens de la cour de Bourgogne au XVe siecle",
-		"Location": "Paris",
-		"Publication Year": "1937",
-		"Input data": "LQ",
-		"Date entered": "2026-3-18"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Wright_1975",
-		"Author": "Craig Wright",
-		"Name of Article": "Dufay at Cambrai: Discoveries and Revisions",
-		"Name of Volume/Journal": "Journal of the American Musicological Society",
-		"Volume": "28",
-		"Publication Year": "1975",
-		"Pages": "175–229",
-		"URL": "https://www.jstor.org/stable/830766",
-		"Input data": "LQ",
-		"Date entered": "2026-3-20"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Fallows_2001b",
-		"Author": "David Fallows",
-		"Name of Article": "Binchois [Binchoys], Gilles de Bins [Binch, Binche] dit",
-		"Name of Volume/Journal": "Grove Music Online",
-		"Publication Year": "2001",
-		"URL": "https://doi.org/10.1093/gmo/9781561592630.article.03094",
-		"Input data": "LQ",
-		"Date entered": "2026-3-23"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Sherr_1983",
-		"Author": "Richard Sherr",
-		"Name of Article": "Notes on Some Papal Documents in Paris",
-		"Name of Volume/Journal": "Studi Musicali",
-		"Volume": "12",
-		"Publication Year": "1983",
-		"Pages": "5–16",
-		"Input data": "RP",
-		"Date entered": "2026-4-10"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Eubel_1914",
-		"Name of Volume/Journal": "Hierarchia catholica medii aevi",
-		"Editor": "Conrad Eubel",
-		"Volume": "2",
-		"Publication Year": "1914",
-		"Input data": "RP",
-		"Date entered": "2026-4-10"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:MacCarthy_2018",
-		"Author": "Evan A. MacCarthy",
-		"Name of Article": "The English Voyage of Pietrobono Burzelli",
-		"Name of Volume/Journal": "Journal of Musicology",
-		"Volume": "35",
-		"Edition": "4",
-		"Publisher": "University of California Press",
-		"Publication Year": "2018",
-		"Pages": "431–59",
-		"URL": "https://www.jstor.org/stable/26508587",
-		"Input data": "AN",
-		"Date entered": "2026-4-13"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Bent_2001b",
-		"Author": "Margaret Bent",
-		"Name of Article": "Power, Leonel [Lionel, Lyonel, Leonellus, Leonelle; Polbero]",
-		"Name of Volume/Journal": "Grove Music Online",
-		"URL": "https://www.oxfordmusiconline.com/grovemusic/view/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-0000022217",
-		"Input data": "LQ",
-		"Date entered": "2026-4-14"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Bowers_1976",
-		"Author": "Roger Bowers",
-		"Name of Article": "Some Observations on the Life and Career of Lionel Power",
-		"Name of Volume/Journal": "Proceedings of the Royal Musical Association",
-		"Volume": "102",
-		"Publication Year": "1975-1976",
-		"Pages": "103–27",
-		"URL": "https://www.jstor.org/stable/766097",
-		"Input data": "LQ",
-		"Date entered": "2026-4-14"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Reynolds_1995",
-		"Author": "Christopher A. Reynolds",
-		"Name of Article": "Papal Patronage and The Music of St. Peter's, 1380–1513",
-		"Edition": "2022 paperback reprint",
-		"Publisher": "University of California Press",
-		"Publication Year": "1995",
-		"Input data": "LO",
-		"Date entered": "2026-4-16"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Trowell_2010",
-		"Author": "Brian Trowell",
-		"Name of Article": "Frye [ffry, ffrye, Frey, Frie], Walter",
-		"Name of Volume/Journal": "Grove Music Online",
-		"Publication Year": "2010",
-		"URL": "https://doi.org/10.1093/gmo/9781561592630.article.10327",
-		"Notes": "Original article from 2001, updated in 2010",
-		"Input data": "LQ",
-		"Date entered": "2026-4-17"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Ostoff_1962",
-		"Author": "Helmuth Ostoff",
-		"Name of Volume/Journal": "Josquin Desprez",
-		"Volume": "1",
-		"Location": "Tutzing",
-		"Publisher": "H. Schneider",
-		"Publication Year": "1962",
-		"Input data": "RP",
-		"Date entered": "2026-4-18"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Gottwald_2001",
-		"Author": "Clytus Gottwald",
-		"Name of Article": "Ghiselin [Verbonnet], Johannes",
-		"Name of Volume/Journal": "Grove Music Online",
-		"Publication Year": "2001",
-		"Input data": "RP",
-		"Date entered": "2026-4-18"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Wouters_1890",
-		"Author": "Alphonse Wouters",
-		"Name of Article": "Antoine de Lalaing",
-		"Name of Volume/Journal": "Biographie nationale de Belgique",
-		"Volume": "11",
-		"Publisher": "L'Academie Royale des Sciences, des Lettres et des Beaux-Arts de Belgique",
-		"Publication Year": "1890",
-		"Pages": "86–91",
-		"Input data": "RP",
-		"Date entered": "2026-4-18"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Fallows_2001",
-		"Author": "David Fallows",
-		"Name of Article": "Morton [Mourton, Moriton], Robert",
-		"Name of Volume/Journal": "Grove Music Online",
-		"Publication Year": "2001",
-		"URL": "https://doi.org/10.1093/gmo/9781561592630.article.19180",
-		"Input data": "HC",
-		"Date entered": "2026-4-26"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Kenney_1964",
-		"Author": "Sylvia W. Kenney",
-		"Name of Article": "Walter Frye and the Contenance Angloise",
-		"Location": "New Haven",
-		"Publisher": "Yale University Press",
-		"Publication Year": "1964",
-		"Input data": "LQ",
-		"Date entered": "2026-4-27"
-	},
-	{
 		"Bibliography (BIB) ID": "BIB:Wright_2001",
 		"Author": "Craig Wright",
 		"Name of Article": "Grossin [Grossim], Estienne",
@@ -1721,81 +1800,12 @@
 		"Date entered": "2026-05-08"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Lockwood_1985",
-		"Author": "Lewis Lockwood",
-		"Name of Article": "Adrian Willaert and Cardinal Ippolito I d'Este: New Light on Willaert's Early Career in Italy, 1515-21",
-		"Name of Volume/Journal": "Early Music History",
-		"Volume": "5",
-		"Publisher": "Cambridge University Press",
-		"Publication Year": "1985",
-		"Pages": "85-112",
-		"URL": "http://www.jstor.org/stable/853920",
-		"Input data": "LQ",
-		"Date entered": "2026-05-21"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Bossuyt_1998",
-		"Author": "Ignace Bossuyt",
-		"Name of Article": "O socii durate: A Musical Correspondence from the Time of Philip II",
-		"Name of Volume/Journal": "Early Music",
-		"Volume": "26",
-		"Publisher": "Oxford University Press",
-		"Publication Year": "1998",
-		"Pages": "432-444",
-		"URL": "https://www.jstor.org/stable/3128701",
-		"Input data": "LQ",
-		"Date entered": "2026-05-21"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Bossuyt_1985",
-		"Author": "Ignace Bossuyt",
-		"Name of Article": "Adriaan Williaert (ca. 1490-1562)",
-		"Volume": "3",
-		"Series": "Symbolae Facultatis litterarum et philosophiae Lovaniensis",
-		"Location": "Leuven",
-		"Publisher": "Universitaire Pers Leuven",
-		"Publication Year": "1985",
-		"Input data": "LQ",
-		"Date entered": "2026-05-21"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:VanderLinden_1940",
-		"Author": "Herman Vander Linden",
-		"Name of Article": "Itinéraires de Philippe le Bon, Duc de Bourgogne et de Charles, Comte de Charolais",
-		"Location": "Brussels",
-		"Publisher": "Palais des Académies",
-		"Publication Year": "1940",
-		"Input data": "ECZ"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Squire_1912",
-		"Author": "W. Barclay Squire",
-		"Name of Article": "Who was \"Benedictus\"?",
-		"Name of Volume/Journal": "Sammelbände der Internationalen Musikgesellschaft",
-		"Volume": "13",
-		"Publication Year": "1912",
-		"Pages": "264-271",
-		"URL": "https://www.jstor.org/stable/929464",
-		"Input data": "LQ",
-		"Date entered": "2026-06-10"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Forney_2001",
-		"Author": "Kristine Forney",
-		"Name of Article": "Opitiis, Benedictus de",
-		"Name of Volume/Journal": "Grove Music Online",
-		"Publication Year": "2001",
-		"URL": "https://doi.org/10.1093/gmo/9781561592630.article.20391",
-		"Input data": "LQ",
-		"Date entered": "2026-06-11"
-	},
-	{
-		"Bibliography (BIB) ID": "BIB:Ongaro_1986",
-		"Author": "Giulio Maria Ongaro",
-		"Name of Article": "The Chapel of St. Mark's at the Time of Adrian Willaert (1527-1562): A Documentary Study",
-		"Publisher": "PhD diss., University of North Carolina at Chapel Hill",
-		"Publication Year": "1986",
-		"Input data": "LQ",
-		"Date entered": "2026-06-24"
+		"Bibliography (BIB) ID": "BIB:Zanovello_2005",
+		"Author": "Giovanni Zanovello",
+		"Name of Article": "Heinrich Isaac, The Mass Misericordias Domini, and Music in Late Fifteenth-Century Florence",
+		"Publisher": "Ph.D. diss., Princeton University",
+		"Publication Year": "2005",
+		"Input data": "SMB",
+		"Date entered": "2024-6-21"
 	}
 ]
