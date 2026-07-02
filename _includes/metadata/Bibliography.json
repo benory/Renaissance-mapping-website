@@ -871,7 +871,7 @@
 		"Date entered": "2023-5-19"
 	},
 	{
-		"Bibliography (BIB) ID": "BIB:Lockwood_2009",
+		"Bibliography (BIB) ID": "BIB:Lockwood_1984",
 		"Author": "Lewis Lockwood",
 		"Name of Volume/Journal": "Music in Renaissance Ferrara, 1400–1505",
 		"Edition": "2nd",
@@ -1825,5 +1825,30 @@
 		"Publication Year": "2005",
 		"Input data": "SMB",
 		"Date entered": "2024-6-21"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Kellman_1999",
+		"Author": "Herbert Kellman",
+		"Name of Article": "Catalogue of Manuscripts and Fragments",
+		"Name of Volume/Journal": "The Treasury of Petrus Alamire: Music and Art in Flemish Court Manuscripts 1500–1535",
+		"Editor": "Herbert Kellman",
+		"Location": "Ludion, Ghent, and Amsterdam",
+		"Publication Year": "1999",
+		"Pages": "67",
+		"Input data": "RP",
+		"Date entered": "2026-7-1"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Lockwood_2009",
+		"Author": "Lewis Lockwood",
+		"Name of Article": "\"It's True that Josquin Composes Better...\": The Short Unhappy Life of Gian de Artiganova",
+		"Name of Volume/Journal": "Uno Gentile et Subtile Ingenio: Studies in Renaissance Music in Honour of Bonnie J. Blackburn",
+		"Editor": "M. Jennifer Bloxam, Gioia Filocamo, and Leofranc Holford-Strevens",
+		"Location": "Turnhout",
+		"Publisher": "Brepols",
+		"Publication Year": "2009",
+		"Pages": "201–16",
+		"Input data": "JDR",
+		"Date entered": "2024-2-11"
 	}
 ]

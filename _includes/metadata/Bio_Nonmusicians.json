@@ -182,10 +182,14 @@
 		"Date entered": "2024-11-05"
 	},
 	{
-		"Biography Non-Musician (BNO) ID": "BNO:Bernadino_Salvetti",
-		"Person Name": "Bernadino Salvetti",
-		"Input data": "BSO",
-		"Date entered": "2023-5-8"
+		"Biography Non-Musician (BNO) ID": "BNO:Bernardinus_Salvetti",
+		"Person Name": "Bernardinus Salvetti",
+		"Alias": "Bernardino Salvetti",
+		"Noted Positions": "notary",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "373",
+		"Input data": "RP",
+		"Date entered": "2026-07-01"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Biagio_da_Birago",
@@ -325,6 +329,15 @@
 		"Date entered": "2025-10-03"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Cornelis_de_Vos",
+		"Person Name": "Cornelis de Vos",
+		"Noted Positions": "fourrier de chapelle at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "108",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Cornelis_Swaen",
 		"Person Name": "Cornelis Swaen",
 		"Noted Positions": "calcant/souffleur d’orghes (responsible for adding air into the organ bellows) at the Imperial chapel of Charles V",
@@ -332,6 +345,15 @@
 		"BIB Pages": "202",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Cornille_Cleyn",
+		"Person Name": "Cornille Cleyn",
+		"Noted Positions": "employed at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "104",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Cornille_de_Grave",
@@ -344,6 +366,25 @@
 		"Date entered": "2025-10-03"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Cornille_le_Woz_dit_Wezemale",
+		"Person Name": "Cornille le Woz dit Wezemale",
+		"Noted Positions": "fourrier de la chappelle at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "104",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Cornille_Suawe",
+		"Person Name": "Cornille Suawe",
+		"Alias": "Suawaue, Cornille",
+		"Noted Positions": "souffleur d'orgues at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "104",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Cosimo_de_Medici",
 		"Person Name": "Cosimo de Medici",
 		"Birth Date": "1389-9-27",
@@ -354,6 +395,24 @@
 		"BIB Pages": "109",
 		"Input data": "SC",
 		"Date entered": "2025-06-19"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Courouble",
+		"Person Name": "Courouble",
+		"Noted Positions": "doctor at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "104",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Dandelot",
+		"Person Name": "Dandelot",
+		"Noted Positions": "sommelier de l'oratoire at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "109",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Domenico_di_Paris",
@@ -463,12 +522,6 @@
 		"Date entered": "2024-11-05"
 	},
 	{
-		"Biography Non-Musician (BNO) ID": "BNO:G_da_Sestola_dicto_Coglia",
-		"Person Name": "G. da Sestola dicto Coglia",
-		"Input data": "BSO",
-		"Date entered": "2023-5-8"
-	},
-	{
 		"Biography Non-Musician (BNO) ID": "BNO:Galeazzo_Maria_Sforza",
 		"Person Name": "Galeazzo Maria Sforza",
 		"Birth Date": "1444-1-24",
@@ -507,10 +560,14 @@
 		"Date entered": "2026-2-28"
 	},
 	{
-		"Biography Non-Musician (BNO) ID": "BNO:Gian_de_Artiganova",
-		"Person Name": "Gian de Artiganova",
-		"Input data": "BSO",
-		"Date entered": "2023-5-8"
+		"Biography Non-Musician (BNO) ID": "BNO:Giacomo_dAtri",
+		"Person Name": "Giacomo d'Atri",
+		"Alias": "Giacomo de Hadria",
+		"Noted Positions": "Mantuan ambassador to the French royal court",
+		"Bibliography ID (BIB)": "BIB:Fallows_2009",
+		"BIB Pages": "372",
+		"Input data": "RP",
+		"Date entered": "2026-07-01"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Gian_in_Ferrara",
@@ -639,6 +696,15 @@
 		"BIB Pages": "202",
 		"Input data": "AN",
 		"Date entered": "2024-11-05"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Hugues_Monin",
+		"Person Name": "Hugues Monin",
+		"Noted Positions": "varlet daulmosne at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "104",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Innocent_VIII",
@@ -773,6 +839,15 @@
 		"Date entered": "2026-6-12"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jehannin_Raes",
+		"Person Name": "Jehannin Raes",
+		"Noted Positions": "clerc de chapelle at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "109",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Jenin_Mathieu_dit_Cappelleman",
 		"Person Name": "Jenin Mathieu dit Cappelleman",
 		"Alias": "Mathieu, Jennin; Matieu, Juanino; Mahieu, Johannes; Mahieu alias Hauret, Johannes; de Haurecke, Johannes; Mathieu, Joes; Mahyeu alias de Hauret, Johannes; Mathieu dit Cappelleman, Johannes; Mathieu, Joannes; Cappelman;   Mathieu, Johannes; Mathieu, Jehan; Cappelman, Joannes; Mathieu, Jenin",
@@ -813,6 +888,24 @@
 		"BIB Pages": "729-30",
 		"Input data": "RP",
 		"Date entered": "2026-04-10"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Johannes_Euerart",
+		"Person Name": "Johannes Euerart",
+		"Noted Positions": "employed at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "104",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Johannes_Lestannier",
+		"Person Name": "Johannes Lestannier",
+		"Noted Positions": "aide to the organist at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "104",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Johannes_Orceau",
@@ -862,6 +955,15 @@
 		"Date entered": "2023-4-16",
 		"Update data": "BSO",
 		"Date updated": "2023-5-8"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:La_Troilliere",
+		"Person Name": "La Troillière",
+		"Noted Positions": "sommelier de l'oratoire at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "109",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Leo_X",
@@ -953,6 +1055,15 @@
 		"Date entered": "2023-5-8"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Ludolfus_Clement",
+		"Person Name": "Ludolfus Clement",
+		"Noted Positions": "souffleur d'orgues at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "114",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Ludovico_Gonzaga",
 		"Person Name": "Ludovico Gonzaga",
 		"Birth Date": "c.1460",
@@ -970,6 +1081,15 @@
 		"BIB Pages": "258",
 		"Input data": "LO",
 		"Date entered": "2024-3-22"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Marc_de_Moor",
+		"Person Name": "Marc de Moor",
+		"Noted Positions": "aide to the organist at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "96",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Marguerite_of_Austria",
@@ -1097,6 +1217,16 @@
 		"Date entered": "2024-3-22"
 	},
 	{
+		"Biography Non-Musician (BNO) ID": "BNO:Nicolas_Champ",
+		"Person Name": "Nicolas Champ",
+		"Alias": "Camp, Nycolas",
+		"Noted Positions": "clerk at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "104",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
+	},
+	{
 		"Biography Non-Musician (BNO) ID": "BNO:Nicolas_Loys",
 		"Person Name": "Nicolas Loys",
 		"Noted Positions": "member of the Imperial chapel of Charles V",
@@ -1105,6 +1235,15 @@
 		"Internal notes": "no information on whether he's a musician or not, but I categorized him here due to the petite chapelle taking care of the low masses",
 		"Input data": "AN",
 		"Date entered": "2026-6-12"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Nicolaus_Faber",
+		"Person Name": "Nicolaus Faber",
+		"Noted Positions": "almoner at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "95",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Nicolaus_Menent",
@@ -1227,6 +1366,15 @@
 		"BIB Pages": "35",
 		"Input data": "AN",
 		"Date entered": "2025-08-27"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Pierre_de_Latroulliere",
+		"Person Name": "Pierre de Latroulliere",
+		"Noted Positions": "sommelier de l'oratoire at the Imperial chapel of Charles V",
+		"Bibliography ID (BIB)": "BIB:Ferer_2012",
+		"BIB Pages": "104",
+		"Input data": "AN",
+		"Date entered": "2026-06-22"
 	},
 	{
 		"Biography Non-Musician (BNO) ID": "BNO:Pierre_de_Ronsard",
@@ -1395,34 +1543,6 @@
 		"Date updated": "2023-5-8"
 	},
 	{
-		"Biography Non-Musician (BNO) ID": "BNO:Willekin_Scoutet",
-		"Person Name": "Willekin Scoutet",
-		"Noted Positions": "employed at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "68",
-		"Internal notes": "listed in the part of the paylist that I've found usually houses non-musician employees, but there's little information on him",
-		"Input data": "AN",
-		"Date entered": "2026-6-12"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Nicolaus_Faber",
-		"Person Name": "Nicolaus Faber",
-		"Noted Positions": "almoner at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "95",
-		"Input data": "AN",
-		"Date entered": "2026-06-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Marc_de_Moor",
-		"Person Name": "Marc de Moor",
-		"Noted Positions": "aide to the organist at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "96",
-		"Input data": "AN",
-		"Date entered": "2026-06-22"
-	},
-	{
 		"Biography Non-Musician (BNO) ID": "BNO:Walleran_Hangouart",
 		"Person Name": "Walleran Hangouart",
 		"Noted Positions": "almoner at the Imperial chapel of Charles V",
@@ -1432,131 +1552,13 @@
 		"Date entered": "2026-06-22"
 	},
 	{
-		"Biography Non-Musician (BNO) ID": "BNO:Johannes_Lestannier",
-		"Person Name": "Johannes Lestannier",
-		"Noted Positions": "aide to the organist at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "104",
-		"Input data": "AN",
-		"Date entered": "2026-06-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Cornille_Suawe",
-		"Person Name": "Cornille Suawe",
-		"Alias": "Suawaue, Cornille",
-		"Noted Positions": "souffleur d'orgues at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "104",
-		"Input data": "AN",
-		"Date entered": "2026-06-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Pierre_de_Latroulliere",
-		"Person Name": "Pierre de Latroulliere",
-		"Noted Positions": "sommelier de l'oratoire at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "104",
-		"Input data": "AN",
-		"Date entered": "2026-06-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Nicolas_Champ",
-		"Person Name": "Nicolas Champ",
-		"Alias": "Camp, Nycolas",
-		"Noted Positions": "clerk at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "104",
-		"Input data": "AN",
-		"Date entered": "2026-06-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Cornille_le_Woz_dit_Wezemale",
-		"Person Name": "Cornille le Woz dit Wezemale",
-		"Noted Positions": "fourrier de la chappelle at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "104",
-		"Input data": "AN",
-		"Date entered": "2026-06-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Hugues_Monin",
-		"Person Name": "Hugues Monin",
-		"Noted Positions": "varlet daulmosne at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "104",
-		"Input data": "AN",
-		"Date entered": "2026-06-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Courouble",
-		"Person Name": "Courouble",
-		"Noted Positions": "doctor at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "104",
-		"Input data": "AN",
-		"Date entered": "2026-06-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Johannes_Euerart",
-		"Person Name": "Johannes Euerart",
+		"Biography Non-Musician (BNO) ID": "BNO:Willekin_Scoutet",
+		"Person Name": "Willekin Scoutet",
 		"Noted Positions": "employed at the Imperial chapel of Charles V",
 		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "104",
+		"BIB Pages": "68",
+		"Internal notes": "listed in the part of the paylist that I've found usually houses non-musician employees, but there's little information on him",
 		"Input data": "AN",
-		"Date entered": "2026-06-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Cornille_Cleyn",
-		"Person Name": "Cornille Cleyn",
-		"Noted Positions": "employed at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "104",
-		"Input data": "AN",
-		"Date entered": "2026-06-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Cornelis_de_Vos",
-		"Person Name": "Cornelis de Vos",
-		"Noted Positions": "fourrier de chapelle at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "108",
-		"Input data": "AN",
-		"Date entered": "2026-06-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:La_Troilliere",
-		"Person Name": "La Troillière",
-		"Noted Positions": "sommelier de l'oratoire at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "109",
-		"Input data": "AN",
-		"Date entered": "2026-06-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Jehannin_Raes",
-		"Person Name": "Jehannin Raes",
-		"Noted Positions": "clerc de chapelle at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "109",
-		"Input data": "AN",
-		"Date entered": "2026-06-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Dandelot",
-		"Person Name": "Dandelot",
-		"Noted Positions": "sommelier de l'oratoire at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "109",
-		"Input data": "AN",
-		"Date entered": "2026-06-22"
-	},
-	{
-		"Biography Non-Musician (BNO) ID": "BNO:Ludolfus_Clement",
-		"Person Name": "Ludolfus Clement",
-		"Noted Positions": "souffleur d'orgues at the Imperial chapel of Charles V",
-		"Bibliography ID (BIB)": "BIB:Ferer_2012",
-		"BIB Pages": "114",
-		"Input data": "AN",
-		"Date entered": "2026-06-22"
+		"Date entered": "2026-6-12"
 	}
 ]
