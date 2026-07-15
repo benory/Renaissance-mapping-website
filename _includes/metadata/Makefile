@@ -1,9 +1,3 @@
-##
-## Programmer:    Benjamin Ory
-## Syntax:        GNU Makefile
-## Filename:      _includes/metadata/Makefile
-##
-
 ## SID for relational database
 SID = AKfycbz8qVfP8Gx7Bf7dbQ_6bSbLm1t2clo4EGJWJOBgAQesU65HpfFBH98OPO8aQVw_oqFD
 
