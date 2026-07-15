@@ -6,15 +6,6 @@ nav: true
 
 ---
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9SL07ZJ25"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-E9SL07ZJ25');
-</script>
-
 {% include_relative scripts-local.html %}
 {% include_relative styles-local.html %}
 
