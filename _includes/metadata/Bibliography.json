@@ -1767,7 +1767,6 @@
 		"Volume": "28",
 		"Publication Year": "1975",
 		"Pages": "175–229",
-		"URL": "https://www.jstor.org/stable/830766",
 		"Input data": "LQ",
 		"Date entered": "2026-3-20"
 	},
@@ -1850,5 +1849,39 @@
 		"Pages": "201–16",
 		"Input data": "JDR",
 		"Date entered": "2024-2-11"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Leuchtmann_1976",
+		"Author": "Horst Leuchtmann",
+		"Name of Volume/Journal": "Orlando di Lasso: Sein Leben",
+		"Location": "Wiesbaden",
+		"Publisher": "Breitkopf & Härtel",
+		"Publication Year": "1976",
+		"Input data": "LQ",
+		"Date entered": "2026-7-28"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Starr_1989",
+		"Author": "Pamela F. Starr",
+		"Name of Article": "The “Ferrara Connection”: Musical Recruitment in the Renaissance",
+		"Name of Volume/Journal": "Studi musicali",
+		"Volume": "18",
+		"Publication Year": "1989",
+		"Pages": "3-17",
+		"Input data": "LQ",
+		"Date entered": "2026-8-11"
+	},
+	{
+		"Bibliography (BIB) ID": "BIB:Lockwood_1974",
+		"Author": "Lewis Lockwood",
+		"Name of Article": "Dufay and Ferrara",
+		"Name of Volume/Journal": "Papers Read at the Dufay Quincentenary Conference",
+		"Editor": "Allan W. Atlas",
+		"Location": "New York",
+		"Publisher": "Department of Music, Brooklyn College of City University Of New York",
+		"Publication Year": "1976",
+		"Pages": "1-25",
+		"Input data": "LQ",
+		"Date entered": "2026-8-20"
 	}
 ]

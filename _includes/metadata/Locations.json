@@ -4385,5 +4385,23 @@
 		"Coordinates": "51.02869, 4.10106",
 		"Input data": "AN",
 		"Date entered": "2026-06-22"
+	},
+	{
+		"Location ID (LOC)": "LOC:Palermo",
+		"Name of Location": "Palermo",
+		"City or Larger Place": "Sicily",
+		"Modern Country": "Italy",
+		"Google URL": "https://maps.app.goo.gl/3iMvNvrGRUrszGN87",
+		"Coordinates": "38.1166484880281, 13.350637031738254"
+	},
+	{
+		"Location ID (LOC)": "LOC:Paris-Sainte_Chapelle",
+		"Name of Location": "Sainte Chapelle",
+		"City or Larger Place": "Paris",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/nLGSm8KpfoZkrdeD8",
+		"Coordinates": "48.85594155848087, 2.3448712539672822",
+		"Input data": "LQ",
+		"Date entered": "2026-08-20"
 	}
 ]

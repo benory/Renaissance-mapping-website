@@ -1529,5 +1529,42 @@
 		"Bibliography (BIB) ID": "BIB:Starr_1997",
 		"Input data": "LQ",
 		"Date entered": "2026-06-26"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Orlando_di_Lasso",
+		"Composer Name": "Orlando di Lasso",
+		"Alias": "Di Lasso, Orlando; DiLasso, Orlando; Lasso, Orlandi di; Lasso, Orlando de; Lasso, Orlando di; Lassus, Orlande de; Lassus, Orlando di; Lassus, Orlandus; Lassus, Orlandus di; Lassus, Roland de; Lassus, Rolando de; Lassus, Rolando di; Lassus, Rolland de",
+		"Birth Date": "~1532",
+		"Death Date": "1594",
+		"Description": "composer; kapellmeister; tenor",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/777/",
+		"RISM Link": "https://rism.online/people/506",
+		"Bibliography (BIB) ID": "BIB:Leuchtmann_1976",
+		"Input data": "LQ",
+		"Date entered": "2026-07-28"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Benoit",
+		"Composer Name": "Benoit",
+		"Alias": "Benedette di Giovanni dito Benoit; Benenoit; Benotto di Giovanni; Benottus de Ferraria",
+		"Description": "composer; maestro di cappella; singer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/373/",
+		"RISM Link": "https://rism.online/people/51016545",
+		"Bibliography (BIB) ID": "BIB:Starr_1989",
+		"Input data": "LQ",
+		"Date entered": "2026-08-11"
+	},
+	{
+		"Biography Composer (BCO) ID": "BCO:Fede",
+		"Composer Name": "Fede",
+		"Alias": "Phede; Sohier",
+		"Birth Date": "1415",
+		"Death Date": "1477",
+		"Description": "composer; singer",
+		"DIAMM Link": "https://www.diamm.ac.uk/people/238/",
+		"RISM Link": "https://rism.online/people/50053885",
+		"Bibliography (BIB) ID": "BIB:Wright_1975",
+		"Input data": "LQ",
+		"Date entered": "2026-08-13"
 	}
 ]
