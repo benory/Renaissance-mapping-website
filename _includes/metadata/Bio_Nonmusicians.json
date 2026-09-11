@@ -1560,5 +1560,64 @@
 		"Internal notes": "listed in the part of the paylist that I've found usually houses non-musician employees, but there's little information on him",
 		"Input data": "AN",
 		"Date entered": "2026-6-12"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:John_the_Fearless",
+		"Person Name": "John the Fearless",
+		"Alias": "John I",
+		"Birth Date": "1371",
+		"Death Date": "1419",
+		"Noted Positions": "Duke of Burgundy",
+		"Bibliography ID (BIB)": "BIB:VanderLinden_1940",
+		"BIB Pages": "1",
+		"Input data": "AN",
+		"Date entered": "2026-8-27"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Michelle_of_Valois",
+		"Person Name": "Michelle of Valois",
+		"Alias": "Michelle of France",
+		"Birth Date": "1395",
+		"Death Date": "1422",
+		"Noted Positions": "Duchess consort of Burgundy",
+		"Bibliography ID (BIB)": "BIB:VanderLinden_1940",
+		"BIB Pages": "3",
+		"Input data": "AN",
+		"Date entered": "2026-8-27"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Jean_de_Thoisy",
+		"Person Name": "Jean de Thoisy",
+		"Birth Date": "~1350",
+		"Death Date": "1433",
+		"Noted Positions": "Bishop of Tournai",
+		"Bibliography ID (BIB)": "BIB:VanderLinden_1940",
+		"BIB Pages": "4",
+		"Input data": "AN",
+		"Date entered": "2026-8-27"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Henry_V",
+		"Person Name": "Henry V",
+		"Alias": "Henry of Monmouth",
+		"Birth Date": "1386",
+		"Death Date": "1422",
+		"Noted Positions": "King of England",
+		"Bibliography ID (BIB)": "BIB:VanderLinden_1940",
+		"BIB Pages": "7",
+		"Input data": "AN",
+		"Date entered": "2026-8-27"
+	},
+	{
+		"Biography Non-Musician (BNO) ID": "BNO:Charles_VI",
+		"Person Name": "Charles VI",
+		"Alias": "Charles the Beloved, Charles the Mad",
+		"Birth Date": "1368",
+		"Death Date": "1422",
+		"Noted Positions": "King of France",
+		"Bibliography ID (BIB)": "BIB:VanderLinden_1940",
+		"BIB Pages": "12",
+		"Input data": "AN",
+		"Date entered": "2026-8-27"
 	}
 ]

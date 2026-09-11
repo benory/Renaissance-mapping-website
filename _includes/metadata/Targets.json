@@ -179,6 +179,13 @@
 	},
 	{
 		"Target Type": "A",
+		"Last": "Lasso",
+		"First": "Orlando di",
+		"Status": "7 events",
+		"Contributor": "LQ"
+	},
+	{
+		"Target Type": "A",
 		"Last": "Morales",
 		"First": "Cristòbal de",
 		"Status": "10 events"
@@ -395,7 +402,7 @@
 	{
 		"Target Type": "B",
 		"Last": "Fede",
-		"Status": "8 events",
+		"Status": "Complete",
 		"Contributor": "LQ"
 	},
 	{

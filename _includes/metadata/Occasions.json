@@ -20,5 +20,12 @@
 		"Occasion Description": "Ecumenical council",
 		"Input data": "SMB",
 		"Date entered": "2024-8-21"
+	},
+	{
+		"Occasion ID (OCC)": "OCC:Treaty_of_Troyes",
+		"Occasion Name": "Treaty of Troyes of 1420",
+		"Occasion Description": "a treaty signed in the aftermath of King Henry V of England's military campaign in France, where it was agreed that Henry V and his heirs would inherit the French throne once King Charles VI of France died.",
+		"Input data": "AN",
+		"Date entered": "2026-8-27"
 	}
 ]

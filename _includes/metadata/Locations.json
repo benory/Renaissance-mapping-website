@@ -4382,7 +4382,7 @@
 		"Name of Location": "Dendermonde",
 		"Modern Country": "Belgium",
 		"Google URL": "https://maps.app.goo.gl/4CYhevtgNFWz8q4h8",
-		"Coordinates": "51.02869, 4.10106",
+		"Coordinates": "51.02510776326468, 4.101707420268408",
 		"Input data": "AN",
 		"Date entered": "2026-06-22"
 	},
@@ -4392,7 +4392,9 @@
 		"City or Larger Place": "Sicily",
 		"Modern Country": "Italy",
 		"Google URL": "https://maps.app.goo.gl/3iMvNvrGRUrszGN87",
-		"Coordinates": "38.1166484880281, 13.350637031738254"
+		"Coordinates": "38.1166484880281, 13.350637031738254",
+		"Input data": "LQ",
+		"Date entered": "2026-08-20"
 	},
 	{
 		"Location ID (LOC)": "LOC:Paris-Sainte_Chapelle",
@@ -4403,5 +4405,828 @@
 		"Coordinates": "48.85594155848087, 2.3448712539672822",
 		"Input data": "LQ",
 		"Date entered": "2026-08-20"
+	},
+	{
+		"Location ID (LOC)": "LOC:Dendermonde",
+		"Name of Location": "Dendermonde",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/4CYhevtgNFWz8q4h8",
+		"Coordinates": "51.02640340343892, 4.100505785590273",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Montereau-Fault-Yonne",
+		"Name of Location": "Montereau-Fault-Yonne",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/Eq5hVH48R6N4D4X97",
+		"Coordinates": "48.38472739187941, 2.9538104516665773",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Halle",
+		"Name of Location": "Halle",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/iKF6S5JRWjWtrnFV7",
+		"Coordinates": "50.73498251730111, 4.230128682233612",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bapaume",
+		"Name of Location": "Bapaume",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/sEfDJyN56FBGoTkT8",
+		"Coordinates": "50.10374440432563, 2.849064694576393",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Crepy",
+		"Name of Location": "Crépy",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/4jVzNhaQyPsYgt736",
+		"Coordinates": "49.60511775055652, 3.5151600187195045",
+		"Aliases": "Crépy-en-Laonnais",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Crecy-sur-Serre",
+		"Name of Location": "Crécy-sur-Serre",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/2FRA65DwXgbw2CPF8",
+		"Coordinates": "49.696458016275514, 3.6239436889021337",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Nieppe",
+		"Name of Location": "Nieppe",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/tPLMiN3eQCYidUJ68",
+		"Coordinates": "50.70433608734248, 2.839211191211312",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Beloeil",
+		"Name of Location": "Belœil",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/BSbRNdkSwVRwsjDD9",
+		"Coordinates": "50.548776691529795, 3.7353745630034734",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Chatillon-sur-Seine",
+		"Name of Location": "Châtillon-sur-Seine",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/qr8X9NRtiV9yXJ4i9",
+		"Coordinates": "47.86047610465282, 4.571995335895636",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bar-sur-Seine",
+		"Name of Location": "Bar-sur-Seine",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/FwKNPKkmd2MjQnXk9",
+		"Coordinates": "48.11440959997777, 4.373919379157984",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Villeneuve-l_Archeveque",
+		"Name of Location": "Villeneuve-l'Archevêque",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/qwqS5nR2Quh7aHMNA",
+		"Coordinates": "48.237041304802155, 3.554336765524361",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Sens",
+		"Name of Location": "Sens",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/ZdJJCnBWUthWWB7F8",
+		"Coordinates": "48.200662939470156, 3.282267965169646",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Meteren",
+		"Name of Location": "Méteren",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/rS63ZZtbDPj8nG7u6",
+		"Coordinates": "50.74071056467515, 2.6913630774551955",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ypres",
+		"Name of Location": "Ypres",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/qdEa16Ajcv2hSEXp7",
+		"Coordinates": "50.85142089884512, 2.8858248605026677",
+		"Aliases": "Ieper",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Deinze",
+		"Name of Location": "Deinze",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/YiFu53GaTRppy4YQ9",
+		"Coordinates": "50.98003388078169, 3.5297911850396284",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Male",
+		"Name of Location": "Male",
+		"City or Larger Place": "Bruges",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/wGy2DiKo3ePct1HL9",
+		"Coordinates": "51.21161128175282, 3.285010729580573",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Ter_Doest_Abbey",
+		"Name of Location": "Ter Doest Abbey",
+		"City or Larger Place": "Lissewege",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/R1mqZzzotrxXLtKt8",
+		"Coordinates": "51.28157477836415, 3.202165028742234",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Lissewege",
+		"Name of Location": "Lissewege",
+		"City or Larger Place": "Bruges",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/NdTPS5DzHjgrY4V27",
+		"Coordinates": "51.29542863917676, 3.1886794362362596",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Eeklo",
+		"Name of Location": "Eeklo",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/9apsvQmffXEH1oUG7",
+		"Coordinates": "51.1862252176965, 3.563850989593116",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Damme",
+		"Name of Location": "Damme",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/eiGkiyAofF48r54ZA",
+		"Coordinates": "51.25257300355597, 3.2815072685305657",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Dudzele",
+		"Name of Location": "Dudzele",
+		"City or Larger Place": "Bruges",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/asq1y7jo1sGSnJjp6",
+		"Coordinates": "51.27450788703171, 3.22317949703145",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Salins-les-Bains",
+		"Name of Location": "Salins-les-Bains",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/RX3DEwG4i4qAwtMu7",
+		"Coordinates": "46.94609117929344, 5.8800856984862335",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Corbeil-Essonnes",
+		"Name of Location": "Corbeil-Essonnes",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/M1QPjBnT82kR2A96A",
+		"Coordinates": "48.610252105242985, 2.4727949442591246",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Nazareth-De_Pinte",
+		"Name of Location": "Nazareth-De Pinte",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/ahMwTN6zBiRCYCLDA",
+		"Coordinates": "50.96124981249156, 3.619674905141286",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Gisors",
+		"Name of Location": "Gisors",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/95Yp7kF6wFzMWLpB8",
+		"Coordinates": "49.2812865556964, 1.7742880689171692",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Oudenaarde",
+		"Name of Location": "Oudenaarde",
+		"Modern Country": "Belgium",
+		"Google URL": "https://maps.app.goo.gl/DZcJZMubUNyG3bMh9",
+		"Coordinates": "50.84599021625712, 3.602579680936634",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bethune",
+		"Name of Location": "Béthune",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/i6Y2DNRJYCLb7VpH9",
+		"Coordinates": "50.530816558492376, 2.6389877290745978",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Hesdin",
+		"Name of Location": "Hesdin",
+		"City or Larger Place": "Hesdin-la-Forêt",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/7SXUnn3ZT7p3mKMu5",
+		"Coordinates": "50.372865453952805, 2.0370664897810387",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Montreuil-sur-Mer",
+		"Name of Location": "Montreuil-sur-Mer",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/uoSThAD86c5nQhoD8",
+		"Coordinates": "50.46508542401371, 1.7628250362822373",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint-Pol-sur-Ternoise",
+		"Name of Location": "Saint-Pol-sur-Ternoise",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/sRAbbBrUUmRmZRKu6",
+		"Coordinates": "50.380571898465234, 2.335250906573532",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint-Riquier",
+		"Name of Location": "Saint-Riquier",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/WRfWixEgwdT5WVhP6",
+		"Coordinates": "50.13399025037544, 1.9479815121325483",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Auxi-le-Chateau",
+		"Name of Location": "Auxi-le-Château",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/fP1n4txs7ziTaPHG7",
+		"Coordinates": "50.23171964524028, 2.1159915090796573",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Yvrencheux",
+		"Name of Location": "Yvrencheux",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/mF4eN8tgGyzpKK6w7",
+		"Coordinates": "50.18162232611086, 1.992782021712606",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Pont-Remy",
+		"Name of Location": "Pont-Remy",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/DKETBgrZAL7Juf42A",
+		"Coordinates": "50.05487881858019, 1.9036358607987702",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Lucheux",
+		"Name of Location": "Lucheux",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/RT6bPvQiKzVHW7Z56",
+		"Coordinates": "50.197388918194086, 2.4087621264374013",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Croissy-sur-Celle",
+		"Name of Location": "Croissy-sur-Celle",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/KUFphABNes7bsPUH6",
+		"Coordinates": "49.69649701187337, 2.1703864442211924",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Beaumont-sur-Oise",
+		"Name of Location": "Beaumont-sur-Oise",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/ffEN7cyzuA7RWJS66",
+		"Coordinates": "49.14193097092902, 2.286564418476849",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Lagny-sur-Marne",
+		"Name of Location": "Lagny-sur-Marne",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/FYSDvhPbxgdYhmKR6",
+		"Coordinates": "48.87329842190893, 2.7127525934966825",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Meaux",
+		"Name of Location": "Meaux",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/2WVHPgbfirEJMXdz9",
+		"Coordinates": "48.95634830891773, 2.887832512326546",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bray-sur-Seine",
+		"Name of Location": "Bray-sur-Seine",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/rbpkBrTZk7PXj3mt9",
+		"Coordinates": "48.41497721529795, 3.2386502326395243",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Marigny-le-Chatel",
+		"Name of Location": "Marigny-le-Châtel",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/kNGSA3kjavWdNouE7",
+		"Coordinates": "48.40270724221838, 3.737447430725189",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Mussy-sur-Seine",
+		"Name of Location": "Mussy-sur-Seine",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/yJLTup4RPnS51FRj8",
+		"Coordinates": "47.977428812108045, 4.496291963120091",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Villaines-en-Duesmois",
+		"Name of Location": "Villaines-en-Duesmois",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/6Jw4h7USVJ1ni32w7",
+		"Coordinates": "47.68185109370703, 4.524934093608756",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Chanceaux",
+		"Name of Location": "Chanceaux",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/UhNim3Wyr3p5WBfh9",
+		"Coordinates": "47.51961816689746, 4.718241245721467",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Talant",
+		"Name of Location": "Talant",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/M24ik9bWw4UGw6Hr8",
+		"Coordinates": "47.336445001762996, 5.003845702837009",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint-Seine-l_Abbaye",
+		"Name of Location": "Saint-Seine-l'Abbaye",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/Zmtg2e9EPX1KpB4z8",
+		"Coordinates": "47.4414990518176, 4.789841294228243",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Rouvres-en-Plaine",
+		"Name of Location": "Rouvres-en-Plaine",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/KMoX7av4gBpGwEVA6",
+		"Coordinates": "47.238422354763834, 5.1418009980771195",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Auxerre",
+		"Name of Location": "Auxerre",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/SFjF6Ji4qhTL3Tmr7",
+		"Coordinates": "47.798273652799246, 3.5731382538237866",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Auxonne",
+		"Name of Location": "Auxonne",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/zNTsPz4m8MPwNHk49",
+		"Coordinates": "47.192861649063914, 5.389515486286577",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Fraisans",
+		"Name of Location": "Fraisans",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/eCQUs7UEv4xydEFk6",
+		"Coordinates": "47.14904375098835, 5.762117347219375",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Quingey",
+		"Name of Location": "Quingey",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/NgofR2Q18ZQahhW97",
+		"Coordinates": "47.103285239500714, 5.883784423240385",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Chay",
+		"Name of Location": "Chay",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/GMxRdJ8A4o5py1Cb9",
+		"Coordinates": "47.03534635735684, 5.8596377488492815",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Poligny",
+		"Name of Location": "Poligny",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/rVp1NAAzruqSiifG7",
+		"Coordinates": "46.83936136369348, 5.7031465027542785",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Orgelet",
+		"Name of Location": "Orgelet",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/qC9sTYn6uu4yNqJcA",
+		"Coordinates": "46.52312748327677, 5.611558685142918",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Moirans-en-Montagne",
+		"Name of Location": "Moirans-en-Montagne",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/ySRs2tnoLVNkATUB8",
+		"Coordinates": "46.42877455883501, 5.724550576332358",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Saint-Claude",
+		"Name of Location": "Saint-Claude",
+		"City or Larger Place": "Jura",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/HioYUjdSriqekmvu9",
+		"Coordinates": "46.387765382769665, 5.865463316840573",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Gex",
+		"Name of Location": "Gex",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/AguyAQ8FTEPbs4f19",
+		"Coordinates": "46.33130401172646, 6.0581189124017145",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Morges",
+		"Name of Location": "Morges",
+		"Modern Country": "Switzerland",
+		"Google URL": "https://maps.app.goo.gl/VumSeutNUZBayVs38",
+		"Coordinates": "46.50878986759565, 6.496329754118723",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Jougne",
+		"Name of Location": "Jougne",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/7ESGYT8RwLoJqfSE9",
+		"Coordinates": "46.761992781287184, 6.3889356376208495",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Nozeroy",
+		"Name of Location": "Nozeroy",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/yfWSZfLpSVmxHgnf6",
+		"Coordinates": "46.775313870637895, 6.038810493015396",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bellevesvre",
+		"Name of Location": "Bellevesvre",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/jjX2gMCBjf6mPghb6",
+		"Coordinates": "46.84137378776513, 5.365147400188644",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Verdun-sur-le-Doubs",
+		"Name of Location": "Verdun-sur-le-Doubs",
+		"City or Larger Place": "Verdun-Ciel",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/EZYaWqf4DtYWVoeM8",
+		"Coordinates": "46.895545136692654, 5.023331590295974",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Couches",
+		"Name of Location": "Couches",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/Fo7cxPJKW9YRdJC36",
+		"Coordinates": "46.867829324045694, 4.579315677453708",
+		"Aliases": "Couches-les-Mines",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Autun",
+		"Name of Location": "Autun",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/rBZRGGqPS2rG8n3M7",
+		"Coordinates": "46.950130068597524, 4.2982817810054605",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Dracy-Saint-Loup",
+		"Name of Location": "Dracy-Saint-Loup",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/YysXhotzA7nxNJwt8",
+		"Coordinates": "47.014883237988414, 4.34116188374545",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Molinot",
+		"Name of Location": "Molinot",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/JTusZGTHz2QxWTQG6",
+		"Coordinates": "47.01416733290361, 4.587513549790647",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Beaune",
+		"Name of Location": "Beaune",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/PC456Gd5HEVq2bjx7",
+		"Coordinates": "47.021588973343974, 4.832859633881384",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Nuits-Saint-Georges",
+		"Name of Location": "Nuits-Saint-Georges",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/SW4WVHczCjZBsXhDA",
+		"Coordinates": "47.13733850460338, 4.951338157599774",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Bourguignons",
+		"Name of Location": "Bourguignons",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/wn2yjijifGgMc1dt7",
+		"Coordinates": "48.130851633748435, 4.357447273972643",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Seigny",
+		"Name of Location": "Seigny",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/uYpqS7yyW8scCuSt5",
+		"Coordinates": "47.57389311941995, 4.43328887129831",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Laperriere-sur-Saone",
+		"Name of Location": "Laperrière-sur-Saône",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/qSk9VatFgsSUYNtz5",
+		"Coordinates": "47.11188558863548, 5.341832971980252",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Chateau_de_Montbard",
+		"Name of Location": "Château de Montbard",
+		"City or Larger Place": "Montbard",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/Z5bAYHLBgkPmTueE8",
+		"Coordinates": "47.62673212313749, 4.335227957441299",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Montbard",
+		"Name of Location": "Montbard",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/qufdZT2fDQKbJBkw8",
+		"Coordinates": "47.62264912821017, 4.340148472569104",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Noyers",
+		"Name of Location": "Noyers",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/ohn352f48EUCxBMQ7",
+		"Coordinates": "47.69447685661395, 3.996123883897208",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Cravant",
+		"Name of Location": "Cravant",
+		"City or Larger Place": "Deux Rivières",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/sxgsHjwDrvndCJL97",
+		"Coordinates": "47.68350500055614, 3.690996229907724",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Avallon",
+		"Name of Location": "Avallon",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/Rw91CaT7awc6iDTu8",
+		"Coordinates": "47.48798344800241, 3.907559039996657",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Vezelay",
+		"Name of Location": "Vézelay",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/LGaP89RZmp2wdH9Z6",
+		"Coordinates": "47.46583095937307, 3.7457603930253907",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Clamecy",
+		"Name of Location": "Clamecy",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/D99z98HVwbpBEqTD7",
+		"Coordinates": "47.459893362088835, 3.5191314197279633",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Entrains-sur-Nohain",
+		"Name of Location": "Entrains-sur-Nohain",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/4pEuXzfPgcKdbxMR7",
+		"Coordinates": "47.4635785173832, 3.2553994576515044",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Donzy",
+		"Name of Location": "Donzy",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/xQNK9XmqefxZGLu1A",
+		"Coordinates": "47.370995726983445, 3.1205763232503343",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Cosne-Cours-sur-Loire",
+		"Name of Location": "Cosne-Cours-sur-Loire",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/rFW2RSKMYdPn7fpB6",
+		"Coordinates": "47.39641286439068, 2.9238370508095204",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Sailly",
+		"Name of Location": "Sailly",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/YDhiPttTcovbPeJr9",
+		"Coordinates": "46.535439755913025, 4.5677758281923175",
+		"Aliases": "Sailly-la-Tour",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Montreal",
+		"Name of Location": "Montréal",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/k4NtVL6eZg4QexL16",
+		"Coordinates": "47.54394490851793, 4.036072862624377",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Nangis",
+		"Name of Location": "Nangis",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/C6CVxB1U2fzVD74r9",
+		"Coordinates": "48.55662895504562, 3.0130012397360573",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Brie-Comte-Robert",
+		"Name of Location": "Brie-Comte-Robert",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/Y9chf8uwkyXQfgSX7",
+		"Coordinates": "48.69134343840892, 2.609005174820675",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Louvres",
+		"Name of Location": "Louvres",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/UXPPQNPWVpPXrshx6",
+		"Coordinates": "49.049537761564864, 2.5032065963224417",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Senlis",
+		"Name of Location": "Senlis",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/REfzNzkfJzyUbau57",
+		"Coordinates": "49.205513118425216, 2.5843046414908732",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Pont-Sainte-Maxence",
+		"Name of Location": "Pont-Sainte-Maxence",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/sZaxkB3zsZBHmNq36",
+		"Coordinates": "49.302154762689696, 2.600975164778701",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Montdidier",
+		"Name of Location": "Montdidier",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/n5KuY5VWZDRL9pas8",
+		"Coordinates": "49.647508350008685, 2.568444395446279",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Pont-a-Vendin",
+		"Name of Location": "Pont-à-Vendin",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/iRY22hkWweKZgciK9",
+		"Coordinates": "50.47836112748093, 2.887911470584267",
+		"Input data": "AN",
+		"Date entered": "2026-08-27"
 	}
 ]
