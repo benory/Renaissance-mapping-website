@@ -220,7 +220,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const toggleBtn = document.getElementById("toggle-histogram-btn");
   const histogram = document.getElementById("histogram-panel");
 
-  let visible = false;
+  let visible = document.body.classList.contains("histogram-visible");
 
   toggleBtn.addEventListener("click", () => {
     visible = !visible;

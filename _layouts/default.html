@@ -4,7 +4,7 @@
     {% include head.html %}
   </head>
 
-  <body>
+  <body{% if page.layout == 'map' %} class="histogram-visible"{% endif %}>
 
     {% include header.html %}
 

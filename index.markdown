@@ -124,8 +124,8 @@ hide_footer: true
                 <button
                     id="toggle-histogram-btn"
                     class="histogram-toggle"
-                    aria-expanded="false">
-                    Show histogram and timeline
+                    aria-expanded="true">
+                    Hide histogram and timeline
                 </button>
             </div>
             <div id="map"></div>
