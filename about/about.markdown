@@ -115,7 +115,23 @@ nav: true
     </div>
 </div>
 
-<h3>Collaborators</h3>
-    <div class="collaborator">Philippe Vendrix (Université de Tours)</div>
-    <div class="collaborator">Camilla Cavicchi (Université de Tours)</div>
+<h3>Advisory Board</h3>
+    <div class="collaborator">David Burn, KU Leuven</div>
+    <div class="collaborator">Philippe Canguilhem, University of Tours</div>
+    <!-- <div class="collaborator">Camilla Cavicchi, University of Tours</div> -->
+    <div class="collaborator">Antonio Chemotti, KU Leuven</div>
+    <div class="collaborator">Rowan Dorin, Stanford University</div>
+    <div class="collaborator">David Fiala, University of Tours</div>
+    <div class="collaborator">Richard Freedman, Haverford College</div>
+    <div class="collaborator">Brett Kostrzewski, KU Leuven</div>
+    <div class="collaborator">Birgit Lodes, University of Vienna</div>
+    <div class="collaborator">Sarah Long, Michigan State University</div>
+    <div class="collaborator">Christopher Nygren, University of Pittsburgh</div>
+    <div class="collaborator">Jamie Reuland, Dickinson College</div>
+    <div class="collaborator">Joshua Rifkin, Boston University (Emeritus)</div>
+    <div class="collaborator">Katelijne Schiltz, University of Regensburg</div>
+    <div class="collaborator">Richard Sherr, Smith College (Emeritus)</div>
+    <div class="collaborator">Philippe Vendrix, University of Tours</div>
+    <div class="collaborator">Christopher White, University of Massachusetts Amherst</div>
+    <!-- <div class="collaborator">Giovanni Zanovello, Indiana University Bloomington</div> -->
 </div>
