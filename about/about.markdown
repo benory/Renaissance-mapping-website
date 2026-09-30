@@ -118,7 +118,7 @@ nav: true
 <h3>Advisory Board</h3>
     <div class="collaborator">David Burn, KU Leuven</div>
     <div class="collaborator">Philippe Canguilhem, University of Tours</div>
-    <!-- <div class="collaborator">Camilla Cavicchi, University of Tours</div> -->
+    <div class="collaborator">Camilla Cavicchi, University of Tours</div>
     <div class="collaborator">Antonio Chemotti, KU Leuven</div>
     <div class="collaborator">Rowan Dorin, Stanford University</div>
     <div class="collaborator">David Fiala, University of Tours</div>
@@ -133,5 +133,5 @@ nav: true
     <div class="collaborator">Richard Sherr, Smith College (Emeritus)</div>
     <div class="collaborator">Philippe Vendrix, University of Tours</div>
     <div class="collaborator">Christopher White, University of Massachusetts Amherst</div>
-    <!-- <div class="collaborator">Giovanni Zanovello, Indiana University Bloomington</div> -->
+    <div class="collaborator">Giovanni Zanovello, Indiana University Bloomington</div>
 </div>
