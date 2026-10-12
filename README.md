@@ -27,6 +27,8 @@ This repository is a Jekyll/GitHub Pages site. Content, metadata, and UI logic a
   - `_includes/metadata/*.json`: exported relational datasets (Events, Locations, Biographies, Institutions, Bibliography, etc.)
   - `assets/metadata/metadata_latest.zip`: downloadable packaged dataset
   - `_includes/metadata/Makefile`: metadata download + ZIP packaging pipeline
+    (direct Sheets CSV reader in the sibling `digital-projects-tools/sheet-downloads` folder;
+    all twelve datasets validate before replacement; dated and latest ZIP contents are verified)
 
 - **Map/UI scripts**
   - `scripts-local.html`: root script aggregator for the map page
