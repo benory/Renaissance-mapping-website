@@ -52,18 +52,22 @@ function check(name, actual, expected) {
             }
         }
         check('all original metadata and fixed marker styles', true, true);
-        check('all popup values survive HTML escaping', await page.evaluate(() => {
+        check('essential popup values remain without disclosure menus', await page.evaluate(() => {
             return markers.filter(m => m.recordType === 'Benefice').every(m => {
                 const div = document.createElement('div'); div.innerHTML = m.marker.getPopup().getContent();
-                return Object.values(m.sourceRecord).filter(Boolean).every(v => div.textContent.includes(v));
+                return !div.querySelector('details, summary') && ['ID', 'Date Range', 'Description']
+                    .every(key => div.textContent.includes(m.sourceRecord[key]));
             });
         }), true);
         check('bibliography references and pages resolved in popups', await page.evaluate(() => markers
             .filter(m => m.recordType === 'Benefice').every(m => {
                 const div = document.createElement('div'); div.innerHTML = m.marker.getPopup().getContent();
-                return m.sourceRecord['Bibliography ID (BIB)'].split(';').every(id => {
+                return m.sourceRecord['Bibliography ID (BIB)'].split(';').every((id, index) => {
                     const bib = findInfo(id.trim(), 'Bibliography');
-                    return bib && Object.values(bib).filter(Boolean).every(v => div.textContent.includes(v));
+                    const pages = m.sourceRecord['BIB Pages'].split(';')[index]?.trim();
+                    return bib && ['Author', 'Name of Article', 'Name of Volume/Journal', 'Publication Year']
+                        .map(key => bib[key]).filter(Boolean).every(v => div.textContent.includes(v)) &&
+                        (!pages || div.textContent.includes(`at ${pages}`));
                 });
             })), true);
         check('coordinates match original Locations', await page.evaluate(() => markers

@@ -10,8 +10,6 @@ const temporaryBenefices = (() => {
     const split = value => String(value || '').split(';').map(v => v.trim()).filter(Boolean);
     const escape = value => String(value ?? '').replace(/[&<>"']/g, c =>
         ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-    const fields = record => Object.entries(record).filter(([, value]) => value !== '')
-        .map(([key, value]) => `<div><b>${escape(key)}:</b> ${escape(value)}</div>`).join('');
 
     function peopleFor(record) {
         const sheets = { BCO: ['Bio_Composers', 'Composer Name'],
@@ -64,8 +62,7 @@ const temporaryBenefices = (() => {
                     const info = findInfo(id, 'Bibliography');
                     const citation = info ? [info.Author, info['Name of Article'],
                         info['Name of Volume/Journal'], info['Publication Year']].filter(Boolean).join(', ') : id;
-                    return `<div>${escape(citation)}${pages[index] ? `, at ${escape(pages[index])}` : ''}</div>` +
-                        (info ? `<details><summary>${escape(id)}</summary>${fields(info)}</details>` : '');
+                    return `<div>${escape(citation)}${pages[index] ? `, at ${escape(pages[index])}` : ''}</div>`;
                 }).join('');
                 const popup = `<div class="event-popup"><div class="event-popup-body">
                     <div><b>Benefice:</b> ${escape(record.ID)}</div>
@@ -74,7 +71,6 @@ const temporaryBenefices = (() => {
                     <div><b>Place:</b> ${escape(locationprocessed)}</div>
                     <div><b>Description:</b> ${escape(record.Description)}</div>
                     ${bibliography ? `<div><b>Bibliography:</b>${bibliography}</div>` : ''}
-                    <details><summary>Original benefice metadata</summary>${fields(record)}</details>
                     </div></div>`;
                 const marker = L.circleMarker(coords, style).bindPopup(popup, {
                     autoPan: true, autoPanPaddingTopLeft: [24, 140],
