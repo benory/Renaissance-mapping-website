@@ -2,6 +2,7 @@
 
 // Filter markers + user search
 function filterAndSearchMarkers(skipSidebarUpdate = false) {
+    if (typeof temporaryBenefices !== "undefined") temporaryBenefices.expire();
     const input = document.querySelector("#input");
     const searchContext = getSearchContext(input ? input.value : "");
 
@@ -25,21 +26,19 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
     const markersToRemove = new Set();
 
     let searchCount = 0;
+    let beneficeCount = 0;
 
     if (!skipSidebarUpdate) {
         document.querySelector('#active-markers-table tbody').innerHTML = '';
     }
 
-    visibleMarkers.forEach(({ marker, personID, alias, locationid, locationname, locationparent, locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty, earliestyear, latestyear, text, eventid, daterange, locationprocessed, description, personprocessed, institution }) => {
-        const type = personID.substring(0, 3);
-        const certainties = { locationCertainty, earliestDateCertainty, latestDateCertainty, rangeCertainty };
-
-        let show = shouldShowMarker(type, checkboxStates, certainties, institution);
-
-        // Apply additional filtering based on user search, active names, and date range
-        if (show && activeNames.size > 0 && !activeNames.has(personprocessed)) {
-            show = false;
-        }
+    visibleMarkers.forEach(entry => {
+        const { marker, alias, locationid, locationname, locationparent,
+            earliestyear, latestyear, text, eventid, locationprocessed } = entry;
+        const displayPerson = getMarkerDisplayPerson(entry, activeNames, checkboxStates);
+        const personprocessed = displayPerson?.personprocessed;
+        const type = displayPerson?.personID.substring(0, 3);
+        let show = !!displayPerson;
 
         if (show && activeLocationIds.length > 0 && !markerMatchesSelectedLocation({ locationid, locationname, locationparent })) {
             show = false;
@@ -64,6 +63,7 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
 
         if (show) {
             searchCount++;
+            if (entry.recordType === "Benefice") beneficeCount++;
             newVisibleMarkers.add(marker);
             
             // Update histogram counts
@@ -89,7 +89,7 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
             });
 
             if (!skipSidebarUpdate) {
-                updateMarkerSidebar({ text, personID, personprocessed, locationprocessed, daterange, description }, true, eventid);
+                updateMarkerSidebar(entry, true, eventid);
             }
         } else {
             markersToRemove.add(marker);
@@ -114,7 +114,9 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
         updateSidebar();
     }
 
-    document.querySelector("#search-count").innerHTML = `${searchCount} ${searchCount === 1 ? "Event" : "Events"} `;
+    const eventCount = searchCount - beneficeCount;
+    document.querySelector("#search-count").innerHTML = `${eventCount} ${eventCount === 1 ? "Event" : "Events"}` +
+        (beneficeCount ? `, ${beneficeCount} ${beneficeCount === 1 ? "Benefice" : "Benefices"}` : "") + " ";
     
     updateHistogram(histogramCounts);
     map.addLayer(markerCluster);
