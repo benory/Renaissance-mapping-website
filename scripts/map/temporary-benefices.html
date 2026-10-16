@@ -1,0 +1,116 @@
+<script>
+// Temporary overlay. Remove this include, its metadata snapshot, and the two
+// optional hooks in map-init/filtering when the permanent feature is ready.
+const temporaryBenefices = (() => {
+    const deadline = Date.parse('2026-10-26T00:00:00Z');
+    const records = {% include metadata/temporary-benefices.json %};
+    const style = { radius: 5, fillColor: '#e15759', color: '#000000',
+        weight: 1, opacity: 1, fillOpacity: 0.8 };
+    let timer;
+    const split = value => String(value || '').split(';').map(v => v.trim()).filter(Boolean);
+    const escape = value => String(value ?? '').replace(/[&<>"']/g, c =>
+        ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    const fields = record => Object.entries(record).filter(([, value]) => value !== '')
+        .map(([key, value]) => `<div><b>${escape(key)}:</b> ${escape(value)}</div>`).join('');
+
+    function peopleFor(record) {
+        const sheets = { BCO: ['Bio_Composers', 'Composer Name'],
+            BMU: ['Bio_Musicians', 'Musician Name'], BNO: ['Bio_Nonmusicians', 'Person Name'] };
+        return [...new Set([...split(record['Biography ID (BCO, BMU, BNO)']),
+            ...split(record['Related Person(s)'])])].flatMap(personID => {
+            const config = sheets[personID.slice(0, 3)];
+            const info = config && findInfo(personID, config[0]);
+            if (!info || !info[config[1]]) return [];
+            const personprocessed = info[config[1]];
+            return [{ personID, personprocessed, alias: split(info.Alias),
+                targetType: targetTypeByNormalizedName.get(normalizeName(personprocessed)) || null }];
+        });
+    }
+
+    function expire(refresh = false) {
+        if (Date.now() < deadline) return false;
+        clearTimeout(timer);
+        const expired = markers.filter(entry => entry.recordType === 'Benefice');
+        if (!expired.length) return true;
+        expired.forEach(({ marker }) => {
+            marker.closePopup();
+            markerCluster.removeLayer(marker);
+            if (map.hasLayer(marker)) map.removeLayer(marker);
+        });
+        markers = markers.filter(entry => entry.recordType !== 'Benefice');
+        totalMarkers = markers.length;
+        clusterCache.clear();
+        const suggestions = document.getElementById('autocomplete-results');
+        if (suggestions) suggestions.innerHTML = '';
+        markerCluster.refreshClusters();
+        if (refresh) filterAndSearchMarkers();
+        return true;
+    }
+
+    function addMarkers() {
+        if (expire()) return;
+        records.forEach(record => {
+            const people = peopleFor(record);
+            if (!people.length) return;
+            split(record['Location ID (LOC)']).forEach(locationid => {
+                const location = findInfo(locationid, 'Locations');
+                const coords = location && String(location.Coordinates || '').split(',').map(Number);
+                if (!coords || coords.length !== 2 || !coords.every(Number.isFinite)) return;
+                const locationname = location['Name of Location'];
+                const locationparent = location['City or Larger Place'] || '';
+                const locationprocessed = [locationname, locationparent].filter(Boolean).join(', ');
+                const pages = split(record['BIB Pages']);
+                const bibliography = split(record['Bibliography ID (BIB)']).map((id, index) => {
+                    const info = findInfo(id, 'Bibliography');
+                    const citation = info ? [info.Author, info['Name of Article'],
+                        info['Name of Volume/Journal'], info['Publication Year']].filter(Boolean).join(', ') : id;
+                    return `<div>${escape(citation)}${pages[index] ? `, at ${escape(pages[index])}` : ''}</div>` +
+                        (info ? `<details><summary>${escape(id)}</summary>${fields(info)}</details>` : '');
+                }).join('');
+                const popup = `<div class="event-popup"><div class="event-popup-body">
+                    <div><b>Benefice:</b> ${escape(record.ID)}</div>
+                    <div><b>Person(s):</b> ${escape(people.map(p => p.personprocessed).join('; '))}</div>
+                    <div><b>Date:</b> ${escape(record['Date Range'])}</div>
+                    <div><b>Place:</b> ${escape(locationprocessed)}</div>
+                    <div><b>Description:</b> ${escape(record.Description)}</div>
+                    ${bibliography ? `<div><b>Bibliography:</b>${bibliography}</div>` : ''}
+                    <details><summary>Original benefice metadata</summary>${fields(record)}</details>
+                    </div></div>`;
+                const marker = L.circleMarker(coords, style).bindPopup(popup, {
+                    autoPan: true, autoPanPaddingTopLeft: [24, 140],
+                    autoPanPaddingBottomRight: [24, 32], maxWidth: 420, minWidth: 280,
+                    className: 'event-popup-shell'
+                });
+                marker.on('click', () => { if (!expire(true)) marker.openPopup(); });
+                markerCluster.addLayer(marker);
+                markers.push({ ...people[0], people, marker, recordType: 'Benefice',
+                    fixedMarkerStyle: style, beneficeID: record.ID, sourceRecord: record,
+                    // A unique per-location key keeps sidebar clicks tied to this marker.
+                    eventid: `${record.ID}@${locationid}`, locationid, locationname,
+                    locationparent, locationlabel: locationprocessed, locationprocessed,
+                    locationcoords: [coords[1], coords[0]], locationcountry: location['Modern Country'],
+                    earliestyear: record['Earliest Year'], latestyear: record['Latest Year'],
+                    earliestmonth: record['Earliest Month'], earliestday: record['Earliest Day'],
+                    daterange: record['Date Range'], description: record.Description,
+                    locationCertainty: record['LOC Certainty'],
+                    earliestDateCertainty: record['Earliest Date Certainty'],
+                    latestDateCertainty: record['Latest Date Certainty'],
+                    rangeCertainty: record['Certainty of Event (within Range)'],
+                    institution: record['Institution ID (INS)'],
+                    text: `Benefice ${record.ID} ${people.map(p => [p.personprocessed, ...p.alias].join(' ')).join(' ')} ${record.Description}`
+                });
+            });
+        });
+        totalMarkers = markers.length;
+        clearTimeout(timer);
+        timer = setTimeout(() => expire(true), Math.min(deadline - Date.now(), 2147483647));
+    }
+
+    // Throttled background tabs and pages restored from the back/forward cache
+    // must check the deadline as soon as the browser resumes them.
+    document.addEventListener('visibilitychange', () => expire(true));
+    window.addEventListener('pageshow', () => expire(true));
+    window.addEventListener('focus', () => expire(true));
+    return { addMarkers, expire };
+})();
+</script>

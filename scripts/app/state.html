@@ -196,6 +196,22 @@ function getSearchContext(rawValue) {
     };
 }
 
+// Records with several participants share one physical marker per location.
+function getMarkerPeople(entry) {
+    return entry.people || [entry];
+}
+
+function markerMatchesPeople(entry, names) {
+    return getMarkerPeople(entry).some(person => names.has(person.personprocessed));
+}
+
+function getMarkerDisplayPerson(entry, names, checkboxStates) {
+    return getMarkerPeople(entry).find(person =>
+        (!names.size || names.has(person.personprocessed)) &&
+        shouldShowMarker(person.personID.slice(0, 3), checkboxStates, entry, entry.institution)
+    );
+}
+
 function markerMatchesSearch({
     text,
     locationprocessed,

@@ -113,7 +113,7 @@ function zoomToSelectedPersons() {
     if (selectedLocation) return;
 
     const selectedPeople = new Set(selectedNames);
-    const matchingMarkers = markers.filter(entry => selectedPeople.has(entry.personprocessed));
+    const matchingMarkers = markers.filter(entry => markerMatchesPeople(entry, selectedPeople));
     if (matchingMarkers.length === 0) return;
 
     const group = L.featureGroup(matchingMarkers.map(entry => entry.marker));
@@ -245,7 +245,7 @@ function selectPersonByName(name) {
     if (!name) return false;
 
     const normalizedTarget = name.trim().toLowerCase();
-    const match = markers.find(({ personprocessed, alias }) => {
+    const match = markers.flatMap(getMarkerPeople).find(({ personprocessed, alias }) => {
         if (typeof personprocessed === "string" &&
             personprocessed.trim().toLowerCase() === normalizedTarget) {
             return true;
@@ -326,7 +326,7 @@ function showAutocompleteSuggestions() {
     const seen = new Set();
     const searchContext = getSearchContext(inputValue);
 
-    markers.forEach(({ personID, personprocessed, alias }) => {
+    markers.flatMap(getMarkerPeople).forEach(({ personID, personprocessed, alias }) => {
         if (selectedNames.has(personprocessed)) return;
         if (seen.has(personprocessed)) return;
 
@@ -353,8 +353,9 @@ function showAutocompleteSuggestions() {
         else if (personID.startsWith("BMU")) type = "Musician";
         else if (personID.startsWith("BNO")) type = "Non-Musician";
 
-        const personMarkers = markers.filter(m => m.personprocessed === personprocessed);
-        const eventCount = personMarkers.length;
+        const personMarkers = markers.filter(m => markerMatchesPeople(m, new Set([personprocessed])));
+        const eventCount = personMarkers.filter(m => m.recordType !== "Benefice").length;
+        const beneficeCount = personMarkers.length - eventCount;
 
         let earliest = null;
         let latest = null;
@@ -370,7 +371,9 @@ function showAutocompleteSuggestions() {
                 ? `${earliest}–${String(latest).slice(-2)}`
                 : `${earliest}–${latest}`);
 
-        const yearLabel = ` (${eventCount} event${eventCount > 1 ? "s" : ""}, ${formattedRange})`;
+        const yearLabel = ` (${eventCount} event${eventCount > 1 ? "s" : ""}` +
+            (beneficeCount ? `, ${beneficeCount} benefice${beneficeCount === 1 ? "" : "s"}` : "") +
+            `, ${formattedRange})`;
         const label = `${type}: ${personprocessed}${yearLabel}`;
 
         matches.push({ label, personID, personprocessed });
@@ -396,7 +399,8 @@ function showAutocompleteSuggestions() {
 
         const locationEntry = { locationid, locationname, locationlabel: locationlabel || locationprocessed, locationprocessed };
         const locationMarkers = markers.filter(m => markerMatchesLocationEntry(m, locationEntry));
-        const eventCount = locationMarkers.length;
+        const eventCount = locationMarkers.filter(m => m.recordType !== "Benefice").length;
+        const beneficeCount = locationMarkers.length - eventCount;
         const yearValues = locationMarkers.flatMap(({ earliestyear, latestyear }) => [earliestyear, latestyear]);
         const earliest = Math.min(...yearValues);
         const latest = Math.max(...yearValues);
@@ -407,7 +411,9 @@ function showAutocompleteSuggestions() {
                 ? `${earliest}–${String(latest).slice(-2)}`
                 : `${earliest}–${latest}`);
 
-        const yearLabel = ` (${eventCount} event${eventCount > 1 ? "s" : ""}, ${formattedRange})`;
+        const yearLabel = ` (${eventCount} event${eventCount > 1 ? "s" : ""}` +
+            (beneficeCount ? `, ${beneficeCount} benefice${beneficeCount === 1 ? "" : "s"}` : "") +
+            `, ${formattedRange})`;
         const displayName = locationlabel || locationprocessed;
         const label = `Location: ${displayName}${yearLabel}`;
 
@@ -562,6 +568,10 @@ function applyHighlightColorsToMarkers() {
     // First reset ALL markers to their original default colors
     markers.forEach(entry => {
         const { marker, personID } = entry;
+        if (entry.fixedMarkerStyle) {
+            marker.setStyle(entry.fixedMarkerStyle);
+            return;
+        }
 
         // Determine default color by prefix
         let defaultColor;
@@ -587,6 +597,7 @@ function applyHighlightColorsToMarkers() {
     // Apply color to markers
     markers.forEach(entry => {
         const { marker, personprocessed } = entry;
+        if (entry.fixedMarkerStyle) return;
 
         if (colorMap.has(personprocessed)) {
             const c = colorMap.get(personprocessed);
