@@ -3403,8 +3403,8 @@
 		"Location ID (LOC)": "LOC:Saint_Aubin",
 		"Name of Location": "Saint-Aubin",
 		"Modern Country": "France",
-		"Google URL": "https://maps.app.goo.gl/HVcM4sTY7sov96ML8",
-		"Coordinates": "46.9505108812993, 4.7089282951085485",
+		"Google URL": "https://maps.app.goo.gl/3dwbiC5MZGSSjt8E6",
+		"Coordinates": "46.48662596070862, 1.9488179259580418",
 		"Input data": "RP",
 		"Date entered": "2026-2-28"
 	},
@@ -5228,5 +5228,14 @@
 		"Coordinates": "50.47836112748093, 2.887911470584267",
 		"Input data": "AN",
 		"Date entered": "2026-08-27"
+	},
+	{
+		"Location ID (LOC)": "LOC:Issoudin",
+		"Name of Location": "Issoudin",
+		"Modern Country": "France",
+		"Google URL": "https://maps.app.goo.gl/6xRyDaP6bL9KCPyd9",
+		"Coordinates": "46.94829670203484, 1.992322754817731",
+		"Input data": "JR",
+		"Date entered": "2026-10-17"
 	}
 ]

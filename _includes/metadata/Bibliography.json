@@ -118,7 +118,7 @@
 		"Volume": "26",
 		"Publisher": "Oxford University Press",
 		"Publication Year": "1998",
-		"Pages": "432-444",
+		"Pages": "432–44",
 		"URL": "https://www.jstor.org/stable/3128701",
 		"Input data": "LQ",
 		"Date entered": "2026-05-21"
@@ -140,7 +140,7 @@
 		"Name of Article": "Some Observations on the Life and Career of Lionel Power",
 		"Name of Volume/Journal": "Proceedings of the Royal Musical Association",
 		"Volume": "102",
-		"Publication Year": "1975-1976",
+		"Publication Year": "1975–1976",
 		"Pages": "103–27",
 		"URL": "https://www.jstor.org/stable/766097",
 		"Input data": "LQ",
@@ -539,7 +539,7 @@
 		"Volume": "8",
 		"Series": "2",
 		"Publication Year": "1850",
-		"Pages": "212-81",
+		"Pages": "212–81",
 		"Input data": "SMB",
 		"Date entered": "2026-1-22"
 	},
@@ -715,7 +715,6 @@
 		"Location": "New York",
 		"Publisher": "Simon & Schuster",
 		"Publication Year": "2017",
-		"Pages": "293-512",
 		"Input data": "HC",
 		"Date entered": "2025-10-14"
 	},
@@ -794,7 +793,7 @@
 		"Name of Volume/Journal": "Revue Belge de Musicologie",
 		"Volume": "5 no. 3/4",
 		"Publication Year": "1951",
-		"Pages": "177-178",
+		"Pages": "177–78",
 		"Input data": "SMB",
 		"Date entered": "2026-1-16"
 	},
@@ -852,7 +851,7 @@
 		"Volume": "5",
 		"Publisher": "Cambridge University Press",
 		"Publication Year": "1985",
-		"Pages": "85-112",
+		"Pages": "85–112",
 		"URL": "http://www.jstor.org/stable/853920",
 		"Input data": "LQ",
 		"Date entered": "2026-05-21"
@@ -1040,7 +1039,7 @@
 		"Series": "Eastman Studies in Music",
 		"Publisher": "University of Rochester Press / Boydell & Brewe",
 		"Publication Year": "2024",
-		"Pages": "259–275",
+		"Pages": "259–75",
 		"Input data": "HC",
 		"Date entered": "2026-2-17"
 	},
@@ -1867,7 +1866,7 @@
 		"Name of Volume/Journal": "Studi musicali",
 		"Volume": "18",
 		"Publication Year": "1989",
-		"Pages": "3-17",
+		"Pages": "3–17",
 		"Input data": "LQ",
 		"Date entered": "2026-8-11"
 	},
@@ -1880,7 +1879,7 @@
 		"Location": "New York",
 		"Publisher": "Department of Music, Brooklyn College of City University Of New York",
 		"Publication Year": "1976",
-		"Pages": "1-25",
+		"Pages": "1–25",
 		"Input data": "LQ",
 		"Date entered": "2026-8-20"
 	}
