@@ -677,6 +677,15 @@ function doMapSetup(opts) {
         }
     }
 
+    if (typeof temporaryBenefices !== "undefined") temporaryBenefices.addMarkers();
+    markers.forEach(entry => {
+        const range = getNormalizedYearRange(entry.earliestyear, entry.latestyear);
+        if (range) {
+            earliestMarkerYear = Math.min(earliestMarkerYear, range.start);
+            latestMarkerYear = Math.max(latestMarkerYear, range.end);
+        }
+    });
+
     if (Number.isFinite(earliestMarkerYear) && Number.isFinite(latestMarkerYear)) {
         availableDateRange = {
             min: earliestMarkerYear,
