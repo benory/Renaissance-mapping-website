@@ -220,6 +220,14 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", () => {
   const toggleBtn = document.getElementById("toggle-histogram-btn");
   const histogram = document.getElementById("histogram-panel");
+  const mapRow = document.getElementById("map").closest(".row");
+
+  // Refresh again after the map reaches its final animated height.
+  mapRow.addEventListener("transitionend", (event) => {
+    if (event.target === mapRow && event.propertyName === "height") {
+      map.invalidateSize({ animate: false });
+    }
+  });
 
   let visible = document.body.classList.contains("histogram-visible");
 
