@@ -259,6 +259,94 @@ html, body {
     z-index: 0;
 }
 
+.leaflet-container .leaflet-control-zoom.leaflet-bar {
+  display: grid;
+  gap: 7px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.leaflet-bottom.leaflet-right .leaflet-control-zoom {
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.leaflet-container .leaflet-control-zoom.leaflet-bar > a {
+  --zoom-control-gray: #4b5563;
+  position: relative;
+  box-sizing: border-box;
+  display: grid;
+  width: 36px !important;
+  min-width: 36px;
+  max-width: 36px;
+  height: 36px !important;
+  min-height: 36px;
+  max-height: 36px;
+  aspect-ratio: 1;
+  padding: 0;
+  place-items: center;
+  overflow: hidden;
+  border: 2px solid var(--zoom-control-gray);
+  border-radius: 999px !important;
+  background: rgb(255 255 255 / 90%);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%), 0 3px 10px rgb(0 0 0 / 8%);
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+  transition: background-color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease;
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+  backdrop-filter: saturate(180%) blur(12px);
+}
+
+.leaflet-container .leaflet-control-zoom.leaflet-bar > a::before,
+.leaflet-container .leaflet-control-zoom.leaflet-bar > a::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+  background: var(--zoom-control-gray);
+  content: "";
+  transform: translate(-50%, -50%);
+}
+
+.leaflet-container .leaflet-control-zoom.leaflet-bar > .leaflet-control-zoom-in::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.leaflet-container .leaflet-control-zoom.leaflet-bar > .leaflet-control-zoom-out::after {
+  display: none;
+}
+
+.leaflet-container .leaflet-control-zoom.leaflet-bar > a:hover {
+  --zoom-control-gray: #374151;
+  background: rgb(255 255 255 / 98%);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%), 0 5px 14px rgb(0 0 0 / 10%);
+  transform: translateY(-1px);
+}
+
+.leaflet-container .leaflet-control-zoom.leaflet-bar > a:active {
+  transform: scale(0.96);
+}
+
+.leaflet-container .leaflet-control-zoom.leaflet-bar > a:focus-visible {
+  outline: 2px solid #076bbd;
+  outline-offset: 2px;
+}
+
+.leaflet-container .leaflet-control-zoom.leaflet-bar > a.leaflet-disabled {
+  --zoom-control-gray: rgb(102 114 128 / 24%);
+  background: rgb(242 244 247 / 88%);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
+  cursor: default;
+  opacity: 0.48;
+  transform: none;
+}
+
 #sidebar {
     width: 260px;
     margin-top: 100px;

@@ -41,8 +41,28 @@ function doMapSetup(opts) {
         map.remove();
     }
 
-    map = L.map(opts.name, { preferCanvas: true, zoomControl: false}).setView(opts.view, opts.zoom);
-    map.options.minZoom = opts.zoomMin;
+    const mapBounds = L.latLngBounds(opts.bounds);
+    map = L.map(opts.name, {
+        preferCanvas: true,
+        zoomControl: false,
+        minZoom: opts.zoomMin,
+        maxZoom: opts.zoomMax,
+        maxBounds: mapBounds,
+        maxBoundsViscosity: 1
+    });
+
+    function updateMinZoom() {
+        // Reset the floor so smaller windows can zoom out again after a resize.
+        map.setMinZoom(opts.zoomMin);
+        map.setMinZoom(map.getBoundsZoom(mapBounds, true));
+    }
+
+    updateMinZoom();
+    map.setView(opts.view, opts.zoom);
+    map.on("resize", function () {
+        updateMinZoom();
+        map.panInsideBounds(mapBounds, { animate: false });
+    });
 
     L.control.zoom({
       position: 'bottomright'   // or 'bottomright'
