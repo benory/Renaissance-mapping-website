@@ -6,6 +6,7 @@
 //
 
 let totalMarkers = 0;
+let mapViewLimits;
 
 function doMapSetup(opts) {
     if (typeof opts === "undefined") {
@@ -45,23 +46,87 @@ function doMapSetup(opts) {
     map = L.map(opts.name, {
         preferCanvas: true,
         zoomControl: false,
+        zoomSnap: 0.25,
+        zoomDelta: 1,
         minZoom: opts.zoomMin,
         maxZoom: opts.zoomMax,
         maxBounds: mapBounds,
         maxBoundsViscosity: 1
     });
 
-    function updateMinZoom() {
-        // Reset the floor so smaller windows can zoom out again after a resize.
-        map.setMinZoom(opts.zoomMin);
-        map.setMinZoom(map.getBoundsZoom(mapBounds, true));
+    function getBoundsZoom(bounds, inside, padding = L.point(0, 0)) {
+        const size = map.getSize().subtract(padding);
+        const boundsSize = L.bounds(
+            map.project(bounds.getNorthEast(), 0),
+            map.project(bounds.getSouthWest(), 0)
+        ).getSize();
+        const scale = Math[inside ? "max" : "min"](
+            size.x / boundsSize.x, size.y / boundsSize.y
+        );
+        const snap = map.options.zoomSnap || 1;
+        const zoom = map.getScaleZoom(scale, 0) / snap;
+        return Math.max(0, Math.min(opts.zoomMax,
+            Math[inside ? "ceil" : "floor"](zoom) * snap));
     }
+
+    function setMinZoom(zoom) {
+        if (map.getMinZoom() === zoom) return;
+        if (map.getZoom() < zoom) {
+            map.setZoom(zoom, { animate: false });
+        }
+
+        // Cluster grids are built for the minimum zoom present when added.
+        const clusters = typeof markerCluster !== "undefined" && map.hasLayer(markerCluster)
+            ? markerCluster : null;
+        const layers = clusters ? clusters.getLayers() : [];
+        if (clusters) {
+            map.removeLayer(clusters);
+            clusters.clearLayers();
+        }
+        map.setMinZoom(zoom);
+        if (clusters) {
+            clusters.addLayers(layers);
+            map.addLayer(clusters);
+        }
+    }
+
+    function updateMinZoom() {
+        setMinZoom(Math.max(opts.zoomMin, getBoundsZoom(mapBounds, true)));
+        map.setMaxBounds(mapBounds);
+        if (typeof map.getZoom() === "number") {
+            map.panInsideBounds(mapBounds, { animate: false });
+        }
+    }
+
+    mapViewLimits = {
+        reset: updateMinZoom,
+        fitSelection(bounds, fitOptions) {
+            // Measure the full selection without the browsing zoom floor.
+            const padding = L.point(fitOptions.paddingTopLeft)
+                .add(fitOptions.paddingBottomRight);
+            const zoom = Math.min(fitOptions.maxZoom,
+                getBoundsZoom(bounds, false, padding));
+            map.setMaxBounds(null);
+            setMinZoom(zoom);
+            map.fitBounds(bounds, { ...fitOptions, animate: false });
+
+            // Allow only the extra space needed by this selection's fitted view.
+            const allowedBounds = L.latLngBounds(
+                mapBounds.getSouthWest(), mapBounds.getNorthEast()
+            ).extend(map.getBounds());
+            map.setMaxBounds(allowedBounds);
+        }
+    };
 
     updateMinZoom();
     map.setView(opts.view, opts.zoom);
     map.on("resize", function () {
-        updateMinZoom();
-        map.panInsideBounds(mapBounds, { animate: false });
+        if (selectedNames.size > 0 && !selectedLocation) {
+            zoomToSelectedPersons();
+        } else {
+            updateMinZoom();
+        }
+        map.panInsideBounds(map.options.maxBounds, { animate: false });
     });
 
     L.control.zoom({

@@ -94,6 +94,7 @@ function removeSelectedLocation() {
 }
 
 function zoomToSelectedLocation() {
+    mapViewLimits.reset();
     const matchingMarkers = markers.filter(entry => markerMatchesSelectedLocation(entry));
     if (matchingMarkers.length === 0) return;
 
@@ -121,8 +122,16 @@ function zoomToSelectedPersons() {
 
     if (!bounds.isValid()) return;
 
-    map.fitBounds(bounds, {
-        padding: [50, 50],
+    const mapRect = map.getContainer().getBoundingClientRect();
+    const sidebarRect = document.getElementById("sidebar").getBoundingClientRect();
+    const controlsRect = document.querySelector(".search-row").getBoundingClientRect();
+
+    mapViewLimits.fitSelection(bounds, {
+        paddingTopLeft: [
+            Math.min(Math.max(20, sidebarRect.right - mapRect.left + 12), mapRect.width / 3),
+            Math.min(Math.max(20, controlsRect.bottom - mapRect.top + 12), mapRect.height / 3)
+        ],
+        paddingBottomRight: [20, 20],
         maxZoom: 6
     });
 }
@@ -499,6 +508,12 @@ function removeSelectedPerson(personID, personprocessed, dropdownId) {
     });
 
     selectedNames.delete(personprocessed);
+
+    if (selectedNames.size === 0 || selectedLocation) {
+        mapViewLimits.reset();
+    } else {
+        zoomToSelectedPersons();
+    }
 
     recolorActivePersons();
     applyHighlightColorsToMarkers();
