@@ -78,7 +78,7 @@ nav: true
         <div class="bio">
             <h3>Lee Qing</h3>
             <p><strong>Team Member</strong></p>
-            <p>Lee Qing is an incoming PhD student in Music at Stanford University. She graduated with a BM in Music Composition in 2025 from Boston University. Her research interests include fifteenth-century secular vocal music and text-setting, as well as digital humanities.</p>
+            <p>Lee Qing is a PhD student in Music at Stanford University. She graduated with a BM in Music Composition in 2025 from Boston University. Her research interests include fifteenth-century secular vocal music and text-setting, as well as digital humanities.</p>
         </div>
     </div>
         <div class="team-member">
