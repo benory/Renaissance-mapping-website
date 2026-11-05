@@ -73,8 +73,7 @@ const temporaryBenefices = (() => {
                     ${bibliography ? `<div><b>Bibliography:</b>${bibliography}</div>` : ''}
                     </div></div>`;
                 const marker = L.circleMarker(coords, style).bindPopup(popup, {
-                    autoPan: true, autoPanPaddingTopLeft: [24, 140],
-                    autoPanPaddingBottomRight: [24, 32], maxWidth: 420, minWidth: 280,
+                    autoPan: false, maxWidth: 520, minWidth: 280,
                     className: 'event-popup-shell'
                 });
                 marker.on('click', () => { if (!expire(true)) marker.openPopup(); });

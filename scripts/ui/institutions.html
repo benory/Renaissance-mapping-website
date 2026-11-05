@@ -2,19 +2,22 @@
 
 function updateInstitutionList() {
     const type = document.querySelector('input[name="institution-type"]:checked').value;
+    const countryLabel = document.getElementById('institution-country-label');
+    countryLabel.textContent = type === 'political' ? 'Active in:' : 'Institution in:';
     const institutionList = document.getElementById('institution-list');
-    const countryGrid = document.querySelector('.country-grid');
+    const countryFilters = document.querySelector('.country-filters');
     institutionList.innerHTML = '';
     
     // Save current selection before clearing
     const previouslySelectedCountries = new Set(
-      Array.from(countryGrid.querySelectorAll('.country-item.active')).map(el => el.textContent)
+      Array.from(countryFilters.querySelectorAll('[aria-pressed="true"]')).map(el => el.textContent)
     );
 
-    countryGrid.innerHTML = ''; // Clear grid
+    countryFilters.replaceChildren(countryLabel);
 
     const visibleMarkers = getAllInstitutionMarkers();
 
+    const lowCountries = new Set(['Belgium', 'Netherlands', 'Luxembourg']);
     const countrySet = new Set();
     const institutionMap = new Map(); // Use a map to avoid duplicates
 
@@ -23,12 +26,13 @@ function updateInstitutionList() {
         if (!institution || !institutionname || !institutiontype || !locationcountry) return;
         if (institutiontype.toLowerCase() !== type.toLowerCase()) return;
 
-        const key = `${institution}__${locationcountry}`;
+        const country = lowCountries.has(locationcountry) ? 'Low Countries' : locationcountry;
+        const key = `${institution}__${country}`;
         if (!institutionMap.has(key)) {
             institutionMap.set(key, {
                 id: institution,
                 name: institutionname,
-                country: locationcountry
+                country
             });
         }
     });
@@ -38,31 +42,23 @@ function updateInstitutionList() {
         countrySet.add(inst.country);
     });
 
-    // Render clickable country divs
     const sortedCountries = Array.from(countrySet).sort();
+    const selectedCountries = new Set(sortedCountries.filter(country => previouslySelectedCountries.has(country)));
     for (const country of sortedCountries) {
-        const div = document.createElement('div');
-        div.textContent = country;
-        div.classList.add("country-item");
-
-        // Restore active class if previously selected
-        if (previouslySelectedCountries.has(country)) {
-            div.classList.add("active");
-        }
-
-        div.addEventListener("click", (e) => {
+        const chip = document.createElement('button');
+        chip.type = 'button';
+        chip.className = 'country-item';
+        chip.textContent = country;
+        chip.setAttribute('aria-pressed', selectedCountries.has(country));
+        chip.addEventListener("click", (e) => {
             e.stopPropagation(); // Prevent popup from closing
-            div.classList.toggle("active");
+            chip.setAttribute('aria-pressed', !selectedCountries.has(country));
             updateInstitutionList(); // Refilter institutions
+            Array.from(countryFilters.children).find(button => button.textContent === country)?.focus();
         });
 
-        countryGrid.appendChild(div);
+        countryFilters.appendChild(chip);
     }
-
-    // Get selected countries
-    const selectedCountries = new Set(
-        Array.from(countryGrid.querySelectorAll('.country-item.active')).map(el => el.textContent)
-    );
 
     const seenInstitutions = new Set();
     const sortedInstitutions = Array.from(institutionMap.values())
@@ -75,10 +71,13 @@ function updateInstitutionList() {
         seenInstitutions.add(key);
 
         const li = document.createElement('li');
-        li.classList.add("list-row");
-        li.textContent = inst.name;
+        const entry = document.createElement('button');
+        entry.type = 'button';
+        entry.className = 'list-row';
+        entry.textContent = inst.name;
+        li.appendChild(entry);
 
-        li.addEventListener("click", () => {
+        entry.addEventListener("click", () => {
             const popup = document.getElementById("institution-popup");
             const button = document.getElementById("institution-button");
 
@@ -95,6 +94,7 @@ function updateInstitutionList() {
                     institutionFilter = null;
                     filterAndSearchMarkers(); // Re-run filtering
                 });
+                button.focus();
             }
 
             institutionFilter = inst.id;

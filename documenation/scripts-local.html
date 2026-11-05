@@ -45,54 +45,27 @@ function updateCount(selector, value) {
 
 function populateTargetLists() {
     const targets = MAP.METADATA.Targets;
+    const groups = [
+        { id: "complete-targets", status: "Complete" },
+        { id: "nearly-targets", status: "Mostly Complete" },
+    ];
 
-    const complete = targets.filter(t => t.Status === "Complete");
-    const nearly   = targets.filter(t => t.Status === "Mostly Complete");
+    groups.forEach(({ id, status }) => {
+        const list = document.getElementById(id);
+        const composers = targets.filter(target => target.Status === status);
 
-    const completeList = document.getElementById("complete-targets");
-    const nearlyList   = document.getElementById("nearly-targets");
+        composers.forEach(target => {
+            const name = target.First ? `${target.First} ${target.Last}` : target.Last;
+            const item = document.createElement("li");
+            const link = document.createElement("a");
+            link.textContent = name;
+            link.href = `/?select=${encodeURIComponent(name)}`;
+            item.appendChild(link);
+            list.appendChild(item);
+        });
 
-    function createPersonLink(t) {
-        const name = `${t.First ? t.First + " " : ""}${t.Last}`;
-        const li = document.createElement("li");
-
-        const a = document.createElement("a");
-        a.textContent = name;
-        a.href = `/?select=${encodeURIComponent(name)}`;
-
-        li.appendChild(a);
-        return li;
-    }
-
-    const completeMidpoint = Math.ceil(complete.length / 2);
-    const completeColumns = [complete.slice(0, completeMidpoint), complete.slice(completeMidpoint)];
-
-    completeColumns.forEach(columnTargets => {
-        const column = document.createElement("ul");
-        column.className = "targets-list complete-targets-column";
-
-        columnTargets.forEach(t => column.appendChild(createPersonLink(t)));
-        completeList.appendChild(column);
+        updateCount(`#${id}-count`, composers.length);
     });
-
-    nearly.forEach(t => nearlyList.appendChild(createPersonLink(t)));
-
-    setupTargetListFade("complete-targets-wrapper", completeList);
-    setupTargetListFade("nearly-targets-wrapper", nearlyList);
-}
-
-function setupTargetListFade(wrapperId, list) {
-    const wrapper = document.getElementById(wrapperId);
-    if (!wrapper || !list) return;
-
-    function updateFade() {
-        const scrollRemaining = list.scrollHeight - list.scrollTop - list.clientHeight;
-        wrapper.classList.toggle("has-more", scrollRemaining > 1);
-    }
-
-    list.addEventListener("scroll", updateFade);
-    window.addEventListener("resize", updateFade);
-    updateFade();
 }
 
 </script>

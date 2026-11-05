@@ -20,44 +20,54 @@ function getVisibleTimelineRange() {
     };
 }
 
-function positionTimelineLabel(label, percent, sliderWidth) {
-    const rawLeft = percent * sliderWidth;
-    const halfLabelWidth = label.offsetWidth / 2;
-    const clampedLeft = Math.max(halfLabelWidth, Math.min(sliderWidth - halfLabelWidth, rawLeft));
-    label.style.left = `${clampedLeft}px`;
+function positionTimelineLabels(startLabel, endLabel, minPercent, maxPercent, sliderWidth) {
+    const startHalf = startLabel.offsetWidth / 2;
+    const endHalf = endLabel.offsetWidth / 2;
+    const separation = startHalf + endHalf + 8;
+    const startX = minPercent * sliderWidth;
+    const endX = maxPercent * sliderWidth;
+    const midpoint = (startX + endX) / 2;
+    const startLeft = Math.max(startHalf, Math.min(startX, midpoint - separation / 2, sliderWidth - endHalf - separation));
+    const endLeft = Math.min(sliderWidth - endHalf, Math.max(endX, startLeft + separation));
+
+    startLabel.style.left = `${startLeft}px`;
+    endLabel.style.left = `${endLeft}px`;
 }
 
 function renderTimelineSlider(minValue, maxValue) {
     const slider = document.getElementById('timeline-slider');
-    const selectedTrack = document.getElementById('timeline-slider-selected-range');
+    const histogramPanel = document.getElementById('histogram-panel');
     const minThumb = document.getElementById('timeline-slider-thumb-min');
     const maxThumb = document.getElementById('timeline-slider-thumb-max');
     const startActiveLabel = document.getElementById('slider-start-active-label');
     const endActiveLabel = document.getElementById('slider-end-active-label');
+    const dateLabel = document.querySelector('.date-button-label');
 
-    if (!slider || !selectedTrack || !minThumb || !maxThumb || !startActiveLabel || !endActiveLabel) return;
+    if (dateLabel) {
+        const [min, max] = currentDateRange;
+        const allDates = min <= availableDateRange.min && max >= availableDateRange.max;
+        dateLabel.textContent = allDates ? 'Dates' : `${min}–${max}`;
+    }
+
+    if (!slider || !histogramPanel || !minThumb || !maxThumb || !startActiveLabel || !endActiveLabel) return;
 
     startActiveLabel.innerHTML = formatTimelineBoundaryLabel(minValue);
     endActiveLabel.textContent = String(maxValue);
 
     const minPercent = getTimelineSliderPercent(minValue);
     const maxPercent = getTimelineSliderPercent(maxValue);
-    const sliderWidth = slider.clientWidth;
+    histogramPanel.style.setProperty('--timeline-start', `${minPercent * 100}%`);
+    histogramPanel.style.setProperty('--timeline-end', `${maxPercent * 100}%`);
 
-    minThumb.style.left = `${minPercent * 100}%`;
-    maxThumb.style.left = `${maxPercent * 100}%`;
     minThumb.setAttribute("aria-valuemin", HISTOGRAM_START_YEAR);
     minThumb.setAttribute("aria-valuemax", TIMELINE_END_YEAR);
     minThumb.setAttribute("aria-valuenow", minValue);
+    minThumb.setAttribute("aria-valuetext", minValue === HISTOGRAM_START_YEAR ? `${minValue} or earlier` : String(minValue));
     maxThumb.setAttribute("aria-valuemin", HISTOGRAM_START_YEAR);
     maxThumb.setAttribute("aria-valuemax", TIMELINE_END_YEAR);
     maxThumb.setAttribute("aria-valuenow", maxValue);
 
-    selectedTrack.style.left = `${minPercent * 100}%`;
-    selectedTrack.style.width = `${Math.max(0, (maxPercent - minPercent) * 100)}%`;
-
-    positionTimelineLabel(startActiveLabel, minPercent, sliderWidth);
-    positionTimelineLabel(endActiveLabel, maxPercent, sliderWidth);
+    positionTimelineLabels(startActiveLabel, endActiveLabel, minPercent, maxPercent, slider.clientWidth);
 }
 
 function applyTimelineRange(minValue, maxValue, { applyFilters = true } = {}) {

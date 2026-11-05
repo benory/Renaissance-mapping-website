@@ -1,11 +1,8 @@
 <style>
-  .site-header {
-  background: linear-gradient(
-    180deg,
-    #e7eef8,
-    #dde7f4
-  );
-  border-bottom: 1px solid rgba(0,0,0,0.08);
+.site-header {
+  background: var(--site-panel-background);
+  border-top: 0;
+  border-bottom: 1px solid #d9e4ef;
 }
 
 .site-header .wrapper {
@@ -16,64 +13,74 @@
 }
 
 .header-inner {
-  margin-left: 40px;
-  padding: 14px 0px;
+  margin-inline: clamp(14px, calc(5vw - 16px), 40px) clamp(14px, calc(5vw - 16px), 36px);
+  padding: 14px 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  gap: 6px 16px;
 }
 
 /* Title as typographic logo */
 .site-title {
-  font-family:
-    "Iowan Old Style",
-    "Palatino Linotype",
-    Palatino,
-    "Book Antiqua",
-    Georgia,
-    serif;
-  font-size: 26px;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  font-size: clamp(18px, 3.25vw, 26px);
   font-weight: 500;
   letter-spacing: 0.02em;
-  line-height: 1;
-  color: white;
+  line-height: 1.15;
+  color: #424242;
   text-decoration: none;
-  white-space: nowrap;
 }
 
 /* Navigation */
 .site-nav {
   display: flex;
-  gap: 18px;
-  margin-right: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 clamp(18px, calc(10vw - 43px), 64px);
+  position: static;
+  line-height: 1.25;
+  border: 0;
+  background: transparent;
 }
 
-.nav-link {
-  font-size: 14px;
-  color: #2f3a4a; /* blue-gray */
-  line-height: 1;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+.site-nav .nav-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1f344c;
+  text-transform: capitalize;
+  letter-spacing: 0.025em;
   text-decoration: none;
-  padding: 6px 10px;
-  border-radius: 8px;
-  transition: background-color 0.15s ease, color 0.15s ease;
+  margin-inline: -8px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  transition: background-color 150ms ease;
 }
 
-.nav-link {
-  text-decoration: none;
-  border-radius: 8px;
-  transition: background-color 0.15s ease, color 0.15s ease;
-}
-
-.nav-link:hover {
-  background: rgba(47, 58, 74, 0.08);
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus-visible {
   color: #1f2a38;
+  background-color: rgb(44 99 152 / 11%);
 }
 
-.site-header .site-nav a:hover,
+.site-nav .nav-link[aria-current="page"] {
+  color: #1f2a38;
+  text-decoration: underline;
+  text-decoration-color: #5783ad;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
 .site-title:hover {
   text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .header-inner {
+    padding-block: 10px;
+  }
 }
 
 </style>
@@ -90,7 +97,7 @@
 
       {% assign pages = site.pages | where_exp:"p","p.nav == true" | sort:"order" %}
       {% for p in pages %}
-        <a class="nav-link" href="{{ p.url | relative_url }}">
+        <a class="nav-link" href="{{ p.url | relative_url }}"{% if p.url == page.url %} aria-current="page"{% endif %}>
           {{ p.title }}
         </a>
       {% endfor %}

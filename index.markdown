@@ -11,68 +11,45 @@ hide_footer: true
     <div class="map-stage">
         <div class="top-overlay">
             <div class="top-grid">
-                <!-- Column 1: search + certainty -->
                 <div class="left-column">
                     <div class="search-row">
-                      <div class="search-stack">
                         <div class="search-wrapper">
-                          <input type="text" id="input"
-                                 onkeyup="filterAndSearchMarkers(); showAutocompleteSuggestions()"
-                                 placeholder="Enter person, place, year, or event">
-                          <div id="autocomplete-results" class="autocomplete-results"></div>
+                            <input type="text" id="input"
+                                   onkeyup="filterAndSearchMarkers(); showAutocompleteSuggestions()"
+                                   placeholder="Enter person, place, year, or event">
+                            <div id="autocomplete-results" class="autocomplete-results"></div>
                         </div>
-                      </div>
-                      <!-- institutions button moves to the RIGHT of the search bar -->
-                      <div class="custom-dropdown" id="institution-dropdown">
-                        <button id="institution-button" class="apple-pill with-arrow">Institutions
-                        </button>
-                      </div>
-                      <div class="custom-dropdown" id="certainty-dropdown">
-                          <button
-                              id="certainty-button"
-                              class="with-arrow apple-pill"
-                              aria-expanded="false">
-                              Event certainty
-                          </button>
-                          <div class="certainty-popup">
-                            <ul class="certainty-list">
-                              <li data-value="all" class="active">All events</li>
-                              <li data-value="certain">Certain &amp; probable only</li>
-                            </ul>
-                          </div>
-                      </div>
-                      <div class="custom-dropdown" id="date-dropdown">
-                      <button
-                        id="date-button"
-                        class="with-arrow apple-pill-button"
-                        aria-expanded="false">
-                        <img src="/images/calendar.svg" alt="" class="date-button-icon" aria-hidden="true">
-                        <span class="date-button-label">All dates</span>
-                      </button>
-                      <div class="date-popup">
-                        <div class="date-input-row">
-                          <label>
-                            From
-                            <input type="number" id="date-input-min" min="1400" max="1600" placeholder="<1400">
-                          </label>
-                          <label>
-                            To
-                            <input type="number" id="date-input-max" min="1400" max="1600" placeholder="1600">
-                          </label>
-                        </div>
-                        <div class="date-actions">
-                          <button class="date-reset">Reset</button>
-                          <button class="date-apply">Apply</button>
-                        </div>
-                      </div>
                     </div>
-                      <input type="checkbox" id="certainty-select" hidden>
+                    <div class="selected-names-bar">
+                        <div id="location-active" class="active-names inline-active-location"></div>
+                        <div id="composer-active" class="active-names"></div>
+                        <div id="musician-active" class="active-names"></div>
+                        <div id="non-musician-active" class="active-names"></div>
                     </div>
                 </div>
-                <!-- Column 3: EMPTY — grid handles it -->
-                <div></div>
-                <!-- Column 4: right aligned checkboxes -->
                 <div class="right-column">
+                    <div class="custom-dropdown" id="date-dropdown">
+                        <button id="date-button" class="with-arrow apple-pill-button" aria-expanded="false">
+                            <img src="/images/calendar.svg" alt="" class="map-filter-icon" aria-hidden="true">
+                            <span class="date-button-label">Dates</span>
+                        </button>
+                        <div class="date-popup">
+                            <div class="date-input-row">
+                                <label>
+                                    From
+                                    <input type="number" id="date-input-min" min="1400" max="1600" placeholder="<1400">
+                                </label>
+                                <label>
+                                    To
+                                    <input type="number" id="date-input-max" min="1400" max="1600" placeholder="1600">
+                                </label>
+                            </div>
+                            <div class="date-actions">
+                                <button class="date-reset">Reset</button>
+                                <button class="date-apply">Apply</button>
+                            </div>
+                        </div>
+                    </div>
                     <div class="checkbox-container">
                         <div class="checkbox-item">
                             <input type="checkbox" id="composer-select">
@@ -95,14 +72,16 @@ hide_footer: true
                                 Non-musicians
                             </label>
                         </div>
+                        <label class="certainty-filter">
+                            <input type="checkbox" id="certainty-select" role="switch">
+                            <span class="certainty-switch-track" aria-hidden="true"></span>
+                            <span>Certain &amp; probable events only</span>
+                        </label>
+                    </div>
+                    <div class="custom-dropdown" id="institution-dropdown">
+                        <button id="institution-button" class="apple-pill with-arrow">Institutions</button>
                     </div>
                 </div>
-            </div>
-            <div class="selected-names-bar">
-                <div id="location-active" class="active-names inline-active-location"></div>
-                <div id="composer-active" class="active-names"></div>
-                <div id="musician-active" class="active-names"></div>
-                <div id="non-musician-active" class="active-names"></div>
             </div>
         </div>
         <div class="row">
@@ -111,7 +90,7 @@ hide_footer: true
                     <table id="active-markers-table">
                         <thead>
                             <tr>
-                                <th><span id="search-count" class="search-count"></span>Shown on Map</th>
+                                <th scope="col" id="search-count">Events shown on map</th>
                             </tr>
                         </thead>
                         <tbody id="sidebar-composers-a"></tbody>
@@ -130,22 +109,29 @@ hide_footer: true
             </div>
             <div id="map"></div>
         </div>
-        <div class="histogram-container" id="histogram-panel">
-            <table class="histogram">
-                <tr id="histogramRow"></tr>
-            </table>
+        <section class="histogram-container" id="histogram-panel" aria-labelledby="histogram-title">
+            <h2 class="histogram-title" id="histogram-title">Events by decade</h2>
+            <div class="histogram-chart">
+                <div class="histogram-scale" aria-hidden="true">
+                    <span id="histogram-max-label"></span>
+                    <span id="histogram-mid-label"></span>
+                </div>
+                <table class="histogram" aria-label="Event counts by decade">
+                    <tr id="histogramRow"></tr>
+                </table>
+            </div>
             <div class="slider-container">
-                <div class="slider-wrapper" id="timeline-slider">
+                <div class="slider-wrapper" id="timeline-slider" role="group" aria-label="Date range">
                     <div class="timeline-slider-track"></div>
                     <div class="timeline-slider-selected-track" id="timeline-slider-selected-range"></div>
-                    <button type="button" id="timeline-slider-thumb-min" class="timeline-slider-thumb" aria-label="Start year"></button>
-                    <button type="button" id="timeline-slider-thumb-max" class="timeline-slider-thumb" aria-label="End year"></button>
-                    <div class="slider-active-label-container">
-                        <span id="slider-start-active-label" class="slider-active-label-start">1400</span>
-                        <span id="slider-end-active-label" class="slider-active-label-end">1600</span>
+                    <button type="button" role="slider" id="timeline-slider-thumb-min" class="timeline-slider-thumb" aria-label="Start year"></button>
+                    <button type="button" role="slider" id="timeline-slider-thumb-max" class="timeline-slider-thumb" aria-label="End year"></button>
+                    <div class="slider-active-label-container" aria-hidden="true">
+                        <span id="slider-start-active-label">1400</span>
+                        <span id="slider-end-active-label">1600</span>
                     </div>
                 </div>
-                <span id="slider-date-range"></span>
-        </div>
+            </div>
+        </section>
     </div>
 </div>

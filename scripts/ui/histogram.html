@@ -32,30 +32,9 @@ function getDecade(year) {
     return Math.floor(year / 10) * 10;
 }
 
-function withOpacity(color, alpha = 0.65) {
-    if (!color) return null;
-
-    // rgb() → rgba()
-    if (color.startsWith("rgb(")) {
-        return color.replace("rgb(", "rgba(").replace(")", `, ${alpha})`);
-    }
-
-    // hex → rgba()
-    if (color.startsWith("#")) {
-        const bigint = parseInt(color.slice(1), 16);
-        const r = (bigint >> 16) & 255;
-        const g = (bigint >> 8) & 255;
-        const b = bigint & 255;
-        return `rgba(${r}, ${g}, ${b}, ${alpha})`;
-    }
-
-    return color;
-}
-
 // Function to update the histogram DOM
 function updateHistogram(histogramCounts) {
     const histogramRow = document.getElementById("histogramRow");
-    const histogramPanel = document.getElementById("histogram-panel");
     histogramRow.innerHTML = '';
 
     const decades = Object.keys(histogramCounts)
@@ -63,67 +42,43 @@ function updateHistogram(histogramCounts) {
         .sort((a, b) => a - b);
 
     const maxTotal = Math.max(
+        0,
         ...decades.map(d => histogramCounts[d].total)
     );
+    // Keep the midpoint a whole number without leaving unused space above the bars.
+    const scaleMax = maxTotal > 1 ? Math.ceil(maxTotal / 2) * 2 : maxTotal;
+    document.getElementById("histogram-max-label").textContent = scaleMax ? String(scaleMax) : "";
+    document.getElementById("histogram-mid-label").textContent = scaleMax > 1 ? String(scaleMax / 2) : "";
 
-    const maxHeight = 50;
-
-    let maxLabel = histogramPanel.querySelector(".histogram-max-label");
-    if (!maxLabel) {
-        maxLabel = document.createElement("div");
-        maxLabel.className = "histogram-max-label";
-        histogramPanel.prepend(maxLabel);
-    }
-
-    maxLabel.textContent = maxTotal;
-
-    // --- Histogram bars ---
     decades.forEach(decade => {
         const bin = histogramCounts[decade];
         const cell = document.createElement("td");
-        const label = `${decade}s`;
-
         const bar = document.createElement("div");
-        bar.style.display = "flex";
-        bar.style.flexDirection = "column-reverse";
-        bar.style.alignItems = "stretch";
-        bar.style.height = maxHeight + "px";
-        bar.style.width = "100%";
+        bar.className = "histogram-bar";
 
-        const hasHighlights = Object.keys(bin.highlights).length > 0;
+        const highlights = Object.entries(bin.highlights);
+        const stacks = highlights.length ? highlights.map(([name, count]) => ({
+            label: name, count, color: getHighlightColorForPerson(name)
+        })) : [
+            { label: "Composers", count: bin.BCO, color: "#440154" },
+            { label: "Other musicians", count: bin.BMU, color: "#23ed5c" },
+            { label: "Non-musicians", count: bin.BNO, color: "#fde725" }
+        ];
 
-        if (hasHighlights) {
-            // STACK BY SELECTED PERSON
-            Object.entries(bin.highlights).forEach(([name, count]) => {
-                const color = getHighlightColorForPerson(name);
-                if (!color) return;
-
-                const seg = document.createElement("div");
-                seg.style.backgroundColor = withOpacity(color, 0.65);
-                seg.style.height = (count / maxTotal) * maxHeight + "px";
-                seg.style.borderTop = "1px solid rgba(0,0,0,0.15)";
-                bar.appendChild(seg);
-            });
-        } else {
-            // STACK BY CATEGORY
-            const stacks = [
-                { count: bin.BCO, color: "#440154" }, // composers
-                { count: bin.BMU, color: "#23ed5c" }, // musicians
-                { count: bin.BNO, color: "#fde725" }  // non-musicians
-            ];
-
-            stacks.forEach(({ count, color }) => {
-                if (!count) return;
-
-                const seg = document.createElement("div");
-                seg.style.backgroundColor = withOpacity(color, 0.65);
-                seg.style.height = (count / maxTotal) * maxHeight + "px";
-                seg.style.borderTop = "1px solid rgba(0,0,0,0.15)";
-                bar.appendChild(seg);
-            });
+        for (const { count, color } of stacks) {
+            if (!count || !color || !scaleMax) continue;
+            const segment = document.createElement("div");
+            segment.style.backgroundColor = color;
+            segment.style.height = `${100 * count / scaleMax}%`;
+            bar.appendChild(segment);
         }
 
-        bar.title = `${bin.total} events in ${label}`;
+        bar.title = [
+            `${bin.total} events in ${decade}s`,
+            ...stacks.filter(({ count }) => count).map(({ label, count }) => `${label}: ${count}`)
+        ].join("\n");
+        bar.setAttribute("role", "img");
+        bar.setAttribute("aria-label", bar.title);
         cell.appendChild(bar);
         histogramRow.appendChild(cell);
     });

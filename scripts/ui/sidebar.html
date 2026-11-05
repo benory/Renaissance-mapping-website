@@ -116,39 +116,23 @@ function updateMarkerSidebar(markerData, show, eventid) {
         const headerCell = document.createElement("td");
         headerCell.className = "sidebar-person";
 
-        // Match bucket color to marker color
-        const highlightColor = getSidebarHighlightColor(personprocessed);
-
-        let bgColor;
-        let borderColor;
-
-        if (highlightColor) {
-            bgColor = highlightColor + "22";
-            borderColor = highlightColor;
-        } else {
-            if (type === "BCO") bgColor = "rgba(68, 1, 84, 0.12)";
-            else if (type === "BMU") bgColor = "rgba(35, 237, 92, 0.12)";
-            else bgColor = "rgba(253, 231, 37, 0.18)";
-            borderColor = "transparent";
-        }
-
-        headerCell.style.backgroundColor = bgColor;
-        headerCell.style.borderLeft = `4px solid ${borderColor}`;
+        headerCell.style.setProperty("--sidebar-row-color", getSidebarColor(personID, personprocessed));
 
         const caret = document.createElement("span");
         caret.className = "sidebar-caret";
-        caret.textContent = "▸";
+        caret.setAttribute("aria-hidden", "true");
 
         const nameSpan = document.createElement("span");
-        nameSpan.textContent = ` ${personprocessed}`;
+        nameSpan.className = "sidebar-name";
+        nameSpan.textContent = personprocessed;
 
         const countSpan = document.createElement("span");
         countSpan.className = "sidebar-count";
         countSpan.textContent = " (0 events)";
 
-        headerCell.appendChild(caret);
         headerCell.appendChild(nameSpan);
         headerCell.appendChild(countSpan);
+        headerCell.appendChild(caret);
         headerRow.appendChild(headerCell);
 
         const body = document.createElement("tbody");
@@ -175,7 +159,7 @@ function updateMarkerSidebar(markerData, show, eventid) {
 
             for (let i = 0; i < rows.length; i++) {
                 const row = rows[i];
-                const existingName = row.querySelector(".sidebar-person span")?.textContent?.trim();
+                const existingName = row.querySelector(".sidebar-name")?.textContent;
                 if (!existingName) continue;
 
                 const existingGroup = sidebarGroups.get(existingName);
@@ -213,8 +197,19 @@ function updateMarkerSidebar(markerData, show, eventid) {
     updateMarkerSidebarRow(markerData, groupBody, eventid);
 }
 
+function formatSidebarDate(dateRange) {
+    const months = /\b(?:January|February|March|April|June|July|August|September|October|November|December)\b/g;
+    return dateRange.trim().replace(/\s+/g, ' ')
+        .replace(months, month => month.slice(0, 3))
+        // Keep the shared month and year at the end of a same-month range.
+        .replace(/^(\d{1,2}) ([A-Z][a-z]{2}) (\d{4}) to (\d{1,2}) \2 \3(\?*)$/, '$1–$4 $2 $3$5')
+        // Keep the shared year at the end, unless the start has its own uncertainty marks.
+        .replace(/^(.+?) (\d{4}) to (?=.+ \2\?*$)/, '$1–')
+        .replace(/ to /g, '–');
+}
+
 function updateMarkerSidebarRow(
-    { text, personID, personprocessed, locationprocessed, daterange, description, recordType },
+    { personID, personprocessed, locationprocessed, daterange, description, recordType, fixedMarkerStyle },
     tableBody,
     eventid
 ) {
@@ -224,32 +219,47 @@ function updateMarkerSidebarRow(
     const row = document.createElement('tr');
     row.id = `marker-${sanitizedEventId}`;
 
-    const highlightColor = getSidebarHighlightColor(personprocessed);
-
-    let backgroundColor;
-    if (recordType === "Benefice") {
-        backgroundColor = "rgba(225, 87, 89, 0.1)";
-    } else if (highlightColor) {
-        backgroundColor = highlightColor + "22";
-    } else {
-        const type = personID.substring(0, 3);
-        if (type === "BCO") backgroundColor = "rgba(68, 1, 84, 0.1)";
-        else if (type === "BMU") backgroundColor = "rgba(35, 237, 92, 0.1)";
-        else backgroundColor = "rgba(253, 231, 37, 0.1)";
-    }
-
-    row.style.backgroundColor = backgroundColor;
-    row.style.padding = '8px';
-    row.style.borderBottom = '1px solid #ddd';
+    row.className = 'sidebar-event-row';
+    row.style.setProperty('--sidebar-row-color', fixedMarkerStyle?.fillColor ?? getSidebarColor(personID, personprocessed));
 
     const cell = document.createElement('td');
-    const truncatedDescription = description
-        ? description.slice(0, 100) + (description.length > 100 ? '...' : '')
-        : '';
+    const grouped = tableBody.classList.contains('sidebar-events');
+    const onlySelectedPerson = selectedNames.size === 1 && selectedNames.has(personprocessed);
+    const title = [recordType === 'Benefice' ? 'Benefice' : '', grouped || onlySelectedPerson ? '' : personprocessed]
+        .filter(Boolean).join(' · ');
 
-    cell.innerHTML = `
-        ${recordType === "Benefice" ? "<b>Benefice</b> — " : ""}<b>${personprocessed}</b>, ${locationprocessed || ''}, ${daterange || ''}${truncatedDescription ? ': ' + truncatedDescription : ''}
-    `.trim();
+    if (title) {
+        const name = document.createElement('strong');
+        name.className = 'sidebar-event-title';
+        name.textContent = title;
+        cell.appendChild(name);
+    }
+
+    if (locationprocessed || daterange) {
+        const details = document.createElement('div');
+        details.className = 'sidebar-event-details';
+        if (locationprocessed) {
+            const place = document.createElement('strong');
+            place.textContent = locationprocessed;
+            details.appendChild(place);
+        }
+        if (daterange) {
+            const date = document.createElement('span');
+            date.className = 'sidebar-event-date';
+            const compactDate = formatSidebarDate(daterange);
+            date.textContent = (locationprocessed ? ' · ' : '') + compactDate;
+            if (compactDate !== daterange) date.title = daterange;
+            details.appendChild(date);
+        }
+        cell.appendChild(details);
+    }
+
+    if (description) {
+        const summary = document.createElement('div');
+        summary.className = 'sidebar-event-description';
+        summary.textContent = description.slice(0, 100) + (description.length > 100 ? '...' : '');
+        cell.appendChild(summary);
+    }
 
     row.appendChild(cell);
 
@@ -288,17 +298,6 @@ function updateSidebarWithClusterMarkers(clusterMarkers) {
             updateMarkerSidebar(markerData, true, markerData.eventid);
         }
     });
-}
-
-function getSidebarHighlightColor(personName) {
-    const activeNames = new Set([
-        ...getActiveNamesFromContainer('composer-active'),
-        ...getActiveNamesFromContainer('musician-active'),
-        ...getActiveNamesFromContainer('non-musician-active')
-    ]);
-
-    if (!activeNames.has(personName)) return null;
-    return getHighlightColorForPerson(personName);
 }
 
 // Function to handle sharing the point

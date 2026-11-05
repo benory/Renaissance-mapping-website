@@ -104,10 +104,16 @@ function zoomToSelectedLocation() {
     if (!bounds.isValid()) return;
 
     map.fitBounds(bounds, {
-        paddingTopLeft: [320, 50],
+        paddingTopLeft: [Math.max(320, getSidebarMapPadding()), 50],
         paddingBottomRight: [50, 50],
         maxZoom: 12
     });
+}
+
+function getSidebarMapPadding() {
+    const mapRect = map.getContainer().getBoundingClientRect();
+    const sidebarRect = document.getElementById("sidebar").getBoundingClientRect();
+    return Math.min(Math.max(20, sidebarRect.right - mapRect.left + 12), mapRect.width / 3);
 }
 
 function zoomToSelectedPersons() {
@@ -123,12 +129,11 @@ function zoomToSelectedPersons() {
     if (!bounds.isValid()) return;
 
     const mapRect = map.getContainer().getBoundingClientRect();
-    const sidebarRect = document.getElementById("sidebar").getBoundingClientRect();
     const controlsRect = document.querySelector(".search-row").getBoundingClientRect();
 
     mapViewLimits.fitSelection(bounds, {
         paddingTopLeft: [
-            Math.min(Math.max(20, sidebarRect.right - mapRect.left + 12), mapRect.width / 3),
+            getSidebarMapPadding(),
             Math.min(Math.max(20, controlsRect.bottom - mapRect.top + 12), mapRect.height / 3)
         ],
         paddingBottomRight: [20, 20],

@@ -43,6 +43,8 @@ function doMapSetup(opts) {
     }
 
     const mapBounds = L.latLngBounds(opts.bounds);
+    const referenceMapWidth = 1280;
+    let selectionFitted = false;
     map = L.map(opts.name, {
         preferCanvas: true,
         zoomControl: false,
@@ -91,6 +93,7 @@ function doMapSetup(opts) {
     }
 
     function updateMinZoom() {
+        selectionFitted = false;
         setMinZoom(Math.max(opts.zoomMin, getBoundsZoom(mapBounds, true)));
         map.setMaxBounds(mapBounds);
         if (typeof map.getZoom() === "number") {
@@ -98,9 +101,21 @@ function doMapSetup(opts) {
         }
     }
 
+    function getDefaultZoom() {
+        const width = map.getSize().x;
+        const widthScale = Math.max(1, width / referenceMapWidth);
+        // Ease in the framing change between 1280 px and 1920 px.
+        const wideScreenWeight = Math.min(1, (widthScale - 1) * 2);
+        const snap = map.options.zoomSnap;
+        const desktopBoost = width >= 1024 ? snap : 0;
+        const zoom = opts.zoom + desktopBoost + Math.round(Math.log2(widthScale) / snap + wideScreenWeight) * snap;
+        return Math.min(opts.zoomMax, Math.max(map.getMinZoom(), zoom));
+    }
+
     mapViewLimits = {
         reset: updateMinZoom,
         fitSelection(bounds, fitOptions) {
+            selectionFitted = true;
             // Measure the full selection without the browsing zoom floor.
             const padding = L.point(fitOptions.paddingTopLeft)
                 .add(fitOptions.paddingBottomRight);
@@ -119,15 +134,19 @@ function doMapSetup(opts) {
     };
 
     updateMinZoom();
-    map.setView(opts.view, opts.zoom);
-    map.on("resize", function () {
-        if (selectedNames.size > 0 && !selectedLocation) {
-            zoomToSelectedPersons();
-        } else {
-            updateMinZoom();
+    let defaultZoom = getDefaultZoom();
+    map.setView(opts.view, defaultZoom);
+    map.on("resize", function ({ oldSize, newSize }) {
+        if (selectionFitted) return;
+
+        const atDefaultZoom = map.getZoom() === defaultZoom && !selectedLocation && !institutionFilter;
+        updateMinZoom();
+        defaultZoom = getDefaultZoom();
+        if (atDefaultZoom && oldSize.x !== newSize.x && map.getZoom() !== defaultZoom) {
+            map.setZoom(defaultZoom, { animate: false });
         }
-        map.panInsideBounds(map.options.maxBounds, { animate: false });
     });
+    keepEventPopupsInView(map);
 
     L.control.zoom({
       position: 'bottomright'   // or 'bottomright'
@@ -135,8 +154,12 @@ function doMapSetup(opts) {
 
     let mapImage = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
     let attribution = "&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>";
+    const retinaZoomOffset = L.Browser.retina ? 1 : 0;
     L.tileLayer(mapImage, {
-        maxZoom: opts.zoomMax,
+        detectRetina: true,
+        // Leaflet requests one tile level higher in Retina mode.
+        maxZoom: opts.zoomMax + retinaZoomOffset,
+        maxNativeZoom: opts.zoomMax - retinaZoomOffset,
         attribution: attribution
     }).addTo(map);
 
@@ -226,13 +249,12 @@ function doMapSetup(opts) {
     let institutiontype = "";
     let institutionname = "";
     let docentry = "";
-    let bibliography = "";
     let archiveprocessed = "";
     let nameshort = "";
 
     // Initialize MarkerClusterGroup
     markerCluster = L.markerClusterGroup({
-        maxClusterRadius: 50,  
+        maxClusterRadius: 20, // Keep groups close to the on-screen size of the markers.
         spiderfyOnMaxZoom: false, 
         showCoverageOnHover: false,
         zoomToBoundsOnClick: false, // Prevents zooming in when clicking a cluster
@@ -505,6 +527,7 @@ function doMapSetup(opts) {
             }
             
             // Get bibliography, if applicable
+            const bibliography = [];
             if (events[i][BIBID]) {
                 let bibliographyid = events[i][BIBID].trim();
                 let bibliographypages = events[i][BIBPAGES] ? events[i][BIBPAGES].trim() : "";
@@ -512,9 +535,6 @@ function doMapSetup(opts) {
                 // Split bibliography entries if multiple entries are separated by a semicolon
                 let bibliographyIDs = bibliographyid.includes(";") ? bibliographyid.split(/\s*;\s*/) : [bibliographyid];
                 let bibliographyPages = bibliographypages.includes(";") ? bibliographypages.split(/\s*;\s*/) : [bibliographypages];
-
-                // Ensure the bibliography string starts fresh for each event
-                bibliography = "";
 
                 for (let j = 0; j < bibliographyIDs.length; j++) {
                     let bibID = bibliographyIDs[j];
@@ -543,7 +563,7 @@ function doMapSetup(opts) {
                     let entry = "";
 
                     if (author) entry += `${author}, `;
-                    if (articlename) entry += `"${articlename},"`;
+                    if (articlename) entry += `"${articlename}${volumename ? "," : ""}"`;
                     if (articlename && volumename) entry += ` <i>${volumename}</i>`;
                     else if (volumename) entry += `<i>${volumename}</i>`;
 
@@ -554,11 +574,13 @@ function doMapSetup(opts) {
                     else if (year) entry += ` (${year})`;
 
                     if (pages) entry += `: ${pages}`;
-                    if (bibPage) entry += `, at ${bibPage}`;
+                    if (bibPage) entry += `, ${pages ? "at " : ""}${bibPage}`;
 
-                    // Append to bibliography string with proper formatting
-                    if (bibliography) bibliography += "; and ";
-                    bibliography += entry + "."; // Ensure each entry ends with a period
+                    entry = entry.trim().replace(/[,;]$/, "");
+                    if (entry) {
+                        const end = /[.!?](?:"|<\/i>)*$/.test(entry) ? "" : ".";
+                        bibliography.push(`<li>${entry}${end}</li>`);
+                    }
                 }
             }
 
@@ -593,7 +615,12 @@ function doMapSetup(opts) {
                         <div><b>Place:</b> ${locationprocessed}</div>
                         ${description ? `<div><b>Description:</b> ${description}</div>` : ""}
                         ${archiveprocessed ? `<div><b>Archival Document:</b>${archiveprocessed.replace(/^<br><b>Archival Document:<\/b>\s*/, " ")}</div>` : ""}
-                        ${bibliography ? `<div><b>Bibliography:</b> ${bibliography}</div>` : ""}
+                        ${bibliography.length ? `
+                            <section class="event-popup-bibliography" aria-label="Bibliography">
+                                <b>Bibliography</b>
+                                <ul role="list">${bibliography.join("")}</ul>
+                            </section>
+                        ` : ""}
                     `;
 
                     const popupFooter = `
@@ -662,18 +689,14 @@ function doMapSetup(opts) {
                         // Create the marker
                         marker = L.circleMarker(latlng, geojsonMarkerOptions);
 
-                        // Bind popup (turn off autoPan so Leaflet doesn't do its own second movement)
                         marker.bindPopup(feature.properties.popupContent, {
-                          autoPan: true,
-                          autoPanPaddingTopLeft: [24, 140],
-                          autoPanPaddingBottomRight: [24, 32],
-                          maxWidth: 420,
+                          autoPan: false,
+                          maxWidth: 520,
                           minWidth: 280,
                           className: "event-popup-shell"
                         });
 
                         marker.on("click", function () {
-                          // Open popup and let Leaflet keep it onscreen
                           marker.openPopup();
                         });
 
@@ -745,7 +768,6 @@ function doMapSetup(opts) {
             locationcoords = "";
             description = "";
             docentry = "";
-            bibliography = "";
             archiveprocessed = "";
             earliestyear = "";
             earliestmonth = "";
@@ -782,6 +804,58 @@ function doMapSetup(opts) {
     map.addLayer(markerCluster);
 }
 
+function keepEventPopupsInView(eventMap) {
+    const mapElement = eventMap.getContainer();
+    const controls = document.querySelector('.top-overlay');
+    const search = controls.querySelector('.search-wrapper');
+    const filters = controls.querySelector('.right-column');
+    const sidebar = document.getElementById('sidebar');
+    const inset = 10;
+    let popupElement;
+
+    function positionPopup() {
+        if (!popupElement) return;
+
+        const mapBounds = mapElement.getBoundingClientRect();
+        const bottom = mapBounds.bottom - inset;
+        popupElement.style.removeProperty('--event-popup-x');
+        popupElement.style.removeProperty('--event-popup-y');
+
+        const panel = popupElement.querySelector('.leaflet-popup-content-wrapper');
+        const original = panel.getBoundingClientRect();
+        const sidebarRight = sidebar.getBoundingClientRect().right + inset;
+        const filtersLeft = filters.getBoundingClientRect().left - inset;
+        const right = filtersLeft - sidebarRight >= original.width ? filtersLeft : mapBounds.right - inset;
+        const left = right - sidebarRight >= original.width ? sidebarRight : mapBounds.left + inset;
+        const x = Math.max(left - original.left, Math.min(0, right - original.right));
+
+        // Controls beside the popup leave room for it to grow upwards.
+        const obstacles = [search, filters, ...controls.querySelectorAll('.selected-person-item')];
+        const coveredControls = obstacles.map(control => control.getBoundingClientRect()).filter(rect =>
+            rect.right + inset > original.left + x && rect.left - inset < original.right + x
+        );
+        const top = Math.max(mapBounds.top, ...coveredControls.map(rect => rect.bottom)) + inset;
+        popupElement.style.setProperty('--event-popup-max-height', `${Math.max(1, bottom - top - 2)}px`);
+
+        const fitted = panel.getBoundingClientRect();
+        const y = fitted.top < top || fitted.bottom > bottom ? bottom - fitted.bottom : 0;
+        popupElement.style.setProperty('--event-popup-x', `${x}px`);
+        popupElement.style.setProperty('--event-popup-y', `${y}px`);
+        popupElement.classList.toggle('event-popup-shifted', x !== 0 || y !== 0);
+    }
+
+    eventMap.on('popupopen', ({ popup }) => {
+        const element = popup.getElement();
+        if (!element.classList.contains('event-popup-shell')) return;
+        popupElement = element;
+        positionPopup();
+    });
+    eventMap.on('popupclose', ({ popup }) => {
+        if (popup.getElement() === popupElement) popupElement = null;
+    });
+    eventMap.on('moveend resize', positionPopup);
+}
+
 function loadMarkerFromURL() {
     const urlParams = new URLSearchParams(window.location.search);
     let eventid = urlParams.get('eventid');
@@ -800,7 +874,7 @@ function loadMarkerFromURL() {
             const latlng = marker.getLatLng(); // Use getLatLng() for circleMarker
 
             // Center the map on the marker and open its popup
-            map.setView(latlng, 6); // Adjust zoom level as needed
+            map.setView(latlng, 6, { animate: false });
             marker.openPopup();
         } else {
             console.warn(`No marker found for eventid: ${eventid}`);

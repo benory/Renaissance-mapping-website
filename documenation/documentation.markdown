@@ -13,21 +13,17 @@ nav: true
 
 <div class="doc-container">
 
-<p><strong>Mapping the Musical Renaissance</strong> draws on <span id="document-count"></span> primary documents and <span id="bibliography-count"></span> secondary sources to present information about the movements of <span id="composer-count"></span> composers, <span id="musician-count"></span> performing musicians, and <span id="nonmusician-count"></span> other prominent figures, including visual artists and political leaders&mdash;a total of <span id="event-count"></span> events. The following list of composers gives a sense of coverage to date:</p>
+<p><strong>Mapping the Musical Renaissance</strong> draws on <span id="document-count"></span> primary documents and <span id="bibliography-count"></span> secondary sources to present information about the movements of <span id="composer-count"></span> composers, <span id="musician-count"></span> performing musicians, and <span id="nonmusician-count"></span> other prominent figures, including visual artists and political leaders&mdash;a total of <span id="event-count"></span> events. The following lists give a sense of coverage to date:</p>
 
 <div class="targets-grid">
-    <div class="targets-column">
-        <h3>Complete</h3>
-        <div id="complete-targets-wrapper">
-            <div id="complete-targets" class="targets-list"></div>
-        </div>
-    </div>
-    <div class="targets-column">
-        <h3>Nearly Complete</h3>
-        <div id="nearly-targets-wrapper">
-            <ul id="nearly-targets" class="targets-list"></ul>
-        </div>
-    </div>
+    <section class="targets-group" aria-labelledby="complete-targets-heading">
+        <h3 id="complete-targets-heading">Composers with complete event coverage <span id="complete-targets-count" class="targets-count"></span></h3>
+        <ul id="complete-targets" class="targets-list" role="list"></ul>
+    </section>
+    <section class="targets-group" aria-labelledby="nearly-targets-heading">
+        <h3 id="nearly-targets-heading">Nearly complete <span id="nearly-targets-count" class="targets-count"></span></h3>
+        <ul id="nearly-targets" class="targets-list" role="list"></ul>
+    </section>
 </div>
 
 <hr class="doc-divider">

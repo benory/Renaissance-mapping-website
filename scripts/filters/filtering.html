@@ -115,8 +115,9 @@ function filterAndSearchMarkers(skipSidebarUpdate = false) {
     }
 
     const eventCount = searchCount - beneficeCount;
-    document.querySelector("#search-count").innerHTML = `${eventCount} ${eventCount === 1 ? "Event" : "Events"}` +
-        (beneficeCount ? `, ${beneficeCount} ${beneficeCount === 1 ? "Benefice" : "Benefices"}` : "") + " ";
+    document.querySelector("#search-count").textContent = `${eventCount} ${eventCount === 1 ? "Event" : "Events"}` +
+        (beneficeCount ? `, ${beneficeCount} ${beneficeCount === 1 ? "Benefice" : "Benefices"}` : "") +
+        " shown on map";
     
     updateHistogram(histogramCounts);
     map.addLayer(markerCluster);
