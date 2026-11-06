@@ -9,82 +9,94 @@ hide_footer: true
 
 <div class="container">
     <div class="map-stage">
-        <div class="top-overlay">
-            <div class="top-grid">
-                <div class="left-column">
-                    <div class="search-row">
-                        <div class="search-wrapper">
-                            <input type="text" id="input"
-                                   onkeyup="filterAndSearchMarkers(); showAutocompleteSuggestions()"
-                                   placeholder="Enter person, place, year, or event">
-                            <div id="autocomplete-results" class="autocomplete-results"></div>
-                        </div>
-                    </div>
-                    <div class="selected-names-bar">
-                        <div id="location-active" class="active-names inline-active-location"></div>
-                        <div id="composer-active" class="active-names"></div>
-                        <div id="musician-active" class="active-names"></div>
-                        <div id="non-musician-active" class="active-names"></div>
-                    </div>
-                </div>
-                <div class="right-column">
-                    <div class="custom-dropdown" id="date-dropdown">
-                        <button id="date-button" class="with-arrow apple-pill-button" aria-expanded="false">
-                            <img src="/images/calendar.svg" alt="" class="map-filter-icon" aria-hidden="true">
-                            <span class="date-button-label">Dates</span>
-                        </button>
-                        <div class="date-popup">
-                            <div class="date-input-row">
-                                <label>
-                                    From
-                                    <input type="number" id="date-input-min" min="1400" max="1600" placeholder="<1400">
-                                </label>
-                                <label>
-                                    To
-                                    <input type="number" id="date-input-max" min="1400" max="1600" placeholder="1600">
-                                </label>
-                            </div>
-                            <div class="date-actions">
-                                <button class="date-reset">Reset</button>
-                                <button class="date-apply">Apply</button>
+        <div class="row">
+            <div class="top-overlay">
+                <div class="top-grid">
+                    <div class="left-column">
+                        <div class="search-row">
+                            <div class="search-wrapper">
+                                <input type="text" id="input"
+                                       onkeyup="filterAndSearchMarkers(); showAutocompleteSuggestions()"
+                                       placeholder="Enter person, place, year, or event">
+                                <div id="autocomplete-results" class="autocomplete-results"></div>
                             </div>
                         </div>
+                        <div class="selected-names-bar">
+                            <div id="location-active" class="active-names inline-active-location"></div>
+                            <div id="composer-active" class="active-names"></div>
+                            <div id="musician-active" class="active-names"></div>
+                            <div id="non-musician-active" class="active-names"></div>
+                        </div>
                     </div>
-                    <div class="checkbox-container">
-                        <div class="checkbox-item">
-                            <input type="checkbox" id="composer-select">
-                            <label for="composer-select">
-                                <span class="color-sample" style="background-color: #440154;"></span>
-                                Composers
+                    <button type="button" class="map-filters-toggle" data-disclosure aria-label="Map filters"
+                            aria-expanded="false" aria-controls="map-filters">
+                        <span class="hamburger-icon" aria-hidden="true"></span>
+                    </button>
+                    <div class="right-column" id="map-filters">
+                        <div class="custom-dropdown" id="date-dropdown">
+                            <button id="date-button" class="with-arrow apple-pill-button" aria-expanded="false">
+                                <img src="/images/calendar.svg" alt="" class="map-filter-icon" aria-hidden="true">
+                                <span class="date-button-label">Dates</span>
+                            </button>
+                            <div class="date-popup">
+                                <div class="date-input-row">
+                                    <label>
+                                        From
+                                        <input type="number" id="date-input-min" min="1400" max="1600" placeholder="<1400">
+                                    </label>
+                                    <label>
+                                        To
+                                        <input type="number" id="date-input-max" min="1400" max="1600" placeholder="1600">
+                                    </label>
+                                </div>
+                                <div class="date-actions">
+                                    <button class="date-reset">Reset</button>
+                                    <button class="date-apply">Apply</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkbox-container">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="composer-select">
+                                <label for="composer-select">
+                                    <span class="color-sample" style="background-color: #440154;"></span>
+                                    Composers
+                                </label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="musician-select">
+                                <label for="musician-select">
+                                    <span class="color-sample" style="background-color: #23ed5c;"></span>
+                                    Other musicians
+                                </label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="non-musician-select">
+                                <label for="non-musician-select">
+                                    <span class="color-sample" style="background-color: #fde725;"></span>
+                                    Non-musicians
+                                </label>
+                            </div>
+                            <label class="certainty-filter">
+                                <input type="checkbox" id="certainty-select" role="switch">
+                                <span class="certainty-switch-track" aria-hidden="true"></span>
+                                <span>Certain &amp; probable events only</span>
                             </label>
                         </div>
-                        <div class="checkbox-item">
-                            <input type="checkbox" id="musician-select">
-                            <label for="musician-select">
-                                <span class="color-sample" style="background-color: #23ed5c;"></span>
-                                Other musicians
-                            </label>
+                        <div class="custom-dropdown" id="institution-dropdown">
+                            <button id="institution-button" class="apple-pill with-arrow">Institutions</button>
                         </div>
-                        <div class="checkbox-item">
-                            <input type="checkbox" id="non-musician-select">
-                            <label for="non-musician-select">
-                                <span class="color-sample" style="background-color: #fde725;"></span>
-                                Non-musicians
-                            </label>
-                        </div>
-                        <label class="certainty-filter">
-                            <input type="checkbox" id="certainty-select" role="switch">
-                            <span class="certainty-switch-track" aria-hidden="true"></span>
-                            <span>Certain &amp; probable events only</span>
-                        </label>
-                    </div>
-                    <div class="custom-dropdown" id="institution-dropdown">
-                        <button id="institution-button" class="apple-pill with-arrow">Institutions</button>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
+            <div class="map-panel-controls">
+                <button type="button" id="toggle-sidebar-btn" class="map-panel-toggle" data-disclosure="persistent"
+                        aria-expanded="false" aria-controls="sidebar">Events</button>
+                <button type="button" id="toggle-histogram-btn" class="map-panel-toggle histogram-toggle"
+                        aria-expanded="true" aria-controls="histogram-panel">
+                    <span class="histogram-toggle-action">Hide</span> histogram<span class="histogram-toggle-timeline"> and timeline</span>
+                </button>
+            </div>
             <div id="sidebar">
                 <div class="sidebar-table-wrapper">
                     <table id="active-markers-table">
@@ -100,12 +112,6 @@ hide_footer: true
                         <tbody id="sidebar-nonmusicians"></tbody>
                     </table>
                 </div>
-                <button
-                    id="toggle-histogram-btn"
-                    class="histogram-toggle"
-                    aria-expanded="true">
-                    Hide histogram and timeline
-                </button>
             </div>
             <div id="map"></div>
         </div>

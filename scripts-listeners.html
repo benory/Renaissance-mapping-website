@@ -227,7 +227,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", () => {
   const toggleBtn = document.getElementById("toggle-histogram-btn");
-  const histogram = document.getElementById("histogram-panel");
+  const toggleAction = toggleBtn.querySelector(".histogram-toggle-action");
   const mapRow = document.getElementById("map").closest(".row");
 
   // Refresh again after the map reaches its final animated height.
@@ -237,25 +237,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  let visible = document.body.classList.contains("histogram-visible");
-
   toggleBtn.addEventListener("click", () => {
-    visible = !visible;
-
-    if (visible) {
-      document.body.classList.add("histogram-visible");
-      histogram.style.display = "block";
-      toggleBtn.textContent = "Hide histogram and timeline";
-      toggleBtn.setAttribute("aria-expanded", "true");
-
-      syncTimelineSliderToCurrentDateRange();
-
-    } else {
-      document.body.classList.remove("histogram-visible");
-      histogram.style.display = "none";
-      toggleBtn.textContent = "Show histogram and timeline";
-      toggleBtn.setAttribute("aria-expanded", "false");
-    }
+    const visible = document.body.classList.toggle("histogram-visible");
+    toggleAction.textContent = visible ? "Hide" : "Show";
+    toggleBtn.setAttribute("aria-expanded", String(visible));
+    if (visible) syncTimelineSliderToCurrentDateRange();
 
     // tell Leaflet immediately to re-measure its container
     map.invalidateSize();

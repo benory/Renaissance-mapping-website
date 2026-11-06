@@ -77,9 +77,63 @@
   text-decoration: none;
 }
 
-@media (max-width: 480px) {
+.site-nav-toggle {
+  display: none;
+}
+
+@media (max-width: 767px), (max-width: 950px) and (pointer: coarse) {
+  .site-header {
+    z-index: 1100;
+    min-height: 0;
+  }
+
   .header-inner {
-    padding-block: 10px;
+    flex-wrap: nowrap;
+    gap: 8px;
+    padding-block: 4px;
+  }
+
+  .site-title {
+    font-size: clamp(14px, 4.5vw, 22px);
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+
+  .site-nav-toggle {
+    display: inline-grid;
+    flex: 0 0 44px;
+    height: 44px;
+    place-items: center;
+    border: 0;
+    border-radius: 8px;
+    background: transparent;
+    color: #1f344c;
+    cursor: pointer;
+  }
+
+  .site-nav-toggle:hover,
+  .site-nav-toggle[aria-expanded="true"] {
+    background: rgb(44 99 152 / 11%);
+  }
+
+  .site-nav {
+    display: none;
+    position: absolute;
+    inset: 100% 12px auto auto;
+    padding: 4px;
+    border: 1px solid #d9e4ef;
+    border-radius: 8px;
+    background: var(--site-panel-background);
+    box-shadow: 0 4px 14px rgb(0 0 0 / 12%);
+  }
+
+  .site-nav[data-open] {
+    display: grid;
+  }
+
+  .site-nav .nav-link {
+    margin: 0;
+    padding: 12px 16px;
   }
 }
 
@@ -90,7 +144,11 @@
     <a class="site-title" href="{{ "/" | relative_url }}">
       Mapping the Musical Renaissance
     </a>
-    <nav class="site-nav" aria-label="Main navigation">
+    <button type="button" class="site-nav-toggle" data-disclosure aria-label="Navigation"
+            aria-expanded="false" aria-controls="site-navigation">
+      <span class="hamburger-icon" aria-hidden="true"></span>
+    </button>
+    <nav id="site-navigation" class="site-nav" aria-label="Main navigation">
       {%- if page.url != "/" and page.url != "/index.html" -%}
         <a class="nav-link nav-home" href="{{ "/" | relative_url }}">Home</a>
       {%- endif -%}

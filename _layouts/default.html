@@ -4,7 +4,7 @@
     {% include head.html %}
   </head>
 
-  <body{% if page.layout == 'map' %} class="histogram-visible"{% endif %}>
+  <body{% if page.layout == 'map' %} class="map-layout histogram-visible"{% endif %}>
 
     {% include header.html %}
 
@@ -22,5 +22,32 @@
       {% include footer.html %}
     {% endunless %}
 
+    <script>
+      document.querySelectorAll("[data-disclosure]").forEach(button => {
+        const panel = document.getElementById(button.getAttribute("aria-controls"));
+        function setExpanded(expanded) {
+          button.setAttribute("aria-expanded", String(expanded));
+          panel.toggleAttribute("data-open", expanded);
+        }
+
+        button.addEventListener("click", () => {
+          setExpanded(button.getAttribute("aria-expanded") === "false");
+        });
+
+        if (button.dataset.disclosure !== "persistent") {
+          document.addEventListener("click", event => {
+            if (!button.contains(event.target) && !panel.contains(event.target)) setExpanded(false);
+          });
+        }
+
+        document.addEventListener("keydown", event => {
+          if (event.key === "Escape" && panel.hasAttribute("data-open") &&
+              (button === event.target || panel.contains(event.target))) {
+            setExpanded(false);
+            button.focus();
+          }
+        });
+      });
+    </script>
   </body>
 </html>
