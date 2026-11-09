@@ -33,28 +33,6 @@ hide_footer: true
                         <span class="hamburger-icon" aria-hidden="true"></span>
                     </button>
                     <div class="right-column" id="map-filters">
-                        <div class="custom-dropdown" id="date-dropdown">
-                            <button id="date-button" class="with-arrow apple-pill-button" aria-expanded="false">
-                                <img src="/images/calendar.svg" alt="" class="map-filter-icon" aria-hidden="true">
-                                <span class="date-button-label">Dates</span>
-                            </button>
-                            <div class="date-popup">
-                                <div class="date-input-row">
-                                    <label>
-                                        From
-                                        <input type="number" id="date-input-min" min="1400" max="1600" placeholder="<1400">
-                                    </label>
-                                    <label>
-                                        To
-                                        <input type="number" id="date-input-max" min="1400" max="1600" placeholder="1600">
-                                    </label>
-                                </div>
-                                <div class="date-actions">
-                                    <button class="date-reset">Reset</button>
-                                    <button class="date-apply">Apply</button>
-                                </div>
-                            </div>
-                        </div>
                         <div class="checkbox-container">
                             <div class="checkbox-item">
                                 <input type="checkbox" id="composer-select">
@@ -82,6 +60,28 @@ hide_footer: true
                                 <span class="certainty-switch-track" aria-hidden="true"></span>
                                 <span>Certain &amp; probable events only</span>
                             </label>
+                        </div>
+                        <div class="custom-dropdown" id="date-dropdown">
+                            <button id="date-button" class="with-arrow apple-pill-button" aria-expanded="false">
+                                <img src="/images/calendar.svg" alt="" class="map-filter-icon" aria-hidden="true">
+                                <span class="date-button-label">Dates</span>
+                            </button>
+                            <div class="date-popup">
+                                <div class="date-input-row">
+                                    <label>
+                                        From
+                                        <input type="number" id="date-input-min" min="1400" max="1600" placeholder="<1400">
+                                    </label>
+                                    <label>
+                                        To
+                                        <input type="number" id="date-input-max" min="1400" max="1600" placeholder="1600">
+                                    </label>
+                                </div>
+                                <div class="date-actions">
+                                    <button class="date-reset">Reset</button>
+                                    <button class="date-apply">Apply</button>
+                                </div>
+                            </div>
                         </div>
                         <div class="custom-dropdown" id="institution-dropdown">
                             <button id="institution-button" class="apple-pill with-arrow">Institutions</button>
