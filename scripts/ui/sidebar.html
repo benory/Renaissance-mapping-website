@@ -266,6 +266,12 @@ function updateMarkerSidebarRow(
     row.addEventListener('click', () => {
         const marker = markers.find(m => m.eventid === eventid)?.marker;
         if (!marker) return;
+
+        const sidebarToggle = document.getElementById('toggle-sidebar-btn');
+        if (sidebarToggle.getAttribute('aria-expanded') === 'true' &&
+            getComputedStyle(sidebarToggle).display !== 'none') {
+            sidebarToggle.click();
+        }
         marker.openPopup();
     });
 
