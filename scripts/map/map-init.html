@@ -8,6 +8,53 @@
 let totalMarkers = 0;
 let mapViewLimits;
 
+function addMapAttributionToggle(map) {
+    const attribution = map.attributionControl;
+    attribution.setPrefix(false);
+    const credit = attribution.getContainer();
+    credit.id = `${map.getContainer().id}-attribution`;
+
+    const control = L.control({ position: attribution.getPosition() });
+    let collapseTimer;
+
+    control.onAdd = function () {
+        const container = L.DomUtil.create("div", "map-attribution");
+        const toggle = L.DomUtil.create("button", "map-attribution-toggle", container);
+        toggle.type = "button";
+        toggle.setAttribute("aria-label", "Map credits");
+        toggle.setAttribute("aria-controls", credit.id);
+
+        const icon = L.DomUtil.create("span", "map-attribution-icon", toggle);
+        icon.setAttribute("aria-hidden", "true");
+        icon.textContent = "i";
+        container.appendChild(credit);
+        L.DomEvent.disableClickPropagation(container);
+
+        function setExpanded(expanded) {
+            toggle.setAttribute("aria-expanded", String(expanded));
+            credit.hidden = !expanded;
+        }
+
+        setExpanded(true);
+        toggle.addEventListener("click", function () {
+            clearTimeout(collapseTimer);
+            setExpanded(credit.hidden);
+        });
+        collapseTimer = setTimeout(function () {
+            // Keep the link available if someone is navigating it by keyboard.
+            if (!credit.contains(document.activeElement)) {
+                setExpanded(false);
+            }
+        }, 5000);
+
+        return container;
+    };
+    control.onRemove = function () {
+        clearTimeout(collapseTimer);
+    };
+    control.addTo(map);
+}
+
 function doMapSetup(opts) {
     if (typeof opts === "undefined") {
         console.error("doMapSetup input parameter is undefined");
@@ -148,12 +195,13 @@ function doMapSetup(opts) {
     });
     keepEventPopupsInView(map);
 
+    addMapAttributionToggle(map);
     L.control.zoom({
       position: 'bottomright'   // or 'bottomright'
     }).addTo(map);
 
     let mapImage = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
-    let attribution = "&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>";
+    let attribution = "&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>";
     const retinaZoomOffset = L.Browser.retina ? 1 : 0;
     L.tileLayer(mapImage, {
         detectRetina: true,

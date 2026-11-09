@@ -190,6 +190,46 @@ main.page-content {
   margin-bottom: 12px;
 }
 
+.leaflet-bottom.leaflet-right .map-attribution {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 6px;
+  margin: 0 12px 6px 0;
+}
+
+.map-attribution-toggle {
+  display: grid;
+  place-items: center;
+  width: calc(36px + var(--map-control-growth));
+  height: 30px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #4b5563;
+  cursor: pointer;
+}
+
+.map-attribution-icon {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  width: 22px;
+  height: 22px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  background: #fff;
+  font: bold 14px/1 Georgia, serif;
+}
+
+.leaflet-container .map-attribution .leaflet-control-attribution {
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 12px;
+}
+
 .leaflet-container .leaflet-control-zoom.leaflet-bar > a {
   --zoom-control-gray: #4b5563;
   --zoom-control-size: calc(36px + var(--map-control-growth));
