@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 
 	document.addEventListener("keydown", (event) => {
-	    if (event.key === "Escape") {
+	    if (event.key === "Escape" && !document.getElementById("correction-dialog")?.open) {
 	        // Close autocomplete
 	        const resultsContainer = document.getElementById("autocomplete-results");
 	        if (resultsContainer) {

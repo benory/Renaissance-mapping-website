@@ -20,7 +20,7 @@ h1.post-title {
 h1,
 h2,
 h3,
-.team-member h3 {
+.former-team-members li {
   font-family:
     "Iowan Old Style",
     "Palatino Linotype",
@@ -38,12 +38,16 @@ h2 {
   color: #1c1c1e;
 }
 
-.about-container h3 {
+.about-container h3,
+.former-team-members li {
   font-size: 22px;
   font-weight: 400;
-  margin: 44px 0 16px;
   letter-spacing: 0.01em;
   color: #1c1c1e;
+}
+
+.about-container h3 {
+  margin: 44px 0 16px;
 }
 
 .about-container p {
@@ -84,11 +88,15 @@ h2 {
     padding-bottom: 20px;
 }
 
-.team-member img {
+.team-member img,
+.former-team-members img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
     object-fit: cover;
+}
+
+.team-member img {
     margin-right: 20px;
 }
 
@@ -102,6 +110,28 @@ h2 {
 
 .team-member p {
     margin: 0;
+}
+
+.former-team-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.former-team-members li {
+    width: min(150px, calc((100% - 20px) / 2));
+    text-align: center;
+}
+
+.former-team-members img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    margin: 0 auto 8px;
 }
 
 </style>

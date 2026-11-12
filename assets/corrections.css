@@ -1,0 +1,163 @@
+.correction-dialog {
+    box-sizing: border-box;
+    width: min(520px, calc(100% - 24px));
+    max-height: calc(100% - 24px);
+    overflow: auto;
+    padding: 18px;
+    border: 1px solid #d9e4ef;
+    border-radius: 16px;
+    background: #fff;
+    color: #1f2a38;
+    box-shadow: 0 18px 45px rgb(31 41 55 / 22%);
+}
+
+.correction-dialog::backdrop {
+    background: rgb(31 41 55 / 40%);
+}
+
+.correction-header,
+.correction-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.correction-header {
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.correction-header h2 {
+    margin: 0;
+    color: #424242;
+    font-family: var(--site-title-font);
+    font-size: clamp(21px, 5vw, 26px);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.15;
+}
+
+.correction-header h2:focus {
+    outline: none;
+}
+
+.correction-close {
+    flex: 0 0 32px;
+    height: 32px;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: inherit;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.correction-close:hover {
+    background: #e7f1fc;
+}
+
+.correction-event {
+    margin-bottom: 14px;
+    padding: 8px 10px;
+    border: 1px solid #dce5ef;
+    border-radius: 10px;
+    background: var(--site-panel-background);
+    font-size: 14px;
+}
+
+.correction-event p {
+    margin: 0 0 6px;
+}
+
+#correction-event-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-height: min(11.7rem, 25.2vh);
+    overflow-y: auto;
+    overflow-wrap: anywhere;
+    line-height: 1.45;
+}
+
+#correction-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#correction-form textarea,
+#correction-form input[type="email"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 9px;
+    border: 1px solid #8197ac;
+    border-radius: 8px;
+    background: #fff;
+    color: inherit;
+    font: inherit;
+}
+
+#correction-form textarea {
+    display: block;
+    height: calc(4.5lh + 16px);
+    min-height: 86px;
+    margin-bottom: 12px;
+    resize: vertical;
+}
+
+.correction-note,
+#correction-status {
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+#correction-status:empty {
+    margin: 0;
+}
+
+#correction-status[data-error] {
+    color: #9c2820;
+}
+
+.correction-actions {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 12px;
+}
+
+.correction-actions button {
+    padding: 7px 12px;
+    border: 1px solid #d5dde5;
+    border-radius: 9999px;
+    background: #fff;
+    color: #1f344c;
+    font: inherit;
+    cursor: pointer;
+}
+
+.correction-actions button:not(:disabled):hover {
+    background: #e7f1fc;
+}
+
+.correction-actions button[type="submit"] {
+    border-color: #356279;
+    background: #356279;
+    color: #fff;
+}
+
+.correction-actions button[type="submit"]:not(:disabled):hover {
+    border-color: #294e61;
+    background: #294e61;
+}
+
+.correction-dialog :is(button, input, textarea, #correction-event-details):focus-visible {
+    outline: 2px solid #076bbd;
+    outline-offset: 2px;
+}
+
+.correction-dialog button:disabled {
+    opacity: 0.55;
+    cursor: default;
+}

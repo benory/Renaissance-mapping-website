@@ -141,3 +141,5 @@ hide_footer: true
         </section>
     </div>
 </div>
+
+{% include correction-dialog.html %}

@@ -1,0 +1,10 @@
+name = "renaissance-mapping-corrections"
+main = "correction-worker.mjs"
+compatibility_date = "2026-11-12"
+
+[vars]
+ALLOWED_ORIGINS = "https://renaissancemapping.org,https://www.renaissancemapping.org"
+GOOGLE_FORM_POST_URL = "https://docs.google.com/forms/d/e/REPLACE_FORM_ID/formResponse"
+GOOGLE_FORM_ENTRY_EVENT_ID = "entry.REPLACE_EVENT_ID"
+GOOGLE_FORM_ENTRY_DESCRIPTION = "entry.REPLACE_DESCRIPTION"
+GOOGLE_FORM_ENTRY_EMAIL = "entry.REPLACE_EMAIL"

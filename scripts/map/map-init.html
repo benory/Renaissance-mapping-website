@@ -193,7 +193,7 @@ function doMapSetup(opts) {
             map.setZoom(defaultZoom, { animate: false });
         }
     });
-    keepEventPopupsInView(map);
+    keepEventPopupsInView(map, () => !selectionFitted && !selectedLocation && !institutionFilter);
 
     addMapAttributionToggle(map);
     L.control.zoom({
@@ -658,24 +658,37 @@ function doMapSetup(opts) {
                     coordinatesprocessed = [coordsArray[1], coordsArray[0]];
 
                     const popupBody = `
-                        <div><b>Person:</b> ${personprocessed}</div>
-                        <div><b>Date:</b> ${daterange}</div>
-                        <div><b>Place:</b> ${locationprocessed}</div>
-                        ${description ? `<div><b>Description:</b> ${description}</div>` : ""}
-                        ${archiveprocessed ? `<div><b>Archival Document:</b>${archiveprocessed.replace(/^<br><b>Archival Document:<\/b>\s*/, " ")}</div>` : ""}
+                        <h3 class="event-popup-person">${personprocessed}</h3>
+                        <dl class="event-popup-facts">
+                            <dt>Date</dt><dd>${daterange}</dd>
+                            <dt>Place</dt><dd>${locationprocessed}</dd>
+                        </dl>
+                        ${description ? `<div>${description}</div>` : ""}
+                        ${archiveprocessed ? `
+                            <section>
+                                <h4 class="event-popup-source-title">Archival Document</h4>
+                                <div>${archiveprocessed.replace(/^<br><b>Archival Document:<\/b>\s*/, "")}</div>
+                            </section>
+                        ` : ""}
                         ${bibliography.length ? `
                             <section class="event-popup-bibliography" aria-label="Bibliography">
-                                <b>Bibliography</b>
+                                <h4 class="event-popup-source-title">Bibliography</h4>
                                 <ul role="list">${bibliography.join("")}</ul>
                             </section>
                         ` : ""}
                     `;
 
                     const popupFooter = `
-                        <a href="#" onclick="sharePoint('${shareID}')" class="event-popup-share">
-                            <img src="/images/share_24.svg" alt="Share" class="event-popup-share-icon">
+                        <a href="#" onclick="sharePoint('${shareID}')" class="event-popup-action">
+                            <img src="/images/share_24.svg" alt="" class="event-popup-action-icon">
                             <span>Copy link</span>
                         </a>
+                        <button type="button" class="event-popup-action"
+                                data-correction-event="${shareID}" aria-haspopup="dialog"
+                                aria-controls="correction-dialog">
+                            <img src="/images/report-error.svg" alt="" class="event-popup-action-icon">
+                            <span>Submit a correction</span>
+                        </button>
                     `;
 
                     const popupContent = `
@@ -852,16 +865,15 @@ function doMapSetup(opts) {
     map.addLayer(markerCluster);
 }
 
-function keepEventPopupsInView(eventMap) {
+function keepEventPopupsInView(eventMap, canCenter) {
     const mapElement = eventMap.getContainer();
     const controls = document.querySelector('.top-overlay');
-    const search = controls.querySelector('.search-wrapper');
     const filters = controls.querySelector('.right-column');
     const sidebar = document.getElementById('sidebar');
     const inset = 10;
     let popupElement;
 
-    function positionPopup() {
+    function positionPopup(popupToCenter) {
         if (!popupElement) return;
 
         const mapBounds = mapElement.getBoundingClientRect();
@@ -871,22 +883,41 @@ function keepEventPopupsInView(eventMap) {
 
         const panel = popupElement.querySelector('.leaflet-popup-content-wrapper');
         const original = panel.getBoundingClientRect();
-        const sidebarRight = sidebar.getBoundingClientRect().right + inset;
+        const mapLeft = mapBounds.left + inset;
+        const sidebarRight = Math.max(mapLeft, sidebar.getBoundingClientRect().right + inset);
         const filtersLeft = filters.getBoundingClientRect().left - inset;
         const right = filtersLeft - sidebarRight >= original.width ? filtersLeft : mapBounds.right - inset;
-        const left = right - sidebarRight >= original.width ? sidebarRight : mapBounds.left + inset;
-        const x = Math.max(left - original.left, Math.min(0, right - original.right));
+        const left = right - sidebarRight >= original.width ? sidebarRight : mapLeft;
+        const x = popupToCenter
+            ? (left + right - original.left - original.right) / 2
+            : Math.max(left - original.left, Math.min(0, right - original.right));
 
         // Controls beside the popup leave room for it to grow upwards.
-        const obstacles = [search, filters, ...controls.querySelectorAll('.selected-person-item')];
-        const coveredControls = obstacles.map(control => control.getBoundingClientRect()).filter(rect =>
-            rect.right + inset > original.left + x && rect.left - inset < original.right + x
+        const obstacles = controls.querySelectorAll(
+            '.search-wrapper, .right-column, .map-filters-toggle, .selected-person-item, .selected-location-item'
         );
+        const coveredControls = Array.from(obstacles, control => control.getBoundingClientRect()).filter(rect =>
+            rect.width > 0 && rect.height > 0 &&
+            rect.right + inset > original.left + x && rect.left - inset < original.right + x);
         const top = Math.max(mapBounds.top, ...coveredControls.map(rect => rect.bottom)) + inset;
         popupElement.style.setProperty('--event-popup-max-height', `${Math.max(1, bottom - top - 2)}px`);
 
         const fitted = panel.getBoundingClientRect();
-        const y = fitted.top < top || fitted.bottom > bottom ? bottom - fitted.bottom : 0;
+        if (popupToCenter) {
+            const anchorY = mapBounds.top + eventMap.latLngToContainerPoint(popupToCenter.getLatLng()).y;
+            const mapMidpoint = (mapBounds.top + mapBounds.bottom) / 2;
+            // Move the point down only if the popup needs more space above it.
+            const targetY = Math.min(bottom, Math.max(mapMidpoint, top + anchorY - fitted.top));
+            const offset = L.point(-x, anchorY - targetY).round();
+            if (offset.x || offset.y) {
+                const center = eventMap.getSize().divideBy(2).add(offset);
+                // Leaflet limits the new center to maxBounds. moveend fits any remaining overflow.
+                eventMap.panTo(eventMap.containerPointToLatLng(center), { animate: false });
+                return;
+            }
+        }
+
+        const y = Math.max(top - fitted.top, Math.min(0, bottom - fitted.bottom));
         popupElement.style.setProperty('--event-popup-x', `${x}px`);
         popupElement.style.setProperty('--event-popup-y', `${y}px`);
         popupElement.classList.toggle('event-popup-shifted', x !== 0 || y !== 0);
@@ -896,12 +927,12 @@ function keepEventPopupsInView(eventMap) {
         const element = popup.getElement();
         if (!element.classList.contains('event-popup-shell')) return;
         popupElement = element;
-        positionPopup();
+        positionPopup(canCenter() ? popup : null);
     });
     eventMap.on('popupclose', ({ popup }) => {
         if (popup.getElement() === popupElement) popupElement = null;
     });
-    eventMap.on('moveend resize', positionPopup);
+    eventMap.on('moveend resize', () => positionPopup());
 }
 
 function loadMarkerFromURL() {

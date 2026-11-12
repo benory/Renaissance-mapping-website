@@ -26,6 +26,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  benory/Renaissance-mapping-website
 google_analytics: G-E9SL07ZJ25
 
+correction_report:
+  worker_url: "https://renaissance-mapping-corrections.benjaminory.workers.dev/"
+  turnstile_sitekey: "0x4AAAAAAF92_3gguRz-HJ1n"
+
 # Build settings
 theme: minima
 plugins:
@@ -40,7 +44,8 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - cloudflare
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

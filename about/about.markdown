@@ -97,23 +97,19 @@ nav: true
             <p>Audrey Nguyen is a second-year undergraduate at UC Berkeley, studying English with secondary areas in Music and History. Her interests center on the interactions between musicians and their contemporaries.</p>
         </div>
     </div>
-    <div class="team-member">
-        <img src="/images/headshots/Cho.jpg" alt="Holden Cho">
-        <div class="bio">
-            <h3>Holden Cho</h3>
-            <p><strong>Team Member</strong></p>
-            <p>Holden Cho is a first-year undergraduate at UC Berkeley, studying Applied Math and Data Science. He is interested in the origins of tonality.</p>
-        </div>
-    </div>
-    <div class="team-member">
-        <img src="/images/headshots/Feng.jpg" alt="Alyssa Feng">
-        <div class="bio">
-            <h3>Alyssa Feng</h3>
-            <p><strong>Team Member</strong></p>
-            <p>Alyssa Feng is a second-year undergraduate at UC Berkeley, studying History with a concentration in nineteenth-century US history and modern Chinese foreign policy. She is a violinist with the UC Berkeley Symphony Orchestra.</p>
-        </div>
-    </div>
 </div>
+
+<h3>Former Team Members</h3>
+<ul class="former-team-members" role="list">
+    <li>
+        <img src="/images/headshots/Cho.jpg" alt="" width="150" height="150">
+        Holden Cho
+    </li>
+    <li>
+        <img src="/images/headshots/Feng.jpg" alt="" width="150" height="150">
+        Alyssa Feng
+    </li>
+</ul>
 
 <h3>Advisory Board</h3>
     <div class="collaborator">David Burn, KU Leuven</div>
