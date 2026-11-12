@@ -1,28 +1,18 @@
 (() => {
     const dialog = document.getElementById("correction-dialog");
-    const content = dialog.querySelector(".correction-content");
     const eventLabel = document.getElementById("correction-event-id");
     const eventDetails = document.getElementById("correction-event-details");
     const form = document.getElementById("correction-form");
     const widget = document.getElementById("correction-turnstile");
     const status = document.getElementById("correction-status");
-    const formActions = document.getElementById("correction-form-actions");
-    const successActions = document.getElementById("correction-success-actions");
-    const thanks = document.getElementById("correction-thanks");
-    const submit = formActions.querySelector('button[type="submit"]');
+    const success = document.getElementById("correction-success");
+    const submit = form.querySelector('button[type="submit"]');
     const closeButtons = dialog.querySelectorAll("[data-close-correction]");
     const configured = form.getAttribute("action") && widget.dataset.sitekey;
     const verificationError = "Verification is unavailable. Close and reopen the form to try again.";
     let turnstileScript;
     let widgetId;
     let pending = false;
-
-    function showSuccess(show) {
-        form.hidden = show;
-        formActions.hidden = show;
-        thanks.hidden = !show;
-        successActions.hidden = !show;
-    }
 
     function showStatus(message, error = false) {
         status.textContent = message;
@@ -86,11 +76,11 @@
 
         form.reset();
         form.elements.event_id.value = eventId;
-        showSuccess(false);
+        form.hidden = false;
+        success.hidden = true;
         submit.disabled = true;
         showStatus(configured ? "" : "Online submission is unavailable.", !configured);
         dialog.showModal();
-        content.scrollTop = 0;
         if (configured) startVerification();
     });
 
@@ -134,8 +124,9 @@
             });
             if (!response.ok || !(await response.json()).ok) throw new Error("Submission failed");
 
-            showSuccess(true);
-            thanks.focus();
+            form.hidden = true;
+            success.hidden = false;
+            document.getElementById("correction-thanks").focus();
         } catch {
             showStatus("Your correction couldn’t be submitted. Please try again.", true);
             if (widgetId !== undefined) window.turnstile.reset(widgetId);
