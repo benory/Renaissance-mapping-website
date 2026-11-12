@@ -66,7 +66,7 @@ export default {
                     fvv: "1",
                     pageHistory: "0"
                 }),
-                redirect: "error",
+                redirect: "manual",
                 signal: AbortSignal.timeout(7000)
             });
             return response.ok ? json({ ok: true }, 200) : fail(502);

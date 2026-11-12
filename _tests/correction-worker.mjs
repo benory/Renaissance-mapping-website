@@ -33,6 +33,7 @@ function correctionRequest(fields = {}, headers = { Origin: origin }) {
 
 function mockUpstream(context, verification = validVerification, googleStatus = 200) {
     return context.mock.method(globalThis, "fetch", async (url, options) => {
+        if (options.redirect === "error") throw new TypeError("Cloudflare Workers do not support this redirect mode");
         if (url === env.GOOGLE_FORM_POST_URL) return new Response(null, { status: googleStatus });
         return Response.json(verification);
     });
@@ -47,6 +48,7 @@ test("the Worker forwards a verified correction with the exact event ID", async 
     assert.equal(siteverify[0], "https://challenges.cloudflare.com/turnstile/v0/siteverify");
     assert.equal(siteverify[1].body.get("response"), "test-token");
     assert.equal(google[0], env.GOOGLE_FORM_POST_URL);
+    assert.equal(google[1].redirect, "manual");
     assert.equal(google[1].body.get("entry.123"), "04688");
     assert.equal(google[1].body.get("entry.456"), "Check the date in the source.");
     assert.equal(google[1].body.get("entry.789"), "test@example.org");
@@ -76,4 +78,12 @@ test("a Google Forms error yields a submission failure", async context => {
     const response = await worker.fetch(correctionRequest(), env);
     assert.equal(response.status, 502);
     assert.deepEqual(await response.json(), { ok: false });
+});
+
+test("a Google Forms redirect yields a submission failure", async context => {
+    const upstream = mockUpstream(context, validVerification, 302);
+    const response = await worker.fetch(correctionRequest(), env);
+    assert.equal(response.status, 502);
+    assert.deepEqual(await response.json(), { ok: false });
+    assert.equal(upstream.mock.calls[1].arguments[1].redirect, "manual");
 });

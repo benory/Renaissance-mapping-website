@@ -21,4 +21,6 @@ The map fills in the Event ID from the selected marker. The Cloudflare Worker ve
 
 3. Set `correction_report.worker_url` and `correction_report.turnstile_sitekey` in the Jekyll `_config.yml`. The public site key belongs in that file. Keep the secret key in Cloudflare. Restart a running Jekyll development server after changing `_config.yml`.
 
-4. After publishing the site configuration, open a map event, submit a test correction, and confirm that Google Forms recorded the matching Event ID, description, and reply address. If the project account should receive notifications, open the form as that account and enable email notifications for new responses.
+4. Open the Google Form's **Script editor** and add the contents of `form-notification.gs`. Add a single installable trigger for `sendFormResponseEmail` with event source **From form** and event type **On form submit**. Authorize the script to send mail. Each response is emailed to Jesse, Emily, and the project inbox with a link to the event and the submitter's reply address.
+
+5. After publishing the site configuration, open a map event, submit a test correction, and confirm that Google Forms recorded the matching Event ID, description, and reply address and sent the notification.

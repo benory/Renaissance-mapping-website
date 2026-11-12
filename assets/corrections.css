@@ -126,31 +126,6 @@
     margin-top: 12px;
 }
 
-.correction-actions button {
-    padding: 7px 12px;
-    border: 1px solid #d5dde5;
-    border-radius: 9999px;
-    background: #fff;
-    color: #1f344c;
-    font: inherit;
-    cursor: pointer;
-}
-
-.correction-actions button:not(:disabled):hover {
-    background: #e7f1fc;
-}
-
-.correction-actions button[type="submit"] {
-    border-color: #356279;
-    background: #356279;
-    color: #fff;
-}
-
-.correction-actions button[type="submit"]:not(:disabled):hover {
-    border-color: #294e61;
-    background: #294e61;
-}
-
 .correction-dialog :is(button, input, textarea, #correction-event-details):focus-visible {
     outline: 2px solid #076bbd;
     outline-offset: 2px;

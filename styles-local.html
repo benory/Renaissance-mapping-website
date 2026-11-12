@@ -147,15 +147,18 @@ main.page-content {
     transition: height 0.25s ease;     
 }
 
+.map-page {
+  --map-control-radius: 10px;
+  --map-control-hover-background: #e7f1fc;
+  --map-control-growth: clamp(0px, calc((100vw - 1280px) / 320), 3px);
+  --map-control-text-growth: calc(var(--map-control-growth) / 3);
+}
+
 .map-stage {
   --map-edge-inset: 12px;
   --map-sidebar-width: clamp(273px, calc(273px + (100vw - 1280px) * 0.042), 320px);
   --sidebar-border: rgb(31 41 55 / 10%);
   --sidebar-shadow: 0 1px 2px rgb(0 0 0 / 5%), 0 4px 14px rgb(0 0 0 / 9%);
-  --map-control-radius: 10px;
-  --map-control-hover-background: #e7f1fc;
-  --map-control-growth: clamp(0px, calc((100vw - 1280px) / 320), 3px);
-  --map-control-text-growth: calc(var(--map-control-growth) / 3);
   position: relative;
   margin-top: 0;
   padding-top: 0;
@@ -1079,6 +1082,7 @@ table.histogram td {
 
   padding: 6px 14px;
 
+  font-family: inherit;
   font-size: calc(13px + var(--map-control-text-growth));
   font-weight: 500;
   color: #1f1f1f;
@@ -1102,14 +1106,14 @@ table.histogram td {
     box-shadow 0.2s ease;
 }
 
-.apple-pill:hover {
+.apple-pill:enabled:hover {
   background-color: var(--map-control-hover-background);
   box-shadow:
     0 6px 14px rgba(0, 0, 0, 0.16),
     0 2px 4px rgba(0, 0, 0, 0.12);
 }
 
-.apple-pill:active {
+.apple-pill:enabled:active {
   transform: translateY(0);
   box-shadow:
     0 3px 8px rgba(0, 0, 0, 0.14) inset,
