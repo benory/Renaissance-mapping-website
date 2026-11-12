@@ -4,36 +4,38 @@
         <h2 id="correction-title" tabindex="-1" autofocus>Submit a correction</h2>
         <button type="button" class="correction-close" data-close-correction aria-label="Close correction form">&times;</button>
     </header>
-    <div class="correction-event">
-        <p>Event <strong id="correction-event-id"></strong></p>
-        <div id="correction-event-details" role="region" aria-label="Event details" tabindex="0"></div>
-    </div>
-
-    <form id="correction-form" method="post" action="{{ correction.worker_url | escape }}">
-        <input type="hidden" name="event_id">
-
-        <label for="correction-description">What should we correct?</label>
-        <textarea id="correction-description" name="description" rows="5" maxlength="5000" required></textarea>
-
-        <label for="correction-email">Email address</label>
-        <input id="correction-email" name="email" type="email" autocomplete="email" maxlength="254"
-               aria-describedby="correction-email-note" required>
-        <p id="correction-email-note" class="correction-note">We’ll use this to follow up if needed.</p>
-
-        <div id="correction-turnstile" data-sitekey="{{ correction.turnstile_sitekey | escape }}"></div>
-        <p id="correction-status" role="status"></p>
-
-        <div class="correction-actions">
-            <button type="button" data-close-correction>Cancel</button>
-            <button type="submit" disabled>Submit correction</button>
+    <div class="correction-content">
+        <div class="correction-event">
+            <p>Event <strong id="correction-event-id"></strong></p>
+            <div id="correction-event-details" role="region" aria-label="Event details" tabindex="0"></div>
         </div>
-    </form>
-    <div id="correction-success" hidden>
-        <p id="correction-thanks" tabindex="-1">Thank you. Your correction has been submitted.</p>
-        <div class="correction-actions">
+
+        <form id="correction-form" method="post" action="{{ correction.worker_url | escape }}">
+            <input type="hidden" name="event_id">
+
+            <label for="correction-description">What should we correct?</label>
+            <textarea id="correction-description" name="description" rows="5" maxlength="5000" required></textarea>
+
+            <label for="correction-email">Email address</label>
+            <input id="correction-email" name="email" type="email" autocomplete="email" maxlength="254"
+                   aria-describedby="correction-email-note" required>
+            <p id="correction-email-note" class="correction-note">We’ll use this to follow up if needed.</p>
+
+            <div id="correction-turnstile" data-sitekey="{{ correction.turnstile_sitekey | escape }}"></div>
+            <p id="correction-status" role="status"></p>
+        </form>
+
+        <p id="correction-thanks" tabindex="-1" hidden>Thank you. Your correction has been submitted.</p>
+    </div>
+    <footer class="correction-footer">
+        <div id="correction-form-actions" class="correction-actions">
+            <button type="button" data-close-correction>Cancel</button>
+            <button type="submit" form="correction-form" disabled>Submit correction</button>
+        </div>
+        <div id="correction-success-actions" class="correction-actions" hidden>
             <button type="button" data-close-correction>Done</button>
         </div>
-    </div>
+    </footer>
 </dialog>
 <link rel="stylesheet" href="{{ '/assets/corrections.css' | relative_url }}">
 <script src="{{ '/assets/corrections.js' | relative_url }}" defer></script>
