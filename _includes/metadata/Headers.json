@@ -1008,7 +1008,7 @@
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
 		"Column": "H",
-		"Column Name": "Labels"
+		"Column Name": "Category"
 	},
 	{
 		"Spreadsheet ID": "BNO",
@@ -1037,13 +1037,6 @@
 		"Spreadsheet ID": "BNO",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
-		"Column": "L",
-		"Column Name": "Input data"
-	},
-	{
-		"Spreadsheet ID": "BNO",
-		"GID": "1177910087",
-		"Spreadsheet Name": "Bio_Nonmusicians",
 		"Column": "M",
 		"Column Name": "Date entered"
 	},
@@ -1060,6 +1053,12 @@
 		"Spreadsheet Name": "Bio_Nonmusicians",
 		"Column": "O",
 		"Column Name": "Date updated"
+	},
+	{
+		"Spreadsheet ID": "BNO",
+		"GID": "1177910087",
+		"Spreadsheet Name": "Bio_Nonmusicians",
+		"Column": "P"
 	},
 	{
 		"Spreadsheet ID": "ARD",

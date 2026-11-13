@@ -141,7 +141,7 @@ nav: true
 
 <h4 id="cloudflare">Cloudflare</h4>
 
-<p>Use <strong>Submit a correction</strong> in an event pop-up to send the project team a correction with the Event ID filled in. The online form uses <a href="https://www.cloudflare.com/application-services/products/turnstile/">Cloudflare Turnstile</a> for spam protection. A <a href="https://developers.cloudflare.com/workers/">Cloudflare Worker</a> verifies the Turnstile token before forwarding the event ID, correction, and email address to a Google Form. The project team uses the email address to follow up if needed.</p>
+<p>The <strong>Submit a correction</strong> pop-up uses a <a href="https://www.cloudflare.com/application-services/products/turnstile/" target="_blank">Cloudflare Turnstile</a> for spam protection. A <a href="https://developers.cloudflare.com/workers/" target="_blank">Cloudflare Worker</a> verifies the Turnstile token before forwarding the event ID, correction, and email address to a Google Form. The project team will then follow up as needed.</p>
 
 <hr class="doc-divider">
 

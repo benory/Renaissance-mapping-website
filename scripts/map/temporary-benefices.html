@@ -12,15 +12,14 @@ const temporaryBenefices = (() => {
         ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
     function peopleFor(record) {
-        const sheets = { BCO: ['Bio_Composers', 'Composer Name'],
-            BMU: ['Bio_Musicians', 'Musician Name'], BNO: ['Bio_Nonmusicians', 'Person Name'] };
+        const sheets = { BCO: 'Bio_Composers', BMU: 'Bio_Musicians', BNO: 'Bio_Nonmusicians' };
         return [...new Set([...split(record['Biography ID (BCO, BMU, BNO)']),
             ...split(record['Related Person(s)'])])].flatMap(personID => {
-            const config = sheets[personID.slice(0, 3)];
-            const info = config && findInfo(personID, config[0]);
-            if (!info || !info[config[1]]) return [];
-            const personprocessed = info[config[1]];
-            return [{ personID, personprocessed, alias: split(info.Alias),
+            const type = personID.slice(0, 3);
+            const info = sheets[type] && findInfo(personID, sheets[type]);
+            const personprocessed = info?.[MAP.cindex(type, `${type}NAME`)];
+            if (!personprocessed) return [];
+            return [{ personID, personprocessed, alias: split(info[MAP.cindex(type, 'ALIAS')]),
                 targetType: targetTypeByNormalizedName.get(normalizeName(personprocessed)) || null }];
         });
     }
@@ -52,16 +51,16 @@ const temporaryBenefices = (() => {
             if (!people.length) return;
             split(record['Location ID (LOC)']).forEach(locationid => {
                 const location = findInfo(locationid, 'Locations');
-                const coords = location && String(location.Coordinates || '').split(',').map(Number);
+                const coords = location && String(location[MAP.cindex('LOC', 'COORD')] || '').split(',').map(Number);
                 if (!coords || coords.length !== 2 || !coords.every(Number.isFinite)) return;
-                const locationname = location['Name of Location'];
-                const locationparent = location['City or Larger Place'] || '';
+                const locationname = location[MAP.cindex('LOC', 'LOCNAME')];
+                const locationparent = location[MAP.cindex('LOC', 'CITY')] || '';
                 const locationprocessed = [locationname, locationparent].filter(Boolean).join(', ');
                 const pages = split(record['BIB Pages']);
                 const bibliography = split(record['Bibliography ID (BIB)']).map((id, index) => {
                     const info = findInfo(id, 'Bibliography');
-                    const citation = info ? [info.Author, info['Name of Article'],
-                        info['Name of Volume/Journal'], info['Publication Year']].filter(Boolean).join(', ') : id;
+                    const citation = info ? ['AUTHOR', 'ARTNAME', 'VOLNAME', 'YEAR']
+                        .map(field => info[MAP.cindex('BIB', field)]).filter(Boolean).join(', ') : id;
                     return `<div>${escape(citation)}${pages[index] ? `, at ${escape(pages[index])}` : ''}</div>`;
                 }).join('');
                 const popup = `<div class="event-popup"><div class="event-popup-body">

@@ -29,6 +29,9 @@ This repository is a Jekyll/GitHub Pages site. Content, metadata, and UI logic a
   - `_includes/metadata/Makefile`: metadata download + ZIP packaging pipeline
     (direct Sheets CSV reader in the sibling `digital-projects-tools/sheet-downloads` folder;
     all twelve datasets validate before replacement; dated and latest ZIP contents are verified)
+  - For the relational tables, `make` reads column names from the sheet itself.
+    Update the **Column Name** in the **Headers** tab when you rename a field used by the map.
+    Keep its **JavaScript Name** so the map can still find it.
 
 - **Map/UI scripts**
   - `scripts-local.html`: root script aggregator for the map page

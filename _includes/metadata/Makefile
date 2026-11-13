@@ -2,7 +2,7 @@
 SHEET_TOOLS ?= ../../../digital-projects-tools/sheet-downloads
 SHEET_PYTHON ?= python3
 DATE := $(shell date +%Y-%m-%d)
-DOWNLOAD = $(SHEET_PYTHON) "$(SHEET_TOOLS)/download.py" --config "$(SHEET_TOOLS)/config/mapping.json" --website "$(abspath ../..)"
+DOWNLOAD = $(SHEET_PYTHON) -B download-mapping.py --sheet-tools "$(SHEET_TOOLS)" --website "$(abspath ../..)"
 TABLES = Headers Events Occasions Institutions Doc_Entries Locations Bio_Composers Bio_Musicians Bio_Nonmusicians Archival_Docs Bibliography Targets
 
 .PHONY: all download zip latest $(TABLES)
