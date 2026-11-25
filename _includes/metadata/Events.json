@@ -84375,7 +84375,7 @@
 		"Date Range": "13 December 1501",
 		"Certainty of Event (within Range)": "1",
 		"Description": "Bartolomeo de’ Cavalieri reports from Blois about meeting there a singer called Josquin [uno cantadore ... chiamato Joschin], who has been sent by the Duke of Ferrara to Flanders to find some singers, has found singers, but has left the money in a bank at Bruges, and that the Archduke of Austria (Philip the Handsome) wishes him to join the trip to Spain. He is evidently present at the festal meeting of Louis XII and the Archduke at Blois, 7-15 December (according to Antoine de Lalaing and Jean Molinet) or 6-20 December (according to Jean d’Auton). T he French royal chapel sings mass on 8 December (Wed). Here they are met f irst by a delegation headed by Cardinal d’Amboise and Cardinal Ascanio Sforza (officially in prison in Bourges). Then on 12, 13, or 14 Dec (depending on which report you read, though 12 Dec is a Sunday), the Burgundian and French chapels sing mass and the Te Deum together before the official declaration of peace.",
-		"Related Person IDs": "BNO:Bartolomeo_de_Cavalieri; BNO:Ercole_I_dEste; BNO:Philip_I; BNO:Louis_XII; BNO:Jean_Molinet; BNO:Antoine_I_de_Lalaing; BNO:Jean_dAuton; BNO:Ascanio_Sforza; BNO:George_dAmboise"
+		"Related Person IDs": "BNO:Bartolomeo_de_Cavalieri; BNO:Ercole_I_dEste; BNO:Philip_I; BNO:Louis_XII; BMU:Jean_Molinet; BNO:Antoine_I_de_Lalaing; BNO:Jean_dAuton; BNO:Ascanio_Sforza; BNO:George_dAmboise"
 	},
 	{
 		"ID": "EV:04730",
@@ -86965,7 +86965,7 @@
 	{
 		"ID": "EV:04876",
 		"Location ID (LOC)": "LOC:Brussels",
-		"Biography ID (BCO, BMU, BNO)": "BNO:Jean_Molinet",
+		"Biography ID (BCO, BMU, BNO)": "BMU:Jean_Molinet",
 		"Earliest Year": "1515",
 		"Earliest Month": "10",
 		"Earliest Day": "25",

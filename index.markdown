@@ -54,7 +54,14 @@ hide_footer: true
                                     <span class="color-sample" style="background-color: #fde725;"></span>
                                     Non-musicians
                                 </label>
+                                <button type="button" id="non-musician-categories-toggle"
+                                        aria-label="Non-musician categories" aria-expanded="false"
+                                        aria-controls="non-musician-categories">
+                                    <span aria-hidden="true"></span>
+                                </button>
                             </div>
+                            <div id="non-musician-categories" role="group"
+                                 aria-label="Non-musician categories" hidden></div>
                             <label class="certainty-filter">
                                 <input type="checkbox" id="certainty-select" role="switch">
                                 <span class="certainty-switch-track" aria-hidden="true"></span>

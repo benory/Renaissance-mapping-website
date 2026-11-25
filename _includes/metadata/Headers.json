@@ -1012,10 +1012,18 @@
 	},
 	{
 		"Spreadsheet ID": "BNO",
-		"JavaScript Name": "BIBID",
+		"JavaScript Name": "BNOBRCAT",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
 		"Column": "I",
+		"Column Name": "Broad Category"
+	},
+	{
+		"Spreadsheet ID": "BNO",
+		"JavaScript Name": "BIBID",
+		"GID": "1177910087",
+		"Spreadsheet Name": "Bio_Nonmusicians",
+		"Column": "J",
 		"Column Name": "Bibliography ID (BIB)"
 	},
 	{
@@ -1023,42 +1031,42 @@
 		"JavaScript Name": "BIBPAGES",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
-		"Column": "J",
+		"Column": "K",
 		"Column Name": "BIB Pages"
 	},
 	{
 		"Spreadsheet ID": "BNO",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
-		"Column": "K",
+		"Column": "L",
 		"Column Name": "Internal notes"
 	},
 	{
 		"Spreadsheet ID": "BNO",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
-		"Column": "M",
+		"Column": "N",
 		"Column Name": "Date entered"
 	},
 	{
 		"Spreadsheet ID": "BNO",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
-		"Column": "N",
+		"Column": "O",
 		"Column Name": "Update data"
 	},
 	{
 		"Spreadsheet ID": "BNO",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
-		"Column": "O",
+		"Column": "P",
 		"Column Name": "Date updated"
 	},
 	{
 		"Spreadsheet ID": "BNO",
 		"GID": "1177910087",
 		"Spreadsheet Name": "Bio_Nonmusicians",
-		"Column": "P"
+		"Column": "Q"
 	},
 	{
 		"Spreadsheet ID": "ARD",

@@ -205,6 +205,7 @@ function markerMatchesPeople(entry, names) {
 function getMarkerDisplayPerson(entry, names, checkboxStates) {
     return getMarkerPeople(entry).find(person =>
         (!names.size || names.has(person.personprocessed)) &&
+        matchesNonMusicianCategory(person, checkboxStates) &&
         shouldShowMarker(person.personID.slice(0, 3), checkboxStates, entry, entry.institution)
     );
 }

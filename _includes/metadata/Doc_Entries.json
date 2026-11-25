@@ -1303,7 +1303,7 @@
 		"Date Range": "2 September 1502",
 		"Description": "Letter from 'Gian' in Ferrara to Duke Ercole d'Este",
 		"Document Type": "letter",
-		"Sender": "BNO:Gian_in_Ferrara",
+		"Sender": "BMU:Gian_de_Artiganova",
 		"Recipient": "BNO:Ercole_I_dEste",
 		"Document Entry Text": "https://raw.githubusercontent.com/benory/Renaissance-mapping-data/main/doe/Modena_ASM_2_text.txt",
 		"Translation": "https://raw.githubusercontent.com/benory/Renaissance-mapping-data/main/doe/Modena_ASM_2_translation.txt",

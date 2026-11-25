@@ -63,6 +63,8 @@ function getCheckboxStates() {
         showMusicians: document.querySelector("#musician-select").checked,
         showNonMusicians: document.querySelector("#non-musician-select").checked,
         showCertainty: document.querySelector("#certainty-select").checked,
+        nonMusicianCategories: new Set(Array.from(document.querySelectorAll(
+            '#non-musician-categories input:checked'), input => input.value)),
     };
 }
 

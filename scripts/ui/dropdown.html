@@ -158,7 +158,7 @@ function ensureLocationTypesVisible() {
         document.getElementById("musician-select").checked = true;
     }
     if (hasNonMusicians) {
-        document.getElementById("non-musician-select").checked = true;
+        enableAllNonMusicianCategories();
     }
 }
 
@@ -294,7 +294,7 @@ function selectPersonByName(name) {
     } else if (match.personID.startsWith("BMU")) {
         document.getElementById("musician-select").checked = true;
     } else if (match.personID.startsWith("BNO")) {
-        document.getElementById("non-musician-select").checked = true;
+        enableAllNonMusicianCategories();
     }
 
     filterAndSearchMarkers();
@@ -479,7 +479,7 @@ function showAutocompleteSuggestions() {
                 } else if (personID.startsWith("BMU")) {
                     document.getElementById("musician-select").checked = true;
                 } else if (personID.startsWith("BNO")) {
-                    document.getElementById("non-musician-select").checked = true;
+                    enableAllNonMusicianCategories();
                 }
             }
 

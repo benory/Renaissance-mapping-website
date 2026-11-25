@@ -61,6 +61,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector("#non-musician-select").checked = false;
     document.querySelector("#certainty-select").checked = false;
 
+    initNonMusicianCategories();
+
     document.querySelectorAll('.checkbox-container input[type="checkbox"]').forEach(checkbox => {
         checkbox.addEventListener('change', handleCheckboxChange);
     });
